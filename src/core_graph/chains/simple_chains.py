@@ -20,8 +20,10 @@ def grade_emotionality():
         reasoning: str = Field(
             description="Reason on the emotionality of the given context."
         )
-        score: str = Field(
-            description="Score between 0 and 100 on how Emotional the given context is."
+        score: int = Field(
+            description="Score between 0 and 100 on how Emotional the given context is.",
+            ge=0,
+            le=100
         )
 
 
