@@ -1,0 +1,180 @@
+{
+  "user_id": 499935,
+  "user_name": "mywei",
+  "user_gender": "w",
+  "user_created_at": "2002-10-28T20:18:19",
+  "total_comments": 1,
+  "total_replies": 1,
+  "articles": {
+    "-1351096135": {
+      "article_title": "Facebook best\u00e4tigt: Werbung in Whatsapp startet 2020",
+      "article_publish_date": "2019-05-23T08:58:49",
+      "user_comments_count": 1,
+      "user_replies_count": 1,
+      "threads": [
+        {
+          "id": 1041905081,
+          "parent_id": 0,
+          "user_id": 506211,
+          "user_name": "alternativen",
+          "user_gender": "m",
+          "user_created_at": "2013-01-24T13:47:49.480000",
+          "comment_headline": "No Headline",
+          "comment_text": "suche europ\u00e4ische alternative:  threema oder wire ... ?",
+          "comment_created_at": "2019-05-23T10:32:40.693000",
+          "comment_length": 55,
+          "depth": 0,
+          "replies": [
+            {
+              "id": 1041906879,
+              "parent_id": 1041905081,
+              "user_id": 202577,
+              "user_name": "SPie",
+              "user_gender": "m",
+              "user_created_at": "2012-03-13T14:39:11.323000",
+              "comment_headline": "No Headline",
+              "comment_text": "signal",
+              "comment_created_at": "2019-05-23T11:14:42.397000",
+              "comment_length": 6,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041912978,
+                  "parent_id": 1041906879,
+                  "user_id": 506211,
+                  "user_name": "alternativen",
+                  "user_gender": "m",
+                  "user_created_at": "2013-01-24T13:47:49.480000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "signal ist eine us amerikanische stiftung und von einem der facebook gr\u00fcnder mit 50 mio usd gesponsert.  wie na\u00efve kann man sein ...",
+                  "comment_created_at": "2019-05-23T13:33:44.470000",
+                  "comment_length": 132,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041914175,
+                      "parent_id": 1041912978,
+                      "user_id": 188754,
+                      "user_name": "ScottHastings1",
+                      "user_gender": "m",
+                      "user_created_at": "2005-06-29T01:26:27.400000",
+                      "comment_headline": "No Headline",
+                      "comment_text": "Ein bi\u00dfchen eine USA-Paranoia haben's aber schon, oder? Immerhin ist der Quellcode von Signal \u00f6ffentlich auf GitHub und unter GNU-Lizenz verf\u00fcgbar kann jederzeit \u00fcberpr\u00fcft und ggf. geforked werden.",
+                      "comment_created_at": "2019-05-23T13:59:33.437000",
+                      "comment_length": 197,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1041919116,
+                          "parent_id": 1041914175,
+                          "user_id": 506211,
+                          "user_name": "alternativen",
+                          "user_gender": "m",
+                          "user_created_at": "2013-01-24T13:47:49.480000",
+                          "comment_headline": "No Headline",
+                          "comment_text": "ja.  das dortige \"rechts\"system ist vollkommen unberechenbar und erlubt z.b. die festsetzung ohne habeas corpus.  das ist tiefste rechts-steinzeit und allein daf\u00fcr sollten die us-amerikaner international v\u00f6llig isoliert sein.  kodifiziert wurde das \u00fcbrigens vom \"schwarzen messias\" brack obama: https://de.wikipedia.org/wiki/Habeas_Corpus#Kodifizierung_international",
+                          "comment_created_at": "2019-05-23T15:41:13.890000",
+                          "comment_length": 366,
+                          "depth": 4,
+                          "replies": [
+                            {
+                              "id": 1041919239,
+                              "parent_id": 1041919116,
+                              "user_id": 188754,
+                              "user_name": "ScottHastings1",
+                              "user_gender": "m",
+                              "user_created_at": "2005-06-29T01:26:27.400000",
+                              "comment_headline": "No Headline",
+                              "comment_text": "Das ist ja alles sch\u00f6n und gut aber den Zusammenhang mit Signal gibt's halt nicht.",
+                              "comment_created_at": "2019-05-23T15:44:02.383000",
+                              "comment_length": 82,
+                              "depth": 5,
+                              "replies": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1041905788,
+              "parent_id": 1041905081,
+              "user_id": 548465,
+              "user_name": "pewpew",
+              "user_gender": "m",
+              "user_created_at": "2014-02-04T16:49:50.260000",
+              "comment_headline": "No Headline",
+              "comment_text": "signal",
+              "comment_created_at": "2019-05-23T10:49:12.313000",
+              "comment_length": 6,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041908655,
+              "parent_id": 1041905081,
+              "user_id": 176814,
+              "user_name": "puzzled",
+              "user_gender": "m",
+              "user_created_at": "2003-12-16T20:18:09.527000",
+              "comment_headline": "No Headline",
+              "comment_text": "https://about.riot.im/ :)",
+              "comment_created_at": "2019-05-23T11:53:49.040000",
+              "comment_length": 25,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041908029,
+              "parent_id": 1041905081,
+              "user_id": 207324,
+              "user_name": "Stoaschei\u00dfakoal",
+              "user_gender": "m",
+              "user_created_at": "2006-12-24T03:46:45.173000",
+              "comment_headline": "No Headline",
+              "comment_text": "threema ist super, leider noch nicht so bekannt. aber ich hoffe , dass sich genug Leute \u00fcber die 3 Euro H\u00fcrde beim Preis trauen.",
+              "comment_created_at": "2019-05-23T11:40:19.460000",
+              "comment_length": 128,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041943994,
+                  "parent_id": 1041908029,
+                  "user_id": 64238,
+                  "user_name": "gape",
+                  "user_gender": "m",
+                  "user_created_at": "2002-11-24T23:59:44",
+                  "comment_headline": "No Headline",
+                  "comment_text": "Jedem aus meinem n\u00e4heren Kreis mit dem ich dar\u00fcber rede, biete ich an die 3 Euro zu \u00fcbernehmen. Ist zu verschmerzen, selbst wenn alle mein Angebot annehmen w\u00fcrden. Wenn die jeweils mein Angebot nur 1-2mal weiter geben, w\u00fcrde sich die Verbreitung im Bekanntenkreis sofort stark erh\u00f6hen.",
+                  "comment_created_at": "2019-05-24T07:25:08.473000",
+                  "comment_length": 285,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041905840,
+              "parent_id": 1041905081,
+              "user_id": 499935,
+              "user_name": "mywei",
+              "user_gender": "w",
+              "user_created_at": "2002-10-28T20:18:19",
+              "comment_headline": "No Headline",
+              "comment_text": "signal",
+              "comment_created_at": "2019-05-23T10:50:21.167000",
+              "comment_length": 6,
+              "depth": 1,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "token_count": 1902,
+  "removed_comments": 4
+}
