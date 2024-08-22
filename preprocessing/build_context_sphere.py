@@ -5,6 +5,8 @@ from typing import Dict, List, Tuple
 import os
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
+from collections import defaultdict
+from data_preprocessor import DataPreprocessor
 
 '''
 The modified cutoff_after_last_interaction method now better aligns with your requirements. Here's how it works:
@@ -18,50 +20,6 @@ This is a good approach because:
 - It removes potentially irrelevant information that the user hasn't seen or interacted with.
 - It helps in creating a more focused and relevant context sphere for the user.
 '''
-
-class DataPreprocessor:
-    def __init__(self, file_path: str):
-        self.file_path = file_path
-        self.df = None
-
-    def process(self):
-        self.df = pd.read_csv(self.file_path)
-        self._convert_dates()
-        self._handle_missing_values()
-        self._convert_id_columns()
-        self._create_new_features()
-
-    def _convert_dates(self):
-        date_columns = ['PostingCreatedAt', 'ArticlePublishingDate', 'UserCreatedAt']
-        for col in date_columns:
-            self.df[col] = pd.to_datetime(self.df[col])
-
-    def _handle_missing_values(self):
-        self.df['PostingHeadline'] = self.df['PostingHeadline'].fillna('No Headline')
-        self.df['PostingComment'] = self.df['PostingComment'].fillna('No Comment')
-        self.df['UserGender'] = self.df['UserGender'].fillna('Unknown')
-        self.df['UserCommunityName'] = self.df['UserCommunityName'].fillna('Unknown')
-
-    def _convert_id_columns(self):
-        id_columns = ['ID_Posting', 'ID_Posting_Parent', 'ID_CommunityIdentity', 'ID_Article']
-        for col in id_columns:
-            self.df[col] = self.df[col].fillna(0).astype(int)
-
-    def _create_new_features(self):
-        self.df['CommentLength'] = self.df['PostingComment'].str.len()
-        self.df['DaysSinceUserCreation'] = (self.df['PostingCreatedAt'] - self.df['UserCreatedAt']).dt.days
-        self.df['IsReply'] = self.df['ID_Posting_Parent'] != 0
-        self.df['PostingHour'] = self.df['PostingCreatedAt'].dt.hour
-        self.df['PostingDayOfWeek'] = self.df['PostingCreatedAt'].dt.dayofweek
-
-    @classmethod
-    def load_preprocessed_data(cls, input_path: str):
-        with open(input_path, 'rb') as f:
-            df = pickle.load(f)
-        preprocessor = cls(None)
-        preprocessor.df = df
-        print(f"Preprocessed data loaded from {input_path}")
-        return preprocessor
 
 class CommentThreadManager:
     def __init__(self, df: pd.DataFrame):
@@ -109,13 +67,18 @@ class UserContextSphere:
     def __init__(self, df: pd.DataFrame, thread_manager: CommentThreadManager):
         self.df = df
         self.thread_manager = thread_manager
-        self.user_comments = {user_id: group for user_id, group in df.groupby('ID_CommunityIdentity')}
+        self.user_comments = defaultdict(list)
+        self._populate_user_comments()
+
+    def _populate_user_comments(self):
+        for _, row in self.df.iterrows():
+            self.user_comments[row['ID_CommunityIdentity']].append(row)
 
     def get_user_context(self, user_id: int) -> Dict:
         if user_id not in self.user_comments:
             return None
 
-        user_df = self.user_comments[user_id]
+        user_df = pd.DataFrame(self.user_comments[user_id])
         total_comments = len(user_df)
         total_replies = len(user_df[user_df['ID_Posting_Parent'].notnull()])
 
@@ -160,12 +123,19 @@ class UserContextSphere:
 
         def process_thread(thread: Dict) -> Tuple[Dict, int]:
             nonlocal removed_comments, last_interaction_time
+            if thread is None or 'comment_created_at' not in thread:
+                return None, 1  # Remove this thread as it's invalid
+
+            thread_time = pd.to_datetime(thread['comment_created_at'])
+            if last_interaction_time and thread_time > last_interaction_time:
+                return None, 1  # Remove this thread and all its replies
+
             if thread['user_id'] == user_id:
-                if last_interaction_time is None or thread['comment_created_at'] > last_interaction_time:
-                    last_interaction_time = thread['comment_created_at']
+                if last_interaction_time is None or thread_time > last_interaction_time:
+                    last_interaction_time = thread_time
 
             new_replies = []
-            for reply in thread['replies']:
+            for reply in thread.get('replies', []):
                 processed_reply, removed_count = process_thread(reply)
                 removed_comments += removed_count
                 if processed_reply:
@@ -178,17 +148,19 @@ class UserContextSphere:
             new_threads = []
             for thread in user_context['articles'][article_id]['threads']:
                 processed_thread, _ = process_thread(thread)
-                new_threads.append(processed_thread)
+                if processed_thread:
+                    new_threads.append(processed_thread)
 
             user_context['articles'][article_id]['threads'] = new_threads
 
         # Remove comments after the last interaction
-        for article_id in user_context['articles']:
-            user_context['articles'][article_id]['threads'] = [
-                thread for thread in user_context['articles'][article_id]['threads']
-                if thread['comment_created_at'] <= last_interaction_time
-            ]
-            removed_comments += len(user_context['articles'][article_id]['threads'])
+        if last_interaction_time:
+            for article_id in user_context['articles']:
+                user_context['articles'][article_id]['threads'] = [
+                    thread for thread in user_context['articles'][article_id]['threads']
+                    if pd.to_datetime(thread['comment_created_at']) <= last_interaction_time
+                ]
+                removed_comments += len(user_context['articles'][article_id]['threads'])
 
         return user_context, removed_comments
 
@@ -264,6 +236,13 @@ class UserContextSphere:
 
         return report, token_count, removed_comments
 
+    def find_users_with_few_comments(self, min_comments: int = 1, max_comments: int = 5) -> List[int]:
+        user_comment_counts = self.df['ID_CommunityIdentity'].value_counts()
+        users_with_few_comments = user_comment_counts[
+            (user_comment_counts >= min_comments) & (user_comment_counts <= max_comments)
+            ].index.tolist()
+        return users_with_few_comments
+
 # Main execution
 if __name__ == "__main__":
     preprocessed_file = "../data/preprocessed/preprocessed_data.pkl"
@@ -287,9 +266,10 @@ if __name__ == "__main__":
     os.makedirs(spheres_dir_no_cutoff, exist_ok=True)
     os.makedirs(spheres_dir_cutoff, exist_ok=True)
 
-    user_id = 675862  # Replace with the desired user ID
+    user_id = 12610  # Replace with the desired user ID
 
     formatted_context = user_context_sphere.generate_formatted_user_context(user_id)
+
 
     if formatted_context != f"No data found for user ID {user_id}":
         filename_no_cutoff = f"{spheres_dir_no_cutoff}/{user_id}.md"
@@ -314,3 +294,4 @@ if __name__ == "__main__":
             with open(filename, 'w', encoding='utf-8') as f:
                 f.write(error_message)
             print(f"Error message saved to {filename}")
+
