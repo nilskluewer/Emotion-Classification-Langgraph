@@ -122,24 +122,22 @@ def save_json(data, file_path):
         json.dump(data, f, indent=2)
     print(f"Data saved to {file_path}")
 
-# Beispiel für die Verwendung
-file_path = 'spheres/JSON/articles_with_threads_full_tree.json'
-articles_with_threads = load_json(file_path)
+def main(path_articles_full_tree, user_id, ):
+    articles_with_threads = load_json(path_articles_full_tree)
 
-user_id = 5002
+    # Schritt 1: Finde alle Artikel, in denen der Benutzer einen Kommentar geschrieben hat
+    user_articles = find_articles_with_user_comments(articles_with_threads, user_id)
+    print(f"Artikel, in denen der Benutzer {user_id} einen Kommentar geschrieben hat:")
+    print(json.dumps(user_articles, indent=2))
 
-# Schritt 1: Finde alle Artikel, in denen der Benutzer einen Kommentar geschrieben hat
-user_articles = find_articles_with_user_comments(articles_with_threads, user_id)
-print(f"Artikel, in denen der Benutzer {user_id} einen Kommentar geschrieben hat:")
-print(json.dumps(user_articles, indent=2))
+    # Schritt 2: Finde alle Threads in diesen Artikeln, in denen der Benutzer aktiv war
+    user_threads_in_articles = find_user_threads_in_articles(user_articles, user_id)
+    print(f"Threads, in denen der Benutzer {user_id} aktiv war:")
+    print(json.dumps(user_threads_in_articles, indent=2))
 
-# Schritt 2: Finde alle Threads in diesen Artikeln, in denen der Benutzer aktiv war
-user_threads_in_articles = find_user_threads_in_articles(user_articles, user_id)
-print(f"Threads, in denen der Benutzer {user_id} aktiv war:")
-print(json.dumps(user_threads_in_articles, indent=2))
-
-# Speichern der Ergebnisse in einer JSON-Datei
-output_dir = 'spheres/JSON'
-os.makedirs(output_dir, exist_ok=True)
-output_file = os.path.join(output_dir, f'user_{user_id}_threads.json')
-save_json(user_threads_in_articles, output_file)
+    # Speichern der Ergebnisse in einer JSON-Datei
+    output_dir = 'spheres/JSON'
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, f'user_{user_id}_threads.json')
+    save_json(user_threads_in_articles, output_file)
+    print("Success")
