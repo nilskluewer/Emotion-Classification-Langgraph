@@ -128,12 +128,12 @@ def main(path_articles_full_tree, user_id, ):
     # Schritt 1: Finde alle Artikel, in denen der Benutzer einen Kommentar geschrieben hat
     user_articles = find_articles_with_user_comments(articles_with_threads, user_id)
     print(f"Artikel, in denen der Benutzer {user_id} einen Kommentar geschrieben hat:")
-    print(json.dumps(user_articles, indent=2))
+    #print(json.dumps(user_articles, indent=2))
 
     # Schritt 2: Finde alle Threads in diesen Artikeln, in denen der Benutzer aktiv war
     user_threads_in_articles = find_user_threads_in_articles(user_articles, user_id)
     print(f"Threads, in denen der Benutzer {user_id} aktiv war:")
-    print(json.dumps(user_threads_in_articles, indent=2))
+    #print(json.dumps(user_threads_in_articles, indent=2))
 
     # Speichern der Ergebnisse in einer JSON-Datei
     output_dir = 'spheres/JSON'

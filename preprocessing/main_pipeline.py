@@ -1,12 +1,12 @@
 import build_user_json_v7
 import build_user_context
 from helper_functions import get_all_user_ids
-from tqdm import tqdm
 import concurrent.futures
 import json
 import os
 
 PROGRESS_FILE = 'progress.json'
+CHUNK_SIZE = 10
 
 def load_progress():
     """
@@ -49,9 +49,23 @@ def process_user_data(user_id, path_article_full_tree):
     # Generate user context Markdown files
     build_user_context.main(input_path, full_output_path, modified_output_path)
 
+def chunked_iterable(iterable, size):
+    """
+    Yield successive chunks from an iterable.
+
+    Args:
+        iterable (iterable): The iterable to chunk.
+        size (int): The size of each chunk.
+
+    Yields:
+        list: A chunk of the iterable.
+    """
+    for i in range(0, len(iterable), size):
+        yield iterable[i:i + size]
+
 def main():
     """
-    Main function to process data for all users and display a progress bar.
+    Main function to process data for all users and save progress periodically.
     """
     # Path to the full tree JSON file
     path_article_full_tree = 'spheres/JSON/articles_with_threads_full_tree.json'
@@ -65,23 +79,19 @@ def main():
     # Filter out already processed user IDs
     user_ids_to_process = [user_id for user_id in user_ids if user_id not in processed_user_ids]
 
-    # Use ThreadPoolExecutor to process data for each user in parallel
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        # Create a list of futures
-        futures = {executor.submit(process_user_data, user_id, path_article_full_tree): user_id for user_id in user_ids_to_process}
-
-        # Use tqdm to display a progress bar
-        for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures), desc="Processing users"):
-            try:
-                # Wait for the future to complete
-                future.result()
-                # Mark user as processed
-                processed_user_ids.add(futures[future])
-                # Save progress
-                save_progress(processed_user_ids)
-            except Exception as e:
-                user_id = futures[future]
-                print(f"Error processing user {user_id}: {e}")
+    # Process data for each user in chunks
+    for chunk in chunked_iterable(user_ids_to_process, CHUNK_SIZE):
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = {executor.submit(process_user_data, user_id, path_article_full_tree): user_id for user_id in chunk}
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    future.result()
+                    processed_user_ids.add(futures[future])
+                except Exception as e:
+                    user_id = futures[future]
+                    print(f"Error processing user {user_id}: {e}")
+        # Save progress after each chunk
+        save_progress(processed_user_ids)
 
 if __name__ == "__main__":
     main()
