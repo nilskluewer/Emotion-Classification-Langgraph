@@ -1,0 +1,1146 @@
+{
+  "user_id": 22231,
+  "user_name": "Canis in urbe custodiendus non est",
+  "user_gender": "m",
+  "user_created_at": "2001-02-25T22:54:29",
+  "total_comments": 5,
+  "total_replies": 5,
+  "articles": {
+    "2000103584821": {
+      "article_title": "Weg mit Kurz? Purer Revanchismus der Opposition",
+      "article_publish_date": "2019-05-22T09:15:17",
+      "user_comments_count": 3,
+      "user_replies_count": 3,
+      "threads": [
+        {
+          "id": 1041869907,
+          "parent_id": 0,
+          "user_id": 55475,
+          "user_name": "Foren-Moderation",
+          "user_gender": "w",
+          "user_created_at": "2011-02-03T15:59:59.550000",
+          "comment_headline": "[Livediskussion] Kanzler Kurz st\u00fcrzen oder st\u00fctzen: Sitzt die Opposition in der Falle?",
+          "comment_text": "Livediskussion zwischen dem stellvertretendem SP\u00d6-Klubchef J\u00f6rg Leichtfried und Neos-Vize Nikolaus Scherak \u00fcber die Strategie der Opposition in den kommenden Tagen und Wochen. Heute ab 17.00 Uhr  Wie immer, wenn beim STANDARD diskutiert wird, sind Ihre Fragen nicht nur erlaubt, sondern Basis f\u00fcr unsere Debatte. Gestalten Sie unsere Sendung von Anfang bis Ende! Posten Sie Ihre Fragen an die beiden f\u00fchrenden Oppositionspolitiker hier im Forum \u2013 schreiben Sie uns, wie Sie die Causa sehen. Vorab hier im Forum und live ab 17.00 Uhr: https://derstandard.at/jetzt/livebericht/2000103590544/kanzler-kurz-stuerzen-oder-stuetzen  (eid)",
+          "comment_created_at": "2019-05-22T14:45:35.227000",
+          "comment_length": 631,
+          "depth": 0,
+          "replies": [
+            {
+              "id": 1041871147,
+              "parent_id": 1041869907,
+              "user_id": 665898,
+              "user_name": "Artus53",
+              "user_gender": "Unknown",
+              "user_created_at": "2017-12-24T14:12:41.193000",
+              "comment_headline": "Nein, die Opposition muss Kante zeigen. Es geht um die Glaubw\u00fcrdigkeit und eine seri\u00f6se Ausgangsposition f\u00fcr den Wahlkampf.",
+              "comment_text": "No Comment",
+              "comment_created_at": "2019-05-22T15:00:11.730000",
+              "comment_length": 10,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041965782,
+                  "parent_id": 1041871147,
+                  "user_id": 22231,
+                  "user_name": "Canis in urbe custodiendus non est",
+                  "user_gender": "m",
+                  "user_created_at": "2001-02-25T22:54:29",
+                  "comment_headline": "No Headline",
+                  "comment_text": "wenn sie kante zeigen will, dann sollten sie f\u00fcr Neuwahlen noch vor dem Sommer stimmen. dann ersparen wir uns zumindest diesen monatelangen Wahlkampf",
+                  "comment_created_at": "2019-05-24T15:59:44.377000",
+                  "comment_length": 149,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041874978,
+              "parent_id": 1041869907,
+              "user_id": 499434,
+              "user_name": "Quintinus",
+              "user_gender": "m",
+              "user_created_at": "2005-12-12T14:47:19.633000",
+              "comment_headline": "No Headline",
+              "comment_text": "Also ich bin f\u00fcr st\u00fctzen. Aber nur, wenn ihr Oppositionellen das t gegen ein r tauscht.  Und dann zack zack zack! Fertig!",
+              "comment_created_at": "2019-05-22T16:00:23.240000",
+              "comment_length": 121,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041873038,
+              "parent_id": 1041869907,
+              "user_id": 679697,
+              "user_name": "ReniRo",
+              "user_gender": "Unknown",
+              "user_created_at": "2018-09-06T17:09:00.303000",
+              "comment_headline": "No Headline",
+              "comment_text": "Dieser Meinung bin ich auch. Kurz ist ein machtgeiler egomanischer Parvenu - \" der Bundespr\u00e4sident und ich\" Geht's noch ?",
+              "comment_created_at": "2019-05-22T15:27:18.603000",
+              "comment_length": 121,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041882422,
+                  "parent_id": 1041873038,
+                  "user_id": 680131,
+                  "user_name": "Nordpol_90\u00b0",
+                  "user_gender": "Unknown",
+                  "user_created_at": "2018-09-14T18:36:17.003000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "\"der Bundespr\u00e4sident und ich\" - was soll dabei nicht gehen?",
+                  "comment_created_at": "2019-05-22T18:46:52.560000",
+                  "comment_length": 59,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041965715,
+                      "parent_id": 1041882422,
+                      "user_id": 22231,
+                      "user_name": "Canis in urbe custodiendus non est",
+                      "user_gender": "m",
+                      "user_created_at": "2001-02-25T22:54:29",
+                      "comment_headline": "No Headline",
+                      "comment_text": "naja, er versteckt sich hinter dem Bundespr\u00e4sidenten, den die SP\u00d6 durch den gegen den klaren Willen des BPr\u00e4s nun st\u00fcrzen will und damit \u00f6ffenlich desavouiert. spannend",
+                      "comment_created_at": "2019-05-24T15:57:56.730000",
+                      "comment_length": 168,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1042022113,
+                          "parent_id": 1041965715,
+                          "user_id": 45322,
+                          "user_name": "Elio Ambrosi",
+                          "user_gender": "m",
+                          "user_created_at": "2002-09-26T20:27:39",
+                          "comment_headline": "in der Situation",
+                          "comment_text": "1. ist der Bundespr\u00e4sident quasi der Aufsichtsrat, also der Vorgesetzte! 2. es gebietet grunds\u00e4tzlich die H\u00f6flichkeit, wenn man einen anderen und sich selbst meint, zuerst den anderen zu nennen!",
+                          "comment_created_at": "2019-05-26T15:05:46.417000",
+                          "comment_length": 194,
+                          "depth": 4,
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1041881315,
+              "parent_id": 1041869907,
+              "user_id": 677355,
+              "user_name": "doogee",
+              "user_gender": "Unknown",
+              "user_created_at": "2018-07-26T10:14:46.283000",
+              "comment_headline": "Interessant wird, welche Partei sich jetzt noch mit der FP\u00d6 ins Bett legt",
+              "comment_text": "und den Antrag unterst\u00fctzt. Ich hoffe und bin ziemlich sicher, dass das bei der Wahl auf sie zur\u00fcck f\u00e4llt.",
+              "comment_created_at": "2019-05-22T18:19:14.250000",
+              "comment_length": 106,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041941737,
+                  "parent_id": 1041881315,
+                  "user_id": 601372,
+                  "user_name": "momentamoi",
+                  "user_gender": "w",
+                  "user_created_at": "2016-09-18T15:55:45.313000",
+                  "comment_headline": "fassmann sagte doch schon im mittagsjournal",
+                  "comment_text": "dass auch Parteien dazulernen! er schloss die FP\u00d6 nicht aus!",
+                  "comment_created_at": "2019-05-24T00:06:19.777000",
+                  "comment_length": 60,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041888066,
+              "parent_id": 1041869907,
+              "user_id": 690169,
+              "user_name": "stolzer\u00f6sterreicher",
+              "user_gender": "Unknown",
+              "user_created_at": "2019-03-31T08:58:25.933000",
+              "comment_headline": "No Headline",
+              "comment_text": "Kurz hat das gemacht wof\u00fcr er gew\u00e4hlt wurde, die FP\u00d6 ist an sich selbst wieder mal gescheitert. Bei der n\u00e4chsten Wahl werden wohl viele FP\u00d6 Stimmen zu Kurz wandern (weniger sicher auch zu SP\u00d6).",
+              "comment_created_at": "2019-05-22T20:29:47.227000",
+              "comment_length": 193,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041924590,
+              "parent_id": 1041869907,
+              "user_id": 691083,
+              "user_name": "Gladperle",
+              "user_gender": "w",
+              "user_created_at": "2019-04-17T18:15:53.603000",
+              "comment_headline": "No Headline",
+              "comment_text": "Es geht nicht nur darum ob kurz bei der Wahl den kanzlerbonus hat oder nicht. Es geht darum, dass sich auch auslaendischstaemmige Mitb\u00fcrger, Senioren, arbeitslos und behinderte in diesem Land wieder sicher f\u00fchlen k\u00f6nnen.das geht nur wenn kurz weg ist.ich hin zu 85% koetperbehindert und ich f\u00fchle mich nicht sicher so lange Sebastian kurz noch im Amt ist.",
+              "comment_created_at": "2019-05-23T17:32:37.257000",
+              "comment_length": 355,
+              "depth": 1,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": 1041869907,
+          "parent_id": 0,
+          "user_id": 55475,
+          "user_name": "Foren-Moderation",
+          "user_gender": "w",
+          "user_created_at": "2011-02-03T15:59:59.550000",
+          "comment_headline": "[Livediskussion] Kanzler Kurz st\u00fcrzen oder st\u00fctzen: Sitzt die Opposition in der Falle?",
+          "comment_text": "Livediskussion zwischen dem stellvertretendem SP\u00d6-Klubchef J\u00f6rg Leichtfried und Neos-Vize Nikolaus Scherak \u00fcber die Strategie der Opposition in den kommenden Tagen und Wochen. Heute ab 17.00 Uhr  Wie immer, wenn beim STANDARD diskutiert wird, sind Ihre Fragen nicht nur erlaubt, sondern Basis f\u00fcr unsere Debatte. Gestalten Sie unsere Sendung von Anfang bis Ende! Posten Sie Ihre Fragen an die beiden f\u00fchrenden Oppositionspolitiker hier im Forum \u2013 schreiben Sie uns, wie Sie die Causa sehen. Vorab hier im Forum und live ab 17.00 Uhr: https://derstandard.at/jetzt/livebericht/2000103590544/kanzler-kurz-stuerzen-oder-stuetzen  (eid)",
+          "comment_created_at": "2019-05-22T14:45:35.227000",
+          "comment_length": 631,
+          "depth": 0,
+          "replies": [
+            {
+              "id": 1041871147,
+              "parent_id": 1041869907,
+              "user_id": 665898,
+              "user_name": "Artus53",
+              "user_gender": "Unknown",
+              "user_created_at": "2017-12-24T14:12:41.193000",
+              "comment_headline": "Nein, die Opposition muss Kante zeigen. Es geht um die Glaubw\u00fcrdigkeit und eine seri\u00f6se Ausgangsposition f\u00fcr den Wahlkampf.",
+              "comment_text": "No Comment",
+              "comment_created_at": "2019-05-22T15:00:11.730000",
+              "comment_length": 10,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041965782,
+                  "parent_id": 1041871147,
+                  "user_id": 22231,
+                  "user_name": "Canis in urbe custodiendus non est",
+                  "user_gender": "m",
+                  "user_created_at": "2001-02-25T22:54:29",
+                  "comment_headline": "No Headline",
+                  "comment_text": "wenn sie kante zeigen will, dann sollten sie f\u00fcr Neuwahlen noch vor dem Sommer stimmen. dann ersparen wir uns zumindest diesen monatelangen Wahlkampf",
+                  "comment_created_at": "2019-05-24T15:59:44.377000",
+                  "comment_length": 149,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041874978,
+              "parent_id": 1041869907,
+              "user_id": 499434,
+              "user_name": "Quintinus",
+              "user_gender": "m",
+              "user_created_at": "2005-12-12T14:47:19.633000",
+              "comment_headline": "No Headline",
+              "comment_text": "Also ich bin f\u00fcr st\u00fctzen. Aber nur, wenn ihr Oppositionellen das t gegen ein r tauscht.  Und dann zack zack zack! Fertig!",
+              "comment_created_at": "2019-05-22T16:00:23.240000",
+              "comment_length": 121,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041873038,
+              "parent_id": 1041869907,
+              "user_id": 679697,
+              "user_name": "ReniRo",
+              "user_gender": "Unknown",
+              "user_created_at": "2018-09-06T17:09:00.303000",
+              "comment_headline": "No Headline",
+              "comment_text": "Dieser Meinung bin ich auch. Kurz ist ein machtgeiler egomanischer Parvenu - \" der Bundespr\u00e4sident und ich\" Geht's noch ?",
+              "comment_created_at": "2019-05-22T15:27:18.603000",
+              "comment_length": 121,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041882422,
+                  "parent_id": 1041873038,
+                  "user_id": 680131,
+                  "user_name": "Nordpol_90\u00b0",
+                  "user_gender": "Unknown",
+                  "user_created_at": "2018-09-14T18:36:17.003000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "\"der Bundespr\u00e4sident und ich\" - was soll dabei nicht gehen?",
+                  "comment_created_at": "2019-05-22T18:46:52.560000",
+                  "comment_length": 59,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041965715,
+                      "parent_id": 1041882422,
+                      "user_id": 22231,
+                      "user_name": "Canis in urbe custodiendus non est",
+                      "user_gender": "m",
+                      "user_created_at": "2001-02-25T22:54:29",
+                      "comment_headline": "No Headline",
+                      "comment_text": "naja, er versteckt sich hinter dem Bundespr\u00e4sidenten, den die SP\u00d6 durch den gegen den klaren Willen des BPr\u00e4s nun st\u00fcrzen will und damit \u00f6ffenlich desavouiert. spannend",
+                      "comment_created_at": "2019-05-24T15:57:56.730000",
+                      "comment_length": 168,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1042022113,
+                          "parent_id": 1041965715,
+                          "user_id": 45322,
+                          "user_name": "Elio Ambrosi",
+                          "user_gender": "m",
+                          "user_created_at": "2002-09-26T20:27:39",
+                          "comment_headline": "in der Situation",
+                          "comment_text": "1. ist der Bundespr\u00e4sident quasi der Aufsichtsrat, also der Vorgesetzte! 2. es gebietet grunds\u00e4tzlich die H\u00f6flichkeit, wenn man einen anderen und sich selbst meint, zuerst den anderen zu nennen!",
+                          "comment_created_at": "2019-05-26T15:05:46.417000",
+                          "comment_length": 194,
+                          "depth": 4,
+                          "replies": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1041881315,
+              "parent_id": 1041869907,
+              "user_id": 677355,
+              "user_name": "doogee",
+              "user_gender": "Unknown",
+              "user_created_at": "2018-07-26T10:14:46.283000",
+              "comment_headline": "Interessant wird, welche Partei sich jetzt noch mit der FP\u00d6 ins Bett legt",
+              "comment_text": "und den Antrag unterst\u00fctzt. Ich hoffe und bin ziemlich sicher, dass das bei der Wahl auf sie zur\u00fcck f\u00e4llt.",
+              "comment_created_at": "2019-05-22T18:19:14.250000",
+              "comment_length": 106,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041941737,
+                  "parent_id": 1041881315,
+                  "user_id": 601372,
+                  "user_name": "momentamoi",
+                  "user_gender": "w",
+                  "user_created_at": "2016-09-18T15:55:45.313000",
+                  "comment_headline": "fassmann sagte doch schon im mittagsjournal",
+                  "comment_text": "dass auch Parteien dazulernen! er schloss die FP\u00d6 nicht aus!",
+                  "comment_created_at": "2019-05-24T00:06:19.777000",
+                  "comment_length": 60,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041888066,
+              "parent_id": 1041869907,
+              "user_id": 690169,
+              "user_name": "stolzer\u00f6sterreicher",
+              "user_gender": "Unknown",
+              "user_created_at": "2019-03-31T08:58:25.933000",
+              "comment_headline": "No Headline",
+              "comment_text": "Kurz hat das gemacht wof\u00fcr er gew\u00e4hlt wurde, die FP\u00d6 ist an sich selbst wieder mal gescheitert. Bei der n\u00e4chsten Wahl werden wohl viele FP\u00d6 Stimmen zu Kurz wandern (weniger sicher auch zu SP\u00d6).",
+              "comment_created_at": "2019-05-22T20:29:47.227000",
+              "comment_length": 193,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041924590,
+              "parent_id": 1041869907,
+              "user_id": 691083,
+              "user_name": "Gladperle",
+              "user_gender": "w",
+              "user_created_at": "2019-04-17T18:15:53.603000",
+              "comment_headline": "No Headline",
+              "comment_text": "Es geht nicht nur darum ob kurz bei der Wahl den kanzlerbonus hat oder nicht. Es geht darum, dass sich auch auslaendischstaemmige Mitb\u00fcrger, Senioren, arbeitslos und behinderte in diesem Land wieder sicher f\u00fchlen k\u00f6nnen.das geht nur wenn kurz weg ist.ich hin zu 85% koetperbehindert und ich f\u00fchle mich nicht sicher so lange Sebastian kurz noch im Amt ist.",
+              "comment_created_at": "2019-05-23T17:32:37.257000",
+              "comment_length": 355,
+              "depth": 1,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": 1041869839,
+          "parent_id": 0,
+          "user_id": 210024,
+          "user_name": "tablespace65",
+          "user_gender": "m",
+          "user_created_at": "2007-09-11T23:15:52.387000",
+          "comment_headline": "Ein bisserl viel Verst\u00e4ndnis f\u00fcr \"das politische Jahrhunderttalent\" Sebastian KURZ und dessen Schw\u00e4chen und Fehler!",
+          "comment_text": "Es geht mE nicht um \"puren Revanchismus\", sondern darum, dass man  - S. KURZ seine Grenzen aufzeigt  - ihm eindringlich vor Augen f\u00fchrt, dass sein Politikstil (zB Gesetzesbeschl\u00fcsse, ohne die \"parlamentarischen Gepflogenheiten\" einzuhalten (ausreichend Zeit f\u00fcr die Opposition, Gesetzesantr\u00e4ge zu studieren und zu bewerten etc.)), auf Dauer nicht akzeptabel und undemokratisch ist  - seine \"Toleranz\" gegen\u00fcber den vielen \"Einzelf\u00e4llen\" der FP\u00d6 antidemokratisch und gef\u00e4hrlich ist (BVT-Skandal etc.)  - sein Versuch, die Interessen und Mitbestimmungsm\u00f6glichkeiten der Arbeitnehmerseite nachhaltig und massiv zur\u00fcckzudr\u00e4ngen (zB \"Umf\u00e4rbelung\" in der Sozailversicherung), f\u00fcr ein prosperierendes \u00d6sterreich kontraproduktiv ist",
+          "comment_created_at": "2019-05-22T14:44:19.150000",
+          "comment_length": 724,
+          "depth": 0,
+          "replies": [
+            {
+              "id": 1041872522,
+              "parent_id": 1041869839,
+              "user_id": 563638,
+              "user_name": "Ante No",
+              "user_gender": "m",
+              "user_created_at": "2015-01-11T10:00:16.580000",
+              "comment_headline": "No Headline",
+              "comment_text": "Es geht hier nicht um eine p\u00e4dagogische Ma\u00dfnahme f\u00fcr einen zu jungen Kanzler mit mangelndem Prozess- und Geschichtsverst\u00e4ndnis, sondern um die Frage, ob seine Abl\u00f6se demokratiepolitisch gerechtfertigt werden kann. Ich bezweifle das. Ich glaube auch nicht, dass einer solcher Schritt die Mehrheit der Bev\u00f6lkerung hinter sich h\u00e4tte.  Taktisch bringt das der SP\u00d6 sowieso nichts - sie muss erkl\u00e4ren, welche Alternativen sie zu tun ach so tollen Reformen von T\u00fcrkischblau zu bieten h\u00e4tte bzw. welche dieser Reformen vielleicht gar nicht so toll waren und endlich aufh\u00f6ren, sich als ideenloses Bollwerk gegen Rechts zu verkaufen oder zu behaupten, sie w\u00e4ren die besseren Demokraten. Im Ignorieren der parlamentarischen Opposition war man selbst auch ...",
+              "comment_created_at": "2019-05-22T15:18:27.467000",
+              "comment_length": 747,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041873737,
+                  "parent_id": 1041872522,
+                  "user_id": 543242,
+                  "user_name": "Gevatter",
+                  "user_gender": "m",
+                  "user_created_at": "2014-06-06T20:03:00.207000",
+                  "comment_headline": "Demokratiepolitische Rechtfertigung",
+                  "comment_text": "Damit k\u00f6nnen Sie Kurzgegnern nicht kommen. Denen geht es um Revanche. Tiefe Emotionen verletzten Stolzes und gekr\u00e4nkter Eitelkeit machen Denken und Handeln im Interesse des Staates fast unm\u00f6glich.   Die Aufrufe des HBP versuchen, diese Egoismen zu neutralisieren. Ich bin skeptisch, dass sie etwas bewirken. Es geht um Abrechnung mit Kurz. Viele wollen ihn im Staub der politischen Arena sehen. .",
+                  "comment_created_at": "2019-05-22T15:38:58.580000",
+                  "comment_length": 396,
+                  "depth": 2,
+                  "replies": []
+                },
+                {
+                  "id": 1041874897,
+                  "parent_id": 1041872522,
+                  "user_id": 679556,
+                  "user_name": "Nordw\u00e4rts zu den W\u00f6lfen....",
+                  "user_gender": "Unknown",
+                  "user_created_at": "2018-09-04T19:05:23.623000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "Aus Sicht des Nationalrates (zumindest gro\u00dfen Teilen davon) hat er nichts getan um sich das Vertrauen zu verdienen. Im Gegenteil, r\u00fccksichtsloses Dr\u00fcberfahren, Candy Crush spielen w\u00e4hrend der Sitzungen und sein Gebahren in den letzten Tagen zeigen sein demokratiefeindliches Verhalten. Am liebsten w\u00e4re er unser alleiniger F\u00fchrer, was er auch mehrmals in seinen Wahlkampfreden am Samstag betonte. Er hat sowieso schon vorsorglich seinen neuen Vize in Stellung gebracht. Ich denke auf Kurz k\u00f6nnen wir zum Wohle \u00d6sterreichs, das sowieso nie an erster Stelle bei ihm stand, getrost verzichten...",
+                  "comment_created_at": "2019-05-22T15:59:00.290000",
+                  "comment_length": 592,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041876392,
+                      "parent_id": 1041874897,
+                      "user_id": 563638,
+                      "user_name": "Ante No",
+                      "user_gender": "m",
+                      "user_created_at": "2015-01-11T10:00:16.580000",
+                      "comment_headline": "No Headline",
+                      "comment_text": "Niemand behauptet hier, bei Herrn Kurz handle es sich einen Politiker, der in den Monaten seiner Kanzlerschaft zu einem Erneuerer und Verfechter des parlamentarischen Prozesses geworden w\u00e4re. Ich teile Ihre Kritik am Stil des Kanzlers.   Hier geht es aber um die Frage, ob das Parlament eines seiner st\u00e4rksten Waffen ziehen soll und muss, um die Republik in einer konkreten historischen Situation vor Schaden zu retten. Die Antwort lautet nein, weil Herr Kurz ohne einen Koalitionspartner nichts tun kann und damit praktisch allen Belangen auf eine Mehrheit im Parlament angewiesen ist.",
+                      "comment_created_at": "2019-05-22T16:32:02.863000",
+                      "comment_length": 586,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1041876970,
+                          "parent_id": 1041876392,
+                          "user_id": 679556,
+                          "user_name": "Nordw\u00e4rts zu den W\u00f6lfen....",
+                          "user_gender": "Unknown",
+                          "user_created_at": "2018-09-04T19:05:23.623000",
+                          "comment_headline": "No Headline",
+                          "comment_text": "Hm, den Schaden hat er an sich schon angerichtet. Innerhalb von 2 Jahren hat er 2 Regierungen gesprengt.  Ich bin selber etwas uneins mit mir ob es jetzt gut oder schlecht w\u00e4re. Aber ein Misstrauensantrag ist genau das. Ein Misstrauen eben. Kurz h\u00e4tte die letzten Tage und den Rest der Woche Zeit, um mit den Parteien, speziell FP\u00d6 und SP\u00d6, Gespr\u00e4che zu f\u00fchren.  Allein sein ganzes Verhalten bis heute, zeigt, dass es ihm letztendlich egal ist. Lieber hat er noch schnell alle Ministerien mit seinen Leuten beschickt, bevor er mit den Oppositionchefs oder mit dem Nationalrat gesprochen hat. Er bem\u00fcht sich nicht wirklich verlorenes Vertrauen wieder wett zu machen, sondern best\u00e4rkt seine Kritiker noch. Vielleicht ist ihm die Opferrolle auch recht..",
+                          "comment_created_at": "2019-05-22T16:44:46.950000",
+                          "comment_length": 750,
+                          "depth": 4,
+                          "replies": [
+                            {
+                              "id": 1041877462,
+                              "parent_id": 1041876970,
+                              "user_id": 563638,
+                              "user_name": "Ante No",
+                              "user_gender": "m",
+                              "user_created_at": "2015-01-11T10:00:16.580000",
+                              "comment_headline": "No Headline",
+                              "comment_text": "Wie gesagt, ich teile Ihre Kritik an Kurz. Wichtig ist jetzt aber, dass auch uns nicht Gro\u00dfbritannien wird. Wir m\u00fcssen regierbar und damit konsensf\u00e4hig bleiben bzw. wieder werden. Den selbstherrlichen Kanzler soll das Volk abw\u00e4hlen.",
+                              "comment_created_at": "2019-05-22T16:56:06.223000",
+                              "comment_length": 232,
+                              "depth": 5,
+                              "replies": [
+                                {
+                                  "id": 1041878716,
+                                  "parent_id": 1041877462,
+                                  "user_id": 679556,
+                                  "user_name": "Nordw\u00e4rts zu den W\u00f6lfen....",
+                                  "user_gender": "Unknown",
+                                  "user_created_at": "2018-09-04T19:05:23.623000",
+                                  "comment_headline": "No Headline",
+                                  "comment_text": "Nunja, das w\u00e4ren wir ohne Kurz doch auch. Sein Vize, L\u00f6ger, w\u00fcrde \u00fcbernehmen und die anderen Minister blieben ja auch im Amt. Alleine seine selbstherrlichen Auftritte \u00e0 La Ich, Ich und nochmal Ich w\u00fcrden wegfallen.  Aber wir beide werden es eh nicht entscheiden, sondern am Montag der Nationalrat und wir sind uns wohl auch einig, dass es keine leichte und leichtfertige Entscheidung sein wird...",
+                                  "comment_created_at": "2019-05-22T17:19:45.313000",
+                                  "comment_length": 396,
+                                  "depth": 6,
+                                  "replies": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1041873593,
+              "parent_id": 1041869839,
+              "user_id": 100744,
+              "user_name": "john brein\u00f6ssl",
+              "user_gender": "m",
+              "user_created_at": "2002-10-12T14:57:17",
+              "comment_headline": "Was wirft man Kurz vor?",
+              "comment_text": "Dass er eine Koalition mit einer Partei gebildet hat, weil die andere Partei nicht wollte oder zu klein war? Haben die anderen Parteien soviel Angst vor Kurzem wenn er Bundeskanzler ist?????",
+              "comment_created_at": "2019-05-22T15:36:27.210000",
+              "comment_length": 190,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041874439,
+              "parent_id": 1041869839,
+              "user_id": 631880,
+              "user_name": "Petraki",
+              "user_gender": "m",
+              "user_created_at": "2016-07-07T00:14:14.807000",
+              "comment_headline": "Wem w\u00fcrde der Sturz des S. Kurz durch einen Misstrauensantrag mehr schaden?",
+              "comment_text": "*(Nebenbei: Wo sind Passagen des Artikels, die Ihnen \u201eein bisserl viel Verst\u00e4ndnis f\u00fcr Kurz\u201c zeigen?)  *In dem Artikel geht\u2019s doch hpts. darum, ob es klug w\u00e4re, ihn mittels Misstrauensantrag als Kanzler zu st\u00fcrzen. Es gibt offensichtlich viele, die glauben, dass damit Kurz am meisten geschadet werden k\u00f6nnte.  *Das bezweifelt der Autor (ich teile diese Zweifel.) *Diese subj. Einsch\u00e4tzung, welche Folgen ein Sturz auf diese Weise haben w\u00fcrde, hat nichts mit der Einstellung zu Kurz zu tun.  *Ich glaube aber, dass dieses Vorgehen Kurz weniger schaden w\u00fcrde als seinen Gegnern.",
+              "comment_created_at": "2019-05-22T15:51:13.610000",
+              "comment_length": 577,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041882343,
+              "parent_id": 1041869839,
+              "user_id": 680131,
+              "user_name": "Nordpol_90\u00b0",
+              "user_gender": "Unknown",
+              "user_created_at": "2018-09-14T18:36:17.003000",
+              "comment_headline": "No Headline",
+              "comment_text": "Es ist nicht Aufgabe der politischen Mitbewerber, Kurz zu \"erziehen\". F\u00fcr seine Politik ist er den W\u00e4hlern verantwortlich. Die entscheiden, ob sie mit seinem politischen Stil zufrieden sind oder nicht. Wie man sieht, nimmt er die Drohungen der SP\u00d6 ihn am Montag zu st\u00fcrzen sehr gelassen auf und verzichtet auf Demutsgesten gegen\u00fcber den Roten, denn er wei\u00df, dass die Mehrheit der W\u00e4hler das Herumlarvieren und die Versuche der SP\u00d6 aus der Aff\u00e4re einen politischen Vorteil herauszuschlagen ablehnt und er so oder so in ein paar Monaten wieder BK sein wird.",
+              "comment_created_at": "2019-05-22T18:45:14.120000",
+              "comment_length": 555,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041885226,
+                  "parent_id": 1041882343,
+                  "user_id": 26373,
+                  "user_name": "Chien de Pique",
+                  "user_gender": "m",
+                  "user_created_at": "2003-03-18T21:28:06",
+                  "comment_headline": "No Headline",
+                  "comment_text": "Das Parlament muss ihn kontrollieren (Misstrauensantrag) und der Bundesp\u00e4sident, genau so sieht es die Verfassung vor. Seine  W\u00e4hlerInnen konnten ihn gerade einmal als Spitzenkandidaten w\u00e4hlen, nicht als Kanzler. Es gibt in \u00d6sterreich auch keine Recall-Option, die W\u00e4hlerInnen sind ihm bis zu W\u00e4hlen ausgeliefert. Die W\u00e4hlerInnen entscheiden, ob und wie erfolgreich er mit seiner Liste ins Parlament kommt, ob er regiert entscheiden (jenseits einer Absoluten) die parlamentarischen Verh\u00e4ltnisse und jedenfalls der BP.",
+                  "comment_created_at": "2019-05-22T19:47:11.560000",
+                  "comment_length": 517,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041886443,
+                      "parent_id": 1041885226,
+                      "user_id": 680131,
+                      "user_name": "Nordpol_90\u00b0",
+                      "user_gender": "Unknown",
+                      "user_created_at": "2018-09-14T18:36:17.003000",
+                      "comment_headline": "Dass die W\u00e4hler nicht den Kanzler w\u00e4hlen, ist mit bekannt. Danke f\u00fcr die Belehrung.",
+                      "comment_text": "Dass der BP eine Fortsetzung dieser Regierung w\u00fcnscht, ist offensichtlich. Dass die Sozis sich r\u00e4chen und den BK abservieren wollen, jetzt, wo er ohne den \"Schutz\" der FP\u00d6-Parlamentsfraktion ist, ist ebenfalls offensichtlich. Dass es keinen Grund gibt, dem BK. der sich in der Krise vorbildlich verhalten hat, das Vertrauen zu entziehen ist auch klar. Dass die Abgeordneten ihr Verhalten nicht begr\u00fcnden m\u00fcssen, wei\u00df ich. Was mir sauer aufst\u00f6\u00dft ist, dass Pam & Bobo herumlarvieren und t\u00fcfteln, wie sie diese Krise am besten parteipolitisch n\u00fctzen k\u00f6nnen. Das ist kein verantwortungsbewusstes bzw. staatstragendes Verhalten. Sie werden ihre Quittung durch die W\u00e4hler am Wahltag bekommen, da bin ich mir sicher.",
+                      "comment_created_at": "2019-05-22T20:07:18.003000",
+                      "comment_length": 709,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1041893500,
+                          "parent_id": 1041886443,
+                          "user_id": 527904,
+                          "user_name": "Steve-O",
+                          "user_gender": "m",
+                          "user_created_at": "2013-10-30T20:05:35.507000",
+                          "comment_headline": "Was mir sauer aufst\u00f6\u00dft ist, dass Pam & Bobo herumlarvieren und t\u00fcfteln, wie sie diese Krise am besten parteipolitisch n\u00fctzen k\u00f6nnen",
+                          "comment_text": "Das macht Kurz aber noch mehr. Der spitzt ja schon auf die Absolute. Einfach machtgeil der Typ.",
+                          "comment_created_at": "2019-05-22T22:38:59.583000",
+                          "comment_length": 95,
+                          "depth": 4,
+                          "replies": [
+                            {
+                              "id": 1041893744,
+                              "parent_id": 1041893500,
+                              "user_id": 680131,
+                              "user_name": "Nordpol_90\u00b0",
+                              "user_gender": "Unknown",
+                              "user_created_at": "2018-09-14T18:36:17.003000",
+                              "comment_headline": "No Headline",
+                              "comment_text": "Die Absolute bekommt Kurz nur, wenn er bei der Wahl das Vertrauen so vieler W\u00e4hler gewinnen kann. Das wird nicht eintreten, aber wenn er sie bek\u00e4me, w\u00e4re das der Wille der W\u00e4hler. Im \u00dcbrigen hatte auch bspw. H\u00e4upl in Wien viele Jahre lang die Absolute, ebenso Pr\u00f6ll und ML in N\u00d6.",
+                              "comment_created_at": "2019-05-22T22:47:31.933000",
+                              "comment_length": 279,
+                              "depth": 5,
+                              "replies": [
+                                {
+                                  "id": 1041897251,
+                                  "parent_id": 1041893744,
+                                  "user_id": 122701,
+                                  "user_name": "jumpingjack flash",
+                                  "user_gender": "m",
+                                  "user_created_at": "2000-09-05T14:20:43",
+                                  "comment_headline": "No Headline",
+                                  "comment_text": "die ehemalige diepresse-journalistin annelise rohrer hat mehrmals enzetzt davon berichtet dass sebsatian kurz gesagt hat h\u00e4tte er eine Mehrheit wie Victor orban w\u00fcrde er es genauso machen. und so einen ansage ist wenn man die Situation in Ungarn kennt be\u00e4ngstigend - und bei kurz durchaus glaubhaft. das Journalisten und zeitugsbashing hat er ja auch betrieben - auch gegen\u00fcber der Zeitung die es erm\u00f6glicht dass wir uns hier (NOCH) frei unterhalten d\u00fcrfen.",
+                                  "comment_created_at": "2019-05-23T06:22:41.007000",
+                                  "comment_length": 457,
+                                  "depth": 6,
+                                  "replies": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": 1041905353,
+                              "parent_id": 1041893500,
+                              "user_id": 552781,
+                              "user_name": "Desert King",
+                              "user_gender": "m",
+                              "user_created_at": "2014-11-18T17:43:29.897000",
+                              "comment_headline": "No Headline",
+                              "comment_text": "Welche Partei h\u00e4tte nicht gerne die Absolute?",
+                              "comment_created_at": "2019-05-23T10:39:05.493000",
+                              "comment_length": 45,
+                              "depth": 5,
+                              "replies": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 1041897219,
+                          "parent_id": 1041886443,
+                          "user_id": 122701,
+                          "user_name": "jumpingjack flash",
+                          "user_gender": "m",
+                          "user_created_at": "2000-09-05T14:20:43",
+                          "comment_headline": "No Headline",
+                          "comment_text": "was w\u00fcrde kurz machen? f\u00fcr den geringsten Vorteil alles das GEGEN missliebige Konkurrenten geht - von dem\u00fctigen, nicht reden (nichteinmal jetzt in der krise) er h\u00e4lt sich f\u00fcr stark genug das er das nicht tun muss - nimmt wie selbstverst\u00e4ndlich nun alle anderen in die pflicht \"staatstragend\" zu sein. er war nicht staatstragend als er mittelehner und kern abserviert, die fp\u00f6 in die Machtposition gebracht hat, den postenschacher im bvt bis heute nicht bek\u00e4mpft und das ist das schlimmste verbrechen: die Zukunft unserer Kinder und enkel mit v\u00f6llig unzureichendem Umweltschutz zerst\u00f6rt hat und weiter zerst\u00f6ren will. im garten gibst kaum noch v\u00f6gel und bienen - und es wird munter weiter zerst\u00f6rt damit kurz Kanzler bleiben kann.",
+                          "comment_created_at": "2019-05-23T06:18:03.987000",
+                          "comment_length": 729,
+                          "depth": 4,
+                          "replies": [
+                            {
+                              "id": 1041904937,
+                              "parent_id": 1041897219,
+                              "user_id": 552781,
+                              "user_name": "Desert King",
+                              "user_gender": "m",
+                              "user_created_at": "2014-11-18T17:43:29.897000",
+                              "comment_headline": "im garten gibst kaum noch v\u00f6gel und bienen",
+                              "comment_text": "ach, erst seit Anfang 2018 (Regierungsantritt)? Sie wissen doch hoffentlich selbst, dass das eine Konsequenz der Politik der letzten Jahre oder Jahrzehnte ist und nicht der letzten 17 Monate. Ausserdem ist \u00d6sterreich schon seit l\u00e4ngerem kein Vorbild was Umweltpolitik betrifft.  In der Umweltpolitik ist es genauso schlecht wie fr\u00fcher, nicht mehr und nicht weniger.",
+                              "comment_created_at": "2019-05-23T10:29:36.260000",
+                              "comment_length": 365,
+                              "depth": 5,
+                              "replies": [
+                                {
+                                  "id": 1041906053,
+                                  "parent_id": 1041904937,
+                                  "user_id": 122701,
+                                  "user_name": "jumpingjack flash",
+                                  "user_gender": "m",
+                                  "user_created_at": "2000-09-05T14:20:43",
+                                  "comment_headline": "No Headline",
+                                  "comment_text": "ja, bei uns im Burgenland ist z,b, herr berlakowich t\u00e4tig - ich wei\u00df ehrlich gesagt gar nicht ob es in den letzten Jahrzehnten Landwirtschaftsminister aus einer anderen Partei au\u00dfer der \u00f6vp gab.  in anderen bereichen hat die sp\u00f6 viel verbrochen, in wieder anderen sp\u00f6 und \u00f6vp gemeinsam.   viele wollen die Partei die zwar korupt, mehr oder weniger unter der G\u00fcrtellinie - aber in ihrem sinn agiert - Motto: die sind r\u00fccksichtslos aber mir irgendwie n\u00fctzlich.   nat\u00fcrlich geht z.b. die Klima und Naturkatastrophe langsam und sicher weiter und weiter - aber mu\u00df man drauf warten bis es zu sp\u00e4t ist? braucht sie wirklich im garten oder Feld nebenan die Anwendung von Glyphosat? ich sicher nicht!",
+                                  "comment_created_at": "2019-05-23T10:55:44.993000",
+                                  "comment_length": 692,
+                                  "depth": 6,
+                                  "replies": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 1041897158,
+                  "parent_id": 1041882343,
+                  "user_id": 122701,
+                  "user_name": "jumpingjack flash",
+                  "user_gender": "m",
+                  "user_created_at": "2000-09-05T14:20:43",
+                  "comment_headline": "den ersten Vorteil hat kurz herausgeschlagen -",
+                  "comment_text": "beim zerbrechen seiner Koalition hat er als erstes die sp\u00f6 mit silberstein angepatzt (die beweise so es sie gibt wurden nicht ver\u00f6ffentlicht) die ausl\u00e4nderfeindlichen Frames d\u00fcrfen auch nicht fehlen. was er mit dem \u00fcbrigens auch durch einen Todesfall (tochter) geschw\u00e4chten Vizekanzler Mitterlehner gemacht hat ist bekannt.  er hat alle oppositiosnparteien auf seine art arogant behandelt  - Motto: nichteinmal reden, lieber gesetzte ver\u00e4ndern bevor man Subventionen offenlegt usw.  ob er st\u00fcrzt oder nicht macht keinen unterschied - die meisten \u00d6sterreicherinnen werden wieder die maximal korruptesten, postenschachernden Parteien w\u00e4hlen: \u00f6vp, sp\u00f6 und fp\u00f6 . Anst\u00e4ndigkeit bei neos und gr\u00fcnen z\u00e4hlt als schw\u00e4che und bleibt unbelohnt.",
+                  "comment_created_at": "2019-05-23T06:09:18.770000",
+                  "comment_length": 733,
+                  "depth": 2,
+                  "replies": []
+                },
+                {
+                  "id": 1041941762,
+                  "parent_id": 1041882343,
+                  "user_id": 601372,
+                  "user_name": "momentamoi",
+                  "user_gender": "w",
+                  "user_created_at": "2016-09-18T15:55:45.313000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "es geht nicht darum ihn zu erziehen, (Bl\u00f6dsinn, keiner sagt das) es geht darum, ob man ihm vertrauen kann, und das kann man beigott KEIN BISSCHEN!",
+                  "comment_created_at": "2019-05-24T00:08:39.970000",
+                  "comment_length": 146,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041943054,
+                      "parent_id": 1041941762,
+                      "user_id": 680131,
+                      "user_name": "Nordpol_90\u00b0",
+                      "user_gender": "Unknown",
+                      "user_created_at": "2018-09-14T18:36:17.003000",
+                      "comment_headline": "No Headline",
+                      "comment_text": "https://derstandard.at/permalink/p/1041869839",
+                      "comment_created_at": "2019-05-24T06:18:32.020000",
+                      "comment_length": 45,
+                      "depth": 3,
+                      "replies": []
+                    }
+                  ]
+                },
+                {
+                  "id": 1041948862,
+                  "parent_id": 1041882343,
+                  "user_id": 558915,
+                  "user_name": "MiliTant",
+                  "user_gender": "w",
+                  "user_created_at": "2015-03-19T23:10:55.610000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "auch selbstverlinkt wirddasobere posting nicht lesenswerter. Es geht nicht um Erziehung. Es geht umKlarstellung welche politische Kultur wirwollen, und auch die 30% die \"ihn\"gew\u00e4hlt haben sind nicht zu 100% davon begeistert, wie er die anderen politischen Str\u00f6mungen gezielt ausgeschlossen hat. Das hat alles nichtsmit der SP\u00d6 zu tun. Im Grund wird von derSP\u00d6 eine staatstragende Entscheidung verlangt, die Kurz und co in der ganzen Regierungszeit verweigert hat. Die Frage soll f\u00fcr jeden einzelnen Abgeordneten sein, ob er dem BK Kurz vertraut, oder nicht. Ich f\u00fcr mich, als W\u00e4hler, verneine das konkret. Unabh\u00e4ngig der Weltanschauung halte ich diesen Politiker f\u00fcr nicht vertrauensw\u00fcrdig,.",
+                  "comment_created_at": "2019-05-24T09:39:31.127000",
+                  "comment_length": 691,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041949575,
+                      "parent_id": 1041948862,
+                      "user_id": 680131,
+                      "user_name": "Nordpol_90\u00b0",
+                      "user_gender": "Unknown",
+                      "user_created_at": "2018-09-14T18:36:17.003000",
+                      "comment_headline": "No Headline",
+                      "comment_text": "Was ist selbstverlinkt? Erst schauen, dann posten!  \"wie er die anderen politischen Str\u00f6mungen gezielt ausgeschlossen hat\" Wie war das eigentlich, als die FP\u00d6 die gr\u00f6\u00dfte Oppositionspartei war. Um die wurde ein Cordon sanitaire gezogen, die wurde von der rotschwarzen Regierung total ausgegrenzt. Waren Sie damals schon auf der Welt, oder wurden Sie erst 2017 geboren? Sollen sich doch die Roten ausheulen, trotzen und ihre Rache stillen. \"bitte der Basti mit den Dumbo-Ohren hat uns schlecht behandelt\" Im September sehen wir weiter und vielleicht gibt's schon am Sonntag ein paar Anhaltspunkte, wie die Roten bei den W\u00e4hlern ankommen.",
+                      "comment_created_at": "2019-05-24T09:54:00.733000",
+                      "comment_length": 635,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1041951603,
+                          "parent_id": 1041949575,
+                          "user_id": 558915,
+                          "user_name": "MiliTant",
+                          "user_gender": "w",
+                          "user_created_at": "2015-03-19T23:10:55.610000",
+                          "comment_headline": "No Headline",
+                          "comment_text": "ich hab mich verschaut, soll vorkommen  Die Bekenntnis mit einer Partei ob ihrer brauenr R\u00fclpser nicht zusammenarbeiten zu wollen, ist was anderes, als gesetze dem Nationalrat zur Begutachtung zu geben.   Die roten sind noch immernicht das Problem. Die winden sich, stimmt, weil sie nicht wissen welche Watschn sie lieber kassieren wollen. Das Problem ist noch immer Kurz, der als BK Kommunikation mitWahlwerbung verwechselt, Die Frage ist, ob die Parlamentarier Kurz vertrauen k\u00f6nnen, nachdem wie er sich verh\u00e4lt, und worauf er hinsteuert. ich w\u00fcrds nicht.",
+                          "comment_created_at": "2019-05-24T10:33:15.970000",
+                          "comment_length": 557,
+                          "depth": 4,
+                          "replies": [
+                            {
+                              "id": 1041955885,
+                              "parent_id": 1041951603,
+                              "user_id": 680131,
+                              "user_name": "Nordpol_90\u00b0",
+                              "user_gender": "Unknown",
+                              "user_created_at": "2018-09-14T18:36:17.003000",
+                              "comment_headline": "No Headline",
+                              "comment_text": "Schauen S' mit Leuten, die mit zweierlei Ma\u00df Argumenten daherkommen, kann man halt nicht diskutieren. Die Guten und die B\u00f6sen - und bei den B\u00f6sen ist es immer gaaaanz etwas aaaanderes.",
+                              "comment_created_at": "2019-05-24T12:04:28.560000",
+                              "comment_length": 184,
+                              "depth": 5,
+                              "replies": [
+                                {
+                                  "id": 1041960816,
+                                  "parent_id": 1041955885,
+                                  "user_id": 558915,
+                                  "user_name": "MiliTant",
+                                  "user_gender": "w",
+                                  "user_created_at": "2015-03-19T23:10:55.610000",
+                                  "comment_headline": "No Headline",
+                                  "comment_text": "Schauns mit Leuten, die verschiednes Gleichsetzun um die eigene Gesinnung zu verteidigen, kann man halt nicht diskutieren...  Hat nix mit Gut und b\u00f6se zu tun. Mit wem eine PArtei zusammenarbeiten will, ist interne Entscheidung., Die Regierung hat sich aber der Opposition zu stellen. Entscheiden k\u00f6nnen sie sowie das Wahlergebnis es ihnen erm\u00f6glicht. Aber nichtmal begutachten, nicht mal zuh\u00f6ren ist das , was eine Regierung nicht tun sollte...",
+                                  "comment_created_at": "2019-05-24T13:44:53.400000",
+                                  "comment_length": 444,
+                                  "depth": 6,
+                                  "replies": [
+                                    {
+                                      "id": 1041961906,
+                                      "parent_id": 1041960816,
+                                      "user_id": 680131,
+                                      "user_name": "Nordpol_90\u00b0",
+                                      "user_gender": "Unknown",
+                                      "user_created_at": "2018-09-14T18:36:17.003000",
+                                      "comment_headline": "No Headline",
+                                      "comment_text": "Bisher konnte mir noch niemand erkl\u00e4ren, warum die Oppsition in den letzte 1.5 Jahren keinen Misstrauensantrag gegen Kurz eingebracht hat. Gegen Kickl gab es 7. Und nicht jetzt sagen, das w\u00e4re sinnlos gewesen. Gegen Kickl wars auch sinnlos. Es geht ja \"um's Zeichen setzen\", wie das immer so sch\u00f6n hei\u00dft.  Jetzt, da Kurz den Wunsch der Linken erf\u00fcllt, den Kickl hinausgeworfen und bewusst den R\u00fccktritt der FP\u00d6 Minister in Kauf genommen hat, jetzt, wo die Regierung FP\u00d6-frei ist, jetzt gibts den Misstrauensantrag? Diese Parteitaktik werden die W\u00e4hler abstrafen und die SP\u00d6 wei\u00df das und ist ratlos wie sie der Doppelm\u00fchle entgeht.",
+                                      "comment_created_at": "2019-05-24T14:10:39.710000",
+                                      "comment_length": 630,
+                                      "depth": 7,
+                                      "replies": [
+                                        {
+                                          "id": 1041976665,
+                                          "parent_id": 1041961906,
+                                          "user_id": 684391,
+                                          "user_name": "reallynotadog",
+                                          "user_gender": "Unknown",
+                                          "user_created_at": "2018-12-07T09:59:55.717000",
+                                          "comment_headline": "No Headline",
+                                          "comment_text": "weil er die krise n\u00fctzen wollte um pers\u00f6nlich davon zu profitieren und weil er kickl nie rausgeschmissen h\u00e4tte wenn die krise nicht gekommen w\u00e4re",
+                                          "comment_created_at": "2019-05-24T20:41:09.337000",
+                                          "comment_length": 145,
+                                          "depth": 8,
+                                          "replies": [
+                                            {
+                                              "id": 1041977214,
+                                              "parent_id": 1041976665,
+                                              "user_id": 680131,
+                                              "user_name": "Nordpol_90\u00b0",
+                                              "user_gender": "Unknown",
+                                              "user_created_at": "2018-09-14T18:36:17.003000",
+                                              "comment_headline": "No Headline",
+                                              "comment_text": "Das ist die Erkl\u00e4rung, warum es in den letzten 1.5 Jahren keinen Misstrauensantrag gegen Kurz gegeben hat? Was anders f\u00e4llt Ihnen nicht dazu ein? Doskozil ist wenigstens so ehrlich zuzugeben, dass die SP\u00d6 rein aus parteitaktischen Gr\u00fcnden einen Misstrauensantrag einbringt",
+                                              "comment_created_at": "2019-05-24T21:00:14.597000",
+                                              "comment_length": 272,
+                                              "depth": 9,
+                                              "replies": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1041878391,
+              "parent_id": 1041869839,
+              "user_id": 95822,
+              "user_name": "josef wagner5",
+              "user_gender": "m",
+              "user_created_at": "2012-04-20T19:19:52.397000",
+              "comment_headline": "No Headline",
+              "comment_text": "\"...ungusti\u00f6se Streitereien\" Den Arbeitern das Geld wegnehmen, ab dem 3. Kind fast kein Kindergeld zahlen, mit Glyphosat den \u00f6sterreichischen Boden vergiften ... da soll doch dieser verkommenen Nicht-Diplomat mit seinen unm\u00f6glichen Vasallen der Teufel holen...",
+              "comment_created_at": "2019-05-22T17:14:02.293000",
+              "comment_length": 260,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041886578,
+                  "parent_id": 1041878391,
+                  "user_id": 680131,
+                  "user_name": "Nordpol_90\u00b0",
+                  "user_gender": "Unknown",
+                  "user_created_at": "2018-09-14T18:36:17.003000",
+                  "comment_headline": "No Headline",
+                  "comment_text": "Unsinn! Kindergeld gibt's f\u00fcr jedes Kind in gleicher H\u00f6he.",
+                  "comment_created_at": "2019-05-22T20:09:17.847000",
+                  "comment_length": 58,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041887837,
+              "parent_id": 1041869839,
+              "user_id": 503172,
+              "user_name": "Jaschin",
+              "user_gender": "m",
+              "user_created_at": "2011-10-05T16:03:25.547000",
+              "comment_headline": "No Headline",
+              "comment_text": "Es geht um Glaubw\u00fcrdigkeit, sonst knallt denen bald alles um die Ohren!!",
+              "comment_created_at": "2019-05-22T20:25:46.770000",
+              "comment_length": 72,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041879341,
+              "parent_id": 1041869839,
+              "user_id": 41758,
+              "user_name": "Blacky100",
+              "user_gender": "m",
+              "user_created_at": "2004-03-24T12:03:52.350000",
+              "comment_headline": "No Headline",
+              "comment_text": "Es geht nicht um Revanchismus sondern nur einfach darum das in den letzten 17 Monaten keine gute Politik gemacht wurde. jetzt hat man die Chance in los zu werden, wenn er wiederkommt wird er wieder scheitern.....  Ihn jetzt im. Amt zu lassen, bedeutet eine Zustimmung zu der Politik der letzten 18 Monaten",
+              "comment_created_at": "2019-05-22T17:33:45.887000",
+              "comment_length": 305,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041887771,
+                  "parent_id": 1041879341,
+                  "user_id": 690169,
+                  "user_name": "stolzer\u00f6sterreicher",
+                  "user_gender": "Unknown",
+                  "user_created_at": "2019-03-31T08:58:25.933000",
+                  "comment_headline": "in den letzten 17 Monaten keine gute Politik gemacht wurde",
+                  "comment_text": "Wieso? Er hat das gemacht wof\u00fcr er gew\u00e4hlt wurde oder?",
+                  "comment_created_at": "2019-05-22T20:24:46.513000",
+                  "comment_length": 54,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1041888206,
+                      "parent_id": 1041887771,
+                      "user_id": 556017,
+                      "user_name": "igb",
+                      "user_gender": "m",
+                      "user_created_at": "2015-01-28T12:42:37.453000",
+                      "comment_headline": "No Headline",
+                      "comment_text": "Er hat das gemacht, wof\u00fcr er bezahlt wurde, oder?  FTFY",
+                      "comment_created_at": "2019-05-22T20:32:02.790000",
+                      "comment_length": 55,
+                      "depth": 3,
+                      "replies": [
+                        {
+                          "id": 1041949019,
+                          "parent_id": 1041888206,
+                          "user_id": 558915,
+                          "user_name": "MiliTant",
+                          "user_gender": "w",
+                          "user_created_at": "2015-03-19T23:10:55.610000",
+                          "comment_headline": "No Headline",
+                          "comment_text": "wer zahlt schafft an",
+                          "comment_created_at": "2019-05-24T09:42:38.903000",
+                          "comment_length": 20,
+                          "depth": 4,
+                          "replies": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 1041891787,
+                      "parent_id": 1041887771,
+                      "user_id": 220439,
+                      "user_name": "Spi an",
+                      "user_gender": "m",
+                      "user_created_at": "2001-09-12T08:43:21",
+                      "comment_headline": "Eben h\u00f6chst intransparent",
+                      "comment_text": "No Comment",
+                      "comment_created_at": "2019-05-22T21:49:06",
+                      "comment_length": 10,
+                      "depth": 3,
+                      "replies": []
+                    },
+                    {
+                      "id": 1041949001,
+                      "parent_id": 1041887771,
+                      "user_id": 558915,
+                      "user_name": "MiliTant",
+                      "user_gender": "w",
+                      "user_created_at": "2015-03-19T23:10:55.610000",
+                      "comment_headline": "No Headline",
+                      "comment_text": "die 30% wolltentats\u00e4chlich eine schw\u00e4chung des AN schutzes?",
+                      "comment_created_at": "2019-05-24T09:42:26.660000",
+                      "comment_length": 59,
+                      "depth": 3,
+                      "replies": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1041876332,
+              "parent_id": 1041869839,
+              "user_id": 176724,
+              "user_name": "Prof. Primus von Quack",
+              "user_gender": "m",
+              "user_created_at": "2003-02-20T07:43:33",
+              "comment_headline": "No Headline",
+              "comment_text": "Gleich Ihr erstes Argument gegen puren Revanchismus ist purer Revanchismus",
+              "comment_created_at": "2019-05-22T16:30:38.413000",
+              "comment_length": 74,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041902092,
+              "parent_id": 1041869839,
+              "user_id": 337849,
+              "user_name": "vollkommen wurscht",
+              "user_gender": "m",
+              "user_created_at": "2002-11-16T17:52:42",
+              "comment_headline": "No Headline",
+              "comment_text": "- dass Sebastian Kurz als erste Reaktion auf das Video eine antisemitische Chiffre bedient, sagt viel \u00fcber den Zustand des Landes und den Unwillen von Sebastian Kurz, diesen Zustand zu korrigieren",
+              "comment_created_at": "2019-05-23T09:20:54.750000",
+              "comment_length": 196,
+              "depth": 1,
+              "replies": [
+                {
+                  "id": 1041966018,
+                  "parent_id": 1041902092,
+                  "user_id": 22231,
+                  "user_name": "Canis in urbe custodiendus non est",
+                  "user_gender": "m",
+                  "user_created_at": "2001-02-25T22:54:29",
+                  "comment_headline": "No Headline",
+                  "comment_text": "der Inbegriff des dirty campaigning ist nunmal der Herr silberstein, den die sp\u00f6 damals beauftragt hat. Ob ersterer nun die Finger im Spiel hatte order nicht, es war wohl ein Video, das im Zusammenhang mit dem Wahlkampf produziert wurde. Ob das wirklich ein antisemitisches Chiffre war, oder ein - rhetorisch missgl\u00fcckter - Hinweis auf eben dieses dirty campaigning, das ist wohl nicht ganz so offensichtlich.",
+                  "comment_created_at": "2019-05-24T16:04:50.273000",
+                  "comment_length": 409,
+                  "depth": 2,
+                  "replies": [
+                    {
+                      "id": 1042010016,
+                      "parent_id": 1041966018,
+                      "user_id": 185213,
+                      "user_name": "Unhold L.",
+                      "user_gender": "m",
+                      "user_created_at": "2000-08-29T13:58:07",
+                      "comment_headline": "No Headline",
+                      "comment_text": "Es hat schon einen Grund, warum die es Silberstein-Methoden nennen und nicht zB Puller-Methoden ...",
+                      "comment_created_at": "2019-05-26T08:53:26.490000",
+                      "comment_length": 99,
+                      "depth": 3,
+                      "replies": []
+                    }
+                  ]
+                },
+                {
+                  "id": 1041949237,
+                  "parent_id": 1041902092,
+                  "user_id": 185213,
+                  "user_name": "Unhold L.",
+                  "user_gender": "m",
+                  "user_created_at": "2000-08-29T13:58:07",
+                  "comment_headline": "No Headline",
+                  "comment_text": "Die erste Reaktion war vor allem eine Belangsendung der \u00d6VP.",
+                  "comment_created_at": "2019-05-24T09:47:46.280000",
+                  "comment_length": 60,
+                  "depth": 2,
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "id": 1041957568,
+              "parent_id": 1041869839,
+              "user_id": 693667,
+              "user_name": "denken.erlaubt",
+              "user_gender": "Unknown",
+              "user_created_at": "2019-05-24T12:20:52.570000",
+              "comment_headline": "So einfach ist es wohl nicht...",
+              "comment_text": "Es ist immer wieder interessant zu verfolgen, wie hier relativ einseitig \u00fcber das derzeitige politische Chaos debattiert wird. Man gewinnt den Eindruck, dass ganz \u00d6sterreich gegen eine t\u00fcrkis / blaue Regierung, ihr Machtstreben und die Art und Weise wie hier (nicht ganz unerfolgreich) Politik gemacht wird, agiert. Interessanterweise gab es bei der letzten Nationalratswahl eine Mehrheit f\u00fcr T\u00fcrkis / Blau. Offensichtlich nicht zuletzt, da man den Stillstand innerhalb der rot / schwarzen Regierung nicht mehr hinnehmen wollte. Reformen wurden nur z\u00f6gerlich umgesetzt, es stand mehr Streit und Diskussion im Vordergrund, als tats\u00e4chlich wahrnehmbare, geleistete Arbeit die auch Taten folgen lie\u00df. Dies wird immer wieder vergessen!",
+              "comment_created_at": "2019-05-24T12:38:23.463000",
+              "comment_length": 731,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1042010702,
+              "parent_id": 1041869839,
+              "user_id": 187536,
+              "user_name": "rettungsring",
+              "user_gender": "w",
+              "user_created_at": "2008-07-17T12:58:55.767000",
+              "comment_headline": "Entzaubertes politisches Jahrhunderttalent",
+              "comment_text": "Misstrauensantrag ja, mit Bauchweh, immerhin hat es das hierzulande meines Wissens noch nicht gegeben.  Aber dann eine Konzentrierung von  Fachleuten bis zu den Neuwahlen, k\u00f6nnte Ruhe hineinbringen, Nach den ganzen Scheu\u00dflichkeiten w\u00e4re das dringend notwendig. Dass \u00d6sterreich eine Lachnummer ist, konnte ich in Hamburg feststellen, hier wurde ich vergangenen Freitag und Samstag andauernd darauf angesprochen. War zum Fremdsch\u00e4men.",
+              "comment_created_at": "2019-05-26T09:24:12.980000",
+              "comment_length": 432,
+              "depth": 1,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    },
+    "2000103750251": {
+      "article_title": "Tausende Sch\u00fcler in Wien beim weltweit ausgerufenen Klimastreik",
+      "article_publish_date": "2019-05-24T12:47:56.540000",
+      "user_comments_count": 2,
+      "user_replies_count": 2,
+      "threads": [
+        {
+          "id": 1041964537,
+          "parent_id": 0,
+          "user_id": 499300,
+          "user_name": "Modest House",
+          "user_gender": "m",
+          "user_created_at": "2003-06-14T13:11:43.563000",
+          "comment_headline": "No Headline",
+          "comment_text": "Bei uns gabs 1968 noch einen 'Direktorsbrief' indem angek\u00fcndigt wurde dass die Teilnahme an einer Demo mit Schulausschluss geahndet wird, und nachdem die Denkweise damals noch eine andere war wei\u00df ich nicht ob man das beeinspruchen h\u00e4tte k\u00f6nnen. (Erinnere mich aber nicht daran dass das wirklich exekutiert geworden w\u00e4re)",
+          "comment_created_at": "2019-05-24T15:28:05.947000",
+          "comment_length": 321,
+          "depth": 0,
+          "replies": [
+            {
+              "id": 1041966616,
+              "parent_id": 1041964537,
+              "user_id": 124021,
+              "user_name": "F.S.K",
+              "user_gender": "m",
+              "user_created_at": "2006-01-29T16:16:15.410000",
+              "comment_headline": "No Headline",
+              "comment_text": "1968 hat man auch noch minir\u00f6cke getragen. ganz andere zeit",
+              "comment_created_at": "2019-05-24T16:20:53.670000",
+              "comment_length": 59,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041965177,
+              "parent_id": 1041964537,
+              "user_id": 22231,
+              "user_name": "Canis in urbe custodiendus non est",
+              "user_gender": "m",
+              "user_created_at": "2001-02-25T22:54:29",
+              "comment_headline": "No Headline",
+              "comment_text": "die Teilnahme w\u00e4hrend der Schulstunden ist mWn auch noch 2019 untersagt",
+              "comment_created_at": "2019-05-24T15:44:40.177000",
+              "comment_length": 71,
+              "depth": 1,
+              "replies": []
+            }
+          ]
+        },
+        {
+          "id": 1041963574,
+          "parent_id": 0,
+          "user_id": 677255,
+          "user_name": "experte-f\u00fcr-alles-und-nichts",
+          "user_gender": "Unknown",
+          "user_created_at": "2018-07-24T10:31:08.970000",
+          "comment_headline": "No Headline",
+          "comment_text": "Herr Fa\u00dfmann, walten Sie Ihres Amtes...Da gibt es doch einen Erlass, der auf die Schulpflicht hinweist...",
+          "comment_created_at": "2019-05-24T14:58:51.840000",
+          "comment_length": 105,
+          "depth": 0,
+          "replies": [
+            {
+              "id": 1041964064,
+              "parent_id": 1041963574,
+              "user_id": 633284,
+              "user_name": "manweisjani",
+              "user_gender": "Unknown",
+              "user_created_at": "2017-05-20T22:23:04.210000",
+              "comment_headline": "No Headline",
+              "comment_text": "wof\u00fcr sollen die Sch\u00fcler lernen, wenn sie keine Zukunft haben ?",
+              "comment_created_at": "2019-05-24T15:13:58.723000",
+              "comment_length": 63,
+              "depth": 1,
+              "replies": []
+            },
+            {
+              "id": 1041965369,
+              "parent_id": 1041963574,
+              "user_id": 22231,
+              "user_name": "Canis in urbe custodiendus non est",
+              "user_gender": "m",
+              "user_created_at": "2001-02-25T22:54:29",
+              "comment_headline": "No Headline",
+              "comment_text": "ich nehme das mal als Sarkasmus - und ja, genau den Erlass gibt es. Es lebe Christoph Waltz in seiner zutreffenden Beurteilung \"Austria is a catholic country ... it works through traumatization\" - zwar nicht genau zu diesem Thema, aber schon die Schule sch\u00fcrt die Ich-Schw\u00e4che im Land.",
+              "comment_created_at": "2019-05-24T15:49:19.087000",
+              "comment_length": 285,
+              "depth": 1,
+              "replies": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "token_count": 17528
+}
