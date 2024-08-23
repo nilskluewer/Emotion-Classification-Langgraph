@@ -282,11 +282,11 @@ import os
 
 # Main execution
 if __name__ == "__main__":
-    preprocessed_file = "../data/preprocessed/preprocessed_data.pkl"
+    preprocessed_file = "../../data/preprocessed/preprocessed_data.pkl"
 
     if not os.path.exists(preprocessed_file):
         print("Preprocessed data not found. Preprocessing...")
-        preprocessor = DataPreprocessor('../data/raw_csv/Postings_01052019_31052019.csv')
+        preprocessor = DataPreprocessor('../../data/raw_csv/Postings_01052019_31052019.csv')
         preprocessor.process()
         preprocessor.save_preprocessed_data(preprocessed_file)
     else:
@@ -297,8 +297,8 @@ if __name__ == "__main__":
     user_context_sphere = UserContextSphere(preprocessor.df, thread_manager)
 
     # Create the spheres directories if they don't exist
-    spheres_dir_no_cutoff = "spheres/no_cutoff"
-    spheres_dir_cutoff = "spheres/cutoff"
+    spheres_dir_no_cutoff = "no_cutoff"
+    spheres_dir_cutoff = "cutoff"
     os.makedirs(spheres_dir_no_cutoff, exist_ok=True)
     os.makedirs(spheres_dir_cutoff, exist_ok=True)
 

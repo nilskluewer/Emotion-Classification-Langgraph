@@ -463,8 +463,8 @@ if __name__ == "__main__":
 
     # File paths
     preprocessed_file = "../../../data/preprocessed/preprocessed_data.pkl"
-    spheres_dir_no_cutoff = "../../spheres/no_cutoff"
-    spheres_dir_cutoff = "../../spheres/cutoff"
+    spheres_dir_no_cutoff = "../no_cutoff"
+    spheres_dir_cutoff = "../cutoff"
 
     # Create directories if they don't exist
     os.makedirs(spheres_dir_no_cutoff, exist_ok=True)
