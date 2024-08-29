@@ -165,3 +165,4 @@ data/preprocessed/preprocessed_data.csv
 /preprocessing/spheres/JSON/articles_with_threads_full_tree.json
 /preprocessing/spheres/MD/
 /preprocessing/spheres/JSON/
+.DS_Store
