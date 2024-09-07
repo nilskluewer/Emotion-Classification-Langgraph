@@ -47,7 +47,7 @@ def process_user_data(user_id, path_article_full_tree):
     modified_output_path = f'spheres/MD/user_{user_id}_threads_cleaned.md'
 
     # Generate user context Markdown files
-    build_user_context.main(input_path, full_output_path, modified_output_path)
+    build_user_context.main(input_path, full_output_path, modified_output_path, user_id)
 
 def chunked_iterable(iterable, size):
     """

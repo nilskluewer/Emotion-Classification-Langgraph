@@ -45,20 +45,30 @@ def json_to_xml(json_data):
 
     return ET.tostring(root, encoding='unicode')
 
-def generate_full_markdown(json_data):
+def generate_full_markdown(json_data, target_user_id):
     """
     Generates a full Markdown string from the given JSON data.
     """
     output = []
 
-    # Add user information at the beginning
-    first_article = next(iter(json_data.values()))
-    first_thread = first_article['user_threads'][0]
-    user_name = first_thread['user_name']
+    # Find the user information for the target user_id
+    user_name = None
+    for article_data in json_data.values():
+        for thread in article_data['user_threads']:
+            if str(thread['user_id']) == str(target_user_id):
+                user_name = thread['user_name']
+                break
+        if user_name:
+            break
 
-    output.append(f"# User: {user_name}\n\n")
+    if not user_name:
+        print(f"Warning: Could not find user_name for user_id {target_user_id}")
+        user_name = f"Unknown (ID: {target_user_id})"
+
+    output.append(f"# User: {user_name} (ID: {target_user_id})\n\n")
     output.append("This document contains the thread data for the above user across multiple articles.\n\n")
     output.append("---\n\n")
+
 
     for article_id, article_data in json_data.items():
         output.append(f"## Article ID: {article_id}\n")
@@ -105,20 +115,30 @@ def json_to_modified_xml(json_data):
 
     return ET.tostring(root, encoding='unicode')
 
-def generate_modified_markdown(json_data):
+def generate_modified_markdown(json_data, target_user_id):
     """
     Generates a modified Markdown string from the given JSON data.
     """
     output = []
 
-    # Add user information at the beginning
-    first_article = next(iter(json_data.values()))
-    first_thread = first_article['user_threads'][0]
-    user_name = first_thread['user_name']
+    # Find the user information for the target user_id
+    user_name = None
+    for article_data in json_data.values():
+        for thread in article_data['user_threads']:
+            if str(thread['user_id']) == str(target_user_id):
+                user_name = thread['user_name']
+                break
+        if user_name:
+            break
 
-    output.append(f"# User: {user_name}\n\n")
+    if not user_name:
+        print(f"Warning: Could not find user_name for user_id {target_user_id}")
+        user_name = f"Unknown (ID: {target_user_id})"
+
+    output.append(f"# User: {user_name} (ID: {target_user_id})\n\n")
     output.append("This document contains the thread data for the above user across multiple articles.\n\n")
     output.append("---\n\n")
+
 
     for article_id, article_data in json_data.items():
         output.append(f"## Article ID: {article_id}\n")
@@ -137,15 +157,15 @@ def generate_modified_markdown(json_data):
 
     return "".join(output)
 
-def main(input_path, full_output_path, modified_output_path):
+def main(input_path, full_output_path, modified_output_path, user_id):
     """
     Main function to read JSON from input_path, generate Markdown, and write to output paths.
     """
     with open(input_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
 
-    full_markdown_content = generate_full_markdown(json_data)
-    modified_markdown_content = generate_modified_markdown(json_data)
+    full_markdown_content = generate_full_markdown(json_data, target_user_id=user_id)
+    modified_markdown_content = generate_modified_markdown(json_data, target_user_id=user_id)
 
     with open(full_output_path, 'w', encoding='utf-8') as f:
         f.write(full_markdown_content)
@@ -155,7 +175,8 @@ def main(input_path, full_output_path, modified_output_path):
 
 
 if __name__ == "__main__":
-    input_path = 'spheres/JSON/user_5002_threads.json'
-    full_output_path = 'spheres/MD/user_5002_threads_full.md'
-    modified_output_path = 'spheres/MD/user_5002_threads_cleaned.md'
-    main(input_path, full_output_path, modified_output_path)
+    user_id = 30537
+    input_path = f'spheres/JSON/user_{user_id}_threads.json'
+    full_output_path = f'spheres/MD/user_{user_id}_threads_full.md'
+    modified_output_path = f'spheres/MD/user_{user_id}_threads_cleaned.md'
+    main(input_path, full_output_path, modified_output_path, user_id)
