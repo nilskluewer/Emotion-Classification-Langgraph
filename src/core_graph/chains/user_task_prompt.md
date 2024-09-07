@@ -1,3 +1,3 @@
-PLease analyse the context with the given structure. Classify the given context!
+This is the context, please analyse this context and give me an assessment
 
-{context}
+"{context_sphere}"

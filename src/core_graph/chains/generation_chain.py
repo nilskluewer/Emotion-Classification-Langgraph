@@ -1,3 +1,5 @@
+from lib2to3.fixes.fix_input import context
+
 from langchain_core.prompts import ChatPromptTemplate
 import uuid
 from pathlib import Path
@@ -74,16 +76,10 @@ def create_knowledge_query_translation():
         [
             ("human", load_system_prompt("LFB_role_setting_prompt.md")),
             ("ai", load_system_prompt("LFB_role_feedback_prompt.md")),
+            ("human", load_system_prompt("user_task_prompt.md"))
         ]
-    )
+    ).partial(context_sphere = "context_sphere")
 
-    prompt2 = ChatPromptTemplate(
-        [
-            ("human", "{context}"),
-        ]
-    )
-
-    print("PROMPT2", prompt2)
 
     # TODO: Create llm müssen wir mit langchain machen da wir mehre modelle nehmen wollen!
     llm = create_llm(
@@ -92,7 +88,6 @@ def create_knowledge_query_translation():
         response_mime_type="application/json",
         response_schema=queries_schema,
     )
-    print("PROMPT", prompt)
 
     chain = prompt | llm | PydanticOutputParser(pydantic_object=Classification)
 
@@ -102,6 +97,6 @@ def create_knowledge_query_translation():
 if __name__ == "__main__":
     chain = create_knowledge_query_translation()
     context_sphere = load_system_prompt("user_30537_threads_cleaned.md")
-    result = chain.invoke({"context": "Was geht ab?"})
+    result = chain.invoke({"context_sphere": context_sphere})
     print("\n ----- \n")
     print(result)

@@ -21,6 +21,9 @@ def create_llm(
     else:
         raise ValueError(f"No model init strategy for model_name: {model_name}")
 
+    if model_name.startswith("Cohere"):
+        return
+
 
 default_safety_settings = {
     HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_ONLY_HIGH,
