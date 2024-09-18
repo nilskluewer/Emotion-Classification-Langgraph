@@ -13,6 +13,7 @@ from langchain_core.prompts.chat import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.tools import StructuredTool
 from pydantic import BaseModel, Field
 from model import create_llm
+import dotenv
 
 
 def load_system_prompt(filename: str, folder: Path = Path(__file__).parent):
@@ -84,7 +85,7 @@ def create_knowledge_query_translation():
     # TODO: Create llm müssen wir mit langchain machen da wir mehre modelle nehmen wollen!
     llm = create_llm(
         model_name="gemini-1.5-pro-001",
-        temperature=1,
+        temperature=0.5,
         response_mime_type="application/json",
         response_schema=queries_schema,
     )
