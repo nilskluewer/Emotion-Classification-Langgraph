@@ -1,5 +1,5 @@
-import build_user_json_v7
-import build_user_context
+import a_build_user_json_v7
+import b_build_user_context
 from helper_functions import get_all_user_ids
 import concurrent.futures
 import json
@@ -39,7 +39,7 @@ def process_user_data(user_id, path_article_full_tree):
         path_article_full_tree (str): Path to the full tree JSON file.
     """
     # Generate user JSON
-    build_user_json_v7.main(path_article_full_tree, user_id)
+    a_build_user_json_v7.main(path_article_full_tree, user_id)
 
     # Define paths for input and output files
     input_path = f'spheres/JSON/user_{user_id}_threads.json'
@@ -47,7 +47,7 @@ def process_user_data(user_id, path_article_full_tree):
     modified_output_path = f'spheres/MD/user_{user_id}_threads_cleaned.md'
 
     # Generate user context Markdown files
-    build_user_context.main(input_path, full_output_path, modified_output_path, user_id)
+    b_build_user_context.main(input_path, full_output_path, modified_output_path, user_id)
 
 def chunked_iterable(iterable, size):
     """
