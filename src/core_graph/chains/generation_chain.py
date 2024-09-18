@@ -20,7 +20,7 @@ def load_system_prompt(filename: str, folder: Path = Path(__file__).parent):
 
 # TODO: Anpassen des Output formats / Structured output langchain
 class Classification(BaseModel):
-    thoughts: Annotated[
+    inner_monologue: Annotated[
         str,
         Field(
             description="Show how you come to conlucsion. Whats in your mind? What is the reason for the given answer"
@@ -84,7 +84,7 @@ def create_knowledge_query_translation():
     # TODO: Create llm müssen wir mit langchain machen da wir mehre modelle nehmen wollen!
     llm = create_llm(
         model_name="gemini-1.5-pro-001",
-        temperature=0.5,
+        temperature=1,
         response_mime_type="application/json",
         response_schema=queries_schema,
     )
