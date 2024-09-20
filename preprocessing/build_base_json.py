@@ -1,4 +1,4 @@
-#%%
+
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -161,7 +161,6 @@ class CommentThreadManager:
         return articles
 
 
-#%%
 # Main execution
 preprocessed_file = r"../data/preprocessed/preprocessed_data.pkl"
 

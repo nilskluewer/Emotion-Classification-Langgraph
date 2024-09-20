@@ -68,7 +68,7 @@ def main():
     Main function to process data for all users and save progress periodically.
     """
     # Path to the full tree JSON file
-    path_article_full_tree = 'spheres/JSON/articles_with_threads_full_tree.json'
+    path_article_full_tree = 'spheres/JSON/articles_with_threads_full_tree.json
 
     # Get all user IDs
     user_ids = get_all_user_ids("../data/preprocessed/preprocessed_data.pkl")
