@@ -160,24 +160,24 @@ class CommentThreadManager:
             }
         return articles
 
+def main():
+    # Main execution
+    preprocessed_file = r"../data/preprocessed/preprocessed_data.pkl"
 
-# Main execution
-preprocessed_file = r"../data/preprocessed/preprocessed_data.pkl"
+    if not os.path.exists(preprocessed_file):
+        print("Preprocessed data not found. Preprocessing...")
+        preprocessor = DataPreprocessor('../data/raw_csv/Postings_01052019_31052019.csv')
+        preprocessor.process()
+        preprocessor.save_preprocessed_data(preprocessed_file)
+    else:
+        print("Loading preprocessed data...")
+        preprocessor = DataPreprocessor.load_preprocessed_data(preprocessed_file)
 
-if not os.path.exists(preprocessed_file):
-    print("Preprocessed data not found. Preprocessing...")
-    preprocessor = DataPreprocessor('../data/raw_csv/Postings_01052019_31052019.csv')
-    preprocessor.process()
-    preprocessor.save_preprocessed_data(preprocessed_file)
-else:
-    print("Loading preprocessed data...")
-    preprocessor = DataPreprocessor.load_preprocessed_data(preprocessed_file)
+    thread_manager = CommentThreadManager(preprocessor.df)
+    articles_with_threads = thread_manager.get_article_threads()
 
-thread_manager = CommentThreadManager(preprocessor.df)
-articles_with_threads = thread_manager.get_article_threads()
-
-# Save the comprehensive data structure to a JSON file
-output_path = "spheres/articles_with_threads_full_tree.json"
-with open(output_path, 'w', encoding='utf-8') as f:
-    json.dump(articles_with_threads, f, indent=2)
-print(f"Comprehensive data structure saved to {output_path}")
+    # Save the comprehensive data structure to a JSON file
+    output_path = "spheres/articles_with_threads_full_tree.json"
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(articles_with_threads, f, indent=2)
+    print(f"Comprehensive data structure saved to {output_path}")
