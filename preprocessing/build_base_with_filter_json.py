@@ -57,7 +57,7 @@ def save_sampled_json(df: pd.DataFrame, output_path: str):
 
 def main():
     preprocessed_file = r"../data/preprocessed/preprocessed_data.pkl"
-    full_tree_path = "spheres/full_tree_articles_with_threads.json"
+    full_tree_path = "spheres/articles_with_threads_full_tree.json"
 
     if not os.path.exists(preprocessed_file):
         raise FileNotFoundError("Preprocessed data not found. Please run the base script first.")
@@ -70,7 +70,7 @@ def main():
     save_full_tree_json(df, full_tree_path)
 
     # Define parameters for sampling
-    num_users = 100
+    num_users = 50
 
     # Sample users from the full data
     sampled_df = sample_users_from_full_tree(df, num_users)
