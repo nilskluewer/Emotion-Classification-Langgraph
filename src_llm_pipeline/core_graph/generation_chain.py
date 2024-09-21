@@ -3,75 +3,94 @@ from lib2to3.fixes.fix_input import context
 from langchain_core.prompts import ChatPromptTemplate
 import uuid
 from pathlib import Path
-from typing import Annotated, TypedDict
+from typing import Annotated, TypedDict, List
 
 from dotenv import load_dotenv
 from langchain_core.messages import AnyMessage
 from langchain_core.messages.tool import ToolCall
-from langchain_core.output_parsers.pydantic import PydanticOutputParser
 from langchain_core.prompts.chat import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.output_parsers.pydantic import PydanticOutputParser
+from langchain_core.utils.json_schema import dereference_refs
 from langchain_core.tools import StructuredTool
 from pydantic import BaseModel, Field
 from model import create_llm
 import dotenv
 
+load_dotenv()
 
-def load_system_prompt(filename: str, folder: Path = Path(__file__).parent):
+
+def load_system_prompt(filename: str, folder: Path = Path("./prompts")):
+    return (folder / filename).read_text()
+
+def load_input(filename: str, folder: Path = Path("./inputs")):
     return (folder / filename).read_text()
 
 # TODO: Anpassen des Output formats / Structured output langchain
-class Classification(BaseModel):
-    inner_monologue: Annotated[
+class EmotionalAspect(BaseModel):
+    """Represents a single thought-classification pair for an emotional aspect."""
+    thought: Annotated[
         str,
-        Field(
-            description="Show how you come to conlucsion. Whats in your mind? What is the reason for the given answer"
-        ),
+        Field(description="Provide a detailed thought process for analyzing the emotional aspect.")
     ]
-    context_dependent_analysis: Annotated[
-        list[str],
-        Field(description="""The output should reflect not just the isolated comment, but its place within the broader discussion. For example, "User A's comment expresses frustration, likely in response to the previous comment's dismissive tone towards the article's main argument."""),
-    ]
-    emotion_granularity: Annotated[
+    classification: Annotated[
         str,
-        Field(description="Assess the user's ability to differentiate emotions. E.g., 'User shows high emotional granularity, distinguishing between frustration and disappointment.'"),
+        Field(description="Classify the emotional aspect based on the thought process, referencing contextual and theoretical insights.")
     ]
-    emotion_concepts: Annotated[
-        list[str],
-        Field(description="Identify the emotion concepts the user is drawing upon. E.g., 'User employs complex emotion concepts, blending 'Schadenfreude' with moral indignation.'"),
+    score: Annotated[
+        float,
+        Field(description="Score from 0 to 1, low to high", ge=0, le=1)
     ]
-    situational_context: Annotated[
-        list[str],
-        Field(description="Consider broader situational factors influencing the emotional response. E.g., 'User's frustration likely influenced by recent economic downturn affecting job security.'"),
+
+class EmotionValence(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification for emotion valence.")
     ]
-    emotion_regulation: Annotated[
-        str,
-        Field(description="Identify any emotion regulation strategies evident in the comment. E.g., 'User appears to be using cognitive reappraisal to manage anger, reframing the situation more positively.'"),
+
+class EmotionIntensity(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification for analyzing the intensity of the emotion expressed.")
     ]
-    dimensional_assessment: Annotated[
-        list[str],
-        Field(description="""Rather than just labeling emotions, the output should indicate the valence and intensity. For instance, "Comment shows moderate negative valence, with an intensity of 7/10 on the anger dimension."""),
+
+class ContextualRelevance(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification for evaluating the relevance of the emotion in the given context.")
     ]
-    probabilistic_classification: Annotated[
-        list[str],
-        Field(description="""Instead of definitive labels, the output should express probabilities. For example, "70% confidence in primary emotion of disappointment, with 30% possibility of underlying anxiety."""),
+
+class EngagementLevel(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification for assessing the level of engagement or involvement of the commenter.")
     ]
-    individual_user_patterns: Annotated[
-        list[str],
-        Field(description="""The analysis should note how a user's current emotional expression compares to their typical baseline. For instance, 'User B's comment shows unusually high intensity of joy compared to their typical neutral stance in political discussions.'"""),
+
+class EmotionRegulation(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification of emotion regulation strategies by the user.")
     ]
-    cultural_context: Annotated[
-        list[str],
-        Field(description="""The output should acknowledge Austrian-specific factors. For example, 'User's sarcasm likely references recent political events in Vienna, suggesting frustration with local governance.'"""),
+
+class Polarization(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification for assessing polarization in emotional expressions, considering how extreme or divisive the emotions might be.")
     ]
-    flexible_interpretation: Annotated[
-        list[str],
-        Field(description="""The analysis should be presented as a working hypothesis, open to revision. For instance, 'Initial assessment suggests anger, but this interpretation may evolve with further context from subsequent comments in the thread.'"""),
-    ]
+
+class ClassificationOutput(BaseModel):
+    """Aggregates all emotional aspect classes into a comprehensive schema."""
+    emotion_valence: EmotionValence
+    emotion_intensity: EmotionIntensity
+    contextual_relevance: ContextualRelevance
+    engagement_level: EngagementLevel
+    emotion_regulation: EmotionRegulation
+    polarization: Polarization
 
 
 # TODO: Prompt mit Langchain bauen für Role play
 def create_knowledge_query_translation():
-    queries_schema = Classification.model_json_schema()
+    queries_schema = dereference_refs(ClassificationOutput.model_json_schema())
+    queries_schema.pop("$defs", None)
 
     prompt = ChatPromptTemplate(
         [
@@ -82,6 +101,8 @@ def create_knowledge_query_translation():
     ).partial(context_sphere = "context_sphere")
 
 
+
+
     # TODO: Create llm müssen wir mit langchain machen da wir mehre modelle nehmen wollen!
     llm = create_llm(
         model_name="gemini-1.5-pro-001",
@@ -90,14 +111,37 @@ def create_knowledge_query_translation():
         response_schema=queries_schema,
     )
 
-    chain = prompt | llm | PydanticOutputParser(pydantic_object=Classification)
+    chain = prompt | llm | PydanticOutputParser(pydantic_object=ClassificationOutput)
 
     return chain
 
 
 if __name__ == "__main__":
     chain = create_knowledge_query_translation()
-    context_sphere = load_system_prompt("user_30537_threads_cleaned.md")
+    context_sphere = load_input("user_118399_threads_cleaned.md")
     result = chain.invoke({"context_sphere": context_sphere})
     print("\n ----- \n")
     print(result)
+
+
+
+"""
+class DimensionalAssessment(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification based on the valence and intensity of the emotion.")
+    ]
+
+
+class CulturalContext(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification of emotion in the context of Austrian cultural factors.")
+    ]
+
+class FlexibleInterpretation(BaseModel):
+    components: Annotated[
+        List[EmotionalAspect],
+        Field(description="Thought and classification stating a working hypothesis open to revision.")
+    ]
+    """

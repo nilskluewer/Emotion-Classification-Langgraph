@@ -4,94 +4,127 @@ from helper_functions import get_all_user_ids
 import concurrent.futures
 import json
 import os
+import random
+import tiktoken
+import os
+from datetime import datetime
 
+# Am Anfang der Datei, fügen Sie diese Konstanten hinzu:
+OUTPUT_BASE_DIR = 'samples'
+TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 PROGRESS_FILE = 'progress.json'
-CHUNK_SIZE = 10
+CHUNK_SIZE = 5
+TOKEN_LOWER_BOUND = 2000  # Minimum number of tokens
+TOKEN_UPPER_BOUND = 10000   # Maximum number of tokens
+DESIRED_SAMPLE_SIZE = 20
+
+def create_output_directory():
+    """Create a directory for the current sample run."""
+    dir_name = f"{TIMESTAMP}_tokens_{TOKEN_LOWER_BOUND}_{TOKEN_UPPER_BOUND}_samples_{DESIRED_SAMPLE_SIZE}"
+    full_path = os.path.join(OUTPUT_BASE_DIR, dir_name)
+    os.makedirs(full_path, exist_ok=True)
+    return full_path
+
+def create_full_output_directory(base_dir):
+    full_dir = os.path.join(base_dir, 'full')
+    os.makedirs(full_dir, exist_ok=True)
+    return full_dir
+
+def create_cleaned_output_directory(base_dir):
+    cleaned_dir = os.path.join(base_dir, 'cleaned')
+    os.makedirs(cleaned_dir, exist_ok=True)
+    return cleaned_dir
 
 def load_progress():
-    """
-    Load the progress from the JSON file.
-
-    Returns:
-        set: A set of processed user IDs.
-    """
+    """Load the progress from a JSON file."""
     if os.path.exists(PROGRESS_FILE):
         with open(PROGRESS_FILE, 'r') as file:
             return set(json.load(file))
     return set()
 
-def save_progress(processed_user_ids):
-    """
-    Save the progress to the JSON file.
+def clear_progress():
+    """Clear the contents of the progress file."""
+    with open(PROGRESS_FILE, 'w') as file:
+        json.dump([], file)
+    print(f"The progress has been cleared in {PROGRESS_FILE}.")
 
-    Args:
-        processed_user_ids (set): A set of processed user IDs.
-    """
+def save_progress(processed_user_ids):
+    """Save the progress to a JSON file."""
     with open(PROGRESS_FILE, 'w') as file:
         json.dump(list(processed_user_ids), file)
 
-def process_user_data(user_id, path_article_full_tree):
-    """
-    Process data for a single user by generating JSON and Markdown files.
+def count_tokens(text):
+    """Count the number of tokens in the given text using tiktoken."""
+    encoder = tiktoken.get_encoding("cl100k_base")  # Using the gpt2 model encoding as an example
+    tokens = encoder.encode(text)
+    return len(tokens)
 
-    Args:
-        user_id (int): The ID of the user to process.
-        path_article_full_tree (str): Path to the full tree JSON file.
-    """
-    # Generate user JSON
+def validate_output(input_path):
+    """Check if the cleaned .md output meets token criteria and print details if rejected."""
+    if os.path.exists(input_path):
+        with open(input_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+            token_count = count_tokens(content)
+            if TOKEN_LOWER_BOUND <= token_count <= TOKEN_UPPER_BOUND:
+                return True
+            else:
+                print(f"File {input_path} has {token_count} tokens and was rejected.")
+    return False
+
+def process_user_data(user_id, path_article_full_tree, full_output_dir, cleaned_output_dir):
+    """Process data for a single user."""
+    json_path = f'spheres/JSON/user_{user_id}_threads.json'
+
     a_build_user_json_v7.main(path_article_full_tree, user_id)
 
-    # Define paths for input and output files
-    input_path = f'spheres/JSON/user_{user_id}_threads.json'
-    full_output_path = f'spheres/MD/user_{user_id}_threads_full.md'
-    modified_output_path = f'spheres/MD/user_{user_id}_threads_cleaned.md'
+    full_output_path = os.path.join(full_output_dir, f'user_{user_id}_threads_full.md')
+    cleaned_output_path = os.path.join(cleaned_output_dir, f'user_{user_id}_threads_cleaned.md')
+    b_build_user_context.main(json_path, full_output_path, cleaned_output_path, user_id)
 
-    # Generate user context Markdown files
-    b_build_user_context.main(input_path, full_output_path, modified_output_path, user_id)
+    # Check if the cleaned .md meets the token criteria
+    if not validate_output(cleaned_output_path):
+        # If criteria not met, delete both .md files and the JSON file
+        os.remove(full_output_path)
+        os.remove(cleaned_output_path)
+        os.remove(json_path)
+        return False
 
-def chunked_iterable(iterable, size):
-    """
-    Yield successive chunks from an iterable.
+    # After processing, delete the JSON file
+    os.remove(json_path)
 
-    Args:
-        iterable (iterable): The iterable to chunk.
-        size (int): The size of each chunk.
-
-    Yields:
-        list: A chunk of the iterable.
-    """
-    for i in range(0, len(iterable), size):
-        yield iterable[i:i + size]
+    return True
 
 def main():
-    """
-    Main function to process data for all users and save progress periodically.
-    """
-    # Path to the full tree JSON file
-    path_article_full_tree = 'spheres/JSON/articles_with_threads_full_tree.json'
+    """Main function to process user data."""
+    base_output_dir = create_output_directory()
+    full_output_dir = create_full_output_directory(base_output_dir)
+    cleaned_output_dir = create_cleaned_output_directory(base_output_dir)
 
-    # Get all user IDs
+    path_article_full_tree = 'spheres/articles_with_threads_full_tree.json'
     user_ids = get_all_user_ids("../data/preprocessed/preprocessed_data.pkl")
-
-    # Load processed user IDs
     processed_user_ids = load_progress()
-
-    # Filter out already processed user IDs
     user_ids_to_process = [user_id for user_id in user_ids if user_id not in processed_user_ids]
+    random.shuffle(user_ids_to_process)
 
-    # Process data for each user in chunks
-    for chunk in chunked_iterable(user_ids_to_process, CHUNK_SIZE):
+    samples_saved = 0
+
+    while samples_saved < DESIRED_SAMPLE_SIZE and user_ids_to_process:
+        chunk = user_ids_to_process[:CHUNK_SIZE]
+        user_ids_to_process = user_ids_to_process[CHUNK_SIZE:]
+
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            futures = {executor.submit(process_user_data, user_id, path_article_full_tree): user_id for user_id in chunk}
+            futures = {executor.submit(process_user_data, user_id, path_article_full_tree, full_output_dir, cleaned_output_dir): user_id for user_id in chunk}
             for future in concurrent.futures.as_completed(futures):
-                try:
-                    future.result()
+                if future.result():
                     processed_user_ids.add(futures[future])
-                except Exception as e:
-                    user_id = futures[future]
-                    print(f"Error processing user {user_id}: {e}")
-        # Save progress after each chunk
+                    samples_saved += 1
+                    print(f"Sample saved: {samples_saved}/{DESIRED_SAMPLE_SIZE}")
+                    if samples_saved >= DESIRED_SAMPLE_SIZE:
+                        break
+
         save_progress(processed_user_ids)
+
+    clear_progress()
 
 if __name__ == "__main__":
     main()

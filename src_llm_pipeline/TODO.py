@@ -4,9 +4,15 @@
 
 
 
-
 # TODO: Langchain ansatz implementieren bei dem reasoning im textfeld und die ausgabe als tool call gemacht wird.
-# TODO: Self-consitentcy implemtneiren wie in SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS beschrieben, aber mit similarity über embeddings statt über paths & wahrscehinlichkeiten, weil wir die log probs nicht für alle modell bekommen. ( 40 request pro model machen -> dann majority voting) ähnlich zu More Agents is all you need
+# TODO: Self-consitentcy implemtneiren wie in SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS beschrieben,
+#  aber mit similarity über embeddings statt über paths & wahrscehinlichkeiten,
+#  weil wir die log probs nicht für alle modell bekommen. ( 40 request pro model machen -> dann majority voting)
+#  ähnlich zu More Agents is all you need
+#  ODER
+#  **Ensemble-Methoden:**  Hier werden mehrere Modelle mit unterschiedlichen Parametern oder Architekturen kombiniert.
+#  Aus Paper Self-Consistency Improves Chain of Thought Reasoning in Language Models
+
 # TODO: Cohere, OpenAi, Anthropic, Google anbinden
 # TODO: Labels für die classification: Erregung, Valenz, soziale Verbundenheit, Polarization, Emotionality, Polarization
 
