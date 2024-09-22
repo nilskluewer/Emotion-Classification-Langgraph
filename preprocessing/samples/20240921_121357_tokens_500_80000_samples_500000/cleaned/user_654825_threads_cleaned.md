@@ -1,0 +1,3038 @@
+# User: Eisenburg (ID: 654825)
+
+This document contains the thread data for the above user across multiple articles.
+
+---
+
+## Article ID: 2000102330973
+- **Title:** 1. Mai in Wien: SPÖ fordert von Strache Rücktritt
+- **Publish Date:** 2019-05-01T10:28:57.490000
+- **Channel:** Inland
+- **Ressort Name:** Parteien
+- **Total Comments:** 2712
+- **Root Comments:** 628
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102330973">
+    <user_threads>
+      <thread id="1041075086">
+        <user_name>Rene B</user_name>
+        <cmnd_headline>Ich glaube nicht</cmnd_headline>
+        <cmnd_text>das Herr Strache freiwillig zurücktritt und wieder als Zahntechniker arbeiten wird</cmnd_text>
+        <cmnd_at>2019-05-01T19:03:59.763000</cmnd_at>
+        <cmnd_length>82</cmnd_length>
+        <replies>
+          <reply id="1041075213">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>... zumal schon oft die vom Computer gesteuerten Zahnfräsen die Arbeit der Zahntechniker übernommen haben.</cmnd_text>
+            <cmnd_at>2019-05-01T19:08:24.403000</cmnd_at>
+            <cmnd_length>106</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041074842">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Als ob Strache dieser Aufruf auch nur irgendwie kratzen würde ...</cmnd_headline>
+        <cmnd_text>... diese ständigen, inflationären Rücktrittsforderungen interessiert die Leute nicht.   Fakt ist, MAN MUSS WAHLEN GEWINNEN und so Türkis-Blau loswerden.</cmnd_text>
+        <cmnd_at>2019-05-01T18:55:24.637000</cmnd_at>
+        <cmnd_length>153</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041074865">
+        <user_name>Star Shower</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Hats den Kern auch erwähnt?</cmnd_text>
+        <cmnd_at>2019-05-01T18:56:22.770000</cmnd_at>
+        <cmnd_length>27</cmnd_length>
+        <replies>
+          <reply id="1041074920">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Gibt es was Neues von der Putin-Bahn?</cmnd_text>
+            <cmnd_at>2019-05-01T18:58:12.193000</cmnd_at>
+            <cmnd_length>37</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102336091
+- **Title:** Semenyas Einspruch gegen Testosteron-Limit abgelehnt
+- **Publish Date:** 2019-05-01T12:21:15
+- **Channel:** Sport
+- **Ressort Name:** Leichtathletik 
+- **Total Comments:** 529
+- **Root Comments:** 81
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102336091">
+    <user_threads>
+      <thread id="1041076030">
+        <user_name>Klaubertz</user_name>
+        <cmnd_headline>Unendlich viele Geschlechter oder gar keine Geschlechtertrennung</cmnd_headline>
+        <cmnd_text>Ich muss die selbstverständliche Folgeerscheinung wieder einmal absetzen:   Geschlechtertrennung ist out. Das bedeutet, dass auch die Trennung von Herren- und Damensportarten längst ein Anachronismus ist, der abgeschafft gehört.   Das wird zwar vor allem aufgrund wirtschaftlicher Barrieren, Sponsoren, Medien etc. nicht gleich gehen ... aber es führt kein Weg dran vorbei.  Mit Testosterongrenzwerten und so Zeugs kann man sich bestenfalls paar Jährchen drüberretten.</cmnd_text>
+        <cmnd_at>2019-05-01T19:39:28.500000</cmnd_at>
+        <cmnd_length>468</cmnd_length>
+        <replies>
+          <reply id="1041076850">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Haben Männerkörper (egal als was man sich fühlt) nicht einen natürlichen Vorteil gegenüber einem Frauenkörper?</cmnd_text>
+            <cmnd_at>2019-05-01T20:15:06.077000</cmnd_at>
+            <cmnd_length>110</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102337403
+- **Title:** Ärgern und Staunen über Nichtabschaffung der kalten Progression
+- **Publish Date:** 2019-05-01T13:04:40
+- **Channel:** Wirtschaft
+- **Ressort Name:** Steuern
+- **Total Comments:** 514
+- **Root Comments:** 169
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102337403">
+    <user_threads>
+      <thread id="1041075150">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Man zockt die Leute u.a über die Kalte Progession ab ...</cmnd_headline>
+        <cmnd_text>... und gibt ihnen dann großmütig, nach Gutsherrenart, die Hälfte nach ein paar Jahren in einer aufgeblasenen groß angekündigten Steuerreform (was sie ja gar nicht ist) zurück.</cmnd_text>
+        <cmnd_at>2019-05-01T19:06:17.677000</cmnd_at>
+        <cmnd_length>176</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041074598">
+        <user_name>Berggasse</user_name>
+        <cmnd_headline>Die reelle Inflation ist eher um die 5 % (beobachte zB Preise beim Bäcker)</cmnd_headline>
+        <cmnd_text>Dh die kalte Progression kannst mit 1-2 % nicht abgleichen.</cmnd_text>
+        <cmnd_at>2019-05-01T18:48:11.980000</cmnd_at>
+        <cmnd_length>59</cmnd_length>
+        <replies>
+          <reply id="1041075276">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Darum erodiert ja mittlerweile der arbeitende Mittelstand.</cmnd_text>
+            <cmnd_at>2019-05-01T19:10:46.080000</cmnd_at>
+            <cmnd_length>58</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102351241
+- **Title:** Salzburg gewinnt ÖFB-Cup gegen Rapid
+- **Publish Date:** 2019-05-01T18:38:51
+- **Channel:** Sport
+- **Ressort Name:** ÖFB-Cup
+- **Total Comments:** 852
+- **Root Comments:** 201
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102351241">
+    <user_threads>
+      <thread id="1041075418">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wenn der Didi seine Truppe nicht bald bzw. nächstes Jahr ...</cmnd_headline>
+        <cmnd_text>... auf Spur bringt, muss man auch über ihn nachdenken.</cmnd_text>
+        <cmnd_at>2019-05-01T19:16:06.840000</cmnd_at>
+        <cmnd_length>55</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041075427">
+        <user_name>Gorosito21 2.0</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-01T19:16:34.630000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies>
+          <reply id="1041075479">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>No Comment</cmnd_text>
+            <cmnd_at>2019-05-01T19:18:29.900000</cmnd_at>
+            <cmnd_length>10</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102352030
+- **Title:** Leonardo da Vinci: Universalgenie ohne höhere Bildung
+- **Publish Date:** 2019-05-02T12:00:00
+- **Channel:** Wissenschaft
+- **Ressort Name:** Zeit
+- **Total Comments:** 131
+- **Root Comments:** 46
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102352030">
+    <user_threads>
+      <thread id="1041096861">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Heute würden ihn so manche &quot;Bücherausweniglerner&quot; von diversen Unis ...</cmnd_headline>
+        <cmnd_text>... wohl &quot;Bildungsfern&quot; nennen.</cmnd_text>
+        <cmnd_at>2019-05-02T14:32:14.973000</cmnd_at>
+        <cmnd_length>31</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102353840
+- **Title:** Neuer Job für Kern: Russian Connection
+- **Publish Date:** 2019-05-01T19:41:42
+- **Channel:** Meinung
+- **Ressort Name:** Einserkastl Hans Rauscher
+- **Total Comments:** 304
+- **Root Comments:** 132
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102353840">
+    <user_threads>
+      <thread id="1041091198">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Und was macht unser Ex-Kanzler Gusi eigentlich derzeit?</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-02T11:20:47.307000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102368721
+- **Title:** Soziale Durchmischung an Unis bleibt schlecht
+- **Publish Date:** 2019-05-02T09:01:23
+- **Channel:** Bildung
+- **Ressort Name:** Uni &amp; Soziales
+- **Total Comments:** 127
+- **Root Comments:** 51
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102368721">
+    <user_threads>
+      <thread id="1041090366">
+        <user_name>homo ökonomicus</user_name>
+        <cmnd_headline>Deshalb sagte Kreisky &quot;keine Studiengebühren&quot;!</cmnd_headline>
+        <cmnd_text>Und was haben wir heute? Das Volk wählt sich bekanntlich ja die Regierung die sie verdient! Also schimpft weiterhin auf die Roten! Und wählt &quot;wegen de Migranten&quot; weiterhin diese Schmähführer!!!</cmnd_text>
+        <cmnd_at>2019-05-02T10:54:42.433000</cmnd_at>
+        <cmnd_length>193</cmnd_length>
+        <replies>
+          <reply id="1041091241">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Laut Umfragen ist es auch so. Die nächste Regierung heißt höchstwahrscheinlich wieder FPÖVP.</cmnd_text>
+            <cmnd_at>2019-05-02T11:22:08.677000</cmnd_at>
+            <cmnd_length>92</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041090236">
+        <user_name>achiever</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Ich habe ein Studium beendet und Sohn eines bildungsfernen Vaters mit Pflichtschulabschluss. Geht auf die Knie vor mir!</cmnd_text>
+        <cmnd_at>2019-05-02T10:50:25.910000</cmnd_at>
+        <cmnd_length>119</cmnd_length>
+        <replies>
+          <reply id="1041091082">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Kommt immer drauf an was &quot;bildungsfern&quot; heute schon so heißt. Ich kenne viele Handwerker, die mehr drauf haben und leichter einen guten Job bekommen als diverse Akademiker.</cmnd_text>
+            <cmnd_at>2019-05-02T11:16:50.873000</cmnd_at>
+            <cmnd_length>172</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102376473
+- **Title:** Titeltraum ausgeträumt: Rapid mit leeren Händen
+- **Publish Date:** 2019-05-02T10:42:27
+- **Channel:** Sport
+- **Ressort Name:** ÖFB-Cup
+- **Total Comments:** 656
+- **Root Comments:** 156
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102376473">
+    <user_threads>
+      <thread id="1041096950">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kühbauer: „Glücklichere Mannschaft hat gewonnen“</cmnd_headline>
+        <cmnd_text>Wenn ich sowas lese bekomme ich Magenschmerzen.   Didi, DIE ZEIT DER AUSREDEN IST NUN VORBEI.</cmnd_text>
+        <cmnd_at>2019-05-02T14:35:30.400000</cmnd_at>
+        <cmnd_length>93</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102483402
+- **Title:** Kann sich Österreich ein Ende der automatischen Steuererhöhungen leisten?
+- **Publish Date:** 2019-05-04T08:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 478
+- **Root Comments:** 127
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102483402">
+    <user_threads>
+      <thread id="1041149972">
+        <user_name>die blaue sau.</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Kurz muss die Regierung wegen Rechtsextremismus auflösen.</cmnd_text>
+        <cmnd_at>2019-05-04T13:51:21.013000</cmnd_at>
+        <cmnd_length>57</cmnd_length>
+        <replies>
+          <reply id="1041150428">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Macht er aber nicht. Die nächste Legislaturperiode wird wohl auch FPÖVP werden ...</cmnd_text>
+            <cmnd_at>2019-05-04T14:08:52.380000</cmnd_at>
+            <cmnd_length>82</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041150362">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wenns die Schweiz kann ...</cmnd_headline>
+        <cmnd_text>... und Schweden noch viel mehr, dann kanns auch Österreich.  Klar würde dann der alle Herrgottszeiten begangene Polit-Schmäh, die Leute pseudo zu entlasten, wegfallen ... aber darum ist nicht wirklich schade.</cmnd_text>
+        <cmnd_at>2019-05-04T14:06:09.203000</cmnd_at>
+        <cmnd_length>209</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102610559
+- **Title:** Pensionsantrittsalter der Deutschen würde Österreich sechs Milliarden ersparen
+- **Publish Date:** 2019-05-08T11:22:31
+- **Channel:** Inland
+- **Ressort Name:** Pensionen
+- **Total Comments:** 1220
+- **Root Comments:** 439
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102610559">
+    <user_threads>
+      <thread id="1041272409">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Inspirierter Artikel ...?</cmnd_headline>
+        <cmnd_text>...jedenfalls leicht verzichtbar und durchschaubar.   Dass FPÖVP liebend gerne, die im Vergleich zu Beamtempensionen, durchschnittlich niedrigen ASVG-Pensionen nochmal (nach Schüssel) kürzen würden ist ja hinlänglich bekannt.</cmnd_text>
+        <cmnd_at>2019-05-08T13:20:23.550000</cmnd_at>
+        <cmnd_length>225</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041272832">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Beamtenpensionen und diverse Sonderpensionrechte auf ASVG-Niveau bringen ...</cmnd_headline>
+        <cmnd_text>... und dann sehen wir weiter. Bevor das nicht passiert braucht man gar nicht weiterreden.</cmnd_text>
+        <cmnd_at>2019-05-08T13:33:46.700000</cmnd_at>
+        <cmnd_length>90</cmnd_length>
+        <replies>
+          <reply id="1041273089">
+            <user_name>nanny ogg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>wenn ich dann auch eine Abfertigung bekomme und nicht als Frau bis 65 arbeiten muss, können wir darüber reden Sonderpensionsrechte? die da wären?</cmnd_text>
+            <cmnd_at>2019-05-08T13:42:10.947000</cmnd_at>
+            <cmnd_length>145</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041273695">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wenn man sich die extrem niedrigen Frauenpensionen ...</cmnd_headline>
+        <cmnd_text>... im ASVG-Bereich im Durchschnitt ansieht ist es fast ein Hohn hier nochwas sparen zu wollen.   Passt aber zu den Neos.</cmnd_text>
+        <cmnd_at>2019-05-08T13:58:14.487000</cmnd_at>
+        <cmnd_length>121</cmnd_length>
+        <replies>
+          <reply id="1041273973">
+            <user_name>Polka</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Die niedrigen Pensionen kommen aber auch durch das niedrigere Antrittsalter zustande.  Aber eine frühere Angleichung war ja mit der SPÖ nur möglich.</cmnd_text>
+            <cmnd_at>2019-05-08T14:06:44.213000</cmnd_at>
+            <cmnd_length>148</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041273948">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Im Gegenteil ...</cmnd_headline>
+        <cmnd_text>... wir brauchen eine &quot;Grundrente&quot; für alle. In den Niederlanden funktioniert das.   In Österreich versucht man seitens der Neoliberalen den &quot;kleinen Leuten&quot; auch hier noch von dem Wenigen was wegzubeißen.</cmnd_text>
+        <cmnd_at>2019-05-08T14:06:01.250000</cmnd_at>
+        <cmnd_length>205</cmnd_length>
+        <replies>
+          <reply id="1041274655">
+            <user_name>Walters Sachwalter</user_name>
+            <cmnd_headline>&quot;wir brauchen eine &quot;Grundrente&quot; für alle. In den Niederlanden funktioniert das. &quot;</cmnd_headline>
+            <cmnd_text>Kunststück in einem Land auf Meereshöhe Grundhöhe zu erreichen!</cmnd_text>
+            <cmnd_at>2019-05-08T14:24:15.753000</cmnd_at>
+            <cmnd_length>63</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041273962">
+        <user_name>tschernobill</user_name>
+        <cmnd_headline>&quot;Pensionsantrittsalter wie in Deutschland würde Österreich sechs Milliarden Euro ersparen&quot;</cmnd_headline>
+        <cmnd_text>Das bedeutet &quot;übersetzt&quot;, dass man den Pensionisten 6 Milliarden Euro wegnehmen würde. Nicht mehr , aber auch nicht weniger. In Deutschland gehen Mindestpensionisten Flaschen einsammeln um sich über Wasser zu halten. 70 Jährige stehen in Geschäften und räumen für die Kunden die Einkäufe ins Sackerl. Natürlich zu Niedrigslöhnen.  DAS will man also?  Gehen wir - in der Theorie - doch einen Schritt weiter: Wie viele Milliarden könnten &quot;wir&quot; einsparen, wenn man alle bei Pensionsantritt &quot;einschläfern&quot; würde? Klingt zynisch? Ist es auch. Genauso wie diese Debatte.  Zur Beamtenpension: 1.) ist der Durchschnittliche Akademikeranteil im öffentlichen Dienst höher 2.) Erhalten Beamte KEINE Abfertigung.</cmnd_text>
+        <cmnd_at>2019-05-08T14:06:20.643000</cmnd_at>
+        <cmnd_length>700</cmnd_length>
+        <replies>
+          <reply id="1041274319">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>In jedem Fachbetrieb ist der Akademikeranteil höher als bei der Polizei oder in diversen Tintenburgen. Ausserdem bekommt nicht jeder Nicht-Beamte eine Abfertigung und wenn sind das oft nur ein paar wenig 1000ender. Mit den 2 Doppeltenbezügen im Jahr hat die jeder Durchschnittsbeamte herinnen.   Nochmal: Die durchschnittliche Beamtenpension ist höher als die ASVG-Höchstpension (die faktisch kaum jemand auch nur annähernd hat). Und der Pensionsantritt liegt laut Statistik oft in den &quot;50iger Jahren&quot; der Leute.</cmnd_text>
+            <cmnd_at>2019-05-08T14:15:20.400000</cmnd_at>
+            <cmnd_length>512</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041274773">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Ich kenne alte Omas ...</cmnd_headline>
+        <cmnd_text>... die sitzen im Kalten nur weil sie sich, nach jahrzehntelange Arbeit, z.b die Heizung nicht mehr leisten können. Und solche Fälle sind nicht selten. Was will der Neos-Mann denen noch wegnehmen?</cmnd_text>
+        <cmnd_at>2019-05-08T14:26:57.750000</cmnd_at>
+        <cmnd_length>196</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041279346">
+        <user_name>Antenna United Europe</user_name>
+        <cmnd_headline>Bitte nicht an Deutschland orientieren ...</cmnd_headline>
+        <cmnd_text>sondern eigene Ideen, Vorschläge und Berechnungen erstellen, ...denn Deutschland ist unter anderem im sozialen Bereich sowie im Rentensystem weit hinter Österreich zurück gefallen...</cmnd_text>
+        <cmnd_at>2019-05-08T16:30:26.680000</cmnd_at>
+        <cmnd_length>182</cmnd_length>
+        <replies>
+          <reply id="1041279771">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>... zumal in Deutschland die Altersarmut regelrecht durch die Decke geht.  Da müssen etliche Rentner z.b in Armutsländer ziehen um überhaupt noch mit dem Geld auszukommen oder regelmässig Flaschensammeln oder im Müll rumstöbern um über die Runden zu kommen.   Solche Neos-Träume braucht niemand.</cmnd_text>
+            <cmnd_at>2019-05-08T16:45:59.880000</cmnd_at>
+            <cmnd_length>295</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041279012">
+        <user_name>qrutzz</user_name>
+        <cmnd_headline>Sonderpensionsprivilegien</cmnd_headline>
+        <cmnd_text>Die Reform der Sozialversicherungen muss nicht nur zu einer Vereinheitlichung der Beiträge und Leistungen führen, sie muss auch zu einer Harmonisierung des Pensionsantrittes genutzt werden. Noch immer können z.B. Landwirte früher als Unselbständige in Pension gehen. Bevor man über eine Anhebung des faktischen, oder gar des gesetzlichen Pensionsantrittsalters nachdenkt, muss eine einheitliche Basis hergestellt werden. Freilich liegen die meisten Privilegien genau im ÖVP-Klientel. Da wäre mal die FPÖ gefordert.</cmnd_text>
+        <cmnd_at>2019-05-08T16:18:18.680000</cmnd_at>
+        <cmnd_length>514</cmnd_length>
+        <replies>
+          <reply id="1041279949">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Die ÖVP wird ihre Klientel ganz sicher nicht antasten. Das war schon unter Schüssel so.</cmnd_text>
+            <cmnd_at>2019-05-08T16:52:25.833000</cmnd_at>
+            <cmnd_length>87</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102618429
+- **Title:** An Sarah Wieners Wesen wollen die Grünen genesen
+- **Publish Date:** 2019-05-07T09:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 455
+- **Root Comments:** 150
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102618429">
+    <user_threads>
+      <thread id="1041239223">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Auch dieser Stern wird wohl ...</cmnd_headline>
+        <cmnd_text>... bei den Grünen, wie immer, verglühen.   Aber sonst eine gute Frau.</cmnd_text>
+        <cmnd_at>2019-05-07T13:51:12.190000</cmnd_at>
+        <cmnd_length>70</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102732845
+- **Title:** Vilimsky finanzierte mit Steuergeld überwiegend plagiierte Studie
+- **Publish Date:** 2019-05-08T14:00:17
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 2295
+- **Root Comments:** 1062
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102732845">
+    <user_threads>
+      <thread id="1041279600">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Hieß der Wahlslogan nicht ...</cmnd_headline>
+        <cmnd_text>... &quot;Euer Geld für unsere Leut&quot;?</cmnd_text>
+        <cmnd_at>2019-05-08T16:39:45.647000</cmnd_at>
+        <cmnd_length>32</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041282078">
+        <user_name>Rotes Käppchen</user_name>
+        <cmnd_headline>Ist Kurz noch damit beschäftigt, Gabalier zu bemitleiden, oder findet er hier ausnahmsweise einmal deutliche Worte?</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-08T18:14:29.767000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies>
+          <reply id="1041282138">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Als ob ihn das interessieren würde.  Ausserdem hat ihm Strache ja knallhart ausgerichtet, dass er keinen Oberlehrer Kurz mehr hören will.</cmnd_text>
+            <cmnd_at>2019-05-08T18:17:05.080000</cmnd_at>
+            <cmnd_length>137</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103059244
+- **Title:** Vabanquespieler Trump
+- **Publish Date:** 2019-05-14T08:00:00
+- **Channel:** Meinung
+- **Ressort Name:** Paul Lendvai
+- **Total Comments:** 103
+- **Root Comments:** 24
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103059244">
+    <user_threads>
+      <thread id="1041456167">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Trump hin oder her ...</cmnd_headline>
+        <cmnd_text>... aber es ist schon längst überfällig, dass jemand mal China auf die Finger haut bezüglich Handel und sonstiger unhaltbaren Praktiken.</cmnd_text>
+        <cmnd_at>2019-05-14T15:51:31.833000</cmnd_at>
+        <cmnd_length>136</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103091371
+- **Title:** Peter Stöger kann sich Rückkehr zur Austria vorstellen
+- **Publish Date:** 2019-05-14T10:39:11
+- **Channel:** Sport
+- **Ressort Name:** Austria Wien
+- **Total Comments:** 411
+- **Root Comments:** 117
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103091371">
+    <user_threads>
+      <thread id="1041456019">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Zur Austria zurück ...</cmnd_headline>
+        <cmnd_text>... wäre sicherlich ein drastischer Rückschritt.</cmnd_text>
+        <cmnd_at>2019-05-14T15:46:46.790000</cmnd_at>
+        <cmnd_length>48</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041456090">
+        <user_name>don't follow me</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Soll lieber Sportdirektor beim ÖFB werden, wär vielleicht besser.</cmnd_text>
+        <cmnd_at>2019-05-14T15:48:47.750000</cmnd_at>
+        <cmnd_length>65</cmnd_length>
+        <replies>
+          <reply id="1041456209">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>... und dort professionelle Strukturen mitaufbauen. Ja das wäre nicht schlecht.</cmnd_text>
+            <cmnd_at>2019-05-14T15:52:47.040000</cmnd_at>
+            <cmnd_length>79</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103147998
+- **Title:** Hasenhüttl: "Rückblickend war es ein Wahnsinn"
+- **Publish Date:** 2019-05-15T10:14:54
+- **Channel:** Sport
+- **Ressort Name:** Premier League
+- **Total Comments:** 57
+- **Root Comments:** 27
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103147998">
+    <user_threads>
+      <thread id="1041553249">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>King Ralph</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-17T10:23:57.527000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103186172
+- **Title:** Ausweiszwang für Poster "geeignet, politische Gegner mundtot zu machen"
+- **Publish Date:** 2019-05-16T09:22:09
+- **Channel:** Web
+- **Ressort Name:** Netzpolitik
+- **Total Comments:** 220
+- **Root Comments:** 57
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103186172">
+    <user_threads>
+      <thread id="1041515377">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Denunziantentum und Spitzelwesen ...</cmnd_headline>
+        <cmnd_text>... werden durch diesen Irrsinn vollends gefördert werden. Ich werde jedenfalls unter dieser illiberalen, autoritären Medien und Meinungskontrolle nicht mehr mitwirken (obwohl es mir gerade wegen des freien Standardmeinungsforums sehr leid täte).</cmnd_text>
+        <cmnd_at>2019-05-16T11:30:53.800000</cmnd_at>
+        <cmnd_length>246</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103192840
+- **Title:** Peter Stöger könnte bald den HSV trainieren
+- **Publish Date:** 2019-05-15T15:29:26
+- **Channel:** Sport
+- **Ressort Name:** Zweite deutsche Liga
+- **Total Comments:** 259
+- **Root Comments:** 94
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103192840">
+    <user_threads>
+      <thread id="1041553229">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Köln x 2 = HSV</cmnd_headline>
+        <cmnd_text>Wäre eine super Sache, den potentiellen Riesenverein wieder auf Spur zu bekommen. Nach Ernst Happel wieder ein Wiener wäre ein positives Omen. Stöger kann das. Hamburg ist ausserdem eine tolle Stadt.</cmnd_text>
+        <cmnd_at>2019-05-17T10:23:08.980000</cmnd_at>
+        <cmnd_length>199</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103240708
+- **Title:** Mindestpension mit 40 Beitragsjahren künftig 1.200 Euro netto
+- **Publish Date:** 2019-05-16T10:42:10
+- **Channel:** Inland
+- **Ressort Name:** Pensionen
+- **Total Comments:** 637
+- **Root Comments:** 129
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103240708">
+    <user_threads>
+      <thread id="1041515228">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Absolut richtig ...</cmnd_headline>
+        <cmnd_text>... eine Grundpension sollte sowieso jeder ab 65. in aller Würde bekommen. In den Niederlanden geht das nämlich.</cmnd_text>
+        <cmnd_at>2019-05-16T11:27:20.370000</cmnd_at>
+        <cmnd_length>112</cmnd_length>
+        <replies>
+          <reply id="1041515618">
+            <user_name>UnscharferHeisenberg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Nein, sonst müsste es auch ein Grundeinkommen geben. Warum soll jemand, der sein Leben lang nur minimal über der Geringfügigkeitsgrenze verdient hat, 1200 € Pension bekommen?</cmnd_text>
+            <cmnd_at>2019-05-16T11:36:33.327000</cmnd_at>
+            <cmnd_length>174</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103241947
+- **Title:** Innenminister Kickl will überhaupt keine Asylanträge mehr
+- **Publish Date:** 2019-05-16T10:57:22
+- **Channel:** Inland
+- **Ressort Name:** Integrationspolitik
+- **Total Comments:** 352
+- **Root Comments:** 137
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103241947">
+    <user_threads>
+      <thread id="1041514940">
+        <user_name>kvw2000</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Kickls Auftritt in Uniform im Ministerrat. Schaut aus wie der Schichtleiter vom Facility Management nach Saufabsturz. Vilimsky sagt, &quot;aus dem Islam&quot; darf nicht eingewandert werden, weil Moslems keine Hunde mögen. Ist das echt oder ist das Tagespresse?</cmnd_text>
+        <cmnd_at>2019-05-16T11:20:03.583000</cmnd_at>
+        <cmnd_length>251</cmnd_length>
+        <replies>
+          <reply id="1041515176">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Sagte er nicht gerade, dies sei nur eine Einsatzjacke gewesen, die auch diverse Landeshauptleute und der Bundespräsident manchmal tragen?</cmnd_text>
+            <cmnd_at>2019-05-16T11:25:51.480000</cmnd_at>
+            <cmnd_length>137</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103263539
+- **Title:** Gereizte Stimmung bei ManCity vor Uefa-Urteil
+- **Publish Date:** 2019-05-16T14:05:51
+- **Channel:** Sport
+- **Ressort Name:** Fußball International
+- **Total Comments:** 138
+- **Root Comments:** 39
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103263539">
+    <user_threads>
+      <thread id="1041553144">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wäre sicherlich eine Lehre für andere ...</cmnd_headline>
+        <cmnd_text>... würde man hier hart durchgreifen.</cmnd_text>
+        <cmnd_at>2019-05-17T10:20:36.110000</cmnd_at>
+        <cmnd_length>37</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103294525
+- **Title:** Küssel über Strache: "Da gab es einige lustige Auftritte"
+- **Publish Date:** 2019-05-16T21:25:28
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 1365
+- **Root Comments:** 550
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103294525">
+    <user_threads>
+      <thread id="1041556352">
+        <user_name>alexanderletten</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>In Scharsachs Büchern, zB. &quot;Strache im braunen Sumpf&quot; ist ua lesen, das Strache sich intern gerne als Gauleiter anreden ließ. Lutz Weizinger, ehemaliger FPÖ-Obmann, gegenüber &quot;Österreich&quot;: &quot;Wir waren damals eindeutig Neonazis.Wir haben für die rechtsextreme VAPO gearbeitet, Pickerl geklebt, Flugblätter verteilt. Wir haben uns auf der Bude mit dem Hitlergruß gegrüßt, rechtsradikale Parolen und Gedanken gehabt. Strache habe sich &quot;Gauleiter&quot; nennen lassen, sei einer der Aktivisten gewesen, und habe alle rechtsextremen Größen gekannt: Küssel, Radl, Thierry, Honsik - er traf sie alle.&quot; (Seite 20) Die Frage ist: Wieso sollte Küssel lügen? Was hätte er davon, wenn über Strache sowieso schon so viel dokumentiert wurde?</cmnd_text>
+        <cmnd_at>2019-05-17T12:03:44.917000</cmnd_at>
+        <cmnd_length>720</cmnd_length>
+        <replies>
+          <reply id="1041557225">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Gruselig.</cmnd_text>
+            <cmnd_at>2019-05-17T12:31:51.947000</cmnd_at>
+            <cmnd_length>9</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041556785">
+        <user_name>Dampf Hans</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Jetzt hören wir auf Küssel? Ernsthaft? In einer NS-Zeitung? Hauptsache, wir können dem Strache was anhaben, dann nehmen wir auch gerne die Hand des verurteilten Neonazis? Nein, sorry.</cmnd_text>
+        <cmnd_at>2019-05-17T12:18:29.557000</cmnd_at>
+        <cmnd_length>183</cmnd_length>
+        <replies>
+          <reply id="1041557576">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Strache könnte ja klagen.</cmnd_text>
+            <cmnd_at>2019-05-17T12:43:11.667000</cmnd_at>
+            <cmnd_length>25</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041557311">
+        <user_name>Mr.Niceguy</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Wir sollten eine crowdfunding aktion starten um Küssel seine Infos über strache abzukaufen. Der Küssel hat sicher keine Moral und wenn der Preis stimmt würde er sicher auch seine Oma verkaufen.</cmnd_text>
+        <cmnd_at>2019-05-17T12:34:53</cmnd_at>
+        <cmnd_length>193</cmnd_length>
+        <replies>
+          <reply id="1041557392">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Wäre auch sehr gespannt auf diese Informationen.</cmnd_text>
+            <cmnd_at>2019-05-17T12:37:30.290000</cmnd_at>
+            <cmnd_length>48</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041553044">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wann erfolgt der Rücktritt endlich?</cmnd_headline>
+        <cmnd_text>Wie kann sich Kurz das noch länger anschauen?   Unglaublich das Ganze.</cmnd_text>
+        <cmnd_at>2019-05-17T10:17:38.600000</cmnd_at>
+        <cmnd_length>70</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103306322
+- **Title:** US-Präsident Trump legt "leistungsorientierte" Einwanderungsreform vor
+- **Publish Date:** 2019-05-17T07:14:36
+- **Channel:** International
+- **Ressort Name:** USA
+- **Total Comments:** 107
+- **Root Comments:** 44
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103306322">
+    <user_threads>
+      <thread id="1041552991">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>&quot;Auch wer Geld in den USA investieren will, soll bevorzugt behandelt werden ...&quot;</cmnd_headline>
+        <cmnd_text>Passt zu diesem Präsidenten.</cmnd_text>
+        <cmnd_at>2019-05-17T10:15:53.830000</cmnd_at>
+        <cmnd_length>28</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103384434
+- **Title:** Norbert Hofer, die lächelnde blaue Allzweckwaffe
+- **Publish Date:** 2019-05-20T09:05:49
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 618
+- **Root Comments:** 320
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103384434">
+    <user_threads>
+      <thread id="1041742993">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Laut neuesten Umfragen ...</cmnd_headline>
+        <cmnd_text>... hat die FPÖ sogar jetzt noch 18% der Stimmen. In 4 Monaten pusht der Hofer die Partei vielleicht gar wieder über die 20%.   Dieses Land ist wirklich nur mehr schräg drauf.</cmnd_text>
+        <cmnd_at>2019-05-20T14:00:20.633000</cmnd_at>
+        <cmnd_length>175</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103443508
+- **Title:** Die Stunde der Patrioten
+- **Publish Date:** 2019-05-20T09:00:00
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 1335
+- **Root Comments:** 397
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103443508">
+    <user_threads>
+      <thread id="1041748086">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Die SPÖ sollte dafür sorgen ...</cmnd_headline>
+        <cmnd_text>... dass Kurz abgesetzt wird.   Genug ist genug. Unser Land hält dieses Kurz-Chaos nicht mehr aus.</cmnd_text>
+        <cmnd_at>2019-05-20T15:06:45.650000</cmnd_at>
+        <cmnd_length>98</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041748954">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz teils asoziale Gesetze ...</cmnd_headline>
+        <cmnd_text>... siehe 12 Stundentag, Verkürzung der Ruhezeiten, etc. gehören rückabgewickelt.  SPÖ erhebe dich!</cmnd_text>
+        <cmnd_at>2019-05-20T15:20:19.660000</cmnd_at>
+        <cmnd_length>99</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041742882">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz musst selbst zurücktreten oder ...</cmnd_headline>
+        <cmnd_text>... &quot;zurückgetreten&quot; werden. Ein Mann der 2.Regierungen in 1 1/2 gesprengt hat kann und darf nicht mehr den Kanzlerdarsteller geben.  Wenn die SPÖ hier jetzt nicht durchgreift und Kurz des Amtes mitenthebt, dann macht sie Kurz die Leiter zum Wahlsieg (da er quasi Alleinregierung spielen darf über Monate) und selbst wird sie für ewig ein kaputter Juniorpartner a la SPD sein.  Kurz MUSS gehen</cmnd_text>
+        <cmnd_at>2019-05-20T13:58:27.240000</cmnd_at>
+        <cmnd_length>393</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103488994
+- **Title:** Die rätselhafte Ruhe des Sebastian Kurz
+- **Publish Date:** 2019-05-20T13:59:33.570000
+- **Channel:** Meinung
+- **Ressort Name:** Einserkastl Hans Rauscher
+- **Total Comments:** 2059
+- **Root Comments:** 711
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103488994">
+    <user_threads>
+      <thread id="1041747030">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wir brauchen eine Expertenregierung für 4 Sommer-Monate unter ...</cmnd_headline>
+        <cmnd_text>... Aufsicht van der Bellens und unter der kurzfristigen Führung einer honorigen Persönlichkeit als Übergangskanzler.   Kurz, der Möchtegern-Alleinkanzler, der SPÖ/ÖVP-Sprengmeister, der FPÖ-Steigleitermacher darf nicht länger an den Schalthebeln unseres Landes unserer 2.Republik stehen.</cmnd_text>
+        <cmnd_at>2019-05-20T14:53:17.447000</cmnd_at>
+        <cmnd_length>288</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041743714">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz MUSS weg !!!</cmnd_headline>
+        <cmnd_text>Ein Mann der 2.Regierungen in 1 1/2 gesprengt hat kann und darf nicht mehr den Kanzlerdarsteller geben. Kurz plant u.a eine neoliberale Regierung mit den Neos, die den Österreichern das Fell über die Ohren ziehen will!  Wenn die SPÖ hier jetzt nicht durchgreift und Kurz des Amtes mitenthebt, dann macht sie Kurz die Leiter zum Wahlsieg (da er quasi Alleinregierung spielen darf über Monate) und selbst wird sie möglicherweise für ewig ein kaputter Juniorpartner a la SPD sein.   Kurz MUSS gehen</cmnd_text>
+        <cmnd_at>2019-05-20T14:10:14.170000</cmnd_at>
+        <cmnd_length>495</cmnd_length>
+        <replies>
+          <reply id="1041744879">
+            <user_name>sicher nicht</user_name>
+            <cmnd_headline>Kurz hat die Regierung gesprengt? Was hätte er denn machen sollen?</cmnd_headline>
+            <cmnd_text>Die Schuld hat Strache/Gudenus und ihre Eskapaden im Sommer 2017.  Die Neuwahlen sind doch unausweichlich, die FPÖ hat sämtliche Glaubwürdigkeit verloren. Es ist ja nicht ungewöhnliches, dass einzelne Minister aufgrund akuter Unfähigkeit ersetzt werden (man denke zurück an die letzte Groko wo wir mehrere &quot;Umbildungen&quot; hatten). Dass ein Parteichef vor laufender Kamera solche Dinge erzählt ist aber eine völlig andere Dimension. Neuwahlen sind jetzt ein MUSS, völlig unabhängig wer vllt davon profitiert. Und Kurz &quot;des Amtes entheben&quot; wäre das genau Gegenteil von der Stabilität,die JPRW gestern im Zentrum 305.562 mal erwähnt hat. Dann würde nämlich sie als Machtgeil dastehen.</cmnd_text>
+            <cmnd_at>2019-05-20T14:24:58.203000</cmnd_at>
+            <cmnd_length>679</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041743939">
+        <user_name>Sonnenschein77</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Kurz ist nicht würdig Bundeskanzler zu sein.  Er beantwortet seit 3 Tagen!! keine Fragen von JournalistInnen, er missbraucht die beiden Pressekonferenzen als Wahlkampfveranstaltung - am Samstag für die nächste Nationalratswahl und heute für die EU Wahl. Dass er ernsthaft meinte, ER will den Rechtsruck in Europa verhindern, ist so unglaublich dreist. ER ist für den Rechtsruck in Österreich verantwortlich und für dieses Desaster! Es wird  Zeit, dass er Verantwortung übernimmt.</cmnd_text>
+        <cmnd_at>2019-05-20T14:12:20.490000</cmnd_at>
+        <cmnd_length>479</cmnd_length>
+        <replies>
+          <reply id="1041744380">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Es ist ja ein Wahnsinn in diesem Land, dass bis jetzt nicht erkannt wurde, das Kurz das wahre Problem dieser Krise ist. Jeder wusste um die DNA der FPÖ, JEDER.  Zuerst sprengt Kurz die SPÖ/ÖVP in seiner Machtgeilheit mit einer widerlichen Intrige (die Mitterlehner genau erzählt hat) und jetzt explodiert im seine Chaos-Regierung wieder.   Kurz MUSS gehen, ER ist das wahre und wirkliche Problem.</cmnd_text>
+            <cmnd_at>2019-05-20T14:17:37.987000</cmnd_at>
+            <cmnd_length>396</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041745233">
+        <user_name>brion</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Kurz trägt die volle Verantwortung in dieser Sache! Er und seine Kumpane haben durch Querschüsse und Blockaden die letzte Regierung zu Fall gebracht, mit der Absicht mit der fpö zu koalieren, wissend welche .... das sind. Und in der Situation stellt er sich hin und warnt vor einer linken Mehrheit in Europa! Unfassbar!</cmnd_text>
+        <cmnd_at>2019-05-20T14:29:54.250000</cmnd_at>
+        <cmnd_length>319</cmnd_length>
+        <replies>
+          <reply id="1041745644">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Völlig richtig. Kurz stürzt in einer der widerlichsten Intrigen dieser Republik die SPÖ/ÖVP-Regierung und koaliert mit dubiosen Rechten bis Rechtsextremen, um dann nach einer Staatskrise als Belohnung wieder (Alleinregierungs-) Kanzler über Monate spielen zu dürfen. Das darf doch alles nicht wahr sein.  Kurz gehört abgelöst!</cmnd_text>
+            <cmnd_at>2019-05-20T14:35:48.950000</cmnd_at>
+            <cmnd_length>326</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041745008">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Der &quot;talentierte Mr. Kurz&quot; ist am Ende ...</cmnd_headline>
+        <cmnd_text>... es wird Zeit, dass die Show des unfähigen Mr. Kurz ein Ende hat.   Installiert eine Expertenregierung ohne Kurz und lasst uns in 4 Monaten wählen.</cmnd_text>
+        <cmnd_at>2019-05-20T14:26:56.640000</cmnd_at>
+        <cmnd_length>150</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041746329">
+        <user_name>mika33</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Warum sollte Kurz zurücktreten? Das ist nicht mahr als ein Rauscher-Wunschtraum.</cmnd_text>
+        <cmnd_at>2019-05-20T14:45:17.673000</cmnd_at>
+        <cmnd_length>80</cmnd_length>
+        <replies>
+          <reply id="1041746459">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Der Spengmeister 2.Koalitionen, in nicht mal 2 Jahren, ist mehr als ablösereif.</cmnd_text>
+            <cmnd_at>2019-05-20T14:46:59.837000</cmnd_at>
+            <cmnd_length>79</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041746742">
+        <user_name>english mann</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Ich finde es ebenfalls ungeheuerlich, dass seit mehreren Tagen, in bester Nordkorea Manier, keine Fragen gestellt werden dürfen. Wo sind wir denn hier!?</cmnd_text>
+        <cmnd_at>2019-05-20T14:50:03.573000</cmnd_at>
+        <cmnd_length>152</cmnd_length>
+        <replies>
+          <reply id="1041747201">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Im Kurz-Land. Bis zum Schluss Intrigen und Manipulation = Message Control.   Darum muss Kurz jetzt endlich abgelöst werden.</cmnd_text>
+            <cmnd_at>2019-05-20T14:55:23.020000</cmnd_at>
+            <cmnd_length>123</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041745821">
+        <user_name>Bortolino</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Kurz versucht, die Abberufung Kickls bis nach der EU-Wahl zu verzögern um damit 2 Fliegen auf einen Schlag zu schlagen:  1. Er rechnet damit, so den Misstrauensantrag von JETZT am Mittwoch zu überstehen (Denn so lange die FPÖ noch ihre Ministerien in Händen hält und sich daraus Vorteile verschaffen kann, wird sie diese auch benutzen.  2. Er versucht zu vermeiden, dass di FPÖ schon vor der EU-Wahl die &quot;Dolchstosslegendengeschichte&quot; zu breit auswälzen kann. (Für den NR-Wahlkampf wird sie das sowieso tun.)  Sollte es Kurz gelingen, unmittelbar nach der EU-Wahl aber noch vor der nächsten NR-Sitzung die FPÖ-Minister gegen Experten auszutauschen, dann wird wohl er bis zur Wahl als Kanzler überleben.</cmnd_text>
+        <cmnd_at>2019-05-20T14:38:16.903000</cmnd_at>
+        <cmnd_length>702</cmnd_length>
+        <replies>
+          <reply id="1041746217">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Kurz sollte nicht mehr allzuviel rechnen. Mittlerweile macht sich die Erkenntnis breit, dass Kurz das Hauptproblem von Österreichs Innenpolitik ist.   Der Mann gehört einfach abgelöst und nicht für Monate mit einer Art inszenierfreudigen  Alleinregierung belohnt.</cmnd_text>
+            <cmnd_at>2019-05-20T14:44:01.700000</cmnd_at>
+            <cmnd_length>263</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103578888
+- **Title:** Dem Expertenkabinett des Kanzlers droht ein schnelles Ende
+- **Publish Date:** 2019-05-21T21:15:06.440000
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 3918
+- **Root Comments:** 935
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103578888">
+    <user_threads>
+      <thread id="1041864759">
+        <user_name>Norbert Müller</user_name>
+        <cmnd_headline>soeben filzmaieranaylse zum misstrauensantrag gehört und da ist für mich klar: SPÖ und FPÖ muss sich nun für einen Sturz von Kurz entscheiden, weil sonst, der Kanzler am besten weg auf eine ÖVP Alleinregierung auch nach den Wahlen ist</cmnd_headline>
+        <cmnd_text>und er seine Macht im gesamten Wahlkampf auch ausbauen  kann.... stürzt man Kurz, wird sehr wahrscheinlich eine personendebatte um kurz in der ÖVP ausbrechen und selbst wenn er an der spitze bleibt, wird er nicht annähernd so gestärkt in die wahlen gehen wie wenn er als kanzler den wahlkampf in die wahlen gehen kann...  SPÖ und FPÖ muss kurz nun stürzen, tun sie es nicht, kommt dann bitte nicht weinen wenn kurz jenseits von 40% in einer neuen regierung, wo er noch viel mehr macht haben wird als in der letzten regierung hatte...  das ist die chance für die anderen für lange zeit die köpfe aus dem sand zu bekommen. es darf einfach nicht sein, dass dieser ganze wahnsinn dafür sorgt dass kurz so massiv gestärkt herausgeht und das land geisselt.</cmnd_text>
+        <cmnd_at>2019-05-22T13:15:08.610000</cmnd_at>
+        <cmnd_length>750</cmnd_length>
+        <replies>
+          <reply id="1041865384">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Kurzs wahre Pläne sind absolut klar.   Als Kanzler (der defacto Alleinregierung) in die Wahl gehen über 40% holen (mit einem treuäugigen Opferschmäh) um dann mit den Neos eine gnadenlose neoliberale Politik voll durchzuziehen. (inklusive radikale Pensions und Sozialkürzungen).  Wenn es sich nicht mit den Neos ausgeht, dann kriecht er sicherlich (wie Schüssel damals ) mit der Rest-FPÖ zusammen.</cmnd_text>
+            <cmnd_at>2019-05-22T13:22:19.770000</cmnd_at>
+            <cmnd_length>396</cmnd_length>
+          </reply>
+          <reply id="1041865728">
+            <user_name>mrs.robinson</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Soeben hat der Kommentator im ARD-Mittagsmagazin völlig zutreffend angemerkt: Wie sehr den Parteien das Wohl und die Stabilität des Landes wirklich am Herzen liegt, wird man daraus sehen, ob sie dieses Übergangskabinett, das ausgewogen zusammengesetzt ist, am Montag gleich wieder nach Hause schicken werden... Die Einzigen, die derzeit wirklich staatstragend agieren, sind die NEOS. Daher werden sie meine Stimme jedenfalls bekommen!</cmnd_text>
+            <cmnd_at>2019-05-22T13:27:49.300000</cmnd_at>
+            <cmnd_length>434</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041861252">
+        <user_name>Hausverstand55</user_name>
+        <cmnd_headline>Die SPÖ begeht politischen Selbstmord...</cmnd_headline>
+        <cmnd_text>...wenn sie das von der FPÖ verursachte Chaos bei einem Misstrauensantrag auch noch unterstützt. Eine staatstragende Partei handelt anders. Die NEOS zeigen vor was verantwortungsvolles Handeln ist.</cmnd_text>
+        <cmnd_at>2019-05-22T12:20:39.620000</cmnd_at>
+        <cmnd_length>197</cmnd_length>
+        <replies>
+          <reply id="1041861354">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>ÖVP + Neos = Sozialabbau und Hofierung der Reichen pur  Sollte jedem klar sein.</cmnd_text>
+            <cmnd_at>2019-05-22T12:22:34.183000</cmnd_at>
+            <cmnd_length>79</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041861233">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>&quot;Dem Expertenkabinett des Kanzlers droht ein schnelles Ende&quot;</cmnd_headline>
+        <cmnd_text>Hoffentlich. Mr. Kurz, der dieses Land mit in größte Schwierigkeiten gebracht hat (SP-Kanzlersturz, FPÖ-Hofierung und in Regierung gebracht, etc.), darf nicht noch mit einer defacto ÖVP-Alleinregierung belohnt werden. Das wäre die Absurdität des Jahres.  Kurz als Stabilitätsgarant des Landes zu sehen ist wahrlich der Witz des Jahres.</cmnd_text>
+        <cmnd_at>2019-05-22T12:20:14.460000</cmnd_at>
+        <cmnd_length>335</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041864238">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz ist ein Sesselkleber ...</cmnd_headline>
+        <cmnd_text>... und klammert sich wie besses an die Macht. Unser Land verdient politisch etwas Besseres als eine defacto ÖVP-Alleinregierung.  2 Regierungen in nichtmal 2 Jahren gecrasht und jetzt zum Stabilitätsanker und Hoffnungsträger erklart ist ein wirklich übler Scherz.</cmnd_text>
+        <cmnd_at>2019-05-22T13:09:29.117000</cmnd_at>
+        <cmnd_length>264</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041866772">
+        <user_name>alifant</user_name>
+        <cmnd_headline>Hoffentlich geht der Misstrauensantrag durch !</cmnd_headline>
+        <cmnd_text>Die 2er-Gruppe Blümel Kurz (sozusagen Kickl Strache 2.0 bzw. Haider Westenthaler 3.0) hat genug angestellt. GENUG IST GENUG! Was soll der Herr Kurz uns noch antun, bis wir begreifen, dass uns diese türkise Partie mit ihrer merkwürdigen Politik nur zum Narren hält. Jeder seiner Auftritte ist eine primitive Eigenwerbung für sich, als wenn eine Schallplatte einen Hacker hätte. Er ist der einzige, der auch den Herrn Bundespräsident nicht ernstnimmt und immer weiter für sich wirbt und  jetzt hat er mit seinen &quot;Experten&quot; noch die absolute Macht ergriffen. Österreich ist Braunschwarz! OK, Werbung wirkt! Aber wenigsten für ein paar Monate hätten wir  von diesen blauntürkisen Typen eine Ruhe. Weg mit dieser Partie. Als Chance, damit es besser wird.</cmnd_text>
+        <cmnd_at>2019-05-22T13:46:07.157000</cmnd_at>
+        <cmnd_length>749</cmnd_length>
+        <replies>
+          <reply id="1041867035">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Stimmt. Honorige Personen sollten die 4 Monate übernehmen, um diesen Staat wieder in ruhige Gewässer zu führen. Alles ohne Kurz natürlich.</cmnd_text>
+            <cmnd_at>2019-05-22T13:51:52.210000</cmnd_at>
+            <cmnd_length>138</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041866361">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>NEOS wollten noch vor Kurzem die SPÖ in Wien  ...</cmnd_headline>
+        <cmnd_text>... mithilfe der FPÖ (und ÖVP) stürzen. Es hieß: Auf keinen Fall einen Roter Bürgermeister. NEOS haben im Parlament mit ÖVP/FPÖ massive Arbeitnehmerverschlechterungen mitbeschlossen.  Niemals vergessen, was das für eine Partei ist.</cmnd_text>
+        <cmnd_at>2019-05-22T13:38:44.913000</cmnd_at>
+        <cmnd_length>231</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041868142">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Der Fisch beginnt am Kopf zu stinken ...</cmnd_headline>
+        <cmnd_text>... mehr ist eigentlich nicht mehr zu sagen.</cmnd_text>
+        <cmnd_at>2019-05-22T14:13:44.463000</cmnd_at>
+        <cmnd_length>44</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041868414">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz ...</cmnd_headline>
+        <cmnd_text>... sollte zum Wohle unserer Republik endlich zurücktreten. Dieses Sesselkleben ist einfach nur mehr unwürdig.</cmnd_text>
+        <cmnd_at>2019-05-22T14:19:03.173000</cmnd_at>
+        <cmnd_length>110</cmnd_length>
+        <replies>
+          <reply id="1041868713">
+            <user_name>Ich hab stinkende Füße</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Er wartet noch auf ein gutes Job Angebot. Oder glauben Sie wirklich er wird sich auf Dauer mit diesem lächerlichen Politikergehalt abgeben?</cmnd_text>
+            <cmnd_at>2019-05-22T14:24:33.997000</cmnd_at>
+            <cmnd_length>139</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041866641">
+        <user_name>global_services</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>https://www.sueddeutsche.de/politik/oesterreich-kurz-fpoe-kommentar-1.4455972   Somit sollte Kurz endlich Verantwortung zeigen und seinen Rückzug aus der Politik erklären, die Show ist aus, der Clown geht raus......</cmnd_text>
+        <cmnd_at>2019-05-22T13:43:58.420000</cmnd_at>
+        <cmnd_length>215</cmnd_length>
+        <replies>
+          <reply id="1041866904">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Kein Kanzler vor ihm war so ein Sesselkleber wie dieser jetztige.</cmnd_text>
+            <cmnd_at>2019-05-22T13:48:50.190000</cmnd_at>
+            <cmnd_length>65</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041868805">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Regierung der besten Köpfe ...</cmnd_headline>
+        <cmnd_text>... ohne Kurz.   Diese arroganten Kanzlerposen sind nicht mehr auszuhalten. Er hat noch immer nicht kapiert, dass es seine unfähige Regierung war die implodiert ist.  Franz Fischler oder Heinz Fischer wären sehr gut für die 4-6 Monate.</cmnd_text>
+        <cmnd_at>2019-05-22T14:26:34.060000</cmnd_at>
+        <cmnd_length>235</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041870139">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Am Montag heißt es ...</cmnd_headline>
+        <cmnd_text>... Ex-Kanzler Kurz. Ausser er besinnt sich und tritt freiwillig zurück.  Alles andere ist mittlerweile eigentlich undenkbar.  Der Fisch beginnt am Kopf zu stinken.</cmnd_text>
+        <cmnd_at>2019-05-22T14:48:25.670000</cmnd_at>
+        <cmnd_length>164</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041867637">
+        <user_name>Hannes aus dem Burgenland</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>In dem, dass man den Kanzler seines Amtes beraubt, beraubt man ihn auch seiner Mitarbeiter.  So wäre Herr Kurz wie alle anderen Parteivorsitzenden ein einfacher Abgeordneter.</cmnd_text>
+        <cmnd_at>2019-05-22T14:04:21.403000</cmnd_at>
+        <cmnd_length>174</cmnd_length>
+        <replies>
+          <reply id="1041868027">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Kurz fürchtet sich panisch vor der Ablöse als Bundeskanzler.</cmnd_text>
+            <cmnd_at>2019-05-22T14:11:22.680000</cmnd_at>
+            <cmnd_length>60</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103584821
+- **Title:** Weg mit Kurz? Purer Revanchismus der Opposition
+- **Publish Date:** 2019-05-22T09:15:17
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 2177
+- **Root Comments:** 882
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103584821">
+    <user_threads>
+      <thread id="1041868330">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Der Fisch beginnt am Kopf zu stinken ...</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-22T14:17:29.503000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103640150
+- **Title:** Kurz stürzen oder stützen? Was für und was gegen ein Misstrauensvotum spricht
+- **Publish Date:** 2019-05-23T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 3269
+- **Root Comments:** 1120
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103640150">
+    <user_threads>
+      <thread id="1041906019">
+        <user_name>Auslandsösterreicher1</user_name>
+        <cmnd_headline>wenn der Misstrauensantrag nicht unterstützt wird könnte auch folgendes passieren</cmnd_headline>
+        <cmnd_text>Kurz und der Rest seiner Ministertruppe bringen alle möglichen Gesetzesvorschläge ein die &quot;staatstragend&quot; sind und die &quot;Stibilität&quot; nicht gefährden. Die Opposition (die faktisch die Mehrheit hat) lehnt die meisten ab. Kurz geriert sich als Macher und stempelt alle anderen Parteien als Verhinderer ab und punktet beim Wähler.</cmnd_text>
+        <cmnd_at>2019-05-23T10:54:39.797000</cmnd_at>
+        <cmnd_length>325</cmnd_length>
+        <replies>
+          <reply id="1041906225">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Darum gehört der Kanzlerdarsteller, der Oberposer vom Ballhausplatz abgesetzt.   Es kann ja nicht sein, das der der die Instabilität des Staates mitverursacht hat, mit einer &quot;Alleinregierung&quot; mit allen Ressourcen des Steuerzahlers der Ministerien noch belohnt wird.</cmnd_text>
+            <cmnd_at>2019-05-23T10:59:53.297000</cmnd_at>
+            <cmnd_length>265</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041905215">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Es gibt in Wirklichkeit absolut NICHTS, was ...</cmnd_headline>
+        <cmnd_text>... gegen einen erfolgreiches Misstrauensvotum spricht.  Dass Kurz dann ein Märtyrer werden würde, ist doch lächerlich bis absurd nachdem was der seit ca. 2 Jahren in Österreich so treibt. Sprengt mit widerlichen Intrigen die SPÖ-ÖVP-Koalition, legt sich dann mit der äussersten Rechten in ein Koalitionsbett, hebelt Arbeitnehmerrechte aus und geht in Richtung illiberaler Demokratie. Und der soll ein Stabilitätsfaktir sein. Der Witz des Jahres.  Im Gegenteil: Nachdem Kurz durch Fischler, Fischer oder einem anderen honorigen Menschen ersetzt wurde und er nurmehr kleiner Abgeordneter ist könnte sehr wohl auch eine Diskussion über ihn in der ÖVP beginnen. Ausserdem wäre seine Absetzung sehr wohl auch ein schwarzer Punkt in seiner Vita.</cmnd_text>
+        <cmnd_at>2019-05-23T10:35:55.777000</cmnd_at>
+        <cmnd_length>740</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041908435">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wir brauchen keinen Orbanismus in Österreich ...</cmnd_headline>
+        <cmnd_text>... darum MUSS man Kurz abwählen, alleine um ein Zeichen gegen die illiberale Demokratie, welche Türkis/Blau angesteuert hat, zu setzen.  Soll er sich doch zum Märtyrer machen, fakt ist aber, dass eine Absetzung sehr wohl ein harter Schlag gegen ihn sein würde. Denn als einfacher Abgeordneter und geschaßter Kanzler, der mit rechtsrechten Koalitions-Figuren das Land ins Chaos geführt hat, ist es gar nicht mehr sooo leicht im Wahlkampf eine Lichtgestalt zu spielen.</cmnd_text>
+        <cmnd_at>2019-05-23T11:49:09.820000</cmnd_at>
+        <cmnd_length>467</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041908611">
+        <user_name>Suchend</user_name>
+        <cmnd_headline>Was dagegen spricht: SPÖ und FPÖ in trauter Zweisamkeit</cmnd_headline>
+        <cmnd_text>Die entscheidende strategische Frage für die SPÖ  müsste doch sein: welches Bild vermitteln wir, wenn wir aus Rachsucht einen Pakt mit der FPÖ eingehen, auch wenn es nur bei dieser einen Abstimmung ist? Dass der Zweck die Mittel heiligt? Dass nach der nächsten Wahl, die wohl kaum eine rot-grüne Mehrheit bringen wird, eine SPÖ-FPÖ-Koalition durchaus denkbar ist?</cmnd_text>
+        <cmnd_at>2019-05-23T11:52:58.697000</cmnd_at>
+        <cmnd_length>363</cmnd_length>
+        <replies>
+          <reply id="1041910766">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Pilz und FPÖ in trauer Zweisamkeit. Diesen Witz wohl des Jahres, glaubt wohl niemand.  X-Beschlüsse im Parlament werden einstimmig beschlossen OHNE das dadurch Parteien in trauter Zweisamkeit wären.  Und diesmal wird es wieder so sein. Kurz wird abgesetzt werden.</cmnd_text>
+            <cmnd_at>2019-05-23T12:45:20.467000</cmnd_at>
+            <cmnd_length>263</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041910634">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Neos helfen Kurz ...</cmnd_headline>
+        <cmnd_text>... wohl als einzige der Parlamentsparteien am Montag. Die Neoliberalen träumen jetzt schon von einem Coup nach den nächsten Wahlen mit Kurz.   Die feuchten Träume vom Sozialabbau total und Pensionskürzungen pur sind regelrecht zum Spüren ...</cmnd_text>
+        <cmnd_at>2019-05-23T12:41:53.630000</cmnd_at>
+        <cmnd_length>242</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041910819">
+        <user_name>Gott vergelts!</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Das Argument &quot;staatstragend&quot; passt auf Katastrophen- oder Kriegszeiten. Man muss zusammenrücken, politische Differenzen hintanstellen, um die schwierige Situation zu meistern: &quot;Blut, Schweiß und Tränen.&quot;  Aber es passt so gar nicht auf die jetzige Situation, die derjenige, der nun staatstragend unterstützt werden soll, selbst herbeigeführt hat.</cmnd_text>
+        <cmnd_at>2019-05-23T12:46:28.723000</cmnd_at>
+        <cmnd_length>346</cmnd_length>
+        <replies>
+          <reply id="1041911205">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Zumal Kurz und staatstragend in einem Satz so gar nicht mehr passt nach diesen chaotischen 1 1/2.</cmnd_text>
+            <cmnd_at>2019-05-23T12:55:25.920000</cmnd_at>
+            <cmnd_length>97</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041912775">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Einzige Frage ist nur mehr ...</cmnd_headline>
+        <cmnd_text>... wird FP-Hofer, als Vorleistung für eine künftige Neuauflage ÖVP/FPÖ, Kurz durch Auszug der FPÖ-Fraktion die Leiter machen damit Kurz weiter an seinem Kanzler-Sessel kleben bleiben darf ?</cmnd_text>
+        <cmnd_at>2019-05-23T13:30:04.647000</cmnd_at>
+        <cmnd_length>190</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041914478">
+        <user_name>Cordylus Cataphractus Violaceus</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Find ich witzig. Da steh beim &quot;Kontra&quot; was von &quot;Unsicherheit&quot; und &quot;Neuland&quot;, aber dabei steht genauso drin, dass eh alles geregelt ist. Löger wird Bundeskanzler, der Rest bleibt wo er ist, die paar Monate so, dann Neuwahlen. Es geht ja nicht darum nochmal alles umzuwerfen, sondern dass Kurz weg muss der das alles zu verantworten hat! Also wo bitte ist das Problem?</cmnd_text>
+        <cmnd_at>2019-05-23T14:05:44.470000</cmnd_at>
+        <cmnd_length>366</cmnd_length>
+        <replies>
+          <reply id="1041914696">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Löger soll auch zurücktreten.</cmnd_text>
+            <cmnd_at>2019-05-23T14:10:46.127000</cmnd_at>
+            <cmnd_length>29</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041911762">
+        <user_name>pola</user_name>
+        <cmnd_headline>die FPÖ spekuliert gerade, ob sie am Montag aus dem Nationalrats Plenum auszieht........</cmnd_headline>
+        <cmnd_text>weil mit den Stimmen der Türkisen u. Neos kann Kurz bleiben......  und das nächste wäre, Herr Kurz kann auch mit einem &quot;gemäßigten&quot; Hofer nach der NRW im Herbst weitermachen, wie bisher........  Die Neos sind der Steigbügelhalter für Kurz u. Hofer......... warum machen die das ??</cmnd_text>
+        <cmnd_at>2019-05-23T13:07:34.660000</cmnd_at>
+        <cmnd_length>280</cmnd_length>
+        <replies>
+          <reply id="1041912530">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Weil die Neos nach der nächsten Wahl einen neoliberalen Coup mit Kurz planen.</cmnd_text>
+            <cmnd_at>2019-05-23T13:25:42.280000</cmnd_at>
+            <cmnd_length>77</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041911384">
+        <user_name>geändert</user_name>
+        <cmnd_headline>Kurz wähnt sich in einer win win Situation. Mal sehen ob es neuerlich gelingt so wie bei der Balkanroute, die nicht er, sondern der Türkeideal geschlossen hat.  Und die Medien haben da munter mitgemacht. Ich habe die Balkanroute geschlossen, ich habe</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-23T12:59:26.853000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies>
+          <reply id="1041911674">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Diesmal schließt er die Karibikroute.</cmnd_text>
+            <cmnd_at>2019-05-23T13:05:42.543000</cmnd_at>
+            <cmnd_length>37</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041910791">
+        <user_name>reallynotadog</user_name>
+        <cmnd_headline>Gründe warum man Kurz nicht stürzen darf laut Heidi Glück (ÖVP):</cmnd_headline>
+        <cmnd_text>Weil er der Bundeskanzler ist. Und das der SPÖ sicher schaden würde.  ––– Beweisführung abgeschlossen.</cmnd_text>
+        <cmnd_at>2019-05-23T12:45:53.377000</cmnd_at>
+        <cmnd_length>102</cmnd_length>
+        <replies>
+          <reply id="1041911087">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Beweist nur, wie viel Angst in der ÖVP herrscht. Denn sie wissen, dass ein geschaßter Kanzler, der 2. Mal das Land in die Krise geführt hat nicht mehr so einfach als Lichtgestalt zu verkaufen wäre.</cmnd_text>
+            <cmnd_at>2019-05-23T12:53:04.357000</cmnd_at>
+            <cmnd_length>197</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041911208">
+        <user_name>gandi2807</user_name>
+        <cmnd_headline>Gerade Netflix das römische Reich gesehen</cmnd_headline>
+        <cmnd_text>Caligula, Caesar und Commodus  Irgendwie alle verrückt, aber gewisse Parallelen kann man schon erkennen.  Basti der neue Kaiser von Österreich</cmnd_text>
+        <cmnd_at>2019-05-23T12:55:29.543000</cmnd_at>
+        <cmnd_length>142</cmnd_length>
+        <replies>
+          <reply id="1041912097">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>.... oder am Montag der 1.geschaßte Kanzler der 2.Republik.</cmnd_text>
+            <cmnd_at>2019-05-23T13:15:17.630000</cmnd_at>
+            <cmnd_length>59</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041910711">
+        <user_name>Artus King</user_name>
+        <cmnd_headline>Die Bedeutung des Misstrauensantrages wird total überschätzt.</cmnd_headline>
+        <cmnd_text>Am Ende wird Kurz nach NR-Wahl im September wieder BK sein. Wenn sich Türkis/Blau oder Türkis/Rosa ausgeht, wird Kurz wieder Kanzler sein.  &quot;Wenn Wahlen etwas änderten, wären sie längst verboten.&quot;</cmnd_text>
+        <cmnd_at>2019-05-23T12:43:56.390000</cmnd_at>
+        <cmnd_length>196</cmnd_length>
+        <replies>
+          <reply id="1041910926">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Kurz und FPÖ nach der nächsten Wahl? Das schau ich mir fußfrei 1.Reihe an.   Aber daran glaubt er wohl nichtmal selbst.   Die brutalo und turbokapitalistische Koalition mit den Neos strebt er schon eher an.</cmnd_text>
+            <cmnd_at>2019-05-23T12:49:10.170000</cmnd_at>
+            <cmnd_length>206</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041913575">
+        <user_name>Tom Ate</user_name>
+        <cmnd_headline>Wäre FSPÖ</cmnd_headline>
+        <cmnd_text>nach dem Misstrauensvotum dann auch die neue Regierungskoalition?</cmnd_text>
+        <cmnd_at>2019-05-23T13:46:12.743000</cmnd_at>
+        <cmnd_length>65</cmnd_length>
+        <replies>
+          <reply id="1041913803">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Genauso wenig wie Pilz und FPÖ eine kommende Regierungskoalition ist.</cmnd_text>
+            <cmnd_at>2019-05-23T13:51:41.387000</cmnd_at>
+            <cmnd_length>69</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103644107
+- **Title:** Türkis-Blau II?
+- **Publish Date:** 2019-05-23T08:54:56
+- **Channel:** Meinung
+- **Ressort Name:** Einserkastl Hans Rauscher
+- **Total Comments:** 1795
+- **Root Comments:** 610
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103644107">
+    <user_threads>
+      <thread id="1041911424">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Dass Kurz den Schüssel macht ist nicht ...</cmnd_headline>
+        <cmnd_text>... auszuschließen.</cmnd_text>
+        <cmnd_at>2019-05-23T13:00:11.090000</cmnd_at>
+        <cmnd_length>19</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103645566
+- **Title:** Kurz tut wenig, um die ramponierte Glaubwürdigkeit der Politik wiederherzustellen
+- **Publish Date:** 2019-05-22T18:36:46
+- **Channel:** Meinung
+- **Ressort Name:** Michael Völker
+- **Total Comments:** 1092
+- **Root Comments:** 369
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103645566">
+    <user_threads>
+      <thread id="1041911213">
+        <user_name>Girgl Galgenstein</user_name>
+        <cmnd_headline>Was soll der Unsinn</cmnd_headline>
+        <cmnd_text>dass Kurz vorgezogene Neuwahlen zu verantworten hätte? Die Grundlage für eine Fortführung der Koalition war mit Strache und Kickl weg. Was soll Kurz in einer solchen Situation tun? Einfach weiterregieren? Wie? Neuwahlen? Sind ausgerufen.</cmnd_text>
+        <cmnd_at>2019-05-23T12:55:33.890000</cmnd_at>
+        <cmnd_length>237</cmnd_length>
+        <replies>
+          <reply id="1041911593">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Er hat sich mit den Rechtsrechten ins Bett gelegt und 70 Einzelfälle (und vieles andere) zugelassen. So nebenbei hat er auch noch die damalige SPÖ/ÖVP-Koalition mutwillig implodieren lassen.  Der Mann kann es nicht.</cmnd_text>
+            <cmnd_at>2019-05-23T13:03:56.680000</cmnd_at>
+            <cmnd_length>215</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103666065
+- **Title:** Neos-Vize Scherak: "Kurz jetzt abzusetzen wird ihm nützen"
+- **Publish Date:** 2019-05-23T10:58:57
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 176
+- **Root Comments:** 83
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103666065">
+    <user_threads>
+      <thread id="1041919517">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Neos-Gschichtln ...</cmnd_headline>
+        <cmnd_text>... um schon mal für eine neoliberale ÖVP-Neos-Koalition vorzuglühen.</cmnd_text>
+        <cmnd_at>2019-05-23T15:49:26.840000</cmnd_at>
+        <cmnd_length>69</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103675255
+- **Title:** Statistik Austria: Mieten in fünf Jahren um 13 Prozent gestiegen
+- **Publish Date:** 2019-05-23T11:13:09
+- **Channel:** Immobilien
+- **Ressort Name:** Mieten
+- **Total Comments:** 129
+- **Root Comments:** 34
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103675255">
+    <user_threads>
+      <thread id="1041920496">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Während sich früher jeder kleine Angestellte ...</cmnd_headline>
+        <cmnd_text>... sogar ein Häuschen oder Wohnung leisten konnte arbeitet man heutzutage fast nur mehr für Miete und Nebengeräusche, wie ein Sklave im alten Rom.</cmnd_text>
+        <cmnd_at>2019-05-23T16:10:04.140000</cmnd_at>
+        <cmnd_length>147</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103682487
+- **Title:** Laudas Unterschrift für immer auf Silberpfeilen
+- **Publish Date:** 2019-05-23T12:35:11
+- **Channel:** Sport
+- **Ressort Name:** Niki Lauda
+- **Total Comments:** 13
+- **Root Comments:** 9
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103682487">
+    <user_threads>
+      <thread id="1041919931">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Ich bin traurig ...</cmnd_headline>
+        <cmnd_text>RIP</cmnd_text>
+        <cmnd_at>2019-05-23T15:56:45.383000</cmnd_at>
+        <cmnd_length>3</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103699010
+- **Title:** Rendi-Wagner wird an Kurz scheitern
+- **Publish Date:** 2019-05-23T16:21:37
+- **Channel:** Meinung
+- **Ressort Name:** Michael Völker
+- **Total Comments:** 3148
+- **Root Comments:** 1315
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103699010">
+    <user_threads>
+      <thread id="1041921295">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Totgesagte leben länger ...</cmnd_headline>
+        <cmnd_text>... nur als harte Konkurrentin kann PRW reüssieren, nur mit einer Flucht nach vorne Strategie. Dabei wird ihr jeder in der SPÖ beistehen.   Ein Knickserl vorm Kurz zu machen, nur um ein paar hämische Rosinen abzubekomen, würde für sie fatal enden.</cmnd_text>
+        <cmnd_at>2019-05-23T16:29:26.283000</cmnd_at>
+        <cmnd_length>247</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041922575">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Rendi-Wagner ist eine kluge Frau ...</cmnd_headline>
+        <cmnd_text>... und wird sehr schnell dazu lernen. Sie muss z.b noch an ihren rhetorischen Fähigkeiten arbeiten. Diese Inszenierung, wie sie Kurz perfekt betreibt, ist halt heute wichtiger denn je.  Kurz versteht Gutmütigkeit jedenfalls nur als Schwäche.</cmnd_text>
+        <cmnd_at>2019-05-23T16:48:12.433000</cmnd_at>
+        <cmnd_length>242</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041923206">
+        <user_name>Vicky_Eisi</user_name>
+        <cmnd_headline>Was hat sich Sebastian Kurz zuschulden kommen lassen?</cmnd_headline>
+        <cmnd_text>Danke für diese Frage! Ich versuche schon seit einigen Tagen, darauf eine Antwort zu erhalten, aber außer kommentarlosen Rotstrichlern gibt es nichts.</cmnd_text>
+        <cmnd_at>2019-05-23T16:59:52.073000</cmnd_at>
+        <cmnd_length>150</cmnd_length>
+        <replies>
+          <reply id="1041923465">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>1. hat er mutwillig die SPÖ-ÖVP implodieren lassen (siehe Mitterlehner Buch)  2. hat er sich, trotz Warnung, mit den &quot;70 Einzelfällen&quot; Rechtsrechten ins Bett gelegt und dabei den Staat in Richtung illiberaler Demokratie umgebaut, Arbeitnehmerrechte ausgehöhlt, etc..... Unter Verhöhnung der Opposition.  3. will er schon wieder mit der FPÖ koalieren, trotz all der Vorkommnisse.</cmnd_text>
+            <cmnd_at>2019-05-23T17:05:44.523000</cmnd_at>
+            <cmnd_length>378</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041922639">
+        <user_name>Schnitzlesserfürerdogan</user_name>
+        <cmnd_headline>&quot;Wir Entertainer sterben aus“ (c) Häupl</cmnd_headline>
+        <cmnd_text>..da hat er Recht. Um in Österreich erfolgreich zu sein musst du entweder ein Entertainer oder Populist sein. Oder beides zusammen.  Wobei der Begriff Populist immer so negativ wahrgenommen wird.   Würde beispielsweise Doskozil als Spitzenkandidat antreten, dann hätte die SPÖ realistische Chancen ein besseres Ergegniss zu erzielen.  Die moderaten, einwanderungskritischen &amp;amp; entschäuschten Wähler von türkis/blau hätten ein Alternative.  Doskozil ist für seinen pragmatischen &quot;law&amp;amp;order&quot; Kurs bekannt. Und die wenigsten Stamm SPÖ Wähler würden in der jetzigen Situation abspringen.   Mit Doskuzil wären 30% drinnen. ;)</cmnd_text>
+        <cmnd_at>2019-05-23T16:49:06.687000</cmnd_at>
+        <cmnd_length>619</cmnd_length>
+        <replies>
+          <reply id="1041922887">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Problem ist, dass Diskozil wohl die Partei ziemlich spalten würde.   Besser Rendi-Wagner macht das. In Skandinavien hauen auch die Frauen (gerade in den dortigen Parteien) mal auf den Tisch, das sollte sie sich zum Vorbild nehmen.</cmnd_text>
+            <cmnd_at>2019-05-23T16:53:33.633000</cmnd_at>
+            <cmnd_length>230</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041923009">
+        <user_name>Wakan Tanka</user_name>
+        <cmnd_headline>PRW soll Position beziehen, für die Arbeitenden</cmnd_headline>
+        <cmnd_text>für alle, sonst nichts, er soll den 12 Stunden-Tag zurücknehmen und die Aktion 20.000 wieder einführen. Machte er das nicht, dann soll er Geschichte sein.</cmnd_text>
+        <cmnd_at>2019-05-23T16:55:36.990000</cmnd_at>
+        <cmnd_length>154</cmnd_length>
+        <replies>
+          <reply id="1041923288">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Macht er nicht, weil das das Herzstück von seiner Politik war, ist und sein wird.</cmnd_text>
+            <cmnd_at>2019-05-23T17:01:20.130000</cmnd_at>
+            <cmnd_length>81</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041926250">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Ganz Europa wird verstehen ...</cmnd_headline>
+        <cmnd_text>... dass die SPÖ gar nicht anders konnte, als den Garanten der Instabilität Kurz vom hohen Ross geholt zu haben.</cmnd_text>
+        <cmnd_at>2019-05-23T18:12:58.137000</cmnd_at>
+        <cmnd_length>112</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103708668
+- **Title:** Misstrauen gegen Sebastian Kurz: Ein sachliches Dilemma
+- **Publish Date:** 2019-05-23T17:56:11
+- **Channel:** Meinung
+- **Ressort Name:** Petra Stuiber
+- **Total Comments:** 900
+- **Root Comments:** 320
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103708668">
+    <user_threads>
+      <thread id="1041927272">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Ein geschaßter Kanzler ...</cmnd_headline>
+        <cmnd_text>... ist wohl kein Ruhmesblatt für ÖVP.</cmnd_text>
+        <cmnd_at>2019-05-23T18:38:17.903000</cmnd_at>
+        <cmnd_length>38</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103709000
+- **Title:** Straches flotte Millionen für eine jetzt wackelnde Judo-WM
+- **Publish Date:** 2019-05-23T17:57:18
+- **Channel:** Inland
+- **Ressort Name:** Lobbying &amp; Korruption
+- **Total Comments:** 452
+- **Root Comments:** 195
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103709000">
+    <user_threads>
+      <thread id="1041926074">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Die Aufräumarbeiten nach dieser Regierung ...</cmnd_headline>
+        <cmnd_text>... werden uns noch lange beschäftigen.</cmnd_text>
+        <cmnd_at>2019-05-23T18:08:20.037000</cmnd_at>
+        <cmnd_length>39</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103740730
+- **Title:** Identitäre betreiben Vorzugsstimmenwahlkampf für Strache bei EU-Wahl
+- **Publish Date:** 2019-05-24T12:16:24
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1626
+- **Root Comments:** 757
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103740730">
+    <user_threads>
+      <thread id="1041961948">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurzum, der Strache ist in Wirklichkeit NIE zurückgetreten ...</cmnd_headline>
+        <cmnd_text>... und kommt jetzt über die EU-Wahl wieder in Amt und Würden.   Und Kurz plant scheinbar wieder mit der FPÖ zu koalieren MIT Strache dann im EU-Parlament für die FPÖ.  Heiliger Strohsack, und da behauptet die ÖVP ernsthaft sie würde die Republik nicht destabilisieren.</cmnd_text>
+        <cmnd_at>2019-05-24T14:11:39.427000</cmnd_at>
+        <cmnd_length>269</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103773909
+- **Title:** Sebastian Kurz: "Einzelfälle haben mich viel Kraft gekostet"
+- **Publish Date:** 2019-05-24T18:10:27
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 4789
+- **Root Comments:** 1964
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103773909">
+    <user_threads>
+      <thread id="1041972640">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Jo eh und der Marsch Richtung illiberaler Demokratie ...</cmnd_headline>
+        <cmnd_text>... hat auch so viel Kraft gekostet.</cmnd_text>
+        <cmnd_at>2019-05-24T18:47:00.223000</cmnd_at>
+        <cmnd_length>36</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1041972602">
+        <user_name>Achilles pseudonym</user_name>
+        <cmnd_headline>Die SPÖ wollte keine Koalition...</cmnd_headline>
+        <cmnd_text>der ÖVP machen.  Herr kurz scheint hier vertuschen zu wollen, dass es bereits eine Koalition gab, die er gesprengt hat.</cmnd_text>
+        <cmnd_at>2019-05-24T18:46:14.810000</cmnd_at>
+        <cmnd_length>119</cmnd_length>
+        <replies>
+          <reply id="1041972785">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Ist halt jetzt die Zeit sich regierungskoalitionsseits zum Opfer zu stilisieren.  Das hat er natürlich auch schon längst mit seiner hochbezahlten Beratertruppe voll und ganz durchgeplant.</cmnd_text>
+            <cmnd_at>2019-05-24T18:50:19.337000</cmnd_at>
+            <cmnd_length>187</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041972774">
+        <user_name>_supersushi</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Lieber Herr Kurz, denken Sie sich manchmal &quot;Ach, hätte ich doch was gelernt“?  Frage für einen Freund ...</cmnd_text>
+        <cmnd_at>2019-05-24T18:49:55.033000</cmnd_at>
+        <cmnd_length>105</cmnd_length>
+        <replies>
+          <reply id="1041972864">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Laut Pilz hat er ÖVP gelernt.   Und das genügt ja schon oft für eine große Karriere in Österreich ...</cmnd_text>
+            <cmnd_at>2019-05-24T18:52:28.377000</cmnd_at>
+            <cmnd_length>101</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041972856">
+        <user_name>Rupert Pupkin</user_name>
+        <cmnd_headline>Werter Herr Bundeskanzler</cmnd_headline>
+        <cmnd_text>Österreich hat seit 17 Monaten eine Staatskrise!</cmnd_text>
+        <cmnd_at>2019-05-24T18:52:21.303000</cmnd_at>
+        <cmnd_length>48</cmnd_length>
+        <replies>
+          <reply id="1041972982">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Ja seit er die gut funktionierende SPÖ-ÖVP Koalition mutwillig gesprengt hat.  Das Mitterlehner Buch ist liest sich ja fast wie ein Krimi darüber.</cmnd_text>
+            <cmnd_at>2019-05-24T18:55:20.420000</cmnd_at>
+            <cmnd_length>146</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103915569
+- **Title:** Pamela Rendi-Wagner kann es nicht, Sebastian Kurz kann es zu gut
+- **Publish Date:** 2019-05-27T17:34:35
+- **Channel:** Meinung
+- **Ressort Name:** Einserkastl Hans Rauscher
+- **Total Comments:** 2564
+- **Root Comments:** 728
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103915569">
+    <user_threads>
+      <thread id="1042143813">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Problem: die Hackler sind in Mehrzahl bei der FPÖ ...</cmnd_headline>
+        <cmnd_text>... die Boboleins bei den Grünen und Neos. Der Rest, vorallem die Mehrheit der Landler, ist bei ÖVP.</cmnd_text>
+        <cmnd_at>2019-05-28T13:02:34.510000</cmnd_at>
+        <cmnd_length>100</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042144711">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz könnte zurückkommen, härter und mächtiger denn je ...</cmnd_headline>
+        <cmnd_text>... das ist nun zu befürchten. So war es bei Orban oder Kaczynski. Die hat man auch mal geschaßt, danach sind sie noch aggressiver zurückgekehrt als sie schon vorher waren.   Die illiberale Demokratie wird unter Kurz II höchstwahrscheinlich noch skrupelloser ausgebaut werden als bisher.</cmnd_text>
+        <cmnd_at>2019-05-28T13:20:05.067000</cmnd_at>
+        <cmnd_length>287</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103915654
+- **Title:** Kurz setzt im Wahlkampf auf Kurz, Kurz und Kurz
+- **Publish Date:** 2019-05-28T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 1636
+- **Root Comments:** 555
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103915654">
+    <user_threads>
+      <thread id="1042144907">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Kurz wurde gestern wie ein Guru oder Heiland gefeiert ...</cmnd_headline>
+        <cmnd_text>... sowas finde ich prinzipiell immer unheimlich.</cmnd_text>
+        <cmnd_at>2019-05-28T13:24:05.883000</cmnd_at>
+        <cmnd_length>49</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103921971
+- **Title:** Nach Sturz von Kurz: Wien verliert in Brüssel an Bedeutung
+- **Publish Date:** 2019-05-28T06:00:00
+- **Channel:** International
+- **Ressort Name:** EU
+- **Total Comments:** 2622
+- **Root Comments:** 683
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103921971">
+    <user_threads>
+      <thread id="1042144280">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Österreich kann auch ohne Kurz gut leben ...</cmnd_headline>
+        <cmnd_text>... der Einfluß in der EU ist sowieso marginal. Und die Posten werden eh warm gehalten. Der Postenschacherdiskussion läuft eh munter im Hintergrund weiter. Da mach ich mir wenig Sorgen.</cmnd_text>
+        <cmnd_at>2019-05-28T13:11:55.270000</cmnd_at>
+        <cmnd_length>185</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103928932
+- **Title:** In der SPÖ rumort es, nicht nur wegen des schlechten Ergebnisses bei der EU-Wahl
+- **Publish Date:** 2019-05-28T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** SPÖ
+- **Total Comments:** 3748
+- **Root Comments:** 1069
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103928932">
+    <user_threads>
+      <thread id="1042144021">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Das &quot;Ausländer&quot;-Thema überlagert eben alles ...</cmnd_headline>
+        <cmnd_text>... und FPÖVP bedienen sich ungeniert dieses Dauerkalauers. Die SPÖ hat de facto keine bis wenig Chancen gegen diese Agitation anzukommen.</cmnd_text>
+        <cmnd_at>2019-05-28T13:06:33.960000</cmnd_at>
+        <cmnd_length>138</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103982768
+- **Title:** Von Steuerentlastung bis Rauchverbot: Was noch kommt und was wackelt
+- **Publish Date:** 2019-05-29T10:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 534
+- **Root Comments:** 136
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103982768">
+    <user_threads>
+      <thread id="1042191804">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Zwölfstundentag</cmnd_headline>
+        <cmnd_text>FPÖ-Rosenkranz hat doch im ORF (&quot;Runder Tisch&quot;) deutlich gesagt, dass die tollen Regierungsbeschlüsse (explizit genannt der 12 Stundenarbeitstag) nicht angetastet werden sollen.  Passt ja zur Partei der Reichen:  siehe: https://www.mandelbaum.at/buch.php?id=825</cmnd_text>
+        <cmnd_at>2019-05-29T15:10:35.650000</cmnd_at>
+        <cmnd_length>261</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042191809">
+        <user_name>keppel pepi</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Im Bundesrat besteht die aufgekündigte türkis-braune Koalition offenbar noch. Da wird in trauter Harmonie gemeinsam wie in alten Zeiten gemeinsam abgestimmt. Verlogene Ba...</cmnd_text>
+        <cmnd_at>2019-05-29T15:10:42.953000</cmnd_at>
+        <cmnd_length>173</cmnd_length>
+        <replies>
+          <reply id="1042192134">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Stimmt. Am Horizont ist schon jetzt, für jeden der genau hinsieht, eine Neuauflage Türkis-Blau zu erkennen.  Die nächsten Monate zieht man halt eine Wahlshow ab, damit die FPÖ nicht gar so sehr abstinkt und dann wird weiter koaliert mit dem pflegeleichteren Hofer und weiter an der Demontage der Errungenschaften der 2.Republik gearbeitet.</cmnd_text>
+            <cmnd_at>2019-05-29T15:19:06.270000</cmnd_at>
+            <cmnd_length>339</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103987799
+- **Title:** Die SPÖ und ihre Kommunikationsprobleme: Leid im Bild
+- **Publish Date:** 2019-05-29T11:06:14
+- **Channel:** Inland
+- **Ressort Name:** SPÖ
+- **Total Comments:** 2084
+- **Root Comments:** 683
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103987799">
+    <user_threads>
+      <thread id="1042193364">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Genau diese Fehler machen die SPÖ aber auch menschlich ...</cmnd_headline>
+        <cmnd_text>Mir ist das lieber als der durchgestylte, brutale Machiavelli-Plan der Gegenseite.  Ich warne jetzt schon: Vielleicht ist es die letzte Wahl in der wir den &quot;Orbanismus&quot; aus Österreich fernhalten können. Es gab schon Generationen vor uns die nur allzuleichtfertig die liberale Demokratie aufs Spiel gesetzt haben, um sich dann einem &quot;Heiland&quot;, einem schalmeienden &quot;Retter&quot; ... auszuliefern.</cmnd_text>
+        <cmnd_at>2019-05-29T15:44:23.017000</cmnd_at>
+        <cmnd_length>389</cmnd_length>
+        <replies>
+          <reply id="1042194144">
+            <user_name>dubitans</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Und der &quot;der durchgestylte, brutale Machiavelli-Plan&quot; der ÖVP bestand darin, vom Parlament abgesetzt zu werden? Eine ÖVP+4Experten-Regierung, vom gewiss nicht rechtslastigen Bundespräsidenten ausdrücklich als &quot;stabile Übergangsregierung&quot; angelobt? Oder macht VdB Ihrer Meinung nach bei der bösen ÖVP-Verschwörung mit?  Antworten im September von der Bevölkerung.</cmnd_text>
+            <cmnd_at>2019-05-29T15:56:40.467000</cmnd_at>
+            <cmnd_length>362</cmnd_length>
+          </reply>
+          <reply id="1042195198">
+            <user_name>slim shady</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>PRW würden diese kleinen medialen Unzulänglichkeiten wohl nachgesehen werden wenn sie sich auch menschlich geben würde. Ihre schlecht eingelernten Phrasierungen, ihre Körpersprache hat aber überhaupt nichts Natürliches oder Menschliches an sich.  VdB ist weit ab von den perfekt inszenierten und ausgeführten Auftritten von Kurz, kommt aber trotz aller presentatorischer Makel wesentlich ehrlicher, glaubwürdiger und sympathischer zur Geltung. Ich spreche damit nur die Äußerlichkeiten und keinesweg den Inhalt von gesagtem an.</cmnd_text>
+            <cmnd_at>2019-05-29T16:12:01.217000</cmnd_at>
+            <cmnd_length>527</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103988638
+- **Title:** Kurz geht nicht ins Parlament, er startet seine Wiederauferstehung
+- **Publish Date:** 2019-05-29T07:52:06
+- **Channel:** Meinung
+- **Ressort Name:** Hans Rauscher
+- **Total Comments:** 2109
+- **Root Comments:** 562
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103988638">
+    <user_threads>
+      <thread id="1042181232">
+        <user_name>Greg Darvin</user_name>
+        <cmnd_headline>Ich find ihn genial. Er ist genauso machtbesessen und erfolgsorientiert wie die anderen Parteien, nur er kann es eindeutig besser.</cmnd_headline>
+        <cmnd_text>Die Österreicher sind von den Parlaments-Sitzungen, die im Fernsehen laufen nur genervt. Das interessiert nicht. Wenn Kurz nun frei von Verpflichtungen durch die Länder tingeln kann und mit dem Volk auf Tuchfühlung, dann wird er im September haushoch gewinnen. Ich hab ihn selbst erlebt als er ein Unternehmen besucht hatte und mit den Mitarbeitern auf Augenhöhe geplaudert hat. Er hat definitiv das gewisse etwas, das alle anderen Parteien nicht haben. Er wird im September haushoch gewinnen. Genial auch, dass er den Mißtrauensantrag quasi provoziert hat - und die anderen Parteien sind auch noch so dumm und fallen drauf rein. Was derzeit in Österreich abgeht - House of Cards ist nix dagegen.</cmnd_text>
+        <cmnd_at>2019-05-29T10:43:49.673000</cmnd_at>
+        <cmnd_length>696</cmnd_length>
+        <replies>
+          <reply id="1042192973">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>a) gibt es nicht &quot;die Österreicher&quot;  b) auf Augenhöhe war nur die Illusion der Mitarbeiter (ganz nach Machiavelli)</cmnd_text>
+            <cmnd_at>2019-05-29T15:37:36.487000</cmnd_at>
+            <cmnd_length>114</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042191928">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>In der illiberalen 3.Republik ...</cmnd_headline>
+        <cmnd_text>... zählt halt der vom &quot;Volk&quot; hochgejubelte Volkstribun mehr als das Parlament.</cmnd_text>
+        <cmnd_at>2019-05-29T15:13:30.300000</cmnd_at>
+        <cmnd_length>79</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042191706">
+        <user_name>katastrofix2</user_name>
+        <cmnd_headline>Na super</cmnd_headline>
+        <cmnd_text>wenn der kommentar stimmt und die rechnung von kurz aufgeht, haben wir in österreich bald dein eierlegenden wollmilchmessiasdauerregierungschef á la berluscoputinerdogorban; und das in besonders krasser form, da er kurz noch so jung ist.; das hieße im klartext: nur die wenigsten heute lebenden österreicher über 50 würden das ende seiner alleinherrschaft feiern können;   wenn nix dazwischen kommt. aber die geschichte hat immer wieder solche parat. die österreichische demokratie sollte sich nicht durch virtuoses einseifen und perfekt getarntes foulspiel aushebeln lassen.</cmnd_text>
+        <cmnd_at>2019-05-29T15:08:31.243000</cmnd_at>
+        <cmnd_length>575</cmnd_length>
+        <replies>
+          <reply id="1042192350">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Wenns blöd kommt, regiert Kurz am Ende länger als Putin.</cmnd_text>
+            <cmnd_at>2019-05-29T15:24:04.717000</cmnd_at>
+            <cmnd_length>56</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042193665">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>&quot;Der Messias kommt herab&quot;</cmnd_headline>
+        <cmnd_text>Da läuft es einem regelrecht kalt über den Rücken.</cmnd_text>
+        <cmnd_at>2019-05-29T15:48:32.400000</cmnd_at>
+        <cmnd_length>50</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103990942
+- **Title:** Sebastian Kurz: "SPÖ und FPÖ haben ein gemeinsames Ziel gefunden"
+- **Publish Date:** 2019-05-28T20:00:00
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 5173
+- **Root Comments:** 1898
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103990942">
+    <user_threads>
+      <thread id="1042191058">
+        <user_name>rosa.weichselbaum</user_name>
+        <cmnd_headline>Wie lautete Kurz' Spruch gestern ?</cmnd_headline>
+        <cmnd_text>&quot;Das Parlament hat bestimmt - und der Wähler entscheidet&quot;  Weiß jemand bitte den genauen Wortlaut?  Und: kann dem jungen Mann bitte jemand sagen, dass es gefährlich ist, so deppert daherzureden, wo doch klar ist, dass das Parlament *die Stimme des Volkes* vertritt? Er versucht hier, das Parlament und die Bevölkerung quasi auseinanderzudividieren.</cmnd_text>
+        <cmnd_at>2019-05-29T14:51:58.507000</cmnd_at>
+        <cmnd_length>348</cmnd_length>
+        <replies>
+          <reply id="1042191372">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>In der illiberalen 3.Republik zählt halt der vom &quot;Volk&quot; hochgejubelte Volkstribun mehr als das Parlament.</cmnd_text>
+            <cmnd_at>2019-05-29T14:59:24.427000</cmnd_at>
+            <cmnd_length>105</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042191264">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Ablenkungsmanöver vor dem nächsten Türkis-Blau ...</cmnd_headline>
+        <cmnd_text>WAr ja schon nach Knittelfeld so.   In der ORF-Sendung 'Runder Tisch&quot; hat man ja schon wieder die dicken Freundschaften zwischen FPÖVP bemerken können. Da hat man ja (fast) geglaubt, dass diese Koalition gar nie gekündigt wurde.</cmnd_text>
+        <cmnd_at>2019-05-29T14:56:42.493000</cmnd_at>
+        <cmnd_length>228</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103995955
+- **Title:** Was, wenn Kurz es so wollte? Ein Gedankenspiel
+- **Publish Date:** 2019-05-29T16:42:21
+- **Channel:** Meinung
+- **Ressort Name:** Sebastian Fellner
+- **Total Comments:** 1279
+- **Root Comments:** 395
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103995955">
+    <user_threads>
+      <thread id="1042235114">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wird wohl alles, so wie damals beim Sturz von Mitterlehner gewesen sein, ...</cmnd_headline>
+        <cmnd_text>... irgendwann wird das genauso rauskommen.  Im Endeffekt braucht man hier gar keine Gedankenspiele, denn wenn der türkise Messias wirklich etwas will, dann wird er so richtig säuselig, biedert sich an und schmiert seinem Gegenüber Honig ums Maul.  Und was wurde hier getan? Eigentlich das Gleiche wie beim &quot;Mitterlehner-Putsch&quot;.   Provozieren, verar verachten, das Gegenüber links liegen gelassen. Damit war klar, dass der Opposition gar nix anderes mehr übrig blieb als ihn zu schaßen. Danach trat er als eine skurrile Mischung aus Opfer, Märtyrer und Messias vor seinen hergekarrten Fans im TV auf.  Das türkise Drehbuch war schon längst geschrieben.</cmnd_text>
+        <cmnd_at>2019-05-30T16:30:35.260000</cmnd_at>
+        <cmnd_length>653</cmnd_length>
+        <replies>
+          <reply id="1042241067">
+            <user_name>kubo777</user_name>
+            <cmnd_headline>Kickl - Rendi Wagner Pakt</cmnd_headline>
+            <cmnd_text>Auch der Kickl - Rendi Wagner - Pakt war ganz offensichtlich gut vorbereitet!  Da fragt man sich schon, wie glaubwürdig eigentlich Politikerinnen sind. Da wird monatelang gegen die - Ihrer Meinung nach - rechtsextreme FPÖ gewettert, gegen Kickl gab es mehrere Misstrauensanträge, und dann haut man sich auf a Pakerl,  dem bereits berühmten Kickl-Rendi Wagner Pakt und stürzt die gesamte Regierung und Österreich in einige Chaostage, vielleicht sogar in Chaosmonate.  Denn eine Frage stellt sich schon: Wer wird nach der Wahl miteinander koalieren können. Kickl-Rendi Wagner? Also ich glaube, dass sich das nicht ausgehen wird, denn meines Erachtens wird die SPÖ kaum über 15 % der Stimmen kommen.Bleibt ja dann nur die ÖVP. Aber mit dieser SPÖ??</cmnd_text>
+            <cmnd_at>2019-05-30T19:07:48.753000</cmnd_at>
+            <cmnd_length>745</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104009137
+- **Title:** War es von der SPÖ richtig, einen Misstrauensantrag einzubringen?
+- **Publish Date:** 2019-05-29T13:50:55
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare Pro und Kontra
+- **Total Comments:** 2088
+- **Root Comments:** 725
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104009137">
+    <user_threads>
+      <thread id="1042189400">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>War nicht falsch ...</cmnd_headline>
+        <cmnd_text>... das wollen uns jetzt nur die ganzen schwarzen und türkisen Freunderl des Herrn Kurz einreden.  Fakt bleibt: Kurz hat 2. Mal aus reinem Machtkalkül Österreich in ein Regierungschaos und in Neuwahlen gestürzt (das Mitterlehner-Buch erhellt sehr viel).  Türkis hat mit seinen Partner die illiberale Demokratie angesteuert und nebenbei die Errungenschaften der 2.Republik gefährdet.  Kurz als Kanzlerdarsteller und zu belassen und ihm 4 Monate Zeit zu geben um das Kanzleramt als Wahlkampfbüro und bühne zu mißbrauchen wäre gelinde gesagt äusserst unfair und absurd gewesen.</cmnd_text>
+        <cmnd_at>2019-05-29T14:07:11.657000</cmnd_at>
+        <cmnd_length>574</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104029807
+- **Title:** Wohnungsnot in Deutschland bleibt drückend
+- **Publish Date:** 2019-05-29T13:15:46
+- **Channel:** Wirtschaft
+- **Ressort Name:** Deutsche Wirtschaft
+- **Total Comments:** 16
+- **Root Comments:** 9
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104029807">
+    <user_threads>
+      <thread id="1042194025">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Wer EU-Freizügigkeit und Zuwanderung will ...</cmnd_headline>
+        <cmnd_text>... MUSS endlich auch mal verstärkt günstige Wohnungen bauen lassen oder selber bauen. Ansonsten kommt der 8/15-Bürger unter die Räder und wird den Spekulanten zum Fraß vorgeworfen.</cmnd_text>
+        <cmnd_at>2019-05-29T15:54:42.430000</cmnd_at>
+        <cmnd_length>181</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104053089
+- **Title:** Klimaschutz ist Zukunftsschutz: Raus mit dem Kopf aus dem Sand!
+- **Publish Date:** 2019-05-29T16:57:25
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 244
+- **Root Comments:** 65
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104053089">
+    <user_threads>
+      <thread id="1042259248">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Klimaschutz sehr schwer ...</cmnd_headline>
+        <cmnd_text>a) explodiert in vielen Länder die Bevölkerungszahl  b) die Naturzerstörung auf riesigen Flächen ist in 2. und 3. Weltländern teilweise apokalyptisch</cmnd_text>
+        <cmnd_at>2019-05-31T12:33:55.710000</cmnd_at>
+        <cmnd_length>149</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042259062">
+        <user_name>Periskop</user_name>
+        <cmnd_headline>Ein &quot;CO2-neutrales Wirtschaftssystem&quot; ist unmöglich!</cmnd_headline>
+        <cmnd_text>Wir haben keine andere Möglichkeit, genügend Wärme zu erzeugen, als Kohlenstoff in CO2 zu verwandeln. Ohne CO2-Emission könnten wir uns nicht einmal Kaffee kochen, von Chemischer und Metallindustrie schon gar keine Rede!</cmnd_text>
+        <cmnd_at>2019-05-31T12:28:33.220000</cmnd_at>
+        <cmnd_length>220</cmnd_length>
+        <replies>
+          <reply id="1042259167">
+            <user_name>Güni</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Wir Menschen werden uns halt auf das Überlebensnotwendigste beschränken müssen - sagen unsere Ökos hier im Forum immer wieder.</cmnd_text>
+            <cmnd_at>2019-05-31T12:31:39.400000</cmnd_at>
+            <cmnd_length>126</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104058715
+- **Title:** Altkanzler Kurz fühlte sich für BVT-Affäre "nicht zuständig"
+- **Publish Date:** 2019-05-29T17:49:16.160000
+- **Channel:** Inland
+- **Ressort Name:** Verfassungsschutz
+- **Total Comments:** 1580
+- **Root Comments:** 719
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104058715">
+    <user_threads>
+      <thread id="1042203073">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Bizarrste Auftritt eines (Ex-) Kanzlers aller Zeiten ...</cmnd_headline>
+        <cmnd_text>No Comment</cmnd_text>
+        <cmnd_at>2019-05-29T18:27:32.010000</cmnd_at>
+        <cmnd_length>10</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042203945">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Heute hat mal wieder so richtig, die Türkise Fratze ...</cmnd_headline>
+        <cmnd_text>... hervorgeblinzelt.   Ich hoffe auf die Opposition und die Medien sie endlich mal komplett runterzureißen, sonst geht unsere 2. Republik wirklich noch den Bach runter.</cmnd_text>
+        <cmnd_at>2019-05-29T18:50:47.777000</cmnd_at>
+        <cmnd_length>169</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042203041">
+        <user_name>Dr. Michael Mayr, BK a.D.</user_name>
+        <cmnd_headline>LEADERSHIP à la Altkanzler Kurz: Keine Ahnung von überhaupt nix!!!???!!!!</cmnd_headline>
+        <cmnd_text>Sehr geehrter Herr Altkanzler,  Sie haben die FPÖ-Rabauken wider besseren Wissens in Ihre Regierung geholt und fühlen sich dann nicht zuständig, wenn es die absehbaren Krisen gibt???  Ein derart überforderter und verantwortungsloser, nicht zuständiger Regierungs-Chef stellt im demokratischen Westeuropa eine Novität dar: Könnten Sie bitte so nett sein und Ihre politische Karriere sofort beenden? Alles was noch auf Sie und unsere Heimat zukommt, wäre widrigenfalls mit an Sicherheit grenzender Wahrscheinlichkeit zu Ihrem Schaden und zum Schaden der Republik Österreich.  Danke für ihre positive Rückmeldung</cmnd_text>
+        <cmnd_at>2019-05-29T18:26:38.810000</cmnd_at>
+        <cmnd_length>609</cmnd_length>
+        <replies>
+          <reply id="1042203153">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Es soll jetzt niemand mehr behaupten, dass die Absetzung von Kurz als Kanzler durch das Parlament nicht demokratiepolitische Hygiene pur war.</cmnd_text>
+            <cmnd_at>2019-05-29T18:30:05.457000</cmnd_at>
+            <cmnd_length>141</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042205147">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Alleine alle Geheimdienste und den gesamten Sicherheitsapparat ...</cmnd_headline>
+        <cmnd_text>... damals der FPÖ überlassen zu haben, war schon jenseitig.   Dann auch noch völlig den Unwissenden und Uninterressierten bezüglich Österreichs Sicherheit als Kanzler zu spielen ist nur mehr aberwitzig.</cmnd_text>
+        <cmnd_at>2019-05-29T19:26:14.833000</cmnd_at>
+        <cmnd_length>203</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042205101">
+        <user_name>jössas</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>jeder andere altkanzler würde von den medien zum rücktritt gezwungen werden</cmnd_text>
+        <cmnd_at>2019-05-29T19:24:38.993000</cmnd_at>
+        <cmnd_length>75</cmnd_length>
+        <replies>
+          <reply id="1042205228">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Aber der ist der Liebling vieler.</cmnd_text>
+            <cmnd_at>2019-05-29T19:28:30.213000</cmnd_at>
+            <cmnd_length>33</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104060774
+- **Title:** Ein Kanzler, der nichts wissen wollte
+- **Publish Date:** 2019-05-29T18:19:37
+- **Channel:** Meinung
+- **Ressort Name:** Fabian Schmid
+- **Total Comments:** 520
+- **Root Comments:** 217
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104060774">
+    <user_threads>
+      <thread id="1042204884">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Und so einer wird/wurde als politisches Megatalent gefeiert ...</cmnd_headline>
+        <cmnd_text>... in Magazinen europa und gar weltweit als Starpolitiker abgebildet.</cmnd_text>
+        <cmnd_at>2019-05-29T19:18:20.033000</cmnd_at>
+        <cmnd_length>70</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104084140
+- **Title:** Kurz gab an nur einem Tag 26.610 Euro für Facebook-Werbung aus
+- **Publish Date:** 2019-05-30T12:22:35
+- **Channel:** Web
+- **Ressort Name:** Netzpolitik
+- **Total Comments:** 1451
+- **Root Comments:** 518
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104084140">
+    <user_threads>
+      <thread id="1042236091">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Es wird Zeit, dass hier massiv reguliert wird ...</cmnd_headline>
+        <cmnd_text>... alle Spenden (über 1000 Euro), Vereine und bezahlte Personenkomitees müssen in Zukunft öffentlich gemacht werden.</cmnd_text>
+        <cmnd_at>2019-05-30T16:54:28.743000</cmnd_at>
+        <cmnd_length>117</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104086108
+- **Title:** Halbe und andere Wahrheiten von Ex-Kanzler Kurz
+- **Publish Date:** 2019-05-31T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 2875
+- **Root Comments:** 827
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104086108">
+    <user_threads>
+      <thread id="1042261353">
+        <user_name>Aktivieren</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Ich bin gespannt, wie die Regierung nach den Wahlen aussehen wird. Momentan kann ich mir schwer vorstellen, dass es mit dem aktuellen Personal was wird. ÖVP-FPÖ und ÖVP-SPÖ wird an der Person Sebastian Kurz scheitern, ÖVP-Grüne-Neos wohl auch (kann mir nicht vorstellen, dass die Grünen da mitmachen), ÖVP-Neos wird sich eher nicht ausgehen, ÖVP Alleinregierung auch nicht, SPÖ-FPÖ ist auch unwahrscheinlich, da würde es die SPÖ zerreißen, SPÖ-Grüne-Neos wird keine Mehrheit haben.</cmnd_text>
+        <cmnd_at>2019-05-31T13:45:52.790000</cmnd_at>
+        <cmnd_length>481</cmnd_length>
+        <replies>
+          <reply id="1042261623">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>ÖVP-FPÖ, wenn sich nicht ÖVP-Neos-(Grüne) ausgeht.</cmnd_text>
+            <cmnd_at>2019-05-31T13:55:19.460000</cmnd_at>
+            <cmnd_length>50</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042266969">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>&quot;Eine Halbwahrheit ist auch eine ganze Lüge&quot; ...</cmnd_headline>
+        <cmnd_text>... sagte mal ein kluger Mann (Andre Kostolany).</cmnd_text>
+        <cmnd_at>2019-05-31T16:48:13.650000</cmnd_at>
+        <cmnd_length>48</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042269728">
+        <user_name>Verdad</user_name>
+        <cmnd_headline>Million Euro für Facebook</cmnd_headline>
+        <cmnd_text>Kurz, the big spender  Fast EUR 60.000 in einer Woche für Facebook-Werbung,  wenn er das bis Ende September macht, sind das fast 1.000.000 hinausgeworfenes Steuergeld.   https://www.facebook.com/ads/archive/report</cmnd_text>
+        <cmnd_at>2019-05-31T18:35:20.623000</cmnd_at>
+        <cmnd_length>213</cmnd_length>
+        <replies>
+          <reply id="1042271052">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Was kostet die Welt.   Kurz spart dafür lieber beim einfachen Volk.</cmnd_text>
+            <cmnd_at>2019-05-31T19:24:05.887000</cmnd_at>
+            <cmnd_length>67</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104090148
+- **Title:** Mit Brigitte Bierlein wird eine Präsidentin die erste Kanzlerin Österreichs
+- **Publish Date:** 2019-05-30T15:13:44.610000
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1306
+- **Root Comments:** 355
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104090148">
+    <user_threads>
+      <thread id="1042234567">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Der inkompetente Wunderwuzzi kommt als Volkstribun ...</cmnd_headline>
+        <cmnd_text>... mächtiger und schamloser denn je zurück. Die selbstgebastelte Opfer und Märtyrerrolle wird wohl im obrigkeitsgläubigen Österreich perfekt wirken.</cmnd_text>
+        <cmnd_at>2019-05-30T16:17:45.737000</cmnd_at>
+        <cmnd_length>149</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042234707">
+        <user_name>bulrul</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Kann man nicht einfach die Wahl im September abblasen und diese Regierung bis 2022 im Amt lassen? Dann wären zur Abwechslung wieder einmal kompetente Fachleute am Werk!</cmnd_text>
+        <cmnd_at>2019-05-30T16:21:00.170000</cmnd_at>
+        <cmnd_length>168</cmnd_length>
+        <replies>
+          <reply id="1042235200">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Nette Idee, wird wohl nicht passieren.</cmnd_text>
+            <cmnd_at>2019-05-30T16:33:09.460000</cmnd_at>
+            <cmnd_length>38</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104094284
+- **Title:** Van der Bellen schreibt Geschichte – und es ist eine überraschend gute Geschichte
+- **Publish Date:** 2019-05-30T16:22:44
+- **Channel:** Meinung
+- **Ressort Name:** Michael Völker
+- **Total Comments:** 2450
+- **Root Comments:** 626
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104094284">
+    <user_threads>
+      <thread id="1042235812">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Der Frühling zieht endlich im Kanzleramt ein ...</cmnd_headline>
+        <cmnd_text>... nach einem grauslichen, chaotischen Winter.</cmnd_text>
+        <cmnd_at>2019-05-30T16:47:12.147000</cmnd_at>
+        <cmnd_length>47</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104097929
+- **Title:** Einer stiehlt sich davon
+- **Publish Date:** 2019-05-31T13:54:24
+- **Channel:** Meinung
+- **Ressort Name:** Günter Traxler
+- **Total Comments:** 1664
+- **Root Comments:** 468
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104097929">
+    <user_threads>
+      <thread id="1042271619">
+        <user_name>DenkTank</user_name>
+        <cmnd_headline>Es wirkt schon ziemlich verzweifelt,</cmnd_headline>
+        <cmnd_text>wie aus allen Rohren gegen Kurz &quot;geschossen&quot; wird. Zuerst wird er rausgeworfen, ist er dann weg, wirft man ihm wieder vor, dass er sich davon stiehlt...  So ein derartiger Schwachsinn was da geschrieben wird ist himmelschreiend!</cmnd_text>
+        <cmnd_at>2019-05-31T19:47:16.770000</cmnd_at>
+        <cmnd_length>228</cmnd_length>
+        <replies>
+          <reply id="1042271781">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Ja wie kommt man nur blasphemisch dazu den türkisen Jesus zu kritisieren.</cmnd_text>
+            <cmnd_at>2019-05-31T19:53:52.070000</cmnd_at>
+            <cmnd_length>73</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042271570">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Ist Kurz nicht (auch) direkt bei der ÖVP bedienstet?</cmnd_headline>
+        <cmnd_text>Glaub kaum, dass der von der Hand im Mund leben muss.   Passt aber zur Märtyrerrolle im türkisen Drehbuch.</cmnd_text>
+        <cmnd_at>2019-05-31T19:45:35.103000</cmnd_at>
+        <cmnd_length>106</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104098757
+- **Title:** Wahlzuckerln statt Reformkurs: Geht es jetzt mit Österreich bergab?
+- **Publish Date:** 2019-05-31T06:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Finanzen &amp; Börse
+- **Total Comments:** 561
+- **Root Comments:** 215
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104098757">
+    <user_threads>
+      <thread id="1042258668">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Lachhaft ...</cmnd_headline>
+        <cmnd_text>... Österreichs Staatschulden sind in einem Tiefflug, während die der USA (die Top- Ratings hat) z.b durch die Decke gehen.   Aber ich versteh schon. Man will wieder Kurz haben ...</cmnd_text>
+        <cmnd_at>2019-05-31T12:14:54.220000</cmnd_at>
+        <cmnd_length>180</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042259435">
+        <user_name>Coursera</user_name>
+        <cmnd_headline>Rendi-Kickl Koalition kosten Geld...</cmnd_headline>
+        <cmnd_text>... Ratingagenturen werden hoffentlich wieder polit. Vernunft einkehren lassen...</cmnd_text>
+        <cmnd_at>2019-05-31T12:40:15.013000</cmnd_at>
+        <cmnd_length>81</cmnd_length>
+        <replies>
+          <reply id="1042261437">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Vergiß nicht die Pilz-Kickl-Koalition.  *auro*</cmnd_text>
+            <cmnd_at>2019-05-31T13:48:47.880000</cmnd_at>
+            <cmnd_length>46</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104110324
+- **Title:** Trump verhängt wegen illegaler Migration Strafzölle gegen Mexiko
+- **Publish Date:** 2019-05-31T05:32:21.650000
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 255
+- **Root Comments:** 76
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104110324">
+    <user_threads>
+      <thread id="1042258507">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Mexiko wird wohl gegen die Flüchtlinge handeln ...</cmnd_headline>
+        <cmnd_text>... die USA sind einfach unverzichtbar für Mexikos Wirtschaft.</cmnd_text>
+        <cmnd_at>2019-05-31T12:09:34.610000</cmnd_at>
+        <cmnd_length>62</cmnd_length>
+        <replies/>
+      </thread>
+      <thread id="1042258551">
+        <user_name>Freude für Wien!</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Wann erhebt der rest der Welt gegen die USA Sanktionen?</cmnd_text>
+        <cmnd_at>2019-05-31T12:11:10.140000</cmnd_at>
+        <cmnd_length>55</cmnd_length>
+        <replies>
+          <reply id="1042259282">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Gar nicht.</cmnd_text>
+            <cmnd_at>2019-05-31T12:34:56.257000</cmnd_at>
+            <cmnd_length>10</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104115771
+- **Title:** Nordkorea exekutierte angeblich Chefverhandler nach Gipfel mit Trump
+- **Publish Date:** 2019-05-31T07:56:45.800000
+- **Channel:** International
+- **Ressort Name:** Nordkorea
+- **Total Comments:** 502
+- **Root Comments:** 145
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104115771">
+    <user_threads>
+      <thread id="1042258844">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Mangelnde Vorbereitung, die Mißverständnisse in sich bergen, auf solche Treffen ...</cmnd_headline>
+        <cmnd_text>... ist auch und gerade für Mitarbeiter von Despoten gefährlich.</cmnd_text>
+        <cmnd_at>2019-05-31T12:21:18.037000</cmnd_at>
+        <cmnd_length>64</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104131527
+- **Title:** Kühbauer glaubt an die Wende, Mählich warnt
+- **Publish Date:** 2019-05-31T11:59:43
+- **Channel:** Sport
+- **Ressort Name:** Qualifikationsgruppe
+- **Total Comments:** 259
+- **Root Comments:** 72
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104131527">
+    <user_threads>
+      <thread id="1042267414">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Nächstes Jahr muss es besser werden ...</cmnd_headline>
+        <cmnd_text>... ansonsten beginnen wieder Trainerdiskussionen.</cmnd_text>
+        <cmnd_at>2019-05-31T17:04:52.857000</cmnd_at>
+        <cmnd_length>50</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104134448
+- **Title:** Die Vertrauensregierung soll am Montag stehen, SPÖ und FPÖ für Wahltermin Ende September
+- **Publish Date:** 2019-05-31T13:41:46
+- **Channel:** Inland
+- **Ressort Name:** Parlament
+- **Total Comments:** 1519
+- **Root Comments:** 245
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104134448">
+    <user_threads>
+      <thread id="1042262305">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Der 12 Stunden Arbeitstag, die 60 h Arbeitswoche ...</cmnd_headline>
+        <cmnd_text>... die FPÖVP eingeführt haben sollten schleunigst entsorgt werden.</cmnd_text>
+        <cmnd_at>2019-05-31T14:15:50.377000</cmnd_at>
+        <cmnd_length>67</cmnd_length>
+        <replies>
+          <reply id="1042263575">
+            <user_name>Vielstein</user_name>
+            <cmnd_headline>Vergesslich...</cmnd_headline>
+            <cmnd_text>War auch im Plan A des Christian Kern enthalten, was gern vergessen wird...</cmnd_text>
+            <cmnd_at>2019-05-31T14:57:53.840000</cmnd_at>
+            <cmnd_length>75</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042262895">
+        <user_name>Alfred J. Noll</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Wenn SPÖ &amp;amp; FPÖ so dumm sind, den Wahltermin nicht von einer sanktionsbewehrten Spendenobergrenze und von mehr Transparenz und Kontrolle der Parteienfinanzierung abhängig zu machen, dann sind sie nicht nur noch bescheidener als offensichtlich, dann sind sie auch wirklich kognitiv über die Maßen limitiert. - Die ÖVP wird - wie schon 2017 - wieder alles Erlaubte weit überschreiten und dann die Portokassa bemühen, um die Strafe dafür zu bezahlen... Nicht nur die Römer spinnen.</cmnd_text>
+        <cmnd_at>2019-05-31T14:34:39.137000</cmnd_at>
+        <cmnd_length>477</cmnd_length>
+        <replies>
+          <reply id="1042263488">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Die Hoffnung stirbt zuletzt.</cmnd_text>
+            <cmnd_at>2019-05-31T14:55:10.703000</cmnd_at>
+            <cmnd_length>28</cmnd_length>
+          </reply>
+          <reply id="1042263543">
+            <user_name>Pfandbrief</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Wenn SPÖ und FPÖ nicht wählen wollen, sollens so ehrlich sein und gleich eine Koalitionsübereinkunft treffen...wär wohl eh die letzte Chance auf sowas, bevor Kurz die Wahl haushoch gewinnt.</cmnd_text>
+            <cmnd_at>2019-05-31T14:56:43.167000</cmnd_at>
+            <cmnd_length>189</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042263146">
+        <user_name>Norm MacDonald</user_name>
+        <cmnd_headline>Bierleins Ehegatte ist der FPÖ-nahe Richter...</cmnd_headline>
+        <cmnd_text>Ernst Maurer, -der richter der rechten (c) derStandard  der einst holocaust leugner David Irving vorzeitig wegen dessen tadellosem vorlebens aus der haft entlassen hat.  &quot;Maurer entscheidet nicht zum ersten Mal für rechte Recken&quot;  https://derstandard.at/2703723/Kopf-des-Tages--Der-Richter-der-Rechten-wird-grantig</cmnd_text>
+        <cmnd_at>2019-05-31T14:43:35.373000</cmnd_at>
+        <cmnd_length>314</cmnd_length>
+        <replies>
+          <reply id="1042263855">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>a) kein Ehegatte  b) in Ö keine Sippenhaft</cmnd_text>
+            <cmnd_at>2019-05-31T15:08:01.683000</cmnd_at>
+            <cmnd_length>42</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042263387">
+        <user_name>Alastair McKenzie</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Weiß jemand, welchen Vorteil sich Rot und Blau von einem 14 Tage späteren Wahltermin versprechen?</cmnd_text>
+        <cmnd_at>2019-05-31T14:51:46.607000</cmnd_at>
+        <cmnd_length>97</cmnd_length>
+        <replies>
+          <reply id="1042263598">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Desto später desto schlechter für Kurz. Denn desto länger weg vom Amt ist, desto mehr vergessen die Leute ihn, desto langweiliger wird sein NLP-Gequatsche. Wäre die Sommerpause nicht gewesen, Kurz hätte wohl so schnell wie möglich wählen lassen.</cmnd_text>
+            <cmnd_at>2019-05-31T14:58:37.017000</cmnd_at>
+            <cmnd_length>245</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042261417">
+        <user_name>Otto Hornek</user_name>
+        <cmnd_headline>Niemals vergessen</cmnd_headline>
+        <cmnd_text>Die NEOS hatten im entscheidenden Moment nichts besseres zu tun, als darum zu betteln der Steigbügelhalter für die türkisen sein zu dürfen.  Die fallen schon um, bevor der Gegenwind anfängt, damit Meinl-Reisinger endlich Vizekanzlerin von Bastis Gnaddn werden darf.</cmnd_text>
+        <cmnd_at>2019-05-31T13:48:14.083000</cmnd_at>
+        <cmnd_length>265</cmnd_length>
+        <replies>
+          <reply id="1042262510">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Die Neos träumen eben davon endlich mit Kurz ins Koalitionsbett zu steigen, um endlich den Sozialstaat massiv einzudampfen und die Pensionen zu kürzen.</cmnd_text>
+            <cmnd_at>2019-05-31T14:22:10.033000</cmnd_at>
+            <cmnd_length>151</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042262525">
+        <user_name>prohaska_8</user_name>
+        <cmnd_headline>No Headline</cmnd_headline>
+        <cmnd_text>Endlich wieder eine volljährige Person mit abgeschlossener Ausbildung im Kanzleramt.</cmnd_text>
+        <cmnd_at>2019-05-31T14:22:44.597000</cmnd_at>
+        <cmnd_length>84</cmnd_length>
+        <replies>
+          <reply id="1042263133">
+            <user_name>JJoo</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Oder eine Oma könnte man auch sagen...</cmnd_text>
+            <cmnd_at>2019-05-31T14:43:16.150000</cmnd_at>
+            <cmnd_length>38</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104135745
+- **Title:** Wohnungspreise stiegen in Österreich 2018 um 8,3 Prozent
+- **Publish Date:** 2019-05-31T13:11:13
+- **Channel:** Immobilien
+- **Ressort Name:** Bauen &amp; Wohnen
+- **Total Comments:** 369
+- **Root Comments:** 60
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104135745">
+    <user_threads>
+      <thread id="1042264085">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Man will EU-Freizügigkeit, man will Zuwanderung ...</cmnd_headline>
+        <cmnd_text>... alles schön und gut, aber dann MUSS endlich auch radikal Wohnraum schaffen.   Wasch mich, aber mach mich nicht nass ... spielt es hier nicht.</cmnd_text>
+        <cmnd_at>2019-05-31T15:16:16.077000</cmnd_at>
+        <cmnd_length>145</cmnd_length>
+        <replies>
+          <reply id="1042268265">
+            <user_name>ChristineD.</user_name>
+            <cmnd_headline>Seestadt</cmnd_headline>
+            <cmnd_text>Waren Sie schon in der Seestadt. Dort wird radikal Wohnraum geschaffen. Besonders Wien ist eine wachsende Stadt. Es ist eine große Aufgabe, für den steten Zustrom an Menschen, die gerne günstig und schön bei uns wohnen wollen, diesen Wohnraum auch zu schaffen. Die spannende Frage ist, ob der Zuzug mit ausreichender Steuerleistung diese Projekte mitträgt, oder ob er vom österreichischen Steuerzahler subventioniert werden muss. Die Bauwirtschaft boomt zwar, aber dabei wird die Nahversorgung Wiens mit Lebensmitteln nach und nach zubetoniert. Das ist vielleicht auch nicht das Gelbe vom Ei.</cmnd_text>
+            <cmnd_at>2019-05-31T17:37:41.193000</cmnd_at>
+            <cmnd_length>592</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042262972">
+        <user_name>Mag. Bitterer, Ernst (Penthousebewohner)</user_name>
+        <cmnd_headline>Als Junger (ohne Aussicht auf ein Erbe) sollte man Österreich verlassen</cmnd_headline>
+        <cmnd_text>Hohe Immobilienpreise und niedrige Gehälter sind einfach Gift für eine gute persönliche Zukunft - die Welt ist groß und gute Leute weltweit gefragt...</cmnd_text>
+        <cmnd_at>2019-05-31T14:37:47.127000</cmnd_at>
+        <cmnd_length>150</cmnd_length>
+        <replies>
+          <reply id="1042264420">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Leider nicht völlig unrichtig. In den USA besitzt jeder Hackler meist ein Haus, bei uns müssen mittlerweile sogar gutverdiende in kleinen &quot;Arbeiterschließfächern&quot; ihr Dasein fristen.</cmnd_text>
+            <cmnd_at>2019-05-31T15:27:02.057000</cmnd_at>
+            <cmnd_length>182</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104135978
+- **Title:** UN-Experte: Assange war psychologischer Folter ausgesetzt
+- **Publish Date:** 2019-05-31T12:55:25
+- **Channel:** International
+- **Ressort Name:** Geheimdokumente: Wikileaks 
+- **Total Comments:** 104
+- **Root Comments:** 31
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104135978">
+    <user_threads>
+      <thread id="1042262204">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>Traurig ...</cmnd_headline>
+        <cmnd_text>... dass in der heutigen Zeit immer noch gefoltert wird.</cmnd_text>
+        <cmnd_at>2019-05-31T14:12:50.897000</cmnd_at>
+        <cmnd_length>56</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104148899
+- **Title:** ÖVP zeigt sich "offen für Gespräche" über Rauchverbot in Lokalen
+- **Publish Date:** 2019-05-31T16:42:12
+- **Channel:** Panorama
+- **Ressort Name:** Gesellschaft
+- **Total Comments:** 1194
+- **Root Comments:** 274
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104148899">
+    <user_threads>
+      <thread id="1042270664">
+        <user_name>noraeva</user_name>
+        <cmnd_headline>Erste Priorität hat definitiv das Parteienfinanzierungsgesetz</cmnd_headline>
+        <cmnd_text>Das sollte mit Hochdruck noch vor den Neuwahlen stehen</cmnd_text>
+        <cmnd_at>2019-05-31T19:09:52.160000</cmnd_at>
+        <cmnd_length>54</cmnd_length>
+        <replies>
+          <reply id="1042271014">
+            <user_name>Eisenburg</user_name>
+            <cmnd_headline>No Headline</cmnd_headline>
+            <cmnd_text>Frage ist, wie sehr wirklich da die Parteien daran interessiert sind.</cmnd_text>
+            <cmnd_at>2019-05-31T19:22:41.550000</cmnd_at>
+            <cmnd_length>69</cmnd_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042270987">
+        <user_name>Eisenburg</user_name>
+        <cmnd_headline>ÖVP jetzt FÜR Rauchverbot ...</cmnd_headline>
+        <cmnd_text>... derweil hat die FPÖ wirklich geglaubt, dass alles was in der Koalition beschlossen würde, unverändert bleiben sollte. Wie skurril naiv.  Jetzt braucht die FPÖ jedenfalls kein schlechtes Gewissen mehr haben, um den &quot;12 Stundenarbeitstag&quot; ins Nirwana zu schicken.</cmnd_text>
+        <cmnd_at>2019-05-31T19:21:31.097000</cmnd_at>
+        <cmnd_length>265</cmnd_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```

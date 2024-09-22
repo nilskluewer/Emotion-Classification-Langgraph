@@ -1,0 +1,3508 @@
+# User: istros (ID: 99139)
+
+This document contains the thread data for the above user across multiple articles.
+
+---
+
+## Article ID: 2000102413431
+- **Title:** Kurz erntet Beifall, weil er kalte Progression doch nicht abschaffen will
+- **Publish Date:** 2019-05-02T18:15:07
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 953
+- **Root Comments:** 315
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102413431">
+    <title>Kurz erntet Beifall, weil er kalte Progression doch nicht abschaffen will</title>
+    <publish_date>2019-05-02T18:15:07</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Wirtschaftspolitik</ressort_name>
+    <total_comments>953</total_comments>
+    <root_comments>315</root_comments>
+    <user_threads>
+      <thread id="1041104311">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>aber wenns den Reichen nix bringt, wer sponsort dann Kurz' nächsten Wahlkampf?  Ist unser Wunderbasti heimlich innen drin ein verkappter Sozialdemokrat.</comment_text>
+        <comment_created_at>2019-05-02T19:35:08.543000</comment_created_at>
+        <comment_length>152</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102447223
+- **Title:** Flieg doch einfach und nerv mich nicht!
+- **Publish Date:** 2019-05-21T13:54:57
+- **Channel:** Wirtschaft
+- **Ressort Name:** alles gut? Weltverbessern für Anfänger
+- **Total Comments:** 465
+- **Root Comments:** 125
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102447223">
+    <title>Flieg doch einfach und nerv mich nicht!</title>
+    <publish_date>2019-05-21T13:54:57</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>alles gut? Weltverbessern für Anfänger</ressort_name>
+    <total_comments>465</total_comments>
+    <root_comments>125</root_comments>
+    <user_threads>
+      <thread id="1041814872">
+        <user_name>Landei vom Land</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-29T09:13:40.613000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich gehe mindestens 40h die Woche arbeiten. Habe ein EF-Haus mit WP und bald auch eine PV am Dach. Bei Sonnenschein arbeitet das System quasi autark. Sobald leistbar wird ein E-Auto gekauft. Geflogen bin ich in meinem Leben erst 3 mal und habe vor noch einige Male zu fliegen. Fleisch essen lasse ich mir nicht nehmen aber könnte mir vorstellen 2- Tage die Woche fleischlos zu essen. Der Umstieg auf erneuerbare Energien ist mehr als überfällig.</comment_text>
+        <comment_created_at>2019-05-21T14:38:50.393000</comment_created_at>
+        <comment_length>445</comment_length>
+        <replies>
+          <reply id="1041816930">
+            <user_id>651126</user_id>
+            <user_name>Martin 15</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-10-17T11:09:47.510000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Es muß nicht zu jeder Mahlzeit Fleisch geben, aber doch zu jeder Hauptmahlzeit, also durchaus jeden Tag.</comment_text>
+            <comment_created_at>2019-05-21T14:59:09.680000</comment_created_at>
+            <comment_length>104</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041813146">
+        <user_name>HubertG</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-05-17T22:50:06.517000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Für mich ist Reisen unerlässlich, sei es für die Herzensbildung, Kulturaustausch oder einfach um andere Seiten und Ansichten entdecken. Dabei meine ich nicht mit dem Charterflug in ein All-Inclusive-Resort. Das hat mit Reisen nichts zu tun. Sondern Flug und Hotel für die ersten 3-4 Nächte reservieren und dann vor Ort aktiv und passiv schauen, was passiert, wo man sein möchte, wo man willkommen ist usw.  Meine Frau kommt noch dazu von weiter her, da müssen wir also auch alle paar Jahre mit dem Flieger reisen.  Aber was bring einem zb Fleisch? Esse ich, muss ich aber nicht. Gerne Veganismus für alle.Gerne mehr Steuern für Solar usw. Wenn das alles nicht genug ist, dann das Fernreisen. Aber Reisen ist nicht reisen....und echtes Reisen bildet.</comment_text>
+        <comment_created_at>2019-05-21T14:22:48.723000</comment_created_at>
+        <comment_length>749</comment_length>
+        <replies>
+          <reply id="1041839545">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sie sehen aber schon worauf das raus läuft? Ihr Konsumstil soll für alle gelten? Warum sollte nicht meine für Sie gelten? Jeden Tag ein kräftiges Gulasch, mit dem Zug zum Hausmeisterstrand muss auch für Sie genug sein, wenns für mich passt.  Basta!</comment_text>
+            <comment_created_at>2019-05-21T21:53:23.947000</comment_created_at>
+            <comment_length>248</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041815977">
+        <user_name>dersenfdazugeber</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-07-12T13:22:59.333000</user_created_at>
+        <comment_headline>Mal was für die Rotstrichler...</comment_headline>
+        <comment_text>natürlich einfach und billig beim einzelnen bürger anzusetzen, als bei der großindustrie. erinnert mich an firmen, die kosten einzusparen hatten und als erstes den mitarbeiter-gratiskaffee gestrichen haben.  und richtig, es ändert GAR NICHTS - oh doch, es hat nachteiligen einfluss auf die EIGENE lebensqualität (mir kann keiner erzählen, dass es spass macht, 11 std. im zug statt 1 std. im flieger zu sitzen, das buch lese ich lieber im liegestuhl am urlaubsort).  die prioritäten mancher haben sich etwas abstrus verschoben. man sollte eher darauf achten, dass es einem selbst gut geht, dann der familie, freunden und ganz ganz am ende erst der restlichen welt.  und wer sich um die zukunft sorgt, sollte keine kinder in die welt setzen...</comment_text>
+        <comment_created_at>2019-05-21T14:48:17.760000</comment_created_at>
+        <comment_length>741</comment_length>
+        <replies>
+          <reply id="1041816931">
+            <user_id>556822</user_id>
+            <user_name>Parfümerie Lena</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2015-02-10T19:43:00.563000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>welche zugstrecke dauert 11 stunden, die man mit dem flieger in 1 stunde erledigen kann?   (außer die vom anwesen direkt neben der startbahn vom privatjet auf der karibischen insel)</comment_text>
+            <comment_created_at>2019-05-21T14:59:10.900000</comment_created_at>
+            <comment_length>181</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041816708">
+        <user_name>Carlos Clementin</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-12-20T11:12:34.120000</user_created_at>
+        <comment_headline>Wenn ich mit dem Radl in die Arbeit fahre</comment_headline>
+        <comment_text>dann hast es: Der kann sich halt nix anderes leisten, würde ich mir aber eine BiofairtradeTasche um den 100 fachen Prei eines Jutesacks dabei umhängen, wär ich der gefeierte Boboking. Auch Bus &amp;amp; Bahn ist nur was für Gescheiterte.  er zur Erholung in den Wald nebenan geht ist sowieso der Looser, da muss schon Biourlaub in Frankreich zum Schafezüchten drin sein. Und vor einiger Zeit lernte ich eine &quot;Grüne&quot; kennen die als allerstes fragte &quot;hast ein Auto, ich fahr so gern nach Italien&quot;  Umweltschutz beginn für jeden unsichtbar im &quot;Kleinen&quot; - Raumtemp 1 Grad niedriger, nicht jeden km mit dem Auto, Heimische Äpfel statt Erdeeren von der anderen Globusseite nehmen. Sachen die keinen &quot;Verlust&quot; bedeuten, aber auch niemand sieht...</comment_text>
+        <comment_created_at>2019-05-21T14:56:03.853000</comment_created_at>
+        <comment_length>731</comment_length>
+        <replies>
+          <reply id="1041818430">
+            <user_id>514523</user_id>
+            <user_name>Toleranzsemester</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-03-23T08:57:31.987000</user_created_at>
+            <comment_headline>Genau so ist es!</comment_headline>
+            <comment_text>Für meinen nachhaltigen Lebensstiel wurde ich von vielen als verschrobener Nerd angesehen. Umso erschrockener war ich wie positiv die Anschaffung meines ersten Autos (was ich eigentlich verheimlichen wollte) von einigen &quot;grünen&quot; Damen angenommen wurde.</comment_text>
+            <comment_created_at>2019-05-21T15:21:46.007000</comment_created_at>
+            <comment_length>252</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041816606">
+        <user_name>kimvanpossible</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-04-13T12:11:35.957000</user_created_at>
+        <comment_headline>Wie sehr nerven...</comment_headline>
+        <comment_text>...Menschen, die sich um mehr als sich selber kümmern? Ma wirklich zu dumm, dass man sich das gelaber anhören muss, wirklich absolut rücksichtslos. #ironyoff Der Egoismus dieser Tage wird immer schlimmer. Sollten wir doch einfach mal froh sein, dass sich manche Menschen Gedanken um under Zause machen aber NEIN wir suddern gschissn herum weils uns nervt. Ist wsl eh besser, wenn die Welt zugrunde geht...</comment_text>
+        <comment_created_at>2019-05-21T14:54:39.800000</comment_created_at>
+        <comment_length>405</comment_length>
+        <replies>
+          <reply id="1041838922">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ja, lesen Sie sich ihr Posting noch mal durch. sehen Sie wie nervig das ist?</comment_text>
+            <comment_created_at>2019-05-21T21:40:19.247000</comment_created_at>
+            <comment_length>76</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041812253">
+        <user_name>ninjagulbi</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-07-25T15:03:42.407000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Imitation hier, Trotzreaktion da, Doppelmoral zum drüberstreuen, so ist der Mensch einfach.  Natürlich macht das den Klimawandel nicht einfacher zu verhindern aber es kann jeder etwas beitragen selbst ohne sich gross einzuschränken und wir müssen auch nicht auf alle Errungenschaften der Moderne verzichten. Auch wenn Mal der Grossteil den Klimawandel akzeptiert und darüber nachdenkt ist schon etwas getan. Die Politik ist natürlich genauso gefordert, aber auch die besteht hauptsächlich aus Menschen deren Verhalten vom Umfeld beeinflusst wird.</comment_text>
+        <comment_created_at>2019-05-21T14:11:50.373000</comment_created_at>
+        <comment_length>546</comment_length>
+        <replies>
+          <reply id="1041815724">
+            <user_id>630596</user_id>
+            <user_name>Agrippus_Virus</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-04-01T18:51:12.873000</user_created_at>
+            <comment_headline>Die Politik [...] besteht hauptsächlich aus Menschen deren Verhalten vom Umfeld beeinflusst wird.</comment_headline>
+            <comment_text>Umfeld: Macht, Geld (und das meist von der Wirtschaft)  Deswegen gibts den ganzen Mißbrauch bei den CO2-Zertifikaten, werden Güter nur zur Gewinnoptimierung quer durch Europa geschickt (rollende Lagerhaltung, etc.), wird nicht der Transport auf Schiene forciert, gibt's noch immer keine Steuer auf Kerosin, gibt's keine Zölle auf Produkte mit klimafeindlicher Produktion.</comment_text>
+            <comment_created_at>2019-05-21T14:46:06.180000</comment_created_at>
+            <comment_length>371</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041812210">
+        <user_name>wildtapir</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-09-20T16:46:13.237000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Jeder investierte Euro und jede investierte Minute ist für Änderungen in der dritten Welt um Potenzen besser investiert. War vor mehreren Jahren auf Bali: dort sind Straßengräben mit weggeworfenen Plasticksackerln gepflastert. Und landen im Meer. Bosnische Flüsse sehen nicht viel besser aus - das Problem ist gar nicht so weit entfernt. Und noch ein kleiner Gedanke, der mir jetzt schnell ein Mal 30 rote Daumen bringen wird: Die wirtschaftliche Entwicklung in der dritten Welt so lange wie möglich hinauszögern! Bin davon überzeugt, dass die Weltpolitik das sowieso anstrebt. Aus anderen Gründen zwar, aber gut so.</comment_text>
+        <comment_created_at>2019-05-21T14:11:16.207000</comment_created_at>
+        <comment_length>616</comment_length>
+        <replies>
+          <reply id="1041839795">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Die wirtschaftliche Entwicklung in der dritten Welt so lange wie möglich hinauszögern!&quot; Naja, ist größtmöglicher Topfen, den Sie da in die Welt posaunen. Die entwickelte Welt ist für den größten Teil des verbrauchten CO2-Budgets verantwortlich und wird auch noch den Rest verpulvern, ganz egal was die Dritte Welt macht. Und wenn Sie deren wirtschaftliche Entwicklung rauszögern, werden die Bosnischen Flüsse sauberer, oder wie? Da wird wohl umgekehrt ein Schuh draus: erst wenn die Bürger in diesen Ländern genug Geld haben, werden sie einen ausreichenden Teil davon für die Müllbeseitigung ausgeben.  Aber danke für die Belehrungen aus dem bequemen Liegestuhl</comment_text>
+            <comment_created_at>2019-05-21T21:59:45.297000</comment_created_at>
+            <comment_length>662</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041838552">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>na, wenn sie's denn wirklich machen, soll's mir recht sein. Gibt aber auch Leute (kein Witz!!!), die einem mit dem erhobenen Zeigefinger kommen, wenn man eine Probeflaschung Mineralwasser annimmt, aber dann zum Zapathista-Vernetzungstreffen fliegen um ein paar Packungen Zapathista-Kaffee wiederzukommen (nochmals: das denk ich mir gerade wirklich nicht aus). In der Regel gilt aber die Faustregel: je höher das Einkommen von einem, umso mehr Dreck schleudert er in die Luft. Da kann der kleine FPÖ-Mann noch so sehr den Klimawandel leugnen, an den ökologischen Fussabdruck des grünen Hipster-Bobo kommt er trotzdem nicht an. Und würd ihm der grüne Hipster-Bobo nicht ständig von oben herab kommen, würd er womöglich auch nicht FPÖ wählen</comment_text>
+        <comment_created_at>2019-05-21T21:32:37.867000</comment_created_at>
+        <comment_length>738</comment_length>
+        <replies>
+          <reply id="1041848230">
+            <user_id>607896</user_id>
+            <user_name>Topfmodel</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2017-01-10T11:25:49.050000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die Faustregel, dh. Statistik, ja. Aber Statistik heißt nicht, dass jeder gleich ist.  Vor Allem: Wer auf ein Auto verzichtet, hat bereits die halbe Miete. Selbst in einem Einfamilienhaus, das Heizenergietechnisch eine Katastrophe ist (kleines Volumen = große Oberfläche), beträgt der CO2-Ausstoß des Autos die Hälfte des Gesamten.  In einer gut isolierten Stadtwohung (Niedrigstenergie- oder Passivhaus) macht das Auto bis zu 80 % aus!</comment_text>
+            <comment_created_at>2019-05-22T08:18:47.023000</comment_created_at>
+            <comment_length>436</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102473757
+- **Title:** Warum Rechte die Themen setzen – und Linke sich oft schwertun
+- **Publish Date:** 2019-05-04T18:00:00
+- **Channel:** Inland
+- **Ressort Name:** Parteien
+- **Total Comments:** 2171
+- **Root Comments:** 543
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102473757">
+    <title>Warum Rechte die Themen setzen – und Linke sich oft schwertun</title>
+    <publish_date>2019-05-04T18:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Parteien</ressort_name>
+    <total_comments>2171</total_comments>
+    <root_comments>543</root_comments>
+    <user_threads>
+      <thread id="1041163689">
+        <user_name>Nachrechner</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-12-14T21:52:46</user_created_at>
+        <comment_headline>Ja, es gibt ausländische Idioten</comment_headline>
+        <comment_text>Und deshalb wählt man inländische Idioten?</comment_text>
+        <comment_created_at>2019-05-04T22:58:13.767000</comment_created_at>
+        <comment_length>42</comment_length>
+        <replies>
+          <reply id="1041164669">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>haha, den Politiker, der das plakatiert würd ich sogar wählen.</comment_text>
+            <comment_created_at>2019-05-05T00:05:28.533000</comment_created_at>
+            <comment_length>62</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102474914
+- **Title:** Dokumentarfilm "Inland" über Menschen, die die FPÖ gewählt haben
+- **Publish Date:** 2019-05-03T15:53:02
+- **Channel:** Kultur
+- **Ressort Name:** Filmkritik
+- **Total Comments:** 401
+- **Root Comments:** 86
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102474914">
+    <title>Dokumentarfilm &quot;Inland&quot; über Menschen, die die FPÖ gewählt haben</title>
+    <publish_date>2019-05-03T15:53:02</publish_date>
+    <channel>Kultur</channel>
+    <ressort_name>Filmkritik</ressort_name>
+    <total_comments>401</total_comments>
+    <root_comments>86</root_comments>
+    <user_threads>
+      <thread id="1041142050">
+        <user_name>sociovation</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-03-30T09:41:10.820000</user_created_at>
+        <comment_headline>Es ist paradox</comment_headline>
+        <comment_text>Je mehr es der Regierung gelingt diesen Menschen das Leben weiter zu erschweren desto eher werden sie weiter die FPÖ wählen.</comment_text>
+        <comment_created_at>2019-05-04T08:14:12.700000</comment_created_at>
+        <comment_length>124</comment_length>
+        <replies>
+          <reply id="1041144901">
+            <user_id>671037</user_id>
+            <user_name>Servus, bin da Papa von deinem Gott</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-04-06T09:02:15.393000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das ist aber nur logisch, weil sich diese Leute ja sonst selbst eingestehen müssten, wie dumm sie waren/sind, solche Parteien zu wählen. Da aber kein Mensch vor sich selbst als dumm da stehen will, wählt er um so sturer das größere Übel. Erst wenn eine gewisse Schwelle erreicht wird, wo die Peer Group generell umschwenkt, kann sich der Wähler dann wieder in der Masse verstecken und seine Meinung ändern. Bei solchen Leuten geht es meist auch darum, dass der Grundtenor &quot;Die anderen sind schuld&quot; lautet. Ich kennen niemand aus dieser Schicht - und das sind berufsbedingt 1000e Menschen - die in der Lage sind sich selbst zu reflektieren. Irgendwas funktioniert nicht? Die anderen sind schuld. Es geht einem schlecht? Die anderen sind schuld. usw.</comment_text>
+            <comment_created_at>2019-05-04T10:30:30.023000</comment_created_at>
+            <comment_length>748</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041143173">
+        <user_name>Ökonomierat August Anzpichler</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-12-22T09:17:09.027000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Diese Menschen wählen aus ihrer Sicht schlichtweg rational.  Unsere Art von Migration schafft Verdrängungseffekte für diese Bürger niedriger Schichten, im Gemeindebau, in der Arbeit, selbst in den öffentlichen Schulen sind ihre Kinder in der Minderheit. Dazu kommt durch massive Einwanderung niedriger Schichten eine allgemeine Entwertung der sogenannten Bürgerrente, also zB. die Vorteile aus dem österr. Sozialstaat für seine Bürger werden immer mehr gefährdet, wie man ja auch aktuell sieht.   Es wäre geholfen diese Menschen nicht immer lächerlich zu machen.</comment_text>
+        <comment_created_at>2019-05-04T09:17:17.760000</comment_created_at>
+        <comment_length>562</comment_length>
+        <replies>
+          <reply id="1041145496">
+            <user_id>521548</user_id>
+            <user_name>smi2le</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2013-08-09T07:39:46.667000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Den Bürgern aus &quot;niederen Schichten&quot; fehlt nicht aufgrund von Migration etwas (obwohl diese auch ein Symptom ist - mehr &quot;Fremde&quot;) sondern aufgrund einem globalen Entwicklungsereignisses auf politischer und ökonomischer Ebene: vulgo &quot;Globalisierung&quot;.  Man blickt auf die Boomjahre der 80er zurück und erinnert sich: Damals gab es kaum Ausländer (es kamen gerade mal die ersten Gastarbeiter in größerem Ausmaß) und uns ging's uns gut!  Daß dabei das eine mit dem anderen nicht ursächlich zusammenhängt wird dabei nicht gesehen. Repeat after me: Correlation is not causation.</comment_text>
+            <comment_created_at>2019-05-04T10:54:14.430000</comment_created_at>
+            <comment_length>572</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041147655">
+        <user_name>Juusto Hampurilainen</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2007-08-27T13:20:11.793000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die hier beschriebenen Leute kommen aus einer sozialen Schicht, mit der sich heute niemand mehr beschäftigen will - auch und insbesondere nicht die SPÖ. Blöderweise merken die Leute das und rennen der einzigen Partei nach, die zumindest vorgibt, ihnen nahe zu sein. Zur Klarstellung sei gesagt, dass ich die FPÖ für zutiefst asozial halte und nicht glaube, dass sich ihre Wähler selbst einen Gefallen tun. Aber solange die SPÖ nicht vom Image der gierigen,  korrupten Selbstbedienungspartei wegkommt, werden die Rechten weiter ihre Erfolge einfahren. Wie man mit bürgernaher Politik erfolgreich ist, hat übrigens Ernest Kaltenegger mit der KPÖ in Graz gezeigt.</comment_text>
+        <comment_created_at>2019-05-04T12:23:12.427000</comment_created_at>
+        <comment_length>660</comment_length>
+        <replies>
+          <reply id="1041170178">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>die SPÖ fährt auf kommunaler Ebene aber durchaus noch Erfolge ein. in den Gemeinden selbst ist am Ende auch die Persönlichkeit viel wichtiger, als das tatsächliche Parteibuch.  Also ist Kaltenegger ein durchaus blödes Beispiel.  Mit dem Rest haben Sie recht: die sozialdemokratischen Themen der Bundespolitik müssen sich mehr mit der Lebensrealität dieser Bevölkerungsschicht decken, sonst wird das nix mehr.  Im Übrigen würde ich die FPÖ-Klientel als die untere Mittelschicht bezeichnen - die 25% der Unterschicht haben sich schon völlig aus dem demokratischen Prozess ausgeklinkt.</comment_text>
+            <comment_created_at>2019-05-05T10:55:41.920000</comment_created_at>
+            <comment_length>582</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102478986
+- **Title:** Militäranalyst Gady: "Jon Snow wäre ein schrecklicher Kommandant"
+- **Publish Date:** 2019-05-05T08:00:00
+- **Channel:** Etat
+- **Ressort Name:** Game of Thrones
+- **Total Comments:** 685
+- **Root Comments:** 159
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102478986">
+    <title>Militäranalyst Gady: &quot;Jon Snow wäre ein schrecklicher Kommandant&quot;</title>
+    <publish_date>2019-05-05T08:00:00</publish_date>
+    <channel>Etat</channel>
+    <ressort_name>Game of Thrones</ressort_name>
+    <total_comments>685</total_comments>
+    <root_comments>159</root_comments>
+    <user_threads>
+      <thread id="1041170907">
+        <user_name>Stranditheoneandonly</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-08-02T12:58:04.813000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>nach dem Militäranalyst, würde ich mir einen Wirtschaftsökonomen wünschen - welcher mir erklärt warum in einer Fantasyserie mit Drachen, Dämonen usw. kein technischer Fortschritt stattfindet. Die leben und sterben wie vor 1000 Jahren. Bitte auch noch einen Verfassungsrechtlers einladen, welcher die mögliche Einführung einer parlamentarischen Demokratie erläutert … außerdem bitte auch noch einen Virologen, welcher mir erklärt mit welchem Virus die WW nun befallen waren</comment_text>
+        <comment_created_at>2019-05-05T11:20:13.290000</comment_created_at>
+        <comment_length>472</comment_length>
+        <replies>
+          <reply id="1041172511">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>haha, moderne Wirtschaftsökonomen nehmen im neoklassischen Model technischen Fortschritt als exogenen Parameter an. Da müsste der Standard schon einen alten Schumpeterianer ausgraben, um Ihnen das zu erklären.</comment_text>
+            <comment_created_at>2019-05-05T12:21:16.630000</comment_created_at>
+            <comment_length>209</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041170758">
+        <user_name>viola merda</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2004-03-07T19:13:19.823000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Mit Doskozil als Kommandant hinter Winterfell die Untoten schon längst besiegt.</comment_text>
+        <comment_created_at>2019-05-05T11:15:11.277000</comment_created_at>
+        <comment_length>79</comment_length>
+        <replies>
+          <reply id="1041171540">
+            <user_id>501428</user_id>
+            <user_name>Vermutet meine Unschuld!!!</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2007-01-17T10:36:28.477000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das unvermeidliche Polit-Posting.  Ich interessier mich ja sonst auch für Politik, aber das immer jemand in komplett anderen Rubriken sowas anbringen muss. Diesmal wars Doskozil, normalerweise kommt was mit &quot;Basti&quot; oder &quot;Balkanroute&quot;.  So und jetzt schau ich, ob schon jemand &quot;Lese lieber ein gutes Buch&quot; gepostet hat. Das ist auch so ein Klassiker.</comment_text>
+            <comment_created_at>2019-05-05T11:43:45.590000</comment_created_at>
+            <comment_length>349</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041171102">
+        <user_name>Zeeh</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-01-25T09:22:35.457000</user_created_at>
+        <comment_headline>Fantasy und Logik schließen sich nicht aus!</comment_headline>
+        <comment_text>Gute FantasyautorInnen recherchieren ziemlich viel, um das richtige Vokabular etc zu verwenden. Es ist durchaus nicht unüblich Experten beim Film hinzu zu ziehen. Warum das bei GoT nicht gemacht wurde, um die größte Schlacht nicht zu einem belanglosen Blödsinn verkommen zu lassen verstehe ich nicht.</comment_text>
+        <comment_created_at>2019-05-05T11:27:13.617000</comment_created_at>
+        <comment_length>300</comment_length>
+        <replies>
+          <reply id="1041172463">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>halte ich für den Zeitgeist. Man denke nur an die neuen Star Trek Filme. Die sind in der Hinsicht auch zu anspruchslosem Blödsinn verkommen, obwohl man zumindest hier Avantgarde hätte bleiben können.</comment_text>
+            <comment_created_at>2019-05-05T12:19:18.880000</comment_created_at>
+            <comment_length>199</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102480025
+- **Title:** Salvini, Orbán, Strache – und Kurz?
+- **Publish Date:** 2019-05-05T08:00:00
+- **Channel:** Meinung
+- **Ressort Name:** Hans Rauscher
+- **Total Comments:** 621
+- **Root Comments:** 170
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102480025">
+    <title>Salvini, Orbán, Strache – und Kurz?</title>
+    <publish_date>2019-05-05T08:00:00</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Hans Rauscher</ressort_name>
+    <total_comments>621</total_comments>
+    <root_comments>170</root_comments>
+    <user_threads>
+      <thread id="1041171894">
+        <user_name>OFKB-Leser</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-17T18:25:58.327000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Herr Rauscher, Sie schreiben, dass &quot;Bevölkerungsaustausch&quot; ein rechtsextremer Begriff ist. Ich habe mich mit der Verwendung und Verbreitung dieses Begriffes noch nicht beschäftigt, gehe aber stark davon aus, dass Sie damit recht haben. Und lehne den Begriff daher ab.  Aber ganz abgesehen von Begrifflichkeiten. Die FPÖ und die AfD greift Tatsachen wie diese hier auf:  https://diepresse.com/home/meinung/feuilleton/mayergegengift/5622415/Mohammed-ist-in-Berlin-beliebt  Wie stehen Sie dazu?   Und dann auch: Wie soll man es politische korrekt benennen, wenn in der Hauptstadt Deutschlands (und in anderer Zählart auch: in der Hauptstadt Österreichs) Mohammed der beliebteste Bubenname ist?  Da Quelle Bild, bitte auch um Faktencheck vom Standard!</comment_text>
+        <comment_created_at>2019-05-05T11:57:59.440000</comment_created_at>
+        <comment_length>747</comment_length>
+        <replies>
+          <reply id="1041173092">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ähm, ganz gelesen haben Sie den Artikel aber nicht, oder? Wenn Sie das schon nicht hinkriegen, was nützt Ihnen dann ein Faktencheck vom Standard?</comment_text>
+            <comment_created_at>2019-05-05T12:40:22.333000</comment_created_at>
+            <comment_length>145</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102483021
+- **Title:** Hans Rauscher über das Aufwachsen im Gemeindebau
+- **Publish Date:** 2019-05-05T08:00:00
+- **Channel:** Panorama
+- **Ressort Name:** Wien
+- **Total Comments:** 936
+- **Root Comments:** 216
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102483021">
+    <title>Hans Rauscher über das Aufwachsen im Gemeindebau</title>
+    <publish_date>2019-05-05T08:00:00</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wien</ressort_name>
+    <total_comments>936</total_comments>
+    <root_comments>216</root_comments>
+    <user_threads>
+      <thread id="1041171849">
+        <user_name>WavingFlag</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2003-05-31T23:12:09</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ich denke auch dank dem gemeindebau sind did mieten in wien viel billiger als in münchen</comment_text>
+        <comment_created_at>2019-05-05T11:56:34.687000</comment_created_at>
+        <comment_length>88</comment_length>
+        <replies>
+          <reply id="1041171929">
+            <user_id>602349</user_id>
+            <user_name>cpt. bligh</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2016-10-13T19:12:15.803000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>und jetzt vergleichens auch noch die arbeitslosenrate von münchen und wien.</comment_text>
+            <comment_created_at>2019-05-05T11:59:17.530000</comment_created_at>
+            <comment_length>75</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041171725">
+        <user_name>quid futuo</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-03-13T21:50:53.713000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>rauscher beschreibt das heutige problem ziemlich akkurat. damals gab es nur eine richtung: aufwärts. bessere ausbildung, bessere wohnung, bessere lebensumstände allgemein und das innerhalb einer generation. ausserdem war das leben planbar, meine eltern hatten noch lebensarbeitsstellen.  heute kann man das, was man sich aufgebaut hat innerhalb kürzester zeit weg sein, wenn auch nur einer in einer beziehung den job verliert und nicht gleich etwas neues findet, was heute um ein vielfaches wahrscheinlicher ist, wie damals.  die schuld dafür wird (mmn nicht zu unrecht) der etablierten politik gegeben, die die heimische wirtschaft mit der ganzen welt in konkurrenz gestellt hat. dann noch too much bei der zuwanderung und fertig ist 2019.</comment_text>
+        <comment_created_at>2019-05-05T11:51:27.330000</comment_created_at>
+        <comment_length>740</comment_length>
+        <replies>
+          <reply id="1041178936">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>&quot;ausserdem war das leben planbar, meine eltern hatten noch lebensarbeitsstellen.&quot; das ist denke ich viel mehr der springende Punkt.</comment_headline>
+            <comment_text>Die meisten könnten sich schon ganz gut damit anfreunden in Zukunft statt einem Jahr halt eineinhalb Jahre auf den nächsten Flatscreen zu sparen. Das Problem ist vielmehr, dass in den Zeiten der Gig-Economy und aufploppenden Leiharbeit vielmehr für Perioden der Unsicherheit sparen muss. Während Unternehmensrisiken im Zweifel sozialisiert wird und an immer flexiblere Leiharbeitskräfte ausgelagert wird, werden die Gewinne einbehalten. Weiteres Konflikt-Potential: viele Wähler sind noch in solchen langfristigen Jobs drinnen, während viele v.a. Migranten kaum lang genug Jobs haben, um überhaupt einen Leistungsanspruch aufzubauen, weil sie bei Bedarf schnell wieder an die Luft gesetzt werden.</comment_text>
+            <comment_created_at>2019-05-05T16:23:52.700000</comment_created_at>
+            <comment_length>696</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102508150
+- **Title:** HTL-Schüler angespuckt: Jugendliche provozierten Lehrer zuvor aggressiv
+- **Publish Date:** 2019-05-04T13:20:14.280000
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 3987
+- **Root Comments:** 942
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102508150">
+    <title>HTL-Schüler angespuckt: Jugendliche provozierten Lehrer zuvor aggressiv</title>
+    <publish_date>2019-05-04T13:20:14.280000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>3987</total_comments>
+    <root_comments>942</root_comments>
+    <user_threads>
+      <thread id="1041182079">
+        <user_name>02515151541</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-10-23T16:05:37.373000</user_created_at>
+        <comment_headline>selbe Schule</comment_headline>
+        <comment_text>https://www.heute.at/oesterreich/wien/story/Schueler-tricksen-fuer-die-Familienbeihilfe-27799809  manche Schüler fallen offensichtlich absichtlich durch nur um länger Familienbeihilfe zu kassieren...</comment_text>
+        <comment_created_at>2019-05-05T18:25:27.003000</comment_created_at>
+        <comment_length>199</comment_length>
+        <replies>
+          <reply id="1041186137">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ist ja echt unglaublich. man kann keinen einzigen Fall beweisen, Familienministerium und Stadtschulrat wissen von nix.  Richtig investigativ, dieses Käseblattl.</comment_text>
+            <comment_created_at>2019-05-05T20:53:40.487000</comment_created_at>
+            <comment_length>160</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041184076">
+        <user_name>aschera</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2014-02-19T18:46:33.643000</user_created_at>
+        <comment_headline>Eigentlich</comment_headline>
+        <comment_text>müsste der Schuldirektor entfernt werden, der nicht fähig war, für Recht und Ordnung zu sorgen. Es kann doch nicht sein, dass solche Zustände in/an Schulen herrschen. Aber im rot/grünen Wien ist scheinbar alles möglich, finde ich nicht mehr in Ordnung.</comment_text>
+        <comment_created_at>2019-05-05T19:32:37.400000</comment_created_at>
+        <comment_length>252</comment_length>
+        <replies>
+          <reply id="1041184201">
+            <user_id>505907</user_id>
+            <user_name>Crowe</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2013-01-22T16:01:35.283000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das war damals auch schon im schwarzen Oberösterreich möglich (nicht so extrem, aber auf meiner Schule wurde auch ein Lehrer raus gemobbt). Das hat mit der politischen Farbe des Landes wenig zu tun.</comment_text>
+            <comment_created_at>2019-05-05T19:37:00.780000</comment_created_at>
+            <comment_length>198</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102529764
+- **Title:** Steigende Ungleichheit verringert Unterstützung für Umverteilung
+- **Publish Date:** 2019-05-05T09:44:53
+- **Channel:** Inland
+- **Ressort Name:** Sozialpolitik &amp; Armut
+- **Total Comments:** 304
+- **Root Comments:** 61
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102529764">
+    <title>Steigende Ungleichheit verringert Unterstützung für Umverteilung</title>
+    <publish_date>2019-05-05T09:44:53</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Sozialpolitik &amp;amp; Armut</ressort_name>
+    <total_comments>304</total_comments>
+    <root_comments>61</root_comments>
+    <user_threads>
+      <thread id="1041185859">
+        <user_name>no_name</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-12-24T11:11:30.813000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Interessant. Je mehr Ungleicheit es gibt umso mehr lebt man in seiner eigenen Schicht-Blase. Wie Reiche leben sieht man nicht - aber den Nachbarn, der Mindestsicherung bezieht schon. Die Reichsten sind oft reine Erben, die haben gar nichts geleistet für den Reichtum. Die Reichen schauen verächtlich auf die sich im Hamsterrad abstrampelnde Mittelschicht herunter und wollen mit der auch nichts zu tun haben. Die Mittelschicht wiederum glaubt sie gehören oder könnten irgendwann zu den Reichen gehören und verteidigen deren Privilegien. Die Mittelschicht ist aber auf Umverteilung stark angewiesen, zb Gesundheits- Bildungswesen und beim Wohnen - zB Genossenschaftswohnung.</comment_text>
+        <comment_created_at>2019-05-05T20:42:35.570000</comment_created_at>
+        <comment_length>673</comment_length>
+        <replies>
+          <reply id="1041188722">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>haha, Ihnen ist bewusst in was für einem Forum Sie schreiben? Im Safe-Space der der boboigsten Schneeflöckchen, die man im Lande finden kann.  &quot;Die Reichsten sind oft reine Erben&quot; das trifft auf so ziemlich jeden Grünen und jeden Sozi-&quot;Millenial&quot; zu, den ich in meinem Millenial-Leben kennengelernt hab.  Während die einen Überstunden klopfen, um über die Runden zu kommen, plappern die andern was von Work-Life-Balance oder setzen so Postings, wie den Ihren ab.  Deswegen rennen die auch scharenweise weg, von den klassischen &quot;Linken&quot;, weil das Messer in den Rücken kriegt man auch von der FPÖ. Die kommen aber zumindest aus der eigenen Klasse.</comment_text>
+            <comment_created_at>2019-05-05T22:47:14.347000</comment_created_at>
+            <comment_length>645</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041184847">
+        <user_name>Ottobrini</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-02-11T20:54:23.223000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Einmal mehr will man uns für dumm verkaufen, indem man den großen Elefanten im Raum ignoriert. Die ethnische Zersplitterung der Gesellschaft ist es, mit der die Bereitschaft zur Umverteilung massiv sinkt. Anstatt diese wichtige Ursache zu benennen, polemisiert man gegen jene politischen Kräfte, welche dieses Problem erkannt haben.  https://scholar.harvard.edu/files/alesina/files/paper_immig_redis_080219correct.pdf</comment_text>
+        <comment_created_at>2019-05-05T20:01:03.743000</comment_created_at>
+        <comment_length>417</comment_length>
+        <replies>
+          <reply id="1041189185">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die Conclusio ist, dass der Effekt von Zuwanderung tatsächlich eher gering ist (0,2% pro 10% mehr Migranten, wenn ichs richtig im Kopf hab)  Hauptsächlich getrieben wird dieser Effekt von Leuten, die Umverteilung von Haus aus kritisch sehen - egal wem sie zugute kommt. Dies hat sich auch seit 2015 nicht großartig verändert. Der Grad an Zustimmung für Umverteilung nimmt sogar zu, wenn die Leute Feuer unterm Hintern spüren durch die Konkurrenz von Zuwanderern.  Schauen Sie nach Osteuropa, kaum Zuwanderer und welche Parteien sind an der Macht?</comment_text>
+            <comment_created_at>2019-05-05T23:09:16.980000</comment_created_at>
+            <comment_length>546</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041189371">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Denn die meisten Menschen sehen sich eher beim Durchschnittseinkommen angesiedelt. Dadurch überschätzen Reiche auch das Einkommen der Armen, während diese die Einnahmen der Reichen unterschätzen&quot; Na, da hat sich die Dame aber sehr Standard-publikumsgerecht ausgedrückt. Zur vollen Wahrheit gehört nämlich auch, dass sich Reiche selbst regelmäßig ihre Einkommen unterschätzen. Besonders ulkig wirds, wenn genau diese Social justice Warriors hier im Forum sich dann für die Speerspitze des Klassenkampfs halten. Ungefähr genauso wenn die Grünen sich vom Selbstfindungstrip in Neusseland aus via Facebook beschweren, dass andere nicht das Klima retten. Ihr überbehüteten Wohlstandskids seid echt der Hit.</comment_text>
+        <comment_created_at>2019-05-05T23:20:19.240000</comment_created_at>
+        <comment_length>702</comment_length>
+        <replies>
+          <reply id="1041189906">
+            <user_id>504242</user_id>
+            <user_name>MJacques</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-01-28T21:23:29.993000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Reiche unterschätzen ihr Einkommen nicht, sie geben in Umfragen nur tendenziell ein niedrigeres Einkommen an, vielleicht genieren sie sich, keine Ahnung. Den zweiten Teil ihres Posts und das was sie dabei fühlen, wenn sie sowas inhaltsleeres und doch aggressives absondern, sollten Sie mit jemand professionellem besprechen.</comment_text>
+            <comment_created_at>2019-05-05T23:55:32.357000</comment_created_at>
+            <comment_length>324</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102553161
+- **Title:** EU-Vertrag: Kurz-Reform ja, aber richtig
+- **Publish Date:** 2019-05-05T18:19:12
+- **Channel:** Meinung
+- **Ressort Name:** Thomas Mayer
+- **Total Comments:** 92
+- **Root Comments:** 50
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102553161">
+    <title>EU-Vertrag: Kurz-Reform ja, aber richtig</title>
+    <publish_date>2019-05-05T18:19:12</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Thomas Mayer</ressort_name>
+    <total_comments>92</total_comments>
+    <root_comments>50</root_comments>
+    <user_threads>
+      <thread id="1041185163">
+        <user_name>DailyReader</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-01-20T22:12:29.147000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wenn das Vereinigte Königreich aussteigt, verschiebt sich der Einfluss hin zu den südlichen Staaten. Die Bürger des Vereinigten Königreichs machen 15% aus. Was den Euro betrifft, wird es vermutlich weiter Richtung Inflation gehen, mit so gut wie keinem Leitzins. Italien wird von der Einhaltung der Maastricht-Kriterien auch nicht so begeistert sein, was zum Beispiel Kurz möchte. Die italienischen Politiker, die vor einiger Zeit ins Amt gewählt wurden, könnten ihre Versprechen ohne Verschuldung nicht umsetzen. Die Politiker der EU müssten sich auch eingestehen, dass es in der EU unterschiedlich wirtschaftlich starke Staaten gibt und dass sich nicht alles ebnen lässt.</comment_text>
+        <comment_created_at>2019-05-05T20:12:25.930000</comment_created_at>
+        <comment_length>673</comment_length>
+        <replies>
+          <reply id="1041187900">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Die italienischen Politiker, die vor einiger Zeit ins Amt gewählt wurden, könnten ihre Versprechen ohne Verschuldung nicht umsetzen.&quot; kann der Kurz auch nicht. Juckt auch von seinen Fanboys niemand</comment_text>
+            <comment_created_at>2019-05-05T22:04:46.807000</comment_created_at>
+            <comment_length>198</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102688558
+- **Title:** Libysche Rebellen schießen ausländischen Piloten ab
+- **Publish Date:** 2019-05-07T16:13:05.610000
+- **Channel:** International
+- **Ressort Name:** Libyen
+- **Total Comments:** 104
+- **Root Comments:** 18
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102688558">
+    <title>Libysche Rebellen schießen ausländischen Piloten ab</title>
+    <publish_date>2019-05-07T16:13:05.610000</publish_date>
+    <channel>International</channel>
+    <ressort_name>Libyen</ressort_name>
+    <total_comments>104</total_comments>
+    <root_comments>18</root_comments>
+    <user_threads>
+      <thread id="1041251213">
+        <user_name>auf_der_galerie</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-25T09:57:26.063000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>zum glück ist der westen dort reingefahren und hat diesen fürchterlichen diktator erledigt.   ein paradies ist aus diesem chaosland geworden, in dem es so grausliche dinge gab wie schulpflicht, frauenwahlrecht oder (igitt!!) gesundheitsversicherung für alle.</comment_text>
+        <comment_created_at>2019-05-07T20:19:09.797000</comment_created_at>
+        <comment_length>258</comment_length>
+        <replies>
+          <reply id="1041254491">
+            <user_id>689202</user_id>
+            <user_name>Der Cartoonist</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-03-12T20:03:26.517000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Am schlimmsten war dort das Studium im In und Ausland mit kostenlosen Stipenium ohne Bafög. Wie Ekelhaft ist das denn. Bei uns muß man wenigsten 4 Jobs + Bafög im Monat haben um zu über-leben.</comment_text>
+            <comment_created_at>2019-05-07T21:42:58.800000</comment_created_at>
+            <comment_length>192</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102690976
+- **Title:** Bevölkerungsaustausch oder Umvolkung? Erklären Sie den Unterschied, Herr Strache!
+- **Publish Date:** 2019-05-07T18:13:10
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 293
+- **Root Comments:** 91
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102690976">
+    <title>Bevölkerungsaustausch oder Umvolkung? Erklären Sie den Unterschied, Herr Strache!</title>
+    <publish_date>2019-05-07T18:13:10</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Kommentare der anderen</ressort_name>
+    <total_comments>293</total_comments>
+    <root_comments>91</root_comments>
+    <user_threads>
+      <thread id="1041255660">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Als am 17. März 2018 Anna Medwenitsch, die in Hof am Leithaberge geboren wurde - Medwenitsch war ja damals schon ein Ur-Österreichischer Name.</comment_text>
+        <comment_created_at>2019-05-07T22:08:09.490000</comment_created_at>
+        <comment_length>142</comment_length>
+        <replies>
+          <reply id="1041260725">
+            <user_id>235704</user_id>
+            <user_name>Zniachtl</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-10-15T21:13:43.637000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>So wie beispielsweise Strache.</comment_text>
+            <comment_created_at>2019-05-08T06:07:09.077000</comment_created_at>
+            <comment_length>30</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102692886
+- **Title:** Änderung der EU-Verträge: Wünsch dir was
+- **Publish Date:** 2019-05-07T18:20:20
+- **Channel:** Meinung
+- **Ressort Name:** Eric Frey
+- **Total Comments:** 136
+- **Root Comments:** 41
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102692886">
+    <title>Änderung der EU-Verträge: Wünsch dir was</title>
+    <publish_date>2019-05-07T18:20:20</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Eric Frey</ressort_name>
+    <total_comments>136</total_comments>
+    <root_comments>41</root_comments>
+    <user_threads>
+      <thread id="1041250484">
+        <user_name>DailyReader</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-01-20T22:12:29.147000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die Konvergenz-Kriterien werden nur von wenigen Staaten eingehalten. Die Kriterien halten auch keiner Finanzkrise stand. Mit einer verpflichtenden Umsetzung der Kriterien könnte in Italien etwa keine Sozial-Politik gemacht werden, wie sie das italienische Regierungskabinett versprochen hat. Geldstrafen von Seiten der EU bei Nichteinhaltung wären kontraproduktiv. Die Maastricht-Kriterien stammen aus einer Zeit, in der die EU etwas kleiner war. Was schwer umzusetzen wäre, eine EU à la carte, bei der die Mitgliedstaaten im Cafeteria-System aussuchen könnten, was sie wollten.</comment_text>
+        <comment_created_at>2019-05-07T19:55:31.083000</comment_created_at>
+        <comment_length>578</comment_length>
+        <replies>
+          <reply id="1041250642">
+            <user_id>607908</user_id>
+            <user_name>Jan Herzka</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2017-02-07T16:20:13.667000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&amp;gt;&amp;gt;Die Maastricht-Kriterien stammen aus einer Zeit, in der die EU etwas kleiner war.&amp;lt;&amp;lt;  Allerdings sind es lauter alte Mitglieder, die die Kriterien nicht einhalten.  Slowakei, Slowenien und das Baltikum sind neben Luxemburg die Euro-Länder, die bisher nicht gegen die Maastricht-Kriterien verstoßen haben.</comment_text>
+            <comment_created_at>2019-05-07T20:01:01.353000</comment_created_at>
+            <comment_length>305</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041250429">
+        <user_name>Cronos</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-01-20T13:02:49.227000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Bei aller Kritik an Kurzens sehr allgemeinen Ideen - er macht die Verträge wenigstens zum Thema.  Wenn es wahr ist, so soll diese kommende EU-Wah ja eine Entscheidung sein, welchen Weg die EU eher nehmen wird: Eher wie die USA oder doch wieder eher wie der EWR.   Die aktuelle Großwetterlage deutet eher auf EWR hin. Denn die Visegard-Staaten wollen den Wohlstand Deutlands und Österreichs und solange das nicht so ist, werden sie es als ungerecht empfinden, wenn sie bestraft werden sollen dafür, dass sie Probleme Österreichs nicht wollen mit der Zuwanderung, solange sie nicht den selben Wohlstand haben, wie die Österreicher.</comment_text>
+        <comment_created_at>2019-05-07T19:53:25.987000</comment_created_at>
+        <comment_length>629</comment_length>
+        <replies>
+          <reply id="1041250577">
+            <user_id>51140</user_id>
+            <user_name>Dr. Usus Germanicus</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-05-05T15:47:24.803000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ein EWR wäre wohl noch das Beste. Machen wir möglichst freie Wirtschaft und freien Waren und Kapitalverkehr.   Freier Personenverkehr ist wünschenswert, aber leider schon innerhalb der EU aufgrund des Sozialsstaats offenbar nicht denkbar.   Leider muss man sich halt auf diese Ebene begeben, bevor es die EU zur gänze zerreißt.  Nur: Der Sozialstaat ist eine Fiktion. Er gehört neu gedacht. Man kann halt internationale Konzerne nicht für nationale Interessen schröpfen!  Wie das ausgehen wird? Die Geschichte ist und bleibt offen. Niemand kann das vorhersagen!</comment_text>
+            <comment_created_at>2019-05-07T19:58:54.863000</comment_created_at>
+            <comment_length>561</comment_length>
+          </reply>
+          <reply id="1041255135">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>welche Probleme mit Zuwanderung sollen die Visergrad-Staaten denn haben - deren Problem ist die massive Abwanderung, weil die Engstirnigkeit der Zurückgebliebenen einfach keine anderen Perspektiven lässt. Aber immer schön drauf auf den Zuwanderer, selbst wenn der zum größten Teil selbst aus Visegrad kommt.</comment_text>
+            <comment_created_at>2019-05-07T21:57:31.347000</comment_created_at>
+            <comment_length>307</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041252842">
+        <user_name>Diego: Das alte Lager</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-07-11T11:43:21.317000</user_created_at>
+        <comment_headline>Kommts in die EU, hams gsagt.</comment_headline>
+        <comment_text>Ist voll demokratisch, hams gsagt. Da können wir mitbestimmen, hams gsagt.  Offenbar können nicht einmal die Regierungschefs da etwas machen. Die FP hat recht!</comment_text>
+        <comment_created_at>2019-05-07T21:02:41.360000</comment_created_at>
+        <comment_length>159</comment_length>
+        <replies>
+          <reply id="1041254878">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>und demokratisch wärs, wenn unser Bundeskanzler mal kurz mit seinen großen Ohren wackelt und alle vom Nordkap bis nach Gibraltar springen hinterher.  Demokratie a la FPÖ, ja klar. Die hat nämlich immer recht.</comment_text>
+            <comment_created_at>2019-05-07T21:51:41.800000</comment_created_at>
+            <comment_length>208</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102693569
+- **Title:** Junge Macho-Migranten in der Schule
+- **Publish Date:** 2019-05-07T18:23:11
+- **Channel:** Meinung
+- **Ressort Name:** Hans Rauscher
+- **Total Comments:** 2487
+- **Root Comments:** 646
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102693569">
+    <title>Junge Macho-Migranten in der Schule</title>
+    <publish_date>2019-05-07T18:23:11</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Hans Rauscher</ressort_name>
+    <total_comments>2487</total_comments>
+    <root_comments>646</root_comments>
+    <user_threads>
+      <thread id="1041254732">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>oder aber diese mit testosteronvollgepumpten Jungs verbrachten viel zu viel Zeit mit anderen Jungs und dann passierte halt, was passiert, wenn kein Korrektiv da ist.... als ob das beim Bundesheer anders wäre (oder warum wird man da im Zweifel auch 15 Mal geschickt dasselbe Klo zu putzen).  Als hätte es dort keine Knüppeleien und Reibereien gegeben.</comment_text>
+        <comment_created_at>2019-05-07T21:48:47.893000</comment_created_at>
+        <comment_length>350</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102734754
+- **Title:** Die Migration aus der Türkei ist zum Halt gekommen
+- **Publish Date:** 2019-05-31T13:14:10
+- **Channel:** Diverses
+- **Ressort Name:** Daten und Interaktiv
+- **Total Comments:** 940
+- **Root Comments:** 267
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102734754">
+    <title>Die Migration aus der Türkei ist zum Halt gekommen</title>
+    <publish_date>2019-05-31T13:14:10</publish_date>
+    <channel>Diverses</channel>
+    <ressort_name>Daten und Interaktiv</ressort_name>
+    <total_comments>940</total_comments>
+    <root_comments>267</root_comments>
+    <user_threads>
+      <thread id="1042261028">
+        <user_name>Oberleutnant_Lukasch</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-05-14T14:04:29.170000</user_created_at>
+        <comment_headline>Das ist die beste Nachricht seit langem.</comment_headline>
+        <comment_text>Danke Fpö!  Aber jetzt wird eh alles Rückgängig gemacht damit man schön in die sozialen Strukturen einsickern kann.   Im Herbst X Fpö nur das kann den Vorgang verhindern.</comment_text>
+        <comment_created_at>2019-05-31T13:33:25.087000</comment_created_at>
+        <comment_length>170</comment_length>
+        <replies>
+          <reply id="1042261407">
+            <user_id>525675</user_id>
+            <user_name>Maingano</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2013-09-27T00:36:27.987000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>träumt weiter - die FPÖ hat null damit zu tun, dass Menschen lernen, dass weniger Kinder zu haben bedeutet, den Kindern bessere Bildung und damit eine bessere Zukunft schaffen zu können und null mit der wirtschaftlichen Entwicklung der Türkei zu tun, welche dort den Lebensstandard hebt.  Wer im Herbst immer noch für die FPÖ stimmt, stimmt für Korruption und dem Ausverkauf von Wasser und andereren kokmmunalen Dienstleistungen. Auch wenn die blauen Herren - da war doch was mit Blaumiesen im Beatlesfilm &quot;Yellowsubmarine&quot; ... - sich noch so sehr &quot;Soziale Heimatpartei&quot; nennen, so sehr arbeiten Sie wohl für Oligarchen, Konzerne und  das eigene Säckel.</comment_text>
+            <comment_created_at>2019-05-31T13:47:43.993000</comment_created_at>
+            <comment_length>653</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042261004">
+        <user_name>James Z. Kirk</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-03-10T20:28:49.483000</user_created_at>
+        <comment_headline>ist wohl der türkis blau zu verdanken</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-31T13:32:37.610000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1042261187">
+            <user_id>692018</user_id>
+            <user_name>Otto Hornek</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-05-08T14:13:53.210000</user_created_at>
+            <comment_headline>Trend beginnt in den späten 1980er Jahren</comment_headline>
+            <comment_text>Da hat dein Messias Basti noch in die Windeln geschissen; das hat sicher sehr geholfen.  ____________________  Ich glaub eigentlich nicht an die Verschwörungstheorie von den bezahlten Kampfpostern, aber manche Postings sind so unfassbar dumm, dass es einfacher zu verstehen wäre, wenn man davon ausgehen könnte, dass jemand Geld dafür kriegt, diesen Unsinn zu verbreiten.</comment_text>
+            <comment_created_at>2019-05-31T13:39:39.860000</comment_created_at>
+            <comment_length>371</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042261150">
+        <user_name>TheCatalyst</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-06-24T18:02:46.763000</user_created_at>
+        <comment_headline>Das wird Oesterreich noch zum Verhaengnis werden in den naechsten Jahren.</comment_headline>
+        <comment_text>...denn es wandern schon lange auch tuerkisch staemmige Oesterreicher. Unter denen viele Akademiker. Es gibt dort Universitaeten die im internationalen Ranking aehnlich gut abschneiden wie jene in Oestereich. Vergleichsmaessig ist die Bezahlung besser und Drittmittel bekommt man auch eher als sonst wo in Europa. Dazu kommt, dass man unter Kollegen und Studenten mehr geschaetzt und respektiert wird. Wer in Oesterreich auf akademischen Boden dient kennt den Neid und die Missgunst der Kollegen allzu gut. Daher, warum soll man sich da in Oesterreich plagen und obendrein verarschen lassen fuer seine Dienste wenn es viel besser auch geht. Und, die Geschichte mit Erdogan zieht auch nicht mehr. Das als Argument zu bringen ist schon laecherlich.</comment_text>
+        <comment_created_at>2019-05-31T13:37:58.900000</comment_created_at>
+        <comment_length>746</comment_length>
+        <replies>
+          <reply id="1042265596">
+            <user_id>134517</user_id>
+            <user_name>martial</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2007-02-28T12:55:13.040000</user_created_at>
+            <comment_headline>Halbwahrheit</comment_headline>
+            <comment_text>Was stimmt ist, dass die Regierung sehr viel Geld in die Hand genommen hat um neue Universitäten zu eröffnen und damit auch durchaus Akademiker aus dem Ausland anlocken konnte. Die Bedingungen für Jungwissenschaftler sind tatsächlich nicht so schlecht, weil man schneller in feste Anstellungen kommen kann.  Allerdings ist gerade aufgrund des massiven Ausbaus der Universitäten die Qualität im Durchschnitt extrem gering. Spätestens seit dem Putsch, aber auch schon vorher, haben die Säuberungen große Teile der kritischen Wissenschaftler, und das sind meistens die guten, ihre Jobs gekostet. Schon unter normalen Umständen wären die kaum ersetzbar, aber unter den derzeitigen politischen Verhältnissen schon gar nicht.</comment_text>
+            <comment_created_at>2019-05-31T16:03:02.350000</comment_created_at>
+            <comment_length>719</comment_length>
+          </reply>
+          <reply id="1042261253">
+            <user_id>202823</user_id>
+            <user_name>Spekulat</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-08-29T11:26:51.440000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich bin türkisch-stämmig, habe in den US und GB studiert und kann ihrer Meinung nicht zustimmen.</comment_text>
+            <comment_created_at>2019-05-31T13:42:26.070000</comment_created_at>
+            <comment_length>96</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042260835">
+        <user_name>Der_Eisenmann</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-07-06T14:47:14.290000</user_created_at>
+        <comment_headline>SPÖ am Abgrund, Türken wandern aus</comment_headline>
+        <comment_text>Gudenus und Strache weg vom Fenster, Expertenkabinett steht, May ist zurückgetreten.  Fast nur noch erfreuliche Nachrichten im Standard. Das gabs lange nicht.</comment_text>
+        <comment_created_at>2019-05-31T13:27:02.590000</comment_created_at>
+        <comment_length>158</comment_length>
+        <replies>
+          <reply id="1042276433">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>na dann warten Sie mal die nächsten Monate ab: Rendi-Wagner wird Bundeskanzlering, Trump produziert ne neue Flüchtlingswelle aus Iran, Strache im EU-Parlament, Boris Johnson folgt May nach. Das Pendel haut immer zurück!</comment_text>
+            <comment_created_at>2019-05-31T23:18:58.113000</comment_created_at>
+            <comment_length>219</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042260827">
+        <user_name>gerhard maierhofer</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2002-11-25T21:59:22</user_created_at>
+        <comment_headline>die tendenz gibt es auch bei</comment_headline>
+        <comment_text>polen. ich kenn welche denen gefällt es in wien einfach nicht mehr und die sind zurück gegangen.  bei türken wird es ähnlich sein, vor allem haben sich dort die lebensbedingungen verbessert.</comment_text>
+        <comment_created_at>2019-05-31T13:26:47.687000</comment_created_at>
+        <comment_length>190</comment_length>
+        <replies>
+          <reply id="1042276443">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>kenn das sogar von einer Sudanesin.</comment_text>
+            <comment_created_at>2019-05-31T23:19:28.177000</comment_created_at>
+            <comment_length>35</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102748717
+- **Title:** KSV-Lili: Mit linker Musik für den gesellschaftlichen Wandel
+- **Publish Date:** 2019-05-17T14:36:26
+- **Channel:** Bildung
+- **Ressort Name:** ÖH-Wahl 2019
+- **Total Comments:** 110
+- **Root Comments:** 43
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102748717">
+    <title>KSV-Lili: Mit linker Musik für den gesellschaftlichen Wandel</title>
+    <publish_date>2019-05-17T14:36:26</publish_date>
+    <channel>Bildung</channel>
+    <ressort_name>ÖH-Wahl 2019</ressort_name>
+    <total_comments>110</total_comments>
+    <root_comments>43</root_comments>
+    <user_threads>
+      <thread id="1041731261">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Also dieser KSV-Lili das ist doch sicher ein Kunstprojekt der Identitären. So viel Klischee kanns doch gar nicht geben und zu Hause haut sich grad der Martin Sellner mit seinen Kumpels bei einer Kiste Bier drüber ab, dass der Standard glaubt, sowas gibts wirklich.  Voll auf den Leim gegangen..nach Ibizagate natürlich die verdiente Retourkutsche</comment_text>
+        <comment_created_at>2019-05-20T11:28:01.963000</comment_created_at>
+        <comment_length>346</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102871178
+- **Title:** Das überraschende Ende von Telering
+- **Publish Date:** 2019-05-10T09:27:34
+- **Channel:** Web
+- **Ressort Name:** Mobilfunker
+- **Total Comments:** 534
+- **Root Comments:** 159
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102871178">
+    <title>Das überraschende Ende von Telering</title>
+    <publish_date>2019-05-10T09:27:34</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Mobilfunker</ressort_name>
+    <total_comments>534</total_comments>
+    <root_comments>159</root_comments>
+    <user_threads>
+      <thread id="1041339912">
+        <user_name>FranzFrosch</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-03T11:32:51.073000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Kann sich das Management von MaxMobil, t-mobile, Magenta, oder wie sie sich gerade mal nennen, endlich mal einigen, wie der Anbieter für die nächsten 100 Jahre heißen soll. Siemens, Mercedes oder BMW ändern auch nicht alle paar Jahre ihren Namen.  Btw ich sag immer noch Max dazu.</comment_text>
+        <comment_created_at>2019-05-10T12:52:39.987000</comment_created_at>
+        <comment_length>280</comment_length>
+        <replies>
+          <reply id="1041354789">
+            <user_id>219799</user_id>
+            <user_name>rubberduck</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2002-04-14T23:08:42</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wenns nach ihnen geht müsste A1 noch immer k&amp;amp;k post und telegraphenverwaltung heissen. Nissan ist Datsun. Twix, Raider, man kauft mit Schilling und fahren würden Sie gern einen kraft durch freude Sportumbau 911. Marken ändern sich halt mal und gerade in der Telekommunikationsbranche etwa im 10 Jahresabstand. Upc hat auch mal Telekabel geheissen und inode das spätere upc business, war der größte alternative provider</comment_text>
+            <comment_created_at>2019-05-10T21:17:21.320000</comment_created_at>
+            <comment_length>418</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102892810
+- **Title:** Merkel will keine neue Hymne
+- **Publish Date:** 2019-05-10T13:31:57
+- **Channel:** International
+- **Ressort Name:** Deutschland
+- **Total Comments:** 275
+- **Root Comments:** 79
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102892810">
+    <title>Merkel will keine neue Hymne</title>
+    <publish_date>2019-05-10T13:31:57</publish_date>
+    <channel>International</channel>
+    <ressort_name>Deutschland</ressort_name>
+    <total_comments>275</total_comments>
+    <root_comments>79</root_comments>
+    <user_threads>
+      <thread id="1041350560">
+        <user_name>Tante_Frieda</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-02-06T00:56:38.977000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>In einem Satz:Jawohl,es stimmt - die deutsche Nationalhymne ist sehr schön,sowohl musikalisch als auch vom Text her.Kein halbwegs normal denkender Mensch wird sich je gegen „Einigkeit und Recht und Freiheit“ aussprechen.Die anstößige Strophe,auf die sich Rechtsradikale beziehen,wurde ja bekanntlich entfernt.</comment_text>
+        <comment_created_at>2019-05-10T18:43:54.660000</comment_created_at>
+        <comment_length>309</comment_length>
+        <replies>
+          <reply id="1041351152">
+            <user_id>71141</user_id>
+            <user_name>Dr. Sheldon Lee Cooper</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2002-10-26T00:07:31</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Deutsche Frauen, Wein und Gesang würde ich jetzt auch nicht ablehnen.</comment_text>
+            <comment_created_at>2019-05-10T18:59:43.560000</comment_created_at>
+            <comment_length>69</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041355034">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>wärs nicht eher angebracht uns Österreichern dafür Tantiemen zu bezahlen, immerhin haben sie die von uns geklaut.</comment_text>
+        <comment_created_at>2019-05-10T21:29:06.020000</comment_created_at>
+        <comment_length>113</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102911534
+- **Title:** Timothy Snyder: Die EU als einzige Antwort auf Europas Geschichte
+- **Publish Date:** 2019-05-10T16:53:06
+- **Channel:** International
+- **Ressort Name:** EU
+- **Total Comments:** 125
+- **Root Comments:** 32
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102911534">
+    <title>Timothy Snyder: Die EU als einzige Antwort auf Europas Geschichte</title>
+    <publish_date>2019-05-10T16:53:06</publish_date>
+    <channel>International</channel>
+    <ressort_name>EU</ressort_name>
+    <total_comments>125</total_comments>
+    <root_comments>32</root_comments>
+    <user_threads>
+      <thread id="1041354611">
+        <user_name>Liberaler Atheist</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-11-01T10:09:20</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die EU ist ja durchaus sinnvoll, aber mich stört, dass man heutzutage alles, was man gut findet, so bombastisch al &quot;alternativlos&quot; überhöhen muss. Gäbe es die EU nicht und stattdessen nur die europäischen Einzelstaaten oder würde die EU zerfallen, wäre DAS nicht das Ende der Welt für uns.  Da haben wir ganz andere Probleme.</comment_text>
+        <comment_created_at>2019-05-10T21:09:02.387000</comment_created_at>
+        <comment_length>325</comment_length>
+        <replies>
+          <reply id="1041355318">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>wars ja auch in Jugoslawien nicht oder am Kaukasus. leben auch noch immer alle glücklich und zufrieden nebeneinander oder diverse andere zerfallende staatsgefüge, wie man sie heute betrachten kann.</comment_text>
+            <comment_created_at>2019-05-10T21:40:31.423000</comment_created_at>
+            <comment_length>197</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102948705
+- **Title:** EU-Wahlcoup: Macron schafft neue liberale Fraktion samt Neos
+- **Publish Date:** 2019-05-11T15:32:16.860000
+- **Channel:** International
+- **Ressort Name:** Frankreich
+- **Total Comments:** 939
+- **Root Comments:** 297
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102948705">
+    <title>EU-Wahlcoup: Macron schafft neue liberale Fraktion samt Neos</title>
+    <publish_date>2019-05-11T15:32:16.860000</publish_date>
+    <channel>International</channel>
+    <ressort_name>Frankreich</ressort_name>
+    <total_comments>939</total_comments>
+    <root_comments>297</root_comments>
+    <user_threads>
+      <thread id="1041377001">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Sehr schlau. Hat er sich dieses Erfolgskonzept von den zersplitterten Oppositionsparteien in Ungarn, der Türkei oder neuerdings auch in Österreich abgeschaut? Oder glaubt tatsächlich jemand, dass es das Allheilmittel  der liberalen Demokraten gegen die Rechstpopulisten sein soll, sich in so viele Fraktionen aufzusplitten, dass unsere Möchtegern-Autoritären mit den kleinen Filetstücken schlitten fahren können. Meine Meinung: genau wegen solcher Dämlichkeiten können die Rechtspopulisten in Europa und auch anderswo so schalten und walten, wie sie es tun, weil sich die &quot;Demokraten&quot; so selbst zerfleischen. So ist das halt, wenn man den Bobos die Strategie bestimmen lässt.</comment_text>
+        <comment_created_at>2019-05-11T20:34:13.463000</comment_created_at>
+        <comment_length>675</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102977228
+- **Title:** Britische EU-Gegner gehen als große Favoriten in die Europawahl
+- **Publish Date:** 2019-05-12T12:55:53.760000
+- **Channel:** International
+- **Ressort Name:** EU-Wahl 2019
+- **Total Comments:** 280
+- **Root Comments:** 112
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102977228">
+    <title>Britische EU-Gegner gehen als große Favoriten in die Europawahl</title>
+    <publish_date>2019-05-12T12:55:53.760000</publish_date>
+    <channel>International</channel>
+    <ressort_name>EU-Wahl 2019</ressort_name>
+    <total_comments>280</total_comments>
+    <root_comments>112</root_comments>
+    <user_threads>
+      <thread id="1041401426">
+        <user_name>Quargelsemmerl</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-11-18T20:00:27.157000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Zuerst hat er den Briten durch Lügen den EU-Austritt eingebrockt. Dann hat er sich sofort feige und ratlos vertschüsst und andere das Chaos ausbaden lassen. Jetzt müssen die Briten trotz Austrittswillen erneut an der EU-Wahl teilnehmen und wer schreit &quot;Hier!&quot;, wenn es um einen hoch bezahlten Unionsposten geht?  Trotzdem ist er jetzt in den Umfragen die Nummer Eins? Das gibt's doch gar nicht! Hat denn ein hoch ansteckender Verdummungsvirus die Menschheit befallen?</comment_text>
+        <comment_created_at>2019-05-12T20:04:10.800000</comment_created_at>
+        <comment_length>467</comment_length>
+        <replies>
+          <reply id="1041401559">
+            <user_id>692105</user_id>
+            <user_name>a246545a-aebd-4c05-a308-4cb0c28def82</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-12-05T01:47:43.317000</user_created_at>
+            <comment_headline>Die trollen jetzt einfach alle!</comment_headline>
+            <comment_text>Farange ist nicht das Problem, May ist ist es, sie hat nicht umgesetzt, wofür die Briten gestimmt haben. Die fragen sich einfach, wieso sie jetzt eine EU-Wahl bekommen, obwohl sie doch längst raus gestimmt haben. Die sind sauer. Das wird lustig! :)</comment_text>
+            <comment_created_at>2019-05-12T20:07:54.400000</comment_created_at>
+            <comment_length>248</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041401316">
+        <user_name>KC Que</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-04-17T14:35:42.483000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Dass diese Kasperln noch immer in der EU sind, ist eigentlich eine Frechheit.   Da darfst Leute durchfüttern, die nichts anderes machen, als zu sagen, dass die Festlandeuropäer Idioten sind, ganz großes Kino.</comment_text>
+        <comment_created_at>2019-05-12T20:01:17.193000</comment_created_at>
+        <comment_length>208</comment_length>
+        <replies>
+          <reply id="1041402942">
+            <user_id>537097</user_id>
+            <user_name>No Country for Old Men</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2014-03-13T12:36:47.300000</user_created_at>
+            <comment_headline>Da darfst Leute durchfütterndie nichts anderes machen, als zu sagen, dass die Festlandeuropäer Idioten sind, ganz großes Kino.</comment_headline>
+            <comment_text>Sie wissen aber schon, dass GB nach Deutschland und vor Frankreich mit rd. 5,3 Mill. Euro (Stand 2017) zweitgrößter Nettozahler der EU ist ? Im Vergleich: Österreich 0.93 Milliarden. GB hat also 5x mehr eingezahlt als Österreich. Wer füttert da also wen durch?</comment_text>
+            <comment_created_at>2019-05-12T20:56:50.307000</comment_created_at>
+            <comment_length>260</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041402582">
+        <user_name>geändert</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-07-28T07:00:37.110000</user_created_at>
+        <comment_headline>Siehe Frankfurter Allgemeine:</comment_headline>
+        <comment_text>Let’s change it“, lautet der Slogan von „Change UK“. Das wichtigste politische Ziel ist dabei der Verbleib des Vereinigten Königreichs in der Europäischen Union, bestmöglich als Resultat eines zweiten Referendums. Dieser Idee können scheinbar immer mehr Briten etwas abgewinnen: Kaum einen Monat ist die Partei alt und dennoch unterstützen sie in den sozialen Netzwerken mehrere hundert Tausend. Gegründet wurde „Change UK“ von sieben Labour- und vier Tory Abgeordneten aus dem britischen Unterhaus, die ihre ursprüngliche politische Heimat im Februar verlassen hatten.</comment_text>
+        <comment_created_at>2019-05-12T20:44:27.240000</comment_created_at>
+        <comment_length>569</comment_length>
+        <replies>
+          <reply id="1041404461">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>nicht dass ich es den Abgeordneten verdenken kann, ihre Mutterparteien frustriert zu verlassen - aber ich weiß nicht was drei auf die Knochen abgenagte Oppositionsparteien gegen eine geschlossene Rechtspopulisten-partei ausrichten wollen.  Es sind eben nicht die Rechtspopulisten, die unsere Ordnung zerstören, es sind unfähige Politapparatschniks in den etablierten Parteien, die vergessen haben, was Wettbewerb in einer Demokratie bedeutet. Und dass die auch einiges an strategischem Weitblick erfordert.</comment_text>
+            <comment_created_at>2019-05-12T21:52:46.453000</comment_created_at>
+            <comment_length>506</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041404344">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>und wo sind dazu die ganzen Millenials und ach so Pro-Europäer, die ja so sehr unter dem Brexit leiden und die es undemokratisch fanden, dass sie beim Referendum so überstimmt wurden. Bleiben jetzt wieder fern der Wahlurne.  Man kann ja den Brexiteers und vor allem Farage (nur noch mal zum Nachlesen, was das für ein Waschlappen ist: https://www.zeit.de/politik/ausland/2017-05/nigel-farage-brexit-ukip-russland-kontakte/komplettansicht) so einiges vorhalten, aber wie Demokratie funktioniert, haben die eindeutig besser verstanden.  Dto. unsere SPÖ: den Entscheidungskampf für die EU wie wir sie kennen ausrufen und dann Schieder mit einem Schlaftabletten-Wahlkampf ins Rennen schicken. Aber ich hoffe zumindest überrascht ist dann keiner mehr!</comment_text>
+        <comment_created_at>2019-05-12T21:49:10.153000</comment_created_at>
+        <comment_length>746</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103016687
+- **Title:** Flüchtlinge sollen in Niederösterreich "Zehn Gebote" unterschreiben
+- **Publish Date:** 2019-05-13T09:53:47.280000
+- **Channel:** Panorama
+- **Ressort Name:** Flüchtlinge in Österreich
+- **Total Comments:** 1491
+- **Root Comments:** 700
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103016687">
+    <title>Flüchtlinge sollen in Niederösterreich &quot;Zehn Gebote&quot; unterschreiben</title>
+    <publish_date>2019-05-13T09:53:47.280000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Flüchtlinge in Österreich</ressort_name>
+    <total_comments>1491</total_comments>
+    <root_comments>700</root_comments>
+    <user_threads>
+      <thread id="1041435679">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Vielleicht sollte sich der Mann noch in Jesus umbenennen, dann kann er genehmen Flüchtlingen auch gleich noch Absolution erteilen.  Oder noch besser seinem Glaubensbekenntnis nach Odin.</comment_text>
+        <comment_created_at>2019-05-13T22:13:06.540000</comment_created_at>
+        <comment_length>185</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103039316
+- **Title:** Kaufkraft in Österreich: Wien fällt auf letzten Platz
+- **Publish Date:** 2019-05-13T13:29:27.290000
+- **Channel:** Wirtschaft
+- **Ressort Name:** Einkommen
+- **Total Comments:** 912
+- **Root Comments:** 189
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103039316">
+    <title>Kaufkraft in Österreich: Wien fällt auf letzten Platz</title>
+    <publish_date>2019-05-13T13:29:27.290000</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Einkommen</ressort_name>
+    <total_comments>912</total_comments>
+    <root_comments>189</root_comments>
+    <user_threads>
+      <thread id="1041421511">
+        <user_name>Ausgeflippter Lodenfreak</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-10-31T10:34:47</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Bei der Wiensicht, werden hier im Artikel die Einwohneranzahlen der Bezirke ausgeblendet. Im Ersten Bezirk wohnen 16.000 Menschen und am Ende wird sich z.B. Favoriten mit 198.000 Einwohnern finden. Deshalb ist es völlig egal, ob einzelne Bezirke gut abschneiden und das ändert gar nichts an der Tatsache, dass die Kaufkraft in Wien am geringsten ist. Übirgens, weil immer alle von der lebenswertesten Stadt sprechen, es ist kein Zufall, dass wer es sich leisten kann ins Umland zieht.</comment_text>
+        <comment_created_at>2019-05-13T14:15:47.293000</comment_created_at>
+        <comment_length>484</comment_length>
+        <replies>
+          <reply id="1041422042">
+            <user_id>132991</user_id>
+            <user_name>mal kurz so</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-11-12T12:45:40.547000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das kann man schön in den daten der statistik austria nachverfolgen. es ist nicht so lange her, da war wien an erster stelle - seit jahren geht es stetig bergab, dafür schiesst NÖ hoch.</comment_text>
+            <comment_created_at>2019-05-13T14:33:08.067000</comment_created_at>
+            <comment_length>185</comment_length>
+          </reply>
+          <reply id="1041431046">
+            <user_id>499524</user_id>
+            <user_name>CK7</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2004-07-11T19:25:06.737000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>https://de.wikipedia.org/wiki/Liste_der_%C3%B6sterreichischen_Bundesl%C3%A4nder_nach_Bruttoinlandsprodukt  Danke und tschüss, du Witzbold.  Die Wertschöpfung ist eindeutig in Wien und Umgebung. Und dort wo die Jobs entstehen, dort ziehen auch Menschen ohne Job hin und das sind nun mal die urbanen Regionen bei Wien, Linz/Wels/Enns, Graz, usw. Dort sind auch die meisten Universitäten, Fachhochschulen und Studierenden, die noch nicht im Beruf Fuß gefasst haben.  Das kann man natürlich leicht verstehen, oder man übergibt(!) sich verbal der Trollerei und dem Wien-Bashing.  Pfirti Gott!</comment_text>
+            <comment_created_at>2019-05-13T19:24:48.090000</comment_created_at>
+            <comment_length>587</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041421419">
+        <user_name>clearlake</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2002-10-06T12:52:34</user_created_at>
+        <comment_headline>der Niedergang der Deutschen....</comment_headline>
+        <comment_text>(deren Politik in den Medien ja seit HartzIV nur noch bejubelt wird...) ist hier schön ersichtlich... Wenn man bedenkt, dass in den 70er und 80er Jahren noch Welten zwischen einem deutschen und einem österreichischen Gehalt (oder Pension) gelegen sind... (natürlich genau umgekehrt..)</comment_text>
+        <comment_created_at>2019-05-13T14:13:08.303000</comment_created_at>
+        <comment_length>284</comment_length>
+        <replies>
+          <reply id="1041423087">
+            <user_id>680585</user_id>
+            <user_name>autwachler</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-09-23T16:38:20.797000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ja und Nein, weil damals Vergleich mit der BRD (West)  aktuell: https://de.statista.com/statistik/daten/studie/168591/umfrage/kaufkraft-nach-bundeslaendern/ Dazu hat D Billionen von Euros aufwenden müssen, um die Errungenschaften des realen Sozialismus, wie er damals existierte und von dem heute noch so manche träumen, zu sanieren.</comment_text>
+            <comment_created_at>2019-05-13T15:07:46.620000</comment_created_at>
+            <comment_length>333</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041421830">
+        <user_name>Tellur</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-02-07T13:16:55.810000</user_created_at>
+        <comment_headline>Was sich da die Wiener Stadtpolitiker wohl denken...?</comment_headline>
+        <comment_text>Ob ihnen irgendwann zumindest dämmert, dass die massive Zuwanderung ins Sozialsystem doch keine so gute Idee ist? Oder ob die linke Dogmatik solch logischen Schlüssen nach wie vor im Wege steht? Zuwanderung ist gut und richtig, aber sie darf die lokalen Sozialsysteme nicht überfordern.</comment_text>
+        <comment_created_at>2019-05-13T14:26:10.233000</comment_created_at>
+        <comment_length>286</comment_length>
+        <replies>
+          <reply id="1041421941">
+            <user_id>119075</user_id>
+            <user_name>Isokolon</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-10-20T09:25:19.283000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>jo eh, aber man kann halt nicht jeden Burgenlandler und Waldviertler zurück in die Heimat schicken, schließlich hat man auch eine soziale Verantwortung....  und wenn ich mir die Sozialpolitik NÖs anschaue, beschleicht mich das Gefühl, dass man versucht einfach alle Leute, die bedürftig sind, nach Wien abzuschieben.</comment_text>
+            <comment_created_at>2019-05-13T14:29:37.977000</comment_created_at>
+            <comment_length>316</comment_length>
+          </reply>
+          <reply id="1041445534">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>na klar mit der Flexibilisierung des Arbeitsmarktes durch Schwarz-Blau-I und der Wirtschaftskrise könnte das ja gar nix zu tun haben, oder damit, dass Wiener Schulen pro Schüler weniger Geld zur Verfügung haben als Oberösterreichische und daher eher weniger in ihre Ausbildung investieren können.  Die Österreichische Unterschicht in Wien hät sich natürlich am Zahnfleisch aus ihrer Unterprivilegierung geknabbert und wären heute alles Millionäre.</comment_text>
+            <comment_created_at>2019-05-14T10:41:11.773000</comment_created_at>
+            <comment_length>447</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041422552">
+        <user_name>Redu</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-07-12T12:50:52.343000</user_created_at>
+        <comment_headline>In den 70iger und 80iger Jahren war die Kaufkraft in Wien österreichweit am höchsten</comment_headline>
+        <comment_text>Das ist schon eine dramatische Entwicklung dieser Absturz. Nun ja, die Ära nach Zilk hat Wien nicht gutgetan. Der Wiener SPÖ wird dies schwer im Magen liegen und eigentlich sollte die Rot/Grüne Stadtregierung auch im Hinblick auf die laufenden Fehlleistungen und Skandale zurücktreten. Man kann Ihnen eine bestimmte Unfähigkeit nicht absprechen. Der letzte SPÖ Parteitag hat es gezeigt, keine Visionen und beim Vortrag des Vorsitzenden gähnende Langeweile, das sagt alles. Und nun wieder rund 770.000 Euro durch den KVA IM AKH verjuxt und durch Wien Energie gleich 25,6 Millionen, in OÖ/Mölln ins Wasser gesetzt. Als Bürger hat man die Hoffnung auf Besserung verloren, denn es gibt nie Konsequenzen.</comment_text>
+        <comment_created_at>2019-05-13T14:49:20.860000</comment_created_at>
+        <comment_length>699</comment_length>
+        <replies>
+          <reply id="1041422838">
+            <user_id>604347</user_id>
+            <user_name>gandi2807</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-05-26T10:03:46.737000</user_created_at>
+            <comment_headline>Diese &quot;Rechnung&quot; stimmt hinten und vorne nicht</comment_headline>
+            <comment_text>http://www.statistik.at/web_de/statistiken/wirtschaft/volkswirtschaftliche_gesamtrechnungen/index.html  man sollte halt für Analysen zum Schmid (Statistik Austria, Nationalbank) und nicht zum Schmidl (Meinungsforscher) im Auftrag diverser Parteien gehen.   Die echten Volkswirte können bei diesen &quot;Analysen&quot; nur den Kopf schütteln. Ich persäönlich weil der Standard diesen Blödsinn auch noch unkommentiert abschreibt. Alleine aus dem Steueraufkommen kann ich ablesen, dass der Raum in und um Wien anscheinend nach dem Salzburger Raum das höchste BNP hat.  Die Definition von &quot;Kaufkraft&quot; in dieser &quot;Studie&quot; wäre mal interessant.</comment_text>
+            <comment_created_at>2019-05-13T14:59:09.293000</comment_created_at>
+            <comment_length>627</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041422979">
+        <user_name>Dimple</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2003-01-28T15:10:02</user_created_at>
+        <comment_headline>das ist nicht verwunderlich (allo Zahlen nur Saldo-Zahlen)</comment_headline>
+        <comment_text>Die Erhöhung der Bevölkerung von 2002-2018 von rd. 300.000 war - grob gesprochen - zu 100% Zuwanderung aus dem Ausland, d.h. einerseits primär Mitglieder eine sozial schwächeren Gruppe und StudentInnen (Deutsche Zuwanderung in dieser Zeit: rd. 10%, als 30.000)  Die Österr. Wegzug-Zuzug - Bewegung hat sich primär als StudentInnen oder Arbeitssuchende nach Wien, gehobene Mittelschicht raus in den Speckgürtel gezeigt, was auch einen Teil des Anstiegs in NÖ erklärt.  Das führt auch zur Situation, dass in Wien weniger Menschen wahlberechtigt als in NÖ sind, obwohl mehr dort leben.  lg Dimple</comment_text>
+        <comment_created_at>2019-05-13T15:03:51.780000</comment_created_at>
+        <comment_length>593</comment_length>
+        <replies>
+          <reply id="1041444675">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das heißt jetzt was, diese Bezirke wären um eine so vieles schöner, wenn dort wieder eine österreichische Unterschicht residieren würde? Naja wenn weniger dort wahlberechtigt (und viele dieser Einkommensschicht auch noch das wählen aufgegeben haben) sind, dann liegts wohl auf der Hand, dass Politiker für die Leute dort weniger Geld locker machen, weil die Leute einen dort eh nicht wählen können.  Dann ist es weniger ein Problem der Zuwanderung als der Demokratie.</comment_text>
+            <comment_created_at>2019-05-14T10:14:07.640000</comment_created_at>
+            <comment_length>467</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103043158
+- **Title:** Mögliches Dilemma zwischen Klimaschutz und Hungerbekämpfung
+- **Publish Date:** 2019-05-13T17:10:22
+- **Channel:** Wissenschaft
+- **Ressort Name:** Klimawandel
+- **Total Comments:** 255
+- **Root Comments:** 52
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103043158">
+    <title>Mögliches Dilemma zwischen Klimaschutz und Hungerbekämpfung</title>
+    <publish_date>2019-05-13T17:10:22</publish_date>
+    <channel>Wissenschaft</channel>
+    <ressort_name>Klimawandel</ressort_name>
+    <total_comments>255</total_comments>
+    <root_comments>52</root_comments>
+    <user_threads>
+      <thread id="1041441141">
+        <user_name>MartinHucke</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-07-22T20:55:21.640000</user_created_at>
+        <comment_headline>Der wirksamste Klimaschutz sind weniger Menschen.</comment_headline>
+        <comment_text>Einkindpolitik für 4 Generationen. Das dauert zwar ist aber der beste Weg für viele Arten</comment_text>
+        <comment_created_at>2019-05-14T08:09:00.170000</comment_created_at>
+        <comment_length>89</comment_length>
+        <replies>
+          <reply id="1041444216">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das nützt natürlich viel, wenn die größten Klimaferkel jetzt schon im Westen sitzen, dessen Bevölkerung ohnehin sinkt. Aber für Grünstricherl reicht Ihre Volksweisheit ja zum Glück.</comment_text>
+            <comment_created_at>2019-05-14T09:59:30.027000</comment_created_at>
+            <comment_length>181</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103052814
+- **Title:** Strom für Obdachlose: Ziviler Ungehorsam durch den Kardinal
+- **Publish Date:** 2019-05-13T17:04:08
+- **Channel:** Panorama
+- **Ressort Name:** Welt-Chronik
+- **Total Comments:** 272
+- **Root Comments:** 83
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103052814">
+    <title>Strom für Obdachlose: Ziviler Ungehorsam durch den Kardinal</title>
+    <publish_date>2019-05-13T17:04:08</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Welt-Chronik</ressort_name>
+    <total_comments>272</total_comments>
+    <root_comments>83</root_comments>
+    <user_threads>
+      <thread id="1041431633">
+        <user_name>lagos</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2000-08-29T13:48:41</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ein polnischer Schwarzarbeiter, der eminenz humanistische Maßnahmen durchführt. Gut so.</comment_text>
+        <comment_created_at>2019-05-13T19:42:50.267000</comment_created_at>
+        <comment_length>87</comment_length>
+        <replies>
+          <reply id="1041436449">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>der weiß schon warum er einen Polen dafür geholt hat, die wissen zumindest noch wie man eine Abwasch repariert.</comment_text>
+            <comment_created_at>2019-05-13T22:46:39.857000</comment_created_at>
+            <comment_length>111</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103059819
+- **Title:** Kurz mit Pommes frites auf Wählerfang: "ÖVP hat Mobilisierungsproblem"
+- **Publish Date:** 2019-05-13T17:59:15.770000
+- **Channel:** Inland
+- **Ressort Name:** Österreich und EU
+- **Total Comments:** 1159
+- **Root Comments:** 496
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103059819">
+    <title>Kurz mit Pommes frites auf Wählerfang: &quot;ÖVP hat Mobilisierungsproblem&quot;</title>
+    <publish_date>2019-05-13T17:59:15.770000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Österreich und EU</ressort_name>
+    <total_comments>1159</total_comments>
+    <root_comments>496</root_comments>
+    <user_threads>
+      <thread id="1041434705">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Dass Kanzler und ÖVP-Chef Sebastian Kurz plötzlich scharfe EU-Kritik übt, interpretieren Politologen als bewusstes Wahlkampfmanöver - Neeeeinnn, wer hätte das denn gedacht. Unverschämt is es trotzdem, wenn man den Leuten so dreist ins Gesicht lügt um dann die Pro-Wirtschafts-Europa Partei schlechthin zu sein.</comment_text>
+        <comment_created_at>2019-05-13T21:35:27.277000</comment_created_at>
+        <comment_length>310</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103062895
+- **Title:** Sudan: Demonstranten und Militär über neues Regierungsgremium einig
+- **Publish Date:** 2019-05-13T18:28:13.260000
+- **Channel:** International
+- **Ressort Name:** Sudan
+- **Total Comments:** 5
+- **Root Comments:** 1
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103062895">
+    <title>Sudan: Demonstranten und Militär über neues Regierungsgremium einig</title>
+    <publish_date>2019-05-13T18:28:13.260000</publish_date>
+    <channel>International</channel>
+    <ressort_name>Sudan</ressort_name>
+    <total_comments>5</total_comments>
+    <root_comments>1</root_comments>
+    <user_threads>
+      <thread id="1041433862">
+        <user_name>willi weimaraner</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2001-06-21T11:37:47</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wenn sie diesen Weg durchhalten: Respekt für die Sudanesen. Habe übrigens noch nie von sudanesischen Migranten in Europa gehört. Auch ein Punkt für die.</comment_text>
+        <comment_created_at>2019-05-13T21:02:08.417000</comment_created_at>
+        <comment_length>152</comment_length>
+        <replies>
+          <reply id="1041435456">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>soso, haben Sie noch nie? Wahrscheinlich weil die einfach nicht in der Propaganda der FPÖ vorkommen? Vielleicht werden Sie sich den Kriegsverbrecher und Menschentreter noch mal so richtig zurückwünschen, denn der Sudan unter dem Diktator war einst der treueste Verbündete Europas, um Migranten aus Schwarzafrika fernzuhalten. Wer weiß ob einen menschenfreundlichere Regierung immer noch bereit ist die Drecksarbeit für Leute wie den Kurz zu übernehmen.</comment_text>
+            <comment_created_at>2019-05-13T22:02:51.107000</comment_created_at>
+            <comment_length>452</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103197023
+- **Title:** Bundespräsidentenwahl: Schadenersatzklage der FPÖ abgewiesen
+- **Publish Date:** 2019-05-15T16:14:30.560000
+- **Channel:** Inland
+- **Ressort Name:** Bundespräsident
+- **Total Comments:** 406
+- **Root Comments:** 172
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103197023">
+    <title>Bundespräsidentenwahl: Schadenersatzklage der FPÖ abgewiesen</title>
+    <publish_date>2019-05-15T16:14:30.560000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Bundespräsident</ressort_name>
+    <total_comments>406</total_comments>
+    <root_comments>172</root_comments>
+    <user_threads>
+      <thread id="1041502848">
+        <user_name>Arbeitsloser 34435</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-05-13T09:48:35.823000</user_created_at>
+        <comment_headline>die FPÖ nützt ihr</comment_headline>
+        <comment_text>demokratisches Recht. Jeder der hier rumjammert, hat wohl nicht verstanden, in welchem System wir leben. Es mag einem nicht gefallen, ok, aber der FPÖ in dem Fall ihr Recht abzusprechen ist einfach nur dämlich und zeigt, welchen Intellekt manche hier haben.</comment_text>
+        <comment_created_at>2019-05-15T21:45:21.410000</comment_created_at>
+        <comment_length>257</comment_length>
+        <replies>
+          <reply id="1041505266">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>machte der deutsche Rechtsanwalt auch, der die Bergrettung verklagt hat, weil sie ihm den Arsch gerettet hat. Sympathisch muss einem das trotzdem nicht sein.</comment_text>
+            <comment_created_at>2019-05-15T23:14:40.953000</comment_created_at>
+            <comment_length>157</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041502265">
+        <user_name>Incorruptus</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-10-08T13:25:48.670000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die Klage an und für sich ist schon ein Witz. Da werden Parteien in Österreich fürstlichst vom Steuerzahler finanziert und bei Wahlverfehlungen welche rechtlich zur Wiederholung führen will man dann noch Schadenersatz. Geht's no?</comment_text>
+        <comment_created_at>2019-05-15T21:28:31.417000</comment_created_at>
+        <comment_length>229</comment_length>
+        <replies>
+          <reply id="1041503399">
+            <user_id>692218</user_id>
+            <user_name>Arbeitsloser 34435</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-05-13T09:48:35.823000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>völlig absurd, das Kosten, für die man nicht verantwortlich ist, von demjenigen, der sie zu verantworten hat, zurück haben will. Echt ein wahnsinn. ...gell? Wessen Fehler war denn die Wahlwiederholung? Weswegen wurde nochmal gewählt? Was wars gleich? Nur weil die FPÖ das wollte oder weil der VfGh das angeordnet hat, weil der staat unfähig war eine Wahl korrekt durchzuführen?</comment_text>
+            <comment_created_at>2019-05-15T21:59:28.360000</comment_created_at>
+            <comment_length>377</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103198297
+- **Title:** Juncker zu Kurz: "Anwürfe gegen EU sind völlig daneben"
+- **Publish Date:** 2019-05-15T17:58:07
+- **Channel:** International
+- **Ressort Name:** EU
+- **Total Comments:** 1188
+- **Root Comments:** 436
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103198297">
+    <title>Juncker zu Kurz: &quot;Anwürfe gegen EU sind völlig daneben&quot;</title>
+    <publish_date>2019-05-15T17:58:07</publish_date>
+    <channel>International</channel>
+    <ressort_name>EU</ressort_name>
+    <total_comments>1188</total_comments>
+    <root_comments>436</root_comments>
+    <user_threads>
+      <thread id="1041504834">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>hat hier schon ein wichtigtuer das wir-müssen-lügen-und-wenn-sich-niemand-aufregt-machen-wir-einfach-weiter zitat gebracht. natürlich kann man solche schlauen zeilen nur bringen, wenn man den artikel überhaupt nicht gelesen hat. da ich keine zeit hat diesmal wollte ich jetzt auch mal wissen, wie das ist.</comment_text>
+        <comment_created_at>2019-05-15T22:51:02.800000</comment_created_at>
+        <comment_length>305</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041502569">
+        <user_name>Dante 70</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-08-25T11:29:42.333000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Hätte gerne mal eine inflationsbereinigte Personalkostenentwicklung der EU gesehen. Leider nichts im Internet gefunden.  Sonst findet man ja alles über die EU. Seltsam.</comment_text>
+        <comment_created_at>2019-05-15T21:37:04.350000</comment_created_at>
+        <comment_length>168</comment_length>
+        <replies>
+          <reply id="1041504935">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>haben Sie das auch schon mal zur österreichischen Administration versucht? wird wohl ähnlich funzen</comment_text>
+            <comment_created_at>2019-05-15T22:56:31.583000</comment_created_at>
+            <comment_length>99</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103201951
+- **Title:** Mehr als die Hälfte pfeift auf EU-Wahl: Wer sind die Nichtwähler unter uns?
+- **Publish Date:** 2019-05-18T08:00:00
+- **Channel:** Inland
+- **Ressort Name:** Österreich und EU
+- **Total Comments:** 363
+- **Root Comments:** 104
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103201951">
+    <title>Mehr als die Hälfte pfeift auf EU-Wahl: Wer sind die Nichtwähler unter uns?</title>
+    <publish_date>2019-05-18T08:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Österreich und EU</ressort_name>
+    <total_comments>363</total_comments>
+    <root_comments>104</root_comments>
+    <user_threads>
+      <thread id="1041613176">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Wer sind die Wahlberechtigten unter uns, die tatsächlich auf ihr einst hart erkämpftes Recht pfeifen?&quot; Weil das Wahlrecht von Gleichen für Gleiche erkämpft wurde?  die aktuelle Parteienlandschaft nur die obere Hälfte der Einkommensbezieher berücksichtigt, die untere Mittelschicht eigentlich nur eine FPÖ  samt brauner Ausfälle als Repräsentant hat - da die SPÖ unter Bobo-Regentschaft glaubt ein Leiberl gegen ÖVP, Neos oder Grüne unter der gehobenen Mittelschicht zu haben. Die untersten 25% der Einkommen haben sowieso schon aufgehört zu wählen, weil da nix für die Parteirepräsentanz zu holen ist. Und da reden wir von den Nationalratswahlen. Die EU-Wahl ist da gleich noch abstrakter und weiter weg.</comment_text>
+        <comment_created_at>2019-05-18T13:17:40.303000</comment_created_at>
+        <comment_length>705</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103260319
+- **Title:** Was hinter Kickls Jackenwahl steckt
+- **Publish Date:** 2019-05-16T15:00:44
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 1289
+- **Root Comments:** 723
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103260319">
+    <title>Was hinter Kickls Jackenwahl steckt</title>
+    <publish_date>2019-05-16T15:00:44</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>1289</total_comments>
+    <root_comments>723</root_comments>
+    <user_threads>
+      <thread id="1041543099">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Gabs das Namensschild nicht in seiner Größe?</comment_text>
+        <comment_created_at>2019-05-16T22:47:04.377000</comment_created_at>
+        <comment_length>44</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041542787">
+        <user_name>spirito libero</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-06-02T16:06:54.733000</user_created_at>
+        <comment_headline>Göring</comment_headline>
+        <comment_text>trug auch Phantasieunifornen</comment_text>
+        <comment_created_at>2019-05-16T22:41:11.773000</comment_created_at>
+        <comment_length>28</comment_length>
+        <replies>
+          <reply id="1041543215">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Idi Armin auch und Gaddafi auch und Robert Mugabe auch Was werden wohl seine Wähler sagen, wenn er jetzt den Arabern und Afrikanern nacheifert.</comment_text>
+            <comment_created_at>2019-05-16T22:48:58.210000</comment_created_at>
+            <comment_length>143</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103335202
+- **Title:** Lopatka weist Junckers Untätigkeitsvorwurf bei Bürokratieabbau zurück
+- **Publish Date:** 2019-05-17T12:57:01
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 146
+- **Root Comments:** 94
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103335202">
+    <title>Lopatka weist Junckers Untätigkeitsvorwurf bei Bürokratieabbau zurück</title>
+    <publish_date>2019-05-17T12:57:01</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>ÖVP</ressort_name>
+    <total_comments>146</total_comments>
+    <root_comments>94</root_comments>
+    <user_threads>
+      <thread id="1041730853">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;wo sich etwa ein nach einem Wasserrohrbuch gerufener Installateur mit einem 20-seitigen Dokument gegen Rücktrittsrechte absichern müsse, damit er nicht nach getaner Arbeit ohne Geld dastehe.&quot; Wieso sollte das von der EU ausgehen, wohl viel eher von einer überschießenden Anzahl von Juristen, die Beschäfitigung brauchen und daher jeden Winkelzug nutzen, um Geld zu verdienen - und in welchen Parteien sind die wohl am allermeisten zu finden? Richtig, in den Leistungsträger-Parteien ÖVP und FPÖ, gell, Herr Doktor iuris Lopatka!</comment_text>
+        <comment_created_at>2019-05-20T11:22:10.213000</comment_created_at>
+        <comment_length>529</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103357749
+- **Title:** Trump will qualifizierte Einwanderer statt Familiennachzug
+- **Publish Date:** 2019-05-17T20:44:35
+- **Channel:** International
+- **Ressort Name:** USA
+- **Total Comments:** 77
+- **Root Comments:** 23
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103357749">
+    <title>Trump will qualifizierte Einwanderer statt Familiennachzug</title>
+    <publish_date>2019-05-17T20:44:35</publish_date>
+    <channel>International</channel>
+    <ressort_name>USA</ressort_name>
+    <total_comments>77</total_comments>
+    <root_comments>23</root_comments>
+    <user_threads>
+      <thread id="1041578870">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>und wenn einem der Hochqualifizierten die Zeit zu lang wird ohne seine Familie, kann er seine Zeit ja mit so Sympathieträgern wie Donald Trump verbringen.  Klingt doch sehr verlockend, wo kann ich unterschreiben?  Ach blöd, bin ja gar kein Immobilienpleitier....</comment_text>
+        <comment_created_at>2019-05-17T23:04:27.617000</comment_created_at>
+        <comment_length>262</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103359309
+- **Title:** Roter Spitzenkandidat Schieder: "Es gibt keine gute Spekulation"
+- **Publish Date:** 2019-05-18T08:00:00
+- **Channel:** Inland
+- **Ressort Name:** Österreich und EU
+- **Total Comments:** 202
+- **Root Comments:** 89
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103359309">
+    <title>Roter Spitzenkandidat Schieder: &quot;Es gibt keine gute Spekulation&quot;</title>
+    <publish_date>2019-05-18T08:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Österreich und EU</ressort_name>
+    <total_comments>202</total_comments>
+    <root_comments>89</root_comments>
+    <user_threads>
+      <thread id="1041608947">
+        <user_name>metropolis4711</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-12-13T19:17:35.253000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Nach der FPÖ-Implosion wäre es jetzt für die SPÖ eine &quot;Gmahte Wiesn&quot;, wenn nicht Leute wie Schieder immer im falschem Moment die Klappe aufreißen.</comment_text>
+        <comment_created_at>2019-05-18T12:27:02.217000</comment_created_at>
+        <comment_length>146</comment_length>
+        <replies>
+          <reply id="1041616037">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Genau mein Gedanke. Ich hab mich jetzt den ganzen Vormittag mit Strache und Co beschäftigt - und jetzt les ich das Interview mit Schieder, der zum tausendsten Mal von Julia Herr als großem politischen Talent schwafelt, und bin nur noch aggressiver.  Es ist so ein Trauerspiel.</comment_text>
+            <comment_created_at>2019-05-18T13:55:03.110000</comment_created_at>
+            <comment_length>276</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041610229">
+        <user_name>dahofawors</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-05-05T11:16:25.317000</user_created_at>
+        <comment_headline>STANDARD:Und der Private, der eine Wohnung als Anlage anschafft? Schieder: Es gibt keine gute Spekulation. Ich bin dagegen, Wohnungen anzuschaffen ohne das Vorhaben, darin zu wohnen. STANDARD: Man könnte sie ja vermieten wollen und lässt sie dann doc</comment_headline>
+        <comment_text>oida, das ist doch schwachsinn, was er da von sich gibt</comment_text>
+        <comment_created_at>2019-05-18T12:38:55.537000</comment_created_at>
+        <comment_length>55</comment_length>
+        <replies>
+          <reply id="1041614241">
+            <user_id>239965</user_id>
+            <user_name>Toni Mayr</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-02-17T21:51:15.830000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Schwachsinn ist ein System in welchen Mieter einem Eigentümer über 40 Jahre sein Eigentum finanzieren und selbst deshalb kein Eigentum gründen können.</comment_text>
+            <comment_created_at>2019-05-18T13:32:05.370000</comment_created_at>
+            <comment_length>150</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041619845">
+        <user_name>Dr. Usus Germanicus</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-05-05T15:47:24.803000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Und der soll VWL studiert haben?  Verarschen können wir uns auch ohne das SPÖ-Gelaber, welches nur noch nervt!  Bei Strache brauchte man ein Video ... bei Schieder nur ein Interview!</comment_text>
+        <comment_created_at>2019-05-18T14:50:13.877000</comment_created_at>
+        <comment_length>182</comment_length>
+        <replies>
+          <reply id="1041620814">
+            <user_id>507625</user_id>
+            <user_name>Srpftpfrt</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-11-22T14:50:55.347000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Der hat VWL studiert. Das ist auch sinnvoller, wenn es um das Führen einer Volksweitschaft geht, als die BWL-Weisheiten, die heutzutage die Wirtschaftspoltik dominieren.</comment_text>
+            <comment_created_at>2019-05-18T15:05:15.607000</comment_created_at>
+            <comment_length>169</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041615433">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Es gibt keine gute Spekulation. Ich bin dagegen, Wohnungen anzuschaffen ohne das Vorhaben, darin zu wohnen.&quot; und in wessen Wohnung soll ich mich dann einmieten, wenn ich gerade nur übergangsweise in einer Stadt bin? Ich weiß nicht, aber jetzt macht sie die Wiener SPÖ-Blase sogar für ihre letzte verbliebene Kernwählerschicht unwählbar - Studenten. Ich habe selten so einen schwachbrüstigen Spitzenkandidaten gesehen. Nun, wenn jetzt bald in AT Neuwahlen kommen, könnte ich immer noch böse überascht werden.</comment_text>
+        <comment_created_at>2019-05-18T13:46:45.080000</comment_created_at>
+        <comment_length>508</comment_length>
+        <replies>
+          <reply id="1041618605">
+            <user_id>238215</user_id>
+            <user_name>xy xy</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2002-04-22T09:03:26</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich kann nur zustimmen. Es gibt viele Menschen, die sich nicht mit Wohneigentum belasten wollen, die eine flexible Planung haben, was ihr Leben und die Wohnorte betrifft, die zwischenzeitlich für kurze Zeit irgendwo sein und leben wollen ... Ich rede da nicht nur von Studenten, sondern von vielen, die einfach nicht mehr ortsgebunden leben wollen. Man weiß zudem nie bei einem Ortswechsel - zB beruflich bedingt - ob dies dann das Richtige ist und dann will man sicher lieber mieten als kaufen. Und da gibt es sehr viele Beispiele. Und in Ö kommt dann noch die unsägliche Denkweise der Bankaufsicht dazu, die meint, man muss eine gekaufte Immobilie in spätestens 35 Jahren abbezahlen. Vielleicht ist das Ziel, dass ein Mieter vom Staat abhängt.</comment_text>
+            <comment_created_at>2019-05-18T14:32:35.143000</comment_created_at>
+            <comment_length>745</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041615610">
+        <user_name>woistmeinnick</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-12-05T10:23:00.620000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Das Forum ist voll von den Kampfpostern.  War ja klar, viele sind ja nun Arbeitslos nach der Implosion der FPÖ.   Nun will man sich durch Sozi-Bashing bei den Türkisen hervortun.</comment_text>
+        <comment_created_at>2019-05-18T13:49:08.820000</comment_created_at>
+        <comment_length>178</comment_length>
+        <replies>
+          <reply id="1041621575">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>mein Bashing bezieht sich konsistent nur auf einen Teil der Sozis, aber auf konsistent auf die FPÖ-Riege als ganzes. Könnens nachlesen</comment_text>
+            <comment_created_at>2019-05-18T15:16:19.430000</comment_created_at>
+            <comment_length>134</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041597473">
+        <user_name>Business Insider</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-07-18T03:51:07.743000</user_created_at>
+        <comment_headline>&quot;Ich bin dagegen, Wohnungen anzuschaffen ohne das Vorhaben, darin zu wohnen.&quot;</comment_headline>
+        <comment_text>Das heißt, dass keine neuen Wohnungen mehr gebaut werden dürfen?</comment_text>
+        <comment_created_at>2019-05-18T10:29:15.730000</comment_created_at>
+        <comment_length>64</comment_length>
+        <replies>
+          <reply id="1041617464">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ach Herrgott, müssen's denn die Bobo-Blase hinterfragen? Reicht doch, wenn man sich's als Kalenderspruch an die Wand hängen kann</comment_text>
+            <comment_created_at>2019-05-18T14:15:39.683000</comment_created_at>
+            <comment_length>128</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041597009">
+        <user_name>rybak</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-01-08T06:18:11.093000</user_created_at>
+        <comment_headline>Schieder</comment_headline>
+        <comment_text>wäre am besten b ei der KPÖ aufgehoben - aber nicht einmal dort hätte er eine Chance.</comment_text>
+        <comment_created_at>2019-05-18T10:23:48.913000</comment_created_at>
+        <comment_length>85</comment_length>
+        <replies>
+          <reply id="1041598255">
+            <user_id>213325</user_id>
+            <user_name>Cicero22</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-05-16T13:23:46.650000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>So ein Schwachsinn. Schieder hat schon recht. Es gibt keine guten Spekulanten, genauswenig wie es gute Steuervermeider gibt. Und mit steuervermeidenden Großkonzernen wie Facebook, Amazon und Co, die entweder Arbeitnehmer extrem knechten (Amazon) und/oder sich rechtswidrig Wettbewerbsvorteile verschaffen (wie Facebook durch rechtswidriges Datensammeln) muss irgendwann Schluss sein.</comment_text>
+            <comment_created_at>2019-05-18T10:39:16.540000</comment_created_at>
+            <comment_length>383</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041602304">
+        <user_name>a comment</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2015-05-01T06:38:06.480000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Jeder soll und kann eine Eigentumswohnung besitzen. Voraussetzung: er wohnt darinnen. Alles andere ist unsozial. Zweit und Mehrbesitz sollte mit sehr hohen Steuerabegaben geahndet werden.</comment_text>
+        <comment_created_at>2019-05-18T11:32:07.090000</comment_created_at>
+        <comment_length>187</comment_length>
+        <replies>
+          <reply id="1041606443">
+            <user_id>508382</user_id>
+            <user_name>Nemschak</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2013-02-15T10:45:53.083000</user_created_at>
+            <comment_headline>Eigentum ist in den Augen von Schieder ein Verbrechen</comment_headline>
+            <comment_text>Diese rote Ideologie gehört auf den Müllhaufen der Geschichte.</comment_text>
+            <comment_created_at>2019-05-18T12:17:01.727000</comment_created_at>
+            <comment_length>62</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041602804">
+        <user_name>Mara K</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-25T18:16:33.353000</user_created_at>
+        <comment_headline>Linkspopulist</comment_headline>
+        <comment_text>Schieders ist klassischer Linkspopulist! Enteignen kann er in einer Demokratie nicht, will er Gewalt anwenden!?</comment_text>
+        <comment_created_at>2019-05-18T11:38:45.817000</comment_created_at>
+        <comment_length>111</comment_length>
+        <replies>
+          <reply id="1041616237">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>aber für einen Populisten ist er halt sehr erfolglos, weil sich die Aggression eigentlich fast nur gegen ihn selbst richtet.  Ich meine und wir reden hier vom Standard-Forum - wo so was ein Selbstläufer sein sollte.</comment_text>
+            <comment_created_at>2019-05-18T13:57:52.640000</comment_created_at>
+            <comment_length>215</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041591621">
+        <user_name>jschmied</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-01-21T16:05:07.310000</user_created_at>
+        <comment_headline>Warum werden immer wieder ...</comment_headline>
+        <comment_text>... Fragen gestellt und nicht bis zum Ende durchgezogen?  Gut, dass zumindest nachgefragt wurde: &quot;Und was ist jetzt mit den Fahrverboten?&quot;  aber &quot;Es gibt auch andere Maßnahmen, die Wirkung zeigen.&quot; zu akzeptieren ist schon unbefriedigend.</comment_text>
+        <comment_created_at>2019-05-18T09:12:37.883000</comment_created_at>
+        <comment_length>238</comment_length>
+        <replies>
+          <reply id="1041591960">
+            <user_id>688393</user_id>
+            <user_name>Neobamboom</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-02-25T16:00:51.530000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Genau so ist es. Da fordert die SP den Lobautunnnel und weitere Autobahnprojekte, etc.; bei einer etwaigen Citymaut extrem auf der Bremse.  Aber Hauptsache im Parlament auf einmal den Klimaschutz entdecken.</comment_text>
+            <comment_created_at>2019-05-18T09:17:02.627000</comment_created_at>
+            <comment_length>206</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041594545">
+        <user_name>Cicero22</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-05-16T13:23:46.650000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Es gibt keine gute Spekulation&quot;  Genauso ist es Hr. Schieder. Danke für die klaren Worte.   &quot;Wer nicht zu den 10% Vermögendsten des Landes gehört, kann die VP nicht wählen&quot; lautet der nächste klare Slogan.</comment_text>
+        <comment_created_at>2019-05-18T09:53:06.527000</comment_created_at>
+        <comment_length>206</comment_length>
+        <replies>
+          <reply id="1041618124">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Und wer nicht zu den obersten 50% der Vermögendsten zählt, kann weder die VP, die Neos, die Grünen und neuerdings die Rosaroten vom Schlage eines Schieders wählen.  Tja, was mach ma jetzt? FPÖ?</comment_text>
+            <comment_created_at>2019-05-18T14:25:22.510000</comment_created_at>
+            <comment_length>193</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041587520">
+        <user_name>Pakkookein</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-09-04T22:27:59.193000</user_created_at>
+        <comment_headline>Das klingt wieder sehr</comment_headline>
+        <comment_text>nach planloser Planwirtschaft per Schlagworten  für Minderheiten.</comment_text>
+        <comment_created_at>2019-05-18T08:06:14.260000</comment_created_at>
+        <comment_length>65</comment_length>
+        <replies>
+          <reply id="1041591557">
+            <user_id>690003</user_id>
+            <user_name>Andreas@1963</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-03-27T19:37:11.093000</user_created_at>
+            <comment_headline>Sie dürften wohl versorgt sein</comment_headline>
+            <comment_text>eigene Wohnung oder Haus und einen guten Job. Menschen die verzweifelt eine leistbare Wohnung suchen, werden das vielleicht anders sehen. Maßnahmen setzen zu wollen, die das Profitieren der heimischen Bevölkerung von Kinderarbeit unterbindet begrüße ich. Das aber nicht weil ich ein Anhänger der Planwirtschaft bin, sondern es mich anwidert, dass wir in Österreich (und EU) Gesetzte für den Schutz von Kindern haben, aber als Wirtschaftsraum und Konsumenten kein Problem damit haben, dass Kinder in anderen Ländern und schlimmsten Umständen unsern Wohlstand maximieren müssen.</comment_text>
+            <comment_created_at>2019-05-18T09:11:42.997000</comment_created_at>
+            <comment_length>576</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103361623
+- **Title:** Rassistische Bachelorarbeit an FH Joanneum approbiert
+- **Publish Date:** 2019-05-17T17:34:05
+- **Channel:** Bildung
+- **Ressort Name:** Fachhochschule
+- **Total Comments:** 953
+- **Root Comments:** 324
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103361623">
+    <title>Rassistische Bachelorarbeit an FH Joanneum approbiert</title>
+    <publish_date>2019-05-17T17:34:05</publish_date>
+    <channel>Bildung</channel>
+    <ressort_name>Fachhochschule</ressort_name>
+    <total_comments>953</total_comments>
+    <root_comments>324</root_comments>
+    <user_threads>
+      <thread id="1041566442">
+        <user_name>aculus</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-03-16T08:46:52.660000</user_created_at>
+        <comment_headline>Was ich schon immer sagte</comment_headline>
+        <comment_text>Es ist skandalös die FHs gleichzustellen mit einer Universität bzw dessen Ausbildung als Hochschule zu klassifizieren. Dieser unwissenschaftlicher Bockmist wurde sogar &quot;aufgezeichnete Arbeit&quot; definiert. Ich könnte kotzen.</comment_text>
+        <comment_created_at>2019-05-17T18:35:25.050000</comment_created_at>
+        <comment_length>221</comment_length>
+        <replies>
+          <reply id="1041567192">
+            <user_id>122002</user_id>
+            <user_name>lehrer</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-03-08T22:48:37.230000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>also die sollten sich mit der Geschichte der Unis auseinandersetzen..da wurden und werden fürchterliche arbeiten eingereicht und positiv beurteilt</comment_text>
+            <comment_created_at>2019-05-17T18:57:07.683000</comment_created_at>
+            <comment_length>146</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041566471">
+        <user_name>Krahberg</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-27T17:06:29.297000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wissenschaftlich besteht Konsens,dass wir alle aus Afrika kommen. Es besteht auch Konsens, dass der Rassenbegriff bei homo sapiens unhaltbar ist. In dem Buch Rassekunde des Deut.  Volkes (1930) war der Verfasser Günther unfähig zu definieren was er unter Rasse versteht, obwohl das Buch 500 Seiten hat. Im Gymnasium hätte so ein FH Unsinn noch nicht mal für die vor-wissenschaftliche Arbeit gereicht.  Und gibts da keine wissenschaftlichen Zielvereinbarungen mit dem Ministerium, damit die FH überhaupt finanziert wird ?</comment_text>
+        <comment_created_at>2019-05-17T18:36:02.220000</comment_created_at>
+        <comment_length>520</comment_length>
+        <replies>
+          <reply id="1041575056">
+            <user_id>176407</user_id>
+            <user_name>PyroTFD</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-04-29T15:30:18.643000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wissenschalftlich besteht mittlerweile kein kompletter Konsens mehr, dass wir alle aus Afrika kommen - vor allem nicht was immer wieder so zum Vorschein kommt.  Der Ursprung ist zu einem großen/ganzen Teil in Afrika gewesen, allerdings wurden mittlerweile sehr viele Funde sehr alter Vorfahren auch in Asien gefunden.  Womit es auch Entwicklungen evolutionstechnischer Natur auch dort gegeben haben könnte. Leider findet man nicht mehr allzuviele Reste dieser Homo Spezies das man sehr genaue Schlüsse ziehen kann.  Kurz: Erster Homo-Vorfahr in Afrika - sehr wahrscheinlich alles weitere danach ist mittlerweile nicht mehr so ganz sicher wie es noch vor 10 Jahren aussah...  (soweit uach zum Thema &quot;Migration&quot;  *G*)</comment_text>
+            <comment_created_at>2019-05-17T21:39:49.320000</comment_created_at>
+            <comment_length>715</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103364196
+- **Title:** Strache soll Staatsaufträge für Wahlkampfspenden in Aussicht gestellt haben
+- **Publish Date:** 2019-05-17T18:19:06.190000
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 12042
+- **Root Comments:** 5473
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103364196">
+    <title>Strache soll Staatsaufträge für Wahlkampfspenden in Aussicht gestellt haben</title>
+    <publish_date>2019-05-17T18:19:06.190000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>12042</total_comments>
+    <root_comments>5473</root_comments>
+    <user_threads>
+      <thread id="1041579202">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ich bin ja ein wenig schockiert, dass alle schockiert sind, dass strache unser land an die russen verscherbeln will. der eigentliche skandal ist doch, dass er in so einem versifften t-shirt, wo die bierkugel untern raushängt, auftaucht, wenn er von einer russischen oligarchin ein paar millionen haben will. hat der mann jedes schamgefühl verloren?</comment_text>
+        <comment_created_at>2019-05-17T23:11:49.990000</comment_created_at>
+        <comment_length>348</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041579232">
+        <user_name>(H)ausverstand</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-06-22T11:05:42.647000</user_created_at>
+        <comment_headline>KURZ einmal nachdenken</comment_headline>
+        <comment_text>Wer wollte dieses Video nicht KURZ vor der NR Wahl haben? Wem dient das jetzt wohl so KURZ vor der EU Wahl? Wer könnte Nutzen daraus ziehen um KURZ darauf in Neuwahlen zu gehen? Alles Zufall oder doch ein Muster?</comment_text>
+        <comment_created_at>2019-05-17T23:12:30.250000</comment_created_at>
+        <comment_length>212</comment_length>
+        <replies>
+          <reply id="1041604543">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>innenpolitisch ist die EU-Wahl so was von unwichtig, keine österreichische Partei würde so brisantes Material dafür verheizen.</comment_text>
+            <comment_created_at>2019-05-18T11:57:28.250000</comment_created_at>
+            <comment_length>126</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103368612
+- **Title:** Verdecktes Strache-Video auf Ibiza: So besoffen kann keiner sein
+- **Publish Date:** 2019-05-17T20:19:42
+- **Channel:** Meinung
+- **Ressort Name:** Conrad Seidl
+- **Total Comments:** 2130
+- **Root Comments:** 898
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103368612">
+    <title>Verdecktes Strache-Video auf Ibiza: So besoffen kann keiner sein</title>
+    <publish_date>2019-05-17T20:19:42</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Conrad Seidl</ressort_name>
+    <total_comments>2130</total_comments>
+    <root_comments>898</root_comments>
+    <user_threads>
+      <thread id="1041576824">
+        <user_name>Paul Scheibenpflug</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-04-25T07:29:21.380000</user_created_at>
+        <comment_headline>Was ich nicht verstehe</comment_headline>
+        <comment_text>Warum wurde das nicht schon vor dem Wahl 2017 der Öffentlichkeit präsentiert wurde ?  Hätte Sebastian Kurz mit so einer Gaunerpartie einen Pakt geschmiedet, oder fürchtete man, daß Strache Hofer oder Kickl Platz machen hätte müssen (und man dann intelligentere Kontrahenten an der FPÖ Spitze hätte) ?</comment_text>
+        <comment_created_at>2019-05-17T22:22:27.887000</comment_created_at>
+        <comment_length>300</comment_length>
+        <replies>
+          <reply id="1041578539">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Hätte Sebastian Kurz mit so einer Gaunerpartie einen Pakt geschmiedet?  Is das eine rhetorische Frage?</comment_text>
+            <comment_created_at>2019-05-17T22:57:17.370000</comment_created_at>
+            <comment_length>102</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041578007">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Na, Herr Kurz, noch einmal alle Austin-Powers Filme von vorne bis hinten durchsehen und bei der Personalauswahl von Doktor Evil lernen. Von dessen trotteligen Helfershelfern ist bisher noch nie einer auf so einen saudummen Trick reingefallen.  Ich hoffe der Strache ist im Video nicht auch noch auf den Zieh-an-meinem-Finger-Trick reingefallen, weil das wär dann RICHTIG peinlich für unser Land.</comment_text>
+        <comment_created_at>2019-05-17T22:47:05.553000</comment_created_at>
+        <comment_length>395</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103440778
+- **Title:** Österreich braucht jetzt einen Staatsmann an der Spitze, keinen Wahltaktiker
+- **Publish Date:** 2019-05-19T18:29:49
+- **Channel:** Meinung
+- **Ressort Name:** Martin Kotynek
+- **Total Comments:** 1362
+- **Root Comments:** 505
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103440778">
+    <title>Österreich braucht jetzt einen Staatsmann an der Spitze, keinen Wahltaktiker</title>
+    <publish_date>2019-05-19T18:29:49</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Martin Kotynek</ressort_name>
+    <total_comments>1362</total_comments>
+    <root_comments>505</root_comments>
+    <user_threads>
+      <thread id="1041695283">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Bei den Neuwahlen hat die ÖVP das größte Potenzial bei enttäuschten FPÖ-Wählern&quot; Genau das ist ja das Traurige, die aktuelle SPÖ-Führung wird sich natürlich eher wieder am Feindbild Kurz abarbeiten, obwohl von dort eher überschaubare Wählerströme zu erwarten sind, ganz einfach weil sie nie was anderes kennengelernt haben, als sich mit der AG an der Uni zu kabbeln.  Wirklich heimatlos sind die unteren Einkommensbezieher, denen jetzt noch mal von Strache und Gudenus vor Augen geführt wurde, welchen Stellenwert sie in unserer Parteienlandschaft noch haben.</comment_text>
+        <comment_created_at>2019-05-19T18:58:00.923000</comment_created_at>
+        <comment_length>560</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103474440
+- **Title:** Soziologin Altreiter: "Die Mittelschicht stellt sich moralisch höher"
+- **Publish Date:** 2019-05-22T07:00:00
+- **Channel:** Wissenschaft
+- **Ressort Name:** Forschung Spezial
+- **Total Comments:** 451
+- **Root Comments:** 99
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103474440">
+    <title>Soziologin Altreiter: &quot;Die Mittelschicht stellt sich moralisch höher&quot;</title>
+    <publish_date>2019-05-22T07:00:00</publish_date>
+    <channel>Wissenschaft</channel>
+    <ressort_name>Forschung Spezial</ressort_name>
+    <total_comments>451</total_comments>
+    <root_comments>99</root_comments>
+    <user_threads>
+      <thread id="1041881737">
+        <user_name>metalwoman</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2010-03-18T13:08:45.637000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>DIe &quot;Schmerzen&quot; des sozialen Aufstiegs würde ich nicht als &quot;sich nicht zurechtfinden&quot; beschreiben, denn sich (organisatorisch) zurecht zu finden lernen gerade Aufsteiger_innen, die niemanden haben, der ihnen zu Hause Ratschläge oder Nachhilfe geben kann, schon sehr früh. Es hat vielmehr damit zu tun, dass man sich von der Herkunftsschicht entfremdet, sich aber zur &quot;höheren&quot; Schicht nie richtig zugehörig fühlen kann.  Sprache und Regeln an einer Uni z.B. erlernt man nach einiger Zeit schon. Wofür ich aber am längsten gebraucht habe war, die anerzogene &quot;Ehrfurcht vor Autoritäten&quot; wie Professoren abzulegen. Und auch später im Beruf, wenn du plötzlich nicht mehr in der Rolle des Kindes bist, das spuren muss oder in der Rolle...</comment_text>
+        <comment_created_at>2019-05-22T18:29:52.747000</comment_created_at>
+        <comment_length>733</comment_length>
+        <replies>
+          <reply id="1041882294">
+            <user_id>144386</user_id>
+            <user_name>metalwoman</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2010-03-18T13:08:45.637000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>... des_der Studierenden XY, Matrikelnummer soundso, sondern plötzlich eine Person verkörpern sollst, die jetzt anderen sagt, was sie zu tun haben. Ich kannte halt vor dem Studium kaum Akademiker_innen außer Lehrkräfte, den Pfarrer und den Hausarzt und keinen davon &quot;privat&quot;. Und bezüglich &quot;Verhalten als Führungsperson&quot; fielen mir jetzt auch nicht unbedingt gute Vorbilder ein. Heute noch kann ich mich im Beruf mit Arbeiter_innen viel besser verständigen als mit so manchen Möchtegern-Managertypen, die nur schwafeln. Ich finde, es ist ein riesiger Vorteil, dass man als Aufsteiger_in die Sprache der &quot;einfachen Leute&quot; spricht und &quot;klassenverständigend&quot; tätig werden kann. Davon bräuchte es noch viel mehr.</comment_text>
+            <comment_created_at>2019-05-22T18:44:16.890000</comment_created_at>
+            <comment_length>708</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041884905">
+        <user_name>Work to live, don´t live to work</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-04-20T09:48:37.600000</user_created_at>
+        <comment_headline>warum die Arbeiter Rechts wählen?</comment_headline>
+        <comment_text>Wegen des niedrigen Kulturniveaus und wegen der fehlenden Ausbildung. Die meisten Arbeiter lassen sich vor der Rhetorik der Rechten beeindrucken und dann verstehen nicht, warum sie nun 12 Stunden am Tag oder 60 Stunden die Woche arbeiten und trotzdem nicht mehr verdienen. Das ist der Triumph der Dummheit.</comment_text>
+        <comment_created_at>2019-05-22T19:40:44.527000</comment_created_at>
+        <comment_length>306</comment_length>
+        <replies>
+          <reply id="1041890593">
+            <user_id>208499</user_id>
+            <user_name>richard145</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2007-05-29T23:27:03.907000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Schauen Sie sich mal die Wählerstromanalyse an, ÖVP/FPÖ hatte die meisten Wähler aus der Privatwirtschaft.  Und es ist vollkommen klar das jemand dem man 1300 brutto zahlen will, nicht Grün oder SPÖ wählt Das liegt aber nicht daran dass die Arbeiter dumm sind, sondern das die Grünen und die Roter die Probleme der Arbeiter seit gut 2 Jahrzehnten ignorieren.</comment_text>
+            <comment_created_at>2019-05-22T21:19:37.720000</comment_created_at>
+            <comment_length>358</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041893763">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>&quot;Die Sprache, die Umgangsformen und die informellen Regeln werden in einer anderen Klasse geprägt und sind für diejenigen selbstverständlich, die damit aufgewachsen sind.</comment_headline>
+        <comment_text>Besonders merkt man diese Sprachbarriere bei den Uni-Vereinen, die sich besonders links geben. Da werden dann so Sprachkonstrukte hervorgekramt, wie sie den Artikel spicken.  Und den Habitus der Arbeiterklasse angeht: den würde doch die Frau Hausbichler selbst am liebsten als toxische Maskulinität verbieten lassen.  Aber jetzt einen auf Verständnis machen, für die unteren Einkommensschichten oh: und neben dem soziologenschwatz von wegen, die einen essen gerne indisch und die andern halt bloss schnitzel. Natürlich geht es hier noch um knallharte Wirtschaftliche Interessen: https://www.theatlantic.com/business/archive/2017/06/the-hoarding-of-the-american-dream/530481/</comment_text>
+        <comment_created_at>2019-05-22T22:48:06.043000</comment_created_at>
+        <comment_length>674</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103494337
+- **Title:** Die Gretchenfrage "Wie hältst du's mit der FPÖ?" bleibt in der SPÖ unbeantwortet
+- **Publish Date:** 2019-05-20T16:15:01
+- **Channel:** Meinung
+- **Ressort Name:** Eric Frey
+- **Total Comments:** 1058
+- **Root Comments:** 379
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103494337">
+    <title>Die Gretchenfrage &quot;Wie hältst du's mit der FPÖ?&quot; bleibt in der SPÖ unbeantwortet</title>
+    <publish_date>2019-05-20T16:15:01</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Eric Frey</ressort_name>
+    <total_comments>1058</total_comments>
+    <root_comments>379</root_comments>
+    <user_threads>
+      <thread id="1041765049">
+        <user_name>Alexander75</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-02-07T12:25:26.077000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Sie ist weder rhetorisch noch taktisch dem rauen politischen Alltag gewachsen&quot; -   Klarer Fall von Mansplaining, wie Politik muss...  Da beklagen die liberalen Medien die Verrohung der politischen Debatte. Da mag sich eine daran nicht beteiligen und dann heißt es, sie sei dem nicht gewachsen...</comment_text>
+        <comment_created_at>2019-05-20T19:04:08.477000</comment_created_at>
+        <comment_length>296</comment_length>
+        <replies>
+          <reply id="1041768512">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ich finde ja auch Politiker vulgo die Führer unseres Landes sollten grundsätzlichen Welpenschutz genießen und Debatten nur mit wolkigen Metaphern geführt werden.  Und Kritik dann einfach mit so Wörtern wie Mansplaining abperlen lassen, chapeau.. da kam ich ja jetzt echt ins Selbstreflektieren, ob ich nicht auch so ein bösartiger weißer alter Mann bin, der Frauen nicht das Schwarze unter den Fingernägeln gönnt, nur weil ich den Ausdruck für Schwachsinn halte.</comment_text>
+            <comment_created_at>2019-05-20T19:45:41.357000</comment_created_at>
+            <comment_length>462</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041764991">
+        <user_name>Heckscheibenwischer</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2018-06-26T06:04:30.513000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Nicht nur das Auftreten von Parteichefin Pamela Rendi-Wagner hat in den vergangenen Tagen viele enttäuscht &quot;  Mich eigentlich nicht. Sachlich und ohne populistische Wortspiele. Und sie kann in die Rolle der ersten Bundeskanzlerin hineinwachsen. Sie ist intelligent genug und mir wichtig, sie hat auch Berufserfahrung und auch internationale Kontakte.</comment_text>
+        <comment_created_at>2019-05-20T19:03:16.203000</comment_created_at>
+        <comment_length>351</comment_length>
+        <replies>
+          <reply id="1041768690">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>obwohl ich der SPÖ auf mehreren Social Media-Seiten folge, ein paar nervtötende Bobo-Facebook-Freunde hab, die ich schon lang mal abschalten wollte, kam da jetzt eigentlich nicht viel. Kurz dominiert die Debatte und richtet sich die Situation schön - die SPÖ steht im Abseits, so wie schon seit Oppositionsantritt. Wenn sie es für sachlich halten, wenn man einfach gar nix sagt, dann sei Ihnen das mal unbenommen.</comment_text>
+            <comment_created_at>2019-05-20T19:48:18.953000</comment_created_at>
+            <comment_length>413</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041765137">
+        <user_name>Gigius</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-07-06T02:05:42.813000</user_created_at>
+        <comment_headline>SPÖ Probleme - die Zusammenfassung</comment_headline>
+        <comment_text>- Keine einfache, konsistente, positive Zukunftsvision. &quot;Wozu Sozialdemokratie?&quot; kann nicht adäquat beantwortet werden (nur negativ, oder kompliziert / widersprüchlich) - Inhaltlich gespaltene Partei beim Thema Migration. Dosko gegen Bobo. Komplett ungelöst. Nur Geschwurbel.  - Relativ schwache Leistung als Oppositionspartei, speziell von JPRW persönlich - Kandidatin ohne Strahlkraft. JPRW ist ok, aber nicht mehr. Nicht interessant, nicht neu, nichts erreicht (politisch), erfüllt negative Vorurteile. In Live-Diskussionen und Interviews eher schwach - Keine Regierungspartner: FPÖ verweigert man; ÖVP auch a bisserl (bzw. tut Kurz so, als kann er nicht mit der SPÖ) - Silberstein-Nachwirkung - Finanzielle Probleme</comment_text>
+        <comment_created_at>2019-05-20T19:05:26.527000</comment_created_at>
+        <comment_length>719</comment_length>
+        <replies>
+          <reply id="1041766663">
+            <user_id>529446</user_id>
+            <user_name>E. Bollinger</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2013-11-22T20:48:17.690000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>mag alles sein, aber wer einer Lohnarbeit nachgeht ist sicher noch am besten beraten diese Nicht-Show-Partei zu wählen. ÖVP, FPÖ NEOS  (bzw. deren Großspender) sind erwiesenermaßen gegen Gewerkschaften. Bei den Grünen weiß man es nicht so ganz genau bzw. sind das Menschen, die nicht mit (dreckiger) Handarbeit ihr Geld verdienen.</comment_text>
+            <comment_created_at>2019-05-20T19:23:09.420000</comment_created_at>
+            <comment_length>330</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041765866">
+        <user_name>rantan plan</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2006-05-04T22:32:30.740000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>da hat der Herr Frey aber ein Problem und nicht die PRW .. ich finde sachliche, unaufgeregte Stellungnahmen und konstruktive Vorschläge sehr angenehm - die abgedroschenen NLP Gschichtln vom Kanzler kann niemand mehr hören udn immerhin wird jetzt der SPÖ Vorschlag mit den Experten als Interimsregierung durchgeführt - der kam schon vor über 24 -Stunden, dass der Kurze mit Taktieren ewig braucht um zu Handeln dafür kann die PRW nix</comment_text>
+        <comment_created_at>2019-05-20T19:15:14.563000</comment_created_at>
+        <comment_length>432</comment_length>
+        <replies>
+          <reply id="1041766203">
+            <user_id>207886</user_id>
+            <user_name>streckfus</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2011-02-01T16:22:01.510000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das stimmt grundsätzlich ja, aber rendi-wagner hat so überhaupt kein charisma ...</comment_text>
+            <comment_created_at>2019-05-20T19:18:19.313000</comment_created_at>
+            <comment_length>81</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041768099">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot; Sie könnte Kanzler Sebastian Kurz einen fliegenden Koalitionswechsel anbieten, um mit einem neuen Regierungsprogramm den türkis-blauen Reformen die Giftzähne zu ziehen&quot; noch viel obskurer, hat Kurz der SPÖ dies am Samstag übers Fernsehen ausgerichtet ohne Widerspruch, dass die Sozialdemokraten dies gar nicht wollten.</comment_text>
+        <comment_created_at>2019-05-20T19:40:28.437000</comment_created_at>
+        <comment_length>320</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041766807">
+        <user_name>a comment</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2015-05-01T06:38:06.480000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Pamela Rendi Wagner müsste sich in der eigenen Partei durchsetzen, und zwar gegen die Rechtsabbieger. Keine Koalition mehr mit der FPÖ, auch wenn sie im Burgenland zweitstärkste Partei wird. Das muß eindeutig klargestellt werden. Keine OÖ Experimente. Und dann endlich ihre persönliche starke Linie zeigen, auch wenn das einigen gegen den Strich gehen wird. Und endlich, endlich die 50% weibliche Wählergruppe für sich zurück gewinnen, die allen anderen abhanden gekommen ist und ratlos zwischen Pilz und Neos pendelt.</comment_text>
+        <comment_created_at>2019-05-20T19:24:48.020000</comment_created_at>
+        <comment_length>518</comment_length>
+        <replies>
+          <reply id="1041771251">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>pfff, weil nämlich die weibliche Hälfte der Wählerschaft eine homogene Masse ist, die nur auf Metoo-Hashtags reagiert.</comment_text>
+            <comment_created_at>2019-05-20T20:26:53.400000</comment_created_at>
+            <comment_length>118</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103507423
+- **Title:** Der Lockvogel: Weibliche Reize als Waffe gegen mächtige Männer
+- **Publish Date:** 2019-05-21T07:00:00
+- **Channel:** Kultur
+- **Ressort Name:** Kultur
+- **Total Comments:** 764
+- **Root Comments:** 203
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103507423">
+    <title>Der Lockvogel: Weibliche Reize als Waffe gegen mächtige Männer</title>
+    <publish_date>2019-05-21T07:00:00</publish_date>
+    <channel>Kultur</channel>
+    <ressort_name>Kultur</ressort_name>
+    <total_comments>764</total_comments>
+    <root_comments>203</root_comments>
+    <user_threads>
+      <thread id="1041790618">
+        <user_name>Reinhold Loecker</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2001-09-07T17:23:04</user_created_at>
+        <comment_headline>Genau davor haben sie uns beim Bundesheer gewarnt:</comment_headline>
+        <comment_text>einer russischen Spionin auf den Leim zu gehen und ihr in einem Anfall von Geilheit alle Staatsgeheimnisse anzuvertrauen.</comment_text>
+        <comment_created_at>2019-05-21T09:08:52.603000</comment_created_at>
+        <comment_length>121</comment_length>
+        <replies>
+          <reply id="1041792973">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das müssen ja noch Zeiten gewesen sein, als russische Femme Fatales auf österreichische GWDs angesetzt wurden. Sind Sie sich sicher, da nicht den B'suff-Gschichten von ein paar Unteroffizieren auf den Leim gegangen wären, die sich gern wichtiger nehmen als sie sind?</comment_text>
+            <comment_created_at>2019-05-21T09:42:17.397000</comment_created_at>
+            <comment_length>266</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103542613
+- **Title:** Millennials finden im Job kaum Freunde – wie ist es Ihnen ergangen?
+- **Publish Date:** 2019-05-28T09:00:00
+- **Channel:** Karriere
+- **Ressort Name:** Job &amp; Karriere
+- **Total Comments:** 292
+- **Root Comments:** 140
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103542613">
+    <title>Millennials finden im Job kaum Freunde – wie ist es Ihnen ergangen?</title>
+    <publish_date>2019-05-28T09:00:00</publish_date>
+    <channel>Karriere</channel>
+    <ressort_name>Job &amp;amp; Karriere</ressort_name>
+    <total_comments>292</total_comments>
+    <root_comments>140</root_comments>
+    <user_threads>
+      <thread id="1042163199">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>hat man auch gefragt, wie die über 55-Jährigen sich gefühlt haben, als sie mit 25 neu in einer Firma waren? Mit 55 ist das Job-Hoppen wohl doch mal vorbei. Und die Millenials werden in 20 Jahren dann die Platzhirsche sein, die die Jungen das Fürchten lehren.</comment_text>
+        <comment_created_at>2019-05-28T20:01:02.397000</comment_created_at>
+        <comment_length>258</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103555344
+- **Title:** FPÖ: Hinterwäldlerisches Männerbild als Stolperstein
+- **Publish Date:** 2019-05-22T09:14:41
+- **Channel:** dieStandard
+- **Ressort Name:** Blog: Über die Verhältnisse
+- **Total Comments:** 901
+- **Root Comments:** 235
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103555344">
+    <title>FPÖ: Hinterwäldlerisches Männerbild als Stolperstein</title>
+    <publish_date>2019-05-22T09:14:41</publish_date>
+    <channel>dieStandard</channel>
+    <ressort_name>Blog: Über die Verhältnisse</ressort_name>
+    <total_comments>901</total_comments>
+    <root_comments>235</root_comments>
+    <user_threads>
+      <thread id="1041877071">
+        <user_name>funnyl</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-02-08T11:17:24.583000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Männer dürfen Frauen auch weiterhin &quot;scharf&quot; finden. Genauso wie Frauen Männer &quot;scharf&quot; finden können.   Da sehe ich keinen Sexismus.</comment_text>
+        <comment_created_at>2019-05-22T16:47:10.863000</comment_created_at>
+        <comment_length>133</comment_length>
+        <replies>
+          <reply id="1041878816">
+            <user_id>79180</user_id>
+            <user_name>hansb</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-11-22T15:01:11.710000</user_created_at>
+            <comment_headline>Au contraire !</comment_headline>
+            <comment_text>Wenn Sie Ihr andersgeschlechtliches Gegenüber alleine auf die Frage reduzieren, ob Sie gerne mit ihr/ihm kopulieren würden, so ist das Sexismus pur.  Und da ist es völlig egal, ob Sie ein Mann oder eine Frau sind. Bei Frauen ist dieses Verhalten zwar möglicherweise seltener anzutreffen als bei Männern, aber es ist nicht weniger sexistisch.</comment_text>
+            <comment_created_at>2019-05-22T17:21:43.770000</comment_created_at>
+            <comment_length>341</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041888493">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ist das der Strache, der dieses toxische Männerbild vielleicht von seiner alleinerziehenden Mutter gelernt hat? Der eigentlich zu jeder Zeit, selbst in der FPÖ ein Außenseiter war. Ob's vielleicht nicht eher daran lag und an fehlenden männlichen Vorbildern, dann wär er  Oder reitet sich Frau Hausbichler da vielleicht selbst in ein toxisches Männerbild hinein, in dem sie solche Armutschkerln nur wahrnimmt, sobald sie eben so abdriften.  Frau Roher kann das besser, liegt aber wahrscheinlich an der ihr aufoktroyierten Mutterrolle, is ja eine Konservative https://www.zeit.de/politik/ausland/2019-05/heinz-christian-strache-fpoe-oesterreich-ruecktritt/komplettansicht  Ohne diesen feministischen Fanatismus.</comment_text>
+        <comment_created_at>2019-05-22T20:37:26.097000</comment_created_at>
+        <comment_length>709</comment_length>
+        <replies>
+          <reply id="1041891197">
+            <user_id>558915</user_id>
+            <user_name>MiliTant</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2015-03-19T23:10:55.610000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>In einer Doku wurde Burger alsErsatzvater genannt,</comment_text>
+            <comment_created_at>2019-05-22T21:33:59.980000</comment_created_at>
+            <comment_length>50</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103574355
+- **Title:** Turbulenzen im Hause Strache
+- **Publish Date:** 2019-05-21T17:02:45.600000
+- **Channel:** Panorama
+- **Ressort Name:** Gesellschaft
+- **Total Comments:** 1119
+- **Root Comments:** 423
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103574355">
+    <title>Turbulenzen im Hause Strache</title>
+    <publish_date>2019-05-21T17:02:45.600000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Gesellschaft</ressort_name>
+    <total_comments>1119</total_comments>
+    <root_comments>423</root_comments>
+    <user_threads>
+      <thread id="1041824717">
+        <user_name>Alfred J. Noll</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-07-11T10:52:42.913000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Straches Privatleben geht exakt niemanden etwas an.</comment_text>
+        <comment_created_at>2019-05-21T17:13:42.093000</comment_created_at>
+        <comment_length>51</comment_length>
+        <replies>
+          <reply id="1041828650">
+            <user_id>180190</user_id>
+            <user_name>reef of solipsism</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-07-29T21:02:35.730000</user_created_at>
+            <comment_headline>Jein.</comment_headline>
+            <comment_text>Grundsätzlich ja.   Jedoch haben rechte Populisten oft die eigenwillige Angewohnheit, ihr plakativ normgerechtes Familienleben bevorzugt im Wahlkampf zur Schau zu stellen, womit dieses zum Teil ihrer politischen Inszenierung und damit auch zum Thema öffentlichen Interesses wird.  Die Diskrepanz zwischen nach außen gezeigter Fassade und tatsächlichem Verhalten hinter verschlossenen Türen ist ein zentraler Aspekt dieser Affäre, weshalb es - innerhalb bestimmter Grenzen - auch legitim ist, über die Auswirkungen auf das zuvor reklamemäßig präsentierte Privatleben zu berichten.</comment_text>
+            <comment_created_at>2019-05-21T18:26:16.857000</comment_created_at>
+            <comment_length>579</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103578888
+- **Title:** Dem Expertenkabinett des Kanzlers droht ein schnelles Ende
+- **Publish Date:** 2019-05-21T21:15:06.440000
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 3918
+- **Root Comments:** 935
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103578888">
+    <title>Dem Expertenkabinett des Kanzlers droht ein schnelles Ende</title>
+    <publish_date>2019-05-21T21:15:06.440000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>3918</total_comments>
+    <root_comments>935</root_comments>
+    <user_threads>
+      <thread id="1041842953">
+        <user_name>gesprächsbereit</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-10-11T11:02:16.250000</user_created_at>
+        <comment_headline>Wenn die SPÖ Kurz das Vertrauen entzieht, wird sie für lange Zeit keine Regierungsverantworung mehr übernehmen!</comment_headline>
+        <comment_text>Mir tut für die SPÖ wirklich leid, dass sie Kurz jetzt auch noch die Bühne bieten muss, für den nächsten NR-Wahlkampf. Aber alles andere wäre politischer Selbstmord. Trotzdem bleibt für Kanzler Kurz die Verpflichtung der SPÖ auch die Hand zu reichen. Die Expertenwahl kann erst der Anfang gewesen sein.    Aber das Video war perfekt, keine Umfragen mehr möglich. Karas war bei 30, steht jetzt aber bei mindestens 35+ mit Chancen auf 40+, was einem historischem Ergebnis gleichkommen würde. Davor kannst du ihm nicht mehr absetzen, danach eine Entscheidung gegen die Bevölkerung.    Shorty ist schon wieder im &quot;driver-seat&quot;, und wie Frau Stuiber bei Turnher sagte, die SPÖ hat wieder keinen Zug zum Tor. Die ÖVP Maschinerie läuft schon.</comment_text>
+        <comment_created_at>2019-05-21T23:33:46.407000</comment_created_at>
+        <comment_length>735</comment_length>
+        <replies>
+          <reply id="1041843063">
+            <user_id>37541</user_id>
+            <user_name>don't follow me</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-06-16T18:57:07.927000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die SPÖ könnte kurioserweise eine Partei werden die aus einem Regierungsskandal geschwächt hervorgeht. Gibts auch nur in Österreich.</comment_text>
+            <comment_created_at>2019-05-21T23:39:18.387000</comment_created_at>
+            <comment_length>132</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103843276
+- **Title:** Wahlsieger ÖVP bei Jungwählern nur an vierter Stelle
+- **Publish Date:** 2019-05-26T17:42:37.550000
+- **Channel:** Inland
+- **Ressort Name:** EU-Wahl 2019 in Österreich: Wahlergebnisse und -gr
+- **Total Comments:** 1366
+- **Root Comments:** 338
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103843276">
+    <title>Wahlsieger ÖVP bei Jungwählern nur an vierter Stelle</title>
+    <publish_date>2019-05-26T17:42:37.550000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>EU-Wahl 2019 in Österreich: Wahlergebnisse und -gr</ressort_name>
+    <total_comments>1366</total_comments>
+    <root_comments>338</root_comments>
+    <user_threads>
+      <thread id="1042032548">
+        <user_name>Walter B.Stechlich</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-16T21:31:21.520000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>hier im standard forum gibt man sich gerne links, aber nicht zu bobolike. im endefekt wählt man aber eher mittig-rechts. so auch ich. um meinen sohn eine fundierte ausbildung zu geben habe ich allein in der VS 16k für privat investiert. alle menschen sind gut und lieb, aber....</comment_text>
+        <comment_created_at>2019-05-26T18:15:42.363000</comment_created_at>
+        <comment_length>278</comment_length>
+        <replies>
+          <reply id="1042033073">
+            <user_id>669285</user_id>
+            <user_name>brother bruno</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-03-06T19:45:58</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>geh bitte, nimm deine d*ppaten troller und geh ins krone forum.</comment_text>
+            <comment_created_at>2019-05-26T18:22:43.540000</comment_created_at>
+            <comment_length>63</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042030441">
+        <user_name>FantasticFox</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-08-25T18:11:40.220000</user_created_at>
+        <comment_headline>Die SPOE wird sich personell radikal</comment_headline>
+        <comment_text>neu erfinden muessen.  Das Programm ist und bleibt gut. Lediglich: Die aktuelle erste Reihe kommt beim Zielpublikum nicht an. Punkt.  Ein Wahnsinn, dass sich niemand findet, der den Laden einmal konsequent durchfegt, und frischen Wind mit Hackler-Stallgeruch reinbringt.</comment_text>
+        <comment_created_at>2019-05-26T17:46:53.093000</comment_created_at>
+        <comment_length>270</comment_length>
+        <replies>
+          <reply id="1042031560">
+            <user_id>575878</user_id>
+            <user_name>Horst_Jackson</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-02-03T01:25:38.367000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Was ist denn deren Programm noch mal?  Wir verhindern den Rechtsruck?   Die SPÖ ist keine Arbeiterpartei mehr. Eine Arbeiterpartei wird von Arbeitern gewählt, nicht von Beamten und Leuten mit Migrationshintergrund.</comment_text>
+            <comment_created_at>2019-05-26T18:02:56.937000</comment_created_at>
+            <comment_length>214</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042032754">
+        <user_name>brother bruno</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-03-06T19:45:58</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Mag zwar sein, dass Ibiza kaum Auswirkungen auf das Wahlverhalten der Blau-Wähler hatte, aber es hat diese Koalition zu Bruch gebracht und das ist wichtig.</comment_text>
+        <comment_created_at>2019-05-26T18:18:05.923000</comment_created_at>
+        <comment_length>155</comment_length>
+        <replies>
+          <reply id="1042033834">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ja, dafür ab September dann für weitere 5 Jahre - macht aus einer Legislaturperiode 7 1/2 Jahre für Türkis-Blau.</comment_text>
+            <comment_created_at>2019-05-26T18:31:56.310000</comment_created_at>
+            <comment_length>112</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042031424">
+        <user_name>Aktivieren</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-09-30T18:19:52.747000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die SPÖ Kampagne war einfach miserabel. Angefangen bei der Listenerstellung über eine ziemlich schlechte Wahlkampagne (keine klare Linie bei den  Themen) bis hin zu den Plakaten: Wenn man mit positiv/negativ Botschaften arbeitet, dann muss das positive natürlich deutlich prominenter platziert sein.  Wenn man im Herbst auch nur eine kleine Chance haben will, muss das gesamte Team hinter PRW ausgetauscht werden und zwar sehr schnell.</comment_text>
+        <comment_created_at>2019-05-26T18:01:09.340000</comment_created_at>
+        <comment_length>435</comment_length>
+        <replies>
+          <reply id="1042031625">
+            <user_id>572131</user_id>
+            <user_name>Isapapa</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2015-10-23T13:41:11.297000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Auch JPRW sollte gehen...denke mit ihr als Spitzenkandidatin wird das nix</comment_text>
+            <comment_created_at>2019-05-26T18:04:06.470000</comment_created_at>
+            <comment_length>73</comment_length>
+          </reply>
+          <reply id="1042038130">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>frage mich auch, was man sich dabei gedacht hat. Amazon, Facebook, zeugs, dass wir tag für tag nutzen und nicht mehr darauf verzichten wollen, taugt als Feindbild nun mal nicht. Oder Starbucks, die Bobo-Marke schlechthin! Und als man dann vom ultimativen Endfight gegen rechts zu fabulieren begann - und dann den drögen Schieder aufmarschieren lässt. Da musst ich wegschalten. War zu traurig und verzweifelt.  Muss man glatt den Parteioberen rechtgeben - ein Sieg, weil das hät viel schlechter ausgehen können.</comment_text>
+            <comment_created_at>2019-05-26T19:24:17.333000</comment_created_at>
+            <comment_length>510</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042031487">
+        <user_name>schichtl herbert</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-02-23T16:14:59.783000</user_created_at>
+        <comment_headline>morgen jubelt die övp nicht mehr</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-26T18:01:56.443000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1042032507">
+            <user_id>607809</user_id>
+            <user_name>Davos</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2017-02-05T17:04:11.673000</user_created_at>
+            <comment_headline>Na Kern hat sicher gejubelt als er die letzten 3 Monate Kanzler war.</comment_headline>
+            <comment_text>Der Kanzlerbonus hat ihm ja weit gebracht, man stelle sich vor die ÖVP hätte ihn gleich bei Koalitionsende abmontiert ;)</comment_text>
+            <comment_created_at>2019-05-26T18:15:11.047000</comment_created_at>
+            <comment_length>120</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103902345
+- **Title:** "Ich wünsche mir eine fehlerfreundlichere Sexualkultur"
+- **Publish Date:** 2019-05-29T09:00:00
+- **Channel:** dieStandard
+- **Ressort Name:** Liebe &amp; Sex 
+- **Total Comments:** 629
+- **Root Comments:** 63
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103902345">
+    <title>&quot;Ich wünsche mir eine fehlerfreundlichere Sexualkultur&quot;</title>
+    <publish_date>2019-05-29T09:00:00</publish_date>
+    <channel>dieStandard</channel>
+    <ressort_name>Liebe &amp;amp; Sex </ressort_name>
+    <total_comments>629</total_comments>
+    <root_comments>63</root_comments>
+    <user_threads>
+      <thread id="1042240859">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>und anderswo gibts schon schlagzeilen wie diese hier: https://www.economist.com/united-states/2019/05/02/no-sex-please-were-millennials  braucht man sich bei Interviews, wie dem da oben echt nicht mehr wundern.</comment_text>
+        <comment_created_at>2019-05-30T19:01:37.073000</comment_created_at>
+        <comment_length>210</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103915569
+- **Title:** Pamela Rendi-Wagner kann es nicht, Sebastian Kurz kann es zu gut
+- **Publish Date:** 2019-05-27T17:34:35
+- **Channel:** Meinung
+- **Ressort Name:** Einserkastl Hans Rauscher
+- **Total Comments:** 2564
+- **Root Comments:** 728
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103915569">
+    <title>Pamela Rendi-Wagner kann es nicht, Sebastian Kurz kann es zu gut</title>
+    <publish_date>2019-05-27T17:34:35</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Einserkastl Hans Rauscher</ressort_name>
+    <total_comments>2564</total_comments>
+    <root_comments>728</root_comments>
+    <user_threads>
+      <thread id="1042104126">
+        <user_name>AlleGutenNamenSindSchonVergeben...</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-10-25T12:29:28.127000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich würde gerne HP Doskozil als Parteivorsitzenden sehen. Nicht wegen, sondern trotz des Schutzhaft-Sagers.  Sozialdemokrat im Kern. Wählbar auch am Lande. Dialogfähig mit dem Gegner.  Er könnte die SPÖ - als einziger derzeit-  wieder zur Wahlsiegerin machen.</comment_text>
+        <comment_created_at>2019-05-27T18:19:31.810000</comment_created_at>
+        <comment_length>259</comment_length>
+        <replies>
+          <reply id="1042107080">
+            <user_id>4894</user_id>
+            <user_name>Hans Rauscher</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2001-05-22T12:43:48</user_created_at>
+            <comment_headline>Wenn man unbedingt eine dritte rechte Partei braucht...</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-27T19:02:49.143000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104024441
+- **Title:** SPÖ-Landeschef Schnabl: Rot-Grün-Neos "nicht so fernes Ziel"
+- **Publish Date:** 2019-05-29T12:07:14.660000
+- **Channel:** Inland
+- **Ressort Name:** Niederösterreich
+- **Total Comments:** 156
+- **Root Comments:** 73
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104024441">
+    <title>SPÖ-Landeschef Schnabl: Rot-Grün-Neos &quot;nicht so fernes Ziel&quot;</title>
+    <publish_date>2019-05-29T12:07:14.660000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Niederösterreich</ressort_name>
+    <total_comments>156</total_comments>
+    <root_comments>73</root_comments>
+    <user_threads>
+      <thread id="1042187217">
+        <user_name>Rekari</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2010-11-24T13:25:14.197000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Rot gemeinsam mit den neoliberalen Neos. Und sich dann noch wundern, warum die Sozialdemokraten immer mehr Wähler verlieren.</comment_text>
+        <comment_created_at>2019-05-29T13:13:15.243000</comment_created_at>
+        <comment_length>124</comment_length>
+        <replies>
+          <reply id="1042187344">
+            <user_id>607918</user_id>
+            <user_name>secocraig</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2017-02-07T19:13:42.063000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ein bisschen  wirtschaftkompetenz kann auch einer spö nicht schaden, immerhin geht es auch um firmen wie magna ect... großkonzerne  jedoch klar nein</comment_text>
+            <comment_created_at>2019-05-29T13:16:46.740000</comment_created_at>
+            <comment_length>148</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042190427">
+        <user_name>Kathi Berg</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-20T10:48:43.067000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>also ich habs ja schon einem normalen Poster geschrieben.  Wenn jemand die neos und die grünen unter einen Hut bringen will, dann hat er sich nicht sehr ausführlich mit Politik beschäftigt.  Und jetzt kommt ein SPÖ Politiker mit dem Vorschlag.  Da werf ich denen als Stöckchen &quot;Finanztransaktionssteuer&quot; in die Diskussionsrunde.... na da schau ma mal, wie lustig das wird...  das geht nie und nimmer.  Also lieber SPÖ Politiker: lernens a Runde &quot;Demokratie&quot; sprich Respekt vor jeder anderen demokratisch legitimierten partei</comment_text>
+        <comment_created_at>2019-05-29T14:35:25.213000</comment_created_at>
+        <comment_length>524</comment_length>
+        <replies>
+          <reply id="1042190712">
+            <user_id>635329</user_id>
+            <user_name>Grau1</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-07-05T17:35:13.433000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die Überschneidungen von Türkis und Blau waren ursprünglich auch nicht so groß, aber dann ist Türkis nah an den Rechtsextremen Rand gerückt, hat antisemitische Anspielungen als Fixbestandteil der Rhetorik der Führungsriege aufgenommen, rassistische Hetze gegen Flüchtlinge ebenso und schon ging’s mit der FPÖ super harmonisch. Warum sollten die anderen nicht auch ein bisschen aufeinander zugehen, wenn es um eine liberale und demokratische Zukunft unseres Landes geht?</comment_text>
+            <comment_created_at>2019-05-29T14:43:03.717000</comment_created_at>
+            <comment_length>469</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042237352">
+        <user_name>73 ist das neue 42</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-05-28T08:21:12.500000</user_created_at>
+        <comment_headline>feuchte Träume?</comment_headline>
+        <comment_text>wie soll das gehen, wenn die Grünen so wie es aussieht nahezu ausschliesslich in roten Teichen fischen werden. Oder glaubt man ernstfat, dass von FPÖ oder ÖVP jemand zu grün oder SPÖ wandert? Ich muss fast lachen</comment_text>
+        <comment_created_at>2019-05-30T17:27:17.843000</comment_created_at>
+        <comment_length>212</comment_length>
+        <replies>
+          <reply id="1042237886">
+            <user_id>204901</user_id>
+            <user_name>sumac trebla</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-04-16T10:35:48.677000</user_created_at>
+            <comment_headline>Gar nicht so unrealistisch</comment_headline>
+            <comment_text>FPÖ Wähler (Arbeiter) könnten zur SPÖ, ÖVP Wähler (konservativ, wirtschaftsorientiert) zu den NEOs wandern.</comment_text>
+            <comment_created_at>2019-05-30T17:40:17.103000</comment_created_at>
+            <comment_length>107</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104069314
+- **Title:** ÖH-Wahl: Studierende stimmen zu Recht für Klimathemen
+- **Publish Date:** 2019-05-30T11:34:55
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare
+- **Total Comments:** 169
+- **Root Comments:** 50
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104069314">
+    <title>ÖH-Wahl: Studierende stimmen zu Recht für Klimathemen</title>
+    <publish_date>2019-05-30T11:34:55</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Kommentare</ressort_name>
+    <total_comments>169</total_comments>
+    <root_comments>50</root_comments>
+    <user_threads>
+      <thread id="1042226952">
+        <user_name>Uschi Möseneder</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2017-07-28T14:00:41.907000</user_created_at>
+        <comment_headline>Perfekt auf den Punkt gebracht!</comment_headline>
+        <comment_text>Besonders stark war das Zeichen an der bildenden Wien: über 90% der Studierenden haben für nachhaltige Fraktionen, die gegen die bevorstehende Klimapokalypse vorgehen wollen, gestimmt.  Und das, obwohl ihre Zukunfstaussichten aufgrund des neoliberalen Wirtschaftssystem so sind, dass sie wohl bald andere Sorgen als Bio-Essen in Mensen oder Flugreisen haben werden. Aber die Studierenden wissen, dass es längst an der Zeit ist, den Planeten, ja sogar das ganze Sonnensystem zu retten.   Mit dem Wahlerfolg von GRAS bei den ÖH-Wahlen in Österreich ist zumindest einmal bereits eine große Hürde genommen worden. Jetzt gilt es aber nicht nur das Bewusst zu stärken, sondern auch Zeichen zu setzen und Awareness zu raisen.</comment_text>
+        <comment_created_at>2019-05-30T13:32:16.077000</comment_created_at>
+        <comment_length>718</comment_length>
+        <replies>
+          <reply id="1042235908">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;sondern auch Zeichen zu setzen und Awareness zu raisen.&quot; mit diesem coolen Hipster-Slang haben Sie mich doch schon glatt influenced! Geh jetzt sofort in den nächsten plastic-free Biomarket um mir den veganen Ebly-Eintopf ins Mehrweg-Geschirrchen zu schaufeln. Das könnt ich zwar auch beim Türken ums Eck um ein Drittel des Preises - der verströmt halt nicht dieses endgeile Hipster-Flair, dass mich doch glatt an der Rettung des Universums teilhaben lässt.</comment_text>
+            <comment_created_at>2019-05-30T16:49:19.823000</comment_created_at>
+            <comment_length>457</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042235272">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>die ÖH rettet also jetzt den Planeten? Und bei solchen weltfremden Kommentaren wundert man sich dass die Wahlbeteiligung bei 25% liegt. Naja, wenn diese Nachwuchspolitiker-Generation schon als Bestätigung für ihr Handeln sieht, dann haben wir das bei den Nationalratswahlen auch bald.  Ich sehs eher so: Reiche Kids, mit Welpenschutz (gilt auch für die AGler und alle anderen Fraktionen) bis zum Sankt Nimmerleinstag, gestalten die Welt. &quot; tatsächlich zum Klimaschutz beitragen kann.&quot; wohl mit Ryanair von Klimaprotest/Klimavolksfest zu Klimaprotest fliegen?</comment_text>
+        <comment_created_at>2019-05-30T16:34:55.050000</comment_created_at>
+        <comment_length>558</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1042227454">
+        <user_name>tnt</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2007-03-22T17:24:54.090000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Frage: warum stimmen Studierende für Klimathemen und nicht für Studienthemen?</comment_text>
+        <comment_created_at>2019-05-30T13:41:53.440000</comment_created_at>
+        <comment_length>77</comment_length>
+        <replies>
+          <reply id="1042229490">
+            <user_id>502577</user_id>
+            <user_name>abaris</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2008-04-02T15:19:14.817000</user_created_at>
+            <comment_headline>Man braucht sich nur die Altersgruppen bei den EU-Wahlen anzusehen</comment_headline>
+            <comment_text>Die Jugend muss die Folgen des Klimawandels am längsten ausbaden. Die ÖH-Wahl hat nur bestätigt, was die EU-Wahl bereits vorgezeigt hat. Die sogenannten Volksparteien sind zu einem Seniorenprogramm geworden.</comment_text>
+            <comment_created_at>2019-05-30T14:33:33.643000</comment_created_at>
+            <comment_length>207</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104144384
+- **Title:** Italienische Marine bringt 100 Flüchtlinge nach Genua
+- **Publish Date:** 2019-05-31T14:32:29
+- **Channel:** Panorama
+- **Ressort Name:** Flüchtlinge
+- **Total Comments:** 88
+- **Root Comments:** 33
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104144384">
+    <title>Italienische Marine bringt 100 Flüchtlinge nach Genua</title>
+    <publish_date>2019-05-31T14:32:29</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Flüchtlinge</ressort_name>
+    <total_comments>88</total_comments>
+    <root_comments>33</root_comments>
+    <user_threads>
+      <thread id="1042275807">
+        <user_name>Nestor1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-08-30T12:14:26.597000</user_created_at>
+        <comment_headline>Das Narrativ der nächstenliebenden Flüchtlingshilfe ..</comment_headline>
+        <comment_text>.. lässt sich nur dann aufrecht erhalten, wenn die kritischen Stimmen unterdrückt und dadurch dem Volk die breite Akzeptanz und Zustimmung vorgegaukelt wird. Auch wenn dahinter der feste Irrglaube der hehren Bekehrung des Volkes zu einer höheren Moral steht, so ist doch die Manipulation der öffentlichen Meinung abzulehnen und allenfalls eine gesetzliche Sanktion anzudenken.</comment_text>
+        <comment_created_at>2019-05-31T22:49:18.890000</comment_created_at>
+        <comment_length>376</comment_length>
+        <replies>
+          <reply id="1042277105">
+            <user_id>99139</user_id>
+            <user_name>istros</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>sind Sie besoffen?</comment_text>
+            <comment_created_at>2019-05-31T23:56:57.090000</comment_created_at>
+            <comment_length>18</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104158830
+- **Title:** Gert Schmidt: Hotelbesitzer, Automatenjäger und Ibiza-Aufdecker
+- **Publish Date:** 2019-05-31T18:14:45
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 479
+- **Root Comments:** 130
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104158830">
+    <title>Gert Schmidt: Hotelbesitzer, Automatenjäger und Ibiza-Aufdecker</title>
+    <publish_date>2019-05-31T18:14:45</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>479</total_comments>
+    <root_comments>130</root_comments>
+    <user_threads>
+      <thread id="1042277431">
+        <user_name>istros</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-10-16T12:54:53.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die Sternstunde der österreichischen Unterwelt! Grandios.  Und der Fellner als nächster Bundeskanzler, wär der einzig angemessene Kandidat.</comment_text>
+        <comment_created_at>2019-06-01T00:19:41.420000</comment_created_at>
+        <comment_length>139</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```

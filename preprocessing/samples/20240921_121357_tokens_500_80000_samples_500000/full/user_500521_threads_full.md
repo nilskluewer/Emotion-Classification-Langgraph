@@ -1,0 +1,4199 @@
+# User: Postingname 2.1 (ID: 500521)
+
+This document contains the thread data for the above user across multiple articles.
+
+---
+
+## Article ID: 2000101983559
+- **Title:** Ihre schrägsten Öffi-Momente
+- **Publish Date:** 2019-05-17T07:00:00
+- **Channel:** AutoMobil
+- **Ressort Name:** Mitreden: Rund ums Auto
+- **Total Comments:** 2130
+- **Root Comments:** 610
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000101983559">
+    <title>Ihre schrägsten Öffi-Momente</title>
+    <publish_date>2019-05-17T07:00:00</publish_date>
+    <channel>AutoMobil</channel>
+    <ressort_name>Mitreden: Rund ums Auto</ressort_name>
+    <total_comments>2130</total_comments>
+    <root_comments>610</root_comments>
+    <user_threads>
+      <thread id="1041562144">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Zählt Zug auch dazu? Dann die Geschichte vom Herrn ca. Anfang 60, der im Zug Wien - Salzburg kurz vor St. Pölten einen Herzinfarkt hatte. Der Notarzt empfängt ihn am Bahnsteig in St. Pölten und ist anscheinend sicher, dass da nix mehr zu machen ist. Sani fragt ihn „Soll na noch weitermachen?“ (mit Herzmassage war gemeint). Notarzt antwortet laut und deutlich nur „Jo, tua hoid so, bis kana mehr herschaut, brauchst di owa ned anstrengen.“</comment_text>
+        <comment_created_at>2019-05-17T15:31:13.613000</comment_created_at>
+        <comment_length>440</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041562532">
+        <user_name>Geggi</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-12-10T11:21:16.173000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Zug Innsbruck München, August 2015  In Kufstein steigt eine Gruppe deutscher Polizisten ein, voll justiert mit schusssicherer Weste, Latexhandschuhe,  Frauen und Männer.  Nach der Reihe werden alle (dunkelhäutigen, wir nicht) Insassen kontrolliert und nach der Reihe praktisch wortlos zu den Ausgängen geleitet. In Rosenheim müssen alle aussteigen und sich auf einen abgrenzten Streifen auf der Treppe zur Unterführung setzen, keiner darf stehenbleiben.  Der Zug fährt weiter. Die Verbliebenen sprechen kein Wort, fast alle Frauen und viele Männer weinen. Bis München traut sich kaum jemand den Kopf zu heben. Irgendwann sagt einer &quot;arme Leit&quot;, eine Frau schluchzt...  Damals vor 4 Jahren waren wir entsetzt, dass man so mit Menschen umgehen kann....</comment_text>
+        <comment_created_at>2019-05-17T15:48:42.287000</comment_created_at>
+        <comment_length>750</comment_length>
+        <replies>
+          <reply id="1041562962">
+            <user_id>668937</user_id>
+            <user_name>irgendweranderer</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-03-01T07:38:20.213000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sowas nennt man ausführen geltenden rechtes. Was spricht gegen diese Personenkontrolle?</comment_text>
+            <comment_created_at>2019-05-17T16:08:53.020000</comment_created_at>
+            <comment_length>87</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041562875">
+        <user_name>kreativer Postingname2</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-08-09T20:21:26.520000</user_created_at>
+        <comment_headline>Merke dir:</comment_headline>
+        <comment_text>Wennst keinen verrückten in den Öffis findest, bist selbst der verrückte</comment_text>
+        <comment_created_at>2019-05-17T16:04:53.930000</comment_created_at>
+        <comment_length>72</comment_length>
+        <replies>
+          <reply id="1041571239">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Was heißt ein Geisterfahrer? Hunderte?!&quot;</comment_text>
+            <comment_created_at>2019-05-17T20:21:35.067000</comment_created_at>
+            <comment_length>41</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041565563">
+        <user_name>Belturbet</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-11-24T13:34:36.703000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Kürzlich u 3,mann telefoniert neben mir, entschuldigt sich danach. Diese hoeflichkeit freute mich.</comment_text>
+        <comment_created_at>2019-05-17T18:02:34.260000</comment_created_at>
+        <comment_length>98</comment_length>
+        <replies>
+          <reply id="1041589919">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Hallo! Sitze in der U-Bahn, kann ich in 5 Minuten zurückrufen? Danke, Ciao.&quot;  War noch nie ein Problem.</comment_text>
+            <comment_created_at>2019-05-18T08:50:12.383000</comment_created_at>
+            <comment_length>104</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041565837">
+        <user_name>Belturbet</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-11-24T13:34:36.703000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich liebe die wiener linien! Wer noch?</comment_text>
+        <comment_created_at>2019-05-17T18:14:22.353000</comment_created_at>
+        <comment_length>38</comment_length>
+        <replies>
+          <reply id="1041566092">
+            <user_id>676224</user_id>
+            <user_name>Patlick</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-07-02T20:36:32.147000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ja im Grunde eh, aber das essverbot nervt ^^</comment_text>
+            <comment_created_at>2019-05-17T18:25:03.803000</comment_created_at>
+            <comment_length>44</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041561746">
+        <user_name>makaba</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-09-21T11:58:00.737000</user_created_at>
+        <comment_headline>Business Mensch, männlich, Mitte 30, im feinsten Zwirn</comment_headline>
+        <comment_text>Kippt sich in der u2 kurz bevor er  Volkstheater aussteigt, 2 kleine  Flascherln Leibwächter in seine Edelstahl Thermosflasche. 7:45 am Morgen</comment_text>
+        <comment_created_at>2019-05-17T15:12:56.133000</comment_created_at>
+        <comment_length>142</comment_length>
+        <replies>
+          <reply id="1041562028">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wann denn sonst? Um 17h hat er die Thermos ja schon längst ausgetrunken.</comment_text>
+            <comment_created_at>2019-05-17T15:25:47.563000</comment_created_at>
+            <comment_length>72</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102263929
+- **Title:** Roter Weltrevolutionär trifft Pragmatiker: "In der SPÖ stimmt etwas nicht"
+- **Publish Date:** 2019-05-01T08:00:00
+- **Channel:** Inland
+- **Ressort Name:** SPÖ
+- **Total Comments:** 543
+- **Root Comments:** 158
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102263929">
+    <title>Roter Weltrevolutionär trifft Pragmatiker: &quot;In der SPÖ stimmt etwas nicht&quot;</title>
+    <publish_date>2019-05-01T08:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>SPÖ</ressort_name>
+    <total_comments>543</total_comments>
+    <root_comments>158</root_comments>
+    <user_threads>
+      <thread id="1041059299">
+        <user_name>Dr Döblinger</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-11-25T18:13:48.927000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Babler? Babler. Babler.... da war doch mal was, irgendwie sowas mit zwei Gehältern, die eigentlich nicht simultan hätten bezogen werden sollen... also, ungesetzlich wars nicht, soweit ich mich erinnere, es war halt eine Variante der Gusenbauer-Nummer... das ist doch der Babler, oder gibts einen zweiten?</comment_text>
+        <comment_created_at>2019-05-01T09:25:44.100000</comment_created_at>
+        <comment_length>304</comment_length>
+        <replies>
+          <reply id="1041059791">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>*gähn* alles 3mal durchgekaut und abgehandelt. Mehr fällt dir nicht ein? Ihr müsst euch vor einem echten Linken schon sehr fürchten, wenn sowas zum xten Mal ausgegraben wird.</comment_text>
+            <comment_created_at>2019-05-01T09:46:37.377000</comment_created_at>
+            <comment_length>174</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041059429">
+        <user_name>La Fayette04</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-01-30T23:36:40.713000</user_created_at>
+        <comment_headline>Die Glaubwürdigkeit von Babler ist endend wollend</comment_headline>
+        <comment_text>Auf der einen Seite spielt er den harten Linken, auf der anderen Seite bedient er sich finanziell kräftig auf Kosten der Bürger.  https://derstandard.at/2000049290702/Rechnungshof-kritisiert-Doppeljob-des-Buergermeisters-Babler  Nicht, dass ein Bürgermeister auch was verdienen soll, aber das geht zu weit. 12000 monatlich steht in keinem Verhältnis zur Leistung.  Mit seinem vordergründig linken Auftreten übertüncht er sein persönliches Streben  nach Luxus und Reichtum</comment_text>
+        <comment_created_at>2019-05-01T09:31:19.723000</comment_created_at>
+        <comment_length>471</comment_length>
+        <replies>
+          <reply id="1041059517">
+            <user_id>584635</user_id>
+            <user_name>jm2c</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-06-09T19:25:45.937000</user_created_at>
+            <comment_headline>Old News...</comment_headline>
+            <comment_text>... den Zweitjob hat er schon seit März 2016 nicht mehr. Nice try - aber zu durchsichtig.</comment_text>
+            <comment_created_at>2019-05-01T09:35:49.013000</comment_created_at>
+            <comment_length>89</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041059827">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Es ist ja nicht so, dass jetzt plötzlich der Faschismus vor der Tür steht.&quot;  Stimmt, lieber Herr Fürst. Der Faschismus steht IN der Tür und hat einen Fuß im Zimmer. Auch wenn das dem Maßanzugträger wurscht ist, solange er in der Regierung sitzt.</comment_text>
+        <comment_created_at>2019-05-01T09:48:02.470000</comment_created_at>
+        <comment_length>246</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102435988
+- **Title:** Ina Kent: "Das schlechte Gewissen ist zum Glück längst verflogen"
+- **Publish Date:** 2019-05-06T06:00:00
+- **Channel:** Immobilien
+- **Ressort Name:** Wohngespräch
+- **Total Comments:** 192
+- **Root Comments:** 55
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102435988">
+    <title>Ina Kent: &quot;Das schlechte Gewissen ist zum Glück längst verflogen&quot;</title>
+    <publish_date>2019-05-06T06:00:00</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohngespräch</ressort_name>
+    <total_comments>192</total_comments>
+    <root_comments>55</root_comments>
+    <user_threads>
+      <thread id="1041201300">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der Tisch gefällt mir. Auch, dass er neben der Tür steht. Und die Wendeltreppe ist echt ein Traum. Wie viel es gekostet haben muss, die dort hinzustellen, will ich gar nicht wissen... ;)</comment_text>
+        <comment_created_at>2019-05-06T12:35:32.823000</comment_created_at>
+        <comment_length>186</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102439132
+- **Title:** "Verbot" von Gabaliers Musik durch Grazer SPÖ erregt Felix Baumgartner
+- **Publish Date:** 2019-05-03T10:56:56
+- **Channel:** Kultur
+- **Ressort Name:** Musik
+- **Total Comments:** 1869
+- **Root Comments:** 787
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102439132">
+    <title>&quot;Verbot&quot; von Gabaliers Musik durch Grazer SPÖ erregt Felix Baumgartner</title>
+    <publish_date>2019-05-03T10:56:56</publish_date>
+    <channel>Kultur</channel>
+    <ressort_name>Musik</ressort_name>
+    <total_comments>1869</total_comments>
+    <root_comments>787</root_comments>
+    <user_threads>
+      <thread id="1041121948">
+        <user_name>Mafi</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-09-24T20:27:06.090000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die SPÖ will auf ihrer Feier keine Musik von einem Ultrarechten Nein! Doch! Ohh!  Ich nehme nicht an das die Otti Band was von den Scherben spielen darf...</comment_text>
+        <comment_created_at>2019-05-03T13:03:13.913000</comment_created_at>
+        <comment_length>155</comment_length>
+        <replies>
+          <reply id="1041122094">
+            <user_id>686372</user_id>
+            <user_name>Christof Schwenniger</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2019-01-19T11:04:18.220000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich kenne die Scherbn nicht. Aber ich verstehe, wenn auf politischen Veranstaltungen Songs mit politischem Inhalt, welcher dem Veranstalter widerspricht, nicht erwünscht ist.  Aber, bitte, WAS ist an Hulapalu politisch?</comment_text>
+            <comment_created_at>2019-05-03T13:06:47.907000</comment_created_at>
+            <comment_length>219</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041122407">
+        <user_name>Giovanni58</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-09-10T12:39:49.900000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;zwecks Frauenrechten und Geschlechtergerechtigkeit&quot;  Eigentlich kenne ich mehr Frauen als Männer die auf die Liedchen von G. &quot;stehen&quot;; so ganz hat sich die Meinung der Frauenstadträtin unter ihren Geschlechtsgenossinnen wohl noch nicht herumgesprochen.</comment_text>
+        <comment_created_at>2019-05-03T13:15:10.773000</comment_created_at>
+        <comment_length>253</comment_length>
+        <replies>
+          <reply id="1041122582">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sind das die gleichen Frauen, die das „eh voll ok“ finden, wenn man die Töchter in der Hymne einfach weglässt? Obwohl der Text selbiger gesetzlich geregelt ist?</comment_text>
+            <comment_created_at>2019-05-03T13:19:57.020000</comment_created_at>
+            <comment_length>160</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041122242">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Stop making stupid people famous. In diesem Sinne würde ich mich freuen wenn wir aufhörten, Herrn B.s Ergüsse auf derstandard.at breitzutreten.</comment_text>
+        <comment_created_at>2019-05-03T13:10:47.640000</comment_created_at>
+        <comment_length>143</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102456515
+- **Title:** "Game of Thrones", Staffel 8, Episode 4: Wir haben "The Last of the Starks" gesehen
+- **Publish Date:** 2019-05-06T11:23:06
+- **Channel:** Etat
+- **Ressort Name:** Game of Thrones
+- **Total Comments:** 1239
+- **Root Comments:** 324
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102456515">
+    <title>&quot;Game of Thrones&quot;, Staffel 8, Episode 4: Wir haben &quot;The Last of the Starks&quot; gesehen</title>
+    <publish_date>2019-05-06T11:23:06</publish_date>
+    <channel>Etat</channel>
+    <ressort_name>Game of Thrones</ressort_name>
+    <total_comments>1239</total_comments>
+    <root_comments>324</root_comments>
+    <user_threads>
+      <thread id="1041240954">
+        <user_name>MGL95</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-06-20T12:35:58.113000</user_created_at>
+        <comment_headline>Kuschelkurs</comment_headline>
+        <comment_text>Der Missandei wird wohl klar gewesen sein, dass sie von der Burgmauer nicht in einem Stück runtergeht, oder? Da stellt sich mir die Frage warum sie der Cersei nicht eine innige Umarmung gönnt und Sie gleich mit in die Tiefe nimmt?? Also ich mein nur, ich hätts so gmacht...  BTW. war ich mir zwischendurch wirklich nicht sicher ob ich grad GOT oder GZSZ schau... ziemlich schwache Folge...</comment_text>
+        <comment_created_at>2019-05-07T14:36:33.023000</comment_created_at>
+        <comment_length>389</comment_length>
+        <replies>
+          <reply id="1041242020">
+            <user_id>684709</user_id>
+            <user_name>Friede, Freude, Freiheitskuchen</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-12-13T17:26:01.970000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sie hatte die Hände hinten zusammen gekettet.  Viel macht nicht mehr Sinn, aber das schon...</comment_text>
+            <comment_created_at>2019-05-07T15:05:36.850000</comment_created_at>
+            <comment_length>92</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102461612
+- **Title:** Lehrer nach Streit an Wiener HTL von Unterricht abgezogen
+- **Publish Date:** 2019-05-03T13:38:48.070000
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 1568
+- **Root Comments:** 410
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102461612">
+    <title>Lehrer nach Streit an Wiener HTL von Unterricht abgezogen</title>
+    <publish_date>2019-05-03T13:38:48.070000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>1568</total_comments>
+    <root_comments>410</root_comments>
+    <user_threads>
+      <thread id="1041126611">
+        <user_name>Herr Europa</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-04-20T07:54:06.390000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der Lehrer hätte diesen Konflikt viel eleganter lösen können; einfach ruhig und mit einem bösen Lächeln im Gesicht die Klasse verlassen und bei den zukünftigen Prüfungen den Schwierigheitsgrad merklich anheben. Wenn sich jemand darüber beschwert, kann der Lehrer dem ja mit dem Wunsch der Klasse nach einer größeren Herausfordung begegnen, da einzelne Schüler scheinbar mental unausgelastet sind.</comment_text>
+        <comment_created_at>2019-05-03T15:26:11.470000</comment_created_at>
+        <comment_length>396</comment_length>
+        <replies>
+          <reply id="1041126774">
+            <user_id>189573</user_id>
+            <user_name>Narrenfrei</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-05-05T12:01:49.163000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das mit dem Verlassen der Klasse ist nicht drin...</comment_text>
+            <comment_created_at>2019-05-03T15:30:58.253000</comment_created_at>
+            <comment_length>50</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102483021
+- **Title:** Hans Rauscher über das Aufwachsen im Gemeindebau
+- **Publish Date:** 2019-05-05T08:00:00
+- **Channel:** Panorama
+- **Ressort Name:** Wien
+- **Total Comments:** 936
+- **Root Comments:** 216
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102483021">
+    <title>Hans Rauscher über das Aufwachsen im Gemeindebau</title>
+    <publish_date>2019-05-05T08:00:00</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wien</ressort_name>
+    <total_comments>936</total_comments>
+    <root_comments>216</root_comments>
+    <user_threads>
+      <thread id="1041168334">
+        <user_name>Seleucus</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-11-23T06:16:04.547000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der Artikel endet also mit: Zuwanderung zerstört das soziale Klima im Gemeindebau.  Hätte ich von Rauscher ned erwartet diese Ehrlichkeit.</comment_text>
+        <comment_created_at>2019-05-05T09:42:21.783000</comment_created_at>
+        <comment_length>138</comment_length>
+        <replies>
+          <reply id="1041168529">
+            <user_id>521197</user_id>
+            <user_name>i brauch kan spruch</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2013-08-03T10:43:25.540000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>lesen hilft: es geht nicht um die Zuwanderung, sondern um die Angst davor - bitte gerne!</comment_text>
+            <comment_created_at>2019-05-05T09:50:21.817000</comment_created_at>
+            <comment_length>88</comment_length>
+          </reply>
+          <reply id="1041168489">
+            <user_id>58621</user_id>
+            <user_name>cpucpu</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2002-08-21T21:34:50</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>so ist es und spricht so davon, wenn man etwas selber miterlebt hat. und nicht nur abstrakt.</comment_text>
+            <comment_created_at>2019-05-05T09:48:35.680000</comment_created_at>
+            <comment_length>92</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041168532">
+        <user_name>Ich sag dazu nur....</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-02-27T06:12:14.540000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>das war eh alles super. ich bewundere das frühe wien, auch für den aufbau mit allen österreichern, die bis 1950 so vieles geschaffen und wieder geschaffen haben.   danach kamen noch 1paar flüchtlinge, echte. aus CZ/SK und HU. willkommen. schön, dass ihr euch in dieser herrlichen stadt eingefunden habt.   und dann gings eigentlich bergab, als man angefangen hat, die stadt und vor allem die gemeinebauten mit ausländern zu fluten, um eine vermeintlich willfährige wählerklientel zu &quot;züchten&quot;. (&quot;züchten&quot; unter anführungszeichen, da man diese natürlich nicht im labor geschaffen hat, aber vieles und kostspieliges aktiv unternommen hat, um diese an sich zu binden. zum massiven schaden wiens und jetzt ja eigentlich ganz österreichs. nicht danke spö.</comment_text>
+        <comment_created_at>2019-05-05T09:50:40.770000</comment_created_at>
+        <comment_length>750</comment_length>
+        <replies>
+          <reply id="1041169225">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wessen Idee war es denn, billige Arbeitskräfte aus Ex-YU und der Türkei zu holen? Ohne auch nur einen Finger zu rühren, um den Menschen Sprachkenntnisse oder leistbares Wohnen zu ermöglichen? In die dunklen und feuchten Souterrain-Löcher in denen damals Gastarbeiterfamilien hausen mussten, würde man heute nicht mal Strafgefangene einsperren.</comment_text>
+            <comment_created_at>2019-05-05T10:18:55.437000</comment_created_at>
+            <comment_length>343</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041168146">
+        <user_name>10011001</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-05-06T21:03:52.060000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Als kind oder jugendlicher wußte man , es gibt keine jugos oder türken die im gemeindebau wohnen, ausländer begegnete man nur in der schule oder in alten mietshäusern.</comment_text>
+        <comment_created_at>2019-05-05T09:31:53.100000</comment_created_at>
+        <comment_length>167</comment_length>
+        <replies>
+          <reply id="1041168431">
+            <user_id>580731</user_id>
+            <user_name>mandolino11</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-04-26T16:09:10.220000</user_created_at>
+            <comment_headline>Ausländer in der Schule (Klasse)</comment_headline>
+            <comment_text>Da kann ich mich aber nicht erinnern, dass Ausländer in der Schule waren. Alle 25 Kinder in der Klasse  konnten perfekt deutsch und es gab keine Ausländer in der Klasse.  Heute ist es genau umgekehrt, so ändern sich die Zeiten. Es war eine schöne Zeit, für mich eine Katastrophe wie es heute zugeht:(</comment_text>
+            <comment_created_at>2019-05-05T09:46:23.050000</comment_created_at>
+            <comment_length>300</comment_length>
+          </reply>
+          <reply id="1041169057">
+            <user_id>4894</user_id>
+            <user_name>Hans Rauscher</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2001-05-22T12:43:48</user_created_at>
+            <comment_headline>Wir empfanden die Vertriebenen aus dem Sudetenland und den deutschen</comment_headline>
+            <comment_text>Gebieten in Jugoslawien und Rumänien  wegen ihres merkwürdigen Deutsch und ihrem ständigen Jammern als fremde Eindringlinge</comment_text>
+            <comment_created_at>2019-05-05T10:12:23.040000</comment_created_at>
+            <comment_length>123</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102511261
+- **Title:** Auto erfasst Passanten in Wien: Lenker wollte noch schnell über Ampel
+- **Publish Date:** 2019-05-04T15:20:36
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 690
+- **Root Comments:** 115
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102511261">
+    <title>Auto erfasst Passanten in Wien: Lenker wollte noch schnell über Ampel</title>
+    <publish_date>2019-05-04T15:20:36</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>690</total_comments>
+    <root_comments>115</root_comments>
+    <user_threads>
+      <thread id="1041161666">
+        <user_name>Frank Nitti</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2007-09-05T10:32:00.433000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Stellt sich wieder einmal die Frage, ob das (international eher seltene) Grünblinken  wirklich sinnvoll ist - &quot;natürliche&quot; Reaktion: Aufsgassteigen, weil unbedingt noch drüber...</comment_text>
+        <comment_created_at>2019-05-04T21:18:01.787000</comment_created_at>
+        <comment_length>178</comment_length>
+        <replies>
+          <reply id="1041162627">
+            <user_id>655705</user_id>
+            <user_name>bartiger</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-01-07T11:46:01.520000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ja. Erst unlängst: hinter LKW. Keine Mögluchkeit, die Ampel zu sehen. Oder zu sehen, dass da eine Kreuzung ist (mehrfach zugeparkt, unbekannte Strasse etc.). Letztes Blinken noch aus Augenwinkel wahrgenommen und stehen geblieben.</comment_text>
+            <comment_created_at>2019-05-04T22:04:17.760000</comment_created_at>
+            <comment_length>229</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102537556
+- **Title:** Permanente Videoüberwachung am Wiener Schwarzenbergplatz
+- **Publish Date:** 2019-05-05T12:17:06.210000
+- **Channel:** Panorama
+- **Ressort Name:** Wien
+- **Total Comments:** 19
+- **Root Comments:** 11
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102537556">
+    <title>Permanente Videoüberwachung am Wiener Schwarzenbergplatz</title>
+    <publish_date>2019-05-05T12:17:06.210000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wien</ressort_name>
+    <total_comments>19</total_comments>
+    <root_comments>11</root_comments>
+    <user_threads>
+      <thread id="1041172733">
+        <user_name>realo realdin</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-12-04T17:07:26.693000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>wieso keine pferde? wo bleiben die pferde?!!?! WIR BRAUCHEN M_E_H_R PFERDE!!!</comment_text>
+        <comment_created_at>2019-05-05T12:28:46.453000</comment_created_at>
+        <comment_length>77</comment_length>
+        <replies>
+          <reply id="1041174242">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die würden nur ins Springbrunnenbecken br*nzen.</comment_text>
+            <comment_created_at>2019-05-05T13:21:17.547000</comment_created_at>
+            <comment_length>47</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102596797
+- **Title:** "Magenta T" ersetzt T-Mobile und UPC – Aus für Telering
+- **Publish Date:** 2019-05-06T21:00:00
+- **Channel:** Web
+- **Ressort Name:** Telekom
+- **Total Comments:** 971
+- **Root Comments:** 388
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102596797">
+    <title>&quot;Magenta T&quot; ersetzt T-Mobile und UPC – Aus für Telering</title>
+    <publish_date>2019-05-06T21:00:00</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Telekom</ressort_name>
+    <total_comments>971</total_comments>
+    <root_comments>388</root_comments>
+    <user_threads>
+      <thread id="1041220533">
+        <user_name>Mugg</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>1999-11-30T14:24:47.907000</user_created_at>
+        <comment_headline>Magenta-T</comment_headline>
+        <comment_text>Olreit, der Output wenn die Tribe Leads mit ihren Squads agil am Mindset arbeiten … dafuq?  https://derstandard.at/2000084630606/Personalmanagerin-Sabine-Bothe-Wir-haben-nur-gute-Nachrichten</comment_text>
+        <comment_created_at>2019-05-06T22:13:04.850000</comment_created_at>
+        <comment_length>190</comment_length>
+        <replies>
+          <reply id="1041225217">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich denke nicht, dass Werbeagenturen agile Strukturen fahren. Das Ergebnis ist aber dasselbe…</comment_text>
+            <comment_created_at>2019-05-07T07:15:07.680000</comment_created_at>
+            <comment_length>93</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041219789">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die neue Marke gesehen. Der Magenta T mir vom Anblick weh.   (Sehr bemüht, ich weiß…)</comment_text>
+        <comment_created_at>2019-05-06T21:47:11.773000</comment_created_at>
+        <comment_length>85</comment_length>
+        <replies>
+          <reply id="1041220678">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>Zur Melodie von &quot;Oh Tannenbaum&quot;:</comment_headline>
+            <comment_text>Magenta T, Magenta T, die Farb tut in den Augen weh! Die Preise treiben's in die Höh', die Kunden geh'n, ojeoje! Magenta T…</comment_text>
+            <comment_created_at>2019-05-06T22:17:46.130000</comment_created_at>
+            <comment_length>123</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041220265">
+        <user_name>Wowbagger The Infinitely Prolonged</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2001-03-26T13:48:33</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Worst. Rebrandinding. Ever.  Da war ja Jet2Web noch richtig gut dagegen.</comment_text>
+        <comment_created_at>2019-05-06T22:03:51.310000</comment_created_at>
+        <comment_length>72</comment_length>
+        <replies>
+          <reply id="1041220592">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Naja. Wir wollen's nicht übertreiben.</comment_text>
+            <comment_created_at>2019-05-06T22:15:07.943000</comment_created_at>
+            <comment_length>37</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041219672">
+        <user_name>thatslife</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-04-24T19:01:56.857000</user_created_at>
+        <comment_headline>na toll</comment_headline>
+        <comment_text>und magenta schaffts noch dass in ein paar jahren jeder österreicher die farbe magenta schön deutsch asl MAKENTA auspricht, anstatt wie früher schön italienisch als madschenta. danke deutsche telekom.</comment_text>
+        <comment_created_at>2019-05-06T21:43:25.120000</comment_created_at>
+        <comment_length>200</comment_length>
+        <replies>
+          <reply id="1041220559">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Madschenta&quot; hat mir Taxi Orange abgewöhnt.</comment_text>
+            <comment_created_at>2019-05-06T22:14:04.100000</comment_created_at>
+            <comment_length>43</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041242176">
+        <user_name>Père Lachaise</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2014-03-03T00:35:09.823000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Magenta ist eine absolute Unfarbe! Das tut mir in den Augen richtig weh!  Ich schaue mich bereits nach Alternativen um!</comment_text>
+        <comment_created_at>2019-05-07T15:10:07.930000</comment_created_at>
+        <comment_length>119</comment_length>
+        <replies>
+          <reply id="1041248793">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>M. ist eine der Grundfarben im 4farbdruck. D.h. sie brauchen für farbige Drucke mit Logo in der richtigen Farbe nur 2 Trommeln - M und schwarz.   Vgl. ähnliche Auftritte mit Cyan als Hauptfarbe.</comment_text>
+            <comment_created_at>2019-05-07T18:51:04.380000</comment_created_at>
+            <comment_length>194</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102605039
+- **Title:** Royales Baby ist da: Herzogin Meghan hat einen Sohn geboren
+- **Publish Date:** 2019-05-06T15:07:56
+- **Channel:** Panorama
+- **Ressort Name:** Königshäuser
+- **Total Comments:** 536
+- **Root Comments:** 182
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102605039">
+    <title>Royales Baby ist da: Herzogin Meghan hat einen Sohn geboren</title>
+    <publish_date>2019-05-06T15:07:56</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Königshäuser</ressort_name>
+    <total_comments>536</total_comments>
+    <root_comments>182</root_comments>
+    <user_threads>
+      <thread id="1041208781">
+        <user_name>Das ist ein Postingname</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2008-10-11T12:51:08.610000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Aww :) Ich hoffe, es geht allen gut! Mir steht das dieser Tage auch bevor, aber da wird der Standard wohl eher nicht berichten XD</comment_text>
+        <comment_created_at>2019-05-06T15:52:07.517000</comment_created_at>
+        <comment_length>129</comment_length>
+        <replies>
+          <reply id="1041221015">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Alles Gute! Heißer (ungefragter) Tipp: Im Wohnzimmer schlafen. Sonst sind morgens beide gerädert.</comment_text>
+            <comment_created_at>2019-05-06T22:28:44.353000</comment_created_at>
+            <comment_length>97</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102674490
+- **Title:** Ermittlungen, Mobbing und Grabenkämpfe im militärischen Abwehramt
+- **Publish Date:** 2019-05-07T18:15:58
+- **Channel:** Inland
+- **Ressort Name:** Sachpolitik
+- **Total Comments:** 172
+- **Root Comments:** 73
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102674490">
+    <title>Ermittlungen, Mobbing und Grabenkämpfe im militärischen Abwehramt</title>
+    <publish_date>2019-05-07T18:15:58</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Sachpolitik</ressort_name>
+    <total_comments>172</total_comments>
+    <root_comments>73</root_comments>
+    <user_threads>
+      <thread id="1041250292">
+        <user_name>HabedeEhre</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-09-12T13:56:12.650000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ein ehemaliger Klassenkollege arbeitet dort.  Seine Stories sind haarsträubend.   Und das ist höflich formuliert.</comment_text>
+        <comment_created_at>2019-05-07T19:48:24.590000</comment_created_at>
+        <comment_length>113</comment_length>
+        <replies>
+          <reply id="1041254190">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wo jetzt? Beim Abwehramt? Oder bei der FPÖ?</comment_text>
+            <comment_created_at>2019-05-07T21:35:52.573000</comment_created_at>
+            <comment_length>43</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102730333
+- **Title:** Deutsche Wanderer klagen Tiroler Bergretter wegen hoher Rechnung
+- **Publish Date:** 2019-05-08T09:47:11
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 1439
+- **Root Comments:** 628
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102730333">
+    <title>Deutsche Wanderer klagen Tiroler Bergretter wegen hoher Rechnung</title>
+    <publish_date>2019-05-08T09:47:11</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>1439</total_comments>
+    <root_comments>628</root_comments>
+    <user_threads>
+      <thread id="1041290455">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die US-amerikanische Unart, wegen jedem schmonzes zu klagen, schwappt zu uns rüber. Bedenklich.  Meine Großmutter hätte gesagt &quot;Waast ned auffeklettert, waast ned owegfoin!&quot;. Er soll den Rechnungsbetrag verdoppeln und dankbar den Schlapfen halten.</comment_text>
+        <comment_created_at>2019-05-08T22:18:18.040000</comment_created_at>
+        <comment_length>247</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041268340">
+        <user_name>winterfit</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-01-22T13:23:41.270000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Bemerkenswert, einerseits konnten die beiden die Lage nicht einschätzen und haben deswegen die Bergrettung gerufen, andererseits wollen sie jetzt die Lage der Bergrettung einschätzen können.</comment_text>
+        <comment_created_at>2019-05-08T11:25:36.607000</comment_created_at>
+        <comment_length>190</comment_length>
+        <replies>
+          <reply id="1041271533">
+            <user_id>527431</user_id>
+            <user_name>nachtprophet</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2013-10-23T10:16:16.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Deutsche eben. An Arroganz seltenst übertroffen.</comment_text>
+            <comment_created_at>2019-05-08T12:54:05.247000</comment_created_at>
+            <comment_length>48</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102731820
+- **Title:** "Game of Thrones": Fans rebellieren im Netz wegen neuer Staffel
+- **Publish Date:** 2019-05-08T10:09:52
+- **Channel:** Web
+- **Ressort Name:** Webmix
+- **Total Comments:** 1592
+- **Root Comments:** 330
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102731820">
+    <title>&quot;Game of Thrones&quot;: Fans rebellieren im Netz wegen neuer Staffel</title>
+    <publish_date>2019-05-08T10:09:52</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webmix</ressort_name>
+    <total_comments>1592</total_comments>
+    <root_comments>330</root_comments>
+    <user_threads>
+      <thread id="1041283366">
+        <user_name>Garp70</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-09-01T16:02:11.917000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich muss gestehen ich habe die Serie nicht verfolgt und wusste bis heute nicht einmal, dass diese auf Büchern basiert. Meine Frage wäre wie viele sind denn das?</comment_text>
+        <comment_created_at>2019-05-08T19:03:05.550000</comment_created_at>
+        <comment_length>160</comment_length>
+        <replies>
+          <reply id="1041283691">
+            <user_id>143622</user_id>
+            <user_name>madmax333</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2010-04-21T08:28:21.670000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>5 Bücher im Original die in der deutschen Übersetzung auf 10 aufgeteilt würden. Herr Martin braucht mit dem 6. Buch leider schon sehr lange und ob er ein 7. und letztes dann überhaupt noch schafft sei Mal dahingestellt.</comment_text>
+            <comment_created_at>2019-05-08T19:15:21.507000</comment_created_at>
+            <comment_length>219</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102824024
+- **Title:** Kritik: Neuer Jö-Bonusclub sammelt massiv Kundendaten
+- **Publish Date:** 2019-05-12T10:02:30.540000
+- **Channel:** Web
+- **Ressort Name:** Netzpolitik
+- **Total Comments:** 1651
+- **Root Comments:** 448
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102824024">
+    <title>Kritik: Neuer Jö-Bonusclub sammelt massiv Kundendaten</title>
+    <publish_date>2019-05-12T10:02:30.540000</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Netzpolitik</ressort_name>
+    <total_comments>1651</total_comments>
+    <root_comments>448</root_comments>
+    <user_threads>
+      <thread id="1041386062">
+        <user_name>T. Ruzicka</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-11-23T13:34:55.943000</user_created_at>
+        <comment_headline>Lebe seit eh und jeh .....</comment_headline>
+        <comment_text>..... ohne Kundenkarten und mir geht rein gar nichts ab. :-)</comment_text>
+        <comment_created_at>2019-05-12T10:53:14.727000</comment_created_at>
+        <comment_length>60</comment_length>
+        <replies>
+          <reply id="1041386101">
+            <user_id>55475</user_id>
+            <user_name>Foren-Moderation</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2011-02-03T15:59:59.550000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Und diese ganzen Rabatt- und Bonus-Aktionen haben Sie nie gereizt? (rich)</comment_text>
+            <comment_created_at>2019-05-12T10:55:18.717000</comment_created_at>
+            <comment_length>73</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102870832
+- **Title:** Gery Keszler verkündet offiziell das Aus für den Life Ball
+- **Publish Date:** 2019-05-10T09:28:34
+- **Channel:** Panorama
+- **Ressort Name:** Gesellschaft
+- **Total Comments:** 1206
+- **Root Comments:** 329
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102870832">
+    <title>Gery Keszler verkündet offiziell das Aus für den Life Ball</title>
+    <publish_date>2019-05-10T09:28:34</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Gesellschaft</ressort_name>
+    <total_comments>1206</total_comments>
+    <root_comments>329</root_comments>
+    <user_threads>
+      <thread id="1041335566">
+        <user_name>rollgerstl</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-01-10T16:25:43.080000</user_created_at>
+        <comment_headline>Mir sind solche Events immer fremd gewesen, weil ich nicht erkennen kann,</comment_headline>
+        <comment_text>wieso man den Reingewinn eines sauteuren Fests bereits als &quot;Wohltätigkeit&quot; verkauft, während anstrengendes Spendensammeln und Freiwilligenarbeit (im exakt gleichen Problemfeld) weitgehend ignoriert werden.  Ich weiß nicht, ob es tatsächlich stimmt, dass Herr Keszler als Geschäftsführer dieser Charity ein Gehalt bezogen hat (Gelesen hätte ich es.). Er hat sicher Bewundernswertes geschafft (und geschaffen), aber der AIDS-Bekämpfung wird der Life-Ball nicht so sehr fehlen wie einer bestimmten Form der zahlungskräftigen Schickeria, die sich dort inszenieren konnte.</comment_text>
+        <comment_created_at>2019-05-10T10:52:39.007000</comment_created_at>
+        <comment_length>567</comment_length>
+        <replies>
+          <reply id="1041335965">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Ich weiß nicht, ob es tatsächlich stimmt, dass Herr Keszler als Geschäftsführer dieser Charity ein Gehalt bezogen hat (Gelesen hätte ich es.)&quot;  Auch Herr Keszler muss am Ende des Monats seine Rechnungen bezahlen. Wer arbeitet, soll auch etwas dafür bekommen.</comment_text>
+            <comment_created_at>2019-05-10T11:03:26.043000</comment_created_at>
+            <comment_length>259</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102875151
+- **Title:** Viele parlamentarische Anfragen zur Wahlkartenpanne
+- **Publish Date:** 2019-05-10T12:20:16
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 222
+- **Root Comments:** 48
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102875151">
+    <title>Viele parlamentarische Anfragen zur Wahlkartenpanne</title>
+    <publish_date>2019-05-10T12:20:16</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>222</total_comments>
+    <root_comments>48</root_comments>
+    <user_threads>
+      <thread id="1041340227">
+        <user_name>Partei leerer Stimmzettel</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-08-29T15:20:37</user_created_at>
+        <comment_headline>Als Schramböck würde ich mich von Kurz verheizt fühlen</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-10T13:01:24.757000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041341831">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich denke, Kurz' Kritik abzufangen ist ein zentraler Punkt ihrer Jobbeschreibung.</comment_text>
+            <comment_created_at>2019-05-10T13:47:39.473000</comment_created_at>
+            <comment_length>81</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102876548
+- **Title:** IT-Experten bei Cert bestätigen: Wohl kein Hackerangriff auf Wien
+- **Publish Date:** 2019-05-10T11:51:42
+- **Channel:** Web
+- **Ressort Name:** Netzpolitik
+- **Total Comments:** 62
+- **Root Comments:** 16
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102876548">
+    <title>IT-Experten bei Cert bestätigen: Wohl kein Hackerangriff auf Wien</title>
+    <publish_date>2019-05-10T11:51:42</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Netzpolitik</ressort_name>
+    <total_comments>62</total_comments>
+    <root_comments>16</root_comments>
+    <user_threads>
+      <thread id="1041338350">
+        <user_name>TobiRei</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-12-06T13:28:11.167000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Was jetzt? Technische Probleme oder DDoS?</comment_text>
+        <comment_created_at>2019-05-10T12:05:31.903000</comment_created_at>
+        <comment_length>41</comment_length>
+        <replies>
+          <reply id="1041338407">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wieder mal ein Artikel mit der heißen Nadel gestrickt.</comment_text>
+            <comment_created_at>2019-05-10T12:07:03.620000</comment_created_at>
+            <comment_length>54</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102878836
+- **Title:** Fast fix: Barisic zurück bei Rapid
+- **Publish Date:** 2019-05-10T10:40:29
+- **Channel:** Sport
+- **Ressort Name:** Rapid Wien
+- **Total Comments:** 360
+- **Root Comments:** 151
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102878836">
+    <title>Fast fix: Barisic zurück bei Rapid</title>
+    <publish_date>2019-05-10T10:40:29</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Rapid Wien</ressort_name>
+    <total_comments>360</total_comments>
+    <root_comments>151</root_comments>
+    <user_threads>
+      <thread id="1041336001">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Kreative Personalpolitik. Das Scouting-Team trifft sich im Archiv bei den Personalakten der Ehemaligen.</comment_text>
+        <comment_created_at>2019-05-10T11:04:25.157000</comment_created_at>
+        <comment_length>103</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102895756
+- **Title:** Der Stangenpendler von San Siro
+- **Publish Date:** 2019-05-11T13:00:00
+- **Channel:** Sport
+- **Ressort Name:** Sportfeature
+- **Total Comments:** 233
+- **Root Comments:** 86
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102895756">
+    <title>Der Stangenpendler von San Siro</title>
+    <publish_date>2019-05-11T13:00:00</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Sportfeature</ressort_name>
+    <total_comments>233</total_comments>
+    <root_comments>86</root_comments>
+    <user_threads>
+      <thread id="1041367250">
+        <user_name>donaldsneffe</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-03-10T14:22:05.813000</user_created_at>
+        <comment_headline>Frankfurt - Bein, Gaudinho, Yeboah, Okocha...</comment_headline>
+        <comment_text>… supergeile Mannschaft damals, &quot;Winterkönig&quot; und dann doch nicht Meister.  Und die rausgehaut zu haben... das war ein Wahnsinn - ich war beim Heimspiel im Stadion. Soooo geil....  Und als es ins Retourmatch gegen Karlsruhe ging, hab ich das Match in der Nähe von Karlsruhe, wo ich grad zufällig war, alleine als Österreicher in einer D-Kneipe angeschaut - und gegen alle gewettet (um Bier). Gezahlt hab ich diesen Abend dort nix, und die Deutschen waren trotz Niederlage überraschend nett und freundlich.  Das einzige, was mich an der Sache stört: 25 Jahre her :( Ein &quot;Marquinho&quot; ist heute bei uns noch ein geflügeltes Wort.</comment_text>
+        <comment_created_at>2019-05-11T14:18:16.720000</comment_created_at>
+        <comment_length>625</comment_length>
+        <replies>
+          <reply id="1041367978">
+            <user_id>38650</user_id>
+            <user_name>donaldsneffe</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-03-10T14:22:05.813000</user_created_at>
+            <comment_headline>BTW: Frankfurt Match damals im Wiener Stadion - was nicht so schön war:</comment_headline>
+            <comment_text>Die &quot;Affen-&quot;Laute gegen Anthony Yeboah vom (österreichischen) Publikum - das hätte heute einen Skandal und wohl eine Untersuchung der UEFA nach sich gezogen. Ein (sehr) guter Freund von mir hat auch mitgemacht, ich hab ihn im Stadion nicht stoppen können (BTW: Uniabschluss - also nix von &quot;soziale Randgruppe&quot;, und eigentlich extrem friedlicher und umgänglicher Typ). Wenn ich ihn heute daran erinnere, geniert er sich in Grund und Boden - ich hab ihn damit &quot;in der Hand&quot; (glaub, seine Frau weiß nix davon  - noch ;-) ).</comment_text>
+            <comment_created_at>2019-05-11T14:53:57.710000</comment_created_at>
+            <comment_length>520</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041365858">
+        <user_name>Class of 92</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2014-08-06T11:50:39.470000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Das Titelbild ist sensationell - gibts das vielleicht wo? Sieht genial aus.  Kann mich als kleiner Knopf noch erinnern; die waren damals wirklich in aller Munde. Zu denen hat gefühlt jeder gehalten.   Coole Truppe und ewig schade.</comment_text>
+        <comment_created_at>2019-05-11T13:10:55.850000</comment_created_at>
+        <comment_length>230</comment_length>
+        <replies>
+          <reply id="1041366368">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ist das nicht natürlich, wenn eine österr. Mannschaft in einem europäischen Finale steht?!</comment_text>
+            <comment_created_at>2019-05-11T13:33:28.910000</comment_created_at>
+            <comment_length>90</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102926368
+- **Title:** Verletzte bei Brand in Hotel in Wien-Leopoldstadt
+- **Publish Date:** 2019-05-10T20:17:44
+- **Channel:** Panorama
+- **Ressort Name:** 2., Leopoldstadt
+- **Total Comments:** 3
+- **Root Comments:** 3
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102926368">
+    <title>Verletzte bei Brand in Hotel in Wien-Leopoldstadt</title>
+    <publish_date>2019-05-10T20:17:44</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>2., Leopoldstadt</ressort_name>
+    <total_comments>3</total_comments>
+    <root_comments>3</root_comments>
+    <user_threads>
+      <thread id="1041355546">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Kellerbrand is immer a schas. Gute Besserung den Verletzten!</comment_text>
+        <comment_created_at>2019-05-10T21:51:28.950000</comment_created_at>
+        <comment_length>60</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102936431
+- **Title:** Prügelei in Linz: Konflikt zwischen Busfahrer und Radfahrer eskalierte
+- **Publish Date:** 2019-05-11T08:34:00
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 1047
+- **Root Comments:** 156
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102936431">
+    <title>Prügelei in Linz: Konflikt zwischen Busfahrer und Radfahrer eskalierte</title>
+    <publish_date>2019-05-11T08:34:00</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>1047</total_comments>
+    <root_comments>156</root_comments>
+    <user_threads>
+      <thread id="1041361859">
+        <user_name>Pythia</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-08-11T12:30:51.773000</user_created_at>
+        <comment_headline>Schließe ich aus dem Verhalten vieler Radfahrer in Wien,</comment_headline>
+        <comment_text>so hat der Busfahrer meine volle Sympathie. Was sich auf Gehsteigen und in Parks an Radrennen abspielt ist ungeheuerlich. Absteigen auf einem stark frequentierten Zebrastreifen unnötig und die übelsten Beschimpfungen, wenn sich Kind oder Hund einmal am Gehsteig etwas von der Hand weg bewegt und man nicht sieht, wer von Hinten heran braust.</comment_text>
+        <comment_created_at>2019-05-11T10:07:24.673000</comment_created_at>
+        <comment_length>341</comment_length>
+        <replies>
+          <reply id="1041362214">
+            <user_id>180022</user_id>
+            <user_name>ReinhardS</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-05-07T13:58:59.347000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Muss man nicht sehen - Kind und Hund haben zu Fuss auf dem Fahrradstreifen nichts verloren.</comment_text>
+            <comment_created_at>2019-05-11T10:24:07.990000</comment_created_at>
+            <comment_length>91</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102942426
+- **Title:** Tödlicher Unfall mit Radfahrer in NÖ: Pkw-Lenker angezeigt
+- **Publish Date:** 2019-05-11T11:39:35
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 60
+- **Root Comments:** 16
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102942426">
+    <title>Tödlicher Unfall mit Radfahrer in NÖ: Pkw-Lenker angezeigt</title>
+    <publish_date>2019-05-11T11:39:35</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>60</total_comments>
+    <root_comments>16</root_comments>
+    <user_threads>
+      <thread id="1041373850">
+        <user_name>Ästling</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-11-07T21:55:29.740000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Darum verwende ich das hier:  https://road.cc/content/review/30623-hope-vision-district-3-rear-light  Auf der hellsten Stufe (die ich nicht verwende) ist es ca. so hell wie eine Nebelschlussleuchte. Schon auf der kleinsten Stufe sieht man das Licht auch Tag sehr deutlich und hell.</comment_text>
+        <comment_created_at>2019-05-11T18:19:13.033000</comment_created_at>
+        <comment_length>281</comment_length>
+        <replies>
+          <reply id="1041376366">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Was auch nix hilft, wenn z.B. der Autofahrer betrunken ist. Aber ein guter Anfang.</comment_text>
+            <comment_created_at>2019-05-11T20:03:21.040000</comment_created_at>
+            <comment_length>82</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102954263
+- **Title:** Attackierter Radler wird von Polizei einvernommen
+- **Publish Date:** 2019-05-11T18:31:01
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 783
+- **Root Comments:** 130
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102954263">
+    <title>Attackierter Radler wird von Polizei einvernommen</title>
+    <publish_date>2019-05-11T18:31:01</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>783</total_comments>
+    <root_comments>130</root_comments>
+    <user_threads>
+      <thread id="1041375241">
+        <user_name>nedwirklich!</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-01-31T13:05:01.750000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Soll der Türke nicht doch lieber in der Türkei Busfahrer bespucken?</comment_text>
+        <comment_created_at>2019-05-11T19:11:00.183000</comment_created_at>
+        <comment_length>67</comment_length>
+        <replies>
+          <reply id="1041375454">
+            <user_id>317761</user_id>
+            <user_name>Pythia</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-08-11T12:30:51.773000</user_created_at>
+            <comment_headline>Vor allem sollte er wissen,</comment_headline>
+            <comment_text>dass in Österreich Öffis grundsätzlich Vorrang haben. Kommt es zu einer Spurverengung, haben Radler und Autos anzuhalten, damit ein Bus ungehindert fahren kann. Da der Busfahrer so anständig war. anzuhalten, weil der Radler wild gestikulierte und der Busfahrer klären wollte, ob er ihn berührt hätte, find ich das sehr verantwortungsvoll und das Häferl am Rad ist wohl übergekocht, weil er den allgemeinen Fahrradvorrang für sich in Anspruch nehmen wollte.-</comment_text>
+            <comment_created_at>2019-05-11T19:20:37.700000</comment_created_at>
+            <comment_length>457</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041374777">
+        <user_name>Hier_koennte_ihre_Werbung_stehen</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-03-25T21:26:37.697000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>War es evtl. Notwehr des Busfahrers? Ich würde an seine Stelle zur Gewerkschaft gehen oder zur Arbeiterkammer. Sofortige Kündigung ist sehr hart...</comment_text>
+        <comment_created_at>2019-05-11T18:46:02.740000</comment_created_at>
+        <comment_length>147</comment_length>
+        <replies>
+          <reply id="1041376206">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Kündigung =/= Entlassung.</comment_text>
+            <comment_created_at>2019-05-11T19:54:55.283000</comment_created_at>
+            <comment_length>25</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103029222
+- **Title:** Wir haben "Game of Thrones", Staffel 8, Folge 5 gesehen: "The Bells"
+- **Publish Date:** 2019-05-13T13:51:22
+- **Channel:** Etat
+- **Ressort Name:** Gesehen: "Game of Thrones"
+- **Total Comments:** 1800
+- **Root Comments:** 387
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103029222">
+    <title>Wir haben &quot;Game of Thrones&quot;, Staffel 8, Folge 5 gesehen: &quot;The Bells&quot;</title>
+    <publish_date>2019-05-13T13:51:22</publish_date>
+    <channel>Etat</channel>
+    <ressort_name>Gesehen: &quot;Game of Thrones&quot;</ressort_name>
+    <total_comments>1800</total_comments>
+    <root_comments>387</root_comments>
+    <user_threads>
+      <thread id="1041420907">
+        <user_name>OneWayStreet</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-11-24T19:45:53.283000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wo die Episode mich endgültig verloren hat, war wie Jon Snows Männer beginnen auf einmal fröhlich ohne jegliche Hemmungen Unschuldige zu ermorden und zu vergewaltigen.  Man kann viel Schlechtes über sein strategisches und taktisches Geschick sagen, aber seine Leute schauen zu ihm auf als moralisches Vorbild und Respektsperson. Es passt einfach so überhaupt nicht zum bisherigen Verlauf, dass sie ihn und seine Werte nichtmal mehr ignorieren.</comment_text>
+        <comment_created_at>2019-05-13T13:58:22.777000</comment_created_at>
+        <comment_length>443</comment_length>
+        <replies>
+          <reply id="1041421130">
+            <user_id>684709</user_id>
+            <user_name>Friede, Freude, Freiheitskuchen</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-12-13T17:26:01.970000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Jein, die Northmen waren aber auch nie Unschuldslämmer...Jaime's Hand haben ja auch mal so aus einer Laune abgehackt und Brienne sollte auch vergewaltigt werden...</comment_text>
+            <comment_created_at>2019-05-13T14:04:48.347000</comment_created_at>
+            <comment_length>163</comment_length>
+          </reply>
+          <reply id="1041421087">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wenn Du an der Stelle schon &quot;raus&quot; warst, hast du auch kein Problem mit Aryas Pferd gehabt, das trotz Feuersbrunst, Geschrei und Zerstörung plötzlich wie gerufen und seelenruhig da steht wie ein equestrisches Uber.</comment_text>
+            <comment_created_at>2019-05-13T14:03:37.153000</comment_created_at>
+            <comment_length>214</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041421064">
+        <user_name>Big Guy</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-09-19T12:12:08.307000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Arya mit dem stärksten Plotarmor der Geschichte der Plotarmor. Rundherum alle tot und zu Asche zerfallen, für sie kein Problem. Kommt sogar noch ein von Gott (Bran?) gesandtes weißes Pferd um sie abzuholen.  1 Folge noch dann hat das Trauerspiel endlich ein Ende..</comment_text>
+        <comment_created_at>2019-05-13T14:03:01.853000</comment_created_at>
+        <comment_length>264</comment_length>
+        <replies>
+          <reply id="1041421209">
+            <user_id>243177</user_id>
+            <user_name>berti russell</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2002-02-15T12:28:45</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>und wie sie erst diese arme frau und ihr kind aus dem sicheren versteck in den sicheren tod getrieben hat!</comment_text>
+            <comment_created_at>2019-05-13T14:06:58.350000</comment_created_at>
+            <comment_length>106</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041421633">
+        <user_name>Clairevoyant</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-04-13T13:26:33.320000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Daenerys, first of her name, Queen of the Ashes...  Bei einer Targaryen ist Blut eben kein Wasser. Wahnsinn hat Tradition. Fire &amp;amp; Blood, das Motto des Hauses, wurde in King's Landing in die Tat umgesetzt. Bei all der Pyromanie wundert's mich auch nimmer, dass anno dazumal ganz Valyria in die Luft flog.  Wenn Daeny bloß den Red Keep mit Cersei niedergefackelt hätte, wäre der Krieg auch zu Ende gewesen.   Dass Drogon ALLE Skorpione zerstört, ohne getroffen zu werden, scheint höchst unrealistisch, zieht man in Betracht, was mit Rhaegal geschah.  Wozu wurde die Golden Company eingebaut? Eine Elite-Einheit, die zu nichts nutze war.  Cersei hätte sich ein Ende verdient, das ihr gerecht wird, durch den Valonqar.  Ein letztes Hoch auf den Hound!</comment_text>
+        <comment_created_at>2019-05-13T14:19:25.477000</comment_created_at>
+        <comment_length>747</comment_length>
+        <replies>
+          <reply id="1041421730">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Team Sandor!</comment_text>
+            <comment_created_at>2019-05-13T14:22:35.680000</comment_created_at>
+            <comment_length>12</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041421782">
+        <user_name>Efrafa</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-10-23T18:37:04.937000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Bomber Daenerys</comment_text>
+        <comment_created_at>2019-05-13T14:24:17.850000</comment_created_at>
+        <comment_length>15</comment_length>
+        <replies>
+          <reply id="1041422139">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wär eh genau Lemmy's Typ gewesen ;)</comment_text>
+            <comment_created_at>2019-05-13T14:36:50.953000</comment_created_at>
+            <comment_length>35</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103029867
+- **Title:** Das Ende von "Games of Thrones" wurde offenbar geleakt, Fans sind entsetzt
+- **Publish Date:** 2019-05-14T10:11:51
+- **Channel:** Web
+- **Ressort Name:** Webmix
+- **Total Comments:** 449
+- **Root Comments:** 123
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103029867">
+    <title>Das Ende von &quot;Games of Thrones&quot; wurde offenbar geleakt, Fans sind entsetzt</title>
+    <publish_date>2019-05-14T10:11:51</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webmix</ressort_name>
+    <total_comments>449</total_comments>
+    <root_comments>123</root_comments>
+    <user_threads>
+      <thread id="1041446914">
+        <user_name>Matrix5500</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-09-07T07:16:01.643000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der eiserne Tron steht doch im roten Bergfried oder? Von daher ...</comment_text>
+        <comment_created_at>2019-05-14T11:16:01.530000</comment_created_at>
+        <comment_length>66</comment_length>
+        <replies>
+          <reply id="1041448020">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ist &quot;Roter Bergfried&quot; wirklich die dt. Synchronisierung von &quot;Red Keep&quot;?</comment_text>
+            <comment_created_at>2019-05-14T11:45:50.860000</comment_created_at>
+            <comment_length>71</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103122472
+- **Title:** Zombieload: Grazer Forscher entdeckten gravierende Lücken bei Intel-Prozessoren
+- **Publish Date:** 2019-05-14T19:00:00
+- **Channel:** Web
+- **Ressort Name:** IT-Security
+- **Total Comments:** 121
+- **Root Comments:** 32
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103122472">
+    <title>Zombieload: Grazer Forscher entdeckten gravierende Lücken bei Intel-Prozessoren</title>
+    <publish_date>2019-05-14T19:00:00</publish_date>
+    <channel>Web</channel>
+    <ressort_name>IT-Security</ressort_name>
+    <total_comments>121</total_comments>
+    <root_comments>32</root_comments>
+    <user_threads>
+      <thread id="1041464433">
+        <user_name>Hieronymus Carl Friedrich</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-08-26T13:31:00.473000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wo wurden diese Intel Prozessoren entwickelt ?</comment_text>
+        <comment_created_at>2019-05-14T20:16:57.107000</comment_created_at>
+        <comment_length>46</comment_length>
+        <replies>
+          <reply id="1041466069">
+            <user_id>499308</user_id>
+            <user_name>4_8_15_16_23_42</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2000-08-29T13:35:50</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Bei Intel.</comment_text>
+            <comment_created_at>2019-05-14T21:03:58.923000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103260319
+- **Title:** Was hinter Kickls Jackenwahl steckt
+- **Publish Date:** 2019-05-16T15:00:44
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 1289
+- **Root Comments:** 723
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103260319">
+    <title>Was hinter Kickls Jackenwahl steckt</title>
+    <publish_date>2019-05-16T15:00:44</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>1289</total_comments>
+    <root_comments>723</root_comments>
+    <user_threads>
+      <thread id="1041526376">
+        <user_name>Pro Rechtschreiprevorm</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-03-27T14:32:39.177000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Im Kindergarten schreibt man den Namen des Kindes meist unauffällig innen auf diverse Kleidungsstücke, Hausschlapfen oder die Jausenbox um sicherzustellen, dass die Gschrappen wieder mit den richtigen Utensilien heimkommen.  Mama Kickl hat da denke ich etwas übers Ziel hinausgeschossen.</comment_text>
+        <comment_created_at>2019-05-16T16:00:43.470000</comment_created_at>
+        <comment_length>287</comment_length>
+        <replies>
+          <reply id="1041526830">
+            <user_id>680131</user_id>
+            <user_name>Nordpol_90°</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-09-14T18:36:17.003000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sie wissen aber schon, dass es bei zahlreichen Berufen bspw. bei Spitalsärzten, Krankenschwestern, Soldaten ..  üblich ist, den Namen gut lesbar außen an der Kleidung zu tragen, oder? Das ist nämlich der Unterschied zum Kindergartenkind, von dem Sie faseln.</comment_text>
+            <comment_created_at>2019-05-16T16:13:16.317000</comment_created_at>
+            <comment_length>257</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103283552
+- **Title:** Heike Göschl: Es gibt ein Leben davor und ein Leben danach
+- **Publish Date:** 2019-05-17T06:00:00
+- **Channel:** Sport
+- **Ressort Name:** Sportmonolog
+- **Total Comments:** 309
+- **Root Comments:** 98
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103283552">
+    <title>Heike Göschl: Es gibt ein Leben davor und ein Leben danach</title>
+    <publish_date>2019-05-17T06:00:00</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Sportmonolog</ressort_name>
+    <total_comments>309</total_comments>
+    <root_comments>98</root_comments>
+    <user_threads>
+      <thread id="1041563718">
+        <user_name>Cannonndalle</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-01-13T22:53:43.237000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Mit einer 13 jährigen auf den Glockner zu gehen, zeigt wohl, dass auch die Mutter das Risiko nicht scheut.  Das muss man achten und der Tod gehört da dazu.  Auch vom Glockner sind schon viele nicht mehr runter gekommen.   Ich bin verwundert, dass es mit einem Kind erlaubt ist.</comment_text>
+        <comment_created_at>2019-05-17T16:37:27.460000</comment_created_at>
+        <comment_length>277</comment_length>
+        <replies>
+          <reply id="1041564210">
+            <user_id>93115</user_id>
+            <user_name>ironing</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2004-07-11T23:37:05.387000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Der Normalweg ist wirklich nicht allzu schwer und bei einem erfahrenen Bergführer kaum mit Risiko verbunden.</comment_text>
+            <comment_created_at>2019-05-17T16:55:27.910000</comment_created_at>
+            <comment_length>108</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041561115">
+        <user_name>Der Schakal1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-09-22T17:09:09.467000</user_created_at>
+        <comment_headline>Mir, Flachländer, wird die Faszination der Berge</comment_headline>
+        <comment_text>wohl ewig verborgen bleiben; aber wenn man eine Frau und zwei Kinder hat, müsste man die Faszination für die Berge nicht ins Nachtkastl legen???  Sind die Berge so etwas wie Drogen? Man muss rauf?   Na dann können mir die alle Leid tun!!</comment_text>
+        <comment_created_at>2019-05-17T14:48:27.233000</comment_created_at>
+        <comment_length>237</comment_length>
+        <replies>
+          <reply id="1041563378">
+            <user_id>688899</user_id>
+            <user_name>Kyle Broflovski</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-03-06T19:45:24.373000</user_created_at>
+            <comment_headline>&quot;enn man eine Frau und zwei Kinder hat, müsste man die Faszination für die Berge nicht ins Nachtkastl legen??? &quot;</comment_headline>
+            <comment_text>Und den Motorradschlüssel gleich dazu?</comment_text>
+            <comment_created_at>2019-05-17T16:24:51.383000</comment_created_at>
+            <comment_length>38</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103309968
+- **Title:** ESC 2019: Porno auf dem Traumschiff – und leider Nein für Österreich
+- **Publish Date:** 2019-05-17T08:51:41
+- **Channel:** Kultur
+- **Ressort Name:** Song Contest 2019
+- **Total Comments:** 728
+- **Root Comments:** 258
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103309968">
+    <title>ESC 2019: Porno auf dem Traumschiff – und leider Nein für Österreich</title>
+    <publish_date>2019-05-17T08:51:41</publish_date>
+    <channel>Kultur</channel>
+    <ressort_name>Song Contest 2019</ressort_name>
+    <total_comments>728</total_comments>
+    <root_comments>258</root_comments>
+    <user_threads>
+      <thread id="1041552518">
+        <user_name>Ben Vassy</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2002-01-24T23:03:01</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ein Schreiberling, der die Zielgruppe beim ESC für weiblich hält, verfaßt einen Artikel über das zweite Semifinale. Was kommt als Nächstes? Richard Lugner erklärt uns die Quantenphysik?   &amp;gt; Die Musik klingt, wie es auf Ö3 seit Jahren klingelt.  Darum gehts. Daher der ganze Haß: Das ist Unterhaltungsmusik, die sich dadurch dafiniert, daß sie eingängig ist, zum fröhlichen Mithüpfen (oder zum liebeskümmerlichen Mitleiden) einlädt und kommerziell möglichst gut verwertbar ist. Es ist eine Unterhaltungs(!)sendung, for fcuknig Christ's sake. Kein Jazz-Festival.  Wer mit dieser Einordnung überfordert ist, sollte seine Berufswahl überdenken. Wegen der Umweltgefährdung warats: Schwachsinnige Artikel verpesten unsere Welt mehr als &quot;Say Na Na Na&quot;.</comment_text>
+        <comment_created_at>2019-05-17T10:00:04.863000</comment_created_at>
+        <comment_length>745</comment_length>
+        <replies>
+          <reply id="1041552730">
+            <user_id>691617</user_id>
+            <user_name>a song vom Schweiß der Eier</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-04-30T13:54:34.173000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ö3 spielt keine Musik, die vertonen bloß Koloskopien.</comment_text>
+            <comment_created_at>2019-05-17T10:06:57.963000</comment_created_at>
+            <comment_length>53</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041552538">
+        <user_name>unsinkable sam (oskar)</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-04-01T12:46:54.670000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>alsdenn roko ist kroatisch, entsprechend rochus Blaževic: https://www.kroatischlernen.eu/blog/kroatische-nachnamen  was hat das mit porno zu tun? und den rest spar ich mir, obwohl ich null interesse am esc hab</comment_text>
+        <comment_created_at>2019-05-17T10:00:46.237000</comment_created_at>
+        <comment_length>209</comment_length>
+        <replies>
+          <reply id="1041552666">
+            <user_id>162425</user_id>
+            <user_name>Mista</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2001-09-13T09:11:26</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>man darf nicht immer alles so tierisch ernst nehmen! und BLASEWITSCH (!) ist sehr wohl ein Pornoname! und Roko sowieso! lol und außerdem liegt dort Stroh rum! also bitte........</comment_text>
+            <comment_created_at>2019-05-17T10:04:58.457000</comment_created_at>
+            <comment_length>177</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103363143
+- **Title:** Ronald S. Sullivan: Uni-Professor scheiterte an Harvey Weinstein
+- **Publish Date:** 2019-05-17T18:48:05
+- **Channel:** International
+- **Ressort Name:** USA
+- **Total Comments:** 89
+- **Root Comments:** 37
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103363143">
+    <title>Ronald S. Sullivan: Uni-Professor scheiterte an Harvey Weinstein</title>
+    <publish_date>2019-05-17T18:48:05</publish_date>
+    <channel>International</channel>
+    <ressort_name>USA</ressort_name>
+    <total_comments>89</total_comments>
+    <root_comments>37</root_comments>
+    <user_threads>
+      <thread id="1041571637">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Seinem Prinzip folgend, dass jeder Beschuldigte einen guten Anwalt verdient,&quot;  Exakt.</comment_text>
+        <comment_created_at>2019-05-17T20:29:46.680000</comment_created_at>
+        <comment_length>86</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103364196
+- **Title:** Strache soll Staatsaufträge für Wahlkampfspenden in Aussicht gestellt haben
+- **Publish Date:** 2019-05-17T18:19:06.190000
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 12042
+- **Root Comments:** 5473
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103364196">
+    <title>Strache soll Staatsaufträge für Wahlkampfspenden in Aussicht gestellt haben</title>
+    <publish_date>2019-05-17T18:19:06.190000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>12042</total_comments>
+    <root_comments>5473</root_comments>
+    <user_threads>
+      <thread id="1041570270">
+        <user_name>Alfred J. Noll</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-07-11T10:52:42.913000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Solange in diesem Land irgendwo irgendein Posten oder Pöstchen zu besetzen ist, wird diese Koalition halten - mit oder ohne Strache. - Tritt Strache &quot;freiwillig&quot; zurück, wird er zum Märtyrer der &quot;Anständigen&quot;; wird er entlassen, wird er zum Märtyrer der &quot;Entrechteten&quot; - bei seinen Anhängern wird ihm das kaum schaden, denn einerlei was er an diesem Abend gesagt und versprochen hat: Es war doch immer für die &quot;gute Sache&quot; - da braucht es nur eine kleine Korrektur beim notorischen Opferdispositiv der FPÖler, und schon geht's weiter... Und ein trotzig-begehrliches &quot;Jetzt erst recht!&quot; hat schon Waldheim hoch emporgetragen. Wir dürfen in Kurzens Buchstaben-Suppe lesen...</comment_text>
+        <comment_created_at>2019-05-17T20:02:34.093000</comment_created_at>
+        <comment_length>672</comment_length>
+        <replies>
+          <reply id="1041571345">
+            <user_id>240232</user_id>
+            <user_name>Warpsignatur</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-06-09T16:50:07.900000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Es ist Aufgabe der Opposition etwas dagegen zu tun. Da gehören Sie ja auch dazu. Ein paar Foren-Kommentare werden aber wohl nicht ausreichen...</comment_text>
+            <comment_created_at>2019-05-17T20:23:44.240000</comment_created_at>
+            <comment_length>143</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103367541
+- **Title:** Neos fordern Neuwahlen, Karas will vorerst nicht kommentieren
+- **Publish Date:** 2019-05-17T19:40:33.620000
+- **Channel:** Inland
+- **Ressort Name:** Parteien
+- **Total Comments:** 1060
+- **Root Comments:** 402
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103367541">
+    <title>Neos fordern Neuwahlen, Karas will vorerst nicht kommentieren</title>
+    <publish_date>2019-05-17T19:40:33.620000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Parteien</ressort_name>
+    <total_comments>1060</total_comments>
+    <root_comments>402</root_comments>
+    <user_threads>
+      <thread id="1041570744">
+        <user_name>woody999</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-11-11T11:41:51.503000</user_created_at>
+        <comment_headline>Also so feig hätte ich Karas gar nicht eingeschätzt</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-17T20:12:06.143000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041572439">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Naa, feig nicht, aber ein Politprofi durch und durch. Dem kommt kaum was aus, was nicht abgestimmt ist.</comment_text>
+            <comment_created_at>2019-05-17T20:45:31.037000</comment_created_at>
+            <comment_length>103</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041571552">
+        <user_name>maaskantje_</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-10-03T17:44:45.807000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ich würde auch gerne was dazu sagen...</comment_text>
+        <comment_created_at>2019-05-17T20:27:51.003000</comment_created_at>
+        <comment_length>38</comment_length>
+        <replies>
+          <reply id="1041571781">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wenn Sie meinen, dass wir es wissen sollten, nur zu.</comment_text>
+            <comment_created_at>2019-05-17T20:32:52.460000</comment_created_at>
+            <comment_length>52</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103382534
+- **Title:** Heinz-Christian Straches Politparty endet blau auf Ibiza
+- **Publish Date:** 2019-05-18T12:28:30.600000
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 1415
+- **Root Comments:** 596
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103382534">
+    <title>Heinz-Christian Straches Politparty endet blau auf Ibiza</title>
+    <publish_date>2019-05-18T12:28:30.600000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>1415</total_comments>
+    <root_comments>596</root_comments>
+    <user_threads>
+      <thread id="1041616420">
+        <user_name>objektiv?!</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-10-16T11:14:04.393000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Abwarten. Die Menschen vergessen schnell.. Tot gesagte leben länger.</comment_text>
+        <comment_created_at>2019-05-18T14:00:24.583000</comment_created_at>
+        <comment_length>68</comment_length>
+        <replies>
+          <reply id="1041617417">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Eben. Hazee wird uns wohl bei der übernächsten Wien-Wahl wieder &quot;beglücken&quot;.</comment_text>
+            <comment_created_at>2019-05-18T14:14:45.470000</comment_created_at>
+            <comment_length>76</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041616905">
+        <user_name>Argamak de oro</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2007-01-25T11:01:36.660000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ein feiertag für anstand und demokratie!</comment_text>
+        <comment_created_at>2019-05-18T14:07:09.170000</comment_created_at>
+        <comment_length>40</comment_length>
+        <replies>
+          <reply id="1041617325">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Mit Hofer als Nachfolger? Naja.</comment_text>
+            <comment_created_at>2019-05-18T14:13:21.697000</comment_created_at>
+            <comment_length>31</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041617142">
+        <user_name>sc68</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-07-19T23:26:30.440000</user_created_at>
+        <comment_headline>wäre interessant</comment_headline>
+        <comment_text>wer hat dieses video gemacht und wer hat es wem zugespielt?</comment_text>
+        <comment_created_at>2019-05-18T14:10:31.073000</comment_created_at>
+        <comment_length>59</comment_length>
+        <replies>
+          <reply id="1041617285">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Natürlich sollte das geklärt werden. Hat aber mit der offensichtlichen Verlogenheit und der damit verbundenen Uneignung für Staatsämter der blaunen Partie erstmal nix zu tun.</comment_text>
+            <comment_created_at>2019-05-18T14:12:47.050000</comment_created_at>
+            <comment_length>174</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103382950
+- **Title:** "Weiße Linie am Tisch": Netz lacht über Strache-Memes
+- **Publish Date:** 2019-05-18T10:29:14
+- **Channel:** Web
+- **Ressort Name:** Webmix
+- **Total Comments:** 687
+- **Root Comments:** 184
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103382950">
+    <title>&quot;Weiße Linie am Tisch&quot;: Netz lacht über Strache-Memes</title>
+    <publish_date>2019-05-18T10:29:14</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webmix</ressort_name>
+    <total_comments>687</total_comments>
+    <root_comments>184</root_comments>
+    <user_threads>
+      <thread id="1041666458">
+        <user_name>Engerth</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-05-18T10:57:42.323000</user_created_at>
+        <comment_headline>Der Buniti abgehakt</comment_headline>
+        <comment_text>Und Nun zum Basti, dem richtigen Problem, Der all das eingefädelt hat. Der soll endlich mal sein Studium absolvieren und vielleicht wird man ihm beibringen können, dass das Kanzlerwerden nicht der Sinn des Lebens ist...</comment_text>
+        <comment_created_at>2019-05-19T09:53:16.047000</comment_created_at>
+        <comment_length>219</comment_length>
+        <replies>
+          <reply id="1041667113">
+            <user_id>673157</user_id>
+            <user_name>Benzedrin</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-05-17T13:05:01.820000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Es ist nie zu spät für einen zweiten Bildungsweg.</comment_text>
+            <comment_created_at>2019-05-19T10:06:39.053000</comment_created_at>
+            <comment_length>49</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103384434
+- **Title:** Norbert Hofer, die lächelnde blaue Allzweckwaffe
+- **Publish Date:** 2019-05-20T09:05:49
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 618
+- **Root Comments:** 320
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103384434">
+    <title>Norbert Hofer, die lächelnde blaue Allzweckwaffe</title>
+    <publish_date>2019-05-20T09:05:49</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>618</total_comments>
+    <root_comments>320</root_comments>
+    <user_threads>
+      <thread id="1041722041">
+        <user_name>Zico2008</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-10-05T18:33:14.740000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Aber ganz ehrlich: Verstehe bis heute nicht wie irgendjemand diesen Mann als sympathisch, ehrlich und vor allem authentisch  wahrnehmen kann.</comment_text>
+        <comment_created_at>2019-05-20T09:54:31.917000</comment_created_at>
+        <comment_length>141</comment_length>
+        <replies>
+          <reply id="1041723254">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Weil er so liab lächelt, mit seine Pausbackerl, der Norbsi.</comment_text>
+            <comment_created_at>2019-05-20T10:12:51.640000</comment_created_at>
+            <comment_length>59</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041719408">
+        <user_name>Novae</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-05-10T22:30:07.510000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Hofer ist, neben Kickl, tatsächlich einer der gefährlichsten Politikerdarsteller bei den Effen.  Beide sind wirklich schlau und haben keine Probleme mit ihrer Impulskontrolle.  Und hinter diesem &quot;Grinsen&quot;, steckt ein SEHR machtbewusster und Gefährlicher rechter Recke.</comment_text>
+        <comment_created_at>2019-05-20T09:12:46.683000</comment_created_at>
+        <comment_length>268</comment_length>
+        <replies>
+          <reply id="1041721872">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Haider war Politiker, Strache ein Emporkömmling. Hofer ist einer der Ideologen der Effen. Wie Sie sagen, er ist gefährlich. Leider verstehen das die Menschen in diesem Land nicht.</comment_text>
+            <comment_created_at>2019-05-20T09:51:59.413000</comment_created_at>
+            <comment_length>179</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103424380
+- **Title:** Die Drahtzieher hinter dem Strache-Video
+- **Publish Date:** 2019-05-19T18:41:36
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 2776
+- **Root Comments:** 698
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103424380">
+    <title>Die Drahtzieher hinter dem Strache-Video</title>
+    <publish_date>2019-05-19T18:41:36</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>2776</total_comments>
+    <root_comments>698</root_comments>
+    <user_threads>
+      <thread id="1041713921">
+        <user_name>Hubert Foschum</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-02-01T08:31:43.300000</user_created_at>
+        <comment_headline>Cui Bono?</comment_headline>
+        <comment_text>Auf die Frage &quot;Wem nützt es?&quot; gibt es eine sehr klare, dunkelrote Antwort. Nachdem dieses Video schon vor der Wahl 2017 aufgenommen wurde, liegt der Hinweis auf die Kern-Silberstein-SPÖ sehr nahe.</comment_text>
+        <comment_created_at>2019-05-20T06:51:36.847000</comment_created_at>
+        <comment_length>196</comment_length>
+        <replies>
+          <reply id="1041714427">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Bledsinn.</comment_text>
+            <comment_created_at>2019-05-20T07:17:26.610000</comment_created_at>
+            <comment_length>9</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103438236
+- **Title:** Droht Strache und Gudenus Gefängnis?
+- **Publish Date:** 2019-05-20T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 2001
+- **Root Comments:** 614
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103438236">
+    <title>Droht Strache und Gudenus Gefängnis?</title>
+    <publish_date>2019-05-20T06:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>2001</total_comments>
+    <root_comments>614</root_comments>
+    <user_threads>
+      <thread id="1041713743">
+        <user_name>benes1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-09-03T09:30:55.230000</user_created_at>
+        <comment_headline>Es wird doch Zeit, dass der Straftatbestand der EU-feindlichen Handlung...</comment_headline>
+        <comment_text>... eingeführt wird.  Dafür könnte man die sogenannten &quot;Aufdecker&quot; dann belangen, da sie durch ihre Schmutzkübel-Aktion die Koalition zerbröselt und damit weitere dringende Reformen (Privatisierungen, Pensionen, Neutralität...), die diese Koalition geplant hat, um Österreich wirtschaftlich und militärisch endlich zu 100% auf US- bzw. EU-Kurs zu bringen, wenn schon nicht verhindert, so doch um Jahre verzögert haben.</comment_text>
+        <comment_created_at>2019-05-20T06:42:19.330000</comment_created_at>
+        <comment_length>418</comment_length>
+        <replies>
+          <reply id="1041713833">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Auf &quot;US-Niveau&quot;? Ich hoffe nicht, dass wir jemals so tief sinken.</comment_text>
+            <comment_created_at>2019-05-20T06:47:08.493000</comment_created_at>
+            <comment_length>65</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103448721
+- **Title:** Johann Gudenus tritt aus der FPÖ aus, Strache-Comeback hingegen nicht ausgeschlossen
+- **Publish Date:** 2019-05-19T21:02:13.730000
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 1394
+- **Root Comments:** 640
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103448721">
+    <title>Johann Gudenus tritt aus der FPÖ aus, Strache-Comeback hingegen nicht ausgeschlossen</title>
+    <publish_date>2019-05-19T21:02:13.730000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>1394</total_comments>
+    <root_comments>640</root_comments>
+    <user_threads>
+      <thread id="1041704895">
+        <user_name>twgs</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-03-20T06:53:13.223000</user_created_at>
+        <comment_headline>Grasser, Meischberger, Scheuch, Scheuch, Gorbach, Westenthaler, Reichhold, Dörfler, Haider, Strache, Gudenus, ...</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-19T21:58:42.040000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041705146">
+            <user_id>683693</user_id>
+            <user_name>dilak</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-11-24T22:11:23.413000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Dobernig. Krüger. Petzner.</comment_text>
+            <comment_created_at>2019-05-19T22:03:46.907000</comment_created_at>
+            <comment_length>26</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103464387
+- **Title:** Wir haben die letzte Folge von "Game of Thrones" gesehen: "The Iron Throne"
+- **Publish Date:** 2019-05-20T13:28:36
+- **Channel:** Etat
+- **Ressort Name:** Gesehen: "Game of Thrones"
+- **Total Comments:** 1200
+- **Root Comments:** 362
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103464387">
+    <title>Wir haben die letzte Folge von &quot;Game of Thrones&quot; gesehen: &quot;The Iron Throne&quot;</title>
+    <publish_date>2019-05-20T13:28:36</publish_date>
+    <channel>Etat</channel>
+    <ressort_name>Gesehen: &quot;Game of Thrones&quot;</ressort_name>
+    <total_comments>1200</total_comments>
+    <root_comments>362</root_comments>
+    <user_threads>
+      <thread id="1041787649">
+        <user_name>CheshireTardis</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2017-01-31T11:41:58.723000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Shame Shame Shame!</comment_text>
+        <comment_created_at>2019-05-21T08:19:04.267000</comment_created_at>
+        <comment_length>18</comment_length>
+        <replies>
+          <reply id="1041790118">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das heben wir uns für die nächste Regierungsangelobung auf...</comment_text>
+            <comment_created_at>2019-05-21T09:00:50.733000</comment_created_at>
+            <comment_length>61</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041780711">
+        <user_name>Varys</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-04-14T20:35:05.620000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wenn Drogon den Thron nicht abfackelt, wie soll Bran da sitzen? Der hat eh seinen eigenen Stuhl. Drogon wusste natürlich da schon, dass Bran der neue König wird. Intelligente Tiere, diese Drachen..</comment_text>
+        <comment_created_at>2019-05-20T23:02:48.623000</comment_created_at>
+        <comment_length>197</comment_length>
+        <replies>
+          <reply id="1041781945">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Fliegende Gadsen.</comment_text>
+            <comment_created_at>2019-05-20T23:42:09.073000</comment_created_at>
+            <comment_length>17</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103480797
+- **Title:** 22-Jähriger in Wien-Penzing durch Bauchstich schwer verletzt
+- **Publish Date:** 2019-05-20T12:14:41
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 137
+- **Root Comments:** 33
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103480797">
+    <title>22-Jähriger in Wien-Penzing durch Bauchstich schwer verletzt</title>
+    <publish_date>2019-05-20T12:14:41</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>137</total_comments>
+    <root_comments>33</root_comments>
+    <user_threads>
+      <thread id="1041751966">
+        <user_name>PeterundPaul</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-11-08T12:10:13.887000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Jetzt wird es auch schon in Penzing eng, mit den fliegenden Stichwaffen. Glaube jetzt kann man nur noch in Sievering sicher durch Parks spazieren?</comment_text>
+        <comment_created_at>2019-05-20T15:57:46.540000</comment_created_at>
+        <comment_length>146</comment_length>
+        <replies>
+          <reply id="1041755000">
+            <user_id>248049</user_id>
+            <user_name>susi strolcher</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2000-08-24T13:45:59.427000</user_created_at>
+            <comment_headline>sieveringer steinbruch traditionelle location für lsd orgien von linkslinken :-)</comment_headline>
+            <comment_text>so wie ruine baden/mödling für völkische lagerfeuer zwischen neo nazi lehrkräften und zukünftigen paintballern und identitären...se san nirgends sicha.</comment_text>
+            <comment_created_at>2019-05-20T16:39:42.103000</comment_created_at>
+            <comment_length>151</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103488631
+- **Title:** BsoffeneGschicht: Welche haben Sie zu bieten?
+- **Publish Date:** 2019-05-21T06:00:00
+- **Channel:** User
+- **Ressort Name:** Mitreden
+- **Total Comments:** 936
+- **Root Comments:** 369
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103488631">
+    <title>BsoffeneGschicht: Welche haben Sie zu bieten?</title>
+    <publish_date>2019-05-21T06:00:00</publish_date>
+    <channel>User</channel>
+    <ressort_name>Mitreden</ressort_name>
+    <total_comments>936</total_comments>
+    <root_comments>369</root_comments>
+    <user_threads>
+      <thread id="1041892280">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Bei einem Konzert auf die Bühne geklettert. Aber statt dem Stagedive kurz aufs Schlagzeug-Podest vor die Bassdrum gesetzt und dem Sänger eine Flasche Wasser weggetrunken, die dort gestanden ist. Der nahm's locker, ich war offensichtlich einfach nur fertig. Der Bassist hat mich dafür ein bissl geschimpft.</comment_text>
+        <comment_created_at>2019-05-22T22:02:55.627000</comment_created_at>
+        <comment_length>305</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103501817
+- **Title:** "Der Name der Rose" als Serie: John Turturro auf Sean Connerys Spuren
+- **Publish Date:** 2019-05-21T10:39:50
+- **Channel:** Etat
+- **Ressort Name:** Sky
+- **Total Comments:** 52
+- **Root Comments:** 21
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103501817">
+    <title>&quot;Der Name der Rose&quot; als Serie: John Turturro auf Sean Connerys Spuren</title>
+    <publish_date>2019-05-21T10:39:50</publish_date>
+    <channel>Etat</channel>
+    <ressort_name>Sky</ressort_name>
+    <total_comments>52</total_comments>
+    <root_comments>21</root_comments>
+    <user_threads>
+      <thread id="1041798316">
+        <user_name>Wolfsheimer</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-05-28T10:49:20.020000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Let me tell *you* something, pendejo. You pull any of your crazy shid with us, you flash a piece out on the lanes, I'll take it away from you, and stick it up your azz and pull the fukking trigger 'til it goes &quot;click.&quot;</comment_text>
+        <comment_created_at>2019-05-21T11:02:38.820000</comment_created_at>
+        <comment_length>219</comment_length>
+        <replies>
+          <reply id="1041800461">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Twelve year olds, dude...</comment_text>
+            <comment_created_at>2019-05-21T11:28:11.860000</comment_created_at>
+            <comment_length>25</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103506862
+- **Title:** Sebastian Kurz, der kühle Maschinist der Macht
+- **Publish Date:** 2019-05-20T19:10:27
+- **Channel:** Meinung
+- **Ressort Name:** Michael Völker
+- **Total Comments:** 1578
+- **Root Comments:** 518
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103506862">
+    <title>Sebastian Kurz, der kühle Maschinist der Macht</title>
+    <publish_date>2019-05-20T19:10:27</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Michael Völker</ressort_name>
+    <total_comments>1578</total_comments>
+    <root_comments>518</root_comments>
+    <user_threads>
+      <thread id="1041766003">
+        <user_name>Alfred J. Noll</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-07-11T10:52:42.913000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Sebastian Kurz ist der Demiurg der jetzigen Krise - er soll gehen.</comment_text>
+        <comment_created_at>2019-05-20T19:16:18.723000</comment_created_at>
+        <comment_length>66</comment_length>
+        <replies>
+          <reply id="1041768435">
+            <user_id>64218</user_id>
+            <user_name>Gallo Way</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2003-05-16T09:08:55</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Natürlich wird er nicht gehen. So wies aktuell ausschaut hat er ja gewonnen.</comment_text>
+            <comment_created_at>2019-05-20T19:44:36.983000</comment_created_at>
+            <comment_length>76</comment_length>
+          </reply>
+          <reply id="1041770163">
+            <user_id>144165</user_id>
+            <user_name>Meerwelle</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-06-08T12:37:47.610000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Tschuldigung, dass ich das so offen sage, aber ich finde eine solche Forderung einfach nur unsäglich dumm. Und ich greife ganz selten jemand &quot;ad personam&quot; an.  Egal wie man zu Kurz steht, aber es gäbe eine Jahrhundertchance, die FPÖ entscheidend zu schwächen so dass man endlich in Österreich ohne diesen Mühlstein Politik wie in einem vernünftigen westeuropäischen Land machen kann.  Und was macht ihr? Pinkelt euch gegenseitig mit Wollust und Inbrunst gegenseitig ans Bein.  Echt super. Urleinwand. Und sooo toll.</comment_text>
+            <comment_created_at>2019-05-20T20:09:31.180000</comment_created_at>
+            <comment_length>515</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103509510
+- **Title:** Johann Gudenus: Der engste Vertraute ist Straches Sargnagel
+- **Publish Date:** 2019-05-21T06:00:00
+- **Channel:** Panorama
+- **Ressort Name:** Wiener Rathaus
+- **Total Comments:** 961
+- **Root Comments:** 362
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103509510">
+    <title>Johann Gudenus: Der engste Vertraute ist Straches Sargnagel</title>
+    <publish_date>2019-05-21T06:00:00</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wiener Rathaus</ressort_name>
+    <total_comments>961</total_comments>
+    <root_comments>362</root_comments>
+    <user_threads>
+      <thread id="1041791440">
+        <user_name>cavecanem1</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2010-03-07T16:57:03.217000</user_created_at>
+        <comment_headline>Ich bin der Person, die das Video der SZ zugespielt hat sehr dankbar</comment_headline>
+        <comment_text>Die Selbstverständlichkeit, mit welcher Strache dort korrupt agiert, die Krone politisch gegen Austausch von Geld missbrauchen will, zeigt ein erschreckendes Sittenbild und Rechtsverständnis. Und wie reagiert die FPÖ? So, wie immer. Täter-Opfer Umkehr, mit Rechtswegen gegen den Urheber des Videos drohen wobei der Inhalt nicht wichtig ist.  Ich bin froh, dass es an die Öffentlichkeit gekommen ist, denn Österreich war schon mit einem Fuss in Orbanistan. Das war eine deutliche Warnung. Ob die anderen politischen Akteure daraus Lehren gezogen haben, wird sich noch zeigen.</comment_text>
+        <comment_created_at>2019-05-21T09:21:50.770000</comment_created_at>
+        <comment_length>574</comment_length>
+        <replies>
+          <reply id="1041793439">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>So wie sich Loacker von den neos gebärdet, würde ich letzteres eher verneinen. https://twitter.com/GLoacker/status/1130208782515081216</comment_text>
+            <comment_created_at>2019-05-21T09:49:00.380000</comment_created_at>
+            <comment_length>134</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103526625
+- **Title:** Niki Laudas Leben in Zitaten
+- **Publish Date:** 2019-05-21T05:32:59
+- **Channel:** Sport
+- **Ressort Name:** Niki Lauda
+- **Total Comments:** 18
+- **Root Comments:** 16
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103526625">
+    <title>Niki Laudas Leben in Zitaten</title>
+    <publish_date>2019-05-21T05:32:59</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Niki Lauda</ressort_name>
+    <total_comments>18</total_comments>
+    <root_comments>16</root_comments>
+    <user_threads>
+      <thread id="1041797992">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Klingt jetzt vielleicht nicht ganz passend, aber ich habe mir 'Rush' mittlerweile 3x angeschaut. Selten einen Film gesehen, der so nahe an den Emotionen, dem Ehrgeiz, der Enttäuschung der Niederlage und der Lust am Siegen dran war. Wenn die Darstellung von Daniel Brühl nur halbwegs realistisch war, hat Niki Lauda ein unglaublich spannendes und beneidenswertes Leben geführt. Meine Gedanken sind bei seinen 2 kleinen Kindern. In dem Alter den Vater verlieren muss schrecklich sein.</comment_text>
+        <comment_created_at>2019-05-21T10:57:15.077000</comment_created_at>
+        <comment_length>482</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103549093
+- **Title:** Kabarettistenpaar Kaufmann-Herberstein: "Sind ständig auf Stadt- und Landflucht"
+- **Publish Date:** 2019-05-27T06:00:00
+- **Channel:** Immobilien
+- **Ressort Name:** Wohngespräch
+- **Total Comments:** 34
+- **Root Comments:** 12
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103549093">
+    <title>Kabarettistenpaar Kaufmann-Herberstein: &quot;Sind ständig auf Stadt- und Landflucht&quot;</title>
+    <publish_date>2019-05-27T06:00:00</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohngespräch</ressort_name>
+    <total_comments>34</total_comments>
+    <root_comments>12</root_comments>
+    <user_threads>
+      <thread id="1042060134">
+        <user_name>Schnitzlesserfürerdogan</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-05-23T08:16:33</user_created_at>
+        <comment_headline>Das tolle am Altbau (aber auch bei den 60er,70er,80er Bauten) ist, dass diese größtenteils noch eine eigene Küche aufweisen.</comment_headline>
+        <comment_text>Bei den aktuellen Neubauwohnungen hat sich das Unding der &quot;Wohnküche&quot; durchgesetzt. Diese Architekten die so etwas planen  &amp;amp; für progressiv erklären haben höchtwahrscheinlich noch nie ordentlich gekocht. :D   Zur Wohnung im Artikel: Sehr nett. Klein aber fein. Mit einer kleinen Außenfläche wäre sie perfekt.</comment_text>
+        <comment_created_at>2019-05-27T08:36:08.363000</comment_created_at>
+        <comment_length>308</comment_length>
+        <replies>
+          <reply id="1042066884">
+            <user_id>240940</user_id>
+            <user_name>Bernd Brody</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-05-07T09:51:15.707000</user_created_at>
+            <comment_headline>wohnküche</comment_headline>
+            <comment_text>ist eigentlich standard - und eine schöne küche gibt was her. man versammelt sich rund um den block kocht zusammen und das wichtigste, hat platz. jede neue küche kannn dunstabzüge verbauen die so stark sind dass der geruch kein thema mehr ist</comment_text>
+            <comment_created_at>2019-05-27T10:48:13.660000</comment_created_at>
+            <comment_length>242</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042073666">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der Parkett ist - sofern gut gepflegt - ein Traum. Hält ewig.</comment_text>
+        <comment_created_at>2019-05-27T12:27:08.370000</comment_created_at>
+        <comment_length>61</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1042083416">
+        <user_name>El Señor Hood</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-08-03T12:10:16.137000</user_created_at>
+        <comment_headline>urschöner Boden</comment_headline>
+        <comment_text>und die coole Värde-Küche vom Ikea.  Aber ein Bücherregal vollgestopft mit DVDs ist das absolute No-Go...</comment_text>
+        <comment_created_at>2019-05-27T14:05:19.603000</comment_created_at>
+        <comment_length>105</comment_length>
+        <replies>
+          <reply id="1042101626">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Bücher sind eh alle am e-Reader gespeichert :-P</comment_text>
+            <comment_created_at>2019-05-27T17:28:51.590000</comment_created_at>
+            <comment_length>47</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103563380
+- **Title:** Drei tote Frauen in Wien waren Jugendamt bekannt
+- **Publish Date:** 2019-05-21T14:46:49.390000
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 239
+- **Root Comments:** 19
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103563380">
+    <title>Drei tote Frauen in Wien waren Jugendamt bekannt</title>
+    <publish_date>2019-05-21T14:46:49.390000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>239</total_comments>
+    <root_comments>19</root_comments>
+    <user_threads>
+      <thread id="1041836209">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Häufige Polizeieinsätze sind nicht normal, auch wenn viele Menschen in einem Haus wohnen.</comment_text>
+        <comment_created_at>2019-05-21T20:36:50.593000</comment_created_at>
+        <comment_length>89</comment_length>
+        <replies>
+          <reply id="1041838533">
+            <user_id>632068</user_id>
+            <user_name>Das ist aber ein schöner Postingname!</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-04-29T09:50:02.070000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>In Wien schon.</comment_text>
+            <comment_created_at>2019-05-21T21:32:14.077000</comment_created_at>
+            <comment_length>14</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103572410
+- **Title:** Neuer FPÖ-Chef Nepp: Partei "hervorragend" aufgestellt
+- **Publish Date:** 2019-05-21T16:59:15
+- **Channel:** Panorama
+- **Ressort Name:** Wien
+- **Total Comments:** 279
+- **Root Comments:** 201
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103572410">
+    <title>Neuer FPÖ-Chef Nepp: Partei &quot;hervorragend&quot; aufgestellt</title>
+    <publish_date>2019-05-21T16:59:15</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wien</ressort_name>
+    <total_comments>279</total_comments>
+    <root_comments>201</root_comments>
+    <user_threads>
+      <thread id="1041830119">
+        <user_name>Jo.Berger</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-05-05T06:36:05.720000</user_created_at>
+        <comment_headline>Steht der auch unter Einfluss von KO Tropfen???....</comment_headline>
+        <comment_text>.. unglaublich...</comment_text>
+        <comment_created_at>2019-05-21T18:53:40.697000</comment_created_at>
+        <comment_length>17</comment_length>
+        <replies>
+          <reply id="1041830553">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Was soll er auch sonst sagen? Zweckoptimismus halt.</comment_text>
+            <comment_created_at>2019-05-21T19:01:49.947000</comment_created_at>
+            <comment_length>51</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103574355
+- **Title:** Turbulenzen im Hause Strache
+- **Publish Date:** 2019-05-21T17:02:45.600000
+- **Channel:** Panorama
+- **Ressort Name:** Gesellschaft
+- **Total Comments:** 1119
+- **Root Comments:** 423
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103574355">
+    <title>Turbulenzen im Hause Strache</title>
+    <publish_date>2019-05-21T17:02:45.600000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Gesellschaft</ressort_name>
+    <total_comments>1119</total_comments>
+    <root_comments>423</root_comments>
+    <user_threads>
+      <thread id="1041824717">
+        <user_name>Alfred J. Noll</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-07-11T10:52:42.913000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Straches Privatleben geht exakt niemanden etwas an.</comment_text>
+        <comment_created_at>2019-05-21T17:13:42.093000</comment_created_at>
+        <comment_length>51</comment_length>
+        <replies>
+          <reply id="1041827995">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Leider sieht das Ihre Vorsitzende anders. Frau Stern hat mit einem fb-Posting die aktuelle Situation von Frau Strache kommentiert und mit den geringen Sozialleistungen für Alleinerziehende in Verbindung gebracht. Ich fand das etwas daneben. Das haben weder eine Frau Stern, noch die Liste Jetzt nötig.</comment_text>
+            <comment_created_at>2019-05-21T18:12:37.180000</comment_created_at>
+            <comment_length>301</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103578888
+- **Title:** Dem Expertenkabinett des Kanzlers droht ein schnelles Ende
+- **Publish Date:** 2019-05-21T21:15:06.440000
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 3918
+- **Root Comments:** 935
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103578888">
+    <title>Dem Expertenkabinett des Kanzlers droht ein schnelles Ende</title>
+    <publish_date>2019-05-21T21:15:06.440000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>3918</total_comments>
+    <root_comments>935</root_comments>
+    <user_threads>
+      <thread id="1041837939">
+        <user_name>xy13</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-08-29T15:07:23</user_created_at>
+        <comment_headline>na, hoffentlich...</comment_headline>
+        <comment_text>habe noch NIE spö gewählt, aber wenn's das auch vergeigen, dann wähle ich noch niiiiiiger die spö...</comment_text>
+        <comment_created_at>2019-05-21T21:17:32.593000</comment_created_at>
+        <comment_length>100</comment_length>
+        <replies>
+          <reply id="1041838199">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die stehen sich leider selbst im Weg. Habe ich schon mal an anderer stelle geschrieben: Ich verstehe nicht, wie man eine solche parteipolitische Chance vergeigen kann.</comment_text>
+            <comment_created_at>2019-05-21T21:23:35.593000</comment_created_at>
+            <comment_length>167</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103644730
+- **Title:** Der Oligarch, der in Ibiza zum Handkuss kam
+- **Publish Date:** 2019-05-23T06:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 224
+- **Root Comments:** 74
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103644730">
+    <title>Der Oligarch, der in Ibiza zum Handkuss kam</title>
+    <publish_date>2019-05-23T06:00:00</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Wirtschaftspolitik</ressort_name>
+    <total_comments>224</total_comments>
+    <root_comments>74</root_comments>
+    <user_threads>
+      <thread id="1041898654">
+        <user_name>wortlos_glücklich</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-08-30T12:19:17.273000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ist eh schon bekannt: Ein Wiener Anwalt und ein ex-Detektiv haben die Fäden gezogen. Wolfgang Fellner, mittlerweile DER Journalist in Österreich, hatte gestern einen Insider im Interview.</comment_text>
+        <comment_created_at>2019-05-23T07:43:41.847000</comment_created_at>
+        <comment_length>187</comment_length>
+        <replies>
+          <reply id="1041898881">
+            <user_id>244809</user_id>
+            <user_name>valtheUW</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2001-06-28T11:21:04</user_created_at>
+            <comment_headline>what?</comment_headline>
+            <comment_text>fellner, der journalist, der stets eine empöhrung hinterherhinkt und die dann doppelt so groß aufblasen muss?</comment_text>
+            <comment_created_at>2019-05-23T07:52:40.023000</comment_created_at>
+            <comment_length>109</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041898870">
+        <user_name>benes1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-09-03T09:30:55.230000</user_created_at>
+        <comment_headline>Radsportverband,...</comment_headline>
+        <comment_text>... das ist doch wie aufgelegt! Wann kommen die Dopingvorwürfe?</comment_text>
+        <comment_created_at>2019-05-23T07:51:56.277000</comment_created_at>
+        <comment_length>63</comment_length>
+        <replies>
+          <reply id="1041898998">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wodka Red Bull?</comment_text>
+            <comment_created_at>2019-05-23T07:56:20.310000</comment_created_at>
+            <comment_length>15</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103669970
+- **Title:** Mütter nach Geburt von Kindern oft unzufriedener als Väter
+- **Publish Date:** 2019-05-26T12:00:00
+- **Channel:** Familie
+- **Ressort Name:** Baby
+- **Total Comments:** 461
+- **Root Comments:** 56
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103669970">
+    <title>Mütter nach Geburt von Kindern oft unzufriedener als Väter</title>
+    <publish_date>2019-05-26T12:00:00</publish_date>
+    <channel>Familie</channel>
+    <ressort_name>Baby</ressort_name>
+    <total_comments>461</total_comments>
+    <root_comments>56</root_comments>
+    <user_threads>
+      <thread id="1042059475">
+        <user_name>Leos 12 Monkeys</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-01-21T14:10:17.243000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Shit, sie hat das Gesicht vom Papa.</comment_text>
+        <comment_created_at>2019-05-27T08:15:23.817000</comment_created_at>
+        <comment_length>35</comment_length>
+        <replies>
+          <reply id="1042091120">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Hoffentlich bemerkt das der Gatte nicht?!</comment_text>
+            <comment_created_at>2019-05-27T15:23:44.730000</comment_created_at>
+            <comment_length>41</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042062277">
+        <user_name>Muhkuh die Göttliche</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-05-23T10:08:03.023000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Vieles wird verschwiegen um nicht blöd dazustehen. Sagt man als Frau wie es einem geht, dann zieht man sich schnell den Unmut der Gesprächspartner zu. Besonders kinderlose Frauen und Papas wollen das nicht wirklich hören. Bei mir waren es die vielen einzelnen Faktoren die mich ziemlich geschafft haben. Die Erinnerungen an die Geburt, die körperlichen Beschwerden noch ein halbes Jahr später, Schlafmangel, ein ständig brüllendes Baby, keine Möglichkeit untertags irgend etwas für mich zu tun (am Anfang), weniger Geld, reduzierte soziale Kontakte, ein ziemlich entstellter Körper, keine Zeit mit dem Partner usw. Man steuert eh dagegen wo es nur geht. Ich hab Krieg und Frieden gelesen wenn ich wieder mal auf der Couch festsaß. ^^ Und sie sind süß</comment_text>
+        <comment_created_at>2019-05-27T09:28:54.810000</comment_created_at>
+        <comment_length>750</comment_length>
+        <replies>
+          <reply id="1042067697">
+            <user_id>172784</user_id>
+            <user_name>Chronox</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2008-09-17T18:36:57.783000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Bis auf den ziemlich entstellten Körper, die Erinnerung an die Geburt und Krieg und Frieden hat das alles auf mich als Papa auch zugetroffen.</comment_text>
+            <comment_created_at>2019-05-27T11:01:13.180000</comment_created_at>
+            <comment_length>141</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042090802">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich interpretiere: Wer sich mehr ums Kind kümmert und damit in den Interessenskonflikt zwischen Kind und Arbeitgeber gerät, ist unzufriedener als der, der das nicht macht und weiterhin hackeln geht als wär nix gewesen. Als Mann in karenz und Teilzeit darf ich feststellen, dass dieser Zustand nur deswegen eher bei Frauen zu finden ist, weil Frauen eher in karenz / Teilzeit gehen als Männer. Warum? Weil Männer immer noch mehr verdienen für die gleiche Arbeit. Aber Hauptsache, alle wählen weiterhin brav den schwürkisen Verein mit seiner 60-Stunden-Woche.</comment_text>
+        <comment_created_at>2019-05-27T15:20:31.463000</comment_created_at>
+        <comment_length>557</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103672725
+- **Title:** Strache-Video: Ibiza-Shirts werden zum Verkaufsschlager
+- **Publish Date:** 2019-05-23T10:47:47
+- **Channel:** Web
+- **Ressort Name:** Webmix
+- **Total Comments:** 233
+- **Root Comments:** 82
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103672725">
+    <title>Strache-Video: Ibiza-Shirts werden zum Verkaufsschlager</title>
+    <publish_date>2019-05-23T10:47:47</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webmix</ressort_name>
+    <total_comments>233</total_comments>
+    <root_comments>82</root_comments>
+    <user_threads>
+      <thread id="1041908540">
+        <user_name>H0ktar</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-08-22T18:14:51.137000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die meisten sind leider eher mittelmäßig, aber das hier musste ich mir jetzt bestellen: https://www.amazon.de/AUSTRIA-STRACHE-KURZ-KORRUPTION-T-Shirt/dp/B07RZGXF7S/</comment_text>
+        <comment_created_at>2019-05-23T11:51:38.013000</comment_created_at>
+        <comment_length>164</comment_length>
+        <replies>
+          <reply id="1041917558">
+            <user_id>59077</user_id>
+            <user_name>Fernglas</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2004-02-18T15:50:27.680000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>https://www.spreadshirt.de/shop/design/grand+theft+austria+ibiza+strache+maenner+t-shirt-D5ce1a0ab2225090f81155662?sellable=zrA1nxQzoZudMEn5oBYr-6-7</comment_text>
+            <comment_created_at>2019-05-23T15:09:37.303000</comment_created_at>
+            <comment_length>148</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103674238
+- **Title:** Was erinnert Sie noch immer an Ihre Ex-Beziehung?
+- **Publish Date:** 2019-05-24T06:00:00
+- **Channel:** Lifestyle
+- **Ressort Name:** Liebesforum
+- **Total Comments:** 392
+- **Root Comments:** 166
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103674238">
+    <title>Was erinnert Sie noch immer an Ihre Ex-Beziehung?</title>
+    <publish_date>2019-05-24T06:00:00</publish_date>
+    <channel>Lifestyle</channel>
+    <ressort_name>Liebesforum</ressort_name>
+    <total_comments>392</total_comments>
+    <root_comments>166</root_comments>
+    <user_threads>
+      <thread id="1041955238">
+        <user_name>miaztola</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-05-10T10:10:48.530000</user_created_at>
+        <comment_headline>Löffel</comment_headline>
+        <comment_text>Hab mein Müsli immer IMMER mit einem kleinen Löffel gegessen. Der Ex hat es irgendwie geschafft mir stattdessen große Löffel anzugewöhnen.  Müsli essen wird nie wieder dasselbe sein :(</comment_text>
+        <comment_created_at>2019-05-24T11:49:50.063000</comment_created_at>
+        <comment_length>184</comment_length>
+        <replies>
+          <reply id="1041958874">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Einfach einen neuen kleinen Löffel kaufen, den dann im Kopf als DEN Müsli-Löffel abspeichern. Ferdisch.</comment_text>
+            <comment_created_at>2019-05-24T13:02:05.880000</comment_created_at>
+            <comment_length>103</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103699010
+- **Title:** Rendi-Wagner wird an Kurz scheitern
+- **Publish Date:** 2019-05-23T16:21:37
+- **Channel:** Meinung
+- **Ressort Name:** Michael Völker
+- **Total Comments:** 3148
+- **Root Comments:** 1315
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103699010">
+    <title>Rendi-Wagner wird an Kurz scheitern</title>
+    <publish_date>2019-05-23T16:21:37</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Michael Völker</ressort_name>
+    <total_comments>3148</total_comments>
+    <root_comments>1315</root_comments>
+    <user_threads>
+      <thread id="1041954599">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Sie soll es den Abgeordneten freistellen, ob sie dem Misstrauensantrag zustimmen oder nicht. Dann hat die SPÖ offiziell keine Meinung, aber Basti wird trotzdem abgeschossen (zumindest wenn ein paar Rote noch sprichwörtliche Eier in der Hose haben). Die österreichische Lösung eben.</comment_text>
+        <comment_created_at>2019-05-24T11:37:17.467000</comment_created_at>
+        <comment_length>281</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041955197">
+        <user_name>Toni Bruckner</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-11-17T19:53:40.990000</user_created_at>
+        <comment_headline>Ich finde es immer wieder erstaunlich,</comment_headline>
+        <comment_text>, wie manche Medien aus jedem Problem dieser Regierung eines der SPÖ zu machen.  PRW wird sich durch ihre Taten beweisen, oder auch nicht.  Seb. Kurz hat sich durch seine Taten bewiesen. Keiner ausser Neos kann noch mit ihm zusammenarbeiten.</comment_text>
+        <comment_created_at>2019-05-24T11:49:00.973000</comment_created_at>
+        <comment_length>241</comment_length>
+        <replies>
+          <reply id="1041958307">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Und wenn wir Pech haben, wird sich eine türkis-rosa-Koalition nach der nächsten Wahl auch ausgehen...</comment_text>
+            <comment_created_at>2019-05-24T12:51:23.657000</comment_created_at>
+            <comment_length>101</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103729062
+- **Title:** Stau am Everest: Zwei weitere Bergsteiger ums Leben gekommen
+- **Publish Date:** 2019-05-24T07:40:37.710000
+- **Channel:** Panorama
+- **Ressort Name:** Welt-Chronik
+- **Total Comments:** 979
+- **Root Comments:** 405
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103729062">
+    <title>Stau am Everest: Zwei weitere Bergsteiger ums Leben gekommen</title>
+    <publish_date>2019-05-24T07:40:37.710000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Welt-Chronik</ressort_name>
+    <total_comments>979</total_comments>
+    <root_comments>405</root_comments>
+    <user_threads>
+      <thread id="1041947149">
+        <user_name>joergipoergi</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-02-24T16:53:38.793000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>You're not stuck in traffic, you are traffic.</comment_text>
+        <comment_created_at>2019-05-24T09:01:45.837000</comment_created_at>
+        <comment_length>45</comment_length>
+        <replies>
+          <reply id="1041949222">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wären sie doch nur mit dem Rad gefahren.</comment_text>
+            <comment_created_at>2019-05-24T09:47:15.013000</comment_created_at>
+            <comment_length>40</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041947842">
+        <user_name>Calavera02</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-10-22T13:40:28.117000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Gehen die ersten da schon wieder runter während die anderen noch warten? Das ist ja schon am Dachstein eine Herausforderung.</comment_text>
+        <comment_created_at>2019-05-24T09:17:09.850000</comment_created_at>
+        <comment_length>124</comment_length>
+        <replies>
+          <reply id="1041948230">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>So ungefähr. Das Problem ist, dass der Hillary Step mWn eine &quot;einspurige Gasse&quot; ist, also immer nur einer rauf ODER einer runter. Bei 250 Kletterern eine logistische Herausforderung, v.a. weil die, die hinaufwollen, mit dem Zeit- und Geld- und Ehrgeizdruck im Nacken sicher nicht zurückstecken werden.</comment_text>
+            <comment_created_at>2019-05-24T09:25:23.167000</comment_created_at>
+            <comment_length>301</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041947261">
+        <user_name>DreamChaser</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-10-12T15:26:39.407000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich war auf dem Kala Patar. Da hat man auch eine gute Sicht auf den Everest. Und viel mehr Sauerstoff.</comment_text>
+        <comment_created_at>2019-05-24T09:03:59.557000</comment_created_at>
+        <comment_length>102</comment_length>
+        <replies>
+          <reply id="1041949323">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Stimmt, die Aussicht ist nett: https://en.wikipedia.org/wiki/Kala_Patthar#/media/File:Everest_panorama_from_Kala_Patthar.jpg Aber wenn ich auf 5.600 m stehe, also weit höher als es in Europa möglich wäre, und rundherum ist alles 3.000 m höher, ist das irgendwie auch frustrierend, oder? Wieder nix mit Fernsicht. Kann ich gleich daheim bleiben ;)</comment_text>
+            <comment_created_at>2019-05-24T09:49:24.917000</comment_created_at>
+            <comment_length>346</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103740730
+- **Title:** Identitäre betreiben Vorzugsstimmenwahlkampf für Strache bei EU-Wahl
+- **Publish Date:** 2019-05-24T12:16:24
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1626
+- **Root Comments:** 757
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103740730">
+    <title>Identitäre betreiben Vorzugsstimmenwahlkampf für Strache bei EU-Wahl</title>
+    <publish_date>2019-05-24T12:16:24</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>1626</total_comments>
+    <root_comments>757</root_comments>
+    <user_threads>
+      <thread id="1041958289">
+        <user_name>rosebud2</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2011-09-21T09:06:49.170000</user_created_at>
+        <comment_headline>Ich nehme uns alle in die Schuld, Journalisten, Parteien, Bevölkerung,</comment_headline>
+        <comment_text>wir haben uns täuschen und manipulieren lassen von der subtilen Strategie der Rechtsextremen. Sie haben ihre Gesellschaftsfähigkeit weiter in die Mitte geschoben, Benennungen verschoben, viele Journalisten haben mitgespielt. Wir haben akzeptiert, dass sie es schafften von Rechsextremen zu Rechtspopulisten zu werden, sie haben uns mit der &quot;Nazikeule&quot; mundtot gemacht. Sprache und Benennung ist wichtig, das zeigt die FPÖ selbst. Es sind Rechtsextreme, Strache ist ein neuer Rechter (vormals Neonazi), die Identitären sind rechtsextrem und die viele, viele in der FPÖ sind rechtextrem und agieren mit &quot;Lügenpresse&quot; und eigenen Medien. Benennen wir wieder alles, beenden wir die Relativierung und Verharmlosung.</comment_text>
+        <comment_created_at>2019-05-24T12:51:00.170000</comment_created_at>
+        <comment_length>710</comment_length>
+        <replies>
+          <reply id="1041958757">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich lasse mir da von Ihnen nix vorwerfen. Allen, die es hören wollten (und noch ein paar mehr) habe ich seit Jahren zu erklären versucht, dass die Effen ein gefährlicher Haufen sind und aus dem NR gewählt werden müssen. Was passiert? Nix. &quot;Aber die Asylanten!&quot; Es ist zum Speiben.</comment_text>
+            <comment_created_at>2019-05-24T13:00:10.600000</comment_created_at>
+            <comment_length>280</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041958651">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Rache&quot; wofür? Dass er sich so de..ert angestellt hat, schicken sie ihn jetzt nach Brüssel, wo er auf einmal so richtig hackeln müsste und wo ihn die restlichen Abgeordneten erstmal eine Runde auslachen werden? Wo er vll. mit seinen Na.i-Haberern in einem Eck schmollen darf? Die Menschen in diesem Land sind echt irgendwo angrennt.</comment_text>
+        <comment_created_at>2019-05-24T12:58:06.400000</comment_created_at>
+        <comment_length>332</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041958716">
+        <user_name>sb95ngscaero</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-08-22T20:24:16.600000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>meine Stimme hat er. Wollte eigentlich Steger eine Vorzugsstimme geben, aber jetzt bekommt er meine Vorzugsstimme.</comment_text>
+        <comment_created_at>2019-05-24T12:59:28.433000</comment_created_at>
+        <comment_length>114</comment_length>
+        <replies>
+          <reply id="1041959543">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Gilt aber nur, wenn Sie gleichzeitig bei der ÖVP ankreuzen und &quot;Nicht den Kurz!&quot; reinschreiben! Vertrauen Sie mir!</comment_text>
+            <comment_created_at>2019-05-24T13:14:37.027000</comment_created_at>
+            <comment_length>114</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041959300">
+        <user_name>code666</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-01-02T13:00:27.857000</user_created_at>
+        <comment_headline>HC könnte ja als Europaabgeordneter</comment_headline>
+        <comment_text>dann Homeoffice auf Ibiza beantragen.</comment_text>
+        <comment_created_at>2019-05-24T13:09:28.277000</comment_created_at>
+        <comment_length>37</comment_length>
+        <replies>
+          <reply id="1041959652">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;Speaker for special relations in Spain&quot;.</comment_text>
+            <comment_created_at>2019-05-24T13:16:59.730000</comment_created_at>
+            <comment_length>41</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041959186">
+        <user_name>M. Tikic</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-06-20T16:55:09.473000</user_created_at>
+        <comment_headline>Weiter so:)</comment_headline>
+        <comment_text>Da sieht man, wer die Freunde und Feinde des Herren Strache sind!  Man soll also jemanden als EU Minister wählen, der sein eigenes Land an &quot;Ausländer&quot; verkaufen wollte.  Dieser EU Hass der Rechtspopulisten - ist echt unglaublich!   PS: Warum ist der Sellner noch nicht in den Häfen?</comment_text>
+        <comment_created_at>2019-05-24T13:07:27.470000</comment_created_at>
+        <comment_length>282</comment_length>
+        <replies>
+          <reply id="1041959346">
+            <user_id>29444</user_id>
+            <user_name>Charles Duchemin</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2002-12-14T23:16:38</user_created_at>
+            <comment_headline>Warum sollte Sellner im Häfen sein?</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-24T13:10:18.500000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041959463">
+        <user_name>Isokolon</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-10-20T09:25:19.283000</user_created_at>
+        <comment_headline>bitte hauts ihn ins EU Parlament</comment_headline>
+        <comment_text>dort kann er aktuell weniger Schaden anrichten als in Ö</comment_text>
+        <comment_created_at>2019-05-24T13:12:31</comment_created_at>
+        <comment_length>55</comment_length>
+        <replies>
+          <reply id="1041959619">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Nicht unterschätzen. Dort schmiedet er dann nach ein paar Monaten &quot;grace period&quot; neue Allianzen mit den Nationalisten anderer Länder und kehrt als &quot;EU-Sprecher&quot; der Effen nach Ö zurück. Nein, Danke. Soll in der Versenkung bleiben.</comment_text>
+            <comment_created_at>2019-05-24T13:16:13.057000</comment_created_at>
+            <comment_length>230</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103757459
+- **Title:** Lawrence Weiners Flakturm-Text soll auf Angewandte übersiedeln
+- **Publish Date:** 2019-05-24T19:09:56
+- **Channel:** Kultur
+- **Ressort Name:** Bildende Kunst
+- **Total Comments:** 53
+- **Root Comments:** 21
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103757459">
+    <title>Lawrence Weiners Flakturm-Text soll auf Angewandte übersiedeln</title>
+    <publish_date>2019-05-24T19:09:56</publish_date>
+    <channel>Kultur</channel>
+    <ressort_name>Bildende Kunst</ressort_name>
+    <total_comments>53</total_comments>
+    <root_comments>21</root_comments>
+    <user_threads>
+      <thread id="1041977453">
+        <user_name>Mariomed25</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-03-19T20:09:33.903000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>„Erinnern im Innern“ ? Der Erfinder muss ein besonderer Wiefzack sein. Na habedieehre...........</comment_text>
+        <comment_created_at>2019-05-24T21:08:38.523000</comment_created_at>
+        <comment_length>96</comment_length>
+        <replies>
+          <reply id="1041985651">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>*Vifzack. Und so bedeutungsschwanger wie der Weiner-Text ist es allemal.</comment_text>
+            <comment_created_at>2019-05-25T08:32:50.910000</comment_created_at>
+            <comment_length>72</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041975636">
+        <user_name>A. F. Hayek</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-03-10T20:50:45.213000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Auch die Kunstbobos leben in einer Parallelgesellschaft</comment_text>
+        <comment_created_at>2019-05-24T20:04:42.920000</comment_created_at>
+        <comment_length>55</comment_length>
+        <replies>
+          <reply id="1041975745">
+            <user_id>669566</user_id>
+            <user_name>A. F. Hayek</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-03-10T20:50:45.213000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Aber wahrscheinlich darf man das nicht sagen, sonst wirst als Faschist beschimpft</comment_text>
+            <comment_created_at>2019-05-24T20:07:12.963000</comment_created_at>
+            <comment_length>81</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103773909
+- **Title:** Sebastian Kurz: "Einzelfälle haben mich viel Kraft gekostet"
+- **Publish Date:** 2019-05-24T18:10:27
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 4789
+- **Root Comments:** 1964
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103773909">
+    <title>Sebastian Kurz: &quot;Einzelfälle haben mich viel Kraft gekostet&quot;</title>
+    <publish_date>2019-05-24T18:10:27</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>ÖVP</ressort_name>
+    <total_comments>4789</total_comments>
+    <root_comments>1964</root_comments>
+    <user_threads>
+      <thread id="1041971352">
+        <user_name>bingo10</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-09-04T17:24:00.447000</user_created_at>
+        <comment_headline>Doskozil ist schon neuer SP-Parteichef und lobt Kickl</comment_headline>
+        <comment_text>Und versteht nicht, dass Kickl von der ÖVP hinausgeworfen wurde.  https://diepresse.com/home/innenpolitik/5633732/Doskozil_SPOe-muss-den-Kanzler-stuerzen  https://kurier.at/politik/inland/doskozil-legt-sich-fest-spoe-muss-kanzler-stuerzen/400504978</comment_text>
+        <comment_created_at>2019-05-24T18:17:40.640000</comment_created_at>
+        <comment_length>248</comment_length>
+        <replies>
+          <reply id="1041971658">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Hab ich heute auch gelesen und nochmal kontrolliert, ob ich irrtümlich bei der Tagespresse gelandet bin?!</comment_text>
+            <comment_created_at>2019-05-24T18:25:05.333000</comment_created_at>
+            <comment_length>105</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041971611">
+        <user_name>[deleted]</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-05-24T22:37:53.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Er hat sich eine Pause verdient :&amp;gt;</comment_text>
+        <comment_created_at>2019-05-24T18:23:37.710000</comment_created_at>
+        <comment_length>34</comment_length>
+        <replies>
+          <reply id="1041971707">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Soooo fleißig war er, der Bub.</comment_text>
+            <comment_created_at>2019-05-24T18:26:22.260000</comment_created_at>
+            <comment_length>30</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041972480">
+        <user_name>OFKB-Leser</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-17T18:25:58.327000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich würde Kurz niemals jemals wählen. Aber dieser andauernden - immergleichen und sich immer fort wiederholenden - NICHT-INHALTICHEN Angriffe auf Kurz hier im Forum (die alle brav grün gestrichelt werden) sind kein Ruhmesblatt für uns Linken. Es ist verdammt nochmal kein politisches Argument Kurz nicht zu mögen.   Und auch die SPÖ wird - irgenwann (wenns längst zu spät ist) - noch draufkommen, dass DAGEGEN-SEIN bzw. GEGEN-KURZ-SEIN kein Parteiprogramm ist.</comment_text>
+        <comment_created_at>2019-05-24T18:43:36.693000</comment_created_at>
+        <comment_length>460</comment_length>
+        <replies>
+          <reply id="1041972711">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die SPÖ verschläft gerade die Chance des Jahrzehnts, endlich wieder Stimmen dazu zu gewinnen.</comment_text>
+            <comment_created_at>2019-05-24T18:48:38.963000</comment_created_at>
+            <comment_length>93</comment_length>
+          </reply>
+          <reply id="1041981782">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Bitteschön: Kürzung des AUVA-Budgets um 500 Mio., Kürzungen der Sozialausgaben am unteren Ende, was vor allem einkommensschwache (Alleinerziehende!) trifft, 12-Stunden-Tag, Verschärfung des Asylrechts ohne realistische Budgetaufstockung der dazugehörigen Administration, auf der anderen Seite weiteres Kaputtsparen des Bundesheeres, dazu eine Rechts-Außen-Partei auf das BMI und die Geheimdienste losgelassen, stillschweigendes Ignorieren selbst der absurdesten Verbalbrunzer des Koalitionspartners, selbstgerechtes Alleinregieren unter dem Deckmantel der Alternativlosigkeit, etc etc etc.  Er soll sich doch bitte schleichen, damit man die angerichtete Misere schnellstmöglich reparieren kann.</comment_text>
+            <comment_created_at>2019-05-24T23:54:39.367000</comment_created_at>
+            <comment_length>694</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041975606">
+        <user_name>Klassenfeind</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-09-15T17:34:44.030000</user_created_at>
+        <comment_headline>Kurz hat ja wohl nicht viel falsch gemacht</comment_headline>
+        <comment_text>und die Tatsache, dass rechts und links in stürzen wollen zeigt auch dass er der Mann der Mitte ist!  Die SPÖ lebt aktuell wohl nach dem Motto ‘lieber stehend sterben als kniend leben” und destabilisiert und schwächt mit ihrem Kurs unser Land...  Die FPÖ ist aktuell im Modus eines betrunkenen Wirtshausschlägers dem alles egal ist...  Einzige Hoffnung im Herbst ist VP &amp;amp; NEOS...</comment_text>
+        <comment_created_at>2019-05-24T20:03:58.867000</comment_created_at>
+        <comment_length>379</comment_length>
+        <replies>
+          <reply id="1041978077">
+            <user_id>693696</user_id>
+            <user_name>User75</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-05-24T21:25:34.800000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Dem kann ich nur beipflichten! VP und NEOS auch in meinen Augen das Einzig vertretbare.</comment_text>
+            <comment_created_at>2019-05-24T21:28:44.140000</comment_created_at>
+            <comment_length>87</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041981754">
+        <user_name>kevin bacon</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-10-21T09:09:22.893000</user_created_at>
+        <comment_headline>Wer hat die ÖVP nur so kaputt gemacht?</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-24T23:52:28.150000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041981796">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die ÖVP mit ihrer ewigen Obmanndebatte selber.</comment_text>
+            <comment_created_at>2019-05-24T23:55:17.223000</comment_created_at>
+            <comment_length>46</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041981547">
+        <user_name>Plasma!</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-12-10T00:31:15.963000</user_created_at>
+        <comment_headline>Sehr geniale Idee:</comment_headline>
+        <comment_text>Machen wir den Basti vom Messias zum Märtyrer, der den Wählern bis in September erzählen kann, was er nicht alles für Österreich geleistet hätte, wenn die SPÖ ihn lassen hätt. Toller Plan. Den Roten ist echt nicht zu helfen.  Lasst den Ohrwaschlkanzler regieren, macht Vorschläge, sucht Mehrheiten, bietet Zusammenarbeit an, zeigt, dass ihr auch mit den Schwarzen könnt, denn das wird die naheliegendste Option bei der nächsten Wahl. Wenn ihr die Querulantenpartei mimt, kriegen die Schwarzen die Mehrheit oder zumindest so viel, dass es sich mit den Neos ausgeht.</comment_text>
+        <comment_created_at>2019-05-24T23:40:03.220000</comment_created_at>
+        <comment_length>564</comment_length>
+        <replies>
+          <reply id="1041981847">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Lieber den Leuten beweisen, wie toll der Kurz als Kanzler ist, wenn man ihm nur ein bisserl hilft. Besser? Nein.</comment_text>
+            <comment_created_at>2019-05-24T23:58:24.940000</comment_created_at>
+            <comment_length>112</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041981585">
+        <user_name>Finn McCool</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-11-06T08:50:47</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>„,ich habe gleich nach dem Gespräch mit dem Bundespräsidenten, als ich den Auftrag bekommen habe, eine Expertenregierung zusammenzustellen, das mit der Parteichefin der SPÖ besprochen.“  Ein kleiner Fortschritt, immerhin sagt er jetzt „besprochen“ und nicht mehr „abgesprochen“ wie in einer Pressekonferenz diese Woche.  Es war dies die erste PK, wo er Fragen zugelassen hat, und prompt hat ein Journalist nachgefragt, was er mit „abgesprochen“ genau meint. Darauf Kurz: ich habe das allein entschieden und dann Pamela Rendi-Wagner nachträglich meine Entscheidung mitgeteilt.  Jetzt nennt er das also wieder „besprochen“.</comment_text>
+        <comment_created_at>2019-05-24T23:42:32.243000</comment_created_at>
+        <comment_length>621</comment_length>
+        <replies>
+          <reply id="1041981675">
+            <user_id>499358</user_id>
+            <user_name>an-denken</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2011-12-05T21:03:29.167000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Vermutlich hat er sich Antworten in jede Richtung im Kopf zurecht gelegt, deshalb sind jetzt einige Fragen zugelassen worden. Ich habe ihn auch gehört und inzwischen bin ich zur Überzeugung gelangt, der weiß auf alles eine Antwort, was seine Politik anlangt.</comment_text>
+            <comment_created_at>2019-05-24T23:47:34.440000</comment_created_at>
+            <comment_length>258</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103809124
+- **Title:** Wacker Innsbruck steigt trotz 4:0 gegen Mattersburg ab
+- **Publish Date:** 2019-05-25T18:50:37
+- **Channel:** Sport
+- **Ressort Name:** Qualifikationsgruppe
+- **Total Comments:** 188
+- **Root Comments:** 49
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103809124">
+    <title>Wacker Innsbruck steigt trotz 4:0 gegen Mattersburg ab</title>
+    <publish_date>2019-05-25T18:50:37</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Qualifikationsgruppe</ressort_name>
+    <total_comments>188</total_comments>
+    <root_comments>49</root_comments>
+    <user_threads>
+      <thread id="1042000786">
+        <user_name>Postingname 2.1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Schade :(</comment_text>
+        <comment_created_at>2019-05-25T18:56:10.867000</comment_created_at>
+        <comment_length>9</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103860527
+- **Title:** Kurz lässt sich feiern, Rote zweifeln an sich und ihrer Chefin
+- **Publish Date:** 2019-05-26T23:56:30
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1803
+- **Root Comments:** 537
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103860527">
+    <title>Kurz lässt sich feiern, Rote zweifeln an sich und ihrer Chefin</title>
+    <publish_date>2019-05-26T23:56:30</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>1803</total_comments>
+    <root_comments>537</root_comments>
+    <user_threads>
+      <thread id="1042055340">
+        <user_name>Montepezzolo</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-04T11:33:06.363000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wenn die Roten klug sind, stürzen sie morgen die schwache Rendi „Pam“ Wagner und nicht Kurz.</comment_text>
+        <comment_created_at>2019-05-27T00:56:06.743000</comment_created_at>
+        <comment_length>92</comment_length>
+        <replies>
+          <reply id="1042055368">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sorry, vertippt.</comment_text>
+            <comment_created_at>2019-05-27T00:57:42.170000</comment_created_at>
+            <comment_length>16</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103980455
+- **Title:** Requiem für Niki Lauda mit 300 Ehrengästen im Stephansdom
+- **Publish Date:** 2019-05-28T16:24:45
+- **Channel:** Sport
+- **Ressort Name:** Niki Lauda
+- **Total Comments:** 163
+- **Root Comments:** 47
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103980455">
+    <title>Requiem für Niki Lauda mit 300 Ehrengästen im Stephansdom</title>
+    <publish_date>2019-05-28T16:24:45</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Niki Lauda</ressort_name>
+    <total_comments>163</total_comments>
+    <root_comments>47</root_comments>
+    <user_threads>
+      <thread id="1042156433">
+        <user_name>arancione</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-11-05T19:10:44.313000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Reden von Van der Bellen, Berger und Schwarzenegger&quot;  Wer möchte da nicht tot sein.</comment_text>
+        <comment_created_at>2019-05-28T17:08:10.683000</comment_created_at>
+        <comment_length>84</comment_length>
+        <replies>
+          <reply id="1042156831">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>A schene Leich eben. Wia si's g'hert.</comment_text>
+            <comment_created_at>2019-05-28T17:18:01.140000</comment_created_at>
+            <comment_length>37</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103984710
+- **Title:** Wie sich die SPÖ für die Wahl aufstellen will – und soll
+- **Publish Date:** 2019-05-28T19:02:47
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1736
+- **Root Comments:** 527
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103984710">
+    <title>Wie sich die SPÖ für die Wahl aufstellen will – und soll</title>
+    <publish_date>2019-05-28T19:02:47</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>1736</total_comments>
+    <root_comments>527</root_comments>
+    <user_threads>
+      <thread id="1042173802">
+        <user_name>Charlie-Brown</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-07-03T16:47:44.113000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>1. Nicht Türkis-Blau verhindern wollen 2. Plegeversicherung einführen - da hast ein risiges Wählerpotential 3. Absolute Transparenz bei den Geldern vordern und auch selber leben und mit gutem Beispiel voran gehen 4. Der Tochter vom Primar wird das Studium vom Staat finanziert - der Sohn der alleinerziehenden Lagermitarbeiterin darf sich die Meisterausbildung selber zahlen. 5. Weg mit der Pendlerpauschale 6. Die zersiedlung der Landschaft stoppen, verursacht große Kosten für die Allgemeinheit</comment_text>
+        <comment_created_at>2019-05-29T06:47:30.950000</comment_created_at>
+        <comment_length>496</comment_length>
+        <replies>
+          <reply id="1042174528">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Pflegeversicherung wenn, dann staatlich.</comment_text>
+            <comment_created_at>2019-05-29T07:26:35.510000</comment_created_at>
+            <comment_length>40</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042174095">
+        <user_name>Vivian_Neu</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2018-12-25T20:54:31.030000</user_created_at>
+        <comment_headline>Keine Chance</comment_headline>
+        <comment_text>SPÖ hat Probleme auf 2 Ebenen und kann daher „nie und nimmer“ bis zum Herbst Stimmen zulegen;  1. wie auch in Deutschland, verliert sie ihre Stammwählerschaft. Die linksliberalen und gebildeten wandern zu den Grünen, die klassischen Arbeiter zu den FPÖ.  2. wie auch in Deutschland wird sie von einer gänzlich ungeeigneten, rhetorisch schwachen, nicht „mediagenen“ Frau geführt, was in einem personifizierten Wahlkampf (wie Kurz einen führen wird) noch mehr vom Nachteil ist.  Inhalte sind sehr wichtig, aber deren Botschafterin noch wichtiger. So ist nun mal die Politik geworden.  Man bräuchte schon noch Menschen mit Ecken und Kanten (zB Typus Michael Häupl), um kurzfristig eine Trendumkehr zu schaffen.  Diese hat SPÖ leider nicht.</comment_text>
+        <comment_created_at>2019-05-29T07:04:51.453000</comment_created_at>
+        <comment_length>736</comment_length>
+        <replies>
+          <reply id="1042174203">
+            <user_id>669598</user_id>
+            <user_name>Frau Mimi</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-03-06T18:06:21.660000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich könnte mir schon vorstellen, dass ein Teil der EU-Grün-Wähler im Herbst SPÖ wählen wird.</comment_text>
+            <comment_created_at>2019-05-29T07:11:27.417000</comment_created_at>
+            <comment_length>92</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042173849">
+        <user_name>bernhardposch</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-03-26T08:42:45.933000</user_created_at>
+        <comment_headline>Ich hoffe Rendi Wahn gibt sich einen Ruck und übergibt an Doskozil.</comment_headline>
+        <comment_text>Mt Doskozil besteht die Chance auf Platz eins.</comment_text>
+        <comment_created_at>2019-05-29T06:50:27.413000</comment_created_at>
+        <comment_length>46</comment_length>
+        <replies>
+          <reply id="1042174510">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Klar. Den Faschos dieses Landes nach dem Mund reden. Hauptsache Wahlsieger. Weil was interessiert mich mein Geschwätz von gestern.</comment_text>
+            <comment_created_at>2019-05-29T07:25:36.963000</comment_created_at>
+            <comment_length>130</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103987799
+- **Title:** Die SPÖ und ihre Kommunikationsprobleme: Leid im Bild
+- **Publish Date:** 2019-05-29T11:06:14
+- **Channel:** Inland
+- **Ressort Name:** SPÖ
+- **Total Comments:** 2084
+- **Root Comments:** 683
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103987799">
+    <title>Die SPÖ und ihre Kommunikationsprobleme: Leid im Bild</title>
+    <publish_date>2019-05-29T11:06:14</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>SPÖ</ressort_name>
+    <total_comments>2084</total_comments>
+    <root_comments>683</root_comments>
+    <user_threads>
+      <thread id="1042188500">
+        <user_name>42</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-06-20T15:09:52.690000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>der ehemlige kernberater fussi zur lage der SPÖ:  https://www.youtube.com/watch?v=qJAqe3l7Ne0&amp;amp;feature=youtu.be&amp;amp;t=641</comment_text>
+        <comment_created_at>2019-05-29T13:43:52.013000</comment_created_at>
+        <comment_length>116</comment_length>
+        <replies>
+          <reply id="1042189235">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Danke für den Link!</comment_text>
+            <comment_created_at>2019-05-29T14:03:08.663000</comment_created_at>
+            <comment_length>19</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042188566">
+        <user_name>Sogenet</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2002-10-30T13:22:05</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Naja, die genannten Pannen wären für sich nicht so tragisch.  Fatal ist m.E., dass Rendi Wagner in Interwies immer einen sehr hilflosen, verkrampften, verbissenen, unsicheren, deprimierten und deprimierenden Eindruck hinterlässt. Sie hat null Charisma und hat leider nicht das Talent, Leute mitzureißen. Diesbezüglich ist sie ein Anti-Kurz.  Sie mag ja eine gute Expertin in ihrem Fach sein; Sie gehört aber IMHO nicht in die erste Reihe.  Hinzu kommt, dass die SPÖ einfach ihre Schockstarre noch immer nicht überwunden hat und sich noch immer nicht in die Rolle der Oppositionspartei zurechtfindet.  Wenn die SPÖ nicht bald ein gutes Zugpferd findet, sehe ich schwarz (oder türkis) für die nächste Nationalratswahl. Leider.</comment_text>
+        <comment_created_at>2019-05-29T13:45:57.107000</comment_created_at>
+        <comment_length>724</comment_length>
+        <replies>
+          <reply id="1042189122">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Kurz reißt mich persönlich überhaupt nicht mit. Was PRW betrifft, haben Sie aber natürlich recht. mMn zumindest.</comment_text>
+            <comment_created_at>2019-05-29T14:00:12.687000</comment_created_at>
+            <comment_length>112</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104016539
+- **Title:** "Verzichten wie Kurz": Netz lacht über "großzügigen" Ex-Kanzler
+- **Publish Date:** 2019-05-29T17:08:52.310000
+- **Channel:** Web
+- **Ressort Name:** Webmix
+- **Total Comments:** 727
+- **Root Comments:** 243
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104016539">
+    <title>&quot;Verzichten wie Kurz&quot;: Netz lacht über &quot;großzügigen&quot; Ex-Kanzler</title>
+    <publish_date>2019-05-29T17:08:52.310000</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webmix</ressort_name>
+    <total_comments>727</total_comments>
+    <root_comments>243</root_comments>
+    <user_threads>
+      <thread id="1042216236">
+        <user_name>Kon01</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-06-06T22:14:52.677000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der Standard bringt wieder einen Echauffierungsbericjt für die Zielgruppe.   Schade, dass der Standard nicht so neutral wie die Presse berichtet. Ich lese beide Zeitungen, und hier gibt es große Unterschiede.  Ich empfehle jedem, unabhängig von den eigenen politische Präferenzen, den Vergleich.</comment_text>
+        <comment_created_at>2019-05-30T07:05:52.660000</comment_created_at>
+        <comment_length>295</comment_length>
+        <replies>
+          <reply id="1042217242">
+            <user_id>563473</user_id>
+            <user_name>paul§</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2015-06-21T13:49:03.050000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Obwohl die Presse ja _das_ schwarz Jubel Organ schlechthin ist, hat sie nach meinem Gefühl wesentlich neutraler auf den Misstrauensantrag reagiert. Da war deutlich weniger Gejammer, dass er ja nur den roten, Österreich und sonst jemand schaden wird .. .. Und jeder sollte mehrere Zeitungen lesen, solange es keine klein Formate sind.</comment_text>
+            <comment_created_at>2019-05-30T08:28:06.053000</comment_created_at>
+            <comment_length>333</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042216897">
+        <user_name>Surfer</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-04-03T09:12:24.257000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die Arbeiter und Arbeiterinnen verzichten auf die freiwilligen Überstunden die ihnen Kurz so großzügig geschenkt hat.</comment_text>
+        <comment_created_at>2019-05-30T08:06:03.923000</comment_created_at>
+        <comment_length>117</comment_length>
+        <replies>
+          <reply id="1042216959">
+            <user_id>693289</user_id>
+            <user_name>LinksMitteRechtszufinden</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-05-21T13:51:12.770000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ah die hätten sie unter Kern nicht gemacht?</comment_text>
+            <comment_created_at>2019-05-30T08:09:48.607000</comment_created_at>
+            <comment_length>43</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104075675
+- **Title:** Kiss in der Stadthalle: Abschied vom Kinderfasching
+- **Publish Date:** 2019-05-30T08:38:41
+- **Channel:** Kultur
+- **Ressort Name:** Konzerte
+- **Total Comments:** 241
+- **Root Comments:** 77
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104075675">
+    <title>Kiss in der Stadthalle: Abschied vom Kinderfasching</title>
+    <publish_date>2019-05-30T08:38:41</publish_date>
+    <channel>Kultur</channel>
+    <ressort_name>Konzerte</ressort_name>
+    <total_comments>241</total_comments>
+    <root_comments>77</root_comments>
+    <user_threads>
+      <thread id="1042217745">
+        <user_name>Warl0ck</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-12-04T10:32:35.920000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich bin mir jetzt nicht sicher, war das Konzert jetzt gut oder nicht?</comment_text>
+        <comment_created_at>2019-05-30T08:55:08.517000</comment_created_at>
+        <comment_length>69</comment_length>
+        <replies>
+          <reply id="1042217923">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Danke, wollte genau dasselbe schreiben.</comment_text>
+            <comment_created_at>2019-05-30T09:04:08.853000</comment_created_at>
+            <comment_length>39</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042222314">
+        <user_name>BCN1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-08-29T15:10:44</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich habe es noch nie verstanden,  warum sich Musiker dermaßen peinlich verkleiden müssen... um Aufmerksamkeit zu erregen. Und noch peinlicher ist es,  wenn man den gleichen scheiss auch noch 40 Jahre lang aufwärmt.  Im Vergleich zu David Bowie,  der sich bis zu aeroben Tod ständig neu erfunden und damit ständig innovativ und selber Zeit voraus war,  kommen diese kaschperl daher, als wären sie in der pubertät und in einer vergangenen Zeit steckengebliebene ewiggestrige.</comment_text>
+        <comment_created_at>2019-05-30T11:38:44.167000</comment_created_at>
+        <comment_length>473</comment_length>
+        <replies>
+          <reply id="1042228851">
+            <user_id>500033</user_id>
+            <user_name>joy division</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-12-06T07:43:30.280000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das nennt sich showkonzept. und kiss sind vom kabuki inspiriert.  bleib cool.</comment_text>
+            <comment_created_at>2019-05-30T14:18:07.450000</comment_created_at>
+            <comment_length>77</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042220911">
+        <user_name>tnt</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2007-03-22T17:24:54.090000</user_created_at>
+        <comment_headline>Trotz allem:</comment_headline>
+        <comment_text>Kiss, AC/DC, der Gebissträger Alice Cooper, Iggy...wer auch immer aus diesen Zeiten ...die bringen sogar in ihrem 40. Arbeitsjahr (wo der Durchschnittsösi schon längst in der ASVG- Rente ist - auch Schachinger, wenn er nicht vorher an Langeweile am Schotterteich an einer Burenwurst erstickt ist)  noch immer hundertmal mehr Spaß und Power als die sogenannten „Megaacts“ der letzten Jahre - die entweder nur aus weiblichen Plastik-Hupfdohlen a la Gaga, Pink, etc...oder schwuchteligen, weinerlichen „Bands“ wie Imagine Dragons, 21 pilots, etc... bestehen..</comment_text>
+        <comment_created_at>2019-05-30T10:58:03.403000</comment_created_at>
+        <comment_length>556</comment_length>
+        <replies>
+          <reply id="1042222514">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Eine Band, die den Kontrapunkt für Kiss (mit ihrem Make-up und dem Glitzergwandl und &quot;I was made for loving you&quot; als größtem Hit) &quot;schwuchtelig&quot; zu nennen ist schon recht seltsam.  Und Lady Gaga ist eine bessere Musikerin als die meisten von dir erwähnten Bands. Auch wenn es dir nicht gefällt.</comment_text>
+            <comment_created_at>2019-05-30T11:44:05.830000</comment_created_at>
+            <comment_length>294</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104086108
+- **Title:** Halbe und andere Wahrheiten von Ex-Kanzler Kurz
+- **Publish Date:** 2019-05-31T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 2875
+- **Root Comments:** 827
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104086108">
+    <title>Halbe und andere Wahrheiten von Ex-Kanzler Kurz</title>
+    <publish_date>2019-05-31T06:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>2875</total_comments>
+    <root_comments>827</root_comments>
+    <user_threads>
+      <thread id="1042253712">
+        <user_name>DerGorg</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-01-27T10:30:26.300000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Alleine die Tatsache nun nicht mehr jeden Tag das Fortschreiten von Natonalismus und Fremdenfeindlichkeit in Gestalt der zum Glück fürs erste entsorgten Effen in der Regierung beob achten zu müssen ist wie Urlaub, man richtet sich unwillkürlich auf und atmet durch. Irgendwie werden wir den Österreichern auch noch klar machen was für eine Null Kurz ist!</comment_text>
+        <comment_created_at>2019-05-31T09:32:24.730000</comment_created_at>
+        <comment_length>354</comment_length>
+        <replies>
+          <reply id="1042253855">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Und wer soll dann die nächste Regierung bilden? Laut neuesten Umfragen wandern viele Blauwähler zu schwürkis hinüber. Am Ende haben wir eine schwarztürkis-rosa Regierung. Da wird der 12-Stunden-Tag noch das angenehmste Novum sein.</comment_text>
+            <comment_created_at>2019-05-31T09:36:54.237000</comment_created_at>
+            <comment_length>230</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104099426
+- **Title:** Neuer Außenminister Schallenberg: Aus dem Souffleurkasten auf die internationale Bühne
+- **Publish Date:** 2019-05-30T18:14:51
+- **Channel:** International
+- **Ressort Name:** International
+- **Total Comments:** 326
+- **Root Comments:** 84
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104099426">
+    <title>Neuer Außenminister Schallenberg: Aus dem Souffleurkasten auf die internationale Bühne</title>
+    <publish_date>2019-05-30T18:14:51</publish_date>
+    <channel>International</channel>
+    <ressort_name>International</ressort_name>
+    <total_comments>326</total_comments>
+    <root_comments>84</root_comments>
+    <user_threads>
+      <thread id="1042247332">
+        <user_name>Pomfinebra</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-03-20T13:26:09.680000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ein 100% Schwarzer...braucht niemand.  100 % Parteilose wäre in Ordnung.</comment_text>
+        <comment_created_at>2019-05-30T23:13:36.810000</comment_created_at>
+        <comment_length>72</comment_length>
+        <replies>
+          <reply id="1042254295">
+            <user_id>500521</user_id>
+            <user_name>Postingname 2.1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-02-24T15:29:42.083000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die wirst du im diplomatischen Dienst nicht finden.</comment_text>
+            <comment_created_at>2019-05-31T09:50:36.950000</comment_created_at>
+            <comment_length>51</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```

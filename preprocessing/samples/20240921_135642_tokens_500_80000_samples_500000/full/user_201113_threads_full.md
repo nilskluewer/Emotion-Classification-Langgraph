@@ -1,0 +1,4888 @@
+# User: sistiana (ID: 201113)
+
+This document contains the thread data for the above user across multiple articles.
+
+---
+
+## Article ID: 2000084655060
+- **Title:** Wie Niki Lauda zu "Niki nazionale" wurde
+- **Publish Date:** 2019-05-21T05:16:10
+- **Channel:** Sport
+- **Ressort Name:** Niki Lauda
+- **Total Comments:** 954
+- **Root Comments:** 614
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000084655060">
+    <title>Wie Niki Lauda zu &quot;Niki nazionale&quot; wurde</title>
+    <publish_date>2019-05-21T05:16:10</publish_date>
+    <channel>Sport</channel>
+    <ressort_name>Niki Lauda</ressort_name>
+    <total_comments>954</total_comments>
+    <root_comments>614</root_comments>
+    <user_threads>
+      <thread id="1041790858">
+        <user_name>Reisezueinanderkunst</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-08-30T08:41:09.033000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Er hatte ein sehr aufregendes und erfülltes Leben. Mein Beileid der Familie. Ruhe in Frieden, Niki</comment_text>
+        <comment_created_at>2019-05-21T09:12:50.090000</comment_created_at>
+        <comment_length>98</comment_length>
+        <replies>
+          <reply id="1041847989">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>vielleicht besser, als 90 Jahre alt zu werden in einem faden, unerfüllten Leben</comment_text>
+            <comment_created_at>2019-05-22T08:12:55.263000</comment_created_at>
+            <comment_length>79</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000099415018
+- **Title:** Trainiert man im schicken Fitness-Gewand besser?
+- **Publish Date:** 2019-05-13T21:05:28
+- **Channel:** Lifestyle
+- **Ressort Name:** Knecht mich!
+- **Total Comments:** 60
+- **Root Comments:** 35
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000099415018">
+    <title>Trainiert man im schicken Fitness-Gewand besser?</title>
+    <publish_date>2019-05-13T21:05:28</publish_date>
+    <channel>Lifestyle</channel>
+    <ressort_name>Knecht mich!</ressort_name>
+    <total_comments>60</total_comments>
+    <root_comments>35</root_comments>
+    <user_threads>
+      <thread id="1041435240">
+        <user_name>SoMuchFor Subtlety</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-04-10T09:44:03.050000</user_created_at>
+        <comment_headline>Baumwolle</comment_headline>
+        <comment_text>saugt sich an, ich finde das sehr grauslich. Deswegen trage ich lieber das atmungsaktive Zeug.Klar kaufe ich mir da lieber hübsche, bunte Sachen, wenn ich eh schon kaufen muss ;-) Das Schlabberzeug ist super zum zu Hause herumhängen, räumen, bauen, ....</comment_text>
+        <comment_created_at>2019-05-13T21:54:24.107000</comment_created_at>
+        <comment_length>253</comment_length>
+        <replies>
+          <reply id="1041443634">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>bei jedem Waschgang von Kunstfaser Outfits gelangt Mikroplastik ins Abwasser</comment_text>
+            <comment_created_at>2019-05-14T09:39:05.337000</comment_created_at>
+            <comment_length>76</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000100245213
+- **Title:** Sneaker-Tipps von David Rüb: "Preiswahnsinn nicht mitmachen"
+- **Publish Date:** 2019-05-09T07:00:00
+- **Channel:** Lifestyle
+- **Ressort Name:** Mode &amp; Kosmetik
+- **Total Comments:** 388
+- **Root Comments:** 119
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000100245213">
+    <title>Sneaker-Tipps von David Rüb: &quot;Preiswahnsinn nicht mitmachen&quot;</title>
+    <publish_date>2019-05-09T07:00:00</publish_date>
+    <channel>Lifestyle</channel>
+    <ressort_name>Mode &amp;amp; Kosmetik</ressort_name>
+    <total_comments>388</total_comments>
+    <root_comments>119</root_comments>
+    <user_threads>
+      <thread id="1041295715">
+        <user_name>Hasan_Vural</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-07-26T09:19:16.687000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich trag gern Schuhe, die kaum jemand hat und dafür bin ich bereit mehre Hundert zu investieren, diese ganzen air Max oder new balance Schuhe hat doch so fast jeder</comment_text>
+        <comment_created_at>2019-05-09T07:33:05.177000</comment_created_at>
+        <comment_length>164</comment_length>
+        <replies>
+          <reply id="1041295909">
+            <user_id>588107</user_id>
+            <user_name>my nucular dingaling</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-07-20T20:56:14.567000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ja, und ich zahle nie mehr als 30€/Paar. So verschieden sind eben die Leute. Aber ich kann auch &quot;Sammler&quot; wie dich verstehen. Wenn du das Geld hast und eine Freude daran hast, warum nicht?</comment_text>
+            <comment_created_at>2019-05-09T07:43:16.380000</comment_created_at>
+            <comment_length>188</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041296280">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Manche stehen halt auf Markenschuhe. Wir haben eine Sammlung von Chanel über Balenciaga bis hin zu Prada...das ist das gleiche, wie mit Autos. Ein Dacia fährt auch, aber manche brauchen um jeden Preis einen Audi.</comment_text>
+        <comment_created_at>2019-05-09T08:03:06.897000</comment_created_at>
+        <comment_length>212</comment_length>
+        <replies>
+          <reply id="1041297797">
+            <user_id>534149</user_id>
+            <user_name>georgelser.blogsport.at</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2014-02-06T10:02:15.837000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Humble Bragging is still bragging.</comment_text>
+            <comment_created_at>2019-05-09T09:06:47.073000</comment_created_at>
+            <comment_length>34</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041296240">
+        <user_name>Hundsansscho</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-01-27T19:14:05.247000</user_created_at>
+        <comment_headline>700 Euro?!?! Sind die noch zu retten?</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-09T08:00:50.090000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041296352">
+            <user_id>200500</user_id>
+            <user_name>Salzburger2</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2007-04-18T07:14:35.093000</user_created_at>
+            <comment_headline>Mir fällt dazu das folgende Zitat ein:</comment_headline>
+            <comment_text>Wir kaufen Dinge, die wir nicht brauchen mit Geld das wir nicht haben, um Leuten zu imponieren, die wir nicht mögen.</comment_text>
+            <comment_created_at>2019-05-09T08:06:44.867000</comment_created_at>
+            <comment_length>116</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041299881">
+        <user_name>SonDeTeuf</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-03-15T21:33:43.927000</user_created_at>
+        <comment_headline>Das Modell Triple S von Balenciaga</comment_headline>
+        <comment_text>Ich habe neulich damit jemanden gesehen.  Ich bin normal ein ruhiger Zeitgenosse.  Ich bekam jedoch so heftige Aggressionen, warum man sich so etwas abgrundtief hässliches anziehen kann, dass ich direkt mal 4-5 Personen an der Kassa vorgelassen habe, um den notwendigen Abstand aufzubauen, um wieder meine Ausgeglichenheit zu finden!</comment_text>
+        <comment_created_at>2019-05-09T10:15:33.467000</comment_created_at>
+        <comment_length>333</comment_length>
+        <replies>
+          <reply id="1041300342">
+            <user_id>317761</user_id>
+            <user_name>Pythia</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-08-11T12:30:51.773000</user_created_at>
+            <comment_headline>Damit verdienen etliche Mensche ungerechtfertigt viel Geld,</comment_headline>
+            <comment_text>weil sie anderen Menschen mit ungefestigter Persönlichkeit den Mist einreden können. Denken Sie an Schlangen vor US-Gebäckgeschäften, vor Computerläden und auch Ansturm auf Kinos.- Die Masse ist manipulierbar, nicht nur auf Kommando am Heldenplatz;-)</comment_text>
+            <comment_created_at>2019-05-09T10:29:48.580000</comment_created_at>
+            <comment_length>250</comment_length>
+          </reply>
+          <reply id="1041302117">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>mir gefällt der Balenciaga...</comment_text>
+            <comment_created_at>2019-05-09T11:23:54.077000</comment_created_at>
+            <comment_length>29</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000101533447
+- **Title:** Garteln, Chillen, Grillen: Gemüse am Dach
+- **Publish Date:** 2019-05-05T13:16:12
+- **Channel:** Immobilien
+- **Ressort Name:** Bauen &amp; Wohnen
+- **Total Comments:** 30
+- **Root Comments:** 16
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000101533447">
+    <title>Garteln, Chillen, Grillen: Gemüse am Dach</title>
+    <publish_date>2019-05-05T13:16:12</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Bauen &amp;amp; Wohnen</ressort_name>
+    <total_comments>30</total_comments>
+    <root_comments>16</root_comments>
+    <user_threads>
+      <thread id="1041194300">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wie heißt das Spezialsubstrat und wo bekommt man es?</comment_text>
+        <comment_created_at>2019-05-06T09:08:35.753000</comment_created_at>
+        <comment_length>52</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000101534167
+- **Title:** Anna Gasser: "Das ist meine erste eigene Wohnung"
+- **Publish Date:** 2019-05-08T06:00:00
+- **Channel:** Immobilien
+- **Ressort Name:** Wohngespräch
+- **Total Comments:** 364
+- **Root Comments:** 136
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000101534167">
+    <title>Anna Gasser: &quot;Das ist meine erste eigene Wohnung&quot;</title>
+    <publish_date>2019-05-08T06:00:00</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohngespräch</ressort_name>
+    <total_comments>364</total_comments>
+    <root_comments>136</root_comments>
+    <user_threads>
+      <thread id="1041265365">
+        <user_name>radames</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-04-26T19:17:49.787000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Eine Wohnung in der ich gerne leben würde. Diese Sportlerin hat Geschmack. Ich wünsche ihre weiterhin viel Erfolg und dass sie ihr zuhause möglichst ohne Sportverletzungen genießen kann.</comment_text>
+        <comment_created_at>2019-05-08T09:58:39.250000</comment_created_at>
+        <comment_length>186</comment_length>
+        <replies>
+          <reply id="1041268927">
+            <user_id>69236</user_id>
+            <user_name>Geribaldinu</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-11-26T16:41:40.177000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Woran erkennen sie jetzt den &quot;Geschmack&quot;? Am Fitnessradl im Wohnzimmer? An den Büro-Meeting-Stühlen im Essraum? Oder ist es der 30 Euro Tisch auf der Terrasse?   Bitte aufklären.</comment_text>
+            <comment_created_at>2019-05-08T11:39:56.317000</comment_created_at>
+            <comment_length>178</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041270239">
+        <user_name>tiggerle</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-02-13T18:52:22.443000</user_created_at>
+        <comment_headline>Aber wie viel kostet die Wohnung? :-)</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-08T12:18:39.913000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041275350">
+            <user_id>687312</user_id>
+            <user_name>Signal0815</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-02-05T11:02:03.687000</user_created_at>
+            <comment_headline>Sagt sie ja, Olympiagold ;-)</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-08T14:41:02.640000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041275620">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>meine 1. eigene Wohnung mit 27 war eine 55m2 Mietwohnung einer gemeinnützigen Wohnbaugesellschaft mit 10m2 Terrasse und 50 m2 Garten. Aber es sei ihr vergönnt, sie hat schließlich das nötige Kleingeld.</comment_text>
+        <comment_created_at>2019-05-08T14:47:10.030000</comment_created_at>
+        <comment_length>201</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000101794492
+- **Title:** Nur Tanken und Heizen teurer zu machen wird das Klima nicht retten
+- **Publish Date:** 2019-05-05T14:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** alles gut? Weltverbessern für Anfänger
+- **Total Comments:** 738
+- **Root Comments:** 175
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000101794492">
+    <title>Nur Tanken und Heizen teurer zu machen wird das Klima nicht retten</title>
+    <publish_date>2019-05-05T14:00:00</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>alles gut? Weltverbessern für Anfänger</ressort_name>
+    <total_comments>738</total_comments>
+    <root_comments>175</root_comments>
+    <user_threads>
+      <thread id="1041191284">
+        <user_name>a comment</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2015-05-01T06:38:06.480000</user_created_at>
+        <comment_headline>CO2 Un/ Gerechtigkeit: Vieles müsste wieder zu einem Luxusgut werden.</comment_headline>
+        <comment_text>Auto, Schiffe, Flugzeuge:: Ohne schmerzliche Preiserhöhungen wird Otto Normalverbraucher nicht verzichten. Im Stadtverkehr sollte man das E-Auto fürdern,  die Anschaffung von Autos mit Verbrennungsmotoren bzw. Zweitwagen sehr hoch besteuern! Gas,Öl und Elektroheizungen zu erhöhen ist problematisch. Es trifft nur die Armen.Abgashandel ersatzlos streichen und hohe Emissionssteuern in der Industrie !  Die öffentlichen Bauten sowie gemeinnützige Wohnbauten verpflichtend, mit Solarenergie oder anderen, nicht fossilen Energie beheizen, die Wärmedämmung für Privathaushalte steuerlich fördern! Neue Bauordnungen!  Ökologischer Fußabdruck bei allen Importgütern be - bzw.anrechnen. Und alles Europa weit!</comment_text>
+        <comment_created_at>2019-05-06T05:05:10.780000</comment_created_at>
+        <comment_length>702</comment_length>
+        <replies>
+          <reply id="1041194421">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das E Auto zu betanken (mit Atomstrom) wird auf die Dauer NICHT gratis sein.</comment_text>
+            <comment_created_at>2019-05-06T09:12:30.457000</comment_created_at>
+            <comment_length>76</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041191164">
+        <user_name>Wissenschaftliche Studien haben ergeben</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-10-03T08:34:56.433000</user_created_at>
+        <comment_headline>Wenn man alles zusammenrechnet</comment_headline>
+        <comment_text>Also nicht nur Stallungen, sondern auch Futtermittelanbau, Futtermitteltransport (!), Emissionen der Tiere selbst sowie Kotverarbeitung, bei 60 Milliarden Tieren und ca. 70 Milliarden gefangenen Fischen pro Jahr macht die  MASSENTIERHALTUNG - je nach Rechnung - bis zu 80 % der Emissionen aus. Wie bitte soll weniger Heizen und mehr CO2-Steuern daran etwas ändern?</comment_text>
+        <comment_created_at>2019-05-06T03:39:20.530000</comment_created_at>
+        <comment_length>364</comment_length>
+        <replies>
+          <reply id="1041194488">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>da regen sich die Fleischfresser wieder auf, wenn man ihnen ihr Schnitzel madig macht. Dass Regenwald u.a. für Futtermittelanbau zerstört wird, nimmt man halt hin. Dass die Fische voll Plastik und/oder Antibiotika sind, stört auch keinen.</comment_text>
+            <comment_created_at>2019-05-06T09:15:12.907000</comment_created_at>
+            <comment_length>238</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041192303">
+        <user_name>Strolchi</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-08-29T13:41:39</user_created_at>
+        <comment_headline>Am Beispiel Verkehr:</comment_headline>
+        <comment_text>Ja, gerne die Steuern auf CO2 erhöhen und zwar ordentlich. - Aber mit den entsprechenden flankierenden Maßnahmen. Sonst trifft es nämlich nur den ärmeren Teil der Bevölkerung. Die Wohlabenden kaufen sich ein E-Mobil bzw. stört sie es nicht, wenn der Liter Treibstoff EUR 2 kostet. Außerdem würde das sonst zu einer reinen Geldbeschaffung der öffentlichen Hand verkommen. - Um die Klima-Strafen zu zahlen.  Also: - Öffentlichen Verkehr im Inland wesentlich intensivieren und attraktiveren; höhere Frequenzen und mehr Strecken - öffentlicher Verkehr im Inland zum Nulltarif - Fahrradwege wesentlich verbreitern und sicherer machen; ein Strich auf der Straße ist kein Radweg - Vorrang für Öffi und Fahrräder - internationale Bahnstrecken fördern</comment_text>
+        <comment_created_at>2019-05-06T07:35:59.770000</comment_created_at>
+        <comment_length>742</comment_length>
+        <replies>
+          <reply id="1041192785">
+            <user_id>224837</user_id>
+            <user_name>the_byte</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2006-04-27T10:36:14.123000</user_created_at>
+            <comment_headline>Am Beispiel Verkehr: Find ich immer &quot;lustig&quot; wenn Leute mit öffentl. Verkehr und Fahrradeln daherkommen!</comment_headline>
+            <comment_text>Weil das sofort zeigt, dass das meist Leute sind, die in einer großen Stadt wohnen. Da kann man leicht Radeln propagieren, wenn man damit in einer halben Stunde in der Arbeit ist! Ich persönlich hab keine Lust tägl. &amp;gt;3 Std. am Radl oder im Zug zu verbringen um Arbeiten zu fahren.  Und was machen's mit den LKWs?? Packen's die ganzen Güter auf's Fahrradkörberl? &quot;Internationale Bahnstrecken&quot; für wen oder was? Der Zug hält nicht vor der Tür oder an der Baustelle! Es ist schon richtig, dass es viel &quot;Individualverkehr&quot; mit Autos gibt, gerade in den Städten, aber was glauben Sie warum die Innenstädte wirtschaftlich aussterben? Ganz einfach, weil eben keiner gern mit Öffis den großen Wochenendeinkauf dort erledigen will.</comment_text>
+            <comment_created_at>2019-05-06T08:02:00.240000</comment_created_at>
+            <comment_length>722</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102149024
+- **Title:** Müssen wir wegen des Klimas alle Veganer werden? Es würde auf jeden Fall helfen
+- **Publish Date:** 2019-05-12T14:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** alles gut? Weltverbessern für Anfänger
+- **Total Comments:** 924
+- **Root Comments:** 247
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102149024">
+    <title>Müssen wir wegen des Klimas alle Veganer werden? Es würde auf jeden Fall helfen</title>
+    <publish_date>2019-05-12T14:00:00</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>alles gut? Weltverbessern für Anfänger</ressort_name>
+    <total_comments>924</total_comments>
+    <root_comments>247</root_comments>
+    <user_threads>
+      <thread id="1041396208">
+        <user_name>Überwachungspaketzusteller</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-03-12T21:35:41.833000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Vollkommen empathieloser Artikel  Für den Autor sind Tiere scheinbar wirklich Dinge.  Wo werden diese Dinge erwähnt:  Männliche Jungtiere sind unerwünscht, Hähne werden gleich getötet, Stierkinder nach brutal langen Transporten in Einzelhaft gemästet und dann noch weiter weg verschifft wo sie getötet werden. Und auch die &quot;Nutztiere&quot; die das erste halbe Jahr überstehen haben ein nur ein kurzes Qualvolles Leben vor sich, und nicht ihre natürliche Lebenszeit. Der Standard hat doch auch über Tiertransportreportagen der letzten Monate geschrieben, und dann kommt sowas!  Von wegen &quot;alles gut?&quot; nichts ist gut, aber der Autor merkt das nicht!</comment_text>
+        <comment_created_at>2019-05-12T17:12:49.180000</comment_created_at>
+        <comment_length>642</comment_length>
+        <replies>
+          <reply id="1041396738">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>wenn diese Leute alle selbst ihr &quot;Fleisch&quot; töten müssten, wären einige vielleicht doch eher Vegetarier. Dass  Fleisch eigentlich nichts anderes ist, als ein für uns getötetes Leben, wollen die Fleischesser gar nicht wahrhaben bzw. ist ihnen das Leben (und Leiden) eines Mitgeschöpfes, des Tiers, nichts wert bzw. egal.</comment_text>
+            <comment_created_at>2019-05-12T17:31:26.043000</comment_created_at>
+            <comment_length>318</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041387329">
+        <user_name>dasmussichloswerden</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-01-27T15:29:46.783000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>sehr guter artikel! generell ist nicht nur am würstelstand, sondern in allen gasthäusern und rests vegetarisches oder veganes schwer zu finden. das muss sich ändern. um den fleischkonsum zu senken wird es notwendig sein, werbebeschränkungen wie im tabakbereich einzurichten. aber welcher politiker will der oder die erste sein, das einzufordern? immer noch werden Millionen in die werbung gepumpt um das fleisch über den ladentisch zu bekommen. wäre sofort dabei, ein werbeverbot in tv und flugblättern zu unterstützen.</comment_text>
+        <comment_created_at>2019-05-12T11:44:59.970000</comment_created_at>
+        <comment_length>519</comment_length>
+        <replies>
+          <reply id="1041450420">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>als wir das letzte Mal in einem Gasthaus (mit bekannt guter Küche) essen waren, gba es genau 2 vegetarische Angebote: Tomaten-Mozarella- Nudeln und Spargel mit Petersilkartoffeln, Butter und geriebenem Parmesan. Abgesehen davon, dass der Spargel ausgezeichnet war, eine wirklich armselige Auswahl für ein Haubenlokal.</comment_text>
+            <comment_created_at>2019-05-14T12:57:32.930000</comment_created_at>
+            <comment_length>317</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102313132
+- **Title:** Autorin Caroline Rosales: "Schon als Kind sollst du gefügig sein"
+- **Publish Date:** 2019-05-02T07:00:00
+- **Channel:** dieStandard
+- **Ressort Name:** Geschlechterpolitik
+- **Total Comments:** 528
+- **Root Comments:** 120
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102313132">
+    <title>Autorin Caroline Rosales: &quot;Schon als Kind sollst du gefügig sein&quot;</title>
+    <publish_date>2019-05-02T07:00:00</publish_date>
+    <channel>dieStandard</channel>
+    <ressort_name>Geschlechterpolitik</ressort_name>
+    <total_comments>528</total_comments>
+    <root_comments>120</root_comments>
+    <user_threads>
+      <thread id="1041095676">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich glaube, dass viele junge Frauen Dinge machen, die ihnen später leid tun und die sie dann in reiferen Jahren auch nicht mehr machen. Als junge Frau glaubt man oft, man muss Sexpraktiken über sich ergehen lassen, die man abstoßend findet, nur damit man seinem Typen gefällt, später sagt man dann klipp und klar, wenn man etwas nicht mag - sollte die Beziehung daran zerbrechen, war es eh der falsche Typ.</comment_text>
+        <comment_created_at>2019-05-02T13:50:19.850000</comment_created_at>
+        <comment_length>406</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102350237
+- **Title:** Frühmensch Denisova lebte in den Höhen von Tibet
+- **Publish Date:** 2019-05-01T19:19:44
+- **Channel:** Wissenschaft
+- **Ressort Name:** Mensch
+- **Total Comments:** 45
+- **Root Comments:** 15
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102350237">
+    <title>Frühmensch Denisova lebte in den Höhen von Tibet</title>
+    <publish_date>2019-05-01T19:19:44</publish_date>
+    <channel>Wissenschaft</channel>
+    <ressort_name>Mensch</ressort_name>
+    <total_comments>45</total_comments>
+    <root_comments>15</root_comments>
+    <user_threads>
+      <thread id="1041095503">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>wie bestimmt man das Alter solcher Funde?</comment_text>
+        <comment_created_at>2019-05-02T13:44:29.380000</comment_created_at>
+        <comment_length>41</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102371242
+- **Title:** Wenn Einsamkeit krank macht
+- **Publish Date:** 2019-05-02T10:02:51
+- **Channel:** Gesundheit
+- **Ressort Name:** Psyche
+- **Total Comments:** 13
+- **Root Comments:** 7
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102371242">
+    <title>Wenn Einsamkeit krank macht</title>
+    <publish_date>2019-05-02T10:02:51</publish_date>
+    <channel>Gesundheit</channel>
+    <ressort_name>Psyche</ressort_name>
+    <total_comments>13</total_comments>
+    <root_comments>7</root_comments>
+    <user_threads>
+      <thread id="1041100867">
+        <user_name>moskovitz</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-11-28T13:39:58.290000</user_created_at>
+        <comment_headline>einsamkeit ist furchtbar....</comment_headline>
+        <comment_text>man kann nur jeden tips geben, geht unter die leute. egal mit welche oft auch idioten ihr beinander seid. wichtig ist es gibt zumindest tratsch und Streiterei. denn ohne dem fühlt sich der ösi auch nicht wohl.</comment_text>
+        <comment_created_at>2019-05-02T17:09:36.393000</comment_created_at>
+        <comment_length>209</comment_length>
+        <replies>
+          <reply id="1041113601">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-03T08:30:18.870000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102375524
+- **Title:** Bärte sind unhygienischer als Hundefelle
+- **Publish Date:** 2019-05-02T10:42:51
+- **Channel:** Gesundheit
+- **Ressort Name:** Umweltmedizin
+- **Total Comments:** 470
+- **Root Comments:** 134
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102375524">
+    <title>Bärte sind unhygienischer als Hundefelle</title>
+    <publish_date>2019-05-02T10:42:51</publish_date>
+    <channel>Gesundheit</channel>
+    <ressort_name>Umweltmedizin</ressort_name>
+    <total_comments>470</total_comments>
+    <root_comments>134</root_comments>
+    <user_threads>
+      <thread id="1041095295">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Abgesehen von der Studie, die sagt, dass Bärte Keimträger sind, finde ich persönlich Bärte wirklich nicht schön. Ehrlich gesagt, sogar etwas eklig.</comment_text>
+        <comment_created_at>2019-05-02T13:37:01.450000</comment_created_at>
+        <comment_length>147</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102384240
+- **Title:** Ungewöhnlicher Kälteeinbruch am Wochenende
+- **Publish Date:** 2019-05-02T12:09:04
+- **Channel:** Panorama
+- **Ressort Name:** Wetternachrichten
+- **Total Comments:** 120
+- **Root Comments:** 48
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102384240">
+    <title>Ungewöhnlicher Kälteeinbruch am Wochenende</title>
+    <publish_date>2019-05-02T12:09:04</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wetternachrichten</ressort_name>
+    <total_comments>120</total_comments>
+    <root_comments>48</root_comments>
+    <user_threads>
+      <thread id="1041095359">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Mini Eiszeit.</comment_text>
+        <comment_created_at>2019-05-02T13:39:05.867000</comment_created_at>
+        <comment_length>13</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102386436
+- **Title:** Kann man Familie und Beruf wirklich miteinander vereinbaren?
+- **Publish Date:** 2019-05-03T09:00:00
+- **Channel:** Familie
+- **Ressort Name:** Blog: Tipps für Eltern 
+- **Total Comments:** 135
+- **Root Comments:** 41
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102386436">
+    <title>Kann man Familie und Beruf wirklich miteinander vereinbaren?</title>
+    <publish_date>2019-05-03T09:00:00</publish_date>
+    <channel>Familie</channel>
+    <ressort_name>Blog: Tipps für Eltern </ressort_name>
+    <total_comments>135</total_comments>
+    <root_comments>41</root_comments>
+    <user_threads>
+      <thread id="1041132604">
+        <user_name>Oarscherkarl</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-04-11T23:45:58.117000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich konnte es nicht. Daher blieb mir nur der Weg aufs AMS. Ohne Großeltern, Tanten etc. die alle nicht in WIen leben, unmöglich.  Es reichte gerade zu Aushilfsjobs für ein paar Stunden, die aber auch immer zugunsten meiner Kinder geopfert wurden.  Und irgendwann war ich dann auf einmal so weit vom realen Arbeitsmarkt entfernt, dass ich keine Einladungen mehr bekam.  Mein jetziger Arbeitgeber hatte dafür Verständnis, als ich ihm es gesagt habe wie alles war. Mittlerweile habe ich wieder im Arbeitsleben meinen Platz gefunden und heute kann ich sagen- Gut war es, alles meinen Kindern unterzuordnen. Beide haben eine gute Bildung, beide haben Superjobs. Ich habe alles richtig gemacht. Meinen Kindern die bestmögliche Bildung zu garantieren.</comment_text>
+        <comment_created_at>2019-05-03T18:51:04.510000</comment_created_at>
+        <comment_length>744</comment_length>
+        <replies>
+          <reply id="1041141251">
+            <user_id>521718</user_id>
+            <user_name>desperate</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2013-08-12T11:57:50.283000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>bleibt da nicht etwas von gefühl selbst auf der strecke geblieben zu sein?</comment_text>
+            <comment_created_at>2019-05-04T06:55:10.373000</comment_created_at>
+            <comment_length>74</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102388346
+- **Title:** Späte Schwangerschaft: Würden Sie nach 40 noch Mutter werden?
+- **Publish Date:** 2019-05-03T11:00:00
+- **Channel:** User
+- **Ressort Name:** Mitreden
+- **Total Comments:** 424
+- **Root Comments:** 98
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102388346">
+    <title>Späte Schwangerschaft: Würden Sie nach 40 noch Mutter werden?</title>
+    <publish_date>2019-05-03T11:00:00</publish_date>
+    <channel>User</channel>
+    <ressort_name>Mitreden</ressort_name>
+    <total_comments>424</total_comments>
+    <root_comments>98</root_comments>
+    <user_threads>
+      <thread id="1041164228">
+        <user_name>Mag. Kli Doris</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2019-03-03T13:11:57.803000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Eine heute 40-jährige schaut meistens mindestens 10 Jahre jünger aus als 40-jährige vor 30 Jahren. Deshalb: Why not!</comment_text>
+        <comment_created_at>2019-05-04T23:29:28.450000</comment_created_at>
+        <comment_length>116</comment_length>
+        <replies>
+          <reply id="1041164350">
+            <user_id>686053</user_id>
+            <user_name>Cannonndalle</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-01-13T22:53:43.237000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Weil sie mit 60 eine uralte Mama ist.</comment_text>
+            <comment_created_at>2019-05-04T23:37:44.240000</comment_created_at>
+            <comment_length>37</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041166795">
+        <user_name>Berggasse</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-04-28T10:38:33.840000</user_created_at>
+        <comment_headline>In der Stadt möcht ich oft gern hingehen und fragen:</comment_headline>
+        <comment_text>“... entschuldigen Sie, sind sie die Mutter oder die Großmutter von dem Kind?</comment_text>
+        <comment_created_at>2019-05-05T08:09:36.223000</comment_created_at>
+        <comment_length>77</comment_length>
+        <replies>
+          <reply id="1041194983">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>oft weiß man das tatsächlich nicht, ich frage mich das auch sehr oft.</comment_text>
+            <comment_created_at>2019-05-06T09:31:29.813000</comment_created_at>
+            <comment_length>69</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041194944">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>NEIN, niemals! Ich habe mein (einziges) Kind mit 32 bekommen und fand das schon zu spät. Meine Tochter hat mir oft vorgeworfen, dass ich eine &quot;alte&quot; Mutter sei und das einzig gute, dass ich wesentlich jünger aussehe. Man darf nicht vergessen, dass mal irgendwann mehr oder weniger in die Wechseljahre kommt und weniger Energie für den Nachwuchs hat. Wenn dieser dann gerade erst in der  Pubertät ist, dann tut mir die arme (&quot;alte&quot;)  Mama leid.</comment_text>
+        <comment_created_at>2019-05-06T09:30:05.227000</comment_created_at>
+        <comment_length>443</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102393121
+- **Title:** Neuer "Jö"-Kundenklub: Was Bonuskarten bringen und was nicht
+- **Publish Date:** 2019-05-02T16:17:14.030000
+- **Channel:** Wirtschaft
+- **Ressort Name:** Unternehmen
+- **Total Comments:** 626
+- **Root Comments:** 185
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102393121">
+    <title>Neuer &quot;Jö&quot;-Kundenklub: Was Bonuskarten bringen und was nicht</title>
+    <publish_date>2019-05-02T16:17:14.030000</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Unternehmen</ressort_name>
+    <total_comments>626</total_comments>
+    <root_comments>185</root_comments>
+    <user_threads>
+      <thread id="1041112379">
+        <user_name>Fonque</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-03-15T07:29:40.803000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich habe mich - trotz vorheriger überlegung - angemeldet. Ich weiß, das Google und Amazon alles über mich wissen,... Da brauch ich mich nicht vor lokalen Händlern angaksn, das wäre scheinheilig.</comment_text>
+        <comment_created_at>2019-05-03T07:25:22.360000</comment_created_at>
+        <comment_length>194</comment_length>
+        <replies>
+          <reply id="1041113787">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ich weiß, dass....</comment_text>
+            <comment_created_at>2019-05-03T08:37:47.190000</comment_created_at>
+            <comment_length>18</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041113639">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>als dm damals die lila Karte abgeschafft und durch eine neue ersetzt hat, hab ich die neue nicht mehr beantragt. Das gleiche gilt für JÖ, die alte Billa Karte war okay, aber jetzt will ich nicht mehr.</comment_text>
+        <comment_created_at>2019-05-03T08:32:04.933000</comment_created_at>
+        <comment_length>200</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102401675
+- **Title:** Künstliche Intelligenz erzeugt Fotos von Models, die es nicht gibt
+- **Publish Date:** 2019-05-07T08:00:00
+- **Channel:** Zukunft
+- **Ressort Name:** Edition Zukunft
+- **Total Comments:** 108
+- **Root Comments:** 56
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102401675">
+    <title>Künstliche Intelligenz erzeugt Fotos von Models, die es nicht gibt</title>
+    <publish_date>2019-05-07T08:00:00</publish_date>
+    <channel>Zukunft</channel>
+    <ressort_name>Edition Zukunft</ressort_name>
+    <total_comments>108</total_comments>
+    <root_comments>56</root_comments>
+    <user_threads>
+      <thread id="1041235832">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wahnsinn, das  Video!</comment_text>
+        <comment_created_at>2019-05-07T12:18:14.210000</comment_created_at>
+        <comment_length>21</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102405447
+- **Title:** Masernfall an Bord: Scientology-Schiff in Quarantäne
+- **Publish Date:** 2019-05-02T16:52:10
+- **Channel:** Panorama
+- **Ressort Name:** Welt-Chronik
+- **Total Comments:** 88
+- **Root Comments:** 30
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102405447">
+    <title>Masernfall an Bord: Scientology-Schiff in Quarantäne</title>
+    <publish_date>2019-05-02T16:52:10</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Welt-Chronik</ressort_name>
+    <total_comments>88</total_comments>
+    <root_comments>30</root_comments>
+    <user_threads>
+      <thread id="1041113147">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>An einem Ort nach dem anderen Seuchen (Lukas 21:11)</comment_headline>
+        <comment_text>Erfüllung: Ungeachtet des medizinischen Fortschritts sterben jedes Jahr noch immer Millionen an den Folgen von Infektionskrankheiten. Durch Auslandsreisen und den Zuzug von immer mehr Menschen in Städte hat sich die Wahrscheinlichkeit erhöht, dass Infektionskrankheiten noch schneller um sich greifen.</comment_text>
+        <comment_created_at>2019-05-03T08:09:23.093000</comment_created_at>
+        <comment_length>301</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102419015
+- **Title:** Es wird keine Bischöfin: Chefsuche bei den Lutheranern
+- **Publish Date:** 2019-05-03T08:00:00
+- **Channel:** Inland
+- **Ressort Name:** Religion &amp; Politik
+- **Total Comments:** 98
+- **Root Comments:** 25
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102419015">
+    <title>Es wird keine Bischöfin: Chefsuche bei den Lutheranern</title>
+    <publish_date>2019-05-03T08:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Religion &amp;amp; Politik</ressort_name>
+    <total_comments>98</total_comments>
+    <root_comments>25</root_comments>
+    <user_threads>
+      <thread id="1041113108">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>laut der Bibel haben lediglich die Männer die Möglichkeit, als &quot;Älteste&quot; (manchmal mit Bischof übersetzt) zu &quot;dienen&quot;. Und nur, wenn sie bestimmte Voraussetzungen erfüllen.   In den Anfängen der Christenversammlung wurden befähigte Männer zu Aufsehern oder Ältesten ernannt, um „die Versammlung Gottes zu hüten“ (Apostelgeschichte 20:28). In 1. Timotheus 3:1-10, 12 und in Titus 1:5-9 können Sie nachlesen, welche Voraussetzungen Älteste und Dienstamtgehilfen mitbringen müssen.</comment_text>
+        <comment_created_at>2019-05-03T08:07:15.187000</comment_created_at>
+        <comment_length>478</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102430552
+- **Title:** Tesla warnt: Rohstoffe für Batterien werden knapp
+- **Publish Date:** 2019-05-03T06:43:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Unternehmen
+- **Total Comments:** 607
+- **Root Comments:** 116
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102430552">
+    <title>Tesla warnt: Rohstoffe für Batterien werden knapp</title>
+    <publish_date>2019-05-03T06:43:00</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Unternehmen</ressort_name>
+    <total_comments>607</total_comments>
+    <root_comments>116</root_comments>
+    <user_threads>
+      <thread id="1041112712">
+        <user_name>Jessas Na</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2002-04-09T14:45:58</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Das sind keine neuigkeiten. Es stand schon vor jahren fest, dass die förderkapazitäten langsamer nachziehen als die nachfrage, weil es einfach ewig braucht um so eine Mine auf volllast anlaufen zu lassen.  Uns gehen nicht die rohstoffe aus (schon gar nicht lithium), wir haben einfach momentan keine adequate förderung.  Das könnte man schon auch dazu sagen.</comment_text>
+        <comment_created_at>2019-05-03T07:43:26.103000</comment_created_at>
+        <comment_length>358</comment_length>
+        <replies>
+          <reply id="1041112986">
+            <user_id>193754</user_id>
+            <user_name>Selfdefense</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2000-11-03T07:06:28</user_created_at>
+            <comment_headline>Eindeutig, wir müssen noch mehr Grundwasser aus der Atacama Wüste</comment_headline>
+            <comment_text>verdunsten lassen, um an das Lithium ranzukommen. Hinweis: Die dafür notwendigen Maschinen und Fahrzeuge laufen alle nicht mit Strom, geschweige denn Solar- oder Wasserkraft...</comment_text>
+            <comment_created_at>2019-05-03T07:59:31.723000</comment_created_at>
+            <comment_length>176</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041113376">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>Bringen Sie auch Ihre Elektrokleingeräte zum Recyclinghof</comment_headline>
+        <comment_text>https://www.eak-austria.at/downloads/Inhalte/Materialien/Inserate/2019_EAG_Inserat_Kleinaberoho2019_print.pdf</comment_text>
+        <comment_created_at>2019-05-03T08:21:06.573000</comment_created_at>
+        <comment_length>109</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041113507">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>an alle E-Auto Fans:</comment_headline>
+        <comment_text>Zur Mikroplastikproblematik trägt zu einen hohen Anteil der Reifenabrieb bei, und Reifen haben auch E-Autos. Weiters ist auch das E-Auto nicht die Lösung. Auch diese Version des Autos ist nicht umweltfreundlich, nicht mal umweltneutral. Also, bitte weiter forschen, nicht das E-Auto verherrlichen. Das ist Vogel-Strauss-Politik. Kopf in den Sand.</comment_text>
+        <comment_created_at>2019-05-03T08:26:23.420000</comment_created_at>
+        <comment_length>346</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102435988
+- **Title:** Ina Kent: "Das schlechte Gewissen ist zum Glück längst verflogen"
+- **Publish Date:** 2019-05-06T06:00:00
+- **Channel:** Immobilien
+- **Ressort Name:** Wohngespräch
+- **Total Comments:** 192
+- **Root Comments:** 55
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102435988">
+    <title>Ina Kent: &quot;Das schlechte Gewissen ist zum Glück längst verflogen&quot;</title>
+    <publish_date>2019-05-06T06:00:00</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohngespräch</ressort_name>
+    <total_comments>192</total_comments>
+    <root_comments>55</root_comments>
+    <user_threads>
+      <thread id="1041193260">
+        <user_name>tonivonjuni</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2014-10-15T12:54:59.493000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich freu mich wirklich über jede Frau die es schafft mit ihrem Beruf erfolgreich und glücklich zu sein. Tolle Wohnung, 2 Geschäfte in Wien, ich geh dort sehr oft vorbei, hab noch nie eine Kundin drinnen gesehen und die Taschen sind sehr teuer um nicht zu sagen überteuert. Wie schafft man da zu Überleben?</comment_text>
+        <comment_created_at>2019-05-06T08:24:18.087000</comment_created_at>
+        <comment_length>305</comment_length>
+        <replies>
+          <reply id="1041194572">
+            <user_id>155509</user_id>
+            <user_name>muehui</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2009-05-10T21:52:07.110000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Achten Sie mal in Wien drauf - die Dichte an Ina Kent Taschen ist hoch und wird im 6. und 7. fast lächerlich :D  Ich selbst hab 5 von den Dingern über die Jahre zusammengesammelt ;) Sie sind teuer, aber gut!</comment_text>
+            <comment_created_at>2019-05-06T09:18:16.340000</comment_created_at>
+            <comment_length>207</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041194082">
+        <user_name>ElChupacabra</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2000-08-29T14:19:16</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Schön. Vielleicht sollte ich im nächsten Leben auch Taschen nähen.</comment_text>
+        <comment_created_at>2019-05-06T09:00:06.120000</comment_created_at>
+        <comment_length>66</comment_length>
+        <replies>
+          <reply id="1041194794">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>aber dann bitte edle Designer Taschen, nicht solche Beutel wie eben gegoogelt.</comment_text>
+            <comment_created_at>2019-05-06T09:25:33.750000</comment_created_at>
+            <comment_length>78</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102439538
+- **Title:** Montagsfrage: Inwieweit beeinflusst Angst Ihr Leben?
+- **Publish Date:** 2019-05-06T06:00:00
+- **Channel:** User
+- **Ressort Name:** Montagsfrage
+- **Total Comments:** 113
+- **Root Comments:** 57
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102439538">
+    <title>Montagsfrage: Inwieweit beeinflusst Angst Ihr Leben?</title>
+    <publish_date>2019-05-06T06:00:00</publish_date>
+    <channel>User</channel>
+    <ressort_name>Montagsfrage</ressort_name>
+    <total_comments>113</total_comments>
+    <root_comments>57</root_comments>
+    <user_threads>
+      <thread id="1041194217">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich habe immer Angst. Vor allem vor Krankheiten.</comment_text>
+        <comment_created_at>2019-05-06T09:05:26.813000</comment_created_at>
+        <comment_length>48</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102463140
+- **Title:** Landluft statt Landflucht – Baukultur gegen Verödung und für mehr Nachhaltigkeit
+- **Publish Date:** 2019-05-05T08:00:00
+- **Channel:** Zukunft
+- **Ressort Name:** Edition Zukunft
+- **Total Comments:** 58
+- **Root Comments:** 22
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102463140">
+    <title>Landluft statt Landflucht – Baukultur gegen Verödung und für mehr Nachhaltigkeit</title>
+    <publish_date>2019-05-05T08:00:00</publish_date>
+    <channel>Zukunft</channel>
+    <ressort_name>Edition Zukunft</ressort_name>
+    <total_comments>58</total_comments>
+    <root_comments>22</root_comments>
+    <user_threads>
+      <thread id="1041182133">
+        <user_name>Vicky_Eisi</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-02-07T11:53:23.193000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Diese Häuser sind - kurz gesagt - schiach. Aber richtig!</comment_text>
+        <comment_created_at>2019-05-05T18:27:33.687000</comment_created_at>
+        <comment_length>56</comment_length>
+        <replies>
+          <reply id="1041302701">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>für einen Standardleser eine eher untypische Aussage. Die Häuser sind wirklich eine Augenweide.</comment_text>
+            <comment_created_at>2019-05-09T11:40:43.100000</comment_created_at>
+            <comment_length>95</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041302641">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>sehr schöne Gebäude!!!</comment_text>
+        <comment_created_at>2019-05-09T11:39:01.390000</comment_created_at>
+        <comment_length>22</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102534990
+- **Title:** Nach Wintereinbruch stieg Lawinengefahr im Westen
+- **Publish Date:** 2019-05-05T11:22:01.900000
+- **Channel:** Panorama
+- **Ressort Name:** Wetternachrichten
+- **Total Comments:** 230
+- **Root Comments:** 55
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102534990">
+    <title>Nach Wintereinbruch stieg Lawinengefahr im Westen</title>
+    <publish_date>2019-05-05T11:22:01.900000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wetternachrichten</ressort_name>
+    <total_comments>230</total_comments>
+    <root_comments>55</root_comments>
+    <user_threads>
+      <thread id="1041185141">
+        <user_name>greenling</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2004-11-03T18:01:29.560000</user_created_at>
+        <comment_headline>Ich finde es super</comment_headline>
+        <comment_text>Die Niederschläge waren für die ausgetrocknete Natur immens wichtig, denn...   der Hitzesommer kommt bestimmt.  Und wenn nicht, umso besser.   Es kommt in Zeiten des Klimawandels nun auf jedes Jahr an, je mehr Zeit wir zur Wende haben, desto besser.  Jetzt nur nicht aufhören zu kämpfen, sondern weitermachen!</comment_text>
+        <comment_created_at>2019-05-05T20:11:47.420000</comment_created_at>
+        <comment_length>309</comment_length>
+        <replies>
+          <reply id="1041186512">
+            <user_id>20700</user_id>
+            <user_name>Bonewerkz</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-07-08T01:21:33.283000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Es wird jedenfalls immer wieder nur fuer die naechste Woche Besserung vorhergesagt,aber auch die naechsten Wochen wird es schiach,und das geht monatelang so weiter,bis Herbst.(Siehe Sommer 2005,2014...)</comment_text>
+            <comment_created_at>2019-05-05T21:07:25.097000</comment_created_at>
+            <comment_length>202</comment_length>
+          </reply>
+          <reply id="1041194662">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die Niederschläge können auch als Regen fallen im Mai bei angenehmen Temperaturen.</comment_text>
+            <comment_created_at>2019-05-06T09:21:14.243000</comment_created_at>
+            <comment_length>82</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102595493
+- **Title:** "Lederhosn" für alle: Gabaliers "Volks-Rock-'n'-Roller-Fashion"
+- **Publish Date:** 2019-05-08T14:00:00
+- **Channel:** Lifestyle
+- **Ressort Name:** Mode &amp; Kosmetik
+- **Total Comments:** 560
+- **Root Comments:** 227
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102595493">
+    <title>&quot;Lederhosn&quot; für alle: Gabaliers &quot;Volks-Rock-'n'-Roller-Fashion&quot;</title>
+    <publish_date>2019-05-08T14:00:00</publish_date>
+    <channel>Lifestyle</channel>
+    <ressort_name>Mode &amp;amp; Kosmetik</ressort_name>
+    <total_comments>560</total_comments>
+    <root_comments>227</root_comments>
+    <user_threads>
+      <thread id="1041296658">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich verstehe euch wirklich nicht. Nicht dass ich selbst jemals solches Zeug anziehen würde, aber wem´s gefällt, der soll sich das kaufen und anziehen. Oder gibt es jetzt bei uns plötzlich Kleidungsvorschriften, Mädchen dürfen kein rosa mehr anziehen, Leute keine Trachten mehr, Sneakers nur billig und keine Designer, etc....euch gefällt das Gabalier Zeugs nicht, mir auch nicht, aber anderen eben schon, und das ist auch gut so.</comment_text>
+        <comment_created_at>2019-05-09T08:20:35.223000</comment_created_at>
+        <comment_length>429</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102614377
+- **Title:** Papst feuert Exorzisten
+- **Publish Date:** 2019-05-06T16:35:23
+- **Channel:** International
+- **Ressort Name:** Kirche
+- **Total Comments:** 59
+- **Root Comments:** 31
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102614377">
+    <title>Papst feuert Exorzisten</title>
+    <publish_date>2019-05-06T16:35:23</publish_date>
+    <channel>International</channel>
+    <ressort_name>Kirche</ressort_name>
+    <total_comments>59</total_comments>
+    <root_comments>31</root_comments>
+    <user_threads>
+      <thread id="1041232375">
+        <user_name>Eifelgeist</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-12-25T17:16:26.660000</user_created_at>
+        <comment_headline>Eigendlich zum lachen ....</comment_headline>
+        <comment_text>eine Religion die an Dämonen glaubt aber den Aberglauben von Dämonen Jahrhunderte lang bekämpfte.</comment_text>
+        <comment_created_at>2019-05-07T10:51:28.447000</comment_created_at>
+        <comment_length>97</comment_length>
+        <replies>
+          <reply id="1041236836">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>Jesus trieb Dämonen aus</comment_headline>
+            <comment_text>Als der Junge näher kommt, schleudert ihn der Dämon auf den Boden und plagt ihn mit heftigen Krämpfen. Mit Schaum vor dem Mund wälzt sich der Junge hin und her. „Wie lange hat er das schon?“, fragt Jesus den Vater. „Von klein auf“, antwortet er. „Der Geist hat ihn schon oft ins Feuer oder auch ins Wasser geworfen, um ihn umzubringen.“  Dann fleht der Mann: „Wenn du etwas tun kannst, dann hab Mitleid mit uns und hilf uns“ (Markus 9:21, 22).</comment_text>
+            <comment_created_at>2019-05-07T12:45:59.070000</comment_created_at>
+            <comment_length>443</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102618799
+- **Title:** Gallitzinstraße: Grüne Fassaden besänftigen Gegner nicht
+- **Publish Date:** 2019-05-06T18:08:56
+- **Channel:** Immobilien
+- **Ressort Name:** Wohnbau in Österreich
+- **Total Comments:** 286
+- **Root Comments:** 59
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102618799">
+    <title>Gallitzinstraße: Grüne Fassaden besänftigen Gegner nicht</title>
+    <publish_date>2019-05-06T18:08:56</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohnbau in Österreich</ressort_name>
+    <total_comments>286</total_comments>
+    <root_comments>59</root_comments>
+    <user_threads>
+      <thread id="1041236009">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Unsere Wohnanlage sah auf dem Plakat auch super aus, mit begrüntem Innenhof, hübsch bepflanzten Gartenwohnungen, lauschige Plätzen unter grünen Pergolen...in Wiklichkeit zieren den großen Innenhof Kies, ein Mini-Kinderspielplatz mit zwei mikrigen Zwergbäumchen und eine kleine Grünfläche mit 3 immer wieder brutal zurückgestutzen Ziersträuchern, die nie höher als 50 cm werden. Beete, die mit Bodendeckern bepfanzt wurden, sind inzwischen halbleer und es wird nichts nachgesetzt. Die stolzen Gartenbesitzer machen nichts anderes, als täglich den Rasenroboter auf ihren 50 m5 Gartenfläche kreisen zu lassen. Einen Baum oder Strauch hat kein Mensch gepflanzt, maximal eine Thujenhecke rahmt die 50 m2 ein.</comment_text>
+        <comment_created_at>2019-05-07T12:22:41.953000</comment_created_at>
+        <comment_length>703</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102642029
+- **Title:** Kopftuchverbot an Volksschulen soll diesmal Ausschuss passieren
+- **Publish Date:** 2019-05-07T07:08:23
+- **Channel:** Bildung
+- **Ressort Name:** Bildung &amp; Integration
+- **Total Comments:** 284
+- **Root Comments:** 42
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102642029">
+    <title>Kopftuchverbot an Volksschulen soll diesmal Ausschuss passieren</title>
+    <publish_date>2019-05-07T07:08:23</publish_date>
+    <channel>Bildung</channel>
+    <ressort_name>Bildung &amp;amp; Integration</ressort_name>
+    <total_comments>284</total_comments>
+    <root_comments>42</root_comments>
+    <user_threads>
+      <thread id="1041227922">
+        <user_name>Silber Moehrenstein</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-03-15T10:16:35.393000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Alle Religiösen Symbole von Muslimen raus und bitte doppelt so große Abendlandkreuze in die Klassen.</comment_text>
+        <comment_created_at>2019-05-07T08:56:58.853000</comment_created_at>
+        <comment_length>100</comment_length>
+        <replies>
+          <reply id="1041236499">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wieso das Mordwerkzeug aufhängen? Abgesehen davon ist Jesus an einen schlichten Holzstamm genagelt worden, Kreuze war damals als Hinrichtungsinstrument nicht bekannt.</comment_text>
+            <comment_created_at>2019-05-07T12:37:38.937000</comment_created_at>
+            <comment_length>166</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041234882">
+        <user_name>Hans Moor</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-02-16T12:44:21.043000</user_created_at>
+        <comment_headline>Nonnen</comment_headline>
+        <comment_text>Ich bin auch für ein Kopftuchverbot für Nonnen. Die ideologisch rückwärtsgewante Einstellung und gelebte Frauenunterwürfigkeit von Nonnen ist offenkundig. Ich fühle mich von den Kopftüchern dieser extremistischen gesellschaftlichen Gruppe provoziert und habe um meine Tochter Angst. Diesen Nonnen ist zuzutrauen, dass sie unseren Mädchen ein fundamentalistisches Leben in einem Kloster einreden wollen! Rund um Volksschulen und Kindergärten sollte es jedenfalls eine Bannmeile für Nonnen geben und fundamentalistische Religionspropaganda dieser Radikalen im Unterricht geht selbstredend gar nicht!</comment_text>
+        <comment_created_at>2019-05-07T11:54:07.400000</comment_created_at>
+        <comment_length>597</comment_length>
+        <replies>
+          <reply id="1041235541">
+            <user_id>678310</user_id>
+            <user_name>Wilfried Apfalter</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2018-08-12T10:52:49.097000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Zumindest einige Nonnen (mit entsprechender Kopfbekleidung) werden in Volksschulen wohl ebenfalls von der erwähnten Regelung betroffen sein:  &quot;Unter &quot;Verhüllung des Hauptes&quot; soll laut Erläuterungen &quot;jede Art von Bekleidung, welche das gesamte Haupthaar oder große Teile dessen verhüllt&quot;, umfasst sein.&quot;</comment_text>
+            <comment_created_at>2019-05-07T12:11:11.253000</comment_created_at>
+            <comment_length>302</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041236079">
+        <user_name>Computer says Yes</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-05-06T18:13:53.210000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich erinnere mich noch an die Diskussion ums Burkaverbot, damals war die Rede davon, dass gegen ein normales Kopftuch eh keiner was hat. Schon damals hab ich mir gedacht, dass das nur geheuchelter Dreck ist. Und wie recht ich hatte.</comment_text>
+        <comment_created_at>2019-05-07T12:24:56.217000</comment_created_at>
+        <comment_length>232</comment_length>
+        <replies>
+          <reply id="1041236316">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Im Inneren eines Gebäudes braucht kein Mensch eine Kopfbedeckung zu tragen, das ist einfach krank.</comment_text>
+            <comment_created_at>2019-05-07T12:32:08.267000</comment_created_at>
+            <comment_length>98</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102672963
+- **Title:** Sind Sie Ihrem ersten Mobilfunker treu geblieben?
+- **Publish Date:** 2019-05-08T17:41:00.750000
+- **Channel:** Web
+- **Ressort Name:** Webtalk
+- **Total Comments:** 266
+- **Root Comments:** 192
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102672963">
+    <title>Sind Sie Ihrem ersten Mobilfunker treu geblieben?</title>
+    <publish_date>2019-05-08T17:41:00.750000</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webtalk</ressort_name>
+    <total_comments>266</total_comments>
+    <root_comments>192</root_comments>
+    <user_threads>
+      <thread id="1041400820">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ja, ich war immer zu faul, zu wechseln und zahle daher nach wie vor A1, obwohl die am teuersten sind.</comment_text>
+        <comment_created_at>2019-05-12T19:45:17.607000</comment_created_at>
+        <comment_length>101</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102684570
+- **Title:** Gendermarketing: Konsumwahn in Pink und Blau
+- **Publish Date:** 2019-05-08T07:00:00
+- **Channel:** dieStandard
+- **Ressort Name:** Blog: Über die Verhältnisse
+- **Total Comments:** 374
+- **Root Comments:** 91
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102684570">
+    <title>Gendermarketing: Konsumwahn in Pink und Blau</title>
+    <publish_date>2019-05-08T07:00:00</publish_date>
+    <channel>dieStandard</channel>
+    <ressort_name>Blog: Über die Verhältnisse</ressort_name>
+    <total_comments>374</total_comments>
+    <root_comments>91</root_comments>
+    <user_threads>
+      <thread id="1041296442">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>meine Tochter hat, als sie klein war, von selbst gerne pinke Sachen angezogen.</comment_text>
+        <comment_created_at>2019-05-09T08:11:29.227000</comment_created_at>
+        <comment_length>78</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041279629">
+        <user_name>Herbert Gallinger</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-10-13T13:41:01.207000</user_created_at>
+        <comment_headline>Bitte an die Damenwelt: Unter Euch ausmachen!</comment_headline>
+        <comment_text>Ganz ehrlich: Jede Woche am Donnerstag Abend zieht sich ein Gutteil der weiblichen Bevölkerung &quot;Germanys Next Topmodel&quot; rein.  Vielleicht geht es nur mir als Mann so, aber mir gefallen weder die Models, noch ihre Posen und noch viel weniger ihr Verhalten und Charakter, auf Heidi kann ich ebenfalls wirklich verzichten.  Ich behaupte, damit geht es mir als Mann nicht alleine so.  Diese Sendung wird - so wie vieles Andere - von Frauen und (schwulen?) Männern für Frauen gemacht. Und ja, es handelt sich um ein enormes Machtinstrument, in dem hierarchische Strukturen unter Frauen etabliert werden. Ganz super.  Nur bitte: Macht Euch den ganzen Mist unter Euch aus und lasst uns Männer damit in Ruhe!</comment_text>
+        <comment_created_at>2019-05-08T16:40:27.180000</comment_created_at>
+        <comment_length>700</comment_length>
+        <replies>
+          <reply id="1041280434">
+            <user_id>112030</user_id>
+            <user_name>insertnamehere</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2007-02-13T12:13:13.703000</user_created_at>
+            <comment_headline>Hier gehts allerdings darum, was man seinem Kind anzieht und selbiges Kind sollte man ja auch als Mann manchmal anschauen.</comment_headline>
+            <comment_text>Des weiteren gehts darum, ob man Kinder von ganz klein auf in Stereotype stecken muss und nachdem die beiden Stereotype in Reinform eher nervtötend sind, halte ich das als harmoniebedürftiger Mann auch nicht für besonders erstrebenswert.</comment_text>
+            <comment_created_at>2019-05-08T17:10:23.820000</comment_created_at>
+            <comment_length>237</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102693569
+- **Title:** Junge Macho-Migranten in der Schule
+- **Publish Date:** 2019-05-07T18:23:11
+- **Channel:** Meinung
+- **Ressort Name:** Hans Rauscher
+- **Total Comments:** 2487
+- **Root Comments:** 646
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102693569">
+    <title>Junge Macho-Migranten in der Schule</title>
+    <publish_date>2019-05-07T18:23:11</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Hans Rauscher</ressort_name>
+    <total_comments>2487</total_comments>
+    <root_comments>646</root_comments>
+    <user_threads>
+      <thread id="1041296161">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Diese Machoproblemjugendlichen aus dem Migrantenmilieu werden sich nicht freiwillig mit einem Sozialarbeiter oder Psychologen zusammensetzen, schon gar nicht mit einem weiblichen. Diese Leute, die sich auch in der dritten Generation noch nicht angepasst haben, passen definitiv nicht in unser Umfeld. Wir haben schon mit den eigenen Proleten genug Ärger.</comment_text>
+        <comment_created_at>2019-05-09T07:56:59.630000</comment_created_at>
+        <comment_length>354</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102735200
+- **Title:** Papst hat es mit Diakoninnen nicht eilig
+- **Publish Date:** 2019-05-08T10:55:05
+- **Channel:** International
+- **Ressort Name:** Kirche
+- **Total Comments:** 34
+- **Root Comments:** 15
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102735200">
+    <title>Papst hat es mit Diakoninnen nicht eilig</title>
+    <publish_date>2019-05-08T10:55:05</publish_date>
+    <channel>International</channel>
+    <ressort_name>Kirche</ressort_name>
+    <total_comments>34</total_comments>
+    <root_comments>15</root_comments>
+    <user_threads>
+      <thread id="1041272780">
+        <user_name>arancione</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-11-05T19:10:44.313000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Im 21 Jh und angesichts der Verbrechenshistorie dieses Vereins ist es ja wohl völlig irrelevant ob er Frauen zulässt. Die Frage ist wohl eher, warum noch immer Menschen dumm und ignorant genug sind, diesen Verein der Heuchler zu unterstützen.</comment_text>
+        <comment_created_at>2019-05-08T13:32:19.903000</comment_created_at>
+        <comment_length>242</comment_length>
+        <replies>
+          <reply id="1041281045">
+            <user_id>691070</user_id>
+            <user_name>Wir_sind_die_99%</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-04-17T11:56:48.113000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Weil es nicht sinnvoll ist, daß die &quot;Guten&quot; austreten. Die Lügenpriester gehören exkommuniziert und hohe Ämter durch die ersetzt, die ein vorbildliches christliches Leben führen und aus der Gemeinde GEWÄHLT werden, so wie es die Bibel vorschreibt (Paulusbrief).  Es wäre schade, alles den &quot;Kindervergewaltigern&quot; und deren Beschützern zu überlassen. (Entschuldigung wegen der Verallgemeinerung.)</comment_text>
+            <comment_created_at>2019-05-08T17:33:27.710000</comment_created_at>
+            <comment_length>394</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102750084
+- **Title:** Vorarlberg will Vorzeigeregion für E-Mobilität werden
+- **Publish Date:** 2019-05-08T16:59:12
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 14
+- **Root Comments:** 6
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102750084">
+    <title>Vorarlberg will Vorzeigeregion für E-Mobilität werden</title>
+    <publish_date>2019-05-08T16:59:12</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>14</total_comments>
+    <root_comments>6</root_comments>
+    <user_threads>
+      <thread id="1041302505">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Liebe Landsleute, das E-Auto ist nicht die umweltfreundliche Lösung und der Strom zum Aufladen der Akkus wird auch nicht ewig gratis sein. Der Reifenabrieb - zum großen Teil verantwortlich für die Mikroplastikproblematik - ist bei E-Autos ebenso vorhanden, wie bei herkömmlichen Autos..und die vielen E-Bikes und Scooter vervielfachen auch nur die Lithium Akku Problematik - und die Fettleibigkeit</comment_text>
+        <comment_created_at>2019-05-09T11:34:59.540000</comment_created_at>
+        <comment_length>397</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102750873
+- **Title:** Meghans und Harrys Baby heißt Archie Harrison Mountbatten-Windsor
+- **Publish Date:** 2019-05-08T13:51:17.170000
+- **Channel:** Panorama
+- **Ressort Name:** Königshäuser
+- **Total Comments:** 491
+- **Root Comments:** 182
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102750873">
+    <title>Meghans und Harrys Baby heißt Archie Harrison Mountbatten-Windsor</title>
+    <publish_date>2019-05-08T13:51:17.170000</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Königshäuser</ressort_name>
+    <total_comments>491</total_comments>
+    <root_comments>182</root_comments>
+    <user_threads>
+      <thread id="1041275397">
+        <user_name>schlussendlich</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2009-09-04T08:27:47.570000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich freue mich zu sehen, dass Meghan nicht dieses unrealistische Bild einer perfekt gestylten Frau nur Stunden nach der Geburt zeigt. DANKE</comment_text>
+        <comment_created_at>2019-05-08T14:42:12.023000</comment_created_at>
+        <comment_length>139</comment_length>
+        <replies>
+          <reply id="1041276161">
+            <user_id>176730</user_id>
+            <user_name>Profi12</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-01-26T21:36:21.143000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die ist immer gestylt! Was anderes kennt sie nicht.</comment_text>
+            <comment_created_at>2019-05-08T15:00:55.877000</comment_created_at>
+            <comment_length>51</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041275232">
+        <user_name>Rene B</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-09-27T08:22:29.297000</user_created_at>
+        <comment_headline>Eine schöne Mama!</comment_headline>
+        <comment_text>Gratulation.</comment_text>
+        <comment_created_at>2019-05-08T14:38:11.430000</comment_created_at>
+        <comment_length>12</comment_length>
+        <replies>
+          <reply id="1041276836">
+            <user_id>571073</user_id>
+            <user_name>wowarstdugestern</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2015-10-27T11:10:57.430000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>jede &quot;frischgebackene&quot; Mutter hat dieses magische Lächeln...</comment_text>
+            <comment_created_at>2019-05-08T15:16:59.117000</comment_created_at>
+            <comment_length>60</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102771496
+- **Title:** Dürreperioden werden teuer – nicht nur für heimische Bauern
+- **Publish Date:** 2019-05-09T11:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Umwelt, Landwirtschaft &amp; Klima
+- **Total Comments:** 269
+- **Root Comments:** 41
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102771496">
+    <title>Dürreperioden werden teuer – nicht nur für heimische Bauern</title>
+    <publish_date>2019-05-09T11:00:00</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Umwelt, Landwirtschaft &amp;amp; Klima</ressort_name>
+    <total_comments>269</total_comments>
+    <root_comments>41</root_comments>
+    <user_threads>
+      <thread id="1041302056">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>dieser Mail war bisher jedenfalls sehr kalt. abgesehen davon, kann nicht bestritten werden, dass das Wetter immer extremer wird - keine schönen Aussichten</comment_text>
+        <comment_created_at>2019-05-09T11:22:21.047000</comment_created_at>
+        <comment_length>154</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102794090
+- **Title:** Jeder Siebente trinkt gesundheitsgefährdend
+- **Publish Date:** 2019-05-09T05:57:54
+- **Channel:** Panorama
+- **Ressort Name:** Rauschmittel
+- **Total Comments:** 227
+- **Root Comments:** 74
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102794090">
+    <title>Jeder Siebente trinkt gesundheitsgefährdend</title>
+    <publish_date>2019-05-09T05:57:54</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Rauschmittel</ressort_name>
+    <total_comments>227</total_comments>
+    <root_comments>74</root_comments>
+    <user_threads>
+      <thread id="1041324817">
+        <user_name>C Hugo Funot</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-05-06T08:58:34.250000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich würd ja echt gerne mehr saufen, aber ich vertrags einfach nicht.</comment_text>
+        <comment_created_at>2019-05-09T22:23:02.380000</comment_created_at>
+        <comment_length>68</comment_length>
+        <replies>
+          <reply id="1041329454">
+            <user_id>557328</user_id>
+            <user_name>woewe</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2015-02-19T13:12:40.130000</user_created_at>
+            <comment_headline>Und warum würden Sie wollen?</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-10T07:34:59.270000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041324889">
+        <user_name>half-caf</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-05-08T17:58:59.630000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich trinke  seit Jahren gar keinen  Alkohol. ohne Moralkeule sondern einfach weil ich das Gefühl betrunken zu sein nicht  mag. Lustigerweise  halten mich seitdem öfters Leute für einen Alkoholiker als wie zu der Zeit,  als ich noch regelmäßig getrunken habe. Was teilweise auf Firmenfeier echt unangenehm war.</comment_text>
+        <comment_created_at>2019-05-09T22:26:36.777000</comment_created_at>
+        <comment_length>309</comment_length>
+        <replies>
+          <reply id="1041331938">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>man muss ja nicht betrunken sein, wenn man Alkohol trinkt. Ich trinke gerne ein Glas Sekt oder Prosecco und da bin ich noch lange nicht betrunken. Würde ich natürlich jeden Tag eine Flasche Sekt trinken, dann hätte ich ein Alkoholproblem.</comment_text>
+            <comment_created_at>2019-05-10T09:05:18.990000</comment_created_at>
+            <comment_length>238</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102802860
+- **Title:** Mein Tel Aviv: Tipps eines Einheimischen
+- **Publish Date:** 2019-05-14T13:00:00
+- **Channel:** Reisen
+- **Ressort Name:** Städtereisen
+- **Total Comments:** 36
+- **Root Comments:** 16
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102802860">
+    <title>Mein Tel Aviv: Tipps eines Einheimischen</title>
+    <publish_date>2019-05-14T13:00:00</publish_date>
+    <channel>Reisen</channel>
+    <ressort_name>Städtereisen</ressort_name>
+    <total_comments>36</total_comments>
+    <root_comments>16</root_comments>
+    <user_threads>
+      <thread id="1041493570">
+        <user_name>germane1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-09-18T11:02:12.090000</user_created_at>
+        <comment_headline>Im Zeitalter der Klimaerwärmung sei gesagt:</comment_headline>
+        <comment_text>Der Flug dorthin ist eine Umweltsünde.</comment_text>
+        <comment_created_at>2019-05-15T16:25:21.600000</comment_created_at>
+        <comment_length>38</comment_length>
+        <replies>
+          <reply id="1041550160">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>dann ist jeder Flug Umweltsünde. Und Fleisch essen ist auch Umweltsünde und Autofahren auch und Thujenhecken statt einheimische Laubhecken sind auch Umweltsünden und Mineralwasser in  Plastikflaschen sind auch Umweltsünden...</comment_text>
+            <comment_created_at>2019-05-17T08:38:47.563000</comment_created_at>
+            <comment_length>225</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102838009
+- **Title:** Australischen Eltern droht Haft, weil sie Tochter vegan ernährt haben
+- **Publish Date:** 2019-05-09T15:42:56
+- **Channel:** Gesundheit
+- **Ressort Name:** Gesunde Ernährung
+- **Total Comments:** 870
+- **Root Comments:** 84
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102838009">
+    <title>Australischen Eltern droht Haft, weil sie Tochter vegan ernährt haben</title>
+    <publish_date>2019-05-09T15:42:56</publish_date>
+    <channel>Gesundheit</channel>
+    <ressort_name>Gesunde Ernährung</ressort_name>
+    <total_comments>870</total_comments>
+    <root_comments>84</root_comments>
+    <user_threads>
+      <thread id="1041329292">
+        <user_name>delija999</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2005-05-29T10:16:17.427000</user_created_at>
+        <comment_headline>zu recht!</comment_headline>
+        <comment_text>dieser vegan idiotismus insbesondere bei den kindern ist extrem gefährlich.  hoffe  nur, dass das kind keinen bleibenden schaden hat</comment_text>
+        <comment_created_at>2019-05-10T07:27:31.577000</comment_created_at>
+        <comment_length>132</comment_length>
+        <replies>
+          <reply id="1041329708">
+            <user_id>96987</user_id>
+            <user_name>Ich bin es nicht</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2001-10-26T13:13:02</user_created_at>
+            <comment_headline>Das ist blanker Unsinn was sie hier von sich geben...</comment_headline>
+            <comment_text>...Vegan ist mit jedem Lebensalter die gesündeste Form und vor allem die artgerechte Form unserer Ernährung.  Diese Eltern im Bericht haben wohl andere Fehler gemacht, an Vegan liegt es ganz bestimmt nicht!  mfg</comment_text>
+            <comment_created_at>2019-05-10T07:47:29.447000</comment_created_at>
+            <comment_length>211</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041330051">
+        <user_name>LunaLandung</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-10-27T15:52:24.330000</user_created_at>
+        <comment_headline>Und auch hier im Forum entbrennt wieder der Glaubenskrieg!</comment_headline>
+        <comment_text>Keinerlei Argumente, aber feste Überzeugen! Wie die Überzeugung so immun gegen die Vorgänge die z.B Hexenverbrennungen zu sein. Es ist aber genau das gleiche Muster!</comment_text>
+        <comment_created_at>2019-05-10T08:01:33.357000</comment_created_at>
+        <comment_length>165</comment_length>
+        <replies>
+          <reply id="1041330831">
+            <user_id>28699</user_id>
+            <user_name>BCN1</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2000-08-29T15:10:44</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ist es nicht Fakt genug, dass dieses Kind vielleich ein ganzes leben lang schäden und Probleme mittragen wird,  weil es durch dieses Blödsinn ihrer Eltern gerade in dem ersten Lebensmonaten geschädigt wurde? Was hat das mit &quot;glauben&quot; zu tun bitte?</comment_text>
+            <comment_created_at>2019-05-10T08:30:21.440000</comment_created_at>
+            <comment_length>247</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102846699
+- **Title:** Fleischloslust: Jetzt kommt das Fleisch ohne Tiere
+- **Publish Date:** 2019-05-12T08:00:00
+- **Channel:** Zukunft
+- **Ressort Name:** Edition Zukunft
+- **Total Comments:** 697
+- **Root Comments:** 182
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102846699">
+    <title>Fleischloslust: Jetzt kommt das Fleisch ohne Tiere</title>
+    <publish_date>2019-05-12T08:00:00</publish_date>
+    <channel>Zukunft</channel>
+    <ressort_name>Edition Zukunft</ressort_name>
+    <total_comments>697</total_comments>
+    <root_comments>182</root_comments>
+    <user_threads>
+      <thread id="1041394257">
+        <user_name>arancione</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-11-05T19:10:44.313000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich esse relativ wenig Fleisch und habe schon diverse Ersatzprodukte probiert, aber überzeugt hat mich noch keines. Entweder ist die Würze unapptitlich, die Konsistenz stimmt nicht oder beides. Interessant übrigens, dass nicht wenige Ersatzprodukte genauso teuer oder gar teurer sind als ein gutes Stück Fleisch.   Es ist übrigens eine der ungustiösen Eigenschaften der Standard-Weltverbesserer, den Mitmenschen stets ein schlechtes Gewissen einreden zu wollen.</comment_text>
+        <comment_created_at>2019-05-12T16:12:56.623000</comment_created_at>
+        <comment_length>461</comment_length>
+        <replies>
+          <reply id="1041396858">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das ist ja egal, für ein Stück Fleisch muss ein Lebewesen nach einem elenden kurzen Leben sterben. Und man kann auch ohne Fleisch oder Fleischersatz gut essen.</comment_text>
+            <comment_created_at>2019-05-12T17:35:14.910000</comment_created_at>
+            <comment_length>159</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041383067">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>Gut so</comment_headline>
+        <comment_text>Alles besser als das Tierleid</comment_text>
+        <comment_created_at>2019-05-12T08:23:40.823000</comment_created_at>
+        <comment_length>29</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102874513
+- **Title:** Schauspieler Peter Windhofer: "Abends räume ich panisch zusammen"
+- **Publish Date:** 2019-05-13T06:00:00
+- **Channel:** Immobilien
+- **Ressort Name:** Wohngespräch
+- **Total Comments:** 37
+- **Root Comments:** 17
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102874513">
+    <title>Schauspieler Peter Windhofer: &quot;Abends räume ich panisch zusammen&quot;</title>
+    <publish_date>2019-05-13T06:00:00</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohngespräch</ressort_name>
+    <total_comments>37</total_comments>
+    <root_comments>17</root_comments>
+    <user_threads>
+      <thread id="1041412563">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ist das schön ordentlich, dieses Wohnzimmer. Das würde ich nicht mal für einen Fototermin schaffen.</comment_text>
+        <comment_created_at>2019-05-13T09:49:16.757000</comment_created_at>
+        <comment_length>99</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102892427
+- **Title:** Bauzwang in Niederösterreich: Keine Wohnung ohne Stellplatz
+- **Publish Date:** 2019-05-15T10:00:00
+- **Channel:** Immobilien
+- **Ressort Name:** Wohnen in und um Wien
+- **Total Comments:** 244
+- **Root Comments:** 29
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102892427">
+    <title>Bauzwang in Niederösterreich: Keine Wohnung ohne Stellplatz</title>
+    <publish_date>2019-05-15T10:00:00</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Wohnen in und um Wien</ressort_name>
+    <total_comments>244</total_comments>
+    <root_comments>29</root_comments>
+    <user_threads>
+      <thread id="1041482902">
+        <user_name>Güni</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-09-20T21:39:36.140000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Erziehung der Bevölkerung zum staatlich erwünschten &quot;Wohlverhalten&quot; - erinnert an das neue Social Credit System in China.....  Meine nächstgelegene Stadt hatte das Ziel, den Autoverkehr aus der Innenstadt zu verbannen - Konsequenz: die Innenstadt ist tot, viele geschlossene Geschäfte, wenig Leben, während an den Stadträndern, in den Einkaufszentren mit großen Parkplätzen, usw. das Leben und die Geschäfte florieren.  Ja, die Praxis wird noch so manche Ideologie und Theorie von ideologisierten Wissenschaftlern zu Fall bringen.  Ich mache es übrigens genau so. Zu Geschäften, bei denen ich keinen Parkplatz finde, fahre ich einfach nicht oder nur im äußersten Notfall hin. Die Politik und Wirtschaft versteht nur diese Sprache....</comment_text>
+        <comment_created_at>2019-05-15T11:11:58.440000</comment_created_at>
+        <comment_length>733</comment_length>
+        <replies>
+          <reply id="1041483119">
+            <user_id>234026</user_id>
+            <user_name>woidviadla</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2000-12-07T10:07:44</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Bitte die Welt der Autos auf einem anderen Planeten umsetzen. Hier ist der Planet der Menschen und Lebewesen.</comment_text>
+            <comment_created_at>2019-05-15T11:18:03.720000</comment_created_at>
+            <comment_length>109</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102946479
+- **Title:** 60 Tote bei Untergang von Flüchtlingsboot im Mittelmeer
+- **Publish Date:** 2019-05-11T14:15:49
+- **Channel:** Panorama
+- **Ressort Name:** Welt-Chronik
+- **Total Comments:** 509
+- **Root Comments:** 79
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102946479">
+    <title>60 Tote bei Untergang von Flüchtlingsboot im Mittelmeer</title>
+    <publish_date>2019-05-11T14:15:49</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Welt-Chronik</ressort_name>
+    <total_comments>509</total_comments>
+    <root_comments>79</root_comments>
+    <user_threads>
+      <thread id="1041417330">
+        <user_name>Pythia</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-08-11T12:30:51.773000</user_created_at>
+        <comment_headline>'Flüchtlinge' aus Tunesien?</comment_headline>
+        <comment_text>Aus einem Urlaubsland ist 'Flucht' sehr unglaubwürdig.</comment_text>
+        <comment_created_at>2019-05-13T12:15:11.520000</comment_created_at>
+        <comment_length>54</comment_length>
+        <replies>
+          <reply id="1041434293">
+            <user_id>302559</user_id>
+            <user_name>hilde peymann</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2006-08-04T22:14:31.230000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sie meinen es gab in D von 33-45 keine TouristInnen?</comment_text>
+            <comment_created_at>2019-05-13T21:19:04.830000</comment_created_at>
+            <comment_length>52</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102953308
+- **Title:** Wer mehr CO2 rausbläst, zahlt mehr: ÖAMTC kritisiert Steuerreform
+- **Publish Date:** 2019-05-12T05:00:01.310000
+- **Channel:** Wirtschaft
+- **Ressort Name:** Unternehmen
+- **Total Comments:** 988
+- **Root Comments:** 176
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102953308">
+    <title>Wer mehr CO2 rausbläst, zahlt mehr: ÖAMTC kritisiert Steuerreform</title>
+    <publish_date>2019-05-12T05:00:01.310000</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Unternehmen</ressort_name>
+    <total_comments>988</total_comments>
+    <root_comments>176</root_comments>
+    <user_threads>
+      <thread id="1041382659">
+        <user_name>shitty little country</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-10-14T08:21:40.940000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Alle SUV Fahrer in heller Aufregung...</comment_text>
+        <comment_created_at>2019-05-12T07:50:17.663000</comment_created_at>
+        <comment_length>38</comment_length>
+        <replies>
+          <reply id="1041382699">
+            <user_id>651530</user_id>
+            <user_name>Der allerletzte Endgegner</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-10-24T19:17:16.857000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Passen die SUVs eigentlich noch in parkgaragen? Die werden ja auch immer grösser. Das perfekte stadtomobil</comment_text>
+            <comment_created_at>2019-05-12T07:53:41.430000</comment_created_at>
+            <comment_length>106</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000102982451
+- **Title:** Strom weg: Ab Montag wird in Österreich der Blackout erprobt
+- **Publish Date:** 2019-05-12T14:42:15
+- **Channel:** Web
+- **Ressort Name:** IT-Security
+- **Total Comments:** 594
+- **Root Comments:** 94
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000102982451">
+    <title>Strom weg: Ab Montag wird in Österreich der Blackout erprobt</title>
+    <publish_date>2019-05-12T14:42:15</publish_date>
+    <channel>Web</channel>
+    <ressort_name>IT-Security</ressort_name>
+    <total_comments>594</total_comments>
+    <root_comments>94</root_comments>
+    <user_threads>
+      <thread id="1041396940">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die Politiker können eh alle auf Notstromaggregate zurückgreifen, denen wird das ziemlich egal sein, wenn es zu einem Blackout kommt. Schlimm wird es nur für die Mittel- und Unterschicht der Bevölkerung, die keine Notstromaggregate und Gaskocher etc. zuhause haben und wenn in Mehrparteienhäuser die Klospülung nicht mehr funktioniert - dann danke.</comment_text>
+        <comment_created_at>2019-05-12T17:37:51.010000</comment_created_at>
+        <comment_length>348</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103026244
+- **Title:** "Grüss Göttin"-Schild sorgt in Tirol weiter für Aufregung
+- **Publish Date:** 2019-05-13T11:43:31
+- **Channel:** Inland
+- **Ressort Name:** Tirol
+- **Total Comments:** 932
+- **Root Comments:** 343
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103026244">
+    <title>&quot;Grüss Göttin&quot;-Schild sorgt in Tirol weiter für Aufregung</title>
+    <publish_date>2019-05-13T11:43:31</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Tirol</ressort_name>
+    <total_comments>932</total_comments>
+    <root_comments>343</root_comments>
+    <user_threads>
+      <thread id="1041440634">
+        <user_name>Santo</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-11-07T19:56:22.520000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich dachte das Göttliche sei intersexuell.</comment_text>
+        <comment_created_at>2019-05-14T07:48:41.457000</comment_created_at>
+        <comment_length>42</comment_length>
+        <replies>
+          <reply id="1041440853">
+            <user_id>135846</user_id>
+            <user_name>markus1133</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2005-09-10T15:28:57.473000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Gott erschuf Adam nach seinem Vorbild. Eva war nur ein Stück Rippe...</comment_text>
+            <comment_created_at>2019-05-14T07:57:07.447000</comment_created_at>
+            <comment_length>69</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041442943">
+        <user_name>Peter Katerer</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-12-19T09:15:25.833000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die Menschen lieben die Vorstellung, dass ihre Götter so sind wie sie selbst und als Mann sich Gott vorstellte war der natürlich auch ein Mann!   Ab da wird's komisch! Während die alten Götter noch so richtig nach den Naturgesetzen funktionierten ist der neue Gott anders. Er ist in der Vorstellung der Menschen weiter ein Mann aber alles,  was ihn zu einem Mann macht ist bei ihm nutzlos! Wozu braucht er männliche Attribute wenn er weder isst noch trinkt noch sich auf herkömmlichen Weg fortpflanzt?  Und wenn er es doch tut, wie ist  unsere Vorstellung darüber wie er  am Klosett sitzt weil er Verdauung braucht oder das er eine menschliche Frau benötigt um einen Sohn zu zeugen?</comment_text>
+        <comment_created_at>2019-05-14T09:13:18.327000</comment_created_at>
+        <comment_length>682</comment_length>
+        <replies>
+          <reply id="1041450166">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-14T12:50:43.520000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103041163
+- **Title:** Alyssa Milano fordert Sexstreik und erntet Kritik von Feministinnen
+- **Publish Date:** 2019-05-13T15:00:06
+- **Channel:** dieStandard
+- **Ressort Name:** Geschlechterpolitik
+- **Total Comments:** 255
+- **Root Comments:** 80
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103041163">
+    <title>Alyssa Milano fordert Sexstreik und erntet Kritik von Feministinnen</title>
+    <publish_date>2019-05-13T15:00:06</publish_date>
+    <channel>dieStandard</channel>
+    <ressort_name>Geschlechterpolitik</ressort_name>
+    <total_comments>255</total_comments>
+    <root_comments>80</root_comments>
+    <user_threads>
+      <thread id="1041435823">
+        <user_name>F.S.K</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-01-29T16:16:15.410000</user_created_at>
+        <comment_headline>also kein sex, wenn es nicht der fortpflanzung dient</comment_headline>
+        <comment_text>so treffen sich die vorstellungen der erzreligiösen mit denen der feninistinnen</comment_text>
+        <comment_created_at>2019-05-13T22:19:11.380000</comment_created_at>
+        <comment_length>79</comment_length>
+        <replies>
+          <reply id="1041443511">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>nein, aber wer Sex ohne Verhütung hat, muss wissen, dass eine eventuelle Schwangerschaft die Folge des Geschlechtsverkehrs im üblichen Sinne sein kann (wenn  nicht abartige Orte benutzt werden,  um das Sperma zu deponieren)</comment_text>
+            <comment_created_at>2019-05-14T09:34:43.453000</comment_created_at>
+            <comment_length>223</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041437787">
+        <user_name>NickKnarrkarton</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-06-06T02:02:39.870000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Solange Frauen nicht das Recht hätten, über ihren Körper zu bestimmen, könnten sie auch nicht das Risiko einer Schwangerschaft eingehen&quot;  Heisst umgekehrt, wenn sie dieses Recht hätten, dann würden sie das Risiko einer Schwangerschaft eingehen, egal, ob sie ein Kind wollen oder nicht. Das Risiko, eine Schwangerschaft einzugehen, braucht man gar nicht eingehen. Und zwar indem man Verhütungsmittel verwendet. Das würde bedeuten, mal für irgendetwas Verantwortung zu übernehmen (nämlich auch für den eigenen Körper), aber das hat Feministinnen ja noch nie interessiert. Amüsant nur, dass sie sich nicht mal untereinander einig sind, welcher Unsinn der bessere ist.</comment_text>
+        <comment_created_at>2019-05-14T00:06:20.020000</comment_created_at>
+        <comment_length>665</comment_length>
+        <replies>
+          <reply id="1041439616">
+            <user_id>586001</user_id>
+            <user_name>LagunaVerde</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2016-06-21T15:39:42.480000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Schwanger werden Frauen durch das Sperma des Mannes. Also den Schnidel schön bei sich behalten, wenn man von Verantwortung redet.</comment_text>
+            <comment_created_at>2019-05-14T06:54:32.190000</comment_created_at>
+            <comment_length>129</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103053332
+- **Title:** Deutsche Katholikinnen mucken auf und streiken
+- **Publish Date:** 2019-05-14T07:47:10
+- **Channel:** Panorama
+- **Ressort Name:** Deutschland-Chronik
+- **Total Comments:** 225
+- **Root Comments:** 57
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103053332">
+    <title>Deutsche Katholikinnen mucken auf und streiken</title>
+    <publish_date>2019-05-14T07:47:10</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Deutschland-Chronik</ressort_name>
+    <total_comments>225</total_comments>
+    <root_comments>57</root_comments>
+    <user_threads>
+      <thread id="1041442774">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>Mythos: Maria ist die Mutter Gottes</comment_headline>
+        <comment_text>Ihren Durchbruch erlebte die Verehrung der Mutter Gottes, als die christliche Kirche unter Konstantin zur Reichskirche wurde und die Heiden in großer Zahl in die Kirche strömten. &quot;Du wirst ein Kind empfangen, einen Sohn wirst du gebären: dem sollst du den Namen Jesus geben. Er wird groß sein und Sohn des Höchsten genannt werden&quot;. Lukas 1:31-35. Dieser Bibeltext zeigt deutlich: Maria war die Mutter des „Sohnes Gottes“ und nicht die Mutter Gottes.</comment_text>
+        <comment_created_at>2019-05-14T09:07:28.730000</comment_created_at>
+        <comment_length>449</comment_length>
+        <replies>
+          <reply id="1041444113">
+            <user_id>54519</user_id>
+            <user_name>ebola0</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-11-03T11:05:18.480000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich glaub, wenn du dem Kanon dieses Märchens folgst, sind Gott, Jesus, und der heilige Geist gleichzusetzen/die gleiche &quot;Person&quot;.  Da habens sich beim schreibt ein bissi verzetteln und die Handlungsstränge recht billig aufgelöst.   2,3/5 für die Story, aber box-office Ergebnisse scheinen immer noch extrem gut zu sein...</comment_text>
+            <comment_created_at>2019-05-14T09:55:39.500000</comment_created_at>
+            <comment_length>321</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041443360">
+        <user_name>Andreas Grois</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-07-10T15:14:22.997000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Katholische Frauen protestieren für etwas, das in der protestantischen Kirche ganz normal ist...  Warum also nicht einfach zur Konkurrenz wechseln?</comment_text>
+        <comment_created_at>2019-05-14T09:29:41.627000</comment_created_at>
+        <comment_length>147</comment_length>
+        <replies>
+          <reply id="1041443702">
+            <user_id>581219</user_id>
+            <user_name>AksakMaboul</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-04-18T19:53:50.547000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Die Evangelischen sind aber mittlerweile genauso falsch wie die Katholischen. Wer Paulus verwirft, der verwirft Jesus. Und wer Jesus verwirft, der verwirft Gott. Die Schrift ist ja keine Sache der Auslegung, sondern die Richtschnur, an die sich die Menschen halten sollten, wenn sie ein friedliches Miteinander anstreben. Doch dieses substanzielle Bedürfnis tritt durch Hervorhebung von Eigeninteressen immer mehr in den Hintergrund.</comment_text>
+            <comment_created_at>2019-05-14T09:41:35.540000</comment_created_at>
+            <comment_length>433</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103124020
+- **Title:** Muslime im Rechtfertigungseck
+- **Publish Date:** 2019-05-15T11:46:50
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 520
+- **Root Comments:** 145
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103124020">
+    <title>Muslime im Rechtfertigungseck</title>
+    <publish_date>2019-05-15T11:46:50</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Kommentare der anderen</ressort_name>
+    <total_comments>520</total_comments>
+    <root_comments>145</root_comments>
+    <user_threads>
+      <thread id="1041504939">
+        <user_name>xmoonlightx</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2016-11-30T19:55:24.907000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>„In der Kopftuchdebatte etwa wird Musliminnen häufig unterstellt, das Kopftuch nicht aufgrund einer individuellen Entscheidung zu tragen.....“………an dieser Stelle hab ich aufgehört zu lesen!</comment_text>
+        <comment_created_at>2019-05-15T22:56:41.560000</comment_created_at>
+        <comment_length>189</comment_length>
+        <replies>
+          <reply id="1041509770">
+            <user_id>651253</user_id>
+            <user_name>La-ster</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-10-19T11:40:49.243000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ich gehe durchaus davon aus das die frauen es aufgrund ihrer individuellen entscheidung (wie auch immer die geprägt ist durch die sozialisierung) tragen. damit gehe ich aber auch davon aus das sie genau wissen wofür es steht und sie sich bewusst sind das sie damit durchaus auch auf ablehnung stossen.</comment_text>
+            <comment_created_at>2019-05-16T08:51:06.247000</comment_created_at>
+            <comment_length>301</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103131738
+- **Title:** Auf dem glatten Parkett des Religionsdiskurses
+- **Publish Date:** 2019-05-15T11:47:49
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 451
+- **Root Comments:** 99
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103131738">
+    <title>Auf dem glatten Parkett des Religionsdiskurses</title>
+    <publish_date>2019-05-15T11:47:49</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Kommentare der anderen</ressort_name>
+    <total_comments>451</total_comments>
+    <root_comments>99</root_comments>
+    <user_threads>
+      <thread id="1041524893">
+        <user_name>René Herndl</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2003-06-23T10:42:12.120000</user_created_at>
+        <comment_headline>In einem Punkt muss man hier zustimmen: Religion und Rassismus haben nicht miteiander zu tun!</comment_headline>
+        <comment_text>Der Rest dieser Ausführungen sind weder historisch noch psychologisch haltbar. Die Millionen Toten, die durch die Religionskriege und im Zeichen von Religionen geführt wurden sind historisch belegbar, auch jene des Christentums. Und alle Religionen haben den absoluten Wahrheitsanspruch, der zwar zu Gruppenidentifikation beiträgt, jedoch sozialpsychologisch fatale Folgen haben kann und oft hat. Religionsbekenntnisse sind auch die Weigerung zu denken,  dem humanistischen Ansatz zu folgen, wobei leider (auch bei uns) auch gesetzlich der Religion immer noch Privilegien eingeräumt werden, die durch nichts begründbar, schon gar nicht durch  Vernunft oder Logik. Religionen sind Machtinstrumente , die (Bildungs-)Unterdrückung etc. nach sich ziehen.</comment_text>
+        <comment_created_at>2019-05-16T15:19:21.333000</comment_created_at>
+        <comment_length>750</comment_length>
+        <replies>
+          <reply id="1041549704">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>des abtrünnigen Christentums, bitte! Die ersten Christen waren für ihre Gewaltlosigkeit bekannt. Und auch heute noch gibt es Christen, die den pazifistischen Jesus nachahmen. So manch ein  Christ hat auch den Wehrdienst aus ebendiesen Gründen verweigert und den möglichen Tod im KZ in Kauf genommen. Die Zeugen Jehovas als Gruppe verweigern seit eh und je den Dienst mit der Waffe.</comment_text>
+            <comment_created_at>2019-05-17T08:21:57.297000</comment_created_at>
+            <comment_length>381</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103187296
+- **Title:** Ist der Aperol Spritz ein guter Drink?
+- **Publish Date:** 2019-05-17T12:00:00
+- **Channel:** Lifestyle
+- **Ressort Name:** Genussforum
+- **Total Comments:** 138
+- **Root Comments:** 77
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103187296">
+    <title>Ist der Aperol Spritz ein guter Drink?</title>
+    <publish_date>2019-05-17T12:00:00</publish_date>
+    <channel>Lifestyle</channel>
+    <ressort_name>Genussforum</ressort_name>
+    <total_comments>138</total_comments>
+    <root_comments>77</root_comments>
+    <user_threads>
+      <thread id="1041557630">
+        <user_name>Christian Eidherr</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-10-04T21:53:50.437000</user_created_at>
+        <comment_headline>Das 1x1 des perfekten Spritz</comment_headline>
+        <comment_text>Man muss folgende Regeln beachten: - Prosecco ist ein existenzieller Bestandteil für einen guten Spritz - Man darf nicht mit dem Aperol sparen - Eiswürfel sind wichtig. Profis schwenken die Eiswürfel durch das Glas vor dem Befüllen. - Der Spritz muss in einem schönen, kelchartigen Weinglas serviert werden. - Orangenscheibe darf nicht zu dick sein. - In Italien werden stets Snacks dazu serviert. Das sollte sich auch in Ö etablieren.  Meine Variationen: - Ich ersetze Aperol durch Campari. Bitterer, erfischender.  - Wenn ich Aperol Spritz trinke, ersetze ich das Soda durch Tonic Water.  Muss ich probieren: - Aperol Spritz mit Gingerale. Hat ein Freund in Mailand getrunken. Angeblich super.  Den besten Spritz in Wien gibts bei: - Monte Ofelio</comment_text>
+        <comment_created_at>2019-05-17T12:44:54.143000</comment_created_at>
+        <comment_length>748</comment_length>
+        <replies>
+          <reply id="1041562984">
+            <user_id>575173</user_id>
+            <user_name>new jersey</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-01-20T00:27:54.113000</user_created_at>
+            <comment_headline>Aperol Spritz = ich ersetze Aperol durch Campari</comment_headline>
+            <comment_text>Oida?!  Ersetzen Sie beim Whiskey Sour den Whiskey durch Obstler?</comment_text>
+            <comment_created_at>2019-05-17T16:09:49.410000</comment_created_at>
+            <comment_length>65</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041557529">
+        <user_name>Black Is The Old Orange</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-08-07T09:37:42.693000</user_created_at>
+        <comment_headline>Campari Milano</comment_headline>
+        <comment_text>4cl Campari 4cl Cranberrysaft aufgespritzt mit gutem Prosecco dazu Eiswürfel  2 Blätter Minze  --&amp;gt; Tschüs Aperol!</comment_text>
+        <comment_created_at>2019-05-17T12:41:49.083000</comment_created_at>
+        <comment_length>113</comment_length>
+        <replies>
+          <reply id="1041735307">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>genau, GUTER Prosecco, nicht einen ekligen zuckrigen Frizzante nehmen...</comment_text>
+            <comment_created_at>2019-05-20T12:30:20.267000</comment_created_at>
+            <comment_length>72</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041557742">
+        <user_name>DerQuerulant</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2010-12-10T02:01:38.350000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Einmal probiert. Fürchterlich! Musste meinen Mund dannach mit einen 2003er Château Lafite-Rothschild spülen um den Geschmack loszuwerden.</comment_text>
+        <comment_created_at>2019-05-17T12:48:07.417000</comment_created_at>
+        <comment_length>137</comment_length>
+        <replies>
+          <reply id="1041559341">
+            <user_id>203257</user_id>
+            <user_name>spitzenkandidat.2.0.</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2009-04-21T14:47:24.267000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ich auch – hab mir gleich a paar Dosenbier zum Ausgleich gegönnt. Echt widerlich dieses Aperolgesöff.</comment_text>
+            <comment_created_at>2019-05-17T13:41:48.337000</comment_created_at>
+            <comment_length>101</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041560249">
+        <user_name>naso</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2001-08-14T11:14:01</user_created_at>
+        <comment_headline>so nicht</comment_headline>
+        <comment_text>genauso wie auf dem Bild sollte der Sprizz (so heißt er in Italien) nicht aussehen. es ist nämlich kein Vierterl G´spritzter mit Aperolbeifügung, nur wird es leider seit Jahren so in Ö aufgetischt - und getrunken. brrr.  Tumblerglas, Eis, (etwa) 6cl Prosecco, 4cl Aperol, Soda: so wird er schon seit Jahrzehnten von Italienern in ihren Strandbars getrunken, lange bevor deutschsprechende Urlauber in ihre(n) Spritzwein oder Weißweinschorle zwecks Urlaubsfeeling zu Hause was oranges Bitteres hineingeschüttet haben.</comment_text>
+        <comment_created_at>2019-05-17T14:18:30.420000</comment_created_at>
+        <comment_length>515</comment_length>
+        <replies>
+          <reply id="1041734872">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>In Österreich muss man schon deutlich dazu sagen, &quot;bitte mit Prosecco&quot;, und nicht mal dann hat man die Gewähr, dass der Spritz Aperol gut schmeckt.  In Triest zum Beispiel, wo ich ein paar Jährchen verbracht habe, ist der Spritz Aperol über gut, egal wo man hingeht und vor allem viel billiger. Bei uns zahlt man mancherorts sogar über 5 Euro für einen wässrigen ungenießbaren Spritz...</comment_text>
+            <comment_created_at>2019-05-20T12:23:37.853000</comment_created_at>
+            <comment_length>386</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103193130
+- **Title:** FPÖ-Spitzenkandidat Vilimsky erklärt Hunde zum Problem des Islam
+- **Publish Date:** 2019-05-16T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 1829
+- **Root Comments:** 740
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103193130">
+    <title>FPÖ-Spitzenkandidat Vilimsky erklärt Hunde zum Problem des Islam</title>
+    <publish_date>2019-05-16T06:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>1829</total_comments>
+    <root_comments>740</root_comments>
+    <user_threads>
+      <thread id="1041507862">
+        <user_name>irgendweranderer</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-03-01T07:38:20.213000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Hundehalter und FPÖ Wähler passt gut zusammen. Beide Gruppen sind rücksichtslos und halten nicht viel von Regeln. Außer natürlich Regeln für andere!</comment_text>
+        <comment_created_at>2019-05-16T07:15:41.217000</comment_created_at>
+        <comment_length>148</comment_length>
+        <replies>
+          <reply id="1041508590">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>sowie die Autofahrer, die Radfahrer, die halten sich auch nicht an Regeln, oder? Immer schön verallgemeinern, das zeugt von wahrer Intelligenz, nicht wahr? Fakt ist, dass einige wenige Hundebesitzer, die negativ auffallen, die Masse der Hundebesitzer, die ihr Tier lieben, es gut behandeln und die Kacke  natürlich immer wegputzen, von Leuten wie Ihnen mit in einen Topf geworfen werden. Danke.</comment_text>
+            <comment_created_at>2019-05-16T07:57:48.497000</comment_created_at>
+            <comment_length>394</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041507760">
+        <user_name>Kopper Stefan</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-04-16T16:31:58.797000</user_created_at>
+        <comment_headline>um sowas</comment_headline>
+        <comment_text>wie den Vilimsky zu wählen.... musst schon sehr verzweifelt und|oder angefressen sein  ich mein mich bringt das,  was sich seit d. Flüchtlingskrise abgespielt hat, auch auf die Palme und ich finde auch dass der Umgang der damaligen Regierung, mit der Situation eine Zumutung war  aber Fpö wählen aus Protest... schaff ich irgendwie nicht... nicht bei solchen Gestalten wie Strache und Vilimsky  da sträubt sich dann doch alles in mir</comment_text>
+        <comment_created_at>2019-05-16T07:08:22.713000</comment_created_at>
+        <comment_length>433</comment_length>
+        <replies>
+          <reply id="1041508664">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>&quot;so jemanden, wie den Herrn Vilimsky zu wählen&quot;, versuchen Sie sich bitte in deiner gewählten Ausdrucksweise....wer wen wählt, bleibt jedem zum Glück selbst überlassen - ich selbst wähle gar niemanden, denn die Politiker sind alle gleich...</comment_text>
+            <comment_created_at>2019-05-16T08:00:41.627000</comment_created_at>
+            <comment_length>240</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041508073">
+        <user_name>eh ich</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2003-12-11T10:10:26.470000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Auch die Abwertung von Frauen in der islamischen Welt ist für uns nicht hinnehmbar.&quot;  Warum eigentlich? Ist das blaue sehr konservative Frauenbild nicht auch eine Abwertung der Frauen?</comment_text>
+        <comment_created_at>2019-05-16T07:28:12.153000</comment_created_at>
+        <comment_length>185</comment_length>
+        <replies>
+          <reply id="1041508493">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>immerhin hat eine Frau in Österreich die Freiheit, zu heiraten, wen sie will und sie hat auch die Freiheit, sich zu kleiden wie sie will, und sie hat die Freiheit, frei von Männern zu sein, wenn sie will.</comment_text>
+            <comment_created_at>2019-05-16T07:53:16.653000</comment_created_at>
+            <comment_length>204</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041508426">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>was, der Vilimsky ist erst 52? Ich hätte ihn älter geschätzt. Das Interview ist gar nicht so schlecht.</comment_text>
+        <comment_created_at>2019-05-16T07:49:21.413000</comment_created_at>
+        <comment_length>102</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041508251">
+        <user_name>Rohling</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-07-18T10:03:30.727000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der böse Muslim mag keine Hunderln. Jetzt reicht es. Auf zum kreuzzug!  Die Faszination besteht ja. Die Konsequenz, wirklich auch noch den letzten Schas auszugraben, und ihn ins große Hass und Hetze Gulasch einzurühren, nötigt mir immer noch Respekt ab.</comment_text>
+        <comment_created_at>2019-05-16T07:38:57.063000</comment_created_at>
+        <comment_length>253</comment_length>
+        <replies>
+          <reply id="1041508463">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-16T07:51:29.200000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103194208
+- **Title:** Immer weniger Frauen in Konzern-Spitzenjobs
+- **Publish Date:** 2019-05-17T06:00:00
+- **Channel:** Karriere
+- **Ressort Name:** Management
+- **Total Comments:** 59
+- **Root Comments:** 34
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103194208">
+    <title>Immer weniger Frauen in Konzern-Spitzenjobs</title>
+    <publish_date>2019-05-17T06:00:00</publish_date>
+    <channel>Karriere</channel>
+    <ressort_name>Management</ressort_name>
+    <total_comments>59</total_comments>
+    <root_comments>34</root_comments>
+    <user_threads>
+      <thread id="1041549007">
+        <user_name>a comment</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2015-05-01T06:38:06.480000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Das passt halt alles zusammen. Frauen werden langsam aber sicher wieder in die Vor-Siebzigerjahre zurückgedrängt.</comment_text>
+        <comment_created_at>2019-05-17T07:54:27.007000</comment_created_at>
+        <comment_length>113</comment_length>
+        <replies>
+          <reply id="1041553981">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>vielleicht bewerben sich einfach zu wenige Frauen für solche Jobs?</comment_text>
+            <comment_created_at>2019-05-17T10:46:29.710000</comment_created_at>
+            <comment_length>66</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103198359
+- **Title:** Montafon: Mit der Bahn gegen die Landflucht
+- **Publish Date:** 2019-05-16T11:52:28
+- **Channel:** Panorama
+- **Ressort Name:** Öffis
+- **Total Comments:** 62
+- **Root Comments:** 15
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103198359">
+    <title>Montafon: Mit der Bahn gegen die Landflucht</title>
+    <publish_date>2019-05-16T11:52:28</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Öffis</ressort_name>
+    <total_comments>62</total_comments>
+    <root_comments>15</root_comments>
+    <user_threads>
+      <thread id="1041525949">
+        <user_name>albertalbert</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-11-17T16:26:18.773000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>vernuenftige Idee allerdings ist der Zeithorizont ein Wahnsinn. Bis die gebaut ist sind noch mehr weg.</comment_text>
+        <comment_created_at>2019-05-16T15:48:22.130000</comment_created_at>
+        <comment_length>102</comment_length>
+        <replies>
+          <reply id="1041528441">
+            <user_id>500699</user_id>
+            <user_name>breite masse</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2009-07-20T18:46:40.570000</user_created_at>
+            <comment_headline>richtig</comment_headline>
+            <comment_text>Der Hauptfehler ist, dass es 8 patriarchale Bürgermeister sind - und keine Bürgermeisterinninnen  https://de.wikipedia.org/wiki/Montafon#Gemeinden  mit dem billigen Kinderbetreuungskonzept: Frau bleib dahaaam – wie im Islaaam. *lacht* 2035 können sich die Wichtelmännchen dann klonen.</comment_text>
+            <comment_created_at>2019-05-16T17:02:14.017000</comment_created_at>
+            <comment_length>284</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103201951
+- **Title:** Mehr als die Hälfte pfeift auf EU-Wahl: Wer sind die Nichtwähler unter uns?
+- **Publish Date:** 2019-05-18T08:00:00
+- **Channel:** Inland
+- **Ressort Name:** Österreich und EU
+- **Total Comments:** 363
+- **Root Comments:** 104
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103201951">
+    <title>Mehr als die Hälfte pfeift auf EU-Wahl: Wer sind die Nichtwähler unter uns?</title>
+    <publish_date>2019-05-18T08:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Österreich und EU</ressort_name>
+    <total_comments>363</total_comments>
+    <root_comments>104</root_comments>
+    <user_threads>
+      <thread id="1041612649">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich gehe gar nicht mehr wählen. ich bin kein junger zorniger Mann unter 30, sondern eine Akademikerin über 50, aber ich habe leider im Laufe der Jahre feststellen müssen, dass es keinen einzigen Politiker gibt, der  wirklich für das Wohl der Menschen arbeiten will. Daher bleibe ich allen Wahlen fern.</comment_text>
+        <comment_created_at>2019-05-18T13:09:42.037000</comment_created_at>
+        <comment_length>301</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103208731
+- **Title:** Was Stadtplanung gegen Armut tun kann
+- **Publish Date:** 2019-05-18T12:20:55
+- **Channel:** Immobilien
+- **Ressort Name:** Stadtentwicklung
+- **Total Comments:** 54
+- **Root Comments:** 15
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103208731">
+    <title>Was Stadtplanung gegen Armut tun kann</title>
+    <publish_date>2019-05-18T12:20:55</publish_date>
+    <channel>Immobilien</channel>
+    <ressort_name>Stadtentwicklung</ressort_name>
+    <total_comments>54</total_comments>
+    <root_comments>15</root_comments>
+    <user_threads>
+      <thread id="1041655798">
+        <user_name>cyberkizz</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-10-23T14:23:34.120000</user_created_at>
+        <comment_headline>Sozialer Wohnbau in Wien - wie man es nicht machen sollte</comment_headline>
+        <comment_text>Hunderte Wohnungen mit gut 70% Zuwandereranteil der 1./2./3. Generation, wo zuhause noch immer ausschließlich die ursprüngliche Muttersprache gesprochen wird, konzentriert in einem Grätzel gebaut und somit alle Schulen der Umgebung zu schlimmstenfalls Sozialisationseinrichtungen degradiert, denn unschlüssigerweise bekommen diese Schulen keine dringend benötigten Zusatzförderungen/Lehrer. Somit ist dieses Grätzel tabu für alle Mittelschichtsfamilien. Warum hier die Landespolitik die Integrationsinvestitionen gerade bei der Schule nicht immens ausweitet - wo doch jeder frühzeitig investierte Bildungseuro sich später aufgrund darausfolgend (arbeits-) motivierter Jugendlicher 3fach auszahlt - ist mir immer noch ein Rätsel.</comment_text>
+        <comment_created_at>2019-05-18T23:26:54.743000</comment_created_at>
+        <comment_length>728</comment_length>
+        <replies>
+          <reply id="1041662683">
+            <user_id>519816</user_id>
+            <user_name>crazyhansi</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2013-07-14T10:03:28.150000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Sehr schön und realistsch auf den Punkt gebracht. Leider wollen es unsere Gutmenschen nicht war haben.</comment_text>
+            <comment_created_at>2019-05-19T08:01:41.870000</comment_created_at>
+            <comment_length>102</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103209228
+- **Title:** Umstrittenes Volksschul-Kopftuchverbot beschlossen
+- **Publish Date:** 2019-05-15T18:32:11
+- **Channel:** Inland
+- **Ressort Name:** Nationalrat
+- **Total Comments:** 224
+- **Root Comments:** 67
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103209228">
+    <title>Umstrittenes Volksschul-Kopftuchverbot beschlossen</title>
+    <publish_date>2019-05-15T18:32:11</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Nationalrat</ressort_name>
+    <total_comments>224</total_comments>
+    <root_comments>67</root_comments>
+    <user_threads>
+      <thread id="1041506180">
+        <user_name>hinweis4</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2009-12-04T20:03:32.817000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Kein Hijab für Mädchen in Kindergärten und Schulen bis zur Religionsmündigkeit - ist das so schwer zu vermitteln? Mit 14 kann eine Jugendliche dann entscheiden, dass sie ihn tragen will oder nicht.  Und: kein Hijab für erwachsene Frauen im öffentlichen Dienst, wenn es um LehrerInnen, RichterInnen, StaatsanwältInnen geht - wegen der Neutralitäts warat's. Aber auch keine religiöse Bekleidung bei männlichen Lehrern, Richtern oder Staatsanwälten  Das wär so meine Vorstellung.</comment_text>
+        <comment_created_at>2019-05-16T00:34:22.440000</comment_created_at>
+        <comment_length>476</comment_length>
+        <replies>
+          <reply id="1041506862">
+            <user_id>691696</user_id>
+            <user_name>DreiHüte</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-05-01T09:00:07.620000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Und religiöse Symbole raus aus öffentlichen Einrichtungen.... z.B. keine Kreuze in staatlichen Krankenhäusern, Schulen und Ämtern! ;-) keine religiöse Rituale, die die körperliche und geistige Selbstbestimmung von Jungen und Mädchen bis zum 14. Lebensjahr verletzen... Beschneidungen und Taufen etc.</comment_text>
+            <comment_created_at>2019-05-16T04:44:22.337000</comment_created_at>
+            <comment_length>299</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041507373">
+        <user_name>defend your freedom of speech</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-07-10T22:17:56.760000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>An alle Befürworter des Kopftuches: Welche ist denn die Bedeutung des Kopftuches? Welche ist denn dessen Aussage?   Und vor allem, wie könnt ihr im Ernst dies verteidigen?  Also ich finde es gut, dass zumindest in der Volksschule Mädchen vor dieser Genderdiskriminierung geschützt werden. Traurig finde ich es, dass ausgerechnet diese Regierung das beschließt. Sind doch theoretisch Rot und Grün so sehr für Frauenrechte - wie man sieht allerdings nur für nicht muslimische Frauen.  P.S.: wer mir kontert soll mit der Bedeutung und Aussage des Kopftuchs anfangen. Wer mir rot gibt ebenso. Wer das nicht tut beweist, er/sie hat Angst vor der Antwort.</comment_text>
+        <comment_created_at>2019-05-16T06:35:42.530000</comment_created_at>
+        <comment_length>649</comment_length>
+        <replies>
+          <reply id="1041508177">
+            <user_id>232992</user_id>
+            <user_name>rora</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2011-07-24T19:50:54.780000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ich finde, dass in allen öffetnlichen Schulen ALLE Mädchen vor Genderdiskriminierung durch jegliche Religion geschützt werden. Insofern sollten alle religiösen Zeichen entfernt werden, Ethikunterricht statt Religionsunterricht. Schliesslich sind die allgegenwärtigen Kreuze Zeichen einer Religion, die Frauen immer diskriminierte und selbst heute von allen höheren Weihen und Entscheidungsgremien fernhält.</comment_text>
+            <comment_created_at>2019-05-16T07:34:22.197000</comment_created_at>
+            <comment_length>406</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041508823">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wie kann die Opposition dafür sein, dass kleine Mädchen indoor ein dämliches Tuch am Kopf haben müssen? Ist schlimm genug, wenn sie zuhause dazu verdonnert werden, aber wenigstens in der Schule sollen sie &quot;frei&quot; sein dürfen.</comment_text>
+        <comment_created_at>2019-05-16T08:08:48.373000</comment_created_at>
+        <comment_length>224</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103237129
+- **Title:** Karfreitag: Ärger über Aushöhlung des persönlichen Feiertags
+- **Publish Date:** 2019-05-16T10:16:06
+- **Channel:** Wirtschaft
+- **Ressort Name:** Wirtschaftspolitik
+- **Total Comments:** 131
+- **Root Comments:** 24
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103237129">
+    <title>Karfreitag: Ärger über Aushöhlung des persönlichen Feiertags</title>
+    <publish_date>2019-05-16T10:16:06</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Wirtschaftspolitik</ressort_name>
+    <total_comments>131</total_comments>
+    <root_comments>24</root_comments>
+    <user_threads>
+      <thread id="1041521673">
+        <user_name>Cyborg Merchant</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-12-20T21:07:32.173000</user_created_at>
+        <comment_headline>Da machen sie ein paar Leute lächerlich</comment_headline>
+        <comment_text>Wenn Religion über den Staat gestellt wird ist es mit der Republik vorbei. Dann werden auch alle anderen Religionen ihre Vorschriften über das Funktionieren des Staates stellen und damit denselben schädigen. Solche Deppen sollten sich ein Land mit einer Staatsreligion suchen, in dem geht das dann vielleicht aber nicht in einem säkularen Staat wie Österreich in dem eine Trennung zwischen Kirche und Staat gibt.  Die Vorschriften eine imaginären Freundes dürfen nicht über den Gesetzen der Menschen stehen. Egal welcher dieser vielen imaginären Freunde das ist und was er/sie/es/sonstiges gesagt haben soll.</comment_text>
+        <comment_created_at>2019-05-16T13:53:02.513000</comment_created_at>
+        <comment_length>608</comment_length>
+        <replies>
+          <reply id="1041550014">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Da sagte Jesus: ‚Zahlt Cäsars Dinge Cäsar zurück, Gottes Dinge aber Gott‘ “ (Markus 12:13-17). In dem Buch Church and State—The Story of Two Kingdoms wird über den Grund für Jesu Reaktion gesagt: „Er hat die Rolle eines politischen Messias abgelehnt und die Grenze zwischen dem Cäsar und Gott klar abgesteckt.“</comment_text>
+            <comment_created_at>2019-05-17T08:33:26</comment_created_at>
+            <comment_length>310</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041549870">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die &quot;Religion&quot; sollte man eigentlich jeden Tag ausüben, nicht nur am Karfreitag.</comment_text>
+        <comment_created_at>2019-05-17T08:28:09.670000</comment_created_at>
+        <comment_length>80</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103240708
+- **Title:** Mindestpension mit 40 Beitragsjahren künftig 1.200 Euro netto
+- **Publish Date:** 2019-05-16T10:42:10
+- **Channel:** Inland
+- **Ressort Name:** Pensionen
+- **Total Comments:** 637
+- **Root Comments:** 129
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103240708">
+    <title>Mindestpension mit 40 Beitragsjahren künftig 1.200 Euro netto</title>
+    <publish_date>2019-05-16T10:42:10</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Pensionen</ressort_name>
+    <total_comments>637</total_comments>
+    <root_comments>129</root_comments>
+    <user_threads>
+      <thread id="1041520461">
+        <user_name>Rotkehle</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-08-14T08:49:00.707000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Fehler im System — es geht nur um alleinstehende Pensionisten. Wenn Partner oder Partnerin vorhanden ist gibt es keine Mindestpension</comment_text>
+        <comment_created_at>2019-05-16T13:19:52.090000</comment_created_at>
+        <comment_length>133</comment_length>
+        <replies>
+          <reply id="1041520669">
+            <user_id>75487</user_id>
+            <user_name>Ghost Inside</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-08-19T09:13:48.227000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ich würde das weniger als Fehler bezeichnen, sondern als gerecht.</comment_text>
+            <comment_created_at>2019-05-16T13:25:35.340000</comment_created_at>
+            <comment_length>65</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103260319
+- **Title:** Was hinter Kickls Jackenwahl steckt
+- **Publish Date:** 2019-05-16T15:00:44
+- **Channel:** Panorama
+- **Ressort Name:** Österreich
+- **Total Comments:** 1289
+- **Root Comments:** 723
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103260319">
+    <title>Was hinter Kickls Jackenwahl steckt</title>
+    <publish_date>2019-05-16T15:00:44</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Österreich</ressort_name>
+    <total_comments>1289</total_comments>
+    <root_comments>723</root_comments>
+    <user_threads>
+      <thread id="1041549550">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>unglaublich, wie eine solche Jacke aufregen kann....</comment_text>
+        <comment_created_at>2019-05-17T08:16:41.880000</comment_created_at>
+        <comment_length>52</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103287009
+- **Title:** Abtreibungsverbot in Alabama: Frauen werden sterben
+- **Publish Date:** 2019-05-16T18:42:18
+- **Channel:** Meinung
+- **Ressort Name:** Bianca Blei
+- **Total Comments:** 659
+- **Root Comments:** 91
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103287009">
+    <title>Abtreibungsverbot in Alabama: Frauen werden sterben</title>
+    <publish_date>2019-05-16T18:42:18</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Bianca Blei</ressort_name>
+    <total_comments>659</total_comments>
+    <root_comments>91</root_comments>
+    <user_threads>
+      <thread id="1041549203">
+        <user_name>Eswarmalsoschön?</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-12-15T11:30:25.360000</user_created_at>
+        <comment_headline>Was ist so schwer daran zu verstehen? Ausser es geht darum, anderen was aufzwingen zu wollen?</comment_headline>
+        <comment_text>Solange ein Fötus nicht unabhängig von der Frau leben kann, solange ist er ein Teil ihres Körpers! Und die Frau hat doch wohl hoffentlich das Recht, selbst über ihren Körper zu entscheiden! Ich würde echt gerne mal schwangere Männer sehen- da hätten wir dann ganz andere Rechte! Keine Frau treibt gerne ab und ist lustig dabei- und selbst wenn unter Tausende eine dabei wäre, wo das so wäre- wer bitte möchte, das so jemand dann ein Kind grosszieht. Ich hatte lange unerfüllten Kinderwunsch und trotzdem kann ich verstehen, dass es Situationen gibt, wo das einfach notwendig ist und nicht von irgendeinem Pfuscher gemacht werden sollte. Ich arbeite selbst im Behindertenbereich und weiss, dass auch diese Leute wunderbare Menschen sind, mit....</comment_text>
+        <comment_created_at>2019-05-17T08:03:25.437000</comment_created_at>
+        <comment_length>744</comment_length>
+        <replies>
+          <reply id="1041550450">
+            <user_id>566097</user_id>
+            <user_name>Mamita</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2015-08-12T14:06:53.600000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ich finde trotzdem sollte jeder frau bewusst sein, dass auch wenn das leben ungeboren ist, ein leben ist und die frau ihr eigenes kind abtreibt. der körper reagiert auf eine abtreibung, ein leben stirbt, ein verlust. das alles ist zwar nicht bewusst, jedoch der körper und dasunbewusste nimmt das sterben war. die frauen werden auch über nebenwirkungen und psychische veränderungen nach einer abtreibung nicht genug aufgeklärt. es gibt genug frauen, die abgetrieben haben und dies im nachhinein zztieft bereuen, weil sie nicjt wussten was auf sie zzkommt mit dieser entscheidung.</comment_text>
+            <comment_created_at>2019-05-17T08:48:54.060000</comment_created_at>
+            <comment_length>579</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041554270">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>als ich meinem damaligen Ehemann eröffnet habe, dass ich schwanger bin, sagte er lapidar, ich solle abtreiben. Ich wollte auch nie ein Kind. Ich habe nicht abgetrieben, mich von diesem Mann getrennt und meine heute 22jährige Tochter ist eine tolle junge Frau. Allerdings habe ich nach dieser einen Schwangerschaft alles daran gesetzt, nicht noch einmal schwanger zu werden.</comment_text>
+        <comment_created_at>2019-05-17T10:56:45.137000</comment_created_at>
+        <comment_length>373</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103328192
+- **Title:** Grumpy Cat ist tot: Trauer um berühmteste Katze im Netz
+- **Publish Date:** 2019-05-17T11:51:27
+- **Channel:** Web
+- **Ressort Name:** Webmix
+- **Total Comments:** 213
+- **Root Comments:** 93
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103328192">
+    <title>Grumpy Cat ist tot: Trauer um berühmteste Katze im Netz</title>
+    <publish_date>2019-05-17T11:51:27</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Webmix</ressort_name>
+    <total_comments>213</total_comments>
+    <root_comments>93</root_comments>
+    <user_threads>
+      <thread id="1041562862">
+        <user_name>Der noch herzigere Heidelbeerkönig</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-01-16T12:51:04</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich bin gegen katzenstars und Haustiere im Internet, weil ihre Besitzer für Klicks die Katze oft auch quälen... Wenn eine Katze mit 7 an harnwegsinfekt stirbt, ist das kein erstrebenswerter Standard.</comment_text>
+        <comment_created_at>2019-05-17T16:04:16.010000</comment_created_at>
+        <comment_length>199</comment_length>
+        <replies>
+          <reply id="1041614234">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>die Katze hatte einen Gendefekt, normalerweise werden Katzen bis zu 20 Jahre alt. Sie war vermutlich einfach krank und niemand weiß, woran sie wirklich gestorben ist. An einem Harnwegsinfekt sicher nicht,eher an Nierenversagen, daran ist meine vorige Bulldogge auch gestorben bzw. sie musste eingeschläfert werden.</comment_text>
+            <comment_created_at>2019-05-18T13:32:00.540000</comment_created_at>
+            <comment_length>314</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041564701">
+        <user_name>Pomfinebra</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-03-20T13:26:09.680000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>De Leit dasaufn im Mittelmeer und do wird uman Kota trauert.  A bissl degeneriert des gaunze...</comment_text>
+        <comment_created_at>2019-05-17T17:19:11.790000</comment_created_at>
+        <comment_length>95</comment_length>
+        <replies>
+          <reply id="1041614010">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>was hat das mit der Katze zu tun? Gar nichts.</comment_text>
+            <comment_created_at>2019-05-18T13:29:05.460000</comment_created_at>
+            <comment_length>45</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103342431
+- **Title:** Montagsfrage: Was bezeichnen Sie als Heimat?
+- **Publish Date:** 2019-05-20T10:40:36
+- **Channel:** User
+- **Ressort Name:** Montagsfrage
+- **Total Comments:** 132
+- **Root Comments:** 98
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103342431">
+    <title>Montagsfrage: Was bezeichnen Sie als Heimat?</title>
+    <publish_date>2019-05-20T10:40:36</publish_date>
+    <channel>User</channel>
+    <ressort_name>Montagsfrage</ressort_name>
+    <total_comments>132</total_comments>
+    <root_comments>98</root_comments>
+    <user_threads>
+      <thread id="1041731025">
+        <user_name>Gurkenprinz</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-03-08T11:46:53.987000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Den Sprachraum würde ich auf keinen Fall auswählen denn dann müsste man ja die Schweiz oder Deutschland dazunehmen und mit denen hat man als Ostösterreicher eigentlich nix am Hut. Genauso wie mit Vorarlbergern oder Kärtnern.  Und die Stadt ist zu klein weil ich auch das Umland als meine Heimat ansehe. Der Erdteil wäre dann wieder zu groß weil sicher nicht den Osten (SK/HU/...) oder Frankreich oder den Balkan zu meiner Heimat dazuzählen würde.  Ideal wäre &quot;Eine Region&quot;.</comment_text>
+        <comment_created_at>2019-05-20T11:24:39.777000</comment_created_at>
+        <comment_length>473</comment_length>
+        <replies>
+          <reply id="1041733044">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>die Sprache ist deutsch, egal ob man Vorarlberger ist (wie Sie sehen, schreibe ich in einwandfreiem Deutsch) oder Wiener, oder aus dem Allgäu, aus Sachsen oder aus der Ostschweiz. Heimat ist einfach dort, wo man sich heimisch fühlt. Das mag eine Stadt, ein Dorf oder ein Bundesland sein...</comment_text>
+            <comment_created_at>2019-05-20T11:54:37.057000</comment_created_at>
+            <comment_length>289</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041730159">
+        <user_name>Bel Ami</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-12-17T09:33:07.007000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>die vor allem sprachlich abgetrennte Region in der ich lebe sehe ich als meine Heimat.  mit einem wiener fühle ich mich als westösterreicher genauso viel oder wenig verbunden sie mit einem schweden.   daher sehe ich mich auch als europäer. und ja, ich fühle mich mit amerikanern und australiern verbundener als mit chinesen oder kongolesen.   trotzdem wäre eine für mich perfekte welt eine, wo es keine nationalstaaten gibt, sondern die menschheit gemeinsam voranschreitet. ist halt leider utopisch.</comment_text>
+        <comment_created_at>2019-05-20T11:12:19.680000</comment_created_at>
+        <comment_length>499</comment_length>
+        <replies>
+          <reply id="1041733155">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>wissen Sie, dass es viele Ehen zwischen Wienern/Ostösterreichern und Vorarlbergern gibt?  Also mir steht der Wiener näher als der Schwede, schon allein wegen der Sprache.</comment_text>
+            <comment_created_at>2019-05-20T11:56:03.370000</comment_created_at>
+            <comment_length>170</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103368612
+- **Title:** Verdecktes Strache-Video auf Ibiza: So besoffen kann keiner sein
+- **Publish Date:** 2019-05-17T20:19:42
+- **Channel:** Meinung
+- **Ressort Name:** Conrad Seidl
+- **Total Comments:** 2130
+- **Root Comments:** 898
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103368612">
+    <title>Verdecktes Strache-Video auf Ibiza: So besoffen kann keiner sein</title>
+    <publish_date>2019-05-17T20:19:42</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Conrad Seidl</ressort_name>
+    <total_comments>2130</total_comments>
+    <root_comments>898</root_comments>
+    <user_threads>
+      <thread id="1041596541">
+        <user_name>Die Provinz lebt</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2010-06-17T17:23:30.527000</user_created_at>
+        <comment_headline>Der HC muss zurücktreten und wird degradiert, er wird mit einem Kreisleiterposten versorgt.</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-18T10:17:43.443000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041597692">
+            <user_id>506339</user_id>
+            <user_name>Hasta la proxima</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2013-01-25T17:21:32.733000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Ob dann die Philippa noch so lieb zu ihm sein wird (ist zu bezweifeln)</comment_text>
+            <comment_created_at>2019-05-18T10:31:56.330000</comment_created_at>
+            <comment_length>70</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041600994">
+        <user_name>kubo777</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-01-08T16:49:14.173000</user_created_at>
+        <comment_headline>Wem nützt es??</comment_headline>
+        <comment_text>Bei allen inhaltlichen Diskussionen muss man schon auch fragen, wer so eine perfide, hinterhältige Falle mit aller Professionalität inszeniert mit der eindeutigen Absicht, jemandem einmal gehörig zu schaden. Die Aufnahme stammt aus 2017 vor der NR-Wahl.  Da fällt einem natürlich zuerst die Silberstein-Affäre ein, die BK Kurz denunzieren sollte. Man denkt dann natürlich gleich weiter und fragt sich, ob nicht ähnliche Denunzierung für HC Strache vorbereitet wurde. Nachdem die Affäre aber vorzeitig aufflog, wäre es nicht denkunmöglich, dass man sich das Video für einen späteren Zeitpunkt aufhob und nachdem Rache ja nicht so schnell verfliegt, hat man halt gewartet bis zur EU - Wahl. Könnte man sich vorstellen, es gilt die Unschuldsver-mutung!</comment_text>
+        <comment_created_at>2019-05-18T11:15:12.637000</comment_created_at>
+        <comment_length>749</comment_length>
+        <replies>
+          <reply id="1041611958">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>natürlich war die Videoaktion auch illegal, aber ein Politiker, Parteichef und gewesener Vizekanzler darf nicht so blöd sein, solche Sachen zu sagen, er hätte ja wohl vermuten müssen, dass er eventuell abgehört werden könnte. mit dieser Aktion hat er vor allem seinem Parteifreund Hofer großen Schaden zugefügt, denn Hofer wird so ebenfalls seine politische Karriere hintanstellen müssen. Die FPÖ war blöd genug, sich erwischen zu lassen, dabei wissen wir alle, dass es keinen Poliitker gibt, der nicht korrupt ist und alles nur zu seinem Vorteil macht.</comment_text>
+            <comment_created_at>2019-05-18T12:59:44.477000</comment_created_at>
+            <comment_length>553</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041594332">
+        <user_name>Boabdil</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2013-10-24T12:12:37.623000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wie schön für Herrn Strache, er kann sich jetzt in den lange dauernden Papamonat verabschieden! Gratulation.</comment_text>
+        <comment_created_at>2019-05-18T09:50:18.850000</comment_created_at>
+        <comment_length>108</comment_length>
+        <replies>
+          <reply id="1041596230">
+            <user_id>239635</user_id>
+            <user_name>xx2xx</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2006-06-07T13:18:26.347000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Das wsird Hendrick und die Tierschutzbeauftragte aber freuen :-)</comment_text>
+            <comment_created_at>2019-05-18T10:14:22.683000</comment_created_at>
+            <comment_length>64</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103382534
+- **Title:** Heinz-Christian Straches Politparty endet blau auf Ibiza
+- **Publish Date:** 2019-05-18T12:28:30.600000
+- **Channel:** Inland
+- **Ressort Name:** FPÖ
+- **Total Comments:** 1415
+- **Root Comments:** 596
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103382534">
+    <title>Heinz-Christian Straches Politparty endet blau auf Ibiza</title>
+    <publish_date>2019-05-18T12:28:30.600000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>FPÖ</ressort_name>
+    <total_comments>1415</total_comments>
+    <root_comments>596</root_comments>
+    <user_threads>
+      <thread id="1041619319">
+        <user_name>das Orakel vom Selfie</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-11-18T16:37:57.427000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-18T14:42:45.460000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041625906">
+            <user_id>221546</user_id>
+            <user_name>weiß es besser</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2011-03-12T20:39:48.613000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-18T16:14:09.863000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041620565">
+        <user_name>Thomas Reitter</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-08-21T11:42:58.363000</user_created_at>
+        <comment_headline>Es musste so kommen!</comment_headline>
+        <comment_text>Erkennen jetzt endlich die FPÖ-Wähler, welcher Partei sie ihr Vertrauen geschenkt haben?</comment_text>
+        <comment_created_at>2019-05-18T15:01:20.230000</comment_created_at>
+        <comment_length>88</comment_length>
+        <replies>
+          <reply id="1041622122">
+            <user_id>567106</user_id>
+            <user_name>Intelligenzbefreite Zone</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2015-09-01T10:04:05.993000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Nein, die werden es nie erkennen. Sind zu blöd dazu, sonst wären sie nicht großteils Verlierer.</comment_text>
+            <comment_created_at>2019-05-18T15:24:53.710000</comment_created_at>
+            <comment_length>95</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103394713
+- **Title:** Wie Heinz-Christian Strache an seiner Coolness scheiterte
+- **Publish Date:** 2019-05-18T14:41:15
+- **Channel:** Meinung
+- **Ressort Name:** Eric Frey
+- **Total Comments:** 546
+- **Root Comments:** 264
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103394713">
+    <title>Wie Heinz-Christian Strache an seiner Coolness scheiterte</title>
+    <publish_date>2019-05-18T14:41:15</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Eric Frey</ressort_name>
+    <total_comments>546</total_comments>
+    <root_comments>264</root_comments>
+    <user_threads>
+      <thread id="1041624812">
+        <user_name>eamon clever second sight</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-04-13T23:17:26.850000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>vergessen wird, dass die jungen fremdenfeindlichen buberln, mangels alternative,weiterhin die blauen wählen werden und dass der erfolgreiche präsidentschaftskandidat Hofer ganz andere menschen anspricht und zur urne bringt als Strache, die bereit sind bei der fpö ein kreutzerl zu machen.</comment_text>
+        <comment_created_at>2019-05-18T15:59:37.637000</comment_created_at>
+        <comment_length>288</comment_length>
+        <replies>
+          <reply id="1041628401">
+            <user_id>605960</user_id>
+            <user_name>Herr Franz vom 3. Stock</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2016-12-27T16:55:25.683000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ja eh, erfolgreich. wenn wir noch 10 x wählen hätten müssen, hätte er vielleicht schon 1 x davon gewonnen. hurra.  es gab zum schluss nur 2 kanditaten, und dass ein grüner kanditat von vielen zähneknirschend nicht gewählt wurde, ist wohl ein erfolg.</comment_text>
+            <comment_created_at>2019-05-18T16:46:17.133000</comment_created_at>
+            <comment_length>249</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041628853">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Guter Artikel!</comment_text>
+        <comment_created_at>2019-05-18T16:53:27.417000</comment_created_at>
+        <comment_length>14</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041624274">
+        <user_name>schichtl herbert</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-02-23T16:14:59.783000</user_created_at>
+        <comment_headline>hochmut kommt vor dem fall</comment_headline>
+        <comment_text>gilt auch für den neuen messias</comment_text>
+        <comment_created_at>2019-05-18T15:52:47.980000</comment_created_at>
+        <comment_length>31</comment_length>
+        <replies>
+          <reply id="1041628979">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wobei der echte Messias, Jesus Christus,  der demütigste Mensch auf Erden war.</comment_text>
+            <comment_created_at>2019-05-18T16:55:25.937000</comment_created_at>
+            <comment_length>78</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103403684
+- **Title:** Neuwahlen: Was sagt die STANDARD-Community dazu?
+- **Publish Date:** 2019-05-18T20:33:36
+- **Channel:** User
+- **Ressort Name:** Mitreden
+- **Total Comments:** 541
+- **Root Comments:** 150
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103403684">
+    <title>Neuwahlen: Was sagt die STANDARD-Community dazu?</title>
+    <publish_date>2019-05-18T20:33:36</publish_date>
+    <channel>User</channel>
+    <ressort_name>Mitreden</ressort_name>
+    <total_comments>541</total_comments>
+    <root_comments>150</root_comments>
+    <user_threads>
+      <thread id="1041687507">
+        <user_name>GreyÖrli</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-07-03T11:18:33.630000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>mein tipp: die övp gewinnt fast so viel, wie blau verliert. spö gewinnt leicht dazu. fpö platz drei. grüne matchen sich mit neos um platz 4. liste jetzt weg.</comment_text>
+        <comment_created_at>2019-05-19T16:38:45.663000</comment_created_at>
+        <comment_length>157</comment_length>
+        <replies>
+          <reply id="1041695979">
+            <user_id>162082</user_id>
+            <user_name>Neu Anfang</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2006-05-19T19:32:44.433000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>mein Gegentipp:  die ÖVP verliert massiv, da Kurz nicht durchsetzungsfähig, die SPÖ gewinnt die &quot;Abtrünnigen&quot; wieder zurück die FPÖ geht nicht zur Wahl!  NEOS legen zu Grün kommt wieder zurück.</comment_text>
+            <comment_created_at>2019-05-19T19:09:14.810000</comment_created_at>
+            <comment_length>193</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103436760
+- **Title:** Cristina Kirchner bereitet in Argentinien Comeback vor
+- **Publish Date:** 2019-05-19T17:01:45
+- **Channel:** International
+- **Ressort Name:** Argentinien
+- **Total Comments:** 28
+- **Root Comments:** 12
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103436760">
+    <title>Cristina Kirchner bereitet in Argentinien Comeback vor</title>
+    <publish_date>2019-05-19T17:01:45</publish_date>
+    <channel>International</channel>
+    <ressort_name>Argentinien</ressort_name>
+    <total_comments>28</total_comments>
+    <root_comments>12</root_comments>
+    <user_threads>
+      <thread id="1041743163">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>der uralte, faltige  Hals von Frau Kirchner zu dem gelifteten Gesicht dazu - herrlich!</comment_text>
+        <comment_created_at>2019-05-20T14:02:29.900000</comment_created_at>
+        <comment_length>86</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103438236
+- **Title:** Droht Strache und Gudenus Gefängnis?
+- **Publish Date:** 2019-05-20T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 2001
+- **Root Comments:** 614
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103438236">
+    <title>Droht Strache und Gudenus Gefängnis?</title>
+    <publish_date>2019-05-20T06:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>2001</total_comments>
+    <root_comments>614</root_comments>
+    <user_threads>
+      <thread id="1041730963">
+        <user_name>LaiLaiHei</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2013-08-03T21:02:26.690000</user_created_at>
+        <comment_headline>Neuer Countdown von Böhmermann</comment_headline>
+        <comment_text>Am Mittwoch zur Primetime könnte es spannend werden.  https://mobile.twitter.com/janboehm/status/1130361976067108865</comment_text>
+        <comment_created_at>2019-05-20T11:23:44.590000</comment_created_at>
+        <comment_length>116</comment_length>
+        <replies>
+          <reply id="1041731800">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>ist das nicht strafbar, wenn Herr Böhmermann Ausschnitte aus einem illegal aufgenommenen Video veröffentlicht?</comment_text>
+            <comment_created_at>2019-05-20T11:35:26.523000</comment_created_at>
+            <comment_length>110</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103443508
+- **Title:** Die Stunde der Patrioten
+- **Publish Date:** 2019-05-20T09:00:00
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 1335
+- **Root Comments:** 397
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103443508">
+    <title>Die Stunde der Patrioten</title>
+    <publish_date>2019-05-20T09:00:00</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Kommentare der anderen</ressort_name>
+    <total_comments>1335</total_comments>
+    <root_comments>397</root_comments>
+    <user_threads>
+      <thread id="1041804335">
+        <user_name>strangerinastrangeland</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2004-02-25T23:37:39.353000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>&quot;Rendi-Wagner erhält früher eine Chance, als sie sich erarbeitet hat&quot;  Rendi-Wagner hat bislang überhaupt nicht sichtbar gearbeitet und wird aufgrund ihrer fehlenden Erfahrung im Wahlkampf nicht in der Lage sein, die Chance zu nutzen. Es ist zwar nicht unwahrscheinlich, dass sie nach der Wahl Vizekanzlerin wird, aber sie wird sicher nicht Kanzlerin.</comment_text>
+        <comment_created_at>2019-05-21T12:19:56.810000</comment_created_at>
+        <comment_length>351</comment_length>
+        <replies>
+          <reply id="1041848108">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>hoffentlich nicht...viel gescheites hat sie noch nicht von sich gegeben.</comment_text>
+            <comment_created_at>2019-05-22T08:15:54.600000</comment_created_at>
+            <comment_length>72</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103464259
+- **Title:** Das Ende der Regierung: Wie haben Sie das Wochenende erlebt?
+- **Publish Date:** 2019-05-20T10:52:37
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 139
+- **Root Comments:** 91
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103464259">
+    <title>Das Ende der Regierung: Wie haben Sie das Wochenende erlebt?</title>
+    <publish_date>2019-05-20T10:52:37</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>139</total_comments>
+    <root_comments>91</root_comments>
+    <user_threads>
+      <thread id="1041732710">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich war geschockt, ob der Wortwahl vieler Facebook User. Hasstriefend, primitiv, vulgär, bösärtig, kurz gesagt, erschreckend. Ich finde, das sagt viel über das gefährliche Potential dieser Menschen aus. Es erinnert mich u.a. an die Nazizeit, als viele Menschen begonnen haben, ehemalige Freunde zu denunzieren und an die Gestapo zu verraten. Oder an die Zeit der Hexenverbrennung. In vielen Menschen schlummert das Böse und zu gegebener Zeit kommt es an die Oberfläche. Es ist erschreckend, von welch abgrundtief bösen Zeitgenossen man tagtäglich umgeben ist.</comment_text>
+        <comment_created_at>2019-05-20T11:49:48.240000</comment_created_at>
+        <comment_length>559</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103482809
+- **Title:** Pendeln: Viel Stress auf dem Weg zur Arbeit
+- **Publish Date:** 2019-05-22T07:00:00
+- **Channel:** Karriere
+- **Ressort Name:** Karriere
+- **Total Comments:** 155
+- **Root Comments:** 27
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103482809">
+    <title>Pendeln: Viel Stress auf dem Weg zur Arbeit</title>
+    <publish_date>2019-05-22T07:00:00</publish_date>
+    <channel>Karriere</channel>
+    <ressort_name>Karriere</ressort_name>
+    <total_comments>155</total_comments>
+    <root_comments>27</root_comments>
+    <user_threads>
+      <thread id="1041846913">
+        <user_name>Zeus (himself)</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-06-28T14:16:52.073000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Noch ein Vorteil des Fahrrads. Kein Stau, keine Verspätung :)</comment_text>
+        <comment_created_at>2019-05-22T07:42:52.857000</comment_created_at>
+        <comment_length>61</comment_length>
+        <replies>
+          <reply id="1041847383">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>aber nicht, wenn der Dienstort 20 km vom Wohnort entfernt ist. Da braucht man mit dem Rad eine Stunde.</comment_text>
+            <comment_created_at>2019-05-22T07:57:47.787000</comment_created_at>
+            <comment_length>102</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103578888
+- **Title:** Dem Expertenkabinett des Kanzlers droht ein schnelles Ende
+- **Publish Date:** 2019-05-21T21:15:06.440000
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 3918
+- **Root Comments:** 935
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103578888">
+    <title>Dem Expertenkabinett des Kanzlers droht ein schnelles Ende</title>
+    <publish_date>2019-05-21T21:15:06.440000</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>3918</total_comments>
+    <root_comments>935</root_comments>
+    <user_threads>
+      <thread id="1041847068">
+        <user_name>pchofi</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2013-06-11T09:50:59.680000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich kann es schon nicht mehr hören bzw. lesen. Kurz muss gehen, Kurz ist an allem Schuld, vielleicht sogar am Regen heut morgen?   Bin echt kein Fan von dem Bubi, aber lasst doch mal die Experten Übergangsregierung arbeiten bis zu Wahl und dann könnt ihr doch eh alle eure SPÖ wählen. Wichtig ist, die FPÖ ist weg.  Mir können FPÖ, ÖVP und SPÖ gestohlen bleiben, alles die selben Versager der letzten 20 Jahre. Alle miteinander machtgeil bis zum geht nicht mehr.  Die SPÖ hat sich jahrelange freiwillig blockieren lassen um an der Macht zu bleiben, zumindest im Vordergrund. Bei den ganzen Korruptionsfällen der letzten Jahre, wundert es mich überhaupt dass ich noch zu einer Wahl gehe. Aber gut dass es noch paar kleine Parteien zum Wählen gibt.</comment_text>
+        <comment_created_at>2019-05-22T07:48:02.930000</comment_created_at>
+        <comment_length>746</comment_length>
+        <replies>
+          <reply id="1041847194">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>endlich mal ein wahres Wort!! Danke.</comment_text>
+            <comment_created_at>2019-05-22T07:52:19.937000</comment_created_at>
+            <comment_length>36</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041846923">
+        <user_name>Wörtersee</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-10-03T19:12:42.023000</user_created_at>
+        <comment_headline>Genug ist genug?</comment_headline>
+        <comment_text>Interessant wieviele hier meinen, dass VdB heute eine Regierung angelobt, die dann gerade die SPÖ in Allianz mit der FPÖ sprengt?   Ich gehe davon aus, dass der BP sich da schon ein bisserl abgesichert hat, zumal die Auswahl der Experten ja durchaus sozialdemokratiefreundlich ist.  Im übrigen hat Kurz mit der Auflösung der Regierung, Neuwahlen und der Ablöse von Kickl lauter Maßnahmen gesetzt, die sich die Opposition schon länger gewünscht hat.</comment_text>
+        <comment_created_at>2019-05-22T07:43:14.633000</comment_created_at>
+        <comment_length>448</comment_length>
+        <replies>
+          <reply id="1041847048">
+            <user_id>219933</user_id>
+            <user_name>Rosi Roboter</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2010-12-23T07:40:06.433000</user_created_at>
+            <comment_headline>Kurz mach GAR nix für andere!</comment_headline>
+            <comment_text>hier steht: ich ich ich im Vordergrund!!</comment_text>
+            <comment_created_at>2019-05-22T07:47:19.833000</comment_created_at>
+            <comment_length>40</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041847165">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>die Sozi sollen den Mund halten. Die waren jahrelang an der Macht und haben nichts weitergebracht.</comment_text>
+        <comment_created_at>2019-05-22T07:51:31.267000</comment_created_at>
+        <comment_length>98</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041854437">
+        <user_name>sans.souci</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-07-20T18:50:53.907000</user_created_at>
+        <comment_headline>bin dafür kurz durch conchita zu ersetzen :-)</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-22T10:20:47.867000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041865715">
+            <user_id>608469</user_id>
+            <user_name>Mammut1968</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2017-02-20T12:11:52.140000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wurst wäre erheblich ehrlicher.</comment_text>
+            <comment_created_at>2019-05-22T13:27:38.780000</comment_created_at>
+            <comment_length>31</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041854631">
+        <user_name>sternderl1</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2006-02-21T10:24:25.333000</user_created_at>
+        <comment_headline>Was macht Kurz wenn er den Job verliert?</comment_headline>
+        <comment_text>Wenn er sich AMS meldet schaut es traurig aus wenn er sein abgebrochenes Studium als höchste Ausbildung bei der neuen Aussiebsoftware eingibt!</comment_text>
+        <comment_created_at>2019-05-22T10:24:20.120000</comment_created_at>
+        <comment_length>142</comment_length>
+        <replies>
+          <reply id="1041867628">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Selten blöder Kommentar. Einfach nur nervig, was so mancher von sich gibt.</comment_text>
+            <comment_created_at>2019-05-22T14:04:11.543000</comment_created_at>
+            <comment_length>74</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041867596">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Die ganze Politik ist einfach nur widerwärtig.</comment_text>
+        <comment_created_at>2019-05-22T14:03:28.943000</comment_created_at>
+        <comment_length>46</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103588017
+- **Title:** Erste heiße Spur? Wiener Anwalt soll laut Medienbericht Gudenus hereingelegt haben
+- **Publish Date:** 2019-05-21T20:52:12
+- **Channel:** Panorama
+- **Ressort Name:** Wien
+- **Total Comments:** 2100
+- **Root Comments:** 463
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103588017">
+    <title>Erste heiße Spur? Wiener Anwalt soll laut Medienbericht Gudenus hereingelegt haben</title>
+    <publish_date>2019-05-21T20:52:12</publish_date>
+    <channel>Panorama</channel>
+    <ressort_name>Wien</ressort_name>
+    <total_comments>2100</total_comments>
+    <root_comments>463</root_comments>
+    <user_threads>
+      <thread id="1041846418">
+        <user_name>Georg.Schütt</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2012-12-29T17:39:08.787000</user_created_at>
+        <comment_headline>Wenn man sich anschaut, dass es eben nicht nur darum geht, Strache und Kickl loszuwerden und die Koalition zu sprengen,</comment_headline>
+        <comment_text>sondern darum, alle FPÖ-Minister auszuschalten und damit auch Kurz selber, dann fällt es schwer, an eine ÖVP-Intrige zu glauben. Die tun sich selbst keine Gefallen.  Im Ganzen eine Intrige gigantischen Ausmaßes. Da sind Barschel und Co. doch kleine Fische.   Ich bin nicht sicher, dass v.a. Kickl und weniger Vertrauen verdient als die - Strache und Gudenus sind eine eigene Liga -, die ihn derart reinlegten. Das sind ja selber schon mehr als nur halbseidene Methoden.</comment_text>
+        <comment_created_at>2019-05-22T07:24:50.903000</comment_created_at>
+        <comment_length>469</comment_length>
+        <replies>
+          <reply id="1041846492">
+            <user_id>501035</user_id>
+            <user_name>Geggi</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-12-10T11:21:16.173000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Kurz war nie geplant, das hat er ganz alleine verbockt. Der hat nicht damit gerechnet, dass er das IM nicht zurückbekommt.</comment_text>
+            <comment_created_at>2019-05-22T07:28:07.460000</comment_created_at>
+            <comment_length>122</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041846961">
+        <user_name>r2pi</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2003-06-10T10:45:46.240000</user_created_at>
+        <comment_headline>Und ich dachte immer, dass H. C. der perfekte Politiker sein müsste - als gelernter (Zahnspangen-) DRAHTZIEHER  :-)</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-22T07:44:28.630000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1041847477">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>lassen´s bitte den erlernten Beruf des Herrn Strache aus dem Spiel. Zahntechniker ist genauso ein Beruf wie Taxifahrer....</comment_text>
+            <comment_created_at>2019-05-22T08:00:15.837000</comment_created_at>
+            <comment_length>122</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103606777
+- **Title:** Strache tobt auf Facebook und befeuert Verschwörungstheorien
+- **Publish Date:** 2019-05-22T10:37:08
+- **Channel:** Web
+- **Ressort Name:** Netzpolitik
+- **Total Comments:** 1699
+- **Root Comments:** 789
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103606777">
+    <title>Strache tobt auf Facebook und befeuert Verschwörungstheorien</title>
+    <publish_date>2019-05-22T10:37:08</publish_date>
+    <channel>Web</channel>
+    <ressort_name>Netzpolitik</ressort_name>
+    <total_comments>1699</total_comments>
+    <root_comments>789</root_comments>
+    <user_threads>
+      <thread id="1041938128">
+        <user_name>Bibi Blockwart</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-10-30T15:33:59.863000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Einerseits verstehe ich ihn. Das ganze Leben innerhalb weniger Stunden einfach zusammengebrochen. Arbeitslos, unvermittelbar, Frau weg, Kind weg, alkoholsüchtig.   Andererseits hat er große Teile seines Lebens mit Hetzen gegen Schwächere, Hass, Vergiften des Klimas im Land und Missgunstschüren verbracht. Also *wenn* es wer verdient hat...</comment_text>
+        <comment_created_at>2019-05-23T21:58:13.550000</comment_created_at>
+        <comment_length>340</comment_length>
+        <replies>
+          <reply id="1041954419">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>die Frau ist gar nicht weg, war nie weg.</comment_text>
+            <comment_created_at>2019-05-24T11:33:49.383000</comment_created_at>
+            <comment_length>40</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041954341">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>dass der sich nicht geniert und ganz still in der Versenkung verschwindet, nachdem was er sich da geleistet hat.</comment_text>
+        <comment_created_at>2019-05-24T11:32:18.770000</comment_created_at>
+        <comment_length>112</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041943548">
+        <user_name>knutrecht</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2009-08-06T01:26:23.587000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Strache ist nicht nur auf &quot;psychotropen Substanzen&quot;, nein der muss echt ernsthaft krank sein, wie man hört...</comment_text>
+        <comment_created_at>2019-05-24T06:59:11.910000</comment_created_at>
+        <comment_length>109</comment_length>
+        <replies>
+          <reply id="1041954378">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>wie kann man nur freiwillig diesen Typen heiraten?</comment_text>
+            <comment_created_at>2019-05-24T11:32:58.410000</comment_created_at>
+            <comment_length>50</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103607247
+- **Title:** Manchmal möchte man rufen: Lernen Sie Demokratie!
+- **Publish Date:** 2019-05-23T12:00:00
+- **Channel:** Inland
+- **Ressort Name:** Standardabweichung
+- **Total Comments:** 41
+- **Root Comments:** 22
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103607247">
+    <title>Manchmal möchte man rufen: Lernen Sie Demokratie!</title>
+    <publish_date>2019-05-23T12:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Standardabweichung</ressort_name>
+    <total_comments>41</total_comments>
+    <root_comments>22</root_comments>
+    <user_threads>
+      <thread id="1041945369">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich war selbst mal politisch tätig, naiv und idealistisch habe ich mich einbringen wollen, nur um feststellen zu müssen, dass es den Politikern nur darum geht, ihre eigenen Interessen zu verwirklichen und mit möglichst wenig Arbeit möglichst viel Vorteile (und Geld) für sich selbst zu bekommen.</comment_text>
+        <comment_created_at>2019-05-24T08:19:34.043000</comment_created_at>
+        <comment_length>295</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103623125
+- **Title:** Lebt es sich ohne Menstruation besser?
+- **Publish Date:** 2019-05-23T07:00:00
+- **Channel:** dieStandard
+- **Ressort Name:** STANDARD-Zyklus
+- **Total Comments:** 279
+- **Root Comments:** 93
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103623125">
+    <title>Lebt es sich ohne Menstruation besser?</title>
+    <publish_date>2019-05-23T07:00:00</publish_date>
+    <channel>dieStandard</channel>
+    <ressort_name>STANDARD-Zyklus</ressort_name>
+    <total_comments>279</total_comments>
+    <root_comments>93</root_comments>
+    <user_threads>
+      <thread id="1041917846">
+        <user_name>armerThor</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-06-23T18:47:42.040000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Als Mann beneide ich Frauen definitiv nicht um die Menses. Vor allem nicht wenn ich sehe, dass eine Bekannte einmal im Monat mit einer Packung Schmerztabletten rumläuft, weil sie so starke Krämpfe hat, dass sie schon davon ohnmächtig wurde. Allerdings fällt es mir schwer zu glauben, dass eine langfristige Einnahme von Hormonpräparaten gut für die Gesundheit ist.</comment_text>
+        <comment_created_at>2019-05-23T15:15:10.300000</comment_created_at>
+        <comment_length>364</comment_length>
+        <replies>
+          <reply id="1041920974">
+            <user_id>652259</user_id>
+            <user_name>UnscharferHeisenberg</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2017-11-06T23:10:50.933000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Jeden Monat Schmerzmittel zu konsumieren ist ebenfalls nicht gut für die Gesundheit. Man muss sich leider zwischen Schmerzmitteln und Hormonen entscheiden.</comment_text>
+            <comment_created_at>2019-05-23T16:21:49.283000</comment_created_at>
+            <comment_length>155</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041921479">
+        <user_name>weeerneeeerr!!!!!</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2003-07-30T20:04:58.260000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Weiß nicht. Ich muss mich dafür täglich rasieren ...</comment_text>
+        <comment_created_at>2019-05-23T16:32:47.750000</comment_created_at>
+        <comment_length>52</comment_length>
+        <replies>
+          <reply id="1041938851">
+            <user_id>687488</user_id>
+            <user_name>B.K.</user_name>
+            <user_gender>Unknown</user_gender>
+            <user_created_at>2019-02-08T10:05:14.143000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Und? Haben Sie dabei Krämpfe?</comment_text>
+            <comment_created_at>2019-05-23T22:09:54.073000</comment_created_at>
+            <comment_length>29</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041941177">
+        <user_name>LagunaVerde</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2016-06-21T15:39:42.480000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Jung ohne Periode wäre noch besser als alt ohne Periode. Die Natur hat mir zweiteres beschert, genieße diesen Lebensabschnitt sehr ohne Tampons etc.</comment_text>
+        <comment_created_at>2019-05-23T23:28:26.213000</comment_created_at>
+        <comment_length>148</comment_length>
+        <replies>
+          <reply id="1041954826">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>mich hat die Regelblutung nie gestört, im Gegenteil, jetzt ohne das habe ich dafür ab und dann mal eine Hitzewallung, das finde ich viel schlimmer. Die Vorstellung, dass meine weiblichen Hormone immer weniger werden und ich immer älter und schrumpeliger, das finde ich gar nicht schön.</comment_text>
+            <comment_created_at>2019-05-24T11:41:51.693000</comment_created_at>
+            <comment_length>285</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103653822
+- **Title:** Die Erde wird zerstört. Wie kann man nichts dagegen tun?
+- **Publish Date:** 2019-05-24T06:00:00
+- **Channel:** Zukunft
+- **Ressort Name:** Podcast Edition Zukunft
+- **Total Comments:** 414
+- **Root Comments:** 102
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103653822">
+    <title>Die Erde wird zerstört. Wie kann man nichts dagegen tun?</title>
+    <publish_date>2019-05-24T06:00:00</publish_date>
+    <channel>Zukunft</channel>
+    <ressort_name>Podcast Edition Zukunft</ressort_name>
+    <total_comments>414</total_comments>
+    <root_comments>102</root_comments>
+    <user_threads>
+      <thread id="1042381633">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>„Eine Generation geht, und eine Generation kommt; aber die Erde besteht sogar auf unabsehbare Zeit“ (KÖNIG SALOMO, 11. JAHRHUNDERT V. CHR.)  https://www.jw.org/de/publikationen/zeitschriften/wp20140901/erde-chance/</comment_text>
+        <comment_created_at>2019-06-04T09:26:24.600000</comment_created_at>
+        <comment_length>214</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103669970
+- **Title:** Mütter nach Geburt von Kindern oft unzufriedener als Väter
+- **Publish Date:** 2019-05-26T12:00:00
+- **Channel:** Familie
+- **Ressort Name:** Baby
+- **Total Comments:** 461
+- **Root Comments:** 56
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103669970">
+    <title>Mütter nach Geburt von Kindern oft unzufriedener als Väter</title>
+    <publish_date>2019-05-26T12:00:00</publish_date>
+    <channel>Familie</channel>
+    <ressort_name>Baby</ressort_name>
+    <total_comments>461</total_comments>
+    <root_comments>56</root_comments>
+    <user_threads>
+      <thread id="1042040768">
+        <user_name>Susanne_B</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2006-03-02T13:28:58.467000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Welche Überraschung! Während Männer nach der Geburt meist weiterhin in vollem Ausmaß ihren Jobs nachgehen, sitzen die Mütter  meist zu Hause, finanziell abhängig und beschäftigen sich mit stupiden Tätigkeiten. Dsss das gerade gut ausgebildete und intelligente Frauen frustriert, ist ja nicht überraschend.</comment_text>
+        <comment_created_at>2019-05-26T20:01:55.887000</comment_created_at>
+        <comment_length>305</comment_length>
+        <replies>
+          <reply id="1042045833">
+            <user_id>563659</user_id>
+            <user_name>Johudla</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2015-06-24T08:53:23.857000</user_created_at>
+            <comment_headline>stupide Tätigkeiten</comment_headline>
+            <comment_text>Karriere über alles, eure Kinder tun mir leid! Wenigstens können sie sich alles kaufen..</comment_text>
+            <comment_created_at>2019-05-26T21:33:42.227000</comment_created_at>
+            <comment_length>88</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042046515">
+        <user_name>stachligerose</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2017-10-26T10:11:00.447000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich habe in 17 Jahren 5 Kinder bekommen (für alle mpchtegern-moralisten:vom selben Mann) , ich liebe sie alle, und ich bin froh, dass sie jetzt erwachsen sind und ihr eigenes Leben haben. Ich freue mich, wenn die Enkelkinder auf Besuch kommen, aber ich freue mich auch, wenn sie wieder fahren. Kino, kein Zeichentrickfilm, sondern etwas, was ich sehen will, ein Nachmittag auf der Couch nicht mit Kinderbuch, sondern etwas, was ich schon lange lesen wollte. Die Minipension durch jahrzehntelange Teilzeitarbeit kann ich nicht mehr ändern, aber ich habe jetzt wieder Zeit für mich.</comment_text>
+        <comment_created_at>2019-05-26T21:48:25.960000</comment_created_at>
+        <comment_length>580</comment_length>
+        <replies>
+          <reply id="1042059016">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>oh mein Gott, ich bin schon nach der &quot;Aufzucht&quot; eines Kindes total fertig. 24 Jahre (da der Nachwuchs studiert) Zeit und Geld und Nerven geopfert. Dass man jemals irgendetwas zurückbekommt - damit darf man nicht rechnen, viele Kinder ziehen weg nach Abschluss des Studiums, wegen Job oder Partner und einem selbst fehlt dann das Geld für ein bequemes Leben im letzten Lebensabschnitt, aufgrund von jahrelanger Teilzeitarbeit für das Wohl des Kindes, wohlgemerkt, fällt dann die Pension niedrig aus ...und nicht jede Frau ist in der glücklichen Lage, einen Partner zu haben...</comment_text>
+            <comment_created_at>2019-05-27T08:00:23.820000</comment_created_at>
+            <comment_length>575</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042072273">
+        <user_name>Ich stelle hier nur Fragen?</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-07-08T14:05:44.893000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich kann das nicht ganz nachvollziehen, seit Jahrzehnten wird daran hart gearbeitet das Leben für Eltern so schwer wie möglich zu machen und Frauen zurück an den Herd zu drängen, wie soll es den Müttern denn gehen?  Aber mein Mitleid hält sich schwer in Grenzen, was wählen den Frauen immer wieder? Zuerst dumme Kreuzerl machen und dann aufregen?  Spielts halt nicht liebe Mütter, selber schuld, warum wollt ihr Mitleid?</comment_text>
+        <comment_created_at>2019-05-27T12:04:52.977000</comment_created_at>
+        <comment_length>420</comment_length>
+        <replies>
+          <reply id="1042147372">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>also Kleinkind und 8 h Job ist ja wirklich nicht zu vereinbaren. Nach der Arbeit das schreiende Kind, keine Freizeit mehr...schrecklich. Lieber gar kein Kind. Warum gibt es kaum mehr funktionierende Familien?  Wenn ich mal in Pension bin, hätte ich auch keine große Lust, 8 -10 h am Tag das Enkelkind zu übernehmen, nur dass die Jungen ihre Karriere verwirklichen können...</comment_text>
+            <comment_created_at>2019-05-28T14:11:56.750000</comment_created_at>
+            <comment_length>373</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103673865
+- **Title:** Die neuen Champagner-Bars im Freien
+- **Publish Date:** 2019-05-25T12:00:00
+- **Channel:** Lifestyle
+- **Ressort Name:** Essen &amp; Trinken
+- **Total Comments:** 24
+- **Root Comments:** 10
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103673865">
+    <title>Die neuen Champagner-Bars im Freien</title>
+    <publish_date>2019-05-25T12:00:00</publish_date>
+    <channel>Lifestyle</channel>
+    <ressort_name>Essen &amp;amp; Trinken</ressort_name>
+    <total_comments>24</total_comments>
+    <root_comments>10</root_comments>
+    <user_threads>
+      <thread id="1041991502">
+        <user_name>immerdagegen</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2015-03-31T13:01:12.803000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Des gschloder kannst ja ned saufen. 5 mal so teuer wie jeder winzersekt, und hab noch keinen wirklich guten getrunken. Die Champagne ist gut im Marketing, sonst gar nix. Da schmeckt jeder Prosecco oder muskatellersekt hundertmal besser.</comment_text>
+        <comment_created_at>2019-05-25T12:20:20.217000</comment_created_at>
+        <comment_length>236</comment_length>
+        <replies>
+          <reply id="1041991882">
+            <user_id>608398</user_id>
+            <user_name>wederlechtsnochrinks</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2017-02-18T16:05:32.167000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Wenn man keine Ahnung von Wein hat sollte man lieber schweigen und Kindergetränke saufen...</comment_text>
+            <comment_created_at>2019-05-25T12:34:52.290000</comment_created_at>
+            <comment_length>91</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042147994">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Herrlich, ich hätte jetzt auch nichts gegen ein Glas mit gutem Champagner. In meinem Kühlschrank steht nur ein Prosecco &quot;brut&quot; rosè...</comment_text>
+        <comment_created_at>2019-05-28T14:22:43.317000</comment_created_at>
+        <comment_length>134</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103684134
+- **Title:** Gehälter gegenüber Vorjahr deutlich gestiegen
+- **Publish Date:** 2019-05-23T14:28:36
+- **Channel:** Karriere
+- **Ressort Name:** Gehalt
+- **Total Comments:** 74
+- **Root Comments:** 33
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103684134">
+    <title>Gehälter gegenüber Vorjahr deutlich gestiegen</title>
+    <publish_date>2019-05-23T14:28:36</publish_date>
+    <channel>Karriere</channel>
+    <ressort_name>Gehalt</ressort_name>
+    <total_comments>74</total_comments>
+    <root_comments>33</root_comments>
+    <user_threads>
+      <thread id="1041954565">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>meines jedenfalls nicht</comment_text>
+        <comment_created_at>2019-05-24T11:36:32.680000</comment_created_at>
+        <comment_length>23</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103706449
+- **Title:** Gesteuerter "Welpe" oder "Heldin der Erde"? Greta Thunberg hat es nicht leicht
+- **Publish Date:** 2019-05-24T06:00:00
+- **Channel:** Wirtschaft
+- **Ressort Name:** Umwelt, Landwirtschaft &amp; Klima
+- **Total Comments:** 926
+- **Root Comments:** 203
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103706449">
+    <title>Gesteuerter &quot;Welpe&quot; oder &quot;Heldin der Erde&quot;? Greta Thunberg hat es nicht leicht</title>
+    <publish_date>2019-05-24T06:00:00</publish_date>
+    <channel>Wirtschaft</channel>
+    <ressort_name>Umwelt, Landwirtschaft &amp;amp; Klima</ressort_name>
+    <total_comments>926</total_comments>
+    <root_comments>203</root_comments>
+    <user_threads>
+      <thread id="1041945168">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>die Kleine lässt sich doch total missbrauchen. Ich hoffe, sie wird bald wieder in der Versenkung verschwinden. Idealismus ist super, den hatte ich als Jugendliche auch, aber irgendwie geht sie - mir - total auf den Nerv. Ich kann sie nicht mehr sehen. Eigentlich schade, denn Idealismus ist eine super Sache.</comment_text>
+        <comment_created_at>2019-05-24T08:12:36.687000</comment_created_at>
+        <comment_length>308</comment_length>
+        <replies/>
+      </thread>
+      <thread id="1041944820">
+        <user_name>mittelfinga</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2002-03-05T13:03:31</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Greta sollt mal in den USA, China und Indien anrufen. Soviel CO2 kann Europa gar nicht redzieren wie die unnötig in die Luft ballern.</comment_text>
+        <comment_created_at>2019-05-24T07:59:49.020000</comment_created_at>
+        <comment_length>133</comment_length>
+        <replies>
+          <reply id="1041944991">
+            <user_id>501035</user_id>
+            <user_name>Geggi</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-12-10T11:21:16.173000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Rufen sie doch selber an, oder noch besser, versuchen sie selbst einmal so viel zu erreichen wie Greta Thunberg.</comment_text>
+            <comment_created_at>2019-05-24T08:06:21.393000</comment_created_at>
+            <comment_length>112</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103707683
+- **Title:** Blaue Mitarbeiter auf Jobsuche
+- **Publish Date:** 2019-05-24T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 625
+- **Root Comments:** 252
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103707683">
+    <title>Blaue Mitarbeiter auf Jobsuche</title>
+    <publish_date>2019-05-24T06:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>625</total_comments>
+    <root_comments>252</root_comments>
+    <user_threads>
+      <thread id="1041944266">
+        <user_name>Der Ofentschentsche</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2014-06-16T19:58:50.853000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Manch einer dieser nunmehrigen Arbeitslosen könnte doch beim Ausmisten des Pferdestalls/Ponyhofes gebraucht werden. Mit € 1,60 je Stunde wäre die Entlohnung sogar &quot;überm Kollektiv&quot; - wenn das kein Anreiz ist.......</comment_text>
+        <comment_created_at>2019-05-24T07:38:28.120000</comment_created_at>
+        <comment_length>214</comment_length>
+        <replies>
+          <reply id="1041944590">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>das sind Leute, die ihren Job verloren haben. Die haben sicher auch monatliche Zahlungen zu leisten. Ich finde es widerlich, sich über Schicksale anderer Menschen lustig zu machen.</comment_text>
+            <comment_created_at>2019-05-24T07:51:46.267000</comment_created_at>
+            <comment_length>180</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1041944548">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Für Ratz geniere ich mich. Er soll ja Vorarlberger sein. Was für unerträgliche Landsleute es doch gibt.</comment_text>
+        <comment_created_at>2019-05-24T07:49:44.797000</comment_created_at>
+        <comment_length>103</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103860527
+- **Title:** Kurz lässt sich feiern, Rote zweifeln an sich und ihrer Chefin
+- **Publish Date:** 2019-05-26T23:56:30
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1803
+- **Root Comments:** 537
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103860527">
+    <title>Kurz lässt sich feiern, Rote zweifeln an sich und ihrer Chefin</title>
+    <publish_date>2019-05-26T23:56:30</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>1803</total_comments>
+    <root_comments>537</root_comments>
+    <user_threads>
+      <thread id="1042058340">
+        <user_name>.&amp;amp;,</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2019-04-19T11:39:55.420000</user_created_at>
+        <comment_headline>mich amüsiert die dummheit der österreicher nur noch...</comment_headline>
+        <comment_text>der Kurz spielt sie wie der rattenfänger von hameln über die Klippe und sie winken ihm dabei noch dümmlich zu!  *lach*</comment_text>
+        <comment_created_at>2019-05-27T07:39:07.027000</comment_created_at>
+        <comment_length>118</comment_length>
+        <replies>
+          <reply id="1042058593">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>nur weil nicht alle SPÖ Fans sind, müssen Sie nicht die Österreicher als &quot;dumm&quot; verunglimpfen.</comment_text>
+            <comment_created_at>2019-05-27T07:46:36.677000</comment_created_at>
+            <comment_length>94</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103892029
+- **Title:** Wie hat sich Ihr Wahlverhalten über die Jahre verändert?
+- **Publish Date:** 2019-05-27T12:30:55
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 678
+- **Root Comments:** 278
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103892029">
+    <title>Wie hat sich Ihr Wahlverhalten über die Jahre verändert?</title>
+    <publish_date>2019-05-27T12:30:55</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>678</total_comments>
+    <root_comments>278</root_comments>
+    <user_threads>
+      <thread id="1042257685">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Ich wähle heute nur noch ungültig. ECHTE Christen engagieren sich nicht in der Politik. Warum nicht? Weil sie sich an Jesus orientieren. Er erklärte: „Ich [bin] kein Teil der Welt.“ Und auch über seine Nachfolger sagte er, dass „sie kein Teil der Welt sind“ (Johannes 15:19; 17:14).</comment_text>
+        <comment_created_at>2019-05-31T11:40:41.187000</comment_created_at>
+        <comment_length>282</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103908212
+- **Title:** Salvini wird immer mehr der Allmächtige in Italien
+- **Publish Date:** 2019-05-27T15:18:54
+- **Channel:** International
+- **Ressort Name:** Italien
+- **Total Comments:** 250
+- **Root Comments:** 92
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103908212">
+    <title>Salvini wird immer mehr der Allmächtige in Italien</title>
+    <publish_date>2019-05-27T15:18:54</publish_date>
+    <channel>International</channel>
+    <ressort_name>Italien</ressort_name>
+    <total_comments>250</total_comments>
+    <root_comments>92</root_comments>
+    <user_threads>
+      <thread id="1042136598">
+        <user_name>werner63</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-11-06T13:53:50.083000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Fakt ist, dass sich die große Anzahl derer, die sich in Libyen in ein völlig untaugliches Schlauchboot setzten, seit dem Amtsantritt von Salvini radikal verringert hat. Damit ist auch die Anzahl derer extrem gesunken, die dabei ertrunken sind. Interessant ist auch, dass die Flüchtlingswelle mit der Ermordung Gaddafis durch die NATO ausgelöst wurde, das wird auch lieber verschwiegen.</comment_text>
+        <comment_created_at>2019-05-28T10:57:19.397000</comment_created_at>
+        <comment_length>385</comment_length>
+        <replies>
+          <reply id="1042147696">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>endlich mal ein wahres Wort!</comment_text>
+            <comment_created_at>2019-05-28T14:17:03.787000</comment_created_at>
+            <comment_length>28</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103915654
+- **Title:** Kurz setzt im Wahlkampf auf Kurz, Kurz und Kurz
+- **Publish Date:** 2019-05-28T06:00:00
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 1636
+- **Root Comments:** 555
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103915654">
+    <title>Kurz setzt im Wahlkampf auf Kurz, Kurz und Kurz</title>
+    <publish_date>2019-05-28T06:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>ÖVP</ressort_name>
+    <total_comments>1636</total_comments>
+    <root_comments>555</root_comments>
+    <user_threads>
+      <thread id="1042137917">
+        <user_name>scandigypt</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2011-09-21T10:56:45.430000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der einzige Trost ist, dass das nicht ewig halten wird. Siehe Europawahlen: Bei den Jungen kommt dieser Kult kaum an, obwohl er selbst jung ist und sich gern &quot;modern&quot; und &quot;neu&quot; gibt. Seine Hauptwählerschaft ist immer noch 60 aufwärts. Der Klimawandel wird in den nächsten Jahren ein immer relevanteres Wahlmotiv, dazu hat er aber genau null Antworten, es interessiert ihn ja nicht mal. Ein paar Jahre müssen wir ihn noch aushalten, dann wird sein Stern langsam aber sicher hinterm Horizont verschwinden...</comment_text>
+        <comment_created_at>2019-05-28T11:20:13.570000</comment_created_at>
+        <comment_length>505</comment_length>
+        <replies>
+          <reply id="1042138190">
+            <user_id>146348</user_id>
+            <user_name>Miklaus Röchlinger</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2000-02-22T09:21:40.287000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Kurz ist der älteste und uncoolste Jugendliche ever. Kein wunder, das ihn Jugendliche und junge Menschen nicht ausstehen können.</comment_text>
+            <comment_created_at>2019-05-28T11:24:32.997000</comment_created_at>
+            <comment_length>128</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103984710
+- **Title:** Wie sich die SPÖ für die Wahl aufstellen will – und soll
+- **Publish Date:** 2019-05-28T19:02:47
+- **Channel:** Inland
+- **Ressort Name:** Inland
+- **Total Comments:** 1736
+- **Root Comments:** 527
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103984710">
+    <title>Wie sich die SPÖ für die Wahl aufstellen will – und soll</title>
+    <publish_date>2019-05-28T19:02:47</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Inland</ressort_name>
+    <total_comments>1736</total_comments>
+    <root_comments>527</root_comments>
+    <user_threads>
+      <thread id="1042163516">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Sie will erste werden!! Hoffentlich nicht.</comment_text>
+        <comment_created_at>2019-05-28T20:07:25.900000</comment_created_at>
+        <comment_length>42</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000103990942
+- **Title:** Sebastian Kurz: "SPÖ und FPÖ haben ein gemeinsames Ziel gefunden"
+- **Publish Date:** 2019-05-28T20:00:00
+- **Channel:** Inland
+- **Ressort Name:** ÖVP
+- **Total Comments:** 5173
+- **Root Comments:** 1898
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000103990942">
+    <title>Sebastian Kurz: &quot;SPÖ und FPÖ haben ein gemeinsames Ziel gefunden&quot;</title>
+    <publish_date>2019-05-28T20:00:00</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>ÖVP</ressort_name>
+    <total_comments>5173</total_comments>
+    <root_comments>1898</root_comments>
+    <user_threads>
+      <thread id="1042163536">
+        <user_name>Hans der Wedler</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2008-09-24T15:10:42.793000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Der Wahlkampf findet im September statt? Aber er fahrt jetzt mal quer durch Österreich um mit den Leuten zu reden?    Er macht den Mund auf und es kommt heiße Luft raus..</comment_text>
+        <comment_created_at>2019-05-28T20:07:46.883000</comment_created_at>
+        <comment_length>170</comment_length>
+        <replies>
+          <reply id="1042163834">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Er macht, was alle Spitzenkandidaten machen: er will Stimmen gewinnen.</comment_text>
+            <comment_created_at>2019-05-28T20:14:12.400000</comment_created_at>
+            <comment_length>70</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104015126
+- **Title:** Alkohol ist leider immer schädlich, leider
+- **Publish Date:** 2019-05-30T06:00:00
+- **Channel:** Gesundheit
+- **Ressort Name:** Alkohol
+- **Total Comments:** 382
+- **Root Comments:** 103
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104015126">
+    <title>Alkohol ist leider immer schädlich, leider</title>
+    <publish_date>2019-05-30T06:00:00</publish_date>
+    <channel>Gesundheit</channel>
+    <ressort_name>Alkohol</ressort_name>
+    <total_comments>382</total_comments>
+    <root_comments>103</root_comments>
+    <user_threads>
+      <thread id="1042341719">
+        <user_name>ggruft39</user_name>
+        <user_gender>m</user_gender>
+        <user_created_at>2016-04-12T07:31:24.530000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>Wenn ich mir obiges Verbotsschild ansehe und gleichzeitig an all die anderen Verbote denke, stellt sich mir die Frage : wozu lebt der Mensch eigentlich?</comment_text>
+        <comment_created_at>2019-06-03T09:26:20.783000</comment_created_at>
+        <comment_length>152</comment_length>
+        <replies>
+          <reply id="1042375043">
+            <user_id>103293</user_id>
+            <user_name>imax</user_name>
+            <user_gender>m</user_gender>
+            <user_created_at>2012-03-15T22:05:48.750000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>Lebt er um zu saufen?</comment_text>
+            <comment_created_at>2019-06-03T23:07:32.570000</comment_created_at>
+            <comment_length>21</comment_length>
+          </reply>
+        </replies>
+      </thread>
+      <thread id="1042381703">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>ich freu mich schon auf meinen Prosecco nach der Arbeit!</comment_text>
+        <comment_created_at>2019-06-04T09:28:53.117000</comment_created_at>
+        <comment_length>56</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104099664
+- **Title:** Die Selbstaufgabe der Sozialdemokraten
+- **Publish Date:** 2019-05-31T08:24:03
+- **Channel:** Meinung
+- **Ressort Name:** Kommentare der anderen
+- **Total Comments:** 1705
+- **Root Comments:** 532
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104099664">
+    <title>Die Selbstaufgabe der Sozialdemokraten</title>
+    <publish_date>2019-05-31T08:24:03</publish_date>
+    <channel>Meinung</channel>
+    <ressort_name>Kommentare der anderen</ressort_name>
+    <total_comments>1705</total_comments>
+    <root_comments>532</root_comments>
+    <user_threads>
+      <thread id="1042257320">
+        <user_name>sistiana</user_name>
+        <user_gender>w</user_gender>
+        <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+        <comment_headline>No Headline</comment_headline>
+        <comment_text>super Text!!!!</comment_text>
+        <comment_created_at>2019-05-31T11:27:57.707000</comment_created_at>
+        <comment_length>14</comment_length>
+        <replies/>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```
+## Article ID: 2000104101028
+- **Title:** Brigitte Bierlein wird erste Bundeskanzlerin Österreichs
+- **Publish Date:** 2019-05-30T18:42:14
+- **Channel:** Inland
+- **Ressort Name:** Bundespräsident
+- **Total Comments:** 1824
+- **Root Comments:** 467
+
+---
+
+```xml
+<?xml version="1.0" ?>
+<articles>
+  <article id="2000104101028">
+    <title>Brigitte Bierlein wird erste Bundeskanzlerin Österreichs</title>
+    <publish_date>2019-05-30T18:42:14</publish_date>
+    <channel>Inland</channel>
+    <ressort_name>Bundespräsident</ressort_name>
+    <total_comments>1824</total_comments>
+    <root_comments>467</root_comments>
+    <user_threads>
+      <thread id="1042256031">
+        <user_name>xyz137</user_name>
+        <user_gender>Unknown</user_gender>
+        <user_created_at>2018-12-06T14:49:31.777000</user_created_at>
+        <comment_headline>Kaum haben wir eine Kanzlerin kommen die Bewertungen über ihr Aussehen. Schauts doch selber in den Spiegel.</comment_headline>
+        <comment_text>No Comment</comment_text>
+        <comment_created_at>2019-05-31T10:45:03.027000</comment_created_at>
+        <comment_length>10</comment_length>
+        <replies>
+          <reply id="1042256611">
+            <user_id>201113</user_id>
+            <user_name>sistiana</user_name>
+            <user_gender>w</user_gender>
+            <user_created_at>2012-10-10T12:49:08.580000</user_created_at>
+            <comment_headline>No Headline</comment_headline>
+            <comment_text>No Comment</comment_text>
+            <comment_created_at>2019-05-31T11:03:51.540000</comment_created_at>
+            <comment_length>10</comment_length>
+          </reply>
+        </replies>
+      </thread>
+    </user_threads>
+  </article>
+</articles>
+```

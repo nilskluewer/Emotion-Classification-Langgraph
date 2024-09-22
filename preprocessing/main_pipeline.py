@@ -13,10 +13,22 @@ from datetime import datetime
 OUTPUT_BASE_DIR = 'samples'
 TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 PROGRESS_FILE = 'progress.json'
-CHUNK_SIZE = 5
-TOKEN_LOWER_BOUND = 2000  # Minimum number of tokens
-TOKEN_UPPER_BOUND = 10000   # Maximum number of tokens
-DESIRED_SAMPLE_SIZE = 20
+CHUNK_SIZE = 22
+TOKEN_LOWER_BOUND = 500  # Minimum number of tokens
+TOKEN_UPPER_BOUND = 80000   # Maximum number of tokens
+DESIRED_SAMPLE_SIZE = 500000
+MAX_WORKERS = 22  # oder eine andere Zahl, die für Ihr System geeignet ist
+FAILED_USERS_FILE = 'failed_users.json'
+
+def load_failed_users():
+    if os.path.exists(FAILED_USERS_FILE):
+        with open(FAILED_USERS_FILE, 'r') as file:
+            return set(json.load(file))
+    return set()
+
+def save_failed_users(failed_user_ids):
+    with open(FAILED_USERS_FILE, 'w') as file:
+        json.dump(list(failed_user_ids), file)
 
 def create_output_directory():
     """Create a directory for the current sample run."""
@@ -103,7 +115,8 @@ def main():
     path_article_full_tree = 'spheres/articles_with_threads_full_tree.json'
     user_ids = get_all_user_ids("../data/preprocessed/preprocessed_data.pkl")
     processed_user_ids = load_progress()
-    user_ids_to_process = [user_id for user_id in user_ids if user_id not in processed_user_ids]
+    failed_user_ids = load_failed_users()
+    user_ids_to_process = [user_id for user_id in user_ids if user_id not in processed_user_ids and user_id not in failed_user_ids]
     random.shuffle(user_ids_to_process)
 
     samples_saved = 0
@@ -112,19 +125,25 @@ def main():
         chunk = user_ids_to_process[:CHUNK_SIZE]
         user_ids_to_process = user_ids_to_process[CHUNK_SIZE:]
 
-        with concurrent.futures.ThreadPoolExecutor() as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             futures = {executor.submit(process_user_data, user_id, path_article_full_tree, full_output_dir, cleaned_output_dir): user_id for user_id in chunk}
             for future in concurrent.futures.as_completed(futures):
+                user_id = futures[future]
                 if future.result():
-                    processed_user_ids.add(futures[future])
+                    processed_user_ids.add(user_id)
                     samples_saved += 1
                     print(f"Sample saved: {samples_saved}/{DESIRED_SAMPLE_SIZE}")
-                    if samples_saved >= DESIRED_SAMPLE_SIZE:
-                        break
+                else:
+                    failed_user_ids.add(user_id)
+                if samples_saved >= DESIRED_SAMPLE_SIZE:
+                    break
 
         save_progress(processed_user_ids)
+        save_failed_users(failed_user_ids)
 
     clear_progress()
+    # Optional: Möchten Sie auch die fehlgeschlagenen User zurücksetzen?
+    os.remove(FAILED_USERS_FILE)
 
 if __name__ == "__main__":
     main()
