@@ -16,7 +16,7 @@ with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 
 input_json_path = config['input_json_path']
-output_folder = config['output_folder']
+output_folder = config['output_folder_markdown_generation']
 pkl_path = config['pkl_path']  # Der Pfad zur .pkl-Datei in config.json
 
 os.makedirs(output_folder, exist_ok=True)

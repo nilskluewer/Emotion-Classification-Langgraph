@@ -1,13 +1,15 @@
 {
 
-    "input_json_path": "./JSON/articles_with_threads_channel_inland.json",
+    "input_json_path": "./JSON/articles_with_threads_full_tree.json",
 
-    "output_folder": "./Markdown/",
+    "output_folder_markdown_generation": "./Markdown/",
 
-    "TOKEN_LOWER_BOUND" :  500,
-
-    "TOKEN_UPPER_BOUND" : 2000,
-
-    "pkl_path" : "/Users/nils.kluewer/Documents/GitHub/Emotion-Classification-Langgraph/data/preprocessed/preprocessed_data_inland.pkl"
+    "pkl_path" : "/Users/nils.kluewer/Documents/GitHub/Emotion-Classification-Langgraph/data/preprocessed/preprocessed_data_inland.pkl",
+    
+    "output_folder_samples": "./Samples/",
+    "MIN_TOKEN_COUNT": 1000,
+    "MAX_TOKEN_COUNT": 100000,
+    "SAMPLE_SIZE": 20
+    
 
 }
