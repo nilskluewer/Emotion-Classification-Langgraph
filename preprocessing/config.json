@@ -5,7 +5,9 @@
     "output_folder": "./Markdown/",
 
     "TOKEN_LOWER_BOUND" :  500,
-    
-    "TOKEN_UPPER_BOUND" : 2000 
+
+    "TOKEN_UPPER_BOUND" : 2000,
+
+    "pkl_path" : "/Users/nils.kluewer/Documents/GitHub/Emotion-Classification-Langgraph/data/preprocessed/preprocessed_data_inland.pkl"
 
 }

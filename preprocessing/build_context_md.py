@@ -1,5 +1,13 @@
 import json
 import os
+import pickle
+import tiktoken
+
+# Token-Zählfunktion definieren
+def count_tokens(text):
+    encoder = tiktoken.get_encoding("cl100k_base")
+    tokens = encoder.encode(text)
+    return len(tokens)
 
 # Lade die Konfigurationen
 with open('config.json', 'r') as config_file:
@@ -7,8 +15,8 @@ with open('config.json', 'r') as config_file:
 
 input_json_path = config['input_json_path']
 output_folder = config['output_folder']
+pkl_path = config['pkl_path']  # Nehmen wir an, das Pfad zur .pkl-Datei in config.json enthalten ist
 
-# Erstelle den Ausgabeordner, falls er nicht existiert
 os.makedirs(output_folder, exist_ok=True)
 
 # Öffne und lade die JSON-Eingabedatei
@@ -55,15 +63,28 @@ def generate_comment_markdown(comments, level=0):
 
     return markdown
 
-def write_markdown_by_user(data, target_user_id):
+def create_metadata_file(user_id, user_name, user_gender, user_created_at, total_tokens, comments_extracted):
+    metadata = {
+        "user_id": user_id,
+        "user_name": user_name,
+        "user_gender": user_gender,
+        "user_created_at": user_created_at,
+        "total_tokens": total_tokens,
+        "comments_extracted": comments_extracted
+    }
+
+    metadata_filename = os.path.join(output_folder, f"user_{user_id}_metadata.json")
+    with open(metadata_filename, 'w', encoding='utf-8') as f:
+        json.dump(metadata, f, indent=2)
+    print(f"Metadata file '{metadata_filename}' created.")
+
+def process_user_comments(data, target_user_id):
     all_user_comments = ""
     target_user_name = "Unbekannt"
     target_gender = "Unbekannt"
     target_created_at = "Unbekannt"
 
-    # Durchlaufe alle Artikel
     for article_id, article in data.items():
-        # Durchlaufen der Kommentar-Threads, um Benutzerinformationen zu extrahieren
         for thread in article.get('comment_threads', []):
             if thread['user_id'] == target_user_id:
                 target_user_name = thread['user_name']
@@ -94,11 +115,28 @@ def write_markdown_by_user(data, target_user_id):
         intro += f"- **Geschlecht**: {target_gender}\n"
         intro += f"- **Konto erstellt am**: {target_created_at}\n\n---\n\n"
         intro += "## Kommentare und Threads\n\n"
-        
-        filename = os.path.join(output_folder, f"user_{target_user_id}_comments_contextualized.md")
+
+        complete_content = intro + all_user_comments
+        token_count = count_tokens(complete_content)
+        comments_count = complete_content.count('schreibt:')  # Zählen von Instanzen mit Kommentaren als ggf. nützlich
+
+        filename = os.path.join(output_folder, f"user_{target_user_id}_comments_{token_count}_tokens.md")
         with open(filename, 'w', encoding='utf-8') as f:
-            f.write(intro + all_user_comments)
-        print(f"Markdown file '{filename}' created in {output_folder}")
+            f.write(complete_content)
+
+        create_metadata_file(target_user_id, target_user_name, target_gender, target_created_at, token_count, comments_count)
+
+def process_all_users():
+    with open(pkl_path, 'rb') as file:
+        user_data = pickle.load(file)
+        
+    user_ids = list(user_data['ID_CommunityIdentity'].unique())
+
+    for user_id in user_ids:
+        process_user_comments(data, user_id)
 
 # Beispiel-Aufruf
-write_markdown_by_user(data, 520216)  # Ersetze 520216 mit der ID des Zielbenutzers
+process_all_users()
+
+# single user 
+#process_user_comments(data, 520216)
