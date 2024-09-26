@@ -1,21 +1,23 @@
 import json
-from datetime import datetime
-from pathlib import Path
+import os
 
+# Lade die Konfigurationen
+with open('config.json', 'r') as config_file:
+    config = json.load(config_file)
 
-json_data = Path
-# Opening JSON file
-f = open("./JSON/articles_with_threads_channel_inland.json")
- 
-# returns JSON object as 
-# a dictionary
-data = json.load(f)
+input_json_path = config['input_json_path']
+output_folder = config['output_folder']
+
+# Erstelle den Ausgabeordner, falls er nicht existiert
+os.makedirs(output_folder, exist_ok=True)
+
+# Öffne und lade die JSON-Eingabedatei
+with open(input_json_path, 'r') as f:
+    data = json.load(f)
 
 def user_in_comment_or_replies(comment, user_id):
-    # Check if user is the author of the comment
     if comment['user_id'] == user_id:
         return True
-    # Recursively check replies
     for reply in comment.get('replies', []):
         if user_in_comment_or_replies(reply, user_id):
             return True
@@ -23,13 +25,13 @@ def user_in_comment_or_replies(comment, user_id):
 
 def filter_comments_by_user(comments, user_id, level=0):
     filtered_comments = []
-    indent = "  " * level  # Two spaces per level of indentation
+    indent = "  " * level
 
     for comment in comments:
         if user_in_comment_or_replies(comment, user_id):
-            # Include the comment and filter its replies
             new_comment = {
                 "user_name": comment['user_name'],
+                "comment_headline": comment['comment_headline'],
                 "comment_text": comment['comment_text'],
                 "comment_created_at": comment['comment_created_at'],
                 "replies": filter_comments_by_user(comment.get('replies', []), user_id, level + 1)
@@ -38,42 +40,65 @@ def filter_comments_by_user(comments, user_id, level=0):
 
     return filtered_comments
 
-def generate_markdown(comments, level=0):
+def generate_comment_markdown(comments, level=0):
     markdown = ""
-    indent = "  " * level  # Two spaces per level of indentation
+    indent = "  " * level
 
     for comment in comments:
-        markdown += f"{indent}* **{comment['user_name']}** schreibt:\n"
-        markdown += f"{indent}  - {comment['comment_text']}\n"
-        markdown += f"{indent}  - *Erstellt am {comment['comment_created_at']}*\n\n"
+        if comment['comment_headline'] and comment['comment_headline'] != "No Headline":
+            markdown += f"{indent}* **{comment['comment_headline']}**\n"
+        markdown += f"{indent}  - **{comment['user_name']}** schreibt:\n"
+        markdown += f"{indent}    - {comment['comment_text']}\n"
+        markdown += f"{indent}    - *Erstellt am {comment['comment_created_at']}*\n\n"
         if 'replies' in comment and comment['replies']:
-            markdown += generate_markdown(comment['replies'], level + 1)
+            markdown += generate_comment_markdown(comment['replies'], level + 1)
 
     return markdown
 
 def write_markdown_by_user(data, target_user_id):
     all_user_comments = ""
-    
+    target_user_name = "Unbekannt"
+    target_gender = "Unbekannt"
+    target_created_at = "Unbekannt"
+
+    # Durchlaufe alle Artikel
     for article_id, article in data.items():
-        header = f"# {article['article_title']}\n\n"
+        # Durchlaufen der Kommentar-Threads, um Benutzerinformationen zu extrahieren
+        for thread in article.get('comment_threads', []):
+            if thread['user_id'] == target_user_id:
+                target_user_name = thread['user_name']
+                target_gender = thread['user_gender']
+                target_created_at = thread['user_created_at']
+                break
+        
+        header = f"### {article['article_title']}\n"
+        header += f"- **Artikel ID**: {article['article_id']}\n"
+        header += f"- **Veröffentlicht am**: {article['article_publish_date']}\n"
+        header += f"- **Kanal**: {article['article_channel']}\n"
+        header += f"- **Ressort**: {article['article_ressort_name']}\n"
+        header += f"- **Gesamtanzahl Kommentare**: {article['total_comments']}\n\n"
+        header += "#### Kommentare\n"
+
         comments = article.get('comment_threads', [])
-        
-        # Filter comments based on user activity
         user_comments = filter_comments_by_user(comments, target_user_id)
-        
-        # Generate markdown for filtered thread
-        body = generate_markdown(user_comments)
-        
-        # Combine header and body if body is not empty
+        body = generate_comment_markdown(user_comments)
+
         if body:
             all_user_comments += header + body + "\n\n"
-    
-    # Write all collected comments to a single markdown file
+
     if all_user_comments:
-        filename = f"user_{target_user_id}_comments.md"
+        intro = f"# Benutzeraktivität von {target_user_name}\n\n"
+        intro += "## Benutzerdetails\n"
+        intro += f"- **Benutzername**: {target_user_name}\n"
+        intro += f"- **Benutzer-ID**: {target_user_id}\n"
+        intro += f"- **Geschlecht**: {target_gender}\n"
+        intro += f"- **Konto erstellt am**: {target_created_at}\n\n---\n\n"
+        intro += "## Kommentare und Threads\n\n"
+        
+        filename = os.path.join(output_folder, f"user_{target_user_id}_comments_contextualized.md")
         with open(filename, 'w', encoding='utf-8') as f:
-            f.write(all_user_comments)
-        print(f"Markdown file '{filename}' created.")
+            f.write(intro + all_user_comments)
+        print(f"Markdown file '{filename}' created in {output_folder}")
 
 # Beispiel-Aufruf
-write_markdown_by_user(data, 503779)  # Ersetze 520216 mit der ID des Zielbenutzers
+write_markdown_by_user(data, 520216)  # Ersetze 520216 mit der ID des Zielbenutzers

@@ -1,0 +1,11 @@
+{
+
+    "input_json_path": "./JSON/articles_with_threads_channel_inland.json",
+
+    "output_folder": "./Markdown/",
+
+    "TOKEN_LOWER_BOUND" :  500,
+    
+    "TOKEN_UPPER_BOUND" : 2000 
+
+}
