@@ -1,11 +1,13 @@
 import json
 import os
 import pickle
+import pandas as pd
 import tiktoken
+from tqdm import tqdm  # Importiere tqdm für Fortschrittsanzeige
 
 # Token-Zählfunktion definieren
 def count_tokens(text):
-    encoder = tiktoken.get_encoding("cl100k_base")
+    encoder = tiktoken.get_encoding("cl100k_base")  # Verwende das gpt2 Modell-Encoding als Beispiel
     tokens = encoder.encode(text)
     return len(tokens)
 
@@ -15,7 +17,7 @@ with open('config.json', 'r') as config_file:
 
 input_json_path = config['input_json_path']
 output_folder = config['output_folder']
-pkl_path = config['pkl_path']  # Nehmen wir an, das Pfad zur .pkl-Datei in config.json enthalten ist
+pkl_path = config['pkl_path']  # Der Pfad zur .pkl-Datei in config.json
 
 os.makedirs(output_folder, exist_ok=True)
 
@@ -23,6 +25,7 @@ os.makedirs(output_folder, exist_ok=True)
 with open(input_json_path, 'r') as f:
     data = json.load(f)
 
+# Hilfsfunktion für die Überprüfung der Benutzeraktivität
 def user_in_comment_or_replies(comment, user_id):
     if comment['user_id'] == user_id:
         return True
@@ -31,6 +34,7 @@ def user_in_comment_or_replies(comment, user_id):
             return True
     return False
 
+# Filterfunktion, die nur relevante Kommentare behält
 def filter_comments_by_user(comments, user_id, level=0):
     filtered_comments = []
     indent = "  " * level
@@ -48,6 +52,7 @@ def filter_comments_by_user(comments, user_id, level=0):
 
     return filtered_comments
 
+# Funktion zur Generierung einer Markdown-Struktur
 def generate_comment_markdown(comments, level=0):
     markdown = ""
     indent = "  " * level
@@ -63,14 +68,15 @@ def generate_comment_markdown(comments, level=0):
 
     return markdown
 
+# Funktion zur Erstellung der Metadatendatei für einen Benutzer
 def create_metadata_file(user_id, user_name, user_gender, user_created_at, total_tokens, comments_extracted):
     metadata = {
-        "user_id": user_id,
+        "user_id": int(user_id),
         "user_name": user_name,
         "user_gender": user_gender,
         "user_created_at": user_created_at,
-        "total_tokens": total_tokens,
-        "comments_extracted": comments_extracted
+        "total_tokens": int(total_tokens),
+        "comments_extracted": int(comments_extracted)
     }
 
     metadata_filename = os.path.join(output_folder, f"user_{user_id}_metadata.json")
@@ -78,6 +84,7 @@ def create_metadata_file(user_id, user_name, user_gender, user_created_at, total
         json.dump(metadata, f, indent=2)
     print(f"Metadata file '{metadata_filename}' created.")
 
+# Prozessiert Kommentare eines bestimmten Benutzers
 def process_user_comments(data, target_user_id):
     all_user_comments = ""
     target_user_name = "Unbekannt"
@@ -118,7 +125,7 @@ def process_user_comments(data, target_user_id):
 
         complete_content = intro + all_user_comments
         token_count = count_tokens(complete_content)
-        comments_count = complete_content.count('schreibt:')  # Zählen von Instanzen mit Kommentaren als ggf. nützlich
+        comments_count = complete_content.count('schreibt:')  # Kommentare zählen
 
         filename = os.path.join(output_folder, f"user_{target_user_id}_comments_{token_count}_tokens.md")
         with open(filename, 'w', encoding='utf-8') as f:
@@ -126,17 +133,18 @@ def process_user_comments(data, target_user_id):
 
         create_metadata_file(target_user_id, target_user_name, target_gender, target_created_at, token_count, comments_count)
 
+# Prozessiert alle Benutzer aus der .pkl Datei
 def process_all_users():
     with open(pkl_path, 'rb') as file:
         user_data = pickle.load(file)
         
-    user_ids = list(user_data['ID_CommunityIdentity'].unique())
+    if 'ID_CommunityIdentity' not in user_data.columns:
+        raise KeyError("The key 'ID_CommunityIdentity' is not found in the DataFrame. Available keys: ", user_data.columns)
 
-    for user_id in user_ids:
+    user_ids = user_data['ID_CommunityIdentity'].unique()
+
+    for user_id in tqdm(user_ids, desc="Processing Users"):
         process_user_comments(data, user_id)
 
-# Beispiel-Aufruf
+# Hauptaufruf
 process_all_users()
-
-# single user 
-#process_user_comments(data, 520216)
