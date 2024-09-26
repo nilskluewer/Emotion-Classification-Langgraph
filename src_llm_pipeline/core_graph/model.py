@@ -1,7 +1,7 @@
 import vertexai
 from langchain_google_vertexai import ChatVertexAI, HarmBlockThreshold, HarmCategory
 
-vertexai.init(project="rd-smrk-prod518-dev", location="europe-west1")
+vertexai.init(project="rd-ri-genai-dev-2352", location="europe-west4")
 
 def create_llm(
     model_name: str,
