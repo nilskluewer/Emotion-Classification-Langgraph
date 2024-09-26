@@ -223,10 +223,11 @@ def main(input_path, full_output_path, modified_output_path, user_id):
 
     with open(modified_output_path, 'w', encoding='utf-8') as f:
         f.write(modified_markdown_content)
-
+"""
 if __name__ == "__main__":
     user_id = 49126
     input_path = f'spheres/JSON/user_{user_id}_threads.json'
     full_output_path = f'spheres/MD/user_{user_id}_threads_full.md'
     modified_output_path = f'spheres/MD/user_{user_id}_threads_cleaned.md'
     main(input_path, full_output_path, modified_output_path, user_id)
+"""

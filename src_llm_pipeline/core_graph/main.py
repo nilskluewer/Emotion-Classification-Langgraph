@@ -92,6 +92,7 @@ def save_emotion_analysis_to_csv(emotion_analysis, user_id, timestamp, filename=
                 "Valence Thought", "Valence Classification",
                 "Engagement Thought", "Engagement Classification",
                 "Polarization Thought", "Polarization Classification",
+                "Emotional Blend Thought", "Emotional Blend Classification",
                 "User Need Thought"
             ] + basic_needs_labels + user_needs_labels
             writer.writerow(header)
@@ -105,6 +106,8 @@ def save_emotion_analysis_to_csv(emotion_analysis, user_id, timestamp, filename=
             emotion_analysis.engagement.aspect.classification,
             emotion_analysis.polarization.aspect.thought,
             emotion_analysis.polarization.aspect.classification,
+            emotion_analysis.emotional_blend.aspect.thought,
+            emotion_analysis.emotional_blend.aspect.classification,
             emotion_analysis.user_need.thought
         ]
         

@@ -161,8 +161,11 @@ class CommentThreadManager:
         return articles
 
 def main():
+    # Currently Inland!
     # Main execution
-    preprocessed_file = r"../data/preprocessed/preprocessed_data.pkl"
+    preprocessed_file = r"../data/preprocessed/preprocessed_data_inland.pkl"
+    # Save the comprehensive data structure to a JSON file
+    output_path = "spheres/articles_with_threads_channel_inland.json"
 
     if not os.path.exists(preprocessed_file):
         print("Preprocessed data not found. Preprocessing...")
@@ -177,7 +180,7 @@ def main():
     articles_with_threads = thread_manager.get_article_threads()
 
     # Save the comprehensive data structure to a JSON file
-    output_path = "spheres/articles_with_threads_full_tree.json"
+    output_path = "spheres/articles_with_threads_channel_inland.json"
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(articles_with_threads, f, indent=2)
     print(f"Comprehensive data structure saved to {output_path}")

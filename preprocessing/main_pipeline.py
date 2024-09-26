@@ -15,9 +15,9 @@ TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 PROGRESS_FILE = 'progress.json'
 CHUNK_SIZE = 22
 TOKEN_LOWER_BOUND = 500  # Minimum number of tokens
-TOKEN_UPPER_BOUND = 80000   # Maximum number of tokens
-DESIRED_SAMPLE_SIZE = 500000
-MAX_WORKERS = 22  # oder eine andere Zahl, die für Ihr System geeignet ist
+TOKEN_UPPER_BOUND = 2000   # Maximum number of tokens
+DESIRED_SAMPLE_SIZE = 100
+MAX_WORKERS = 8  # oder eine andere Zahl, die für Ihr System geeignet ist
 FAILED_USERS_FILE = 'failed_users.json'
 
 def load_failed_users():
@@ -112,7 +112,7 @@ def main():
     full_output_dir = create_full_output_directory(base_output_dir)
     cleaned_output_dir = create_cleaned_output_directory(base_output_dir)
 
-    path_article_full_tree = 'spheres/articles_with_threads_full_tree.json'
+    path_article_full_tree = 'spheres/articles_with_threads_channel_inland.json'
     user_ids = get_all_user_ids("../data/preprocessed/preprocessed_data.pkl")
     processed_user_ids = load_progress()
     failed_user_ids = load_failed_users()
