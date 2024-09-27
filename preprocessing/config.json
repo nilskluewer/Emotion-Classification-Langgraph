@@ -1,10 +1,10 @@
 {
-    "input_pkl_path" : "../data/preprocessed/preprocessed_data_inland.pkl",
+    "input_pkl_path" : "../data/preprocessed/preprocessed_data.pkl",
     "input_json_path": "./Input_Output/JSON/articles_with_threads_full_tree.json",
 
     "output_folder_markdown_generation": "./Input_Output/Markdown/",
 
-    "pkl_path_input_build_context" : "/Users/nils.kluewer/Documents/GitHub/Emotion-Classification-Langgraph/data/preprocessed/preprocessed_data.pkl",
+    "pkl_path_input_build_context" : "../data/preprocessed/preprocessed_data.pkl",
     
     "output_folder_samples": "../Markdown_Samples/",
     "MIN_TOKEN_COUNT": 500,

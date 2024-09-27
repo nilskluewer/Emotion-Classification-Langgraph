@@ -30,19 +30,22 @@ def create_sample_from_files():
     # Sammle alle Metadaten-Dateien
     metadata_files = glob.glob(os.path.join(markdown_folder, "*_metadata.json"))
     print(f"Found {len(metadata_files)} metadata files.")
-
-    # Finde passende Dateien basierend auf den angegebenen Token-Schwellen
+    
+    # Überprüfung der Dateien und Tokens
     eligible_files = []
     for metadata_file in tqdm(metadata_files, desc="Filtering Files"):
         with open(metadata_file, 'r', encoding='utf-8') as f:
             metadata = json.load(f)
 
-        token_count = metadata['total_tokens']
+        token_count = metadata.get('total_tokens', 0)
         print(f"Checking file {metadata_file}: Token count is {token_count}")
+        
         if min_token_count <= token_count <= max_token_count:
             user_id = metadata['user_id']
             print(f"File eligible: user_id={user_id} with token_count={token_count}")
             eligible_files.append(user_id)
+        else:
+            print(f"File not eligible: user_id={user_id}, token_count={token_count}, requires between {min_token_count} and {max_token_count}")
 
     print(f"Eligible files count: {len(eligible_files)}")
     
