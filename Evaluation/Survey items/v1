@@ -1,0 +1,50 @@
+# Instructions:
+
+For each presented example, please carefully review the provided context, the system's classifications, and its reasoning. Then, answer the following questions using the provided scales.
+
+## Example:
+
+**Context:** [Excerpt of online forum post]
+
+**Classifications and Reasoning:**
+
+- **Polarization:** High - "The user expresses strongly positive sentiment towards one viewpoint and strongly negative sentiment towards the opposing viewpoint, indicating high polarization."
+- **User Needs (Basic):** Belonging - "The user's language suggests a desire for connection and community."
+- **User Needs (Specific):** Information Seeking - "The user asks multiple questions and seeks clarification on specific points."
+- **Valence:** Negative - "The overall tone of the post expresses frustration and dissatisfaction."
+- **Engagement:** High - "The user's post is lengthy and detailed, indicating high engagement with the topic."
+
+## Survey Questions:
+
+For each attribute (Polarization, User Needs (Basic), User Needs (Specific), Valence, Engagement):
+
+1. **Coherence of Reasoning (1-5 Likert Scale):**
+   - English: How logical and consistent is the LLM's explanation for its classification? Does the reasoning make sense and flow well?
+   - German: Wie logisch und konsistent ist die Erklärung des LLMs für seine Klassifizierung? Ergibt die Begründung Sinn und ist sie schlüssig?
+   1. Not at all Coherent
+   2. Slightly Coherent
+   3. Moderately Coherent
+   4. Very Coherent
+   5. Extremely Coherent
+
+2. **Alignment between Reasoning and Classification (1-5 Likert Scale):**
+   - English: How well does the LLM's explanation support the classification it assigned? Does the reasoning directly justify the chosen label?
+   - German: Wie gut unterstützt die Erklärung des LLMs die von ihm zugewiesene Klassifizierung? Rechtfertigt die Begründung direkt die gewählte Bezeichnung?
+   1. No Alignment
+   2. Slight Alignment
+   3. Moderate Alignment
+   4. Strong Alignment
+   5. Perfect Alignment
+
+3. **Plausibility of Classification (1-5 Likert Scale):**
+   - English: Considering the context of the forum post, how believable or realistic is the LLM's assigned classification? Does it seem like a reasonable assessment of the emotion expressed?
+   - German: Wie glaubwürdig oder realistisch ist die vom LLM zugewiesene Klassifizierung angesichts des Kontexts des Forumsbeitrags? Erscheint es als eine vernünftige Einschätzung der ausgedrückten Emotion?
+   1. Not at all Plausible
+   2. Slightly Plausible
+   3. Moderately Plausible
+   4. Very Plausible
+   5. Extremely Plausible
+
+4. **Open-Ended Feedback (Optional):**
+   - English: Do you have any additional comments or observations about the system's performance on this example?
+   - German: Haben Sie zusätzliche Anmerkungen oder Beobachtungen zur Leistung des Systems in diesem Beispiel?

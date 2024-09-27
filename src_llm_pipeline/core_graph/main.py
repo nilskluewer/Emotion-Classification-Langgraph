@@ -10,7 +10,7 @@ from langsmith.run_helpers import get_current_run_tree
 import os
 from typing import List
 from uuid import UUID
-from data_models import UserNeed, BasicNeed
+from data_models import EmotionAnalysisOutput, BasicNeed
 import csv
 from datetime import datetime
 import time
@@ -75,49 +75,53 @@ def provide_feedback(client: Client, run_id: UUID, analysis_name: str, classific
         comment=f"{thought}"
     )
 
-def save_emotion_analysis_to_csv(emotion_analysis, user_id, timestamp, filename="emotion_analysis.csv"):
+
+
+import csv
+import os
+from typing import List
+
+def save_emotion_analysis_to_csv(emotion_analysis: EmotionAnalysisOutput, user_id: str, timestamp: str, filename: str = "emotion_analysis.csv"):
     file_exists = os.path.isfile(filename)
 
-    # Extrahiert die Namen der Enums für Basic Needs und User Needs
-    basic_needs_labels = [e.name for e in BasicNeed]
-    user_needs_labels = [e.name for e in UserNeed]
+    # Get all possible BasicNeed values
+    all_basic_needs = [need.value for need in BasicNeed]
 
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         
         if not file_exists:
-            # Überschrift erstellen mit Valence, Engagement, Polarization, User Need Thought und allen Needs als Spalten
             header = [
                 "Timestamp", "User ID",
-                "Valence Thought", "Valence Classification",
-                "Engagement Thought", "Engagement Classification",
-                "Polarization Thought", "Polarization Classification",
-                "Emotional Blend Thought", "Emotional Blend Classification",
+                "Core Affect Thought", "Valence", "Arousal",
+                "Emotional Aspect Thought", "Emotional Aspect Classification", "Context", 
+                "Cognitive Appraisal", "Conceptualization", "Cultural Influence",
+                "Predictions and Simulations", "Emotional Dynamics",
+                "Emotional Blend Thought", "Emotional Blend Classifications",
                 "User Need Thought"
-            ] + basic_needs_labels + user_needs_labels
+            ] + all_basic_needs  # Add all basic needs as separate columns
             writer.writerow(header)
         
-        # Datenzeile vorbereiten
+        # Prepare the basic needs flags
+        basic_needs_flags = [1 if need in emotion_analysis.user_need_analysis.basic_needs else 0 for need in all_basic_needs]
+
         row = [
             timestamp, user_id,
-            emotion_analysis.valence.aspect.thought,
-            emotion_analysis.valence.aspect.classification,
-            emotion_analysis.engagement.aspect.thought,
-            emotion_analysis.engagement.aspect.classification,
-            emotion_analysis.polarization.aspect.thought,
-            emotion_analysis.polarization.aspect.classification,
-            emotion_analysis.emotional_blend.aspect.thought,
-            emotion_analysis.emotional_blend.aspect.classification,
-            emotion_analysis.user_need.thought
-        ]
-        
-        # Flags für Basic Needs
-        basic_needs_flags = [(1 if need in emotion_analysis.user_need.basic_needs else 0) for need in BasicNeed]
-        row.extend(basic_needs_flags)
-        
-        # Flags für User Needs
-        user_needs_flags = [(1 if need in emotion_analysis.user_need.user_needs else 0) for need in UserNeed]
-        row.extend(user_needs_flags)
+            emotion_analysis.core_affect_analysis.thought,
+            emotion_analysis.core_affect_analysis.valence,
+            emotion_analysis.core_affect_analysis.arousal,
+            emotion_analysis.emotional_aspect_extended.thought,
+            emotion_analysis.emotional_aspect_extended.classification,
+            emotion_analysis.emotional_aspect_extended.context,
+            emotion_analysis.emotional_aspect_extended.cognitive_appraisal,
+            emotion_analysis.emotional_aspect_extended.conceptualization,
+            emotion_analysis.emotional_aspect_extended.cultural_influence,
+            emotion_analysis.emotional_aspect_extended.predictions_and_simulations,
+            emotion_analysis.emotional_aspect_extended.emotional_dynamics,
+            emotion_analysis.emotional_blend_analysis.thought,
+            ", ".join(emotion_analysis.emotional_blend_analysis.classifications),
+            emotion_analysis.user_need_analysis.thought
+        ] + basic_needs_flags  # Add the flags to the row
         
         writer.writerow(row)
 
@@ -143,31 +147,6 @@ if __name__ == "__main__":
         print("RUN:", run_id)
         print("USER ID:", user_id)
         print(emotion_analysis)
-
-        # Provide feedback for each type of analysis with only classification
-        provide_feedback(
-            client,
-            run_id,
-            "valence",
-            emotion_analysis.valence.aspect.classification,
-            emotion_analysis.valence.aspect.thought
-        )
-        
-        provide_feedback(
-            client,
-            run_id,
-            "engagement",
-            emotion_analysis.engagement.aspect.classification,
-            emotion_analysis.engagement.aspect.thought
-        )
-        
-        provide_feedback(
-            client,
-            run_id,
-            "polarization",
-            emotion_analysis.polarization.aspect.classification,
-            emotion_analysis.polarization.aspect.thought
-        )
 
         # Save to CSV with timestamp
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
