@@ -1,84 +1,102 @@
-import json
-import os
 import pickle
-import glob
-from tqdm import tqdm
 import pandas as pd
+import json
+from tqdm import tqdm
 
-# Load configuration
+# Configuration loading
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 
 markdown_folder = config['output_folder_markdown_generation']
-pkl_path = config['pkl_path_input_build_context']
+pkl_path = config['input_pkl_path']
 json_path = config['input_json_path']
 
-def load_data():
+# Step 1: Load the PKL file and extract unique user names
+def load_unique_user_names():
+    # Load the PKL data
     with open(pkl_path, 'rb') as file:
         pkl_data = pickle.load(file)
 
+    # Ensure the necessary column is present
+    if 'UserCommunityName' not in pkl_data.columns:
+        raise KeyError("The 'UserCommunityName' column is missing from the DataFrame.")
+
+    # Get unique user names
+    unique_user_names = pkl_data['UserCommunityName'].unique()
+    print(f"Unique user names from PKL: {unique_user_names}")
+
+    return unique_user_names, pkl_data
+
+unique_user_names, pkl_data = load_unique_user_names()
+
+# Step 2: Count how often each user name appears in the PKL file
+def count_user_occurrences_in_pkl(unique_user_names, pkl_data):
+    pkl_user_counts = {}
+
+    for user_name in tqdm(unique_user_names, desc="Counting in PKL"):
+        count = (pkl_data['UserCommunityName'] == user_name).sum()
+        pkl_user_counts[user_name] = count
+
+    return pkl_user_counts
+
+pkl_user_counts = count_user_occurrences_in_pkl(unique_user_names, pkl_data)
+
+# Step 3: Count how often each user name appears in the JSON file using recursion
+def count_user_in_json(json_data, target_user_name):
+    count = 0
+
+    for article_id, article_data in json_data.items():
+        count += count_user_in_threads(article_data.get('comment_threads', []), target_user_name)
+
+    return count
+
+def count_user_in_threads(threads, target_user_name):
+    count = 0
+
+    for thread in threads:
+        # Check the current comment
+        if thread['user_name'] == target_user_name:
+            count += 1
+        
+        # Recursively search replies
+        count += count_user_in_threads(thread.get('replies', []), target_user_name)
+
+    return count
+
+def count_user_occurrences_in_json(unique_user_names):
+    # Load the JSON data
     with open(json_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
 
-    return pkl_data, json_data
-
-def validate_user_names():
-    pkl_data, json_data = load_data()
-    
-    if 'UserCommunityName' not in pkl_data.columns:
-        raise KeyError("Das Feld 'UserCommunityName' fehlt im DataFrame.")
-    
-    # Count occurrences in the PKL file (DataFrame)
-    pkl_user_counts = pkl_data['UserCommunityName'].value_counts().to_dict()
-    print(f"PKL User counts: {pkl_user_counts}")
-    
-    # Count occurrences in the JSON
     json_user_counts = {}
-    for article_key, article_data in json_data.items():
-        for thread in article_data.get('comment_threads', []):
-            user_name = thread['user_name']
-            json_user_counts[user_name] = json_user_counts.get(user_name, 0) + 1
 
-    print(f"JSON User counts: {json_user_counts}")
-    
-    # Check Markdown files
-    md_user_counts = {}
-    md_files = glob.glob(os.path.join(markdown_folder, "user_*_comments_*_tokens.md"))
-    for md_file in md_files:
-        user_name = None
-        # Extract the user_name from the markdown file
-        with open(md_file, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-            for line in lines:
-                if line.startswith("# Benutzeraktivität von "):
-                    user_name = line[len("# Benutzeraktivität von "):].strip()
-                    break
+    # Traverse the JSON data and count occurrences using recursion
+    for user_name in tqdm(unique_user_names, desc="Counting in JSON"):
+        count = count_user_in_json(json_data, user_name)
+        json_user_counts[user_name] = count
+        print(f"User '{user_name}' appears {count} times in the JSON file.")
 
-        if user_name:
-            md_user_counts[user_name] = md_user_counts.get(user_name, 0) + 1  # Include markdown occurrence
+    return json_user_counts
 
-    print(f"Markdown User counts: {md_user_counts}")
+json_user_counts = count_user_occurrences_in_json(unique_user_names)
 
-    # Validate and summarize
-    user_names = set(pkl_user_counts.keys()) | set(json_user_counts.keys()) | set(md_user_counts.keys())
-    
+# Step 4: Validate counts between PKL and JSON and provide a summary
+def validate_user_name_counts(pkl_user_counts, json_user_counts):
     successful_validations = 0
     failed_validations = 0
-    
-    for user_name in user_names:
+
+    for user_name in pkl_user_counts.keys():
         pkl_count = pkl_user_counts.get(user_name, 0)
         json_count = json_user_counts.get(user_name, 0)
-        md_count = md_user_counts.get(user_name, 0) + 1  # +1 for the manual entry during creation in Markdown
 
-        if pkl_count == json_count == md_count:
+        if pkl_count == json_count:
             successful_validations += 1
         else:
             failed_validations += 1
-            print(f"Discrepancy for User Name {user_name}: PKL={pkl_count}, JSON={json_count}, MD={md_count}")
+            print(f"Discrepancy for User '{user_name}': PKL={pkl_count}, JSON={json_count}")
 
     print("\nValidation Summary:")
     print(f"Successful validations: {successful_validations}")
     print(f"Failed validations: {failed_validations}")
 
-# Call the validation function
-validate_user_names()
+validate_user_name_counts(pkl_user_counts, json_user_counts)

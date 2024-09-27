@@ -166,3 +166,4 @@ data/preprocessed/preprocessed_data.csv
 .DS_Store
 preprocessing/Input_Output/JSON/articles_with_threads_full_tree.json
 /preprocessing/Input_Output/Markdown
+preprocessing/Input_Output/JSON/articles_with_threads.json

@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -183,7 +182,7 @@ def main():
     articles_with_threads = thread_manager.get_article_threads()
 
     # Save the comprehensive data structure to a JSON file
-    output_path = "spheres/articles_with_threads_channel_inland.json"
+    output_path = config["output_path_build_json"]
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(articles_with_threads, f, indent=2)
     print(f"Comprehensive data structure saved to {output_path}")

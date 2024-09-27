@@ -1,6 +1,7 @@
 {
     "input_pkl_path" : "../data/preprocessed/preprocessed_data.pkl",
     "input_json_path": "./Input_Output/JSON/articles_with_threads_full_tree.json",
+    "output_path_build_json" : "./Input_Output/JSON/articles_with_threads.json",
 
     "output_folder_markdown_generation": "./Input_Output/Markdown/",
 
