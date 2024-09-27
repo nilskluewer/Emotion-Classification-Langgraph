@@ -7,6 +7,9 @@ import os
 import json
 from typing import List, Dict
 
+# Lade die Konfigurationen
+with open('config.json', 'r') as config_file:
+    config = json.load(config_file)
 
 
 class DataPreprocessor:
@@ -163,7 +166,7 @@ class CommentThreadManager:
 def main():
     # Currently Inland!
     # Main execution
-    preprocessed_file = r"../data/preprocessed/preprocessed_data_inland.pkl"
+    preprocessed_file = config["input_pkl_path"]
     # Save the comprehensive data structure to a JSON file
     output_path = "spheres/articles_with_threads_channel_inland.json"
 

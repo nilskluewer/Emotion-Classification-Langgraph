@@ -163,9 +163,6 @@ cython_debug/
 .idea/
 data/
 data/preprocessed/preprocessed_data.csv
-/preprocessing/spheres/JSON/articles_with_threads_full_tree.json
 .DS_Store
-preprocessing/spheres/sampled_articles_with_threads_num_users_50-v1.json
-preprocessing/spheres/articles_with_threads_full_tree.json
-preprocessing/JSON/articles_with_threads_full_tree.json
-/preprocessing/Markdown
+preprocessing/Input_Output/JSON/articles_with_threads_full_tree.json
+/preprocessing/Input_Output/Markdown

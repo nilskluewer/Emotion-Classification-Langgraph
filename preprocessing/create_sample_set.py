@@ -5,12 +5,6 @@ import glob
 from tqdm import tqdm
 from datetime import datetime
 
-# Funktion zur Zählung von Tokens
-def count_tokens_in_markdown(md_path):
-    with open(md_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    return count_tokens(content)
-
 def create_sample_from_files():
     # Lade die Konfiguration
     with open('config.json', 'r') as config_file:
