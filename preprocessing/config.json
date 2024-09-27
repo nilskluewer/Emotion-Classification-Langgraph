@@ -8,8 +8,8 @@
     "pkl_path_input_build_context" : "../data/preprocessed/preprocessed_data.pkl",
     
     "output_folder_samples": "../Markdown_Samples/",
-    "MIN_TOKEN_COUNT": 500,
-    "MAX_TOKEN_COUNT": 2000,
+    "MIN_TOKEN_COUNT": 1000,
+    "MAX_TOKEN_COUNT": 3000,
     "SAMPLE_SIZE": 20
     
 

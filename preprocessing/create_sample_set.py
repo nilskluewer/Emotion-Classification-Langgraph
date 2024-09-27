@@ -38,16 +38,15 @@ def create_sample_from_files():
             metadata = json.load(f)
 
         token_count = metadata.get('total_tokens', 0)
+        user_id = metadata['user_id']  # Ensure user_id is always initialized
+        
         print(f"Checking file {metadata_file}: Token count is {token_count}")
         
         if min_token_count <= token_count <= max_token_count:
-            user_id = metadata['user_id']
             print(f"File eligible: user_id={user_id} with token_count={token_count}")
             eligible_files.append(user_id)
         else:
             print(f"File not eligible: user_id={user_id}, token_count={token_count}, requires between {min_token_count} and {max_token_count}")
-
-    print(f"Eligible files count: {len(eligible_files)}")
     
     # Beschränke die Ergebnisse auf die angegebenen Samplegröße
     selected_files = eligible_files[:sample_size]

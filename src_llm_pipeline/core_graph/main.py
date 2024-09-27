@@ -15,7 +15,7 @@ import csv
 from datetime import datetime
 import time
 
-path_folder = Path("./inputs/sp0")
+path_folder = Path("./inputs/sample_24_09_27__12_58_size_20_tokens_1000_to_3000")
 
 # Load environment variables
 load_dotenv()
@@ -54,7 +54,7 @@ def LLM_chain():
     ).partial(context_sphere="context_sphere")
 
     llm = create_llm(
-        model_name="gemini-1.5-flash-002",
+        model_name="gemini-1.5-pro-002",
         temperature=1,
         response_mime_type="application/json",
         response_schema=queries_schema,
