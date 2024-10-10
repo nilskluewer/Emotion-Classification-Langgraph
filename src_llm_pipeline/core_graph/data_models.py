@@ -3,29 +3,27 @@ from pydantic import BaseModel, Field
 from typing import Annotated, List
 
 class CoreAffectAnalysis(BaseModel):
-    """Represents the analysis of core affect, including valence and arousal."""
+    """Represents the analysis of core affect, including valence and arousal on the theory of Lisa Feldmann Barrett.
+     Use more nuanced and specific language that captures the complexity of emotion classification after Lisa Feldmann Barrett"""
     thought: Annotated[
         str,
         Field(description="Provide a detailed thought process for analyzing core affect, considering both valence (pleasantness) and arousal (activation). Reference specific expressions, language, and contextual factors that indicate the user's emotional state.")
     ]
     valence: Annotated[
         str,
-        Field(description="Classify the valence of the user's emotional state (e.g., positive, neutral, negative), reflecting the degree of pleasantness or unpleasantness.")
+        Field(description="Classify the valence of the user's emotional state, reflecting the degree of pleasantness or unpleasantness. ")
     ]
     arousal: Annotated[
         str,
-        Field(description="Classify the arousal level of the user's emotional state (e.g., high arousal, moderate arousal, low arousal), indicating the activation or energy level.")
+        Field(description="Classify the arousal level of the user's emotional state, indicating the activation or energy level.")
     ]
 
 class EmotionalAspectExtended(BaseModel):
-    """Provides an in-depth analysis of the user's emotional experience, incorporating key components of the theory."""
+    """Provides an in-depth analysis of the user's emotional experience, incorporating key components of the theory of
+     constructed emotions by Lisa Feldmann Barrett."""
     thought: Annotated[
         str,
         Field(description="Provide a detailed thought process for analyzing the emotional aspect, considering the user's context, cognitive appraisals, conceptualization, cultural factors, predictions, and emotional dynamics. Reference specific language and expressions used by the user.")
-    ]
-    classification: Annotated[
-        str,
-        Field(description="Classify the emotional aspect based on the thought process, referencing contextual and theoretical insights. Use emotion labels if appropriate, acknowledging their constructed nature.")
     ]
     context: Annotated[
         str,
@@ -50,6 +48,10 @@ class EmotionalAspectExtended(BaseModel):
     emotional_dynamics: Annotated[
         str,
         Field(description="Indicate any changes or fluctuations in emotion throughout the comments, noting shifts in valence or arousal. Describe how emotions evolve over time or in response to interactions.")
+    ]
+    nuanced_classification: Annotated[
+        str,
+        Field(description="Classify the emotional aspect based nuanced based on the thought process, context, cognitive_appraisal, conceptualization, cultural_influence, predictions_and_simulations, emotional_dynamics. Referencing contextual and theoretical insights. Use emotion labels if appropriate, acknowledging their constructed nature.")
     ]
 
 class EmotionalBlendAnalysis(BaseModel):
@@ -84,5 +86,5 @@ class UserNeedAnalysis(BaseModel):
 class EmotionAnalysisOutput(BaseModel):
     core_affect_analysis: CoreAffectAnalysis
     emotional_aspect_extended: EmotionalAspectExtended
-    emotional_blend_analysis: EmotionalBlendAnalysis
-    user_need_analysis: UserNeedAnalysis
+#    emotional_blend_analysis: EmotionalBlendAnalysis
+#    user_need_analysis: UserNeedAnalysis

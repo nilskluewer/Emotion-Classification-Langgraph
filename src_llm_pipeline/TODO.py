@@ -8,6 +8,8 @@
 
 # OFFEN ------ OFFEN
 # TODO: OneShot prompting - TASK, THOUGHT, CLASSFICATION - statt - TASK, THOUGHT; ACTION
+# TODO: Latence, einfach als metric aufnehmen für evaluation!
+# TODO: Benutzername "unbekannt" ersetzten durch random name oder unbekannt nummer X und dann iterrieren oder so.
 # TODO: Self-consitentcy implemtneiren wie in SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS beschrieben,
 #  aber mit similarity über embeddings statt über paths & wahrscehinlichkeiten,
 #  weil wir die log probs nicht für alle modell bekommen. ( 40 request pro model machen -> dann majority voting)
@@ -27,7 +29,9 @@
 
 
 # ERLEDIGT ----- ERLEDIGT #
-
+# TODO: Reihenfolge im datamodel ändern das classification immer am ende kommt wegen autoregressiv
+# TODO: Vereinfachung vom Data model und nur auf concept von feldmann barrett konzentrieren. FOKUS
+# TOOD: Batch processing der anfragen geht schenller und ist günstiger!
 # TODO: Prompt herausfinden für Lisa Feldmann Barrett
 # TODO: Zero-Shot Role play prompting mit SC (Self consitency) )(Beweis Table 9, paper: Better Zero-Shot Reasoning through Role play prompting)
 # TODO: Reasoning step pro attribute

@@ -5,15 +5,15 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers.pydantic import PydanticOutputParser
 from langchain_core.utils.json_schema import dereference_refs
 from model import create_llm
-from langsmith import Client, traceable
-from langsmith.run_helpers import get_current_run_tree
-import os
-from typing import List
+from save_output_to_csv import main as save_output_to_csv
+from langchain_core.tracers.context import collect_runs
 from uuid import UUID
-from data_models import EmotionAnalysisOutput, BasicNeed
-import csv
+from typing import Tuple
+from pathlib import Path
 from datetime import datetime
-import time
+from langsmith import Client
+from data_models import EmotionAnalysisOutput
+
 
 path_folder = Path("./inputs/sample_24_09_27__12_58_size_20_tokens_1000_to_3000")
 
@@ -29,19 +29,14 @@ def load_system_prompt(filename: str, folder: Path = Path("./prompts")):
 def load_input(filename: str, folder: Path = path_folder):
     return (folder / filename).read_text()
 
-def run_llm_chain(context_sphere: str, user_id: str):
-    @traceable(metadata={"user_id": user_id})
-    def invoke_chain():
-        llm_chain = LLM_chain()
-        result = llm_chain.invoke({"context_sphere": context_sphere})
-        time.sleep(20)
-        run = get_current_run_tree()
-        print(f"run_llm_chain Run Id: {run.id}")
-        return result, run.id
-    return invoke_chain()
+def create_emotion_analysis_chain(model_temperature):
+    """
+    Create and return the emotion analysis chain.
 
-def LLM_chain():
-    queries_schema = dereference_refs(models.EmotionAnalysisOutput.model_json_schema())
+    Returns:
+        Chain: The configured emotion analysis chain.
+    """
+    queries_schema = dereference_refs(EmotionAnalysisOutput.model_json_schema())
     queries_schema.pop("$defs", None)
 
     prompt = ChatPromptTemplate(
@@ -54,99 +49,210 @@ def LLM_chain():
 
     llm = create_llm(
         model_name="gemini-1.5-pro-002",
-        temperature=1,
+        temperature=model_temperature,
         response_mime_type="application/json",
         response_schema=queries_schema,
     )
 
-    chain = prompt | llm | PydanticOutputParser(pydantic_object=models.EmotionAnalysisOutput)
+    return prompt | llm | PydanticOutputParser(pydantic_object=EmotionAnalysisOutput)
 
-    return chain
-
-def provide_feedback(client: Client, run_id: UUID, analysis_name: str, classification: str, thought: str):
+def run_emotion_analysis(context_sphere: str, user_id: str) -> Tuple[EmotionAnalysisOutput, UUID]:
     """
-    Simplified feedback mechanism to include only the classification result.
+    Run the emotion analysis chain and collect the run information.
+
+    Args:
+        context_sphere (str): The context sphere containing the text to analyze.
+        user_id (str): The user ID for metadata and tracing.
+
+    Returns:
+        Tuple[EmotionAnalysisOutput, UUID]: A tuple containing the emotion analysis output
+        and the run ID for tracing.
     """
-    client.create_feedback(
-        run_id=run_id,
-        key=f"{analysis_name}_analysis",
-        value=f"{classification}",
-        comment=f"{thought}"
-    )
+    emotion_analysis_chain = create_emotion_analysis_chain()
+
+    with collect_runs() as runs_collector:
+        analysis_result = emotion_analysis_chain.invoke(
+            {"context_sphere": context_sphere},
+            config={
+                "metadata": {"user_id": user_id},
+                "run_name": "Emotion_Analysis_Chain"
+            }
+        )
+
+        run_id = runs_collector.traced_runs[0].id if runs_collector.traced_runs else None
+
+    return analysis_result, run_id
+
+
+def process_input_file(input_file: Path, client: Client, enable_feedback: bool, enable_csv_output: bool):
+    """
+    Process a single input file for emotion analysis.
+
+    Args:
+        input_file (Path): The path to the input file.
+        client (Client): The LangSmith client for feedback.
+        enable_feedback (bool): Flag to enable/disable feedback.
+        enable_csv_output (bool): Flag to enable/disable CSV output.
+    """
+    user_id = input_file.stem
+    context_sphere = load_input(input_file.name)
+
+    emotion_analysis, run_id = run_emotion_analysis(context_sphere, user_id)
+
+    print(f"Run ID: {run_id}")
+    print(f"User ID: {user_id}")
+    print(emotion_analysis)
+
+    if enable_feedback and run_id:
+        client.create_feedback(
+            run_id=run_id,
+            key="Valence",
+            value=emotion_analysis.core_affect_analysis.valence,
+            comment=emotion_analysis.core_affect_analysis.thought
+        )
+        client.create_feedback(
+            run_id=run_id,
+            key="Arousal",
+            value=emotion_analysis.core_affect_analysis.arousal,
+            comment=emotion_analysis.core_affect_analysis.thought
+        )
+
+    if enable_csv_output:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_output_to_csv(emotion_analysis, user_id, timestamp)
+
+
+from typing import List, Dict
+from pathlib import Path
+from langchain_core.runnables import RunnableConfig
+from uuid import uuid4
+
+def process_input_files_batch(
+        input_folder: Path,
+        client: Client,
+        model_temperature: float,
+        enable_feedback: bool,
+        enable_csv_output: bool,
+        batch_size: int,
+        max_concurrency: int
+) -> None:
+    """
+    Process multiple input files in batches using LangChain's batch processing.
+
+    Args:
+        input_folder (Path): The folder containing input files.
+        client (Client): The LangSmith client for feedback.
+        enable_feedback (bool): Flag to enable/disable feedback.
+        enable_csv_output (bool): Flag to enable/disable CSV output.
+        batch_size (int): Number of files to process in each batch.
+        max_concurrency (int): Maximum number of concurrent requests.
+    """
+    emotion_analysis_chain = create_emotion_analysis_chain(model_temperature = model_temperature)
+    input_files = list(input_folder.glob("*.md"))
+
+    for i in range(0, len(input_files), batch_size):
+        batch_files = input_files[i:i+batch_size]
+        batch_inputs = []
+
+        for file in batch_files:
+            user_id = file.stem
+            context_sphere = load_input(file.name, folder=input_folder)
+            batch_inputs.append({
+                "context_sphere": context_sphere,
+                "user_id": user_id
+            })
+
+        config = RunnableConfig(
+            callbacks=None,
+            tags=["emotion_analysis_batch"],
+            metadata={"batch_id": str(uuid4()),
+                      "run_name": "Batch Run: EA_Chain"},
+            max_concurrency=max_concurrency
+        )
+
+        with collect_runs() as runs_collector:
+            batch_results = emotion_analysis_chain.batch(
+                batch_inputs,
+                config=config
+            )
+
+        for file, result, run in zip(batch_files, batch_results, runs_collector.traced_runs):
+            user_id = file.stem
+            print(f"Run ID: {run.id}")
+            print(f"User ID: {user_id}")
+            print(result)
+
+            if enable_feedback and run.id:
+                client.create_feedback(
+                    run_id=run.id,
+                    key="Core Valence",
+                    value=result.core_affect_analysis.valence,
+                    comment=result.core_affect_analysis.thought
+                )
+                client.create_feedback(
+                    run_id=run.id,
+                    key="Core Arousal",
+                    value=result.core_affect_analysis.arousal,
+                    comment=result.core_affect_analysis.thought
+                )
+                client.create_feedback(
+                    run_id=run.id,
+                    key="Aspect Extended",
+                    value=result.emotional_aspect_extended.nuanced_classification,
+                    comment=result.emotional_aspect_extended.thought
+                )
+                """
+                client.create_feedback(
+                    run_id=run.id,
+                    key="Blends",
+                    value=", ".join(result.emotional_blend_analysis.classifications),
+                    comment=result.emotional_blend_analysis.thought
+                )
+                """
 
 
 
-import csv
-import os
-from typing import List
-
-def save_emotion_analysis_to_csv(emotion_analysis: EmotionAnalysisOutput, user_id: str, timestamp: str, filename: str = "emotion_analysis.csv"):
-    file_exists = os.path.isfile(filename)
-
-    # Get all possible BasicNeed values
-    all_basic_needs = [need.value for need in BasicNeed]
-
-    with open(filename, mode='a', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        
-        if not file_exists:
-            header = [
-                "Timestamp", "User ID",
-                "Core Affect Thought", "Valence", "Arousal",
-                "Emotional Aspect Thought", "Emotional Aspect Classification", "Context", 
-                "Cognitive Appraisal", "Conceptualization", "Cultural Influence",
-                "Predictions and Simulations", "Emotional Dynamics",
-                "Emotional Blend Thought", "Emotional Blend Classifications",
-                "User Need Thought"
-            ] + all_basic_needs  # Add all basic needs as separate columns
-            writer.writerow(header)
-        
-        # Prepare the basic needs flags
-        basic_needs_flags = [1 if need in emotion_analysis.user_need_analysis.basic_needs else 0 for need in all_basic_needs]
-
-        row = [
-            timestamp, user_id,
-            emotion_analysis.core_affect_analysis.thought,
-            emotion_analysis.core_affect_analysis.valence,
-            emotion_analysis.core_affect_analysis.arousal,
-            emotion_analysis.emotional_aspect_extended.thought,
-            emotion_analysis.emotional_aspect_extended.classification,
-            emotion_analysis.emotional_aspect_extended.context,
-            emotion_analysis.emotional_aspect_extended.cognitive_appraisal,
-            emotion_analysis.emotional_aspect_extended.conceptualization,
-            emotion_analysis.emotional_aspect_extended.cultural_influence,
-            emotion_analysis.emotional_aspect_extended.predictions_and_simulations,
-            emotion_analysis.emotional_aspect_extended.emotional_dynamics,
-            emotion_analysis.emotional_blend_analysis.thought,
-            ", ".join(emotion_analysis.emotional_blend_analysis.classifications),
-            emotion_analysis.user_need_analysis.thought
-        ] + basic_needs_flags  # Add the flags to the row
-        
-        writer.writerow(row)
-
-    print(f"Data has been appended to {filename}")
+            if enable_csv_output:
+                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                save_output_to_csv(emotion_analysis = result,
+                                   model_temperature=model_temperature,
+                                   user_id= user_id,
+                                   timestamp = timestamp)
 
 if __name__ == "__main__":
     client = Client()
-    dataset_name = "Emotion Analysis Full Dataset"
+    input_folder = Path("./inputs/sp1")
 
-    # Directory containing input files
-    input_folder = path_folder
+    # Configure which optional steps to perform
+    enable_feedback = True
+    enable_csv_output = True
+    model_temperature = 1
 
-    # Process each file in the input folder
-    for input_file in input_folder.glob("*.md"):
-        user_id = input_file.stem  # Extract user_id from the file name
+    #for input_file in input_folder.glob("*.md"):
+    #    process_input_file(input_file, client, enable_feedback, enable_csv_output)
+    print("---- Start of Batch processing ----")
+    process_input_files_batch(
+        input_folder=input_folder,
+        client=client,
+        model_temperature = model_temperature,
+        enable_feedback=True,
+        enable_csv_output=True,
+        batch_size=10,
+        max_concurrency=5
+    )
 
-        # Load input data
-        context_sphere = load_input(input_file.name)
+def create_dataset_if_enabled(client: Client, dataset_name: str, run_id: UUID, enable_dataset_creation: bool):
+    """
+    Create a dataset in LangSmith if enabled.
 
-        # Get results and run ID from LLM chain
-        emotion_analysis, run_id = run_llm_chain(context_sphere, user_id)
+    Args:
+        client (Client): The LangSmith client.
+        dataset_name (str): The name of the dataset to create.
+        run_id (UUID): The run ID to include in the dataset.
+        enable_dataset_creation (bool): Flag to enable/disable dataset creation.
+    """
+    if enable_dataset_creation and run_id:
+        # Implement dataset creation logic here
+        pass
 
-        print("RUN:", run_id)
-        print("USER ID:", user_id)
-        print(emotion_analysis)
 
-        # Save to CSV with timestamp
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        save_emotion_analysis_to_csv(emotion_analysis, user_id, timestamp)
