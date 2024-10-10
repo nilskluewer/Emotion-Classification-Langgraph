@@ -7,6 +7,7 @@
 
 
 # OFFEN ------ OFFEN
+# TODO: OneShot prompting - TASK, THOUGHT, CLASSFICATION - statt - TASK, THOUGHT; ACTION
 # TODO: Self-consitentcy implemtneiren wie in SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS beschrieben,
 #  aber mit similarity über embeddings statt über paths & wahrscehinlichkeiten,
 #  weil wir die log probs nicht für alle modell bekommen. ( 40 request pro model machen -> dann majority voting)

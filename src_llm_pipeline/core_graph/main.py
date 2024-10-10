@@ -38,7 +38,6 @@ def run_llm_chain(context_sphere: str, user_id: str):
         run = get_current_run_tree()
         print(f"run_llm_chain Run Id: {run.id}")
         return result, run.id
-
     return invoke_chain()
 
 def LLM_chain():
