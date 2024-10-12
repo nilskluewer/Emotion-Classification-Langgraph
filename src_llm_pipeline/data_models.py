@@ -2,12 +2,14 @@ from enum import StrEnum
 from pydantic import BaseModel, Field
 from typing import Annotated, List
 
+# I use : "dimensional properties" -> "Focusing on core affect (valence and arousal) might be a useful starting point, recognizing that these are dimensional properties rather than discrete categories"
+
 class CoreAffectAnalysis(BaseModel):
-    """Represents the analysis of core affect, including valence and arousal on the theory of Lisa Feldmann Barrett.
+    """Represents the analysis of core affect as **dimensional properties**, including valence and arousal on the theory of Lisa Feldmann Barrett.
      Use more nuanced and specific language that captures the complexity of emotion classification after Lisa Feldmann Barrett"""
     thought: Annotated[
         str,
-        Field(description="Provide a detailed thought process for analyzing core affect, considering both valence (pleasantness) and arousal (activation). Reference specific expressions, language, and contextual factors that indicate the user's emotional state.")
+        Field(description="Provide a detailed step by step thought process for analyzing core affect as dimensional properties, considering both valence (pleasantness) and arousal (activation). Reference specific expressions, language, and contextual factors that indicate the user's emotional state.")
     ]
     valence: Annotated[
         str,

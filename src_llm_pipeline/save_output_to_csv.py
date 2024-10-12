@@ -2,7 +2,9 @@ import os
 from data_models import EmotionAnalysisOutput, BasicNeed
 import csv
 
-def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float, user_id: str, timestamp: str, filename: str = "emotion_analysis.csv",
+def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float,
+         batch_id, user_id: str, run_id: str,timestamp: str, model_name,
+         prompt_template_version, filename: str = "emotion_analysis.csv",
          ):
     file_exists = os.path.isfile(filename)
 
@@ -14,7 +16,7 @@ def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float, user
 
         if not file_exists:
             header = [
-                         "Timestamp", "User ID",
+                         "Timestamp", "Run ID", "User ID", "batch_id", "Model Name", "Prompt Template Version",
                          "Core Affect Thought", "Valence", "Arousal",
                          "Emotional Aspect Thought", "Emotional Aspect Nuanced Classification", "Context",
                          "Cognitive Appraisal", "Conceptualization", "Cultural Influence",
@@ -30,7 +32,7 @@ def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float, user
         #basic_needs_flags = [1 if need in emotion_analysis.user_need_analysis.basic_needs else 0 for need in all_basic_needs]
 
         row = [
-                  timestamp, user_id,
+                  timestamp, run_id,user_id, batch_id, model_name, prompt_template_version,
                   emotion_analysis.core_affect_analysis.thought,
                   emotion_analysis.core_affect_analysis.valence,
                   emotion_analysis.core_affect_analysis.arousal,
