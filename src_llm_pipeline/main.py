@@ -1,14 +1,11 @@
 import importlib
-from doctest import run_docstring_examples
 from pathlib import Path
 from dotenv import load_dotenv
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers.pydantic import PydanticOutputParser
 from langchain_core.utils.json_schema import dereference_refs
 from model import create_llm
 from save_output_to_csv import main as save_output_to_csv
 from langchain_core.tracers.context import collect_runs
-from langchain_core.runnables import RunnableConfig
 from uuid import UUID, uuid4
 from typing import List, Dict
 from datetime import datetime
@@ -16,16 +13,9 @@ from langsmith import Client
 from data_models import EmotionAnalysisOutput
 from langchain_core.callbacks import StdOutCallbackHandler
 from langchain_core.runnables import RunnableConfig
+from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
 
-# Metadata variables maybe to externalize?
-# model name
-# model temperature
-# batch run
-# model configuration top_n etc.
-# prompt folder v1 / v2 / v3 / ...
 
-prompts_version = "v3"
-model_name = "gemini-1.5-pro-002"
 
 # Load environment variables
 load_dotenv()
@@ -44,10 +34,10 @@ def create_emotion_analysis_chain(model_temperature):
     queries_schema.pop("$defs", None)
 
     prompt = ChatPromptTemplate(
-        [
-            ("human", load_system_prompt("LFB_role_setting_prompt.md")),
-            ("ai", load_system_prompt("LFB_role_feedback_prompt.md")),
-            ("human", load_system_prompt("user_task_prompt.md"))
+        messages=[
+            SystemMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_setting_prompt.md"))),
+            AIMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_feedback_prompt.md"))),
+            HumanMessagePromptTemplate.from_template(str(load_system_prompt("user_task_prompt.md")))
         ]
     ).partial(context_sphere="context_sphere")
 
@@ -56,14 +46,19 @@ def create_emotion_analysis_chain(model_temperature):
         temperature=model_temperature,
         response_mime_type="application/json",
         response_schema=queries_schema,
+        top_p=top_p
     )
 
-    return prompt | llm | PydanticOutputParser(pydantic_object=EmotionAnalysisOutput)
+    parser = PydanticOutputParser(pydantic_object=EmotionAnalysisOutput)
+
+
+    return prompt | llm | parser
 
 def process_input_files_batch(
         input_folder: Path,
         client: Client,
         model_temperature: float,
+        top_p:float,
         enable_feedback: bool,
         enable_csv_output: bool,
         batch_size: int,
@@ -94,6 +89,7 @@ def process_input_files_batch(
             tags=["EA_Batch_"],
             metadata={"batch_id": batch_id,
                       "temperature": model_temperature,
+                      "top_p":top_p,
                       "model_name": model_name,
                       "prompt_template_version": prompts_version},
             max_concurrency=max_concurrency,
@@ -136,6 +132,7 @@ def process_input_files_batch(
                 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 save_output_to_csv(emotion_analysis=result,
                                    model_temperature=model_temperature,
+                                   top_p=top_p,
                                    batch_id=batch_id,
                                    user_id=user_id,
                                    run_id=run.id,
@@ -150,15 +147,27 @@ if __name__ == "__main__":
     # Configure which optional steps to perform
     enable_feedback = True
     enable_csv_output = True
-    model_temperature = 1
+    # Metadata variables maybe to externalize?
+    # model name
+    # model temperature
+    # batch run
+    # model configuration top_n etc.
+    # prompt folder v1 / v2 / v3 / ...
+
+    prompts_version = "v3"
+    model_name = "gemini-1.5-pro-002"
+    top_p = 0
+    model_temperature = 0
+    test_set = ""
 
     print("---- Start of Batch processing ----")
     process_input_files_batch(
         input_folder=input_folder,
         client=client,
         model_temperature=model_temperature,
+        top_p=top_p,
         enable_feedback=True,
         enable_csv_output=True,
-        batch_size=9,
-        max_concurrency=3
+        batch_size=1,
+        max_concurrency=1
     )

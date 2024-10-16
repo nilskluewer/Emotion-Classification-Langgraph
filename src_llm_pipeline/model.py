@@ -1,5 +1,9 @@
+from importlib.resources import contents
+
 import vertexai
 from langchain_google_vertexai import ChatVertexAI, HarmBlockThreshold, HarmCategory
+from langchain_anthropic import ChatAnthropic
+from langchain_openai import ChatOpenAI
 
 vertexai.init(project="rd-ri-genai-dev-2352", location="europe-west4")
 
@@ -18,11 +22,27 @@ def create_llm(
             safety_settings=safety_settings or default_safety_settings,
             **kwargs,
         )
+
+
+    if model_name.startswith("claude"):
+        return ChatAnthropic(
+            model=model_name,
+            max_tokens=8192,
+            timeout=None,
+            max_retries=3,
+            **kwargs,
+        )
+
+    if model_name.startswith("gpt-"):
+        return ChatOpenAI(
+            model=model_name,
+            max_tokens=8192,
+            max_retries=2,
+            **kwargs
+        )
+
     else:
         raise ValueError(f"No model init strategy for model_name: {model_name}")
-
-    if model_name.startswith("Cohere"):
-        return
 
 
 default_safety_settings = {

@@ -7,6 +7,11 @@
 
 
 # OFFEN ------ OFFEN
+# TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
+#  emotiona anylsis extend. Input ist thought / output ist dann die classfication. Dann evaluieren wie auch
+#  in der survey, mit den gleichen fragne???
+# TODO: auch auf parameter evaluieren wie: factuality, valid JSON, text quality? Mit OPENAI Evaluators?
+    # store: true parameter für evaluation https://platform.openai.com/docs/guides/evals
 # TODO: OneShot prompting - TASK, THOUGHT, CLASSFICATION - statt - TASK, THOUGHT; ACTION
 # TODO: Latence, einfach als metric aufnehmen für evaluation!
 # TODO: Benutzername "unbekannt" ersetzten durch random name oder unbekannt nummer X und dann iterrieren oder so.

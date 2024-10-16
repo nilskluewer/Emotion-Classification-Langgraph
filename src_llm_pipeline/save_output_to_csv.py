@@ -2,7 +2,7 @@ import os
 from data_models import EmotionAnalysisOutput, BasicNeed
 import csv
 
-def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float,
+def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float, top_p: float,
          batch_id, user_id: str, run_id: str,timestamp: str, model_name,
          prompt_template_version, filename: str = "emotion_analysis.csv",
          ):
@@ -21,7 +21,7 @@ def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float,
                          "Emotional Aspect Thought", "Emotional Aspect Nuanced Classification", "Context",
                          "Cognitive Appraisal", "Conceptualization", "Cultural Influence",
                          "Predictions and Simulations", "Emotional Dynamics",
-                         "model_temperature",
+                         "model_temperature", "top_p"
         #                 "Emotional Blend Thought", "Emotional Blend Classifications",
         #                 "User Need Thought"
         #             ] + all_basic_needs  # Add all basic needs as separate columns
@@ -44,7 +44,7 @@ def main(emotion_analysis: EmotionAnalysisOutput, model_temperature: float,
                   emotion_analysis.emotional_aspect_extended.cultural_influence,
                   emotion_analysis.emotional_aspect_extended.predictions_and_simulations,
                   emotion_analysis.emotional_aspect_extended.emotional_dynamics,
-            model_temperature
+            model_temperature, top_p
     #              emotion_analysis.emotional_blend_analysis.thought,
     #           ", ".join(emotion_analysis.emotional_blend_analysis.classifications),
     #          emotion_analysis.user_need_analysis.thought

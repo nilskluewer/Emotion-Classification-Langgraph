@@ -91,6 +91,8 @@ def process_user_comments(data, target_user_id):
     target_gender = "Unbekannt"
     target_created_at = "Unbekannt"
 
+    # TODO hier function wo einfach user_name usw aus der initial csv gefetcht wird. Chekc halt noch nicht warum das nicht immer geht.
+
     for article_id, article in data.items():
         for thread in article.get('comment_threads', []):
             if thread['user_id'] == target_user_id:
