@@ -6,6 +6,7 @@ import os
 import json
 from typing import List, Dict
 
+
 # Lade die Konfigurationen
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
@@ -163,29 +164,28 @@ class CommentThreadManager:
         return articles
 
 def main():
-    # Currently Inland!
     # Main execution
-    preprocessed_file = config["input_pkl_path"]
-    # Save the comprehensive data structure to a JSON file
-    output_path = "spheres/articles_with_threads_channel_inland.json"
+    preprocessed_pkl_path = config["input_pkl_path"]
+    input_csv_path = config["input_csv_path"]
+    output_path_json = config["output_path_build_json"]
 
-    if not os.path.exists(preprocessed_file):
+    if not os.path.exists(preprocessed_pkl_path):
         print("Preprocessed data not found. Preprocessing...")
-        preprocessor = DataPreprocessor('../data/raw_csv/Postings_01052019_31052019.csv')
+        preprocessor = DataPreprocessor(input_csv_path)
         preprocessor.process()
-        preprocessor.save_preprocessed_data(preprocessed_file)
+        preprocessor.save_preprocessed_data(preprocessed_pkl_path)
     else:
         print("Loading preprocessed data...")
-        preprocessor = DataPreprocessor.load_preprocessed_data(preprocessed_file)
+        preprocessor = DataPreprocessor.load_preprocessed_data(preprocessed_pkl_path)
 
     thread_manager = CommentThreadManager(preprocessor.df)
     articles_with_threads = thread_manager.get_article_threads()
 
     # Save the comprehensive data structure to a JSON file
-    output_path = config["output_path_build_json"]
-    with open(output_path, 'w', encoding='utf-8') as f:
+    
+    with open(output_path_json, 'w', encoding='utf-8') as f:
         json.dump(articles_with_threads, f, indent=2)
-    print(f"Comprehensive data structure saved to {output_path}")
+    print(f"Comprehensive data structure saved to {output_path_json}")
 
 if __name__ == "__main__":
     main()
