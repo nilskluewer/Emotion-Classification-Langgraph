@@ -5,6 +5,16 @@ import pandas as pd
 import tiktoken
 from tqdm import tqdm  # Importiere tqdm für Fortschrittsanzeige
 
+from datetime import datetime
+from dateutil import parser
+
+def format_date(date_string):
+    """
+    Formats a given date string to include only up to minutes.
+    Utilizes a flexible parser to handle various date formats.
+    """
+    return date_string[:16]
+
 # Token-Zählfunktion definieren
 def count_tokens(text):
     """
@@ -79,11 +89,17 @@ def generate_comment_markdown(comments, level=0):
     indent = "  " * level
 
     for comment in comments:
-        if comment['comment_headline'] and comment['comment_headline'] != "No Headline":
-            markdown += f"{indent}* **{comment['comment_headline']}**\n"
-        markdown += f"{indent}  - **{comment['user_name']}** schreibt:\n"
-        markdown += f"{indent}    - {comment['comment_text']}\n"
-        markdown += f"{indent}    - *Erstellt am {comment['comment_created_at']}*\n\n"
+        # Sicherstellen, dass immer eine Headline angezeigt wird
+        headline = comment.get('comment_headline')
+        if not headline:
+            headline = "Empty Heading"
+
+        # Füge Headline zum Markdown-Output hinzu
+        markdown += f"{indent}> *Headline*: {headline}\n"
+        markdown += f"{indent}{comment['user_name']} schreibt:\n"
+        markdown += f"{indent}> {comment['comment_text']}\n"
+        markdown += f"{indent}> *Erstellt am {format_date(comment['comment_created_at'])}*\n\n"
+        
         if 'replies' in comment and comment['replies']:
             markdown += generate_comment_markdown(comment['replies'], level + 1)
 
@@ -128,11 +144,11 @@ def process_user_comments(data, target_user_id):
             target_user_name, target_gender, target_created_at = user_details
 
         header = f"### {article['article_title']}\n"
-        header += f"- **Artikel ID**: {article['article_id']}\n"
-        header += f"- **Veröffentlicht am**: {article['article_publish_date']}\n"
-        header += f"- **Kanal**: {article['article_channel']}\n"
-        header += f"- **Ressort**: {article['article_ressort_name']}\n"
-        header += f"- **Gesamtanzahl Kommentare**: {article['total_comments']}\n\n"
+        header += f"- Artikel ID: {article['article_id']}\n"
+        header += f"- Veröffentlicht am: {article['article_publish_date']}\n"
+        header += f"- Kanal: {article['article_channel']}\n"
+        header += f"- Ressort: {article['article_ressort_name']}\n"
+        header += f"- Gesamtanzahl Kommentare: {article['total_comments']}\n\n"
         header += "#### Kommentare\n"
 
         comments = article.get('comment_threads', [])
@@ -145,10 +161,10 @@ def process_user_comments(data, target_user_id):
     if all_user_comments:
         intro = f"# Benutzeraktivität von {target_user_name}\n\n"
         intro += "## Benutzerdetails\n"
-        intro += f"- **Benutzername**: {target_user_name}\n"
-        intro += f"- **Benutzer-ID**: {target_user_id}\n"
-        intro += f"- **Geschlecht**: {target_gender}\n"
-        intro += f"- **Konto erstellt am**: {target_created_at}\n\n---\n\n"
+        intro += f"- Benutzername: {target_user_name}\n"
+        intro += f"- Benutzer-ID: {target_user_id}\n"
+        intro += f"- Geschlecht: {target_gender}\n"
+        intro += f"- Konto erstellt am: {target_created_at}\n\n---\n\n"
         intro += "## Kommentare und Threads\n\n"
 
         complete_content = intro + all_user_comments
@@ -219,11 +235,11 @@ def test_specific_user_markdown(data, user_id=518684):
 
         # Prepare the article header for the markdown
         header = f"### {article['article_title']}\n"
-        header += f"- **Artikel ID**: {article['article_id']}\n"
-        header += f"- **Veröffentlicht am**: {article['article_publish_date']}\n"
-        header += f"- **Kanal**: {article['article_channel']}\n"
-        header += f"- **Ressort**: {article['article_ressort_name']}\n"
-        header += f"- **Gesamtanzahl Kommentare**: {article['total_comments']}\n\n"
+        header += f"- Artikel ID: {article['article_id']}\n"
+        header += f"- Veröffentlicht am: {article['article_publish_date']}\n"
+        header += f"- Kanal: {article['article_channel']}\n"
+        header += f"- Ressort: {article['article_ressort_name']}\n"
+        header += f"- Gesamtanzahl Kommentare: {article['total_comments']}\n\n"
         header += "#### Kommentare\n"
 
         comments = article.get('comment_threads', [])
@@ -236,10 +252,10 @@ def test_specific_user_markdown(data, user_id=518684):
     if all_user_comments:
         intro = f"# Benutzeraktivität von {target_user_name}\n\n"
         intro += "## Benutzerdetails\n"
-        intro += f"- **Benutzername**: {target_user_name}\n"
-        intro += f"- **Benutzer-ID**: {user_id}\n"
-        intro += f"- **Geschlecht**: {target_gender}\n"
-        intro += f"- **Konto erstellt am**: {target_created_at}\n\n---\n\n"
+        intro += f"- Benutzername: {target_user_name}\n"
+        intro += f"- Benutzer-ID: {user_id}\n"
+        intro += f"- Geschlecht: {target_gender}\n"
+        intro += f"- Konto erstellt am: {target_created_at}\n\n---\n\n"
         intro += "## Kommentare und Threads\n\n"
 
         complete_content = intro + all_user_comments
