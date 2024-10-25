@@ -6,8 +6,8 @@ from langchain_core.utils.json_schema import dereference_refs
 from model import create_llm
 from save_output_to_csv import main as save_output_to_csv
 from langchain_core.tracers.context import collect_runs
-from uuid import UUID, uuid4
-from typing import List, Dict
+from uuid import uuid4
+from typing import Dict
 from datetime import datetime
 from langsmith import Client
 from data_models import EmotionAnalysisOutput
@@ -23,7 +23,8 @@ load_dotenv()
 # Dynamically import the module
 models = importlib.import_module("data_models")
 
-def load_system_prompt(filename: str, folder: Path = Path(f"./prompts/{prompts_version}")) -> Dict[str, str]:
+def load_system_prompt(filename: str, folder: Path) -> Dict[str, str]:
+    folder = Path(f"./prompts/{prompts_version}")
     return (folder / filename).read_text()
 
 def load_input(filename: str, folder: Path):
