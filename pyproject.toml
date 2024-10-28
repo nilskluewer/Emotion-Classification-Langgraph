@@ -25,6 +25,7 @@ vertexai = "*"
 langchain-google-vertexai = "*"
 
 langchain-anthropic = "^0.2.3"
+pytest = "^8.3.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
