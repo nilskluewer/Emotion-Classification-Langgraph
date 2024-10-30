@@ -1,0 +1,4 @@
+# 1
+I wrote code for a master thesis and i want the LLM to write a workflow. I will provide context and code. The code is only for the preprocessing part. And i want a structured overview later which explains for someone who never saw this code the most important asepcts of the code, in respect to the context and also explaining some design choices or assumptions i made. Some assumptions the LLM will not know, i want the llm to generate there these questions. So the primary task is to generate questions to ask me, what assumptions i took. If the llm understands it correctly, we can work on an overall workflow. 
+
+# 2

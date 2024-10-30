@@ -10,8 +10,8 @@
     "output_folder_markdown_generation": "./Input_Output/Markdown/",
     "output_folder_samples": "../Markdown_Samples/",
     "MIN_TOKEN_COUNT": 5000,
-    "MAX_TOKEN_COUNT": 10000,
-    "SAMPLE_SIZE": 20
+    "MAX_TOKEN_COUNT": 15000,
+    "SAMPLE_SIZE": 100
     
 
 }

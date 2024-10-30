@@ -350,3 +350,442 @@
 This document outlines the workflow of the master's thesis project, detailing the preprocessing steps and the language model pipeline. It highlights the key components of each script, explains the reasoning behind various decisions, and anticipates questions that a reader unfamiliar with the code might have.
 
 [Erklärung hier einfügen] (Additional explanations and domain-specific knowledge to be added later.)
+
+
+
+
+TECHNICAL DOCUMENTATION: PREPROCESSING PIPELINE
+
+1. DATA TRANSFORMATION WORKFLOW
+===============================
+
+1.1 Initial Data Loading (CSV → DataPreprocessor)
+------------------------------------------------
+Purpose: Transform raw CSV data into a structured format while ensuring data quality
+Implementation:
+- Reads CSV using pandas DataFrame
+- Handles character encoding (UTF-8) for German language content
+- Processes key fields: PostingCreatedAt, ArticlePublishingDate, UserCreatedAt
+
+Key Design Decisions:
+- Missing values handled explicitly ('No Headline', 'No Comment', 'Unknown')
+  Rationale: Provides clear context rather than ambiguous empty values
+- Date conversions standardized to ISO format
+  Rationale: Ensures consistent temporal context representation
+
+1.2 Intermediate Storage (DataPreprocessor → Pickle)
+--------------------------------------------------
+Purpose: Provide efficient intermediate storage for preprocessed data
+Implementation:
+- Serializes preprocessed DataFrame to pickle format
+- Maintains data structure and types integrity
+
+Key Design Decisions:
+- Use of pickle format for intermediate storage
+  Rationale: Preserves Python object structures efficiently
+- Validation checks between CSV and pickle
+  Rationale: Ensures data integrity during transformation
+
+1.3 Thread Structure Building (Pickle → JSON)
+-------------------------------------------
+Purpose: Create hierarchical representation of comment threads
+Implementation:
+- Builds parent-child relationships between comments
+- Preserves chronological order
+- Maintains user and article metadata
+
+Key Design Decisions:
+- Recursive thread building without depth limit
+  Rationale: Platform (Der Standard) inherently limits thread depth
+- JSON format for hierarchical data
+  Rationale: Natural representation of nested comment structures
+
+1.4 Context Sphere Creation (JSON → Markdown)
+-------------------------------------------
+Purpose: Transform structured data into human and LLM-readable format
+Implementation:
+- Formats user activity chronologically
+- Preserves thread context and relationships
+- Optimizes token usage while maintaining context
+
+Key Design Decisions:
+- Markdown format selection
+  Rationale: Balances human readability with LLM processing efficiency
+- Selective metadata inclusion
+  Rationale: Includes only contextually relevant information
+
+2. CONTEXT SPHERE STRUCTURE
+==========================
+
+2.1 Content Selection Principles
+------------------------------
+Included Elements:
+- User metadata (name, creation date, gender)
+  Rationale: Provides user context baseline
+- Article context (title, publication date, channel, ressort)
+  Rationale: Establishes discussion context
+- Comment content (text, headlines, timestamps)
+  Rationale: Captures user expression and temporal context
+- Thread structure (parent-child relationships)
+  Rationale: Preserves conversation flow and interaction context
+
+Excluded Elements:
+- Technical IDs (except for reference)
+- Millisecond precision timestamps
+- System metadata
+Rationale: Avoid noise in emotional context analysis
+
+2.2 Format Structure
+------------------
+Hierarchy:
+1. User Overview
+   - Basic user information
+   - Account context
+2. Article Sections
+   - Article metadata
+   - Discussion context
+3. Comment Threads
+   - Hierarchical comment structure
+   - Temporal progression
+   - Interaction context
+
+3. IMPLEMENTATION CONSIDERATIONS
+==============================
+
+3.1 Data Quality
+---------------
+- UTF-8 encoding throughout pipeline
+- Explicit handling of missing values
+- Validation at each transformation step
+
+3.2 Performance Optimization
+--------------------------
+- Efficient data structures for thread building
+- Token-aware formatting
+- Batch processing capability
+
+3.3 Validation Strategy
+---------------------
+- Automated consistency checks between formats
+- Manual verification of sample sets
+- User count validation across transformations
+
+4. THEORETICAL ALIGNMENT
+=======================
+- Context preservation aligns with Barrett's theory
+- Rich contextual data supports emotion construction analysis
+- Format enables analysis of temporal and social aspects
+
+
+THEORETICAL ALIGNMENT DOCUMENTATION: PREPROCESSING PIPELINE
+
+1. BARRETT'S THEORY INTEGRATION
+==============================
+
+1.1 Core Theory Elements Support
+-------------------------------
+Purpose: Demonstrate how preprocessing aligns with key aspects of Barrett's theory
+
+Implementation Alignment:
+a) Context Dependency
+   - Preserves full conversation threads
+   - Maintains temporal relationships
+   - Captures social interactions
+   Rationale: Supports Barrett's view that emotions are context-dependent constructs
+
+b) Cultural and Social Factors
+   - Retains article themes and channels
+   - Preserves community interactions
+   - Maintains discussion context
+   Rationale: Enables analysis of cultural and social influences on emotion construction
+
+c) Individual Experience
+   - Tracks user history
+   - Preserves interaction patterns
+   - Maintains temporal progression
+   Rationale: Supports analysis of individual emotional construction patterns
+
+1.2 Theoretical Principles Implementation
+---------------------------------------
+a) Emotion Construction Context
+   - Article context provides situational framework
+   - Thread structure shows emotion development
+   - User history reveals personal patterns
+   Rationale: Enables analysis of how emotions are constructed in context
+
+b) Social Reality Integration
+   - Community interaction preservation
+   - Discussion theme maintenance
+   - Response patterns capture
+   Rationale: Supports analysis of social influence on emotion construction
+
+2. TECHNICAL EVOLUTION ENABLERS
+==============================
+
+2.1 LLM Context Window Evolution
+------------------------------
+Historical Progression:
+- BERT (2018): 512 tokens
+- GPT-3 (2020): 2048 tokens
+- GPT-3.5 (2022): 4096 tokens
+- Current Models: 2M+ tokens
+
+Impact on Implementation:
+- Enables full context preservation
+- Allows comprehensive user history analysis
+- Supports rich contextual processing
+Rationale: Technical advancement makes Barrett's theory implementation feasible
+
+2.2 Processing Capabilities
+-------------------------
+Evolution of Capabilities:
+- Token processing efficiency
+- Complex context understanding
+- Nuanced relationship processing
+
+Implementation Benefits:
+- Rich context sphere processing
+- Temporal relationship analysis
+- Social interaction understanding
+Rationale: Modern LLMs can process complex emotional contexts
+
+3. CONTEXT PRESERVATION AND EMOTION THEORY
+========================================
+
+3.1 Context Levels Integration
+----------------------------
+a) Immediate Context
+   - Comment content
+   - Direct responses
+   - Temporal proximity
+   Rationale: Captures immediate emotional construction
+
+b) Historical Context
+   - User activity patterns
+   - Community engagement history
+   - Topic involvement
+   Rationale: Supports analysis of emotional development
+
+c) Social Context
+   - Community interactions
+   - Discussion dynamics
+   - Response patterns
+   Rationale: Enables analysis of social influence on emotions
+
+3.2 Emotional Construction Elements
+--------------------------------
+Implementation Support for:
+- Situational Factors
+  * Article themes
+  * Discussion context
+  * Temporal aspects
+
+- Personal Factors
+  * User history
+  * Interaction patterns
+  * Response styles
+
+- Social Factors
+  * Community dynamics
+  * Interaction patterns
+  * Cultural references
+
+4. RESEARCH ALIGNMENT
+====================
+
+4.1 Problem Statement Support
+---------------------------
+- Enables context-rich analysis
+- Supports theoretical integration
+- Facilitates comprehensive emotion study
+
+4.2 Research Question Alignment
+-----------------------------
+- Provides structured context for LLM analysis
+- Enables theory-informed processing
+- Supports contextual richness requirements
+
+4.3 Methodological Support
+------------------------
+- Enables systematic context analysis
+- Supports theoretical framework application
+- Facilitates comprehensive evaluation
+
+
+IMPLEMENTATION ANALYSIS DOCUMENTATION: PREPROCESSING PIPELINE
+
+1. KEY DESIGN DECISIONS
+======================
+
+1.1 Data Transformation Strategy
+------------------------------
+Decision: Multi-step transformation (CSV → JSON → Markdown)
+Implementation:
+- Separate concerns for each transformation
+- Intermediate validation points
+- Progressive context building
+
+Implications:
++ Improved maintainability and debugging
++ Clear validation checkpoints
++ Flexible format adaptation
+- Additional processing overhead
+- Multiple storage formats required
+
+1.2 Context Sphere Structure
+--------------------------
+Decision: Hierarchical markdown format with selective metadata
+Implementation:
+- User-centric organization
+- Thread-based conversation preservation
+- Meaningful metadata selection
+
+Implications:
++ Optimized token usage
++ Enhanced readability
++ Clear context boundaries
+- Some metadata loss
+- Format conversion complexity
+
+1.3 Token Management
+------------------
+Decision: Token-aware formatting and sampling
+Implementation:
+- cl100k_base tokenizer usage
+- 5000-15k token sampling range
+- Efficient context representation
+
+Implications:
++ Controlled processing costs
++ Manageable sample sizes
++ Representative context preservation
+- Potential context truncation
+- Sample size limitations
+
+2. DATA QUALITY CONSIDERATIONS
+============================
+
+2.1 Input Data Handling
+----------------------
+Implemented Controls:
+a) Missing Value Management
+   - Explicit defaults ('Unknown', 'No Comment')
+   - Semantic preservation
+   - Consistent handling
+
+b) Character Encoding
+   - UTF-8 throughout pipeline
+   - German language support
+   - Special character handling
+
+c) Date Standardization
+   - ISO format conversion
+   - Temporal consistency
+   - Timezone handling
+
+2.2 Data Integrity Measures
+-------------------------
+a) Structural Integrity
+   - Thread hierarchy validation
+   - Reference consistency
+   - Metadata completeness
+
+b) Content Preservation
+   - Comment text integrity
+   - User attribution accuracy
+   - Context relationship maintenance
+
+2.3 Quality Assurance Points
+--------------------------
+Implementation:
+- Pre-processing validation
+- Transformation verification
+- Output format checking
+
+Controls:
+- Data type consistency
+- Relationship preservation
+- Content completeness
+
+3. VALIDATION APPROACH
+=====================
+
+3.1 Automated Validation
+----------------------
+Implementation:
+a) Count Validation
+   - User presence verification
+   - Comment count consistency
+   - Thread structure integrity
+
+b) Reference Checking
+   - Parent-child relationships
+   - User-comment associations
+   - Article-comment links
+
+c) Format Validation
+   - JSON structure verification
+   - Markdown formatting
+   - Token count validation
+
+3.2 Manual Verification
+---------------------
+Implementation:
+- 50-100 sample manual checks
+- Cross-format comparison
+- Content integrity verification
+
+Process:
+1. Sample Selection
+   - Representative coverage
+   - Various token lengths
+   - Different user patterns
+
+2. Verification Points
+   - CSV to JSON accuracy
+   - JSON to Markdown fidelity
+   - Context preservation
+
+3. Quality Metrics
+   - Content accuracy
+   - Structure preservation
+   - Context completeness
+
+3.3 Validation Effectiveness
+--------------------------
+Strengths:
++ Comprehensive coverage
++ Multiple validation layers
++ Both automated and manual checks
+
+Limitations:
+- Resource-intensive manual checks
+- Sample-based verification
+- Complex thread validation
+
+4. IMPLEMENTATION CHALLENGES
+==========================
+
+4.1 Identified Challenges
+-----------------------
+a) Performance Considerations
+   - Large dataset processing
+   - Complex thread building
+   - Multiple format conversions
+
+b) Quality Control
+   - Maintaining data integrity
+   - Ensuring context preservation
+   - Validating transformations
+
+4.2 Mitigation Strategies
+-----------------------
+Implemented Solutions:
+- Batch processing
+- Intermediate checkpoints
+- Structured validation
+
+Future Considerations:
+- Scalability improvements
+- Automated testing expansion
+- Performance optimization
