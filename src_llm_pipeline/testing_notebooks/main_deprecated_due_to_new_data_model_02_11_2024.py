@@ -1,3 +1,4 @@
+import importlib
 from pathlib import Path
 from dotenv import load_dotenv
 from langchain_core.output_parsers.pydantic import PydanticOutputParser
@@ -9,15 +10,18 @@ from uuid import uuid4
 from typing import Dict
 from datetime import datetime
 from langsmith import Client
+from data_models import EmotionAnalysisOutput
 from langchain_core.callbacks import StdOutCallbackHandler
 from langchain_core.runnables import RunnableConfig
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
 
-# Import the new data model
-from data_models import HolisticEmotionAnalysis
+
 
 # Load environment variables
 load_dotenv()
+
+# Dynamically import the module
+models = importlib.import_module("data_models")
 
 def load_system_prompt(filename: str) -> Dict[str, str]:
     folder = Path(f"./prompts/{prompts_version}")
@@ -27,7 +31,7 @@ def load_input(filename: str, folder: Path):
     return (folder / filename).read_text()
 
 def create_emotion_analysis_chain(model_temperature):
-    queries_schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
+    queries_schema = dereference_refs(EmotionAnalysisOutput.model_json_schema())
     queries_schema.pop("$defs", None)
 
     prompt = ChatPromptTemplate(
@@ -46,7 +50,8 @@ def create_emotion_analysis_chain(model_temperature):
         top_p=top_p
     )
 
-    parser = PydanticOutputParser(pydantic_object=HolisticEmotionAnalysis)
+    parser = PydanticOutputParser(pydantic_object=EmotionAnalysisOutput)
+
 
     return prompt | llm | parser
 
@@ -54,7 +59,7 @@ def process_input_files_batch(
         input_folder: Path,
         client: Client,
         model_temperature: float,
-        top_p: float,
+        top_p:float,
         enable_feedback: bool,
         enable_csv_output: bool,
         batch_size: int,
@@ -63,6 +68,7 @@ def process_input_files_batch(
     emotion_analysis_chain = create_emotion_analysis_chain(model_temperature=model_temperature)
     input_files = list(input_folder.glob("*.md"))
 
+    # Create a callback handler
     callback_handler = StdOutCallbackHandler()
 
     for i in range(0, len(input_files), batch_size):
@@ -83,10 +89,10 @@ def process_input_files_batch(
             callbacks=None,
             tags=["EA_Batch_"],
             metadata={"batch_id": batch_id,
-                     "temperature": model_temperature,
-                     "top_p": top_p,
-                     "model_name": model_name,
-                     "prompt_template_version": prompts_version},
+                      "temperature": model_temperature,
+                      "top_p":top_p,
+                      "model_name": model_name,
+                      "prompt_template_version": prompts_version},
             max_concurrency=max_concurrency,
             run_name="Batch Run: EA_Chain",
         )
@@ -106,44 +112,49 @@ def process_input_files_batch(
             if enable_feedback and run.id:
                 client.create_feedback(
                     run_id=run.id,
-                    key="Core Affect Analysis",
+                    key="Core Valence",
                     value=result.core_affect_analysis.valence,
-                    comment=result.core_affect_analysis.thought_process
+                    comment=result.core_affect_analysis.thought
                 )
                 client.create_feedback(
                     run_id=run.id,
-                    key="Cognitive Appraisal",
-                    value=result.cognitive_appraisal_and_conceptualization.analysis,
-                    comment=result.cognitive_appraisal_and_conceptualization.thought_process
+                    key="Core Arousal",
+                    value=result.core_affect_analysis.arousal,
+                    comment=result.core_affect_analysis.thought
                 )
                 client.create_feedback(
                     run_id=run.id,
-                    key="Holistic Profile",
-                    value=result.holistic_emotional_profile.nuanced_classification,
-                    comment=result.holistic_emotional_profile.description
+                    key="Aspect Extended",
+                    value=result.emotional_aspect_extended.nuanced_classification,
+                    comment=result.emotional_aspect_extended.thought
                 )
 
             if enable_csv_output:
                 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                save_output_to_csv(
-                    emotion_analysis=result,
-                    model_temperature=model_temperature,
-                    top_p=top_p,
-                    batch_id=batch_id,
-                    user_id=user_id,
-                    run_id=run.id,
-                    timestamp=timestamp,
-                    model_name=model_name,
-                    prompt_template_version=prompts_version
-                )
+                save_output_to_csv(emotion_analysis=result,
+                                   model_temperature=model_temperature,
+                                   top_p=top_p,
+                                   batch_id=batch_id,
+                                   user_id=user_id,
+                                   run_id=run.id,
+                                   timestamp=timestamp,
+                                   model_name=model_name,
+                                   prompt_template_version=prompts_version)
 
 if __name__ == "__main__":
     client = Client()
     input_folder = Path("./inputs/sp0")
 
+    # Configure which optional steps to perform
     enable_feedback = True
     enable_csv_output = True
-    
+    # Metadata variables maybe to externalize?
+    # model name
+    # model temperature
+    # batch run
+    # model configuration top_n etc.
+    # prompt folder v1 / v2 / v3 / ...
+
     prompts_version = "v3"
     model_name = "gemini-1.5-pro-002"
     top_p = 0

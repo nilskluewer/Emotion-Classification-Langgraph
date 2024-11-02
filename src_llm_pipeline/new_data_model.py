@@ -2,8 +2,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langchain_core.output_parsers.pydantic import PydanticOutputParser
 from langchain_core.utils.json_schema import dereference_refs
-from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from model import create_llm  # Assuming you have this utility function
+from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
+
+
 
 # Import your new data model
 from data_models import HolisticEmotionAnalysis
@@ -11,7 +13,7 @@ from data_models import HolisticEmotionAnalysis
 # Load environment variables
 load_dotenv()
 
-def load_system_prompt(filename: str, folder: Path) -> str:
+def load_system_prompt(filename: str) -> str:
     folder = Path(f"./prompts/{prompts_version}")
     return (folder / filename).read_text()
 
@@ -26,13 +28,11 @@ def create_emotion_analysis_chain(model_temperature: float):
     # Create a simple prompt template
     prompt = ChatPromptTemplate(
         messages=[
-            SystemMessagePromptTemplate.from_template(
-                "You are an expert in emotion analysis using Lisa Feldman Barrett's theory of constructed emotion. "
-                "Analyze the following context carefully."
-            ),
-            HumanMessagePromptTemplate.from_template("{context_sphere}")
+            SystemMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_setting_prompt.md"))),
+            AIMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_feedback_prompt.md"))),
+            HumanMessagePromptTemplate.from_template(str(load_system_prompt("user_task_prompt.md")))
         ]
-    )
+    ).partial(context_sphere="context_sphere")
 
     # Create the LLM
     llm = create_llm(
@@ -69,7 +69,7 @@ def process_single_input(input_folder: Path, model_temperature: float) -> None:
 if __name__ == "__main__":
     # Basic configuration
     input_folder = Path("./inputs/sp0")
-    prompts_version = "v3"
+    prompts_version = "v4"
     model_name = "gemini-1.5-pro-002"
     model_temperature = 0
 
