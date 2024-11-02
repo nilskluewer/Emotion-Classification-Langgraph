@@ -2,6 +2,12 @@ import os
 from data_models import HolisticEmotionAnalysis
 import csv
 
+def clean_text(text: str) -> str:
+    """Clean text by removing line breaks and escaping semicolons"""
+    if text is None:
+        return ""
+    return str(text).replace('\n', ' ').replace('\r', ' ').replace(';', ',').strip()
+
 def main(emotion_analysis: HolisticEmotionAnalysis, 
          model_temperature: float, 
          top_p: float,
@@ -16,7 +22,7 @@ def main(emotion_analysis: HolisticEmotionAnalysis,
     file_exists = os.path.isfile(filename)
 
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file, delimiter=";")
+        writer = csv.writer(file, delimiter=';', quoting=csv.QUOTE_MINIMAL, quotechar='"')
 
         if not file_exists:
             header = [
@@ -55,36 +61,37 @@ def main(emotion_analysis: HolisticEmotionAnalysis,
             ]
             writer.writerow(header)
 
+        # Clean and prepare row data
         row = [
-            timestamp,
-            run_id,
-            user_id,
-            batch_id,
-            model_name,
-            prompt_template_version,
+            clean_text(timestamp),
+            clean_text(run_id),
+            clean_text(user_id),
+            clean_text(batch_id),
+            clean_text(model_name),
+            clean_text(prompt_template_version),
             # Core Affect Analysis
-            emotion_analysis.core_affect_analysis.thought_process,
-            emotion_analysis.core_affect_analysis.valence,
-            emotion_analysis.core_affect_analysis.arousal,
-            emotion_analysis.core_affect_analysis.rationale,
+            clean_text(emotion_analysis.core_affect_analysis.thought_process),
+            clean_text(emotion_analysis.core_affect_analysis.valence),
+            clean_text(emotion_analysis.core_affect_analysis.arousal),
+            clean_text(emotion_analysis.core_affect_analysis.rationale),
             # Cognitive Appraisal
-            emotion_analysis.cognitive_appraisal_and_conceptualization.thought_process,
-            emotion_analysis.cognitive_appraisal_and_conceptualization.analysis,
-            emotion_analysis.cognitive_appraisal_and_conceptualization.rationale,
+            clean_text(emotion_analysis.cognitive_appraisal_and_conceptualization.thought_process),
+            clean_text(emotion_analysis.cognitive_appraisal_and_conceptualization.analysis),
+            clean_text(emotion_analysis.cognitive_appraisal_and_conceptualization.rationale),
             # Cultural and Social Context
-            emotion_analysis.cultural_and_social_context.thought_process,
-            emotion_analysis.cultural_and_social_context.discussion,
-            emotion_analysis.cultural_and_social_context.rationale,
+            clean_text(emotion_analysis.cultural_and_social_context.thought_process),
+            clean_text(emotion_analysis.cultural_and_social_context.discussion),
+            clean_text(emotion_analysis.cultural_and_social_context.rationale),
             # Emotion Construction
-            emotion_analysis.emotion_construction_analysis.analysis,
-            emotion_analysis.emotion_construction_analysis.rationale,
+            clean_text(emotion_analysis.emotion_construction_analysis.analysis),
+            clean_text(emotion_analysis.emotion_construction_analysis.rationale),
             # Emotional Dynamics
-            emotion_analysis.emotional_dynamics_and_changes.analysis,
-            emotion_analysis.emotional_dynamics_and_changes.rationale,
+            clean_text(emotion_analysis.emotional_dynamics_and_changes.analysis),
+            clean_text(emotion_analysis.emotional_dynamics_and_changes.rationale),
             # Holistic Profile
-            emotion_analysis.holistic_emotional_profile.description,
-            emotion_analysis.holistic_emotional_profile.nuanced_classification,
-            emotion_analysis.holistic_emotional_profile.rationale,
+            clean_text(emotion_analysis.holistic_emotional_profile.description),
+            clean_text(emotion_analysis.holistic_emotional_profile.nuanced_classification),
+            clean_text(emotion_analysis.holistic_emotional_profile.rationale),
             # Model Parameters
             model_temperature,
             top_p

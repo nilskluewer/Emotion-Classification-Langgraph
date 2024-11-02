@@ -32,8 +32,8 @@ def create_emotion_analysis_chain(model_temperature):
 
     prompt = ChatPromptTemplate(
         messages=[
-            SystemMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_setting_prompt.md"))),
-            AIMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_feedback_prompt.md"))),
+            #SystemMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_setting_prompt.md"))),
+            #AIMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_feedback_prompt.md"))),
             HumanMessagePromptTemplate.from_template(str(load_system_prompt("user_task_prompt.md")))
         ]
     ).partial(context_sphere="context_sphere")
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     enable_feedback = True
     enable_csv_output = True
     
-    prompts_version = "v3"
+    prompts_version = "v5"
     model_name = "gemini-1.5-pro-002"
     top_p = 0
     model_temperature = 0

@@ -7,6 +7,14 @@
 
 
 # OFFEN ------ OFFEN
+# TODO: Possible evaluation. 
+# Was bringt ein system prompt, bringt das überhaupt was?
+# Grammatik korrekt? 
+# Wie ist die Sprache? 
+# Wie hoch ist abdeckung der vom user genaten themen 
+# usw. 
+# Sind die thoughts consistent? Coherent? Macht die ratinale sinn? 
+
 # TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
 #  emotiona anylsis extend. Input ist thought / output ist dann die classfication. Dann evaluieren wie auch
 #  in der survey, mit den gleichen fragne???
