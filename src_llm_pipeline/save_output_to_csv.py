@@ -1,6 +1,6 @@
-import os
 from data_models import HolisticEmotionAnalysis
 import csv
+from pathlib import Path
 
 def clean_text(text: str) -> str:
     """Clean text by removing line breaks and escaping semicolons"""
@@ -8,18 +8,27 @@ def clean_text(text: str) -> str:
         return ""
     return str(text).replace('\n', ' ').replace('\r', ' ').replace(';', ',').strip()
 
-def main(emotion_analysis: HolisticEmotionAnalysis, 
-         model_temperature: float, 
-         top_p: float,
-         batch_id: str, 
-         user_id: str, 
-         run_id: str,
-         timestamp: str, 
-         model_name: str,
-         prompt_template_version: str, 
-         filename: str = "emotion_analysis.csv"):
+def main(
+    emotion_analysis_input: str,
+    emotion_analysis: HolisticEmotionAnalysis, 
+    model_temperature: float, 
+    top_p: float,
+    batch_id: str, 
+    user_id: str, 
+    run_id: str,
+    timestamp: str, 
+    model_name: str,
+    prompt_template_version: str
+) -> str:
     
-    file_exists = os.path.isfile(filename)
+    # Create Analysis_Output directory if it doesn't exist
+    output_dir = Path("Analysis_Output")
+    output_dir.mkdir(exist_ok=True)
+    
+    # Create filename with batch_id
+    filename = output_dir / f"emotion_analysis_batch_{batch_id}.csv"
+    
+    file_exists = filename.exists()
 
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=';', quoting=csv.QUOTE_MINIMAL, quotechar='"')
@@ -32,6 +41,9 @@ def main(emotion_analysis: HolisticEmotionAnalysis,
                 "Batch ID", 
                 "Model Name", 
                 "Prompt Template Version",
+                # Model Parameters
+                "Model Temperature",
+                "Top P",
                 # Core Affect Analysis
                 "Core Affect Thought Process",
                 "Valence",
@@ -54,14 +66,10 @@ def main(emotion_analysis: HolisticEmotionAnalysis,
                 # Holistic Profile
                 "Holistic Description",
                 "Nuanced Classification",
-                "Holistic Rationale",
-                # Model Parameters
-                "Model Temperature",
-                "Top P"
+                "Holistic Rationale"
             ]
             writer.writerow(header)
 
-        # Clean and prepare row data
         row = [
             clean_text(timestamp),
             clean_text(run_id),
@@ -69,6 +77,9 @@ def main(emotion_analysis: HolisticEmotionAnalysis,
             clean_text(batch_id),
             clean_text(model_name),
             clean_text(prompt_template_version),
+            # Model Parameters
+            model_temperature,
+            top_p,
             # Core Affect Analysis
             clean_text(emotion_analysis.core_affect_analysis.thought_process),
             clean_text(emotion_analysis.core_affect_analysis.valence),
@@ -91,11 +102,8 @@ def main(emotion_analysis: HolisticEmotionAnalysis,
             # Holistic Profile
             clean_text(emotion_analysis.holistic_emotional_profile.description),
             clean_text(emotion_analysis.holistic_emotional_profile.nuanced_classification),
-            clean_text(emotion_analysis.holistic_emotional_profile.rationale),
-            # Model Parameters
-            model_temperature,
-            top_p
+            clean_text(emotion_analysis.holistic_emotional_profile.rationale)
         ]
         writer.writerow(row)
 
-    print(f"Data has been appended to {filename}")
+    return str(filename)
