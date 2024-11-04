@@ -1,4 +1,4 @@
-from data_models import HolisticEmotionAnalysis
+from utils.data_models import HolisticEmotionAnalysis
 import csv
 from pathlib import Path
 
@@ -22,7 +22,7 @@ def main(
 ) -> str:
     
     # Create Analysis_Output directory if it doesn't exist
-    output_dir = Path("Analysis_Output")
+    output_dir = Path("./outputs/csv_batch_results")
     output_dir.mkdir(exist_ok=True)
     
     # Create filename with batch_id

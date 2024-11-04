@@ -2,9 +2,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langchain_core.output_parsers.pydantic import PydanticOutputParser
 from langchain_core.utils.json_schema import dereference_refs
-from model import create_llm
-from save_output_to_csv import main as save_output_to_csv
-from langsmith_dataset import create_langsmith_dataset
+from utils.model import create_llm
+from utils.save_output_to_csv import main as save_output_to_csv
+from utils.langsmith_dataset import create_langsmith_dataset
 from langchain_core.tracers.context import collect_runs
 from uuid import uuid4
 from typing import Dict
@@ -14,13 +14,13 @@ from langchain_core.runnables import RunnableConfig
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
 
 # Import the new data model
-from data_models import HolisticEmotionAnalysis
+from utils.data_models import HolisticEmotionAnalysis
 
 # Load environment variables
 load_dotenv()
 
 def load_system_prompt(filename: str) -> Dict[str, str]:
-    folder = Path(f"./prompts/{prompts_version}")
+    folder = Path(f"./inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
 
 def load_input(filename: str, folder: Path):
@@ -171,14 +171,14 @@ def process_input_files_batch(
 
 if __name__ == "__main__":
     client = Client()
-    input_folder = Path("./inputs/sp0")
+    input_folder = Path("./inputs/sp1")
 
     enable_feedback = True
     enable_csv_output = True
     enable_dataset_creation = True  # New configuration
     
     prompts_version = "v5"
-    model_name = "gemini-1.5-flash-002"
+    model_name = "gemini-1.5-pro-002"
     top_p = 0
     model_temperature = 0
     test_set = ""
@@ -192,6 +192,6 @@ if __name__ == "__main__":
         enable_feedback=enable_feedback,
         enable_csv_output=enable_csv_output,
         enable_dataset_creation=enable_dataset_creation,  # New parameter
-        batch_size=1,
-        max_concurrency=1
+        batch_size=10,
+        max_concurrency=10
     )
