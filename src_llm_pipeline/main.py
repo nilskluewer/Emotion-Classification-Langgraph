@@ -19,6 +19,7 @@ from utils.data_models import HolisticEmotionAnalysis
 # Load environment variables
 load_dotenv()
 
+
 def load_system_prompt(filename: str) -> Dict[str, str]:
     folder = Path(f"./inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
@@ -29,11 +30,59 @@ def load_input(filename: str, folder: Path):
 def create_emotion_analysis_chain(model_temperature):
     queries_schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
     queries_schema.pop("$defs", None)
+    """
+    # Add propertyOrder to all levels
+    queries_schema["propertyOrder"] = [
+        "core_affect_analysis",
+        "cognitive_appraisal_and_conceptualization",
+        "cultural_and_social_context",
+        "emotion_construction_analysis",
+        "emotional_dynamics_and_changes",
+        "holistic_emotional_profile"
+    ]
+
+    # Add propertyOrder for nested objects
+    queries_schema["properties"]["core_affect_analysis"]["propertyOrder"] = [
+        "thought_process",
+        "valence",
+        "arousal",
+        "rationale"
+    ]
+
+    queries_schema["properties"]["cognitive_appraisal_and_conceptualization"]["propertyOrder"] = [
+        "thought_process",
+        "analysis",
+        "rationale"
+    ]
+
+    queries_schema["properties"]["cultural_and_social_context"]["propertyOrder"] = [
+        "thought_process",
+        "discussion",
+        "rationale"
+    ]
+
+    queries_schema["properties"]["emotion_construction_analysis"]["propertyOrder"] = [
+        "analysis",
+        "rationale"
+    ]
+
+    queries_schema["properties"]["emotional_dynamics_and_changes"]["propertyOrder"] = [
+        "analysis",
+        "rationale"
+    ]
+
+    queries_schema["properties"]["holistic_emotional_profile"]["propertyOrder"] = [
+        "description",
+        "nuanced_classification",
+        "rationale"
+    ]
+    """
+    print(queries_schema)
 
     prompt = ChatPromptTemplate(
         messages=[
-            SystemMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_setting_prompt.md"))),
-            AIMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_feedback_prompt.md"))),
+            #SystemMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_setting_prompt.md"))),
+            #AIMessagePromptTemplate.from_template(str(load_system_prompt("LFB_role_feedback_prompt.md"))),
             HumanMessagePromptTemplate.from_template(str(load_system_prompt("user_task_prompt.md")))
         ]
     ).partial(context_sphere="context_sphere")
@@ -171,7 +220,7 @@ def process_input_files_batch(
 
 if __name__ == "__main__":
     client = Client()
-    input_folder = Path("./inputs/sp1")
+    input_folder = Path("./inputs/sp0")
 
     enable_feedback = True
     enable_csv_output = True

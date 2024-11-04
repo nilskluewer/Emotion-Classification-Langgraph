@@ -1,4 +1,153 @@
 from pydantic import BaseModel, Field
+
+# CoreAffectAnalysis captures fluctuations in basic emotional states—valence and arousal.
+class CoreAffectAnalysis(BaseModel):
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Detail the step-by-step reasoning in analyzing core affect, considering valence (pleasantness) and arousal (activation). "
+            "Reference specific expressions, language, and contextual factors influencing the user's core affect."
+        )
+    )
+    valence: str = Field(
+        ...,
+        description="Classify the valence of the user's emotional state (e.g., positive, neutral, negative), noting any fluctuations."
+    )
+    arousal: str = Field(
+        ...,
+        description="Classify the arousal level of the user's emotional state (e.g., low, moderate, high), indicating activation or energy levels."
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "Provide theoretical justification for your analysis, explaining how Barrett's concepts of core affect support your conclusions. "
+            "Include brief citations where appropriate."
+        )
+    )
+
+# CognitiveAppraisalAndConceptualization examines how the user's interpretations and knowledge shape emotions.
+class CognitiveAppraisalAndConceptualization(BaseModel):
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Detail the reasoning in analyzing the user's cognitive appraisals and conceptualizations. "
+            "Reference specific interpretations, judgments, language use, and conceptual knowledge."
+        )
+    )
+    analysis: str = Field(
+        ...,
+        description="Present your findings on how the user's interpretations and conceptual knowledge contribute to their emotional construction."
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "Explain your reasoning with theoretical support from Barrett's work, illustrating how these cognitive processes shape the user's emotions. "
+            "Include brief citations."
+        )
+    )
+
+# CulturalAndSocialContext considers societal and cultural influences on emotions.
+class CulturalAndSocialContext(BaseModel):
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Analyze the situational, cultural, and social contextual factors influencing the user's emotions. "
+            "Include relevant past experiences and expectations."
+        )
+    )
+    analysis: str = Field(
+        ...,
+        description=(
+            "Discuss how cultural norms, societal values, social interactions, and predictions based on past experiences influence the user's emotions."
+        )
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "Provide theoretical justification, explaining how Barrett's theory accounts for the impact of these factors on emotional experiences. "
+            "Include brief citations."
+        )
+    )
+
+# EmotionConstructionAnalysis synthesizes how affect, cognition, and context interact to construct emotions.
+class EmotionConstructionAnalysis(BaseModel):
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Explain your reasoning in synthesizing insights from core affect, cognitive appraisals, conceptualization, and cultural/social context."
+        )
+    )
+    analysis: str = Field(
+        ...,
+        description=(
+            "Present your findings on how the user's emotions are dynamically constructed through the interplay of these elements."
+        )
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "Demonstrate how Barrett's dynamic interaction model supports your analysis, using evidence from the context. "
+            "Include brief citations."
+        )
+    )
+
+# EmotionalDynamicsAndChanges tracks emotional shifts over time.
+class EmotionalDynamicsAndChanges(BaseModel):
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Detail your reasoning in analyzing emotional dynamics and changes over time within the user's interactions."
+        )
+    )
+    analysis: str = Field(
+        ...,
+        description=(
+            "Identify changes or fluctuations in the user's emotions throughout their interactions, noting shifts in valence and arousal."
+        )
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "Explain how these dynamics reflect the user's emotional processing over time, referencing Barrett's concepts. "
+            "Include brief citations."
+        )
+    )
+
+# HolisticEmotionalProfile integrates insights to describe the user's overall emotional state.
+class HolisticEmotionalProfile(BaseModel):
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Integrate all insights from your analyses to compose a holistic emotional profile of the user."
+        )
+    )
+    description: str = Field(
+        ...,
+        description=(
+            "Provide a nuanced, context-dependent description of the user's overall emotional profile, avoiding fixed labels."
+        )
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "Explain your reasoning clearly, synthesizing insights from all analyses, and relating it to Barrett's theoretical framework. "
+            "Include brief citations."
+        )
+    )
+
+# HolisticEmotionAnalysis encompasses all aspects of the analysis.
+class HolisticEmotionAnalysis(BaseModel):
+    core_affect_analysis: CoreAffectAnalysis
+    cognitive_appraisal_and_conceptualization: CognitiveAppraisalAndConceptualization
+    cultural_and_social_context: CulturalAndSocialContext
+    emotion_construction_analysis: EmotionConstructionAnalysis
+    emotional_dynamics_and_changes: EmotionalDynamicsAndChanges
+    holistic_emotional_profile: HolisticEmotionalProfile
+    
+    
+ # TODO: Update the data model classes to include the necessary fields and descriptions.   
+    
+from pydantic import BaseModel, Field
 # The following classes are used to define the data model for the output of the emotion analysis pipeline.
 
 # CoreAffectAnalysis captures fluctuations in basic emotional states—valence and arousal—providing a foundational understanding of user's affective experiences.
