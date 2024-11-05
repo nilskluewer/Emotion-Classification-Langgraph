@@ -22,6 +22,7 @@ from datetime import datetime
 from langsmith import Client
 from langchain_core.runnables import RunnableConfig
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
+from utils.data_models import HolisticEmotionAnalysis
 
 
 # Load environment variables
@@ -86,175 +87,13 @@ def add_specific_property_ordering(schema):
     
     return schema
 
-schema = {
-  "type": "object",
-  "title": "HolisticEmotionAnalysis",
-  "required": [
-    "core_affect_analysis",
-    "cognitive_appraisal_and_conceptualization",
-    "cultural_and_social_context",
-    "emotion_construction_analysis",
-    "emotional_dynamics_and_changes",
-    "holistic_emotional_profile"
-  ],
-  "properties": {
-    "core_affect_analysis": {
-      "type": "object",
-      "title": "CoreAffectAnalysis",
-      "required": [
-        "thought_process",
-        "valence",
-        "arousal",
-        "rationale"
-      ],
-      "properties": {
-        "thought_process": {
-          "type": "string",
-          "title": "Thought Process",
-          "description": "Provide a detailed thought process for analyzing core affect, considering both valence (pleasantness) and arousal (activation), and noting any emotional dynamics or changes over time. Reference specific expressions, language, and contextual factors."
-        },
-        "valence": {
-          "type": "string",
-          "title": "Valence",
-          "description": "Classify the valence of the user's emotional state, noting any fluctuations."
-        },
-        "arousal": {
-          "type": "string",
-          "title": "Arousal",
-          "description": "Classify the arousal level of the user's emotional state, indicating activation or energy levels, and any changes over time."
-        },
-        "rationale": {
-          "type": "string",
-          "title": "Rationale",
-          "description": "**Include a clear rationale explaining how you arrived at your conclusions, supported by observations.**"
-        }
-      }
-    },
-    "cognitive_appraisal_and_conceptualization": {
-      "type": "object",
-      "title": "CognitiveAppraisalAndConceptualization",
-      "required": [
-        "thought_process",
-        "analysis",
-        "rationale"
-      ],
-      "properties": {
-        "thought_process": {
-          "type": "string",
-          "title": "Thought Process",
-          "description": "Provide a detailed thought process for analyzing the user's cognitive appraisals and conceptualizations. Reference specific interpretations, judgments, language use, and conceptual knowledge."
-        },
-        "analysis": {
-          "type": "string",
-          "title": "Analysis",
-          "description": "Analyze how the user's interpretations and conceptual knowledge contribute to the construction of their emotions."
-        },
-        "rationale": {
-          "type": "string",
-          "title": "Rationale",
-          "description": "**Explain your reasoning by illustrating how these cognitive processes shape the user's emotional experiences.**"
-        }
-      }
-    },
-    "cultural_and_social_context": {
-      "type": "object",
-      "title": "CulturalAndSocialContext",
-      "required": [
-        "thought_process",
-        "discussion",
-        "rationale"
-      ],
-      "properties": {
-        "thought_process": {
-          "type": "string",
-          "title": "Thought Process",
-          "description": "Examine situational, cultural, and social contextual factors influencing the user's emotions, including past experiences and expectations."
-        },
-        "discussion": {
-          "type": "string",
-          "title": "Discussion",
-          "description": "Discuss how cultural norms, societal values, social interactions, and predictions based on past experiences influence the user's emotional experiences."
-        },
-        "rationale": {
-          "type": "string",
-          "title": "Rationale",
-          "description": "**Provide a rationale explaining the impact of these factors on the user's emotions, with supporting observations.**"
-        }
-      }
-    },
-    "emotion_construction_analysis": {
-      "type": "object",
-      "title": "EmotionConstructionAnalysis",
-      "required": [
-        "analysis",
-        "rationale"
-      ],
-      "properties": {
-        "analysis": {
-          "type": "string",
-          "title": "Analysis",
-          "description": "Synthesize how the user's emotions are constructed through the interplay of core affect, cognitive appraisals, conceptualization, and contextual factors."
-        },
-        "rationale": {
-          "type": "string",
-          "title": "Rationale",
-          "description": "**Explain your reasoning by integrating insights from previous sections to demonstrate the dynamic construction of emotions.**"
-        }
-      }
-    },
-    "emotional_dynamics_and_changes": {
-      "type": "object",
-      "title": "EmotionalDynamicsAndChanges",
-      "required": [
-        "analysis",
-        "rationale"
-      ],
-      "properties": {
-        "analysis": {
-          "type": "string",
-          "title": "Analysis",
-          "description": "Indicate any changes or fluctuations in the user's emotions throughout their interactions, noting shifts in valence and arousal."
-        },
-        "rationale": {
-          "type": "string",
-          "title": "Rationale",
-          "description": "**Explain how these emotional dynamics reflect the user's emotional processing and construction over time.**"
-        }
-      }
-    },
-    "holistic_emotional_profile": {
-      "type": "object",
-      "title": "HolisticEmotionalProfile",
-      "required": [
-        "description",
-        "nuanced_classification",
-        "rationale"
-      ],
-      "properties": {
-        "description": {
-          "type": "string",
-          "title": "Description",
-          "description": "Describe the user's overall emotional profile in a nuanced, context-dependent manner, avoiding fixed emotion labels and acknowledging complexity."
-        },
-        "nuanced_classification": {
-          "type": "string",
-          "title": "Nuanced Classification",
-          "description": "Provide a nuanced classification of the user's emotional state, integrating insights from the analysis. Use emotion labels if appropriate, acknowledging their constructed nature."
-        },
-        "rationale": {
-          "type": "string",
-          "title": "Rationale",
-          "description": "**Provide a rationale that synthesizes insights from previous sections to present a coherent emotional profile.**"
-        }
-      }
-    }
-  }
-}
+schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
+schema.pop("$defs", None)
 
 # Assuming your original schema is stored in a variable called 'schema'
-schema_with_specific_ordering = add_specific_property_ordering(schema)
+#schema_with_specific_ordering = add_specific_property_ordering(schema)
 
-print(schema_with_specific_ordering)
+print("\n --- schema --- ", schema, "\n --- schema --- \n")
 
 
 prompt = """
@@ -699,7 +538,7 @@ def call_google(reponse_schema, messages: List[dict], model: str = "gemini-1.5-p
         prompt,
         generation_config=GenerationConfig(
             response_mime_type="application/json", 
-            response_schema=schema_with_specific_ordering,
+            response_schema=reponse_schema,
             temperature=temperature,
             top_p=0.0,
             
@@ -707,14 +546,14 @@ def call_google(reponse_schema, messages: List[dict], model: str = "gemini-1.5-p
             
         ),
     )
-    return response.text
+    return response
     
     
 
 
 
-response = call_google(schema_with_specific_ordering, messages=[{"content": prompt}])
-print(response.text)
+response = call_google(reponse_schema = schema, messages=[{"content": prompt}])
+print("\n --- output ---",response.text, "\n --- output --- \n")
 
 prompts_version = "v5"
 

@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field
+from typing import Dict, Any
 
 # CoreAffectAnalysis captures fluctuations in basic emotional states—valence and arousal.
 class CoreAffectAnalysis(BaseModel):
@@ -233,8 +234,7 @@ class HolisticEmotionalProfile(BaseModel):
         ...,
         description="Provide a nuanced classification of the user's emotional state, integrating insights from the analysis. Use emotion labels if appropriate, acknowledging their constructed nature."
     )
-    rationale: str = Field(
-        ...,
+    rationale: str = Field(...,
         description="**Provide a rationale that synthesizes insights from previous sections to present a coherent emotional profile.**"
     )
 
@@ -245,3 +245,16 @@ class HolisticEmotionAnalysis(BaseModel):
     emotion_construction_analysis: EmotionConstructionAnalysis
     emotional_dynamics_and_changes: EmotionalDynamicsAndChanges
     holistic_emotional_profile: HolisticEmotionalProfile
+    
+    @classmethod
+    def model_json_schema(cls, **kwargs) -> Dict[str, Any]:
+        schema = super().model_json_schema(**kwargs)
+        schema["propertyOrdering"] = [
+            "core_affect_analysis",
+            "cognitive_appraisal_and_conceptualization",
+            "cultural_and_social_context",
+            "emotion_construction_analysis",
+            "emotional_dynamics_and_changes",
+            "holistic_emotional_profile"
+        ]
+        return schema

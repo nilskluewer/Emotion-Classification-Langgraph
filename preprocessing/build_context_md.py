@@ -1,19 +1,26 @@
 import json
 import os
 import pickle
-import pandas as pd
 import tiktoken
 from tqdm import tqdm  # Importiere tqdm für Fortschrittsanzeige
-
 from datetime import datetime
-from dateutil import parser
+import locale
 
 def format_date(date_string):
     """
     Formats a given date string to include only up to minutes.
     Utilizes a flexible parser to handle various date formats.
     """
-    return date_string[:16]
+    # Setzt die Locale auf Deutsch für macOS
+    locale.setlocale(locale.LC_TIME, 'de_AT.UTF-8') 
+    
+    # Parse den ursprünglichen Datumsstring
+    date_object = datetime.strptime(date_string[:16], "%Y-%m-%dT%H:%M")
+
+    # Formatiere das Datum in das gewünschte Format
+    formatted_date = date_object.strftime("%-d. %B %Y, %H:%M Uhr")
+
+    return formatted_date
 
 # Token-Zählfunktion definieren
 def count_tokens(text):
@@ -90,15 +97,19 @@ def generate_comment_markdown(comments, level=0):
 
     for comment in comments:
         # Sicherstellen, dass immer eine Headline angezeigt wird
+        if level == 0:
+            markdown += f"{indent}> {comment['user_name']} schreibt:\n"
+        else:
+            markdown += f"{indent}> {comment['user_name']} antwortet:\n"
         headline = comment.get('comment_headline')
         if not headline:
             headline = "Empty Heading"
 
         # Füge Headline zum Markdown-Output hinzu
-        markdown += f"{indent}> *Headline*: {headline}\n"
-        markdown += f"{indent}{comment['user_name']} schreibt:\n"
-        markdown += f"{indent}> {comment['comment_text']}\n"
-        markdown += f"{indent}> Erstellt am {format_date(comment['comment_created_at'])}\n\n"
+        markdown += f"{indent}> **Headline**: {headline}\n"
+        
+        markdown += f"{indent}> **Kommentar**: {comment['comment_text']}\n"
+        markdown += f"{indent}> **Erstellt am** {format_date(comment['comment_created_at'])}\n\n"
         
         if 'replies' in comment and comment['replies']:
             markdown += generate_comment_markdown(comment['replies'], level + 1)
@@ -144,8 +155,9 @@ def process_user_comments(data, target_user_id):
             target_user_name, target_gender, target_created_at = user_details
 
         header = f"### {article['article_title']}\n"
-        header += f"- Artikel ID: {article['article_id']}\n"
-        header += f"- Veröffentlicht am: {article['article_publish_date']}\n"
+        # ID itself has no meaning for classification
+        #header += f"- Artikel ID: {article['article_id']}\n"
+        header += f"- Veröffentlicht am: {format_date(article['article_publish_date'])}\n"
         header += f"- Kanal: {article['article_channel']}\n"
         header += f"- Ressort: {article['article_ressort_name']}\n"
         header += f"- Gesamtanzahl Kommentare: {article['total_comments']}\n\n"
@@ -162,9 +174,10 @@ def process_user_comments(data, target_user_id):
         intro = f"# Benutzeraktivität von {target_user_name}\n\n"
         intro += "## Benutzerdetails\n"
         intro += f"- Benutzername: {target_user_name}\n"
-        intro += f"- Benutzer-ID: {target_user_id}\n"
+        # Has no relevance for classification
+        #intro += f"- Benutzer-ID: {target_user_id}\n"
         intro += f"- Geschlecht: {target_gender}\n"
-        intro += f"- Konto erstellt am: {target_created_at}\n\n---\n\n"
+        intro += f"- Konto erstellt am: {format_date(target_created_at)}\n\n---\n\n"
         intro += "## Kommentare und Threads\n\n"
 
         complete_content = intro + all_user_comments
@@ -215,60 +228,5 @@ def process_all_users():
         process_user_comments(data, user_id)
 
 
-def test_specific_user_markdown(data, user_id=518684):
-    """
-    Generates a Markdown file for a specific user ID to validate 
-    the handling of nested comment structures and user detail extraction.
-    
-    Parameters:
-    - data: The JSON data containing all articles and comments.
-    - user_id (int): The target user ID for which to generate the Markdown document.
-    """
-    all_user_comments = ""
-    target_user_name, target_gender, target_created_at = "Unbekannt", "Unbekannt", "Unbekannt"
-
-    for article_id, article in data.items():
-        # Attempt to extract the user's details and comments
-        user_details = find_user_details_in_comments(article.get('comment_threads', []), user_id)
-        if user_details:
-            target_user_name, target_gender, target_created_at = user_details
-
-        # Prepare the article header for the markdown
-        header = f"### {article['article_title']}\n"
-        header += f"- Artikel ID: {article['article_id']}\n"
-        header += f"- Veröffentlicht am: {article['article_publish_date']}\n"
-        header += f"- Kanal: {article['article_channel']}\n"
-        header += f"- Ressort: {article['article_ressort_name']}\n"
-        header += f"- Gesamtanzahl Kommentare: {article['total_comments']}\n\n"
-        header += "#### Kommentare\n"
-
-        comments = article.get('comment_threads', [])
-        user_comments = filter_comments_by_user(comments, user_id)
-        body = generate_comment_markdown(user_comments)
-
-        if body:
-            all_user_comments += header + body + "\n\n"
-
-    if all_user_comments:
-        intro = f"# Benutzeraktivität von {target_user_name}\n\n"
-        intro += "## Benutzerdetails\n"
-        intro += f"- Benutzername: {target_user_name}\n"
-        intro += f"- Benutzer-ID: {user_id}\n"
-        intro += f"- Geschlecht: {target_gender}\n"
-        intro += f"- Konto erstellt am: {target_created_at}\n\n---\n\n"
-        intro += "## Kommentare und Threads\n\n"
-
-        complete_content = intro + all_user_comments
-        token_count = count_tokens(complete_content)
-        comments_count = complete_content.count('schreibt:')  # Count the number of comments
-
-        filename = os.path.join(output_folder, f"user_{user_id}_test_comments_{token_count}_tokens.md")
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(complete_content)
-
-        print(f"Test Markdown file for user ID {user_id} created: {filename}")
-
-# Example usage
-#test_specific_user_markdown(data, user_id=360)
 # Hauptaufruf
 process_all_users()
