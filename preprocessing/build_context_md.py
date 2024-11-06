@@ -109,7 +109,7 @@ def generate_comment_markdown(comments, level=0):
         markdown += f"{indent}> **Headline**: {headline}\n"
         
         markdown += f"{indent}> **Kommentar**: {comment['comment_text']}\n"
-        markdown += f"{indent}> **Erstellt am** {format_date(comment['comment_created_at'])}\n\n"
+        markdown += f"{indent}> **Kommentiert am** {format_date(comment['comment_created_at'])}\n\n"
         
         if 'replies' in comment and comment['replies']:
             markdown += generate_comment_markdown(comment['replies'], level + 1)
