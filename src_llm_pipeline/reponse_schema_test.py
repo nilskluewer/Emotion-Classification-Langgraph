@@ -19,12 +19,22 @@ vertexai.init(project="rd-ri-genai-dev-2352", location="europe-west4")
     
 
 
-prompts_version = "v5"
+prompts_version = "v6"
 
-def load_prompt(filename: str) -> str:
+def read_prompts(filename: str) -> str:
     """Load system prompt from file."""
     folder = Path(f"./inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
+
+
+def insert_context_sphere_into_prompt(context_file_name : Path, template_filename = "user_task_prompt.md") -> str:
+    # Read the template and context sphere from their respective files
+    template_content = read_prompts(template_filename)
+    context_sphere = context_file_name.read_text().strip()
+
+    # Use Python's str.format() to replace the placeholder
+    formatted_markdown_prompt = template_content.format(context_sphere=context_sphere)
+    return formatted_markdown_prompt
 
 def add_specific_property_ordering(schema):
     # Root level ordering
@@ -61,19 +71,21 @@ def add_specific_property_ordering(schema):
     
     # Emotion construction analysis ordering
     schema["properties"]["emotion_construction_analysis"]["propertyOrdering"] = [
+        "thought_process",
         "analysis",
         "rationale"
     ]
     
     # Emotional dynamics and changes ordering
     schema["properties"]["emotional_dynamics_and_changes"]["propertyOrdering"] = [
+        "thought_process",
         "analysis",
         "rationale"
     ]
     
     # Holistic emotional profile ordering
     schema["properties"]["holistic_emotional_profile"]["propertyOrdering"] = [
-        "description",
+        "thought_process",
         "nuanced_classification",
         "rationale"
     ]
@@ -176,20 +188,33 @@ def call_google(
         contents=formatted_prompt,
         generation_config=generation_config,
         safety_settings=safety_settings,
+        stream=False
     )
-    
-    return response.text
+    return response.text, response
 
 # Use the functions
 
-system_prompt = load_prompt("LFB_role_setting_prompt.md")
-feedback_prompt = load_prompt("LFB_role_feedback_prompt.md")
-task_prompt = load_prompt("prompt_testing.md")
+system_prompt = read_prompts("LFB_role_setting_prompt.md")
+feedback_prompt = read_prompts("LFB_role_feedback_prompt.md")
+
+task_prompt_with_context = insert_context_sphere_into_prompt(context_file_name=Path("./inputs/sp0/user_12698_comments_12365_tokens.md"))
 
 
-formatted_prompt = simulate_conversation(task_prompt)
-response_text = call_google(
+#print("\n --- TASK PROMPT --- \n", task_prompt_with_context, "\n --- output --- \n")
+
+role_play_prompt = simulate_conversation(task_prompt_with_context)
+
+
+
+print("\n --- ROLE PLAY PROMPT START --- \n", role_play_prompt, "\n --- ROLE PLAY PROMPT END --- \n")
+response_text, response = call_google(
     response_schema=schema_with_specific_ordering,
-    formatted_prompt=formatted_prompt
+    formatted_prompt=role_play_prompt,
+    model_name="gemini-1.5-pro-002",
 )
 print("\n --- output ---", response_text, "\n --- output --- \n")
+
+print("\n TOKEN USAGE \n")
+print(response.usage_metadata)
+
+

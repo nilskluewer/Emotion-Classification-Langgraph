@@ -154,25 +154,26 @@ def process_user_comments(data, target_user_id):
         if user_details:
             target_user_name, target_gender, target_created_at = user_details
 
-        header = f"### {article['article_title']}\n"
+        header = f"### Artikel: {article['article_title']}\n\n"
         # ID itself has no meaning for classification
         #header += f"- Artikel ID: {article['article_id']}\n"
         header += f"- Veröffentlicht am: {format_date(article['article_publish_date'])}\n"
         header += f"- Kanal: {article['article_channel']}\n"
         header += f"- Ressort: {article['article_ressort_name']}\n"
         header += f"- Gesamtanzahl Kommentare: {article['total_comments']}\n\n"
-        header += "#### Kommentare\n"
+        header += "#### Kommentare\n\n"
 
         comments = article.get('comment_threads', [])
         user_comments = filter_comments_by_user(comments, target_user_id)
         body = generate_comment_markdown(user_comments)
 
         if body:
-            all_user_comments += header + body + "\n\n"
+            all_user_comments += header + body
 
     if all_user_comments:
         intro = f"# Benutzeraktivität von {target_user_name}\n\n"
-        intro += "## Benutzerdetails\n"
+        intro += f"Es folgt die Benutzeraktivität von {target_user_name}\n\n"
+        intro += "## Benutzerdetails\n\n"
         intro += f"- Benutzername: {target_user_name}\n"
         # Has no relevance for classification
         #intro += f"- Benutzer-ID: {target_user_id}\n"

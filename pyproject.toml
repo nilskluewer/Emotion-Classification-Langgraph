@@ -24,7 +24,7 @@ jupyter = "*"
 vertexai = "*"
 langchain-google-vertexai = "*"
 
-langchain-anthropic = "^0.2.3"
+langchain-anthropic = "*"
 pytest = "^8.3.3"
 [build-system]
 requires = ["poetry-core"]
