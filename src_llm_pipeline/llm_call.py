@@ -9,9 +9,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langchain_core.utils.json_schema import dereference_refs
 from utils.data_models import HolisticEmotionAnalysis, add_specific_property_ordering
-from vertexai.generative_models import Content, Part
-from vertexai.generative_models import GenerativeModel, SafetySetting, Part
-from src_llm_pipeline.utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
+from vertexai.generative_models import GenerativeModel, SafetySetting, Part, Content
+from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
 from langsmith import RunTree
 from langsmith import Client
 from utils.enums import FINISH_REASON_MAP, CATEGORY_MAP
@@ -86,7 +85,7 @@ def simulate_conversation(task_prompt) -> List[Content]:
     name="EmotionAnalysis Request",
     tags=[f"{model_name}"],
 )
-def call_google(
+def request_emotion_analysis(
         response_schema: dict,
         prompt: List[Content],
         role_play_prompt_without_context_for_eval: List[Content],
@@ -109,7 +108,7 @@ def call_google(
         response_schema=response_schema,
         temperature=temperature,
         top_p=top_p,
-        max_output_tokens=50,  # Adjust as needed
+        max_output_tokens=8000,  # Adjust as needed
     )
 
     # Safety settings
@@ -132,7 +131,7 @@ def call_google(
             threshold=SafetySetting.HarmBlockThreshold.BLOCK_NONE
         ),
     ]
-    @traceable(name="llm")
+    @traceable(name="llm", run_type="llm")
     def call_api(prompt, generation_config, safety_settings) -> GenerationResponse:
         response = model.generate_content(
             contents=prompt,
@@ -144,43 +143,9 @@ def call_google(
     response = call_api(prompt=prompt,
                         generation_config=generation_config,
                         safety_settings=safety_settings)
-    print("RESPONSE: ", response)
-
-
-    @traceable(name="Response to Dict")
-    def transform_output(response: GenerationResponse) -> dict:
-        python_dict = json.loads(response.text)
-        return python_dict
-
-    # transform response.text into a python_dict for further processing
-    transform_output(response)
-
-    @traceable(name="Parse LLM response structure")
-    def parse_model_response_to_data_model_structure(input_text,target_schema) -> dict:
-        data = parse_emotion_analysis(text=input_text, schema=target_schema)
-        return data
-
-    parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
-                                                 target_schema=response_schema)
-
-
-    @traceable(name="Validate Output Format")
-    def validate_response_property_order(parsed_data, schema_with_specific_ordering) -> bool:
-        if check_property_ordering(parsed_data, schema_with_specific_ordering):
-            print("Output matches schema ordering exactly!")
-            print_emotion_analysis(parsed_data, width=200)
-            return True
-        else:
-            print("Warning: Output does not match schema ordering")
-            return False
-
-    # Feedback for loggin in Langsmith
-    client.create_feedback(
-        run_tree.id,
-        key = "llm_output_format_validation",
-        score = validate_response_property_order(parsed_data, response_schema),
-        comment = "1 = True: The model used the correct propertyOrder. False, the model did not!"
-    )
+    print("RAW RESPONSE: ", response)
+    
+    
     candidate = response.candidates[0]
     client.create_feedback(
         run_tree.id,
@@ -189,6 +154,7 @@ def call_google(
     )
     finish_reason_str = FINISH_REASON_MAP.get(candidate.finish_reason, "NOT DEFINED")
     client.create_feedback(run_tree.id, key="finishReason", value=finish_reason_str)
+
 
     # Iterate over the safty_ratings
     for idx, safety_rating in enumerate(candidate.safety_ratings):
@@ -229,7 +195,52 @@ def call_google(
         key="totalTokenCount",
         score=usage_metadata.total_token_count
     )
-    print("RAW RESPONSE", response)
+    
+    if finish_reason_str != "STOP":
+        raise ValueError("Model could not finish successfully due to reason: ", finish_reason_str)
+
+    
+
+    @traceable(name="Response to Dict", run_type="parser")
+    def transform_output(response: GenerationResponse) -> dict:
+        python_dict = json.loads(response.text)
+        return python_dict
+
+    # transform response.text into a python_dict for further processing
+    # Is similar to parse_model_response_to_data_model_structure, but this one trusts that google is doing the ordering
+    # of properties correctly.
+    #transform_output(response)
+
+
+    @traceable(name="Parse LLM response structure", run_type="parser")
+    def parse_model_response_to_data_model_structure(input_text,target_schema) -> dict:
+        data = parse_emotion_analysis(text=input_text, schema=target_schema)
+        return data
+
+    parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
+                                                 target_schema=response_schema)
+
+
+
+    @traceable(name="Validate Output Format", run_type="parser")
+    def validate_response_property_order(parsed_data, schema_with_specific_ordering) -> bool:
+        if check_property_ordering(parsed_data, schema_with_specific_ordering):
+            print("Output matches schema ordering exactly!")
+            print_emotion_analysis(parsed_data, width=200)
+            return True
+        else:
+            print("Warning: Output does not match schema ordering")
+            return False
+
+    # Feedback for loggin in Langsmith
+    client.create_feedback(
+        run_tree.id,
+        key = "llm_output_format_validation",
+        score = validate_response_property_order(parsed_data, response_schema),
+        comment = "1 = True: The model used the correct propertyOrder. False, the model did not!"
+    )
+
+
 
     return parsed_data
 
@@ -244,10 +255,10 @@ task_prompt_without_context = read_prompts("user_task_prompt.md")
 
 # Keep it in to validate if the Hallucination Eval works
 task_prompt_with_context = insert_context_sphere_into_prompt(
-    context_file_name=Path("./inputs/sp0/user_67780_comments_7522_tokens.md"))
+    context_file_name=Path("./inputs/sp0/user_604219_comments_12400_tokens.md"))
 
 # Keep in to check if Hallucination Eval works
-context_sphere = Path("./inputs/sp0/user_67780_comments_7522_tokens.md").read_text()
+context_sphere = Path("./inputs/sp0/user_604219_comments_12400_tokens.md").read_text()
 
 
 # print("\n --- TASK PROMPT --- \n", task_prompt_with_context, "\n --- output --- \n")
@@ -255,7 +266,7 @@ context_sphere = Path("./inputs/sp0/user_67780_comments_7522_tokens.md").read_te
 role_play_prompt = simulate_conversation(task_prompt_with_context)
 role_play_prompt_without_context = simulate_conversation(task_prompt_without_context)
 print("\n --- ROLE PLAY PROMPT START --- \n", role_play_prompt, "\n --- ROLE PLAY PROMPT END --- \n")
-parsed_data = call_google(
+parsed_data = request_emotion_analysis(
     response_schema=schema_with_specific_ordering,
     prompt=role_play_prompt,
     role_play_prompt_without_context_for_eval=role_play_prompt_without_context,

@@ -194,7 +194,7 @@ class HolisticEmotionAnalysis(BaseModel):
     cultural_and_social_context: CulturalAndSocialContext
     emotion_construction_analysis: EmotionConstructionAnalysis
     emotional_dynamics_and_changes: EmotionalDynamicsAndChanges
-    holistic_emotional_profile: HolisticEmotionalProfile
+#    holistic_emotional_profile: HolisticEmotionalProfile
 
 
 def add_specific_property_ordering(schema: Dict[str, Any]) -> Dict[str, Any]:
@@ -205,7 +205,7 @@ def add_specific_property_ordering(schema: Dict[str, Any]) -> Dict[str, Any]:
         "cultural_and_social_context",
         "emotion_construction_analysis",
         "emotional_dynamics_and_changes",
-        "holistic_emotional_profile"
+ #       "holistic_emotional_profile"
     ]
 
     # Core affect analysis ordering
@@ -243,12 +243,15 @@ def add_specific_property_ordering(schema: Dict[str, Any]) -> Dict[str, Any]:
         "analysis",
         "rationale"
     ]
-
+    """
     # Holistic emotional profile ordering
     schema["properties"]["holistic_emotional_profile"]["propertyOrdering"] = [
         "thought_process",
         "nuanced_classification",
         "rationale"
     ]
+    """
 
     return schema
+
+def add_specific_property_ordering_2(schema: Dict[str, Any]) -> Dict[str, Any]:
