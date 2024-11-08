@@ -1,9 +1,12 @@
-from typing import Dict, Any
+from typing import Dict, Any, List
 from pydantic import BaseModel, Field
+from typing import ClassVar
+
 # The following classes are used to define the data model for the output of the emotion analysis pipeline.
 
 # CoreAffectAnalysis captures fluctuations in basic emotional states—valence and arousal—providing a foundational understanding of the user's affective experiences.
 class CoreAffectAnalysis(BaseModel):
+
     """
     Do not be lazy while working on your tasks!
     """
@@ -158,36 +161,6 @@ class EmotionalDynamicsAndChanges(BaseModel):
         )
     )
 
-# HolisticEmotionalProfile integrates insights to describe the user's overall emotional state, avoiding fixed labels and embracing complexity and nuance.
-class HolisticEmotionalProfile(BaseModel):
-    """
-    Do not be lazy while working on your tasks!
-    """
-    thought_process: str = Field(
-        ...,
-        description=(
-            "Provide a step-by-step plan on how you want to conduct the nuanced_classification using the context and the already "
-            "generated analysis and thoughts. *Describe the user's overall emotional profile in a nuanced, "
-            "context-dependent manner, avoiding fixed emotion labels and acknowledging complexity. Reference specific examples "
-            "from the user's comments to support your classification.*"  # Added instruction to reference specific examples.
-        )
-    )
-    nuanced_classification: str = Field(
-        ...,
-        description=(
-            "Provide your nuanced classification planned in the thought_process of the user's emotional state, integrating insights "
-            "from the analysis. *Use emotion labels if appropriate, acknowledging their constructed nature, and support your "
-            "classification with specific examples from the user's comments.*"  # Added instruction to support classification with specific examples.
-        )
-    )
-    rationale: str = Field(
-        ...,
-        description=(
-            "**Provide a rationale that synthesizes insights from previous sections to present a coherent emotional profile, "
-            "*supported by specific examples from the text and your research.***"  # Added instruction to support rationale with specific examples.
-        )
-    )
-
 class HolisticEmotionAnalysis(BaseModel):
     core_affect_analysis: CoreAffectAnalysis
     cognitive_appraisal_and_conceptualization: CognitiveAppraisalAndConceptualization
@@ -243,15 +216,50 @@ def add_specific_property_ordering(schema: Dict[str, Any]) -> Dict[str, Any]:
         "analysis",
         "rationale"
     ]
-    """
-    # Holistic emotional profile ordering
-    schema["properties"]["holistic_emotional_profile"]["propertyOrdering"] = [
+
+
+    return schema
+
+def add_property_ordering_single_class(schema: Dict[str, Any]) -> Dict[str, Any]:
+    # Ordering for HolisticEmotionalProfile fields
+    schema["propertyOrdering"] = [
         "thought_process",
         "nuanced_classification",
         "rationale"
     ]
-    """
-
     return schema
 
-def add_specific_property_ordering_2(schema: Dict[str, Any]) -> Dict[str, Any]:
+# HolisticEmotionalProfile integrates insights to describe the user's overall emotional state, avoiding fixed labels and embracing complexity and nuance.
+class HolisticEmotionalProfile(BaseModel):
+    """
+    Do not be lazy while working on your tasks!
+    """
+    thought_process: str = Field(
+        ...,
+        description=(
+            "Provide a step-by-step plan on how you want to conduct the nuanced_classification using the context and the already "
+            "generated analysis and thoughts. *Describe the user's overall emotional profile in a nuanced, "
+            "context-dependent manner, avoiding fixed emotion labels and acknowledging complexity. Reference specific examples "
+            "from the user's comments to support your classification.*"  # Added instruction to reference specific examples.
+        )
+    )
+    nuanced_classification: str = Field(
+        ...,
+        description=(
+            "Provide a final nuanced classification using the previous analysis as basis."
+            "*Use emotion labels if appropriate, acknowledging their constructed nature, and support your "
+            "classification with specific examples from the user's comments.*"  # Added instruction to support classification with specific examples.
+        )
+    )
+    rationale: str = Field(
+        ...,
+        description=(
+            "**Provide a rationale that synthesizes insights from previous sections to present a coherent emotional profile, "
+            "*supported by specific examples from the text and your research.***"  # Added instruction to support rationale with specific examples.
+        )
+    )
+
+
+profile_schema = HolisticEmotionalProfile.model_json_schema()
+schema_with_order = add_property_ordering_single_class(profile_schema)
+print(schema_with_order)
