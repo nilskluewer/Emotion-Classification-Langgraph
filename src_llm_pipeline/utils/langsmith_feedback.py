@@ -2,7 +2,7 @@ from vertexai.generative_models import (
     FunctionDeclaration, GenerationConfig, GenerativeModel,
     GenerationResponse, SafetySetting, Part, Content
 )
-from enums import FINISH_REASON_MAP, CATEGORY_MAP
+from .enums import FINISH_REASON_MAP, CATEGORY_MAP
 
 def send_feedback_to_trace(response: GenerationResponse, client, run_tree):
     candidate = response.candidates[0]

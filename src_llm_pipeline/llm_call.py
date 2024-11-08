@@ -24,7 +24,7 @@ load_dotenv()
 
 client = Client()
 
-model_name = "gemini-1.5-pro-002"
+model_name = "gemini-1.5-flash-002"
 
 vertexai.init(project="rd-ri-genai-dev-2352", location="europe-west1")
 
@@ -188,10 +188,7 @@ def request_emotion_analysis(
             # Append the Content object to the messages list
             prompt.append(content_from_response)
 
-            second_task_prompt = Content(role="user", parts=[Part.from_text("Hey thank you for this great work. Please"
-                                                                     "provide a final in depth analysis of the user."
-                                                                     "Take your time an go step-by-step. Using extensive"
-                                                                     "example to ground your classification. Try to encompass and include as much from your previous response! ")])
+            second_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("user_task_followup_prompt.md"))])
             prompt.append(second_task_prompt)
 
             print(prompt)
