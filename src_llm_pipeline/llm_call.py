@@ -17,6 +17,7 @@ from inputs.prompts.v7.data_models import HolisticEmotionAnalysis, HolisticEmoti
 from utils.model import default_safety_settings
 from utils.langsmith_feedback import send_feedback_to_trace
 from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
+from utils.enums import MESSAGE_MAP
 
 # Load environment variables
 load_dotenv()
@@ -93,7 +94,7 @@ def request_emotion_analysis(
         model_name: str = "gemini-1.5-flash-002",
         temperature: float = 1,
         top_p: float = 0.95,
-) -> tuple[Any, Any, Any]:
+) -> dict:
     """
     Call the Google Gemini API with basic configuration.
     """
@@ -133,6 +134,23 @@ def request_emotion_analysis(
     def transform_output(response: GenerationResponse) -> dict:
         python_dict = json.loads(response.text)
         return python_dict
+    
+    def transform_message_histroy(messages: List[Content]) -> dict:
+        for message in messages:
+            print(f"Role: {message.role}")
+            for part in message.parts:
+                print(f"Text: {part.text}")
+    @traceable(name="Final Output Parser", run_type="parser")
+    def convert_to_dict(messages: List[Content]) -> dict:
+        result_dict = {}
+        
+        for index, message in enumerate(messages):
+            key = f"{message.role}_message_{MESSAGE_MAP.get(index)}"
+            result_dict[key] = " ".join(part.text for part in message.parts)
+
+        result_dict["full_output_unstructured"] = str(messages)
+        
+        return result_dict
 
     # transform response.text into a python_dict for further processing
     # Is similar to parse_model_response_to_data_model_structure, but this one trusts that google is doing the ordering
@@ -161,12 +179,7 @@ def request_emotion_analysis(
     
 
     @traceable(name="Summarize Analysis", run_type="chain")
-    def create_holistic_analysis(response: GenerationResponse, prompt: List[Content]) -> tuple[Any, list[Content]]:
-        second_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("user_task_followup_prompt.md"))])
-
-        # Append to Conversation
-        append_message(prompt,second_task_prompt)
-        
+    def create_holistic_analysis(response: GenerationResponse, prompt: List[Content]) -> tuple[Any, list[Content]]: 
         try:
             print(prompt)
             generation_config_2 = GenerationConfig(
@@ -190,10 +203,7 @@ def request_emotion_analysis(
 
             content_from_response_2 = response_2.candidates[0].content
 
-            # Append the Content object to the messages list
-            prompt.append(content_from_response_2)
-
-            return python_dict, prompt
+            return python_dict, content_from_response_2
 
         except IndexError:
             print("Error")
@@ -226,12 +236,18 @@ def request_emotion_analysis(
 
     print_emotion_analysis(parsed_data, width=200)
 
-    holistic_profile, message_history = create_holistic_analysis(response=response, prompt=prompt)
-    append_message(prompt)
+    second_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("user_task_followup_prompt.md"))])
 
+    # Append to Conversation
+    prompt = append_message(prompt,second_task_prompt)
 
+    python_dict, content_from_response_2 = create_holistic_analysis(response=response, prompt=prompt)
+    message_history = append_message(prompt, content_from_response_2)
+    
 
-    return message_history
+    dict_list = convert_to_dict(message_history)
+    
+    return dict_list
 
 
 
@@ -293,7 +309,7 @@ def process_markdown_files_in_folder(batch_id, dataset_name):
         #create_langsmith_dataset(holistic_analysis, holistic_profile, message_history,
         #                         batch_id, dataset_name=dataset_name)
 
-        #results.append((holistic_analysis, holistic_profile, message_history))
+        results.append(result)
 
     return results  # Return after processing all files
 

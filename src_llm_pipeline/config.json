@@ -1,5 +1,5 @@
 {
-    "model_name": "gemini-1.5-pro-002",
+    "model_name": "gemini-1.5-flash-002",
     "prompt_version" : "v7",
     "sample_folder" : "sp0"
 }

@@ -7,7 +7,7 @@ from .enums import FINISH_REASON_MAP, CATEGORY_MAP
 def send_feedback_to_trace(response: GenerationResponse, client, run_tree):
     candidate = response.candidates[0]
     finish_reason_str = FINISH_REASON_MAP.get(candidate.finish_reason, "NOT DEFINED")
-    client.create_feedback(run_tree.id, key="finishReason", value=finish_reason_str)
+    client.create_feedback(run_tree.id, key="finishReason", value=finish_reason_str, feedback_source_type="model")
 
 
     # Iterate over the safty_ratings
@@ -20,13 +20,15 @@ def send_feedback_to_trace(response: GenerationResponse, client, run_tree):
             run_tree.id,
             key="prob_" + category_str,
             score=safety_rating.probability_score,
-            comment="Score for how probable the Harm is.  0 to 1. Low to High"
+            comment="Score for how probable the Harm is.  0 to 1. Low to High",
+            feedback_source_type="model"
         )
         client.create_feedback(
             run_tree.id,
             key="severity_" + category_str,
             score=safety_rating.severity_score,
-            comment="Score for how severe the Harm is. 0 to 1. Low to High"
+            comment="Score for how severe the Harm is. 0 to 1. Low to High",
+            feedback_source_type="model"
         )
 
 
@@ -37,17 +39,20 @@ def send_feedback_to_trace(response: GenerationResponse, client, run_tree):
     client.create_feedback(
         run_tree.id,
         key="promptTokenCount",
-        score=usage_metadata.prompt_token_count
+        score=usage_metadata.prompt_token_count,
+        feedback_source_type="model"
     )
     client.create_feedback(
         run_tree.id,
         key="responseTokenCount",
-        score=usage_metadata.candidates_token_count
+        score=usage_metadata.candidates_token_count,
+        feedback_source_type="model"
     )
     client.create_feedback(
         run_tree.id,
         key="totalTokenCount",
-        score=usage_metadata.total_token_count
+        score=usage_metadata.total_token_count,
+        feedback_source_type="model"
     )
 
     if finish_reason_str != "STOP":

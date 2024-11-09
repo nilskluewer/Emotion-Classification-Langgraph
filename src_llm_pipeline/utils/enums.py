@@ -42,3 +42,12 @@ SEVERITY_MAP = {
     4: "HARM_SEVERITY_EXTREME",
     # Add other severity levels if there are any
 }
+
+MESSAGE_MAP = {
+    0: "role_setting_prompt",
+    1: "role_feedback_prompt",
+    2: "user_task_prompt",
+    3: "llm_response_classification_1",
+    4: "user_task_followup_prompt",
+    5: "llm_response_classification_2",
+}
