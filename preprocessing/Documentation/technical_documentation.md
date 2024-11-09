@@ -226,15 +226,15 @@ def create_metadata_file(user_id, user_name, user_gender, user_created_at, total
 > **Purpose**: Provide insights into the distribution of tokens across the dataset to justify sampling decisions and demonstrate dataset characteristics.
 
 #### Overall Token Distribution
-![Distribution of Total Tokens with Outliers](./images/distribution_with_outliers.png)
+![Distribution of Total Tokens with Outliers](images/Oktober/distribution_with_outliers.png)
 *Figure 1: Distribution of total tokens including outliers, showing the full range of context sphere sizes*
 
 #### Cleaned Token Distribution
-![Distribution of Total Tokens without Outliers](./images/token_distribution_without_outliers.png)
+![Distribution of Total Tokens without Outliers](images/Oktober/token_distribution_without_outliers.png)
 *Figure 2: Distribution of total tokens excluding outliers, providing a clearer view of typical context sphere sizes*
 
 #### Token Range Analysis
-![Percentage of Files by Token Range](./images/token_range_percentage.png)
+![Percentage of Files by Token Range](images/Oktober/token_range_percentage.png)
 *Figure 3: Percentage distribution of files across token ranges, showing the concentration of context spheres by size*
 
 #### Key Observations

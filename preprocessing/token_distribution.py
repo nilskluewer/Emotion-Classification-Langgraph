@@ -94,7 +94,7 @@ def plot_range_distribution(results, output_directory):
     plt.close()
 
 if __name__ == "__main__":
-    directory_path = './Documentation'
+    directory_path = './Input_Output/Markdown'
     output_directory = './Documentation'
     os.makedirs(output_directory, exist_ok=True)
     
