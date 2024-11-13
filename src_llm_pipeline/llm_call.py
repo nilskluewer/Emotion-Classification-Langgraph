@@ -98,7 +98,8 @@ def configure_llm(model_name, generation_config : GenerationConfig) -> Generativ
     return GenerativeModel(model_name=model_name, generation_config=generation_config)
 
 
-@traceable(name="llm", run_type="llm")
+@traceable(name="llm", run_type="llm", metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
+           )
 def call_api(configured_llm: GenerativeModel, prompt: List[Content], safety_settings: list[default_safety_settings], run_tree: RunTree) -> GenerationResponse:
     run_tree = get_current_run_tree()
     response = configured_llm.generate_content(
@@ -106,8 +107,17 @@ def call_api(configured_llm: GenerativeModel, prompt: List[Content], safety_sett
         safety_settings=safety_settings,
         stream=False
     )
-    run_tree.extra["total_tokens"] = 9000
-    return response
+    usage_metadata = response.usage_metadata
+
+    dict = {
+        "response" : response,
+        "usage_metadata" : {
+            "input_tokens": usage_metadata.prompt_token_count,
+            "output_tokens": usage_metadata.candidates_token_count,
+            "total_tokens": usage_metadata.total_token_count,
+        },
+    }
+    return dict
 
 
 @traceable(name="Response to Dict", run_type="parser")
@@ -173,7 +183,7 @@ def analysis_with_structued_output(task_prompt_with_context,response_schema, tem
     response = call_api(configured_llm=configured_llm,
                         prompt=role_play_prompt,
                         safety_settings=default_safety_settings)
-
+    response = response["response"]
     send_feedback_to_trace(response =response,
                            client = client,
                            run_tree=run_tree)
@@ -216,7 +226,7 @@ def analysis_without_structued_output(prompt_with_response_1, temperature,top_p,
     response = call_api(configured_llm=configured_llm,
                         prompt=prompt_for_second_call,
                         safety_settings=default_safety_settings)
-
+    response = response["response"]
     send_feedback_to_trace(response =response,
                            client = client,
                            run_tree=run_tree)
