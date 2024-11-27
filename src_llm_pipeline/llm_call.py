@@ -1,8 +1,7 @@
 import json
 import uuid
 from pathlib import Path
-from typing import Any, List
-from langsmith.run_helpers import get_current_run_tree
+from typing import List
 
 import vertexai
 from dotenv import load_dotenv
@@ -10,7 +9,7 @@ from langchain_core.utils.json_schema import dereference_refs
 from langsmith import Client
 from langsmith import RunTree
 from langsmith.run_helpers import traceable
-from vertexai.generative_models import GenerativeModel, SafetySetting, Part, Content, GenerationConfig, \
+from vertexai.generative_models import GenerativeModel, Part, Content, GenerationConfig, \
     GenerationResponse
 
 from inputs.prompts.v7.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
@@ -35,8 +34,10 @@ prompts_version = config["prompt_version"]
 sample_folder = config["sample_folder"]
 debug_chain = config["debug_chain"]
 debug_schema = config["debug_schema"]
+llm_endpoint_location = config["llm_endpoint_location"]
+check_for_hallucinations = config["check_for_hallucinations"]
 
-vertexai.init(project="rd-ri-genai-dev-2352", location="us-central1")
+vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
 
 
 def read_prompts(filename: str) -> str:
@@ -94,10 +95,12 @@ def configure_llm(model_name, generation_config : GenerationConfig) -> Generativ
     return GenerativeModel(model_name=model_name, generation_config=generation_config)
 
 
-@traceable(name="LLM Call", run_type="llm", metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
+@traceable(name="LLM Call", run_type="llm", 
+           tags= ["api_call"], 
+           metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
            )
 def call_api(configured_llm: GenerativeModel, prompt: List[Content], safety_settings: list[default_safety_settings], run_tree: RunTree) -> GenerationResponse:
-    run_tree = get_current_run_tree()
+
     response = configured_llm.generate_content(
         contents=prompt,
         safety_settings=safety_settings,
@@ -135,7 +138,7 @@ def convert_to_dict(messages: List[Content]) -> dict:
     result_dict = {}
 
     for index, message in enumerate(messages):
-        key = f"{message.role}_message_{MESSAGE_MAP.get(index)}"
+        key = f"{message.role}-{MESSAGE_MAP.get(index)}"
         result_dict[key] = " ".join(part.text for part in message.parts)
 
     #result_dict["full_output_unstructured"] = str(messages)
@@ -261,7 +264,8 @@ def request_emotion_analysis_with_user_id(user_id: int,
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
-        tags=[f"{model_name}", f"User_ID: {user_id}"])
+        tags=[f"{model_name}", f"User_ID: {user_id}"],
+        metadata={"check_hallucinations": check_for_hallucinations})
     def request_emotion_analysis(context_sphere,run_tree : RunTree) -> dict:
         """
         Call the Google Gemini API with basic configuration.
@@ -270,11 +274,6 @@ def request_emotion_analysis_with_user_id(user_id: int,
         message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
         dict_list = convert_to_dict(message_history)
 
-        client.create_feedback(
-            run_tree.id,
-            key = "Run Complete",
-            value = f"User_ID: {user_id}",
-        )
         return  dict_list
 
     request_emotion_analysis(context_sphere = context_sphere_for_eval)
@@ -313,7 +312,7 @@ def create_dataset(parsed_data):
     print(parsed_data.core_affect_analysis)
     pass
 
-@traceable(name="Batch Processing Emotion Classifications", type="chain")
+#@traceable(name="Batch Processing Emotion Classifications", type="chain")
 def process_markdown_files_in_folder(batch_id, dataset_name):
     results = []  # To store the results for all processed files
     folder_path = Path(f"./inputs/{sample_folder}")
