@@ -80,17 +80,6 @@ def check_property_ordering(data: Dict, schema: Dict) -> bool:
 
     return True
 
-def print_formatted_section(title: str, content: str, width: int = 80):
-    """
-    Prints a formatted section with title and wrapped content.
-    """
-    separator = "=" * width
-    print(f"\n{separator}")
-    print(f"{title}")
-    print(f"{separator}")
-    wrapped_content = textwrap.fill(content, width=width)
-    print(f"{wrapped_content}\n")
-
 def print_emotion_analysis(data: Dict, width: int = 80):
     """
     Prints the emotion analysis data in a simplified format.

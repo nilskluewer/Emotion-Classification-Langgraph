@@ -33,8 +33,10 @@ with open('config.json', 'r') as config_file:
 model_name = config["model_name"]
 prompts_version = config["prompt_version"]
 sample_folder = config["sample_folder"]
+debug_chain = config["debug_chain"]
+debug_schema = config["debug_schema"]
 
-vertexai.init(project="rd-ri-genai-dev-2352", location="europe-west1")
+vertexai.init(project="rd-ri-genai-dev-2352", location="us-central1")
 
 
 def read_prompts(filename: str) -> str:
@@ -54,15 +56,11 @@ def insert_context_sphere_into_prompt(context_file_name: Path, template_filename
 
 
 
-@traceable(name="build_conversation", run_type="prompt")
+@traceable(name="Simulate Conversation for Role Play Prompting", run_type="prompt")
 def simulate_conversation(task_prompt) -> List[Content]:
-    # Simulate the conversation flow
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "model", "content": feedback_prompt},
-        {"role": "user", "content": task_prompt},
-
-    ]
+    # Simulate the conversation flow with role play prompting
+    # Consisting of a System prompt setting the scene, feedback prompt prefilling the models response
+    # and the task prompt with the actual task.
     messages = [
         Content(
             role="user",
@@ -79,10 +77,8 @@ def simulate_conversation(task_prompt) -> List[Content]:
     ]
     return messages
 
-@traceable(name="Create Model Configuration", run_type="tool")
+@traceable(name="Create Generation Config with Output Instructions", run_type="tool")
 def create_generation_config(temperature, top_p,response_schema_model = None, response_mime_type = None) -> GenerationConfig:
-    # Initialize the model
-    model = GenerativeModel("")
     # Configure generation parameters
     generation_config = GenerationConfig(
         response_mime_type= response_mime_type, #"application/json",
@@ -93,12 +89,12 @@ def create_generation_config(temperature, top_p,response_schema_model = None, re
     )
     return generation_config
 
-@traceable(name="Configure LLM", run_type="tool")
+@traceable(name="Configue LLM with Generation Config", run_type="tool")
 def configure_llm(model_name, generation_config : GenerationConfig) -> GenerativeModel:
     return GenerativeModel(model_name=model_name, generation_config=generation_config)
 
 
-@traceable(name="llm", run_type="llm", metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
+@traceable(name="LLM Call", run_type="llm", metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
            )
 def call_api(configured_llm: GenerativeModel, prompt: List[Content], safety_settings: list[default_safety_settings], run_tree: RunTree) -> GenerationResponse:
     run_tree = get_current_run_tree()
@@ -125,11 +121,14 @@ def transform_output(response: GenerationResponse) -> dict:
     python_dict = json.loads(response.text)
     return python_dict
 
-def transform_message_histroy(messages: List[Content]) -> dict:
+# Helper function to properly print Conversation History
+def print_message_history(messages: List[Content]) -> dict:
     for message in messages:
         print(f"Role: {message.role}")
         for part in message.parts:
             print(f"Text: {part.text}")
+
+
 
 @traceable(name="Final Output Parser", run_type="parser")
 def convert_to_dict(messages: List[Content]) -> dict:
@@ -139,8 +138,10 @@ def convert_to_dict(messages: List[Content]) -> dict:
         key = f"{message.role}_message_{MESSAGE_MAP.get(index)}"
         result_dict[key] = " ".join(part.text for part in message.parts)
 
-    result_dict["full_output_unstructured"] = str(messages)
+    #result_dict["full_output_unstructured"] = str(messages)
 
+    if debug_chain:
+        print_message_history(messages)
     return result_dict
 
 # transform response.text into a python_dict for further processing
@@ -148,8 +149,23 @@ def convert_to_dict(messages: List[Content]) -> dict:
 # of properties correctly.
 #transform_output(response)
 
+@traceable(name="Append LLM Response to Conversation", run_type="parser")
+def append_response(prompt: List[Content], message_to_append: Content) -> List[Content]:
+    prompt.append(message_to_append)
+    return prompt
 
-@traceable(name="Validate Output Format", run_type="parser")
+@traceable(name="Add Task Prompt for Summarization", run_type="parser")
+def append_prompt(prompt: List[Content], message_to_append: Content) -> List[Content]:
+    prompt.append(message_to_append)
+    return prompt
+
+
+@traceable(name="Parse LLM Structure for Validation", run_type="parser")
+def parse_model_response_to_data_model_structure(input_text,target_schema) -> dict:
+    data = parse_emotion_analysis(text=input_text, schema=target_schema)
+    return data
+
+@traceable(name="Validate Output Structure", run_type="parser")
 def validate_response_property_order(parsed_data, schema_with_specific_ordering) -> bool:
     if check_property_ordering(parsed_data, schema_with_specific_ordering):
         print("Output matches schema ordering exactly!")
@@ -158,21 +174,13 @@ def validate_response_property_order(parsed_data, schema_with_specific_ordering)
         print("Warning: Output does not match schema ordering")
         return False
 
-@traceable(name="Parse LLM Response Structure", run_type="parser")
-def parse_model_response_to_data_model_structure(input_text,target_schema) -> dict:
-    data = parse_emotion_analysis(text=input_text, schema=target_schema)
-    return data
 
-@traceable(name="Append Response to Message", run_type="parser")
-def append_message(prompt: List[Content], message_to_append: Content) -> List[Content]:
-    prompt.append(message_to_append)
-    return prompt
-
-@traceable(name="Analysis with structured output", run_type="chain")
-def analysis_with_structued_output(task_prompt_with_context,response_schema, temperature, top_p, run_tree: RunTree):
+@traceable(name="Step 1: Classification", run_type="chain")
+def step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p, run_tree: RunTree):
 
     role_play_prompt = simulate_conversation(task_prompt_with_context)
-    role_play_prompt_without_context = simulate_conversation(task_prompt_without_context)
+    # Erstmla ausgeklammert für consistent langchain tracing
+    #role_play_prompt_without_context = simulate_conversation(task_prompt_without_context)
 
     llm_config = create_generation_config(response_schema_model = response_schema,
                                           response_mime_type= "application/json",
@@ -189,34 +197,41 @@ def analysis_with_structued_output(task_prompt_with_context,response_schema, tem
                            run_tree=run_tree)
 
 
+    #Raw Response
+    #print("RAW RESPONSE: ", response)
 
-    print("RAW RESPONSE: ", response)
-
-    # Access the first candidate Content object in the response
-    content_from_response = response.candidates[0].content
-    prompt_with_response_1 = append_message(prompt = role_play_prompt, message_to_append = content_from_response)
-
+    # Parse data to valide output structure
     parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
                                                                target_schema=response_schema)
 
-    # Feedback for loggin in Langsmith
+    # Validate result
+    validation_result = validate_response_property_order(parsed_data, response_schema)
+
+    # Feedback of validation result in Langsmith
     client.create_feedback(
         run_tree.id,
         key = "llm_output_format_validation",
-        score = validate_response_property_order(parsed_data, response_schema),
+        score = validation_result,
         comment = "1 = True: The model used the correct propertyOrder. False, the model did not!"
     )
 
-    print_emotion_analysis(parsed_data, width=200)
-    return prompt_with_response_1
+    # Access the first candidate Content object in the response
+    content_from_response = response.candidates[0].content
+    conversation_history_step_1 = append_response(prompt = role_play_prompt, message_to_append = content_from_response)
 
 
-@traceable(name="Analysis without output", run_type="chain")
-def analysis_without_structued_output(prompt_with_response_1, temperature,top_p, run_tree: RunTree):
-    second_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("user_task_followup_prompt.md"))])
+    if debug_chain:
+        print_emotion_analysis(parsed_data, width=200)
+
+    return conversation_history_step_1
+
+
+@traceable(name="Step 2: Summarization of Classification", run_type="chain")
+def step_2_summarization_of_classification(conversation_history_step_1, temperature,top_p, run_tree: RunTree):
+    step_2_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("user_task_followup_prompt.md"))])
 
     # Append to Conversation
-    prompt_for_second_call = append_message(prompt_with_response_1,second_task_prompt)
+    task_prompt_step_2 = append_prompt(conversation_history_step_1,step_2_task_prompt)
 
     llm_config = create_generation_config(temperature = temperature,
                                           top_p = top_p)
@@ -224,7 +239,7 @@ def analysis_without_structued_output(prompt_with_response_1, temperature,top_p,
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
 
     response = call_api(configured_llm=configured_llm,
-                        prompt=prompt_for_second_call,
+                        prompt=task_prompt_step_2,
                         safety_settings=default_safety_settings)
     response = response["response"]
     send_feedback_to_trace(response =response,
@@ -232,7 +247,7 @@ def analysis_without_structued_output(prompt_with_response_1, temperature,top_p,
                            run_tree=run_tree)
 
     content_from_response_2 = response.candidates[0].content
-    message_history = append_message(prompt_for_second_call, content_from_response_2)
+    message_history = append_response(task_prompt_step_2, content_from_response_2)
     return message_history
 
 def request_emotion_analysis_with_user_id(user_id: int,
@@ -245,17 +260,27 @@ def request_emotion_analysis_with_user_id(user_id: int,
                                           top_p: float = 0.95):
     @traceable(
         run_type="chain",
-        name="Emotion Analysis Pipeline",
-        tags=[f"{model_name}", f"{user_id}"])
+        name="Context Aware Emotion Classification",
+        tags=[f"{model_name}", f"User_ID: {user_id}"])
     def request_emotion_analysis(context_sphere,run_tree : RunTree) -> dict:
         """
         Call the Google Gemini API with basic configuration.
         """
-        prompt_with_response_1 = analysis_with_structued_output(task_prompt_with_context,response_schema, temperature, top_p)
-        message_history = analysis_without_structued_output(prompt_with_response_1, temperature,top_p)
+        classification_result_step_1 = step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p)
+        message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
         dict_list = convert_to_dict(message_history)
-        return  dict_list,
-    return request_emotion_analysis(context_sphere = context_sphere_for_eval)
+
+        client.create_feedback(
+            run_tree.id,
+            key = "Run Complete",
+            value = f"User_ID: {user_id}",
+        )
+        return  dict_list
+
+    request_emotion_analysis(context_sphere = context_sphere_for_eval)
+
+
+    return
 
 
 
@@ -268,21 +293,27 @@ schema_with_specific_ordering = add_specific_property_ordering(schema)
 
 schema_holistic_profile = HolisticEmotionalProfile.model_json_schema()
 schema_with_specific_ordering_holistic_profile = add_property_ordering_single_class(schema_holistic_profile)
-print(schema_with_specific_ordering_holistic_profile)
 
-print("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
-print("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
 
 system_prompt = read_prompts("LFB_role_setting_prompt.md")
 feedback_prompt = read_prompts("LFB_role_feedback_prompt.md")
 task_prompt_without_context = read_prompts("user_task_prompt.md")
 
 
+if debug_schema:
+    print(schema_with_specific_ordering_holistic_profile)
+
+    print("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
+    print("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
+
+
+
+
 def create_dataset(parsed_data):
     print(parsed_data.core_affect_analysis)
     pass
 
-
+@traceable(name="Batch Processing Emotion Classifications", type="chain")
 def process_markdown_files_in_folder(batch_id, dataset_name):
     results = []  # To store the results for all processed files
     folder_path = Path(f"./inputs/{sample_folder}")
@@ -299,10 +330,6 @@ def process_markdown_files_in_folder(batch_id, dataset_name):
         # Keep in to check if Hallucination Eval works
         context_sphere = markdown_file.read_text()
 
-        # print("\n --- TASK PROMPT --- \n", task_prompt_with_context, "\n --- output --- \n")
-
-        #print("\n --- ROLE PLAY PROMPT START --- \n", role_play_prompt, "\n --- ROLE PLAY PROMPT END --- \n")
-
         result = request_emotion_analysis_with_user_id(
             user_id=user_id_from_filename,
             response_schema=schema_with_specific_ordering,
@@ -310,72 +337,6 @@ def process_markdown_files_in_folder(batch_id, dataset_name):
             task_prompt_with_context=task_prompt_with_context,
             context_sphere_for_eval=context_sphere,
             model_name=model_name)
-
-        results.append(result)
-
-    return results  # Return after processing all files
-
-if __name__ == "__main__":
-    # Process each folder independently
-    folder = "sp0"
-
-
-    random_uuid = uuid.uuid4()
-    process_markdown_files_in_folder(batch_id=random_uuid, dataset_name = "Testing")
-
-
-
-# TODO: Add output to dataset
-# data set creatin through the gaterhin of traces
-#print("\n --- output ---", parsed_data, "\n --- output --- \n")
-
-add_specific_property_ordering(schema)
-
-schema_holistic_profile = HolisticEmotionalProfile.model_json_schema()
-schema_with_specific_ordering_holistic_profile = add_property_ordering_single_class(schema_holistic_profile)
-print(schema_with_specific_ordering_holistic_profile)
-
-print("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
-print("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
-
-system_prompt = read_prompts("LFB_role_setting_prompt.md")
-feedback_prompt = read_prompts("LFB_role_feedback_prompt.md")
-task_prompt_without_context = read_prompts("user_task_prompt.md")
-
-
-def create_dataset(parsed_data):
-    print(parsed_data.core_affect_analysis)
-    pass
-
-
-def process_markdown_files_in_folder(batch_id, dataset_name):
-    results = []  # To store the results for all processed files
-    folder_path = Path(f"./inputs/{sample_folder}")
-    for markdown_file in folder_path.glob("*.md"):
-        # Extract user ID from the markdown file name
-        file_stem = markdown_file.stem
-        user_id_from_filename = file_stem.split('_')[1]  # Assuming consistent naming
-        print("START ANALYSIS OF USER: ", user_id_from_filename)
-
-        # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
-        task_prompt_with_context = insert_context_sphere_into_prompt(
-            context_file_name=markdown_file)
-
-        # Keep in to check if Hallucination Eval works
-        context_sphere = markdown_file.read_text()
- 
-        # print("\n --- TASK PROMPT --- \n", task_prompt_with_context, "\n --- output --- \n")
-
-        #print("\n --- ROLE PLAY PROMPT START --- \n", role_play_prompt, "\n --- ROLE PLAY PROMPT END --- \n")
-
-        result = request_emotion_analysis_with_user_id(
-            user_id=user_id_from_filename,
-            response_schema=schema_with_specific_ordering,
-            response_schema2=schema_with_specific_ordering_holistic_profile,
-            task_prompt_with_context=task_prompt_with_context,
-            context_sphere_for_eval=context_sphere,
-            model_name=model_name)
-
         results.append(result)
 
     return results  # Return after processing all files

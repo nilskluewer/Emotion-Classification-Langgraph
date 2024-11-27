@@ -4,6 +4,7 @@
 # TODO SUrvey finden - Survey items bauen!
 
 
+# TODO Use Cases: Einbinden das es auch für Terror detection genutzt werden könnte
 
 
 # OFFEN ------ OFFEN
