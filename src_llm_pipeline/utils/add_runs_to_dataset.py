@@ -136,7 +136,7 @@ def add_runs_to_dataset():
             "prompt_tokens": prompt_tokens,
             "completion_tokens": completion_tokens,
             "total_tokens": total_tokens,
-            "coherence" : run.feedback_stats["coherence"]["avg"],
+            "avg. coherence" : run.feedback_stats["coherence"]["avg"],
             "tags": tags,
             "run_id": run_id,
             "feedback": feedback,

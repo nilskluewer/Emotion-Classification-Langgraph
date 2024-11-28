@@ -12,6 +12,8 @@ import json
 from datetime import datetime
 from langsmith.run_helpers import traceable
 
+# TODO ander aspect typen adden
+# TODO maybe critique einfügen das man auch weiß was laut model hätte besser sein können
 
 
 def load_config():

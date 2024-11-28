@@ -4,7 +4,7 @@ from inspect import trace
 from pathlib import Path
 from typing import List
 from tqdm import tqdm
-from time import time
+import time
 
 import vertexai
 from dotenv import load_dotenv
