@@ -4,6 +4,7 @@ from inspect import trace
 from pathlib import Path
 from typing import List
 from tqdm import tqdm
+from time import time
 
 import vertexai
 from dotenv import load_dotenv
@@ -13,6 +14,8 @@ from langsmith import RunTree
 from langsmith.run_helpers import traceable
 from vertexai.generative_models import GenerativeModel, Part, Content, GenerationConfig, \
     GenerationResponse
+from google.api_core.exceptions import ResourceExhausted
+
 
 from inputs.prompts.v7.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
 #from utils.langsmith_dataset import create_langsmith_dataset
@@ -20,6 +23,7 @@ from utils.model import default_safety_settings
 from utils.langsmith_feedback import send_feedback_to_trace
 from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
 from utils.enums import MESSAGE_MAP
+from utils.eval_aspects import openai_evaluator
 
 # Load environment variables
 load_dotenv()
@@ -105,24 +109,48 @@ def configure_llm(model_name, generation_config : GenerationConfig) -> Generativ
            tags= ["api_call"], 
            metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
            )
-def call_api(configured_llm: GenerativeModel, prompt: List[Content], safety_settings: list[default_safety_settings], run_tree: RunTree) -> GenerationResponse:
+def call_api(configured_llm: GenerativeModel, 
+             prompt: List[Content], 
+             safety_settings: list[default_safety_settings], 
+             run_tree: RunTree) -> GenerationResponse:
+    max_retries = 5
+    initial_delay = 5  # initial delay in seconds for exponential backoff
+    retry_count = 0
 
-    response = configured_llm.generate_content(
-        contents=prompt,
-        safety_settings=safety_settings,
-        stream=False
-    )
-    usage_metadata = response.usage_metadata
+    while retry_count < max_retries:
+        try:
+            response = configured_llm.generate_content(
+                contents=prompt,
+                safety_settings=safety_settings,
+                stream=False
+            )
+            usage_metadata = response.usage_metadata
 
-    dict = {
-        "response" : response,
-        "usage_metadata" : {
-            "input_tokens": usage_metadata.prompt_token_count,
-            "output_tokens": usage_metadata.candidates_token_count,
-            "total_tokens": usage_metadata.total_token_count,
-        },
-    }
-    return dict
+            result_dict = {
+                "response": response,
+                "usage_metadata": {
+                    "input_tokens": usage_metadata.prompt_token_count,
+                    "output_tokens": usage_metadata.candidates_token_count,
+                    "total_tokens": usage_metadata.total_token_count,
+                },
+            }
+            return result_dict
+        
+        except ResourceExhausted as e:
+            print(f"Resource exhausted. Retry {retry_count + 1} in {initial_delay} seconds.")
+            print("Error message: ", str(e))
+            retry_count += 1
+            time.sleep(initial_delay)
+            initial_delay *= 2
+        
+        except Exception as e:
+            # Handle any other exceptions that might occur
+            print("An error occurred: ", str(e))
+            return {"error": str(e)}
+
+    # If all retries fail
+    print("Maximum retries reached. Please try again later.")
+    return {"error": "Resource exhausted. Maximum retries reached."}
 
 
 @traceable(name="Response to Dict", run_type="parser")
@@ -276,10 +304,24 @@ def request_emotion_analysis_with_user_id(user_id: int,
         classification_result_step_1 = step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p)
         message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
         dict_list = convert_to_dict(message_history)
+        score = openai_evaluator(str(dict_list["model-Step 1: Classification"]), dict_list["model-Step 2: Summarization"], aspect="Coherence")
+    
+        client.create_feedback(run_tree.id,
+                key="Coherence",
+                score=score,
+                comment="Score for Coherence of Summary measured on the in depth Classification",
+                feedback_source_type="api"
+            )
         
         return dict_list
 
+
+    
     result = request_emotion_analysis(context_sphere = context_sphere_for_eval)
+    
+
+    #print("---RESULT:", result)
+    
     return result
 
 

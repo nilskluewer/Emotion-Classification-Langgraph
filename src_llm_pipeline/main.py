@@ -1,5 +1,6 @@
 import uuid
 from utils.add_runs_to_dataset import add_runs_to_dataset
+import time
 
 from llm_call import process_markdown_files_in_folder
 
@@ -12,7 +13,10 @@ if __name__ == '__main__':
     
     # TODO use tag for dataset creation
     # Add runs to dataset
+    print("--- Wait to for runs POST to complete ---")
+    time.sleep(5)
     link = add_runs_to_dataset()
+    
 
     
     #print(result)
