@@ -39,6 +39,9 @@ debug_schema = config["debug_schema"]
 llm_endpoint_location = config["llm_endpoint_location"]
 check_for_hallucinations = config["check_for_hallucinations"]
 dataset_tag = config["dataset_tag"]
+temperature = config["temperature"]
+top_p = config["top_p"]
+
 
 vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
 
@@ -260,10 +263,7 @@ def request_emotion_analysis_with_user_id(user_id: int,
                                           response_schema: dict,
                                           response_schema2: dict,
                                           task_prompt_with_context,
-                                          context_sphere_for_eval: str,
-                                          model_name: str = "gemini-1.5-flash-002",
-                                          temperature: float = 1,
-                                          top_p: float = 0.95):
+                                          context_sphere_for_eval: str) -> dict:
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
@@ -313,7 +313,7 @@ def create_dataset(parsed_data):
     pass
 
 #@traceable(name="Batch Processing Emotion Classifications", type="chain")
-def process_markdown_files_in_folder(batch_id):
+def process_markdown_files_in_folder():
     results = []  # To store the results for all processed files
     folder_path = Path(f"./inputs/{sample_folder}")
     print("--- Start of User Processing ---")
@@ -336,8 +336,7 @@ def process_markdown_files_in_folder(batch_id):
             response_schema=schema_with_specific_ordering,
             response_schema2=schema_with_specific_ordering_holistic_profile,
             task_prompt_with_context=task_prompt_with_context,
-            context_sphere_for_eval=context_sphere,
-            model_name=model_name)
+            context_sphere_for_eval=context_sphere)
         results.append(result)
     print("--- End of User Processing ---")
     return results  # Return after processing all files
@@ -345,10 +344,7 @@ def process_markdown_files_in_folder(batch_id):
 if __name__ == "__main__":
     # Process each folder independently
     folder = "sp0"
-
-
-    random_uuid = uuid.uuid4()
-    process_markdown_files_in_folder(batch_id=random_uuid)
+    process_markdown_files_in_folder()
 
 
 

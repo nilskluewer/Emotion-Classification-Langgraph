@@ -1,33 +1,38 @@
 import json
 from langsmith import Client
 from dotenv import load_dotenv
+from datetime import datetime
+from pathlib import Path
 
-def add_runs_to_dataset(delete_dataset):
-    """
-    Processes runs from the Langsmith client and creates or updates a dataset based on specified criteria.
+def load_config():
+    current_script_dir = Path(__file__).resolve().parent
+    config_path = current_script_dir.parent / 'config.json'
+    with open(config_path, 'r') as config_file:
+        config = json.load(config_file)
+    return config
 
-    This function loads configuration data, checks for existing datasets, processes runs based on filters, 
-    and adds examples to the dataset. If specified, it can also delete an existing dataset beforehand.
-
-    :param delete_dataset: A boolean flag indicating whether to delete the existing dataset before proceeding.
-    :return: Link to the dataset if available.
-    :rtype: str
-    """
+def add_runs_to_dataset():
     load_dotenv()
 
-    # Load configurations
-    with open('../config.json', 'r') as config_file:
-        config = json.load(config_file)
+    config = load_config()
 
     client = Client()
-    dataset_name = "default_dataset_iterative_development_runs_last_14_days"
+
+    dataset_tag = config["dataset_tag"]
+    delete_dataset = config["delete_dataset"]
+
+    if dataset_tag == "default_dataset":
+        dataset_name = "default_dataset_iterative_development_runs_last_14_days"
+    else:
+        timestamp = datetime.now().strftime("%Y-%m-%d:%H:%M:%S")
+        dataset_name = f"{dataset_tag}_{timestamp}"
 
     # Filter runs to add to the dataset
     runs = client.list_runs(
         project_name="LLM-Classification-Pipeline",
         run_type="chain",
         is_root=True,
-        filter='has(tags, "default_dataset")',
+        filter=f'has(tags, "{dataset_tag}")',
         error=False,
     )
 
@@ -63,10 +68,14 @@ def add_runs_to_dataset(delete_dataset):
                 }
             }
         )
+        existing_run_ids = set()
     else:
         if client.has_dataset(dataset_name=dataset_name):
             dataset = client.read_dataset(dataset_name=dataset_name)
             print("Loaded existing dataset")
+            # Fetch existing examples to avoid duplicates
+            existing_examples = client.list_examples(dataset_id=dataset.id)
+            existing_run_ids = {example.source_run_id for example in existing_examples if example.source_run_id}
         else:
             dataset = client.create_dataset(
                 dataset_name=dataset_name,
@@ -93,15 +102,24 @@ def add_runs_to_dataset(delete_dataset):
                 }
             )
             print("Created new dataset")
+            existing_run_ids = set()
 
-    for run in runs:
+    # Filter out runs that have already been added
+    new_runs = [run for run in runs if run.id not in existing_run_ids]
+
+    if not new_runs:
+        print("All runs are already in the dataset.")
+        return dataset.share_link if dataset.share_link else None
+
+    # Add new runs to the dataset
+    for run in new_runs:
         input_data = run.outputs.get("model-Step 1: Classification")
         output_data = run.outputs.get("model-Step 2: Summarization")
 
         if isinstance(input_data, str):
             input_data = json.loads(input_data)
 
-        result = client.create_example(
+        client.create_example(
             inputs={"step_1_classification": input_data},
             outputs={"step_2_classification_summary": output_data},
             metadata={"user_id": run.tags[1]},
@@ -110,10 +128,14 @@ def add_runs_to_dataset(delete_dataset):
             split="dev",
             source_run_id=run.id,
         )
-        
-    # Return the link to the dataset if applicable
-    return result
+
+    # Share the dataset to get a public link
+    share_info = client.share_dataset(dataset_id=dataset.id)
+    print(f"Your dataset is now public. Shareable link: {share_info["url"]}")
+
+    return share_info
 
 if __name__ == '__main__':
-    # Example usage
-    link = add_runs_to_dataset(delete_dataset=True)
+    link = add_runs_to_dataset()
+    if link:
+        print(f"Dataset link: {link}")

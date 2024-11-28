@@ -8,11 +8,11 @@ if __name__ == '__main__':
     random_uuid = uuid.uuid4()
     
     # TODO set tags for the run
-    result = process_markdown_files_in_folder(batch_id=random_uuid)
+    result = process_markdown_files_in_folder()
     
     # TODO use tag for dataset creation
     # Add runs to dataset
-    link = add_runs_to_dataset(delete_dataset=True)
+    link = add_runs_to_dataset()
 
     
     #print(result)
