@@ -23,7 +23,7 @@ from utils.model import default_safety_settings
 from utils.langsmith_feedback import send_feedback_to_trace
 from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
 from utils.enums import MESSAGE_MAP
-from utils.eval_aspects import openai_evaluator
+from utils.eval_aspects import openai_evaluator, anthropic_evaluator
 
 # Load environment variables
 load_dotenv()
@@ -305,7 +305,7 @@ def request_emotion_analysis_with_user_id(user_id: int,
         message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
         dict_list = convert_to_dict(message_history)
         score = openai_evaluator(str(dict_list["model-Step 1: Classification"]), dict_list["model-Step 2: Summarization"], aspect="Coherence")
-    
+
         client.create_feedback(run_tree.id,
                 key="Coherence",
                 score=score,
@@ -313,6 +313,14 @@ def request_emotion_analysis_with_user_id(user_id: int,
                 feedback_source_type="api"
             )
         
+        score = anthropic_evaluator(str(dict_list["model-Step 1: Classification"]), dict_list["model-Step 2: Summarization"], aspect="Coherence")
+        
+        client.create_feedback(run_tree.id,
+                key="Coherence",
+                score=score,
+                comment="Score for Coherence of Summary measured on the in depth Classification",
+                feedback_source_type="api"
+            )
         return dict_list
 
 
