@@ -46,8 +46,8 @@ SEVERITY_MAP = {
 MESSAGE_MAP = {
     0: "Role-Setting-Prompt",
     1: "Role-Feedback-Prompt",
-    2: "User_Task_Prompt",
+    2: "Classification_Prompt",
     3: "Step 1: Classification",
-    4: "user_task_",
+    4: "Summarization_Prompt",
     5: "Step 2: Summarization",
 }

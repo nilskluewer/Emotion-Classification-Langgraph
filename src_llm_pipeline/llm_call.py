@@ -1,7 +1,9 @@
 import json
 import uuid
+from inspect import trace
 from pathlib import Path
 from typing import List
+from tqdm import tqdm
 
 import vertexai
 from dotenv import load_dotenv
@@ -36,6 +38,7 @@ debug_chain = config["debug_chain"]
 debug_schema = config["debug_schema"]
 llm_endpoint_location = config["llm_endpoint_location"]
 check_for_hallucinations = config["check_for_hallucinations"]
+dataset_tag = config["dataset_tag"]
 
 vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
 
@@ -264,7 +267,7 @@ def request_emotion_analysis_with_user_id(user_id: int,
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
-        tags=[f"{model_name}", f"User_ID: {user_id}"],
+        tags=[f"{model_name}", f"User_ID: {user_id}", f"{dataset_tag}"],
         metadata={"check_hallucinations": check_for_hallucinations})
     def request_emotion_analysis(context_sphere,run_tree : RunTree) -> dict:
         """
@@ -273,13 +276,11 @@ def request_emotion_analysis_with_user_id(user_id: int,
         classification_result_step_1 = step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p)
         message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
         dict_list = convert_to_dict(message_history)
+        
+        return dict_list
 
-        return  dict_list
-
-    request_emotion_analysis(context_sphere = context_sphere_for_eval)
-
-
-    return
+    result = request_emotion_analysis(context_sphere = context_sphere_for_eval)
+    return result
 
 
 
@@ -301,7 +302,6 @@ task_prompt_without_context = read_prompts("user_task_prompt.md")
 
 if debug_schema:
     print(schema_with_specific_ordering_holistic_profile)
-
     print("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
     print("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
 
@@ -313,10 +313,12 @@ def create_dataset(parsed_data):
     pass
 
 #@traceable(name="Batch Processing Emotion Classifications", type="chain")
-def process_markdown_files_in_folder(batch_id, dataset_name):
+def process_markdown_files_in_folder(batch_id):
     results = []  # To store the results for all processed files
     folder_path = Path(f"./inputs/{sample_folder}")
-    for markdown_file in folder_path.glob("*.md"):
+    print("--- Start of User Processing ---")
+    #for markdown_file in folder_path.glob("*.md"):
+    for markdown_file in tqdm(folder_path.glob("*.md"), desc="Processing files"):
         # Extract user ID from the markdown file name
         file_stem = markdown_file.stem
         user_id_from_filename = file_stem.split('_')[1]  # Assuming consistent naming
@@ -337,7 +339,7 @@ def process_markdown_files_in_folder(batch_id, dataset_name):
             context_sphere_for_eval=context_sphere,
             model_name=model_name)
         results.append(result)
-
+    print("--- End of User Processing ---")
     return results  # Return after processing all files
 
 if __name__ == "__main__":
@@ -346,7 +348,7 @@ if __name__ == "__main__":
 
 
     random_uuid = uuid.uuid4()
-    process_markdown_files_in_folder(batch_id=random_uuid, dataset_name = "Testing")
+    process_markdown_files_in_folder(batch_id=random_uuid)
 
 
 
