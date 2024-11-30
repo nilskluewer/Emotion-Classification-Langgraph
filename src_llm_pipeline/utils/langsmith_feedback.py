@@ -3,8 +3,9 @@ from vertexai.generative_models import (
     GenerationResponse, SafetySetting, Part, Content
 )
 from .enums import FINISH_REASON_MAP, CATEGORY_MAP
+from .eval_aspects import Aspect
 
-def send_feedback_to_trace(response: GenerationResponse, client, run_tree):
+def send_generation_response_feedback_to_trace(response: GenerationResponse, client, run_tree):
     candidate = response.candidates[0]
     finish_reason_str = FINISH_REASON_MAP.get(candidate.finish_reason, "NOT DEFINED")
     client.create_feedback(run_tree.id, key="finishReason", value=finish_reason_str, feedback_source_type="model")
@@ -57,3 +58,4 @@ def send_feedback_to_trace(response: GenerationResponse, client, run_tree):
 
     if finish_reason_str != "STOP":
         raise ValueError("Model could not finish successfully due to reason: ", finish_reason_str)
+    

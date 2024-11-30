@@ -13,8 +13,8 @@ if __name__ == '__main__':
     
     # TODO use tag for dataset creation
     # Add runs to dataset
-    print("--- Wait to for runs POST to complete ---")
-    time.sleep(5)
+    print("--- Wait 20sec to for runs POST to complete ---")
+    time.sleep(20)
     link = add_runs_to_dataset()
     
 

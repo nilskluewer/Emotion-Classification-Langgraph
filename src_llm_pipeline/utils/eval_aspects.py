@@ -11,10 +11,65 @@ from langchain_anthropic import ChatAnthropic
 import json
 from datetime import datetime
 from langsmith.run_helpers import traceable
+from enum import Enum
+
+from enum import Enum
+
+class Aspect(Enum):
+    COHERENCE = (
+        "Coherence",
+        "Incoherence",
+        "the logical flow and clarity within the passage. Consider whether the passage maintains a logical sequence, clear connections between ideas, and an overall sense of understanding."
+    )
+    RELEVANCE = (
+        "Relevance",
+        "Irrelevance",
+        "how well the summarized emotion classification relates to the original in-depth classification. Does the summary accurately reflect the key emotional categories and their relationships identified in the classification?"
+    )
+    CONSISTENCY = (
+        "Consistency",
+        "Inconsistency",
+        "whether the emotional categories and their assigned probabilities in the summary are consistent with the findings of the original in-depth classification. Are there any contradictions or inconsistencies between the two?"
+    )
+    HELPFULNESS = (
+        "Helpfulness",
+        "Unhelpfulness",
+        "how useful the summarized emotion classification is for understanding the overall emotional tone of the text. Does it provide a clear and concise representation of the key emotions and their intensities?"
+    )
+    COMPREHENSIVENESS = (
+        "Comprehensiveness",
+        "Incompleteness",
+        "whether the summary captures all the significant emotional categories and nuances identified in the original in-depth classification. Are there any important emotions or details missing from the summary?"
+    )
+    # Potentially add more aspects like:
+    #  -  Bias (Fairness/Neutrality of the emotion classification)
+    #  -  Confidence (Certainty expressed by the LLM in its classification)
+    #  -  Specificity/Granularity (Level of detail in the emotion classification)
+
 
 # TODO ander aspect typen adden
 # TODO maybe critique einfügen das man auch weiß was laut model hätte besser sein können
 
+class EvaluationResult(BaseModel):
+    aspect: str
+    score: int = Field(ge=0, le=100)
+    reasoning: str = Field(description="The reasoning for the score.")
+    critique: str = Field(description="Suggested improvements to the summary. Short precise key points!")
+
+class CoherenceEvaluation(EvaluationResult):
+    aspect: str = "coherence" # fixed value
+
+class RelevanceEvaluation(EvaluationResult):
+    aspect: str = "relevance" # fixed value
+
+class ConsistencyEvaluation(EvaluationResult):
+    aspect: str = "consistency" # fixed value
+
+class HelpfulnessEvaluation(EvaluationResult):
+    aspect: str = "helpfulness" # fixed value
+
+class ComprehensivenessEvaluation(EvaluationResult):
+    aspect: str = "comprehensiveness" # fixed value
 
 def load_config():
     config_path = './config.json'
@@ -46,25 +101,44 @@ def read_prompts(filename: str) -> str:
 
 llm_evaluator_prompt_text = read_prompts("prompt_evaluating_fluency.md")
 
-class Coherence(BaseModel):
-        reasoning: str = Field(description="The reasoning for the score")
-        score: int = Field(ge=0, le=100)
 
-@traceable(name="Evaluate Coherence with OpenAI")
-def openai_evaluator(step_1_classification, step_2_classification_summary, aspect = "Coherence"):    
-    llm = ChatOpenAI(
-            model_name="gpt-4o-mini",
-            max_tokens=2000,
-            temperature=0.0,
-            
-        )
+@traceable(name="Evaluate Aspects", run_type="chain")
+def aspect_evaluator(step_1_classification, step_2_classification_summary, aspect: Aspect,llm_model_name : str, run_tree_parent_id):    
+    aspect, ant_aspect, aspect_inst = aspect.value
+    task_ins = "summary of an in-depth classification"
     
-    # TODO ersetzten durch enum map 
-    ant_aspect = "Incoherence"
-    task_ins = "Summary of a in depth classification"
-    aspect_inst = "the logical flow and clarity within the passage. Consider whether the passage maintains a logical sequence, clear connections between ideas, and an overall sense of understanding." 
+    # Select the appropriate Pydantic model based on the aspect
+    print("ASPECT:", aspect)
+    if aspect == "Coherence":
+        pydantic_model = CoherenceEvaluation
+    elif aspect == "Relevance":
+        pydantic_model = RelevanceEvaluation
+    elif aspect == "Consistency":
+        pydantic_model = ConsistencyEvaluation
+    elif aspect == "Helpfulness":
+        pydantic_model = HelpfulnessEvaluation
+    elif aspect == "Comprehensiveness":
+        pydantic_model = ComprehensivenessEvaluation
+    else:
+        raise ValueError(f"Aspect {aspect} not supported")
     
-    llm = llm.with_structured_output(Coherence)
+    # TODO: if model string start with gpt string then use the model name and use ChatOpenAi
+    
+    if llm_model_name.startswith("gpt"):
+        llm = ChatOpenAI(
+                model_name=llm_model_name,
+                max_tokens=2000,
+                temperature=0.0,
+                
+            )
+    elif llm_model_name.startswith("claude"):
+        llm = ChatAnthropic(
+                model_name=llm_model_name,
+                max_tokens=1000,
+                temperature=0.0,
+            )
+
+    llm = llm.with_structured_output(pydantic_model)
     prompt = PromptTemplate.from_template(llm_evaluator_prompt_text)
     chain = prompt | llm
     
@@ -75,38 +149,20 @@ def openai_evaluator(step_1_classification, step_2_classification_summary, aspec
                              "step_1_classification": step_1_classification,
                              "step_2_classification_summary": step_2_classification_summary})
     #print(response)
-    score = response.score
-    print("The Score from OpenAi is:", score)
-    return score
-
-@traceable(name="Evaluate Coherence with Anthropic") 
-def anthropic_evaluator(step_1_classification, step_2_classification_summary, aspect = "Coherence"):    
-    llm = ChatAnthropic(
-        model_name="claude-3-5-sonnet-20240620",
-        max_tokens=1000,
-        temperature=0.0,
+    print("The Score from OpenAi is:", response.score)
+    print("The Reasoning from OpenAi is:", response.reasoning)
+    print("The Critique from OpenAi is:", response.critique)
+    
+    client.create_feedback(
+        run_id=run_tree_parent_id,
+        key=aspect,
+        value=response.critique,
+        score=response.score,
+        comment=response.reasoning,
+        feedback_source_type="api"
     )
-    
-    # TODO ersetzten durch enum map 
-    ant_aspect = "Incoherence"
-    task_ins = "Summary of a in depth classification"
-    aspect_inst = "the logical flow and clarity within the passage. Consider whether the passage maintains a logical sequence, clear connections between ideas, and an overall sense of understanding." 
-    
-    llm = llm.with_structured_output(Coherence)
-    prompt = PromptTemplate.from_template(llm_evaluator_prompt_text)
-    chain = prompt | llm
-    
-    response = chain.invoke({"task-ins": task_ins,
-                             "aspect" : aspect,
-                             "ant-aspect" : ant_aspect,
-                             "aspect-inst": aspect_inst,
-                             "step_1_classification": step_1_classification,
-                             "step_2_classification_summary": step_2_classification_summary})
-    #print(response)
-    score = response.score
-    print("The Score from Anthropic is:", score)
-    return score
+    return response.score
 
-
-#openai_evaluator(step_1_classification="The arousal is also variable.  During discussions about Semenya, the arousal level is high, indicated by stronger statements and emotionally charged language.  Comments on other topics like the blackout or the Ibiza scandal show less arousal.   Certain comments contain aggressive and emotionally intense language suggesting a high arousal state. Some comments are emotionally neutral, denoting a low arousal level.",
-# step_2_classification_summary="The user's emotional expressions are highly context-dependent.  Strong negative emotions, characterized by high arousal and negative valence, are primarily observed in discussions regarding Caster Semenya, stemming from a rigid, biologically-essentialist view of gender and fairness in sports.  This interpretation significantly shapes their emotional responses.  In other contexts (e.g., power outages, political scandals), emotional responses exhibit lower arousal and fluctuating valence, indicating a more nuanced emotional range outside this specific issue. The user's emotional intensity seems to slightly decrease within the Semenya discussion thread.  Their engagement with various topics reveals awareness of Austrian social and political issues, influencing their emotional responses within those contexts.  The anonymity of the online forum potentially contributes to more direct expression of strong opinions.  Overall, the user's emotional experiences are demonstrably constructed through the interplay of core affect, cognitive appraisals, cultural context, and situational factors.\n")
+def aspect_evaluator_all_aspects(step_1_classification, step_2_classification_summary,llm_model_name : str, run_tree_parent_id):    
+    for aspect in Aspect:
+        aspect_evaluator(step_1_classification, step_2_classification_summary, aspect, llm_model_name, run_tree_parent_id)

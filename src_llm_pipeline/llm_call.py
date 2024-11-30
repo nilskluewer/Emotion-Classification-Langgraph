@@ -20,10 +20,10 @@ from google.api_core.exceptions import ResourceExhausted
 from inputs.prompts.v7.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
 #from utils.langsmith_dataset import create_langsmith_dataset
 from utils.model import default_safety_settings
-from utils.langsmith_feedback import send_feedback_to_trace
+from utils.langsmith_feedback import send_generation_response_feedback_to_trace
 from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
 from utils.enums import MESSAGE_MAP
-from utils.eval_aspects import openai_evaluator, anthropic_evaluator
+from utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect
 
 # Load environment variables
 load_dotenv()
@@ -107,7 +107,7 @@ def configure_llm(model_name, generation_config : GenerationConfig) -> Generativ
 
 @traceable(name="LLM Call", run_type="llm", 
            tags= ["api_call"], 
-           metadata={"ls_provider": "Google", "ls_model_name": f"{model_name}"}
+           metadata={"ls_model_name": f"{model_name}"}
            )
 def call_api(configured_llm: GenerativeModel, 
              prompt: List[Content], 
@@ -229,13 +229,14 @@ def step_1_emotion_classification_with_structured_output(task_prompt_with_contex
                         prompt=role_play_prompt,
                         safety_settings=default_safety_settings)
     response = response["response"]
-    send_feedback_to_trace(response =response,
+    send_generation_response_feedback_to_trace(response =response,
                            client = client,
                            run_tree=run_tree)
 
 
     #Raw Response
-    #print("RAW RESPONSE: ", response)
+    if debug_chain:
+        print("RAW RESPONSE: ", response)
 
     # Parse data to valide output structure
     parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
@@ -279,7 +280,7 @@ def step_2_summarization_of_classification(conversation_history_step_1, temperat
                         prompt=task_prompt_step_2,
                         safety_settings=default_safety_settings)
     response = response["response"]
-    send_feedback_to_trace(response =response,
+    send_generation_response_feedback_to_trace(response =response,
                            client = client,
                            run_tree=run_tree)
 
@@ -304,23 +305,30 @@ def request_emotion_analysis_with_user_id(user_id: int,
         classification_result_step_1 = step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p)
         message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
         dict_list = convert_to_dict(message_history)
-        score = openai_evaluator(str(dict_list["model-Step 1: Classification"]), dict_list["model-Step 2: Summarization"], aspect="Coherence")
-
-        client.create_feedback(run_tree.id,
-                key="Coherence",
-                score=score,
-                comment="Score for Coherence of Summary measured on the in depth Classification",
-                feedback_source_type="api"
-            )
+        """
+        aspect_evaluator(dict_list["model-Step 1: Classification"], 
+                                        dict_list["model-Step 2: Summarization"], 
+                                        aspect=Aspect.COHERENCE,
+                                        llm_model_name="gpt-4o-mini",
+                                        run_tree_parent_id=run_tree.id)
+        aspect_evaluator(dict_list["model-Step 1: Classification"],
+                                              dict_list["model-Step 2: Summarization"], 
+                                              aspect=Aspect.COHERENCE,
+                                              llm_model_name="claude-3-5-sonnet-20240620",
+                                              run_tree_parent_id=run_tree.id)
+                                              """
+        @traceable(name="Evaluate all aspects", run_type="chain")
+        def evaluate_with_all_aspects():
+            aspect_evaluator_all_aspects(dict_list["model-Step 1: Classification"],
+                                                    dict_list["model-Step 2: Summarization"], 
+                                                    llm_model_name="gpt-4o-mini",
+                                                    run_tree_parent_id=run_tree.id)
+            aspect_evaluator_all_aspects(dict_list["model-Step 1: Classification"],
+                                                    dict_list["model-Step 2: Summarization"], 
+                                                    llm_model_name="claude-3-5-haiku-20241022",
+                                                    run_tree_parent_id=run_tree.id)
+        evaluate_with_all_aspects()
         
-        score = anthropic_evaluator(str(dict_list["model-Step 1: Classification"]), dict_list["model-Step 2: Summarization"], aspect="Coherence")
-        
-        client.create_feedback(run_tree.id,
-                key="Coherence",
-                score=score,
-                comment="Score for Coherence of Summary measured on the in depth Classification",
-                feedback_source_type="api"
-            )
         return dict_list
 
 

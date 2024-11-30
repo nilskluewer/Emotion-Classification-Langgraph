@@ -5,7 +5,7 @@
 
 
 # TODO Use Cases: Einbinden das es auch für Terror detection genutzt werden könnte
-
+# TODO: Write a very bad first summary and then improve it with the model
 
 # OFFEN ------ OFFEN
 # TODO: Possible evaluation. 
