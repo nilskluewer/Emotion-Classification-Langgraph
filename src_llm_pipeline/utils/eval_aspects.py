@@ -53,8 +53,8 @@ class Aspect(Enum):
 class EvaluationResult(BaseModel):
     aspect: str
     score: int = Field(ge=0, le=100)
-    reasoning: str = Field(description="The reasoning for the score.")
-    critique: str = Field(description="Suggested improvements to the summary. Short precise key points!")
+    reasoning: str = Field(description="The reasoning for the score. Max three sentences!")
+    critique: str = Field(description="Suggested improvements to the summary to reach a score of 100. Short precise key points! Max. 3 points.")
 
 class CoherenceEvaluation(EvaluationResult):
     aspect: str = "coherence" # fixed value
@@ -140,7 +140,7 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
 
     llm = llm.with_structured_output(pydantic_model)
     prompt = PromptTemplate.from_template(llm_evaluator_prompt_text)
-    chain = prompt | llm
+    chain = (prompt | llm).with_config({"tags": [f"{aspect}"]})
     
     response = chain.invoke({"task-ins": task_ins,
                              "aspect" : aspect,
@@ -159,10 +159,11 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
         value=response.critique,
         score=response.score,
         comment=response.reasoning,
-        feedback_source_type="api"
+        feedback_source_type="api",
+        source_info={"model": llm_model_name}
     )
-    return response.score
+    return response
 
 def aspect_evaluator_all_aspects(step_1_classification, step_2_classification_summary,llm_model_name : str, run_tree_parent_id):    
     for aspect in Aspect:
-        aspect_evaluator(step_1_classification, step_2_classification_summary, aspect, llm_model_name, run_tree_parent_id)
+        aspect_evaluator(step_1_classification, step_2_classification_summary, aspect, llm_model_name, run_tree_parent_id, langsmith_extra={"tags": [f"{aspect}"]})

@@ -11,8 +11,8 @@ Note that '{aspect}' measures '{aspect-inst}'.
 </summary>
 
 
-Reasoning (Explain your score with specific examples from the provided texts.  Clearly state which parts of the <summary> support your evaluation, and if applicable, mention any inconsistencies or shortcomings.):
+Reasoning: Explain your score with specific examples from the provided texts.  Clearly state which parts of the <summary> support your evaluation, and if applicable, mention any inconsistencies or shortcomings.
 
-Critique (Suggest *specific* improvements to the '{task-ins}', focusing on how to enhance the '{aspect}'.  Provide concrete examples of how these improvements could be implemented in the <summary>.):
+Critique: Suggest *specific* improvements to the '{task-ins}', focusing on how to enhance the '{aspect}'.  Provide concrete examples of how these improvements could be implemented in the <summary>. The summary should be maximally information-dense and user-centric, providing a concise and comprehensive picture of the user's emotional state. Each sentence should contain exclusively relevant information about *this specific user*, ideally revealing a new, insightful aspect. Avoid redundancy and general statements.  Prioritize a high information density per sentence for a deep understanding of the individual user profile. Provide concrete examples of how these improvements could be implemented in the <summary>.
 
 Think step by step and take a deep breath. 
