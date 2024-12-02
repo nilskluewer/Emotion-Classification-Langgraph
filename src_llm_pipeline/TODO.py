@@ -6,6 +6,7 @@
 
 # TODO Use Cases: Einbinden das es auch für Terror detection genutzt werden könnte
 # TODO: Write a very bad first summary and then improve it with the model
+# TODO: Add cycle for improvment taking the critique from the evaluation and then improve summary
 
 # OFFEN ------ OFFEN
 # TODO: Possible evaluation. 
