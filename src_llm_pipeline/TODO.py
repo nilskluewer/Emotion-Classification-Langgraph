@@ -7,6 +7,8 @@
 # TODO Use Cases: Einbinden das es auch für Terror detection genutzt werden könnte
 # TODO: Write a very bad first summary and then improve it with the model
 # TODO: Add cycle for improvment taking the critique from the evaluation and then improve summary
+# TODO: Wenn richtig evaluiert muss man die llm as a judge auch evaluieren, + few shot examples für gut oder schlechte classifications für max alignment. Eher boolean classification. 
+# TODO: Summary auch strukturieren wie die initial zusammenfassung
 
 # OFFEN ------ OFFEN
 # TODO: Possible evaluation. 
