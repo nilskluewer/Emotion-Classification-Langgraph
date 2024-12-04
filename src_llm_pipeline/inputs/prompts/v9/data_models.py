@@ -1,5 +1,6 @@
 from typing import Dict, Any, List
 from pydantic import BaseModel, Field
+from langchain_core.utils.json_schema import dereference_refs
 from typing import ClassVar
 
 # The following classes are used to define the data model for the output of the emotion analysis pipeline.
@@ -259,6 +260,12 @@ class HolisticEmotionalProfile(BaseModel):
     )
 
 
-#profile_schema = HolisticEmotionalProfile.model_json_schema()
+#profile_schema = HolisticEmotionAnalysis.model_json_schema()
 #schema_with_order = add_property_ordering_single_class(profile_schema)
+#schema_with_order = add_specific_property_ordering((profile_schema))
 #print(schema_with_order)
+
+#schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
+#schema.pop("$defs", None)
+#schema_with_specific_ordering = add_specific_property_ordering(schema)
+#print(schema_with_specific_ordering)

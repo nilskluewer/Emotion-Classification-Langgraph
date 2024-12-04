@@ -1,6 +1,4 @@
 import json
-import uuid
-from inspect import trace
 from pathlib import Path
 from typing import List
 from tqdm import tqdm
@@ -17,13 +15,14 @@ from vertexai.generative_models import GenerativeModel, Part, Content, Generatio
 from google.api_core.exceptions import ResourceExhausted
 
 
-from inputs.prompts.v7.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
+from inputs.prompts.v9.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
 #from utils.langsmith_dataset import create_langsmith_dataset
 from utils.model import default_safety_settings
 from utils.langsmith_feedback import send_generation_response_feedback_to_trace
 from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
 from utils.enums import MESSAGE_MAP
 from utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect
+
 
 # Load environment variables
 load_dotenv()
@@ -35,6 +34,7 @@ with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 # Der Pfad zur .pkl-Datei in config.json
 
+
 model_name = config["model_name"]
 prompts_version = config["prompt_version"]
 sample_folder = config["sample_folder"]
@@ -45,6 +45,7 @@ check_for_hallucinations = config["check_for_hallucinations"]
 dataset_tag = config["dataset_tag"]
 temperature = config["temperature"]
 top_p = config["top_p"]
+eval_all_aspects = config["eval_all_aspects"]
 
 
 vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
@@ -181,10 +182,6 @@ def convert_to_dict(messages: List[Content]) -> dict:
         print_message_history(messages)
     return result_dict
 
-# transform response.text into a python_dict for further processing
-# Is similar to parse_model_response_to_data_model_structure, but this one trusts that google is doing the ordering
-# of properties correctly.
-#transform_output(response)
 
 @traceable(name="Append LLM Response to Conversation", run_type="parser")
 def append_response(prompt: List[Content], message_to_append: Content) -> List[Content]:
@@ -290,33 +287,27 @@ def step_2_summarization_of_classification(conversation_history_step_1, temperat
 
 def request_emotion_analysis_with_user_id(user_id: int,
                                           response_schema: dict,
-                                          response_schema2: dict,
-                                          task_prompt_with_context,
-                                          context_sphere_for_eval: str) -> dict:
+                                          task_prompt_with_context: str) -> dict:
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
         tags=[f"{model_name}", f"User_ID: {user_id}", f"{dataset_tag}"],
-        metadata={"check_hallucinations": check_for_hallucinations})
-    def request_emotion_analysis(context_sphere,run_tree : RunTree) -> dict:
+        metadata={"check_hallucinations": check_for_hallucinations, "eval_all_aspects": eval_all_aspects})
+    def request_emotion_analysis(response_schema: dict,
+                                task_prompt_with_context: str ,
+                                run_tree : RunTree):
         """
         Call the Google Gemini API with basic configuration.
         """
         classification_result_step_1 = step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p)
-        message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
-        dict_list = convert_to_dict(message_history)
-        """
-        aspect_evaluator(dict_list["model-Step 1: Classification"], 
-                                        dict_list["model-Step 2: Summarization"], 
-                                        aspect=Aspect.COHERENCE,
-                                        llm_model_name="gpt-4o-mini",
-                                        run_tree_parent_id=run_tree.id)
-        aspect_evaluator(dict_list["model-Step 1: Classification"],
-                                              dict_list["model-Step 2: Summarization"], 
-                                              aspect=Aspect.COHERENCE,
-                                              llm_model_name="claude-3-5-sonnet-20240620",
-                                              run_tree_parent_id=run_tree.id)
-                                              """
+        
+        hallucination_check_result = True
+        if hallucination_check_result:
+            message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
+            print(message_history)
+            dict_list = convert_to_dict(message_history)
+        else:
+            return {"error": "Hallucination detected"}
         @traceable(name="Evaluate all aspects", run_type="chain")
         def evaluate_with_all_aspects():
             aspect_evaluator_all_aspects(dict_list["model-Step 1: Classification"],
@@ -327,16 +318,17 @@ def request_emotion_analysis_with_user_id(user_id: int,
                                                     dict_list["model-Step 2: Summarization"], 
                                                     llm_model_name="claude-3-5-haiku-20241022",
                                                     run_tree_parent_id=run_tree.id)
-        evaluate_with_all_aspects()
+
+        if eval_all_aspects:
+            evaluate_with_all_aspects()
+    
         
-        return dict_list
+        return dict_list['model-Step 2: Summarization']
 
 
-    
-    result = request_emotion_analysis(context_sphere = context_sphere_for_eval)
-    
-
-    #print("---RESULT:", result)
+    result = request_emotion_analysis(response_schema, task_prompt_with_context)
+    if debug_chain:
+        print("---RESULT:", result)
     
     return result
 
@@ -365,11 +357,6 @@ if debug_schema:
 
 
 
-
-def create_dataset(parsed_data):
-    print(parsed_data.core_affect_analysis)
-    pass
-
 #@traceable(name="Batch Processing Emotion Classifications", type="chain")
 def process_markdown_files_in_folder():
     results = []  # To store the results for all processed files
@@ -389,12 +376,12 @@ def process_markdown_files_in_folder():
         # Keep in to check if Hallucination Eval works
         context_sphere = markdown_file.read_text()
 
+
         result = request_emotion_analysis_with_user_id(
             user_id=user_id_from_filename,
             response_schema=schema_with_specific_ordering,
-            response_schema2=schema_with_specific_ordering_holistic_profile,
-            task_prompt_with_context=task_prompt_with_context,
-            context_sphere_for_eval=context_sphere)
+            task_prompt_with_context=task_prompt_with_context)
+        
         results.append(result)
     print("--- End of User Processing ---")
     return results  # Return after processing all files
