@@ -13,9 +13,10 @@ from langsmith.run_helpers import traceable
 from vertexai.generative_models import GenerativeModel, Part, Content, GenerationConfig, \
     GenerationResponse
 from google.api_core.exceptions import ResourceExhausted
+from icecream import ic
 
 
-from inputs.prompts.v9.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
+from inputs.prompts.v10.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
 #from utils.langsmith_dataset import create_langsmith_dataset
 from utils.model import default_safety_settings
 from utils.langsmith_feedback import send_generation_response_feedback_to_trace
@@ -46,6 +47,7 @@ dataset_tag = config["dataset_tag"]
 temperature = config["temperature"]
 top_p = config["top_p"]
 eval_all_aspects = config["eval_all_aspects"]
+validate_output_structure = config["validate_output_structure"]
 
 
 vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
@@ -225,30 +227,35 @@ def step_1_emotion_classification_with_structured_output(task_prompt_with_contex
     response = call_api(configured_llm=configured_llm,
                         prompt=role_play_prompt,
                         safety_settings=default_safety_settings)
+    
+    #Raw Response
+    if debug_chain:
+        ic("RAW RESPONSE: ", response)
+    
+    #extract response field from OpenAi Schema format
     response = response["response"]
     send_generation_response_feedback_to_trace(response =response,
                            client = client,
                            run_tree=run_tree)
 
 
-    #Raw Response
-    if debug_chain:
-        print("RAW RESPONSE: ", response)
-
-    # Parse data to valide output structure
-    parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
-                                                               target_schema=response_schema)
 
     # Validate result
-    validation_result = validate_response_property_order(parsed_data, response_schema)
+    if validate_output_structure:  
+            # Parse data to valide output structure
+        parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
+                                                               target_schema=response_schema)
+        validation_result = validate_response_property_order(parsed_data, response_schema)
+        
+        # Feedback of validation result in Langsmith
+        client.create_feedback(
+            run_tree.id,
+            key = "llm_output_format_validation",
+            score = validation_result,
+            comment = "1 = True: The model used the correct propertyOrder. False, the model did not!"
+        )
 
-    # Feedback of validation result in Langsmith
-    client.create_feedback(
-        run_tree.id,
-        key = "llm_output_format_validation",
-        score = validation_result,
-        comment = "1 = True: The model used the correct propertyOrder. False, the model did not!"
-    )
+
 
     # Access the first candidate Content object in the response
     content_from_response = response.candidates[0].content
@@ -263,7 +270,7 @@ def step_1_emotion_classification_with_structured_output(task_prompt_with_contex
 
 @traceable(name="Step 2: Summarization of Classification", run_type="chain")
 def step_2_summarization_of_classification(conversation_history_step_1, temperature,top_p, run_tree: RunTree):
-    step_2_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("user_task_followup_prompt.md"))])
+    step_2_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("step_2_summary_prompt.md"))])
 
     # Append to Conversation
     task_prompt_step_2 = append_prompt(conversation_history_step_1,step_2_task_prompt)
@@ -291,7 +298,7 @@ def request_emotion_analysis_with_user_id(user_id: int,
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
-        tags=[f"{model_name}", f"User_ID: {user_id}", f"{dataset_tag}"],
+        tags=[f"{model_name}", f"User_ID: {user_id}", f"{dataset_tag}", f"{prompts_version}"],
         metadata={"check_hallucinations": check_for_hallucinations, "eval_all_aspects": eval_all_aspects})
     def request_emotion_analysis(response_schema: dict,
                                 task_prompt_with_context: str ,
@@ -304,7 +311,7 @@ def request_emotion_analysis_with_user_id(user_id: int,
         hallucination_check_result = True
         if hallucination_check_result:
             message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
-            print(message_history)
+            ic(message_history)
             dict_list = convert_to_dict(message_history)
         else:
             return {"error": "Hallucination detected"}
@@ -328,7 +335,7 @@ def request_emotion_analysis_with_user_id(user_id: int,
 
     result = request_emotion_analysis(response_schema, task_prompt_with_context)
     if debug_chain:
-        print("---RESULT:", result)
+        ic("---RESULT:", result)
     
     return result
 
@@ -351,9 +358,9 @@ task_prompt_without_context = read_prompts("user_task_prompt.md")
 
 
 if debug_schema:
-    print(schema_with_specific_ordering_holistic_profile)
-    print("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
-    print("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
+    ic(schema_with_specific_ordering_holistic_profile)
+    ic("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
+    ic("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
 
 
 
@@ -361,13 +368,13 @@ if debug_schema:
 def process_markdown_files_in_folder():
     results = []  # To store the results for all processed files
     folder_path = Path(f"./inputs/{sample_folder}")
-    print("--- Start of User Processing ---")
+    ic("--- Start of User Processing ---")
     #for markdown_file in folder_path.glob("*.md"):
     for markdown_file in tqdm(folder_path.glob("*.md"), desc="Processing files"):
         # Extract user ID from the markdown file name
         file_stem = markdown_file.stem
         user_id_from_filename = file_stem.split('_')[1]  # Assuming consistent naming
-        print("START ANALYSIS OF USER: ", user_id_from_filename)
+        ic("START ANALYSIS OF USER: ", user_id_from_filename)
 
         # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
         task_prompt_with_context = insert_context_sphere_into_prompt(
@@ -383,7 +390,7 @@ def process_markdown_files_in_folder():
             task_prompt_with_context=task_prompt_with_context)
         
         results.append(result)
-    print("--- End of User Processing ---")
+    ic("--- End of User Processing ---")
     return results  # Return after processing all files
 
 if __name__ == "__main__":
