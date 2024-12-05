@@ -1,11 +1,11 @@
 {
     "model_name_X": "gemini-pro-experimental",
-    "model_name": "gemini-1.5-flash-002",
+    "model_name": "gemini-1.5-pro-002",
     "model_name_eval": "gemini-1.5-flash-002",
     "llm_endpoint_location": "europe-west1",
     "prompt_version" : "v10",
     "sample_folder" : "sp0",
-    "debug_api_call" : true,
+    "debug_api_call" : false,
     "debug_schema" : false,
     "check_for_hallucinations" : "false",
     "dataset_tag" : "default_dataset",

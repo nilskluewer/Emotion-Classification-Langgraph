@@ -1,6 +1,5 @@
 from vertexai.generative_models import SafetySetting
 
-
 # Safety settings
 # https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters
 default_safety_settings = [
