@@ -52,9 +52,9 @@ class Aspect(Enum):
 
 class EvaluationResult(BaseModel):
     aspect: str
-    score: int = Field(ge=0, le=100)
+    score: bool = Field()
     reasoning: str = Field(description="The reasoning for the score. Max three sentences!")
-    critique: str = Field(description="Suggested improvements to the summary to reach a score of 100. Short precise key points! Max. 3 points.")
+    critique: str = Field(description="Suggested improvements to the summary. Short precise key points! Max. 3 points.")
 
 class CoherenceEvaluation(EvaluationResult):
     aspect: str = "coherence" # fixed value
@@ -99,7 +99,8 @@ def read_prompts(filename: str) -> str:
     folder = Path(f"./inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
 
-llm_evaluator_prompt_text = read_prompts("prompt_evaluating_fluency.md")
+llm_evaluator_prompt_text = read_prompts("prompt_eval_aspects.md")
+instructions_summary = read_prompts("step_2_summary_prompt.md")
 
 
 @traceable(name="Evaluate Aspects", run_type="chain")
@@ -147,7 +148,8 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
                              "ant-aspect" : ant_aspect,
                              "aspect-inst": aspect_inst,
                              "step_1_classification": step_1_classification,
-                             "step_2_classification_summary": step_2_classification_summary})
+                             "step_2_classification_summary": step_2_classification_summary,
+                            "instructions_summary": instructions_summary})
     #print(response)
     print("The Score from OpenAi is:", response.score)
     print("The Reasoning from OpenAi is:", response.reasoning)

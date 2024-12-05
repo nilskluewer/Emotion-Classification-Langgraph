@@ -1,5 +1,6 @@
 
 # URGENT ------ URGENT
+# TODO: Evaluation des **Inner Monoglogue** dann immer Inner monologue vs. analyse -> HumanEval
 # TODO SUrvey finden - Survey items bauen!
 
 

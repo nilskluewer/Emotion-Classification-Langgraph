@@ -50,4 +50,6 @@ MESSAGE_MAP = {
     3: "Step 1: Classification",
     4: "Summarization_Prompt",
     5: "Step 2: Summarization",
+    6: "Feedback_Prompt",
+    7: "Step 3: Revised Summarization"
 }

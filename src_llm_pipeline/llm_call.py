@@ -10,36 +10,48 @@ from langchain_core.utils.json_schema import dereference_refs
 from langsmith import Client
 from langsmith import RunTree
 from langsmith.run_helpers import traceable
-from vertexai.generative_models import GenerativeModel, Part, Content, GenerationConfig, \
-    GenerationResponse
+from vertexai.generative_models import (
+    GenerativeModel,
+    Part,
+    Content,
+    GenerationConfig,
+    GenerationResponse,
+    SafetySetting
+)
 from google.api_core.exceptions import ResourceExhausted
 from icecream import ic
 
 
-from inputs.prompts.v10.data_models import HolisticEmotionAnalysis, HolisticEmotionalProfile, add_property_ordering_single_class, add_specific_property_ordering
-#from utils.langsmith_dataset import create_langsmith_dataset
+from inputs.prompts.v10.data_models import (
+    HolisticEmotionAnalysis,
+    HolisticEmotionalProfile,
+    add_property_ordering_single_class,
+    add_specific_property_ordering,
+)
+
+# from utils.langsmith_dataset import create_langsmith_dataset
 from utils.model import default_safety_settings
 from utils.langsmith_feedback import send_generation_response_feedback_to_trace
-from utils.output_parser import parse_emotion_analysis, print_emotion_analysis, check_property_ordering
+from utils.output_parser import (
+    parse_emotion_analysis,
+    print_emotion_analysis,
+    check_property_ordering,
+)
 from utils.enums import MESSAGE_MAP
 from utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect
 
-
 # Load environment variables
 load_dotenv()
-
 client = Client()
 
-# Lade die Konfigurationen
-with open('config.json', 'r') as config_file:
+# --- load variables from config.json ---
+with open("config.json", "r") as config_file:
     config = json.load(config_file)
-# Der Pfad zur .pkl-Datei in config.json
-
 
 model_name = config["model_name"]
 prompts_version = config["prompt_version"]
 sample_folder = config["sample_folder"]
-debug_chain = config["debug_chain"]
+debug_api_call = config["debug_api_call"]
 debug_schema = config["debug_schema"]
 llm_endpoint_location = config["llm_endpoint_location"]
 check_for_hallucinations = config["check_for_hallucinations"]
@@ -50,52 +62,50 @@ eval_all_aspects = config["eval_all_aspects"]
 validate_output_structure = config["validate_output_structure"]
 
 
+# --- init vertexai ---
 vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
 
 
-def read_prompts(filename: str) -> str:
+# -- Helper functions --
+def read_prompt(filename: str) -> str:
     """Load system prompt from file."""
     folder = Path(f"./inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
 
 
-def insert_context_sphere_into_prompt(context_file_name: Path, template_filename="user_task_prompt.md") -> str:
-    # Read the template and context sphere from their respective files
-    template_content = read_prompts(template_filename)
+def insert_context_sphere_into_prompt(
+    context_file_name: Path, usere_task_prompt="user_task_prompt.md"
+) -> str:
     context_sphere = context_file_name.read_text().strip()
-
-    # Use Python's str.format() to replace the placeholder
-    formatted_markdown_prompt = template_content.format(context_sphere=context_sphere)
-    return formatted_markdown_prompt
-
+    return usere_task_prompt.format(context_sphere=context_sphere)
 
 
 @traceable(name="Simulate Conversation for Role Play Prompting", run_type="prompt")
-def simulate_conversation(task_prompt) -> List[Content]:
+def simulate_conversation(
+    role_setting_prompt: str, role_feedback_prompt: str, user_task_prompt: str
+) -> List[Content]:
     # Simulate the conversation flow with role play prompting
     # Consisting of a System prompt setting the scene, feedback prompt prefilling the models response
     # and the task prompt with the actual task.
-    messages = [
-        Content(
-            role="user",
-            parts=[Part.from_text(system_prompt)]
-        ),
-        Content(
-            role="model",
-            parts=[Part.from_text(feedback_prompt)]
-        ),
-        Content(
-            role="user",
-            parts=[Part.from_text(task_prompt)]
-        )
+    messages_google = [
+        Content(role="user", parts=[Part.from_text(role_setting_prompt)]),
+        Content(role="model", parts=[Part.from_text(role_feedback_prompt)]),
+        Content(role="user", parts=[Part.from_text(user_task_prompt)]),
     ]
-    return messages
+    messages_langchain = [
+        {"role": "user", "content": f"{role_setting_prompt}"},
+        {"role": "model", "content": f"{role_feedback_prompt}"},
+        {"role": "user", "content": f"{user_task_prompt}"}]
+    return messages_google, messages_langchain
 
-@traceable(name="Create Generation Config with Output Instructions", run_type="tool")
-def create_generation_config(temperature, top_p,response_schema_model = None, response_mime_type = None) -> GenerationConfig:
+
+@traceable(name="Create Config with Output Instructions", run_type="tool")
+def create_generation_config(
+    temperature, top_p, response_schema_model=None, response_mime_type=None
+) -> GenerationConfig:
     # Configure generation parameters
     generation_config = GenerationConfig(
-        response_mime_type= response_mime_type, #"application/json",
+        response_mime_type=response_mime_type,  # "application/json",
         response_schema=response_schema_model,
         temperature=temperature,
         top_p=top_p,
@@ -103,19 +113,25 @@ def create_generation_config(temperature, top_p,response_schema_model = None, re
     )
     return generation_config
 
+
 @traceable(name="Configue LLM with Generation Config", run_type="tool")
-def configure_llm(model_name, generation_config : GenerationConfig) -> GenerativeModel:
+def configure_llm(model_name, generation_config: GenerationConfig) -> GenerativeModel:
     return GenerativeModel(model_name=model_name, generation_config=generation_config)
 
 
-@traceable(name="LLM Call", run_type="llm", 
-           tags= ["api_call"], 
-           metadata={"ls_model_name": f"{model_name}"}
-           )
-def call_api(configured_llm: GenerativeModel, 
-             prompt: List[Content], 
-             safety_settings: list[default_safety_settings], 
-             run_tree: RunTree) -> GenerationResponse:
+@traceable(
+    name="LLM Call",
+    run_type="llm",
+    tags=["api_call"],
+    metadata={"ls_model_name": f"{model_name}"},
+)
+def call_api(
+    messages: List[dict],
+    configured_llm: GenerativeModel,
+    prompt: List[Content],
+    safety_settings: list[SafetySetting],
+    run_tree: RunTree,
+) -> GenerationResponse:
     max_retries = 5
     initial_delay = 5  # initial delay in seconds for exponential backoff
     retry_count = 0
@@ -123,29 +139,39 @@ def call_api(configured_llm: GenerativeModel,
     while retry_count < max_retries:
         try:
             response = configured_llm.generate_content(
-                contents=prompt,
-                safety_settings=safety_settings,
-                stream=False
+                contents=prompt, safety_settings=safety_settings, stream=False
             )
-            usage_metadata = response.usage_metadata
+            if debug_api_call:
+                ic(response)
 
+            messages.append({"role": "model", 
+                             "content": f"{response.text}"})
+
+
+            usage_metadata = response.usage_metadata
             result_dict = {
-                "response": response,
-                "usage_metadata": {
-                    "input_tokens": usage_metadata.prompt_token_count,
-                    "output_tokens": usage_metadata.candidates_token_count,
-                    "total_tokens": usage_metadata.total_token_count,
-                },
-            }
+                            "choices": messages,
+                            "usage_metadata": {
+                                "input_tokens": usage_metadata.prompt_token_count,
+                                "output_tokens": usage_metadata.candidates_token_count,
+                                "total_tokens": usage_metadata.total_token_count,
+                            },
+                        }
+
+            ic(result_dict)
+            send_generation_response_feedback_to_trace(response=response, client=client, run_tree=run_tree)
+            
             return result_dict
-        
+
         except ResourceExhausted as e:
-            print(f"Resource exhausted. Retry {retry_count + 1} in {initial_delay} seconds.")
+            print(
+                f"Resource exhausted. Retry {retry_count + 1} in {initial_delay} seconds."
+            )
             print("Error message: ", str(e))
             retry_count += 1
             time.sleep(initial_delay)
             initial_delay *= 2
-        
+
         except Exception as e:
             # Handle any other exceptions that might occur
             print("An error occurred: ", str(e))
@@ -161,13 +187,13 @@ def transform_output(response: GenerationResponse) -> dict:
     python_dict = json.loads(response.text)
     return python_dict
 
+
 # Helper function to properly print Conversation History
 def print_message_history(messages: List[Content]) -> dict:
     for message in messages:
         print(f"Role: {message.role}")
         for part in message.parts:
             print(f"Text: {part.text}")
-
 
 
 @traceable(name="Final Output Parser", run_type="parser")
@@ -178,10 +204,7 @@ def convert_to_dict(messages: List[Content]) -> dict:
         key = f"{message.role}-{MESSAGE_MAP.get(index)}"
         result_dict[key] = " ".join(part.text for part in message.parts)
 
-    #result_dict["full_output_unstructured"] = str(messages)
-
-    if debug_chain:
-        print_message_history(messages)
+    # result_dict["full_output_unstructured"] = str(messages)
     return result_dict
 
 
@@ -190,6 +213,7 @@ def append_response(prompt: List[Content], message_to_append: Content) -> List[C
     prompt.append(message_to_append)
     return prompt
 
+
 @traceable(name="Add Task Prompt for Summarization", run_type="parser")
 def append_prompt(prompt: List[Content], message_to_append: Content) -> List[Content]:
     prompt.append(message_to_append)
@@ -197,12 +221,15 @@ def append_prompt(prompt: List[Content], message_to_append: Content) -> List[Con
 
 
 @traceable(name="Parse LLM Structure for Validation", run_type="parser")
-def parse_model_response_to_data_model_structure(input_text,target_schema) -> dict:
+def parse_model_response_to_data_model_structure(input_text, target_schema) -> dict:
     data = parse_emotion_analysis(text=input_text, schema=target_schema)
     return data
 
+
 @traceable(name="Validate Output Structure", run_type="parser")
-def validate_response_property_order(parsed_data, schema_with_specific_ordering) -> bool:
+def validate_response_property_order(
+    parsed_data, schema_with_specific_ordering
+) -> bool:
     if check_property_ordering(parsed_data, schema_with_specific_ordering):
         print("Output matches schema ordering exactly!")
         return True
@@ -212,186 +239,203 @@ def validate_response_property_order(parsed_data, schema_with_specific_ordering)
 
 
 @traceable(name="Step 1: Classification", run_type="chain")
-def step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p, run_tree: RunTree):
+def step_1_emotion_classification_with_structured_output(messages: List[dict],temperature, top_p, run_tree: RunTree):
+    # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
+    role_setting_prompt = read_prompt("LFB_role_setting_prompt.md")
+    role_feedback_prompt = read_prompt("LFB_role_feedback_prompt.md")
+    user_task_prompt = read_prompt("user_task_prompt.md")
+    context_sphere = messages[1]["content"]
 
-    role_play_prompt = simulate_conversation(task_prompt_with_context)
-    # Erstmla ausgeklammert für consistent langchain tracing
-    #role_play_prompt_without_context = simulate_conversation(task_prompt_without_context)
+    user_task_prompt_with_context  = user_task_prompt.format(context_sphere=context_sphere)
+    role_play_prompt_google, role_play_prompt_langchain = simulate_conversation(
+                                                                role_setting_prompt, 
+                                                                role_feedback_prompt, 
+                                                                user_task_prompt_with_context
+                                                            )
+    
+    
+    # Perform setup operations without repetition
+    response_schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
+    response_schema.pop("$defs", None)
+    response_schema_properties_ordered = add_specific_property_ordering(response_schema)
+    
 
-    llm_config = create_generation_config(response_schema_model = response_schema,
-                                          response_mime_type= "application/json",
-                                          temperature = temperature,
-                                          top_p = top_p)
+    
+
+    llm_config = create_generation_config(
+        response_schema_model=response_schema_properties_ordered,
+        response_mime_type="application/json",
+        temperature=temperature,
+        top_p=top_p,
+    )
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
 
-    response = call_api(configured_llm=configured_llm,
-                        prompt=role_play_prompt,
-                        safety_settings=default_safety_settings)
-    
-    #Raw Response
-    if debug_chain:
-        ic("RAW RESPONSE: ", response)
-    
-    #extract response field from OpenAi Schema format
-    response = response["response"]
-    send_generation_response_feedback_to_trace(response =response,
-                           client = client,
-                           run_tree=run_tree)
-
+    response = call_api(
+        messages=role_play_prompt_langchain,
+        configured_llm=configured_llm,
+        prompt=role_play_prompt_google,
+        safety_settings=default_safety_settings,
+    )
 
 
     # Validate result
-    if validate_output_structure:  
-            # Parse data to valide output structure
-        parsed_data = parse_model_response_to_data_model_structure(input_text=response.text,
-                                                               target_schema=response_schema)
-        validation_result = validate_response_property_order(parsed_data, response_schema)
-        
+    if validate_output_structure:
+        # Parse data to valide output structure
+        parsed_data = parse_model_response_to_data_model_structure(
+            input_text=response.text, target_schema=response_schema
+        )
+        validation_result = validate_response_property_order(
+            parsed_data, response_schema
+        )
+
         # Feedback of validation result in Langsmith
         client.create_feedback(
             run_tree.id,
-            key = "llm_output_format_validation",
-            score = validation_result,
-            comment = "1 = True: The model used the correct propertyOrder. False, the model did not!"
+            key="llm_output_format_validation",
+            score=validation_result,
+            comment="1 = True: The model used the correct propertyOrder. False, the model did not!",
         )
-
-
 
     # Access the first candidate Content object in the response
     content_from_response = response.candidates[0].content
-    conversation_history_step_1 = append_response(prompt = role_play_prompt, message_to_append = content_from_response)
+    conversation_history_step_1 = append_response(
+        prompt=role_play_prompt_google, message_to_append=content_from_response
+    )
 
-
-    if debug_chain:
+    if debug_api_call:
         print_emotion_analysis(parsed_data, width=200)
 
     return conversation_history_step_1
 
 
 @traceable(name="Step 2: Summarization of Classification", run_type="chain")
-def step_2_summarization_of_classification(conversation_history_step_1, temperature,top_p, run_tree: RunTree):
-    step_2_task_prompt = Content(role="user", parts=[Part.from_text(read_prompts("step_2_summary_prompt.md"))])
+def step_2_summarization_of_classification(
+    conversation_history_step_1, temperature, top_p, run_tree: RunTree
+):
+    step_2_task_prompt = Content(
+        role="user", parts=[Part.from_text(read_prompt("step_2_summary_prompt.md"))]
+    )
 
     # Append to Conversation
-    task_prompt_step_2 = append_prompt(conversation_history_step_1,step_2_task_prompt)
+    task_prompt_step_2 = append_prompt(conversation_history_step_1, step_2_task_prompt)
 
-    llm_config = create_generation_config(temperature = temperature,
-                                          top_p = top_p)
+    llm_config = create_generation_config(temperature=temperature, top_p=top_p)
 
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
 
-    response = call_api(configured_llm=configured_llm,
-                        prompt=task_prompt_step_2,
-                        safety_settings=default_safety_settings)
-    response = response["response"]
-    send_generation_response_feedback_to_trace(response =response,
-                           client = client,
-                           run_tree=run_tree)
+    response = call_api(
+        configured_llm=configured_llm,
+        prompt=task_prompt_step_2,
+        safety_settings=default_safety_settings,
+    )
 
     content_from_response_2 = response.candidates[0].content
     message_history = append_response(task_prompt_step_2, content_from_response_2)
     return message_history
 
-def request_emotion_analysis_with_user_id(user_id: int,
-                                          response_schema: dict,
-                                          task_prompt_with_context: str) -> dict:
+
+def request_emotion_analysis_with_user_id(context_sphere,
+    user_id: int
+) -> dict:
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
-        tags=[f"{model_name}", f"User_ID: {user_id}", f"{dataset_tag}", f"{prompts_version}"],
-        metadata={"check_hallucinations": check_for_hallucinations, "eval_all_aspects": eval_all_aspects})
-    def request_emotion_analysis(response_schema: dict,
-                                task_prompt_with_context: str ,
-                                run_tree : RunTree):
+        tags=[
+            f"{model_name}",
+            f"User_ID: {user_id}",
+            f"{dataset_tag}",
+            f"{prompts_version}",
+        ],
+        metadata={
+            "check_hallucinations": check_for_hallucinations,
+            "eval_all_aspects": eval_all_aspects,
+        },
+    )
+    def request_emotion_analysis(
+        messages: List[dict],
+        run_tree: RunTree
+    ):
         """
         Call the Google Gemini API with basic configuration.
         """
-        classification_result_step_1 = step_1_emotion_classification_with_structured_output(task_prompt_with_context,response_schema, temperature, top_p)
         
+        classification_result_step_1 = (
+            step_1_emotion_classification_with_structured_output(messages, temperature, top_p
+            )
+        )
+
         hallucination_check_result = True
         if hallucination_check_result:
-            message_history = step_2_summarization_of_classification(classification_result_step_1, temperature,top_p)
+            message_history = step_2_summarization_of_classification(
+                classification_result_step_1, temperature, top_p
+            )
             ic(message_history)
             dict_list = convert_to_dict(message_history)
         else:
             return {"error": "Hallucination detected"}
+
         @traceable(name="Evaluate all aspects", run_type="chain")
         def evaluate_with_all_aspects():
-            aspect_evaluator_all_aspects(dict_list["model-Step 1: Classification"],
-                                                    dict_list["model-Step 2: Summarization"], 
-                                                    llm_model_name="gpt-4o-mini",
-                                                    run_tree_parent_id=run_tree.id)
-            aspect_evaluator_all_aspects(dict_list["model-Step 1: Classification"],
-                                                    dict_list["model-Step 2: Summarization"], 
-                                                    llm_model_name="claude-3-5-haiku-20241022",
-                                                    run_tree_parent_id=run_tree.id)
+            aspect_evaluator_all_aspects(
+                dict_list["model-Step 1: Classification"],
+                dict_list["model-Step 2: Summarization"],
+                llm_model_name="gpt-4o-mini",
+                run_tree_parent_id=run_tree.id,
+            )
+            aspect_evaluator_all_aspects(
+                dict_list["model-Step 1: Classification"],
+                dict_list["model-Step 2: Summarization"],
+                llm_model_name="claude-3-5-haiku-20241022",
+                run_tree_parent_id=run_tree.id,
+            )
 
         if eval_all_aspects:
             evaluate_with_all_aspects()
-    
-        
-        return dict_list['model-Step 2: Summarization']
 
+        aspect_evaluator(
+            dict_list["model-Step 1: Classification"],
+            dict_list["model-Step 2: Summarization"],
+            aspect=Aspect.COMPREHENSIVENESS,
+            llm_model_name="gpt-4o-mini",
+            run_tree_parent_id=run_tree.id,
+            langsmith_extra={"tags": [f"{Aspect.COHERENCE}"]},
+        )
 
-    result = request_emotion_analysis(response_schema, task_prompt_with_context)
-    if debug_chain:
-        ic("---RESULT:", result)
-    
+        return dict_list["model-Step 2: Summarization"]
+
+    result = request_emotion_analysis(messages=[{"role": "user", "content": f"Subject of Analysis is: {user_id}"},
+                                                {"role": "user", "content": f"{context_sphere}"}])
     return result
 
 
 
 
 
-# Perform setup operations without repetition
-schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
-schema.pop("$defs", None)
-schema_with_specific_ordering = add_specific_property_ordering(schema)
-
-schema_holistic_profile = HolisticEmotionalProfile.model_json_schema()
-schema_with_specific_ordering_holistic_profile = add_property_ordering_single_class(schema_holistic_profile)
 
 
-system_prompt = read_prompts("LFB_role_setting_prompt.md")
-feedback_prompt = read_prompts("LFB_role_feedback_prompt.md")
-task_prompt_without_context = read_prompts("user_task_prompt.md")
-
-
-if debug_schema:
-    ic(schema_with_specific_ordering_holistic_profile)
-    ic("\n --- schema 1 --- ", schema_with_specific_ordering, "\n --- schema --- \n")
-    ic("\n --- schema 2--- ", schema_with_specific_ordering_holistic_profile, "\n --- schema --- \n")
-
-
-
-#@traceable(name="Batch Processing Emotion Classifications", type="chain")
+# @traceable(name="Batch Processing Emotion Classifications", type="chain")
 def process_markdown_files_in_folder():
     results = []  # To store the results for all processed files
     folder_path = Path(f"./inputs/{sample_folder}")
     ic("--- Start of User Processing ---")
-    #for markdown_file in folder_path.glob("*.md"):
+    # for markdown_file in folder_path.glob("*.md"):
     for markdown_file in tqdm(folder_path.glob("*.md"), desc="Processing files"):
         # Extract user ID from the markdown file name
         file_stem = markdown_file.stem
-        user_id_from_filename = file_stem.split('_')[1]  # Assuming consistent naming
+        user_id_from_filename = file_stem.split("_")[1]  # Assuming consistent naming
         ic("START ANALYSIS OF USER: ", user_id_from_filename)
 
-        # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
-        task_prompt_with_context = insert_context_sphere_into_prompt(
-            context_file_name=markdown_file)
-
         # Keep in to check if Hallucination Eval works
-        context_sphere = markdown_file.read_text()
+        context_sphere = markdown_file.read_text().strip()
 
-
-        result = request_emotion_analysis_with_user_id(
+        result = request_emotion_analysis_with_user_id(context_sphere = context_sphere,
             user_id=user_id_from_filename,
-            response_schema=schema_with_specific_ordering,
-            task_prompt_with_context=task_prompt_with_context)
-        
+        )
+
         results.append(result)
     ic("--- End of User Processing ---")
     return results  # Return after processing all files
+
 
 if __name__ == "__main__":
     # Process each folder independently
@@ -399,8 +443,6 @@ if __name__ == "__main__":
     process_markdown_files_in_folder()
 
 
-
 # TODO: Add output to dataset
 # data set creatin through the gaterhin of traces
-#print("\n --- output ---", parsed_data, "\n --- output --- \n")
-
+# print("\n --- output ---", parsed_data, "\n --- output --- \n")
