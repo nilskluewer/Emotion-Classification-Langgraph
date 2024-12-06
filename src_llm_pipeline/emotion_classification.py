@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 from typing import List
-from tqdm import tqdm
 import time
 
 import vertexai
@@ -22,35 +21,33 @@ from google.api_core.exceptions import ResourceExhausted
 from icecream import ic
 
 
-from inputs.prompts.v10.data_models import (
+from .inputs.prompts.v11.data_models import (
     HolisticEmotionAnalysis,
-    HolisticEmotionalProfile,
     add_property_ordering_single_class,
     add_specific_property_ordering,
 )
 
 # from utils.langsmith_dataset import create_langsmith_dataset
-from utils.model import default_safety_settings
-from utils.langsmith_feedback import send_generation_response_feedback_to_trace
-from utils.output_parser import (
+from .utils.helper_functions import default_safety_settings
+from .utils.langsmith_feedback import send_generation_response_feedback_to_trace
+from .utils.output_parser import (
     parse_emotion_analysis,
     print_emotion_analysis,
     check_property_ordering,
 )
-from utils.enums import MESSAGE_MAP
-from utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect
+from .utils.enums import MESSAGE_MAP
+from .utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect
 
 # Load environment variables
 load_dotenv()
 client = Client()
 
 # --- load variables from config.json ---
-with open("config.json", "r") as config_file:
+with open("src_llm_pipeline/config.json", "r") as config_file:
     config = json.load(config_file)
 
 model_name = config["model_name"]
 prompts_version = config["prompt_version"]
-sample_folder = config["sample_folder"]
 debug_api_call = config["debug_api_call"]
 debug_schema = config["debug_schema"]
 llm_endpoint_location = config["llm_endpoint_location"]
@@ -69,7 +66,7 @@ vertexai.init(project="rd-ri-genai-dev-2352", location=llm_endpoint_location)
 # -- Helper functions --
 def read_prompt(filename: str) -> str:
     """Load system prompt from file."""
-    folder = Path(f"./inputs/prompts/{prompts_version}")
+    folder = Path(f"src_llm_pipeline/inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
 
 
@@ -268,7 +265,8 @@ def step_1_emotion_classification_with_structured_output(
     if validate_output_structure:
         # Parse data to valide output structure
         parsed_data = parse_model_response_to_data_model_structure(
-            input_text=response_message, target_schema=response_schema_properties_ordered
+            input_text=response_message,
+            target_schema=response_schema_properties_ordered,
         )
         validation_result = validate_response_property_order(
             parsed_data, response_schema_properties_ordered
@@ -283,7 +281,9 @@ def step_1_emotion_classification_with_structured_output(
         )
 
     # Access the first candidate Content object in the response
-    message_history = append_response(role_play_conversation_langchain, response_message)
+    message_history = append_response(
+        role_play_conversation_langchain, response_message
+    )
 
     if debug_api_call:
         print_emotion_analysis(parsed_data, width=200)
@@ -293,9 +293,8 @@ def step_1_emotion_classification_with_structured_output(
 
 @traceable(name="Step 2: Summarization of Classification", run_type="chain")
 def step_2_summarization_of_classification(
-    messages : List[dict], temperature, top_p, run_tree: RunTree
-):
-    
+    messages: List[dict], temperature, top_p, run_tree: RunTree
+) -> List[dict]:
     # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
     role_setting_prompt = read_prompt("LFB_role_setting_prompt.md")
     role_feedback_prompt = read_prompt("LFB_role_feedback_prompt.md")
@@ -311,7 +310,6 @@ def step_2_summarization_of_classification(
         role_setting_prompt, role_feedback_prompt, summary_classification_prompt
     )
 
-
     llm_config = create_generation_config(temperature=temperature, top_p=top_p)
 
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
@@ -323,7 +321,7 @@ def step_2_summarization_of_classification(
         safety_settings=default_safety_settings,
     )
     response_message = response["choices"][3]["content"]
-    
+
     message_history = append_response(
         message=role_play_prompt_langchain, message_to_append=response_message
     )
@@ -351,10 +349,8 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
         Call the Google Gemini API with basic configuration.
         """
 
-        message_history = (
-            step_1_emotion_classification_with_structured_output(
-                messages, temperature, top_p
-            )
+        message_history = step_1_emotion_classification_with_structured_output(
+            messages, temperature, top_p
         )
         classification = message_history[3]["content"]
         ic(classification)
@@ -362,13 +358,11 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
         hallucination_check_result = True
         if hallucination_check_result:
             message_history = step_2_summarization_of_classification(
-                messages = message_history, 
-                temperature= temperature,
-                top_p =top_p
+                messages=message_history, temperature=temperature, top_p=top_p
             )
             summary = message_history[3]["content"]
             ic(summary)
-            #dict_list = convert_to_dict(message_history)
+            # dict_list = convert_to_dict(message_history)
         else:
             return {"error": "Hallucination detected"}
 
@@ -401,46 +395,10 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
 
         return summary
 
-    result = request_emotion_analysis(
+    message_history = request_emotion_analysis(
         messages=[
             {"role": "user", "content": f"Subject of Analysis is: {user_id}"},
             {"role": "user", "content": f"{context_sphere}"},
         ]
     )
-    return result
-
-
-# @traceable(name="Batch Processing Emotion Classifications", type="chain")
-def process_markdown_files_in_folder():
-    results = []  # To store the results for all processed files
-    folder_path = Path(f"./inputs/{sample_folder}")
-    ic("--- Start of User Processing ---")
-    # for markdown_file in folder_path.glob("*.md"):
-    for markdown_file in tqdm(folder_path.glob("*.md"), desc="Processing files"):
-        # Extract user ID from the markdown file name
-        file_stem = markdown_file.stem
-        user_id_from_filename = file_stem.split("_")[1]  # Assuming consistent naming
-        ic("START ANALYSIS OF USER: ", user_id_from_filename)
-
-        # Keep in to check if Hallucination Eval works
-        context_sphere = markdown_file.read_text().strip()
-
-        result = request_emotion_analysis_with_user_id(
-            context_sphere=context_sphere,
-            user_id=user_id_from_filename,
-        )
-
-        results.append(result)
-    ic("--- End of User Processing ---")
-    return results  # Return after processing all files
-
-
-if __name__ == "__main__":
-    # Process each folder independently
-    folder = "sp0"
-    process_markdown_files_in_folder()
-
-
-# TODO: Add output to dataset
-# data set creatin through the gaterhin of traces
-# print("\n --- output ---", parsed_data, "\n --- output --- \n")
+    return message_history

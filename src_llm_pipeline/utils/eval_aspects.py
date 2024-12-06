@@ -3,49 +3,13 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from langchain_core.prompts import PromptTemplate
-from langchain.output_parsers import PydanticOutputParser
 from langsmith import Client
-from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 import json
-from datetime import datetime
+
 from langsmith.run_helpers import traceable
-from enum import Enum
-
-from enum import Enum
-
-class Aspect(Enum):
-    COHERENCE = (
-        "Coherence",
-        "Incoherence",
-        "the logical flow and clarity within the passage. Consider whether the passage maintains a logical sequence, clear connections between ideas, and an overall sense of understanding."
-    )
-    RELEVANCE = (
-        "Relevance",
-        "Irrelevance",
-        "how well the summarized emotion classification relates to the original in-depth classification. Does the summary accurately reflect the key emotional categories and their relationships identified in the classification?"
-    )
-    CONSISTENCY = (
-        "Consistency",
-        "Inconsistency",
-        "whether the emotional categories and their assigned probabilities in the summary are consistent with the findings of the original in-depth classification. Are there any contradictions or inconsistencies between the two?"
-    )
-    HELPFULNESS = (
-        "Helpfulness",
-        "Unhelpfulness",
-        "how useful the summarized emotion classification is for understanding the overall emotional tone of the text. Does it provide a clear and concise representation of the key emotions and their intensities?"
-    )
-    COMPREHENSIVENESS = (
-        "Comprehensiveness",
-        "Incompleteness",
-        "whether the summary captures all the significant emotional categories and nuances identified in the original in-depth classification. Are there any important emotions or details missing from the summary?"
-    )
-    # Potentially add more aspects like:
-    #  -  Bias (Fairness/Neutrality of the emotion classification)
-    #  -  Confidence (Certainty expressed by the LLM in its classification)
-    #  -  Specificity/Granularity (Level of detail in the emotion classification)
-
+from src_llm_pipeline.utils.enums import Aspect
 
 # TODO ander aspect typen adden
 # TODO maybe critique einfügen das man auch weiß was laut model hätte besser sein können
@@ -72,7 +36,7 @@ class ComprehensivenessEvaluation(EvaluationResult):
     aspect: str = "comprehensiveness" # fixed value
 
 def load_config():
-    config_path = './config.json'
+    config_path = Path('src_llm_pipeline/config.json')
     with open(config_path, 'r') as config_file:
         config = json.load(config_file)
     return config
@@ -96,7 +60,7 @@ dataset_tag = "default_dataset_2024-11-28:13:03:39"
 
 def read_prompts(filename: str) -> str:
     """Load system prompt from file."""
-    folder = Path(f"./inputs/prompts/{prompts_version}")
+    folder = Path(f"src_llm_pipeline/inputs/prompts/{prompts_version}")
     return (folder / filename).read_text()
 
 llm_evaluator_prompt_text = read_prompts("prompt_eval_aspects.md")

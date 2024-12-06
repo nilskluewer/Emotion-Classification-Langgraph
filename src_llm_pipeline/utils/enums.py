@@ -1,3 +1,4 @@
+from enum import Enum
 #https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters#unsafe_responses
 
 FINISH_REASON_MAP = {
@@ -53,3 +54,35 @@ MESSAGE_MAP = {
     6: "Feedback_Prompt",
     7: "Step 3: Revised Summarization"
 }
+
+class Aspect(Enum):
+    COHERENCE = (
+        "Coherence",
+        "Incoherence",
+        "the logical flow and clarity within the passage. Consider whether the passage maintains a logical sequence, clear connections between ideas, and an overall sense of understanding."
+    )
+    RELEVANCE = (
+        "Relevance",
+        "Irrelevance",
+        "how well the summarized emotion classification relates to the original in-depth classification. Does the summary accurately reflect the key emotional categories and their relationships identified in the classification?"
+    )
+    CONSISTENCY = (
+        "Consistency",
+        "Inconsistency",
+        "whether the emotional categories and their assigned probabilities in the summary are consistent with the findings of the original in-depth classification. Are there any contradictions or inconsistencies between the two?"
+    )
+    HELPFULNESS = (
+        "Helpfulness",
+        "Unhelpfulness",
+        "how useful the summarized emotion classification is for understanding the overall emotional tone of the text. Does it provide a clear and concise representation of the key emotions and their intensities?"
+    )
+    COMPREHENSIVENESS = (
+        "Comprehensiveness",
+        "Incompleteness",
+        "whether the summary captures all the significant emotional categories and nuances identified in the original in-depth classification. Are there any important emotions or details missing from the summary?"
+    )
+    
+    # Potentially add more aspects like:
+    #  -  Bias (Fairness/Neutrality of the emotion classification)
+    #  -  Confidence (Certainty expressed by the LLM in its classification)
+    #  -  Specificity/Granularity (Level of detail in the emotion classification)

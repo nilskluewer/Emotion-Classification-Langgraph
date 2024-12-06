@@ -1,0 +1,6 @@
+# TODO List for Emotion Classification Langgraph User Study
+- Paper lesenn HumanEVAL
+- [ ] Find software to distribute the study
+- [ ] Finalize user study items
+    - [ ] Identify the correct evaluation metrics
+    - [ ] Confirm the use of "inner_thoughts" and "analysis" fields from emotion classification
