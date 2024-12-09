@@ -7,6 +7,11 @@
 1 stk = hohe zuverlässig -> könnte sein das im falschen bnreich liegt
 100 verschiedene -> hohe validity aber hohe streung
 
+- Reihenfolge ist wichtig
+- progress leiste
+- kontroll fragen
+
+- Chapter in der Thesis: Warum die spezifischen Fragen wichtig sind für diese Study
 10 verschiedene auf 100 Personen.
 
 
