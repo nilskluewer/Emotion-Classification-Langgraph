@@ -132,11 +132,10 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
 
 def hallucination_evaluator():
     messages = [
-        {"role": "system", "content": {f"""Please act as an impartial judge and evaluate the quality of the response provided by an AI assistant to the user question displayed below. Your evaluation should consider factors such as the helpfulness, relevance, accuracy, depth, creativity, and level of detail of the response. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, please rate the response on a scale of 1 to 10 by strictly following this format: '[[rating]]', for example: 'Rating: [[5]].'"""},
-        {"role": "model", "content": f"{role_feedback_prompt}"},
-        {"role": "user", "content": f"{user_task_prompt}"},
+        {"role": "system", "content": """Please act as an impartial judge and evaluate the quality of the response provided by an AI assistant to the user question displayed below. Your evaluation should consider factors such as the helpfulness, relevance, accuracy, depth, creativity, and level of detail of the response. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, please rate the response on a scale of 1 to 10 by strictly following this format: '[[rating]]', for example: 'Rating: [[5]]."""},
+        {"role": "model", "content": ""},
+        {"role": "user", "content": ""},
     ]
-    [System] 
     
     return None
 
