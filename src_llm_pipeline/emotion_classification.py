@@ -107,6 +107,7 @@ def create_generation_config(
         response_schema=response_schema_model,
         temperature=temperature,
         top_p=top_p,
+        #seed=1,
         max_output_tokens=8000,  # Adjust as needed
     )
     return generation_config
@@ -243,6 +244,8 @@ def step_1_emotion_classification_with_structured_output(
     response_schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
     response_schema.pop("$defs", None)
     response_schema_properties_ordered = add_specific_property_ordering(response_schema)
+    if debug_schema:
+        ic(response_schema_properties_ordered)
 
     llm_config = create_generation_config(
         response_schema_model=response_schema_properties_ordered,

@@ -1,9 +1,10 @@
 from typing import Dict, Any, List
 from pydantic import BaseModel, Field
 from langchain_core.utils.json_schema import dereference_refs
+from langsmith import traceable
+
 
 # The following classes are used to define the data model for the output of the emotion analysis pipeline.
-
 # CoreAffectAnalysis captures fluctuations in basic emotional states—valence and arousal—providing a foundational understanding of the user's affective experiences.
 class CoreAffectAnalysis(BaseModel):
     """

@@ -1,28 +1,14 @@
 
 # URGENT ------ URGENT
-# TODO: Evaluation des **Inner Monoglogue** dann immer Inner monologue vs. analyse -> HumanEval
-# TODO SUrvey finden - Survey items bauen!
 
+# TODO: RUN Pipeline on LLama3 -> Server RecSys L40 GPU?
+# TODO: Mathias Pre-Study
+# TODO: mindest token grenze für pipeline -> bring nichts einen satz zu analyisren. 
 
-# TODO Use Cases: Einbinden das es auch für Terror detection genutzt werden könnte
-# TODO: Write a very bad first summary and then improve it with the model
 # TODO: Add cycle for improvment taking the critique from the evaluation and then improve summary
 # TODO: Wenn richtig evaluiert muss man die llm as a judge auch evaluieren, + few shot examples für gut oder schlechte classifications für max alignment. Eher boolean classification. 
 
 # OFFEN ------ OFFEN
-# TODO: Possible evaluation. 
-# Was bringt ein system prompt, bringt das überhaupt was?
-# Grammatik korrekt? 
-# Wie ist die Sprache? 
-# Wie hoch ist abdeckung der vom user genaten themen 
-# usw. 
-# Sind die thoughts consistent? Coherent? Macht die ratinale sinn? 
-
-# TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
-#  emotiona anylsis extend. Input ist thought / output ist dann die classfication. Dann evaluieren wie auch
-#  in der survey, mit den gleichen fragne???
-# TODO: https://platform.openai.com/docs/guides/evals
-# TODO: OneShot prompting - TASK, THOUGHT, CLASSFICATION - statt - TASK, THOUGHT; ACTION
 # TODO: Benutzername "unbekannt" ersetzten durch random name oder unbekannt nummer X und dann iterrieren oder so.
 # TODO: Cohere, OpenAi, Anthropic, Google anbinden
 # TODO Use greedy decoding
@@ -32,6 +18,18 @@
 
 
 # ERLEDIGT ----- ERLEDIGT #
+
+# TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
+#  emotiona anylsis extend. Input ist thought / output ist dann die classfication. Dann evaluieren wie auch
+#  in der survey, mit den gleichen fragne???
+# TODO: https://platform.openai.com/docs/guides/evals
+# TODO: OneShot prompting - TASK, THOUGHT, CLASSFICATION - statt - TASK, THOUGHT; ACTION
+
+# TODO Use Cases: Einbinden das es auch für Terror detection genutzt werden könnte
+
+# TODO: Evaluation des **Inner Monoglogue** dann immer Inner monologue vs. analyse -> HumanEval
+# TODO: Write a very bad first summary and then improve it with the model
+# TODO SUrvey finden - Survey items bauen!
 # TODO: Summary auch strukturieren wie die initial zusammenfassung
 # TODO: Added examples to summary call 
 # TODO: Classification attributes festlegen durch papers
