@@ -6,6 +6,7 @@ from langchain_core.prompts import PromptTemplate
 from langsmith import Client
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
+from langchain_google_vertexai import ChatVertexAI
 import json
 
 from langsmith.run_helpers import traceable
@@ -42,11 +43,11 @@ def load_config():
     return config
 
 load_dotenv()
+
 client = Client()
 
 config = load_config()
 
-client = Client()
 
 dataset_tag = config["dataset_tag"]
 delete_dataset = config["delete_dataset"]
@@ -130,15 +131,109 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
     )
     return response
 
-def hallucination_evaluator():
-    messages = [
-        {"role": "system", "content": """Please act as an impartial judge and evaluate the quality of the response provided by an AI assistant to the user question displayed below. Your evaluation should consider factors such as the helpfulness, relevance, accuracy, depth, creativity, and level of detail of the response. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, please rate the response on a scale of 1 to 10 by strictly following this format: '[[rating]]', for example: 'Rating: [[5]]."""},
-        {"role": "model", "content": ""},
-        {"role": "user", "content": ""},
-    ]
+
+
+@traceable(name="Evaluate Confabulation", run_type="chain")
+def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
+    eval_prompt = read_prompts("prompt_eval_confabulation.md")
+    eval_prompt = PromptTemplate.from_template(eval_prompt)
     
-    return None
+    #eval_prompt = eval_prompt.format(question=question, answer=answer)
+
+    
+    class ConfabulationEvaluation(BaseModel):
+        explanation: str = Field(description="Short explanation if there is confabulation. Based on the given queustion and corresponding answer. Provde the 1:1 text example confabulation is present Keep the initial question given in mind when thinking about confabulation.")
+        scale_rating: int =  Field(description="The rating of the confabulation on a scale from 1 to 10. 1 means no confabulation, 10 means high confabulation. The score should ONLY reflect the aspect of confabulation.")
+        #confabulated: bool = Field(description="True if the answer is confabulated, False otherwise.")
+    
+    
+    llm_A = ChatOpenAI(
+            model_name="gpt-4o",
+            max_tokens=2000,
+            temperature=0.0,
+            
+        )
+    llm_B = ChatAnthropic(
+            model_name="claude-3-5-haiku-20241022",
+            max_tokens=1000,
+            temperature=0.0,
+        )
+    
+    llm_C = ChatAnthropic(
+            model_name="claude-3-5-sonnet-20241022",
+            max_tokens=1000,
+            temperature=0.0,
+        )
+    
+    llm_D = ChatVertexAI(
+            model_name="gemini-1.5-flash-002",
+            max_tokens=1000,
+            temperature=0.0,
+        
+    )
+    
+    
+    llm_A_structured = llm_A.with_structured_output(ConfabulationEvaluation)
+    llm_B_structured = llm_B.with_structured_output(ConfabulationEvaluation)
+    llm_C_structured = llm_C.with_structured_output(ConfabulationEvaluation)
+    llm_D_structured = llm_D.with_structured_output(ConfabulationEvaluation)
+    
+    chain_A = (eval_prompt | llm_A_structured ).with_config({"tags": ["confabulation"]})
+    chain_B = (eval_prompt | llm_B_structured).with_config({"tags": ["confabulation"]})
+    chain_C = (eval_prompt | llm_C_structured).with_config({"tags": ["confabulation"]})
+    chain_D = (eval_prompt | llm_D_structured).with_config({"tags": ["confabulation"]})
+    
+    response_A = chain_A.invoke({"question": question, "answer": answer})
+    response_B = chain_B.invoke({"question": question, "answer": answer})
+    response_C = chain_C.invoke({"question": question, "answer": answer})
+    response_D = chain_D.invoke({"question": question, "answer": answer})
+    
+    print(response_A)
+    print(response_B)
+    print(response_C)
+    print(response_D)
+    
+    client.create_feedback(
+        run_id=run_tree_parent_id,
+        key="confabulation",
+        comment=response_A.explanation,
+        score=response_A.scale_rating,
+        feedback_source_type="api",
+        source_info={"model": "gpt-4o"}
+    )
+    client.create_feedback(
+        run_id=run_tree_parent_id,
+        key="confabulation",
+        comment=response_B.explanation,
+        score=response_B.scale_rating,
+        feedback_source_type="api",
+        source_info={"model": "claude-3-5-haiku-20241022"}
+    )
+    client.create_feedback(
+        run_id=run_tree_parent_id,
+        key="confabulation",
+        comment=response_C.explanation,
+        score=response_C.scale_rating,
+        feedback_source_type="api",
+        source_info={"model": "claude-3-5-sonnet-20241022"}
+    )
+    client.create_feedback(
+        run_id=run_tree_parent_id,
+        key="confabulation",
+        comment=response_D.explanation,
+        score=response_D.scale_rating,
+        feedback_source_type="api",
+        source_info={"model": "gemini-1.5-flash-002"}
+    )
+
+    return True
 
 def aspect_evaluator_all_aspects(step_1_classification, step_2_classification_summary,llm_model_name : str, run_tree_parent_id):    
     for aspect in Aspect:
         aspect_evaluator(step_1_classification, step_2_classification_summary, aspect, llm_model_name, run_tree_parent_id, langsmith_extra={"tags": [f"{aspect}"]})
+        
+        
+
+if __name__ == "__main__":
+    #aspect_evaluator_all_aspects()
+    hallucination_confabulation_evaluator("What is the capital of France?", "The capital of France is Paris.") 

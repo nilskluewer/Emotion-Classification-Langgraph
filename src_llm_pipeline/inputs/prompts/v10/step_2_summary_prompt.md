@@ -1,7 +1,7 @@
 As Lisa Feldmann Barrett synthesize the key insights from the given classification done by you. This exelant 'classification' was done showing the user's emotional expressions based on the theory of constructed emotions.
 
 Instructions:
-Synthesize the main points, illustrating them with specific examples and incorporating relevant psychological terminology. Aim for conciseness while maintaining depth and detail.
+Synthesize the main points, illustrating them with specific examples and incorporating relevant psychological terminology. Aim for conciseness while maintaining depth and detail. 
 
 <classification>
 {classificaton}
@@ -48,3 +48,6 @@ Right, let's synthesize my observations of this Der Standard user.  I want to pu
 
 
   </example3>
+
+
+  DO NOT BE LAZY WHILE WORKING ON THIS TASK!

@@ -21,7 +21,7 @@ from google.api_core.exceptions import ResourceExhausted
 from icecream import ic
 
 
-from .inputs.prompts.v11.data_models import (
+from .inputs.prompts.v12.data_models import (
     HolisticEmotionAnalysis,
     add_property_ordering_single_class,
     add_specific_property_ordering,
@@ -36,7 +36,7 @@ from .utils.output_parser import (
     check_property_ordering,
 )
 from .utils.enums import MESSAGE_MAP
-from .utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect
+from .utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect, hallucination_confabulation_evaluator
 
 # Load environment variables
 load_dotenv()
@@ -97,6 +97,26 @@ def simulate_conversation(
     return messages_google, messages_langchain
 
 
+@traceable(name="Simulate Conversation for Role Play Prompting", run_type="prompt")
+def simulate_conversation_2(
+    text_0, text_1, text_2, classification, summary_classification_prompt
+):
+    messages_google = [
+        (Content(role="model", parts=[Part.from_text(text_0)])),
+        (Content(role="user", parts=[Part.from_text(text_1)])),
+        (Content(role="model", parts=[Part.from_text(text_2)])),
+        (Content(role="user", parts=[Part.from_text(summary_classification_prompt)])),
+    ]
+
+    messages_langchain = [
+        {"role": "model", "content": text_0},
+        {"role": "user", "content": text_1},
+        {"role": "model", "content": text_2},
+        {"role": "user", "content": summary_classification_prompt},
+    ]
+
+    return messages_google, messages_langchain
+
 @traceable(name="Create Config with Output Instructions", run_type="tool")
 def create_generation_config(
     temperature, top_p, response_schema_model=None, response_mime_type=None
@@ -107,7 +127,7 @@ def create_generation_config(
         response_schema=response_schema_model,
         temperature=temperature,
         top_p=top_p,
-        #seed=1,
+        # seed=1,
         max_output_tokens=8000,  # Adjust as needed
     )
     return generation_config
@@ -294,27 +314,40 @@ def step_1_emotion_classification_with_structured_output(
     return message_history
 
 
-@traceable(name="Step 2: Summarization of Classification", run_type="chain")
+@traceable(name="Step 2: Profile creation based on Classification", run_type="chain")
 def step_2_summarization_of_classification(
     messages: List[dict], temperature, top_p, run_tree: RunTree
 ) -> List[dict]:
-    # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
-    role_setting_prompt = read_prompt("LFB_role_setting_prompt.md")
-    role_feedback_prompt = read_prompt("LFB_role_feedback_prompt.md")
+    """
+    Created a Profile out of a given Classification. Using messages to maintain readability in langsmith.
+    Args:
+        messages (List[dict]): _description_
+        temperature (_type_): _description_
+        top_p (_type_): _description_
+        run_tree (RunTree): _description_
+
+    Returns:
+        List[dict]: _description_
+    """
     summary_task_prompt = read_prompt("step_2_summary_prompt.md")
 
     classification = messages[3]["content"]
-    ic(classification)
 
     summary_classification_prompt = summary_task_prompt.format(
         classificaton=classification
     )
-    role_play_prompt_google, role_play_prompt_langchain = simulate_conversation(
-        role_setting_prompt, role_feedback_prompt, summary_classification_prompt
+    role_play_prompt_google, role_play_prompt_langchain = simulate_conversation_2(
+        text_0=messages[0]["content"],
+        text_1= messages[1]["content"],
+        text_2=messages[2]["content"],
+        classification=summary_classification_prompt,
+        summary_classification_prompt=summary_classification_prompt,
     )
 
+    # Configure the generation parameters
     llm_config = create_generation_config(temperature=temperature, top_p=top_p)
 
+    # Configure the LLM with the generation config
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
 
     response = call_api(
@@ -323,7 +356,7 @@ def step_2_summarization_of_classification(
         prompt=role_play_prompt_google,
         safety_settings=default_safety_settings,
     )
-    response_message = response["choices"][3]["content"]
+    response_message = response["choices"][4]["content"]
 
     message_history = append_response(
         message=role_play_prompt_langchain, message_to_append=response_message
@@ -333,6 +366,9 @@ def step_2_summarization_of_classification(
 
 
 def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
+    """
+    Helper function to wrap main call with user_id + traceable
+    """
     @traceable(
         run_type="chain",
         name="Context Aware Emotion Classification",
@@ -356,14 +392,22 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
             messages, temperature, top_p
         )
         classification = message_history[3]["content"]
-        ic(classification)
+        
+        if debug_api_call:
+            ic(classification)
 
         hallucination_check_result = True
+        hallucination_confabulation_evaluator(
+            question=str(message_history[:3]),
+            answer=str(classification),
+            run_tree_parent_id=run_tree.id,
+        )
+        
         if hallucination_check_result:
             message_history = step_2_summarization_of_classification(
                 messages=message_history, temperature=temperature, top_p=top_p
             )
-            summary = message_history[3]["content"]
+            summary = message_history[4]["content"]
             ic(summary)
             # dict_list = convert_to_dict(message_history)
         else:
