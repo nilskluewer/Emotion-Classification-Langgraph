@@ -223,7 +223,7 @@ def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
         comment=response_D.explanation,
         score=response_D.scale_rating,
         feedback_source_type="api",
-        source_info={"model": "gemini-1.5-flash-002"}
+        source_info={"model": "gemini-flash-experimental"}
     )
 
     return True
