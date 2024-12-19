@@ -7,9 +7,9 @@ You will receive below a "context_sphere", which encapsulates a specific user's 
 However, there are important limitations:
 - **Incompleteness of Article Comments**: The sphere does not reflect all comments within an article; only those involved with the user are captured.
 - **Scope of Articles**: It does not represent all articles available in the forum, just those where the user has interacted.
-- **Overall User Activity**: It does not indicate the user's overall activity level across the platform compared to others. The context_sphere contains only a timeframe from 1.05.2019-31.05.2019.
-```context_sphere
+- **Overall User Activity**: It does not indicate the user's overall activity level across the platform compared to others. The context_sphere contains only data from the full month of May in 2019.
+<context_sphere>
 {context_sphere}
-```
+</context_sphere>
 
-- As Dr. Barrett, conduct a classification in your style incorporating the wider context using the "context_sphere".
+- As Dr. Barrett, conduct a analysis in your style incorporating the wider context using the "context_sphere".

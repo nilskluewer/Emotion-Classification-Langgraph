@@ -4,11 +4,12 @@
     "input_csv_path": "../data/raw_csv/Postings_01052019_31052019.csv",
     "output_path_build_json" : "./Input_Output/JSON/articles_with_threads.json",
     "pkl_path_input_build_context" : "../data/preprocessed/preprocessed_data.pkl",
-    "output_folder_markdown_generation": "./Input_Output/Markdown/",
+    "output_folder_markdown_generation": "./Input_Output/Markdown_Anonymized/",
     "output_folder_samples": "../Markdown_Samples/",
     "MIN_TOKEN_COUNT": 8000,
     "MAX_TOKEN_COUNT": 12000,
-    "SAMPLE_SIZE": 20
+    "SAMPLE_SIZE": 10,
+    "metadata_file": true
     
 
 }

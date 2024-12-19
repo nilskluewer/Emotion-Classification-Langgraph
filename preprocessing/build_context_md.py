@@ -40,6 +40,7 @@ with open('config.json', 'r') as config_file:
 input_json_path = config['input_json_path']
 output_folder = config['output_folder_markdown_generation']
 pkl_path = config['pkl_path_input_build_context']  # Der Pfad zur .pkl-Datei in config.json
+metadata = config['metadata_file']
 
 os.makedirs(output_folder, exist_ok=True)
 
@@ -62,24 +63,37 @@ def user_in_comment_or_replies(comment, user_id):
     return False
 
 # Filterfunktion, die nur relevante Kommentare behält
-def filter_comments_by_user(comments, user_id, level=0):
+def filter_comments_by_user(comments, user_id, user_id_to_anon_name, anon_user_counter, level=0):
     """
     Filters comments for a specific user and constructs a new list of comments 
     with associated details, maintaining recursive depth structure.
-    It is designed to capture all comments and replies made by the user 
-    and format them for Markdown conversion while retaining indentation for hierarchy visualization.
+    It captures all comments and replies made by the user 
+    and formats them for Markdown conversion while retaining indentation for hierarchy visualization.
+    Anonymizes user names while preserving unique identifiers.
     """
     filtered_comments = []
     indent = "  " * level
 
     for comment in comments:
         if user_in_comment_or_replies(comment, user_id):
+            # Determine the anonymous user name
+            if comment['user_id'] == user_id:
+                anon_username = "Analyse Zielnutzer"
+            else:
+                if comment['user_id'] not in user_id_to_anon_name:
+                    anon_name = f"User {anon_user_counter[0]}"
+                    user_id_to_anon_name[comment['user_id']] = anon_name
+                    anon_user_counter[0] += 1
+                anon_username = user_id_to_anon_name[comment['user_id']]
+            
             new_comment = {
-                "user_name": comment['user_name'],
+                "user_name": anon_username,
                 "comment_headline": comment['comment_headline'],
                 "comment_text": comment['comment_text'],
                 "comment_created_at": comment['comment_created_at'],
-                "replies": filter_comments_by_user(comment.get('replies', []), user_id, level + 1)
+                "replies": filter_comments_by_user(
+                    comment.get('replies', []), user_id, user_id_to_anon_name, anon_user_counter, level + 1
+                )
             }
             filtered_comments.append(new_comment)
 
@@ -124,6 +138,8 @@ def create_metadata_file(user_id, user_name, user_gender, user_created_at, total
     This function supports tracking user engagement and data analysis by 
     logging structured profile data and comment history.
     """
+    # Overwrite user_name to anonymize
+    user_name = "Analyse Zielnutzer"
     metadata = {
         "user_id": int(user_id),
         "user_name": user_name,
@@ -149,6 +165,10 @@ def process_user_comments(data, target_user_id):
     all_user_comments = ""
     target_user_name, target_gender, target_created_at = "Unbekannt", "Unbekannt", "Unbekannt"
 
+    # Initialize the mapping from user_id to anonymous names
+    user_id_to_anon_name = {}
+    anon_user_counter = [1]  # Using a list to make it mutable in recursion
+
     for article_id, article in data.items():
         user_details = find_user_details_in_comments(article.get('comment_threads', []), target_user_id)
         if user_details:
@@ -164,33 +184,42 @@ def process_user_comments(data, target_user_id):
         header += "#### Kommentare\n\n"
 
         comments = article.get('comment_threads', [])
-        user_comments = filter_comments_by_user(comments, target_user_id)
+        user_comments = filter_comments_by_user(
+            comments, target_user_id, user_id_to_anon_name, anon_user_counter
+        )
         body = generate_comment_markdown(user_comments)
 
         if body:
             all_user_comments += header + body
 
     if all_user_comments:
+        target_user_name = "Analyse Zielnutzer"  # Overwrite for anonymity
         intro = f"# Benutzeraktivität von {target_user_name}\n\n"
         intro += f"Es folgt die Benutzeraktivität von {target_user_name}\n\n"
-        intro += "## Benutzerdetails\n\n"
-        intro += f"- Benutzername: {target_user_name}\n"
+        #intro += "## Benutzerdetails\n\n"
+        #intro += f"- Benutzername: {target_user_name}\n"
         # Has no relevance for classification
         #intro += f"- Benutzer-ID: {target_user_id}\n"
-        intro += f"- Geschlecht: {target_gender}\n"
-        intro += f"- Konto erstellt am: {format_date(target_created_at)}\n\n---\n\n"
+        #intro += f"- Geschlecht: {target_gender}\n"
+        #intro += f"- Konto erstellt am: {format_date(target_created_at)}\n\n---\n\n"
         intro += "## Kommentare und Threads\n\n"
+        intro += "Die Kommatre sind nach Artikel sortiert. Wenn der Artikel aufgeführt ist, hat der Analyse Zielnutzer mindestenz einen Kommentar unter dem Artikel geschrieben. Es werden nicht alle Kommantare aufgeführt, sondern nur diese, in denen der Analyse Zielnutzer aktiv war. Threads in denen der Analyse Zielnutzer keinen Kommentar geschrieben hat, sind nicht inkludiert. \n\n"
 
         complete_content = intro + all_user_comments
         token_count = count_tokens(complete_content)
         comments_count = complete_content.count('schreibt:') 
 
-        filename = os.path.join(output_folder, f"user_{target_user_id}_comments_{token_count}_tokens.md")
+        filename = os.path.join(
+            output_folder, f"user_{target_user_id}_comments_{token_count}_tokens.md"
+        )
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(complete_content)
-
-        create_metadata_file(target_user_id, target_user_name, target_gender, target_created_at, token_count, comments_count)
-
+        if metadata:
+            create_metadata_file(
+                target_user_id, target_user_name, target_gender, target_created_at,
+                token_count, comments_count)
+        
+        
 def find_user_details_in_comments(comments, target_user_id):
     """
     Searches for user information within a collection of comments, 
