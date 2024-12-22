@@ -1,0 +1,17 @@
+src_llm_pipeline/00 Testing
+src_llm_pipeline/outputs/csv_batch_results
+Markdown_Samples
+Documentation
+data
+Dump
+preprocessing/Versions-preprocessing
+Input_Output
+.git
+.idea
+.pytest_cache
+.venv
+.vscode
+.prettierrc
+.python-version
+vscode/
+
