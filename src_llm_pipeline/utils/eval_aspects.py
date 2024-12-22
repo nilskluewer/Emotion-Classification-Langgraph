@@ -225,8 +225,9 @@ def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
         feedback_source_type="api",
         source_info={"model": "gemini-flash-experimental"}
     )
-
-    return True
+    avg_confabulation_rating = (response_A.scale_rating + response_B.scale_rating + response_C.scale_rating + response_D.scale_rating) / 4
+    print("Confabulation Rating avg. equals to:", avg_confabulation_rating)
+    return avg_confabulation_rating
 
 def aspect_evaluator_all_aspects(step_1_classification, step_2_classification_summary,llm_model_name : str, run_tree_parent_id):    
     for aspect in Aspect:

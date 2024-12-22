@@ -396,14 +396,14 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
         if debug_api_call:
             ic(classification)
 
-        hallucination_check_result = True
-        hallucination_confabulation_evaluator(
+        
+        avg_rating = hallucination_confabulation_evaluator(
             question=str(message_history[:3]),
             answer=str(classification),
             run_tree_parent_id=run_tree.id,
         )
-        
-        if hallucination_check_result:
+        if avg_rating < 2:
+            print(f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating}")
             message_history = step_2_summarization_of_classification(
                 messages=message_history, temperature=temperature, top_p=top_p
             )
@@ -411,7 +411,7 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
             ic(summary)
             # dict_list = convert_to_dict(message_history)
         else:
-            return {"error": "Hallucination detected"}
+            raise Exception(f"Confabulation detected. Avg. Rating {avg_rating}. \n --- \n No further processing.")
 
         @traceable(name="Evaluate all aspects", run_type="chain")
         def evaluate_with_all_aspects():
