@@ -5,7 +5,7 @@
     "llm_endpoint_location": "europe-west1",
     "prompt_version" : "v12",
     "sample_folder" : "sp1",
-    "debug_api_call" : true,
+    "debug_api_call" : false,
     "debug_schema" : false,
     "check_for_hallucinations" : "false",
     "dataset_tag" : "default_dataset",

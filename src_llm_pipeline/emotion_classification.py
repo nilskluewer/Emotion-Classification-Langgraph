@@ -175,7 +175,9 @@ def call_api(
                 },
             }
 
-            ic(result_dict)
+            if debug_api_call:
+                ic(result_dict)
+            
             send_generation_response_feedback_to_trace(
                 response=response, client=client, run_tree=run_tree
             )
@@ -408,7 +410,6 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
                 messages=message_history, temperature=temperature, top_p=top_p
             )
             summary = message_history[4]["content"]
-            ic(summary)
             # dict_list = convert_to_dict(message_history)
         else:
             raise Exception(f"Confabulation detected. Avg. Rating {avg_rating}. \n --- \n No further processing.")
