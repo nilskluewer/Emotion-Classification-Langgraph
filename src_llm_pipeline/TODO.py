@@ -1,6 +1,6 @@
 
 # URGENT ------ URGENT
-
+# TODO: 
 # TODO: RUN Pipeline on LLama3 -> Server RecSys L40 GPU?
 # TODO: Mathias Pre-Study
 # TODO: mindest token grenze für pipeline -> bring nichts einen satz zu analyisren. 

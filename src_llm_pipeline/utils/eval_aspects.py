@@ -236,5 +236,6 @@ def aspect_evaluator_all_aspects(step_1_classification, step_2_classification_su
         
 
 if __name__ == "__main__":
+    print()
     #aspect_evaluator_all_aspects()
-    hallucination_confabulation_evaluator("What is the capital of France?", "The capital of France is Paris.") 
+    #hallucination_confabulation_evaluator("What is the capital of France?", "The capital of France is Paris.")

@@ -27,11 +27,18 @@ def process_markdown_files_in_folder():
 
         # Get context sphere for processing
         context_sphere = markdown_file.read_text().strip()
-
-        result = request_emotion_analysis_with_user_id(
+    
+        try:
+            result = request_emotion_analysis_with_user_id(
             context_sphere=context_sphere,
             user_id=user_id_from_filename,
         )
+            # Process the result if no exception occurred
+            print(f"Processed item: {file_stem}")
+        except Exception as e:
+            print(f"Skipping item {file_stem} due to: {e}")
+            continue  # Skip to the next iteration
+        
 
         results.append(result)
     ic("--- End of User Processing ---")

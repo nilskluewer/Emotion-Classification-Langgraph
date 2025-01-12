@@ -194,8 +194,8 @@ def process_user_comments(data, target_user_id):
 
     if all_user_comments:
         target_user_name = "Analyse Zielnutzer"  # Overwrite for anonymity
-        intro = f"# Benutzeraktivität von {target_user_name}\n\n"
-        intro += f"Es folgt die Benutzeraktivität von {target_user_name}\n\n"
+        intro = f"# Context Sphere von: {target_user_name} (Anonymisiert)\n\n"
+        intro += f"Es folgt eine anonymisierte Übersicht der Benutzeraktivität von {target_user_name}, aus dem österreichischen Online-Forum 'Der Standard' im Zeitraum vom 01.05.2019 bis zum 31.05.2019.\n\n"
         #intro += "## Benutzerdetails\n\n"
         #intro += f"- Benutzername: {target_user_name}\n"
         # Has no relevance for classification

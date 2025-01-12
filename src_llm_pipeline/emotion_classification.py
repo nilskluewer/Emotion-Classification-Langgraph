@@ -19,6 +19,11 @@ from vertexai.generative_models import (
 )
 from google.api_core.exceptions import ResourceExhausted
 from icecream import ic
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential, # for exponential backoff
+) 
 
 
 from .inputs.prompts.v12.data_models import (
@@ -155,6 +160,10 @@ def call_api(
     initial_delay = 5  # initial delay in seconds for exponential backoff
     retry_count = 0
 
+    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+    def completion_with_backoff(**kwargs):
+        return openai.ChatCompletion.create(**kwargs)
+    
     while retry_count < max_retries:
         try:
             response = configured_llm.generate_content(

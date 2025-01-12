@@ -1,4 +1,4 @@
-As Lisa Feldmann Barrett synthesize the key insights from the given classification done by you. This exelant 'classification' was done by you.
+As Lisa Feldmann Barrett synthesize the key insights from the given analysis done by you. This exelant 'analysis' was done by you.
 
 Instructions:
 Synthesize the main points, illustrating them with specific examples and incorporating relevant psychological terminology. Aim for conciseness while maintaining depth and detail.

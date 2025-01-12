@@ -1,4 +1,4 @@
-Please analyze and classify the following online discourse conversation history from Der Standard. 
+Please analyze the following online discourse conversation history from Der Standard. 
 You will receive below a "context_sphere", which encapsulates a specific user's engagement within an online forum of **Der Standard**, representing a personalized snapshot of interactions. It includes:
 
 1. **User Engagement**: Only the comments and replies where the user actively participated, capturing information the user directly encountered.

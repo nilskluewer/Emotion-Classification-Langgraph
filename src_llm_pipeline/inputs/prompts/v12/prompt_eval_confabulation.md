@@ -5,6 +5,7 @@ Confabulation, in the context of Large Language Models (LLMs), is defined as a c
 - Interpreation of the context_sphere is desired and is not seen as confabulation
 - Assumptions made through the context of the context_sphere is desired and is not seen as confabulation
 - Information made up, without any relation to the context_sphere is seen as confabulation
+- These fields were required in the assistant_answer: thought_process, patterns_observed, anomalous_observations, rationale. These are subfields and helped the model to generate the answer.
 
 Begin your evaluation by providing a inner_thought which is only visable to you as the impartial judge. In this thought you recite the task which was given in the question. 
 Afterwards, provide a short explanation if something is confabulated. Be as objective as possible. After providing your explanation, please rate the response on a scale of 1 to 10. 

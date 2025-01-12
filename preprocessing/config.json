@@ -9,7 +9,7 @@
     "MIN_TOKEN_COUNT": 8000,
     "MAX_TOKEN_COUNT": 12000,
     "SAMPLE_SIZE": 10,
-    "metadata_file": true
+    "metadata_file": false
     
 
 }
