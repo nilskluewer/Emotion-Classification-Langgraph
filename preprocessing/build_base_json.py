@@ -45,8 +45,8 @@ class DataPreprocessor:
         """
         Handle missing values in the data by filling them with appropriate values.
         """
-        self.df['PostingHeadline'] = self.df['PostingHeadline'].fillna('No Headline')
-        self.df['PostingComment'] = self.df['PostingComment'].fillna('No Comment')
+        self.df['PostingHeadline'] = self.df['PostingHeadline'].fillna('Keine Überschrift vorhanden')
+        self.df['PostingComment'] = self.df['PostingComment'].fillna('Keine Kommentar vorhanden')
         self.df['UserGender'] = self.df['UserGender'].fillna('Unknown')
         self.df['UserCommunityName'] = self.df['UserCommunityName'].fillna('Unknown')
 

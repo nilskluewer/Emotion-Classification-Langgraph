@@ -117,10 +117,10 @@ def generate_comment_markdown(comments, level=0):
             markdown += f"{indent}> {comment['user_name']} antwortet:\n"
         headline = comment.get('comment_headline')
         if not headline:
-            headline = "Empty Heading"
+            headline = "Keine Überschrift vorhanden"
 
         # Füge Headline zum Markdown-Output hinzu
-        markdown += f"{indent}> **Headline**: {headline}\n"
+        markdown += f"{indent}> **Überschrift**: {headline}\n"
         
         markdown += f"{indent}> **Kommentar**: {comment['comment_text']}\n"
         markdown += f"{indent}> **Kommentiert am** {format_date(comment['comment_created_at'])}\n\n"

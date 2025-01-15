@@ -18,8 +18,8 @@
 
 
 # ERLEDIGT ----- ERLEDIGT #
-
-# TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
+# TOOD: Von "No Comment" und "No Headline" zu descriptiven optionen wechseln wie "Keine Überschrift angegeben" 
+# # TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
 #  emotiona anylsis extend. Input ist thought / output ist dann die classfication. Dann evaluieren wie auch
 #  in der survey, mit den gleichen fragne???
 # TODO: https://platform.openai.com/docs/guides/evals
