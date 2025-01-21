@@ -6,7 +6,7 @@
     "pkl_path_input_build_context" : "../data/preprocessed/preprocessed_data.pkl",
     "output_folder_markdown_generation": "./Input_Output/markdown_anonymized/",
     "output_folder_samples": "../markdown_samples/",
-    "MIN_TOKEN_COUNT": 15000,
+    "MIN_TOKEN_COUNT": 18000,
     "MAX_TOKEN_COUNT": 20000,
     "SAMPLE_SIZE": 10,
     "metadata_file": false

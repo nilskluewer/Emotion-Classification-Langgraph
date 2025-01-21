@@ -5,6 +5,9 @@ import tiktoken
 from tqdm import tqdm  # Importiere tqdm für Fortschrittsanzeige
 from datetime import datetime
 import locale
+from vertexai.generative_models import (
+    GenerativeModel,
+)
 
 def format_date(date_string):
     """
@@ -31,6 +34,10 @@ def count_tokens(text):
     """
     encoder = tiktoken.get_encoding("cl100k_base")  # Verwende das gpt2 Modell-Encoding als Beispiel
     tokens = encoder.encode(text)
+    #gemini_model = GenerativeModel("gemini-1.5-pro-002")
+    #model_response = gemini_model.count_tokens([text])
+    
+    #return model_response.total_tokens
     return len(tokens)
 
 # Lade die Konfigurationen

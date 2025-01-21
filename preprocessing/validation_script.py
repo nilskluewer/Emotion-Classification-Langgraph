@@ -74,7 +74,6 @@ def count_user_occurrences_in_json(unique_user_names):
     for user_name in tqdm(unique_user_names, desc="Counting in JSON"):
         count = count_user_in_json(json_data, user_name)
         json_user_counts[user_name] = count
-        print(f"User '{user_name}' appears {count} times in the JSON file.")
 
     return json_user_counts
 
@@ -84,6 +83,7 @@ json_user_counts = count_user_occurrences_in_json(unique_user_names)
 def validate_user_name_counts(pkl_user_counts, json_user_counts):
     successful_validations = 0
     failed_validations = 0
+    discrepancies = []
 
     for user_name in pkl_user_counts.keys():
         pkl_count = pkl_user_counts.get(user_name, 0)
@@ -93,10 +93,15 @@ def validate_user_name_counts(pkl_user_counts, json_user_counts):
             successful_validations += 1
         else:
             failed_validations += 1
-            print(f"Discrepancy for User '{user_name}': PKL={pkl_count}, JSON={json_count}")
+            discrepancies.append(f"Discrepancy for User '{user_name}': PKL={pkl_count}, JSON={json_count}")
 
     print("\nValidation Summary:")
     print(f"Successful validations: {successful_validations}")
     print(f"Failed validations: {failed_validations}")
+
+    if discrepancies:
+        print("\nDiscrepancies:")
+        for discrepancy in discrepancies:
+            print(discrepancy)
 
 validate_user_name_counts(pkl_user_counts, json_user_counts)

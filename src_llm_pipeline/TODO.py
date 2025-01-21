@@ -1,4 +1,8 @@
 
+# Learnings: 
+# -- man muss immer alle felder einsehen können am enden für volle transparenz! 
+
+
 # URGENT ------ URGENT
 # TODO: 
 # TODO: RUN Pipeline on LLama3 -> Server RecSys L40 GPU?
@@ -18,6 +22,8 @@
 
 
 # ERLEDIGT ----- ERLEDIGT #
+
+# OFFset für tokenizer counting, da gemini langsam und teuer und ist clk100 ca. 10% höher zählt als gemini. 
 # TOOD: Von "No Comment" und "No Headline" zu descriptiven optionen wechseln wie "Keine Überschrift angegeben" 
 # # TODO: Evaluator bauen -> Dataset abspeichern zu den jeweiligen Categorien also einmal core und einmal
 #  emotiona anylsis extend. Input ist thought / output ist dann die classfication. Dann evaluieren wie auch
