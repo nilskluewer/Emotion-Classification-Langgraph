@@ -1,0 +1,63 @@
+Quantitative Ratings (Likert scale, 1-5):
+Understanding:
+How well did you understand the main points of the user analysis report? (1 = Not at all, 5 = Very well)
+How clear was the description of the user's typical behavior and emotional expressions? (1 = Not at all clear, 5 = Very clear)
+Plausibility:
+Based on the report, how plausible do you find the analysis of the user's emotional states? (1 = Not at all plausible, 5 = Very plausible)
+Do you think the described emotions and behaviors are consistent with what you might expect from someone in this online context? (1 = Not at all, 5 = Very much so)
+Usefulness (Content Moderation Context):
+How helpful would this report be in deciding on an appropriate moderation action for this user (e.g., warning, temporary ban, no action)? (1 = Not at all helpful, 5 = Very helpful)
+Does this report provide you with enough information to understand the user's potential impact on the online community? (1 = Not at all, 5 = Very much so)
+
+
+Qualitative Feedback (after each report and/or at the end of the study):
+Open-ended questions:
+What aspects of the report were most helpful in understanding the user?
+What aspects of the report were unclear or confusing?
+How could the report be improved to be more informative or useful?
+How confident are you in your assessment of the user based on this report? Why?
+Do you have any concerns or limitations you see when using automated systems for such tasks?
+If the report had included information about [specific element, e.g., "reason for assessment, data sources, and methods"], would that have been helpful? Why or why not?
+
+
+Feedback Alisa:
+- Hat nicht gemerkt das es überhautp von einem LLM geschrieben wurde? Prooft das auch schon ein punkt?
+- Komplexe Sprache -> Übersetzten mit Deepl? Eng. und Deutsche version? 
+- man versteht den context nicht
+- Würdest du sagen du verstehst die Art und weise wie der use tickt? 
+- Du bist nun in der rolle eines content moderators: 
+- Wie viel Sätze würdest du brauchen um zu beschreiben was der user denkt? 
+- Im folgenden wirst ein content moderator sein bist du dafür bereit? Lies genere nochmal den text und clicke dann auf bereit wenn du es bist: 
+
+
+"Wenn Sie regelmäßig in diesem Forum unterwegs wären, würde dieser Bericht Ihnen helfen, die Beiträge dieses Nutzers besser einzuordnen?" (Ja/Nein/Vielleicht)
+"Wie viele Sätze bräuchten Sie, um einem Freund oder Kollegen zu beschreiben, wie sich dieser Nutzer typischerweise in diesem Online-Forum verhält?"
+Ein Wort
+Ein Satz
+Mehrere Sätze
+
+"Gibt der Bericht Ihrer Meinung nach Hinweise darauf, warum der Nutzer sich in bestimmten Situationen so verhält oder so fühlt?" (Ja/Nein/Unsicher)
+
+"Würden Sie sagen, dass die Kommentare dieses Nutzers im Allgemeinen eher positiv, eher negativ, eher neutral oder gemischt/variabel sind?" (Eher positiv/Eher negativ/Eher neutral/Gemischt/Variabel - je nach Kontext)
+
+Akkuratheit: "Die Analyse gibt die wahrscheinlichen Emotionen des Nutzers im gegebenen Kontext zutreffend wieder." (Misst die wahrgenommene Akkuratheit)
+Nuance: "Die Analyse erfasst die feinen Unterschiede (Nuancen) in den emotionalen Ausdrücken des Nutzers." (Misst die wahrgenommene Nuance)
+Tiefe: "Die Analyse geht über eine oberflächliche Beschreibung hinaus und bietet ein tiefgehendes Verständnis des emotionalen Zustands des Nutzers." (Misst die wahrgenommene Tiefe)
+Nützlichkeit: "Die Analyse wäre hilfreich für einen Content-Moderator, um die Emotionen und Absichten des Nutzers zu verstehen." (Misst die wahrgenommene Nützlichkeit im Anwendungskontext)
+Verständlichkeit: "Die Analyse ist klar und verständlich formuliert." (Misst die Verständlichkeit des Outputs)
+Limitationen: "Die Analyse berücksichtigt ihre eigenen Grenzen, z.B. in Bezug auf die textbasierte Natur der Daten." (Misst die Reflexion der Limitationen, bzw. ob die Limitationen ausreichend hervorgehoben sind.)
+
+
+
+Die Analyse verwendet klar definierte kategorien.
+
+Die Analyse lässt sich mit einem Wort, einem Satz, mehreren Sätzen beschreiben.
+
+Die Analyse ist nachvollziehbar, 
+
+Wenn du ein content moderator wärst:  Auf Basis dieser analyse kannst du einschätzen ob er gebannt werden soll ode rnicht? 
+(vtl. double purpose question machen)
+
+Empfindest du den text als komplex? (sprachlich komplex? oder inhaltich komplex könnte verwirrend sein)
+
+Sind die Schlüsse zu der die analyse kommt nachvollziehbar? 
