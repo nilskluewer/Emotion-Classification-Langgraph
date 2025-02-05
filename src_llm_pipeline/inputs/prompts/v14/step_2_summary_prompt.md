@@ -10,10 +10,6 @@ IMPORTANT: Your Output is read as standalone text, the reader therefore needs co
 {analysis}
 </analysis>
 
-
-Output is seperated in:  **Inner Monologue**: \n \n **Synthesized Report**:
-
-
 Examples for Output: 
 <example_output>
 # Inner Monologue**
