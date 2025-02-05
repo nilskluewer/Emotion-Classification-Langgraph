@@ -20,8 +20,8 @@ def write_results_to_csv(user_id, msg_history_step1, msg_history_step2, output_c
     # Expected header and order of fields:
     header = [
         "user_id",
-        "role_setting_prompt_1", "role_feedback_prompt_1", "step_1_result",
-        "role_setting_prompt_2", "role_feedback_prompt_2", "step_2_result"
+        "role_setting_prompt_1", "role_feedback_prompt_1", "user_task_prompt_1","step_1_result",
+        "role_setting_prompt_2", "role_feedback_prompt_2", "user_task_prompt_2","step_2_result"
     ]
     
     # Create row by extracting the first three expected fields from each message history.
@@ -36,10 +36,12 @@ def write_results_to_csv(user_id, msg_history_step1, msg_history_step2, output_c
         user_id,
         get_field(msg_history_step1, 0),  # role_setting_prompt_1
         get_field(msg_history_step1, 1),  # role_feedback_prompt_1
-        get_field(msg_history_step1, 2),  # step_1_result
+        get_field(msg_history_step1, 2), 
+        get_field(msg_history_step1, 3),# step_1_result
         get_field(msg_history_step2, 0),  # role_setting_prompt_2
         get_field(msg_history_step2, 1),  # role_feedback_prompt_2
-        get_field(msg_history_step2, 2),  # step_2_result
+        get_field(msg_history_step2, 2),
+        get_field(msg_history_step2, 3)# step_2_result
     ]
     
     # Check if file exists so we know whether to write the header.
@@ -71,7 +73,7 @@ def process_markdown_files_in_folder():
 
         print("START ANALYSIS OF USER:", user_id_from_filename)
         context_sphere = markdown_file.read_text().strip()
-    
+
         try:
             # These two calls return lists of dictionaries (the “message histories”).
             message_history_step1, message_history_step2 = request_emotion_analysis_with_user_id(

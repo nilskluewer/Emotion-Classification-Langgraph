@@ -19,11 +19,6 @@ from vertexai.generative_models import (
 )
 from google.api_core.exceptions import ResourceExhausted
 from icecream import ic
-from tenacity import (
-    retry,
-    stop_after_attempt,
-    wait_random_exponential, # for exponential backoff
-) 
 
 
 from .inputs.prompts.v12.data_models import (
