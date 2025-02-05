@@ -104,20 +104,21 @@ def simulate_conversation(
 
 @traceable(name="Simulate Conversation for Role Play Prompting", run_type="prompt")
 def simulate_conversation_2(
-    text_0, text_1, text_2, classification, summary_classification_prompt
+    text_0, text_1, summary_classification_prompt
 ):
+    # Chaning the role doent seem to alter the result
     messages_google = [
-        (Content(role="model", parts=[Part.from_text(text_0)])),
-        (Content(role="user", parts=[Part.from_text(text_1)])),
-        (Content(role="model", parts=[Part.from_text(text_2)])),
+        (Content(role="user", parts=[Part.from_text(text_0)])),
+        (Content(role="model", parts=[Part.from_text(text_1)])),
+       # (Content(role="user", parts=[Part.from_text(text_2)])),
         (Content(role="user", parts=[Part.from_text(summary_classification_prompt)])),
     ]
 
     messages_langchain = [
-        {"role": "model", "content": text_0},
-        {"role": "user", "content": text_1},
-        {"role": "model", "content": text_2},
+        {"role": "user", "content": text_0},
+        {"role": "model", "content": text_1},
         {"role": "user", "content": summary_classification_prompt},
+        #{"role": "model", "content": summary_classification_prompt},
     ]
 
     return messages_google, messages_langchain
@@ -160,9 +161,9 @@ def call_api(
     initial_delay = 5  # initial delay in seconds for exponential backoff
     retry_count = 0
 
-    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
-    def completion_with_backoff(**kwargs):
-        return openai.ChatCompletion.create(**kwargs)
+#    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+#    def completion_with_backoff(**kwargs):
+#        return openai.ChatCompletion.create(**kwargs)
     
     while retry_count < max_retries:
         try:
@@ -226,13 +227,7 @@ def convert_to_dict(messages: List[Content]) -> dict:
 
 @traceable(name="Append LLM Response to Conversation", run_type="parser")
 def append_response(message: List, message_to_append: Content) -> List[Content]:
-    message.append(message_to_append)
-    return message
-
-
-@traceable(name="Add Task Prompt for Summarization", run_type="parser")
-def append_prompt(message: List, message_to_append: Content) -> List[Content]:
-    message.append(message_to_append)
+    #message.append(message_to_append)
     return message
 
 
@@ -318,10 +313,10 @@ def step_1_emotion_classification_with_structured_output(
     message_history = append_response(
         role_play_conversation_langchain, response_message
     )
+    
 
     if debug_api_call:
         print_emotion_analysis(parsed_data, width=200)
-
     return message_history
 
 
@@ -345,13 +340,11 @@ def step_2_summarization_of_classification(
     classification = messages[3]["content"]
 
     summary_classification_prompt = summary_task_prompt.format(
-        classificaton=classification
+        analysis=classification
     )
     role_play_prompt_google, role_play_prompt_langchain = simulate_conversation_2(
         text_0=messages[0]["content"],
         text_1= messages[1]["content"],
-        text_2=messages[2]["content"],
-        classification=summary_classification_prompt,
         summary_classification_prompt=summary_classification_prompt,
     )
 
@@ -367,12 +360,11 @@ def step_2_summarization_of_classification(
         prompt=role_play_prompt_google,
         safety_settings=default_safety_settings,
     )
-    response_message = response["choices"][4]["content"]
-
+    response_message = response["choices"][3]["content"]
+    ic(role_play_prompt_langchain)
     message_history = append_response(
         message=role_play_prompt_langchain, message_to_append=response_message
     )
-
     return message_history
 
 
@@ -389,51 +381,65 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
             f"{dataset_tag}",
             f"{prompts_version}",
         ],
-        metadata={
-            "check_hallucinations": check_for_hallucinations,
-            "eval_all_aspects": eval_all_aspects,
-        },
+        #metadata={
+        #    "check_hallucinations": check_for_hallucinations,
+        #    "eval_all_aspects": eval_all_aspects,
+        #},
     )
     def request_emotion_analysis(messages: List[dict], run_tree: RunTree):
         """
         Call the Google Gemini API with basic configuration.
         """
 
-        message_history = step_1_emotion_classification_with_structured_output(
+        message_history_step1 = step_1_emotion_classification_with_structured_output(
             messages, temperature, top_p
         )
-        classification = message_history[3]["content"]
+        classification = message_history_step1[3]["content"]
+        
+        message_history_step1
         
         if debug_api_call:
             ic(classification)
 
-        
-        avg_rating = hallucination_confabulation_evaluator(
-            question=str(message_history[:3]),
-            answer=str(classification),
-            run_tree_parent_id=run_tree.id,
-        )
-        if avg_rating < 2:
-            print(f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating}")
-            message_history = step_2_summarization_of_classification(
-                messages=message_history, temperature=temperature, top_p=top_p
-            )
-            summary = message_history[4]["content"]
-            # dict_list = convert_to_dict(message_history)
-        else:
-            raise Exception(f"Confabulation detected. Avg. Rating {avg_rating}. \n --- \n No further processing.")
+        if check_for_hallucinations:
+            avg_rating_step1 = hallucination_confabulation_evaluator(
+                question=str(message_history_step1[:3]),
+                answer=str(message_history_step1[-1]),
+                step_of_process="step_1",
+                run_tree_parent_id=run_tree.id,)
+            if avg_rating_step1 < 2:
+                print(f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating_step1}")
+                message_history_step2 = step_2_summarization_of_classification(
+                    messages=message_history_step1, temperature=temperature, top_p=top_p
+                )
+                
+                # dict_list = convert_to_dict(message_history)
+                avg_rating_step2 = hallucination_confabulation_evaluator(
+                question=str(message_history_step2[:3]),
+                answer=str(message_history_step2[-1]),
+                step_of_process="step_2",
+                run_tree_parent_id=run_tree.id)
+                
+                if avg_rating_step2 < 2:
+                    print(f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating_step2}")
+                    
+                else:
+                    raise Exception(f"Confabulation detected at Step 2. Avg. Rating {avg_rating_step2}. \n --- \n No further processing.")
+                
+            else:
+                raise Exception(f"Confabulation detected at Step 1. Avg. Rating {avg_rating_step1}. \n --- \n No further processing.")
 
         @traceable(name="Evaluate all aspects", run_type="chain")
         def evaluate_with_all_aspects():
             aspect_evaluator_all_aspects(
                 classification,
-                summary,
+                message_history_step2[-1],
                 llm_model_name="gpt-4o-mini",
                 run_tree_parent_id=run_tree.id,
             )
             aspect_evaluator_all_aspects(
                 classification,
-                summary,
+                message_history_step2[-1],
                 llm_model_name="claude-3-5-haiku-20241022",
                 run_tree_parent_id=run_tree.id,
             )
@@ -443,19 +449,19 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
 
         aspect_evaluator(
             classification,
-            summary,
+            message_history_step2[-1],
             aspect=Aspect.COMPREHENSIVENESS,
             llm_model_name="gpt-4o-mini",
             run_tree_parent_id=run_tree.id,
             langsmith_extra={"tags": [f"{Aspect.COHERENCE}"]},
         )
+        
+        return message_history_step1, message_history_step2
 
-        return summary
-
-    message_history = request_emotion_analysis(
+    message_history_step1, message_history_step2 = request_emotion_analysis(
         messages=[
             {"role": "user", "content": f"Subject of Analysis is: {user_id}"},
             {"role": "user", "content": f"{context_sphere}"},
         ]
     )
-    return message_history
+    return message_history_step1, message_history_step2

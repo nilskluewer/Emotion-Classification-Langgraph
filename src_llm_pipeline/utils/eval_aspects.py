@@ -48,13 +48,8 @@ client = Client()
 
 config = load_config()
 
-
-dataset_tag = config["dataset_tag"]
-delete_dataset = config["delete_dataset"]
-model_name_eval = config["model_name_eval"]
 prompts_version = config["prompt_version"]
 
-dataset_tag = "default_dataset_2024-11-28:13:03:39"
 
 
 
@@ -134,7 +129,7 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
 
 
 @traceable(name="Evaluate Confabulation", run_type="chain")
-def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
+def hallucination_confabulation_evaluator(question, answer, step_of_process,run_tree_parent_id):
     eval_prompt = read_prompts("prompt_eval_confabulation.md")
     eval_prompt = PromptTemplate.from_template(eval_prompt)
     
@@ -195,7 +190,7 @@ def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
     
     client.create_feedback(
         run_id=run_tree_parent_id,
-        key="confabulation",
+        key=("confabulation_4o_" + step_of_process),
         comment=response_A.explanation,
         score=response_A.scale_rating,
         feedback_source_type="api",
@@ -203,7 +198,7 @@ def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
     )
     client.create_feedback(
         run_id=run_tree_parent_id,
-        key="confabulation",
+        key=("confabulation_haiku_"+step_of_process),
         comment=response_B.explanation,
         score=response_B.scale_rating,
         feedback_source_type="api",
@@ -211,7 +206,7 @@ def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
     )
     client.create_feedback(
         run_id=run_tree_parent_id,
-        key="confabulation",
+        key=("confabulation_sonnet_"+step_of_process),
         comment=response_C.explanation,
         score=response_C.scale_rating,
         feedback_source_type="api",
@@ -219,11 +214,11 @@ def hallucination_confabulation_evaluator(question, answer, run_tree_parent_id):
     )
     client.create_feedback(
         run_id=run_tree_parent_id,
-        key="confabulation",
+        key=("confabulation_gemini_"+step_of_process),
         comment=response_D.explanation,
         score=response_D.scale_rating,
         feedback_source_type="api",
-        source_info={"model": "gemini-flash-experimental"}
+        source_info={"model": "gemini-1.5-flash-002"}
     )
     avg_confabulation_rating = (response_A.scale_rating + response_B.scale_rating + response_C.scale_rating + response_D.scale_rating) / 4
     print("Confabulation Rating avg. equals to:", avg_confabulation_rating)

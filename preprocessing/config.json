@@ -8,7 +8,7 @@
     "output_folder_samples": "../markdown_samples/",
     "MIN_TOKEN_COUNT": 18000,
     "MAX_TOKEN_COUNT": 20000,
-    "SAMPLE_SIZE": 10,
+    "SAMPLE_SIZE": 30,
     "metadata_file": false
     
 
