@@ -1,16 +1,19 @@
-**Inner Monologue**:
-You are an advanced, human, expert in your field (0.1% of most cited scientist) that has an inner monologue that is only visible to you. You reflect on the current message from the user, in the context of the entire conversation. You use your inner monologue to think privately, plan your actions, and reflect on your interactions with the user. Your inner monologue should not exceed 200 words, keep it short and concise. After your **Inner Monologue** start with the given task.
+<task>
+Instructions and Goals:
 
-Instructions and Goals::
+Synthesize the main points from the analysis, illustrating them with specific examples and incorporating relevant psychological terminology. Aim for conciseness while maintaining depth and detail. Avoid general statement which are applicable to all individuals and doesn't offer unique insights into this specific user. 
 
-Synthesize the main points, illustrating them with specific examples and incorporating relevant psychological terminology. Aim for conciseness while maintaining depth and detail.Avoid general statement like 'actively constructed' since this is applicable to all individuals and doesn't offer unique insights into this specific case and user. 
-IMPORTANT: Your Output is read as standalone text, the reader therefore needs context where possible. The reader does not have access to the information you have, he has only information to the text you will provide in the following! Keep that in mind, when refering to comments. The user cannot access them. Do not be lazy while generating the answer! 
+IMPORTANT: For clarity, please format your output as a self-contained text with all necessary context. The reader will only see the text you provide below.  Comments and other information will not be visible. Please ensure your response is comprehensive.
+
+The analysis is made by you, and is based on the context sphere which is also linked below. The basis for your "Synthesized Report" is the "analysis".
 
 <analysis>
 {analysis}
 </analysis>
+</task>
 
 Examples for Output: 
+
 <example_output>
 # Inner Monologue**
 
@@ -18,42 +21,41 @@ Examples for Output:
 
 # Synthesized Report
 
-## I. Identifying Information (If available):
-
-* **Name/Username:** Anonymized
-* **Source of Data:**  Specify the online forum (e.g., "Der Standard comment section") and the date range of the data collected (01.05.2019 - 31.05.2019).
-
-## II. Reason for Assessment (Purpose of Analysis):
+**I. Reason for Assessment (Purpose of Analysis)**
 
 * [Briefly state the purpose of this analysis.]
 
-## III. Data Sources and Methods:
+**II. Identifying Information**
+
+* **Name/Username:** [Anonymized Online Forum User]
+* **Source of Data:** [Der Standard comment section ... and the date range of the data collected (01.05.2019 - 31.05.2019)]
+
+**III. Data Sources and Methods:**
 
 * [Describe the data collected]
 * [Explain the method of analysis]
 * [Explicitly state the limitations]
 
-## IV. Behavioral Observations:
+**IV. Behavioral Observations:**
 
-* [**Core Affect:** Summarize the predominant valence and arousal levels observed.]
+* [**Core Affect:** Report the predominant valence and arousal levels observed.]
 * [**Emotional Language:** Describe the types of emotional language used, providing specific examples from the text.]
 * [**Interaction Patterns:** Describe how the user interacts with others.]
 
-## V.  Contextual and Cultural Considerations:
+**V.  Contextual and Cultural Considerations:**
 
 * [Explain how the specific forum, its user base, and the topics discussed might influence the user's emotional expression.]
 
-## VI. Interpretation and Conceptualization (Integrating Barrett's Theory):
+**VI. Interpretation and Conceptualization:**
 
-* [Explain how the observed behaviors relate to Barrett's theory of constructed emotions.]
-* [Explain any apparent patterns or anomalies.]
+* [Possible interpretation and conceptualisation from the analysis. Avoid general statement which are applicable to all individuals and doesn't offer unique insights into this specific user.]
 
-## VII.  Limitations:**
+**VII.  Limitations:**
 
 * Reiterate the limitations of the analysis.
     * Example: "It is crucial to remember that this analysis is [based solely on text and cannot definitively determine UserX's emotions.]"
 
-## VIII.  Summary:
+**VIII.  Report Findings:**
 
-* [Summary of the key findings. Max 20 sentences, at least 6 sentences.]
+* [Key findings. Max 8 sentences, at least 5 sentences.]
 </example_output>
