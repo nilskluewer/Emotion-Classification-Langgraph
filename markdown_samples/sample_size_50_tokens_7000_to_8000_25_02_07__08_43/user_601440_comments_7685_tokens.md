@@ -1,0 +1,331 @@
+# Context Sphere von: Analyse Zielnutzer (Anonymisiert)
+
+Es folgt eine anonymisierte Übersicht der Benutzeraktivität von Analyse Zielnutzer, aus dem österreichischen Online-Forum 'Der Standard' im Zeitraum vom 01.05.2019 bis zum 31.05.2019.
+
+## Kommentare und Threads
+
+Die Kommatre sind nach Artikel sortiert. Wenn der Artikel aufgeführt ist, hat der Analyse Zielnutzer mindestenz einen Kommentar unter dem Artikel geschrieben. Es werden nicht alle Kommantare aufgeführt, sondern nur diese, in denen der Analyse Zielnutzer aktiv war. Threads in denen der Analyse Zielnutzer keinen Kommentar geschrieben hat, sind nicht inkludiert. 
+
+### Artikel: Ihre schrägsten Öffi-Momente
+
+- Veröffentlicht am: 17. Mai 2019, 07:00 Uhr
+- Kanal: AutoMobil
+- Ressort: Mitreden: Rund ums Auto
+- Gesamtanzahl Kommentare: 2130
+
+#### Kommentare
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Graz, Sommer 2012, 7er, 06:00 Uhr: Am Weg zur Arbeit.
+> **Kommentar**: Schräg gegenüber vor mir, auch in Fahrtrichtung blickend, sitzt eine junge Frau. Aus meinem Blickwinkel sehe ich hauptsächlich ihre Schultern, den Hinterkopf, teilweise Rücken und Beine. Sie trägt eine Jean, ein Shirt und ein verwaschenes kariertes Hemd.   Die Bim kurvt von der Leonhardstraße in die Maiffredygasse. Die junge Frau wankt mir im Sitz ein wenig zu stark. Ich schließe: "Die ist vermutlich nach durchzechter Nacht am Weg nach Hause!"  Ihre Haltung verschlechtert sich momentan. Sie kippt vorne über und stützt sich unbeholfen mit dem Ellebogen auf ihr Knie. Aus den Augenwinkeln beobachte ich etwas Dünnflüssiges, dass sich ausgehend von Ihrem Sitzplatz den Weg in meine Richtung bahnt. Mir schwant Übles.  Wollt Ihr den Rest lesen? ;)
+> **Kommentiert am** 17. Mai 2019, 09:45 Uhr
+
+  > Analyse Zielnutzer antwortet:
+  > **Überschrift**: Teil 2
+  > **Kommentar**: Der Dünnfluss ist unberechenbar. Je nach Lage der Straßenbahn schlängelt er sich in merkwürdigen Mustern über den noppenbewehrten Boden.Ich scheine das Ziel zu sein sein. Beängstigend. Es riecht süßlich.  Mein Blick schweift zurück zur jungen Dame. Sie lehnt schräg ins Zentrum der Straßenbahn blickend mit dem Gesicht nach wie vor nach unten gerichtet am Sitplatz. Das Rinnsal ist ein Sturzbach geworden: Es fließt ihr, durch langes Haar verdeckt, nur so aus dem Gesicht. Die Flüssigkeit ist klar und erinnert mich an Körperexporte aufgrund von Salmonellose. Es riecht nach Alkohol und Schweiß.  Ungebremst fließt es weiter. Eine stattliche Menge, die an mir vorbeiziehend schon fast die Stufen des Ausstiegs errreicht hat...
+  > **Kommentiert am** 17. Mai 2019, 11:30 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Teil 3
+    > **Kommentar**: Sie zuckt zusammen. Ein kurzes, finales Aufplatschen, danach versiegt die Quelle des Flusses ruckartig. Irgendetwas hat ihre Aufmerksamkeit erregt. Ein Gebäude, ein Passant? Sie wirft den Kopf von links nach rechts.  Die Straßenbahn nähert sich dem Jakominiplatz. Frisch gezapfte Initiative scheint ihren Körper zu durchströmen. Wir bleiben stehen. Die Türen öffnen sich. Sie springt auf und dreht sich zum Aussteigen endlich in meine Richtung.  Ihr Gesicht spricht Bände. Muss eine harte Nacht gewesen sein. Zumindest deutet die Gösser-Bierflasche darauf hin, die, inzwischen halbleer, in ihrer Brusttasche steckt. Alles klar.
+    > **Kommentiert am** 17. Mai 2019, 12:18 Uhr
+
+### Artikel: Wie Michael Ludwig Wien verändert: Das erste Jahr im Bürgermeistersessel
+
+- Veröffentlicht am: 14. Mai 2019, 06:00 Uhr
+- Kanal: Panorama
+- Ressort: Wiener Rathaus
+- Gesamtanzahl Kommentare: 584
+
+#### Kommentare
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Ich mag seine nüchterne Herangehensweise.
+> **Kommentar**: Pun intended.
+> **Kommentiert am** 14. Mai 2019, 08:02 Uhr
+
+### Artikel: Arbeitszeit-Urteil des EuGH stellt Ausnahmen in Österreich infrage
+
+- Veröffentlicht am: 14. Mai 2019, 10:22 Uhr
+- Kanal: Wirtschaft
+- Ressort: Arbeitsmarkt
+- Gesamtanzahl Kommentare: 515
+
+#### Kommentare
+
+> User 1 schreibt:
+> **Überschrift**: Keine Überschrift vorhanden
+> **Kommentar**: Ist das in Ö nicht schon länger so? Ich kann mich erinnern, als mein Chef geprüft wurde, dass alle Stundenaufzeichnungen inkl. Pausen geprüft wurden.  Ich musste auch sogar meine Kilometerliste "faken" weil nicht nur die gefahrenen Kilometer ausreichten, sondern auch der Kilometerstand gefordert wurde.
+> **Kommentiert am** 14. Mai 2019, 11:00 Uhr
+
+  > User 2 antwortet:
+  > **Überschrift**: Keine Überschrift vorhanden
+  > **Kommentar**: 'Ist das in Ö nicht schon länger so?'  Sicher im Einzelhandel beispielsweise gibts auch diese 'unter4AugenOrder' sich entsprechend 'auszuchecken', um die Aufzeichnung zu umgehen und dann die erlaubten höchstzulässigen Grenzen zu überschreiten.
+  > **Kommentiert am** 14. Mai 2019, 11:11 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Diese "Order"...
+    > **Kommentar**: ...gibts nicht nur im Einzelhandel, sondern in fast jeder Branche.  Dass es aber auch nie auffällt wenn Mitarbeiter jeden Tag brettleben auf die Minute 10h/12h buchen,....
+    > **Kommentiert am** 14. Mai 2019, 11:20 Uhr
+
+### Artikel: Kinderfreie Hotels: Sind sie rechtlich zulässig?
+
+- Veröffentlicht am: 15. Mai 2019, 07:00 Uhr
+- Kanal: Familie
+- Ressort: Familienrecht
+- Gesamtanzahl Kommentare: 293
+
+#### Kommentare
+
+> User 3 schreibt:
+> **Überschrift**: Keine Überschrift vorhanden
+> **Kommentar**: Finde ich richtig das es auch kinderfreie hotels gibt. Finde ich  nicht diskriminierend weil es ja für jeden geschmack entsprechende angebote gibt. (kinder, reiter, radfahrer, wander..... hotels) manchmal braucht man einfach eine auszeit.
+> **Kommentiert am** 15. Mai 2019, 08:38 Uhr
+
+  > User 4 antwortet:
+  > **Überschrift**: Keine Überschrift vorhanden
+  > **Kommentar**: "Finde ich richtig das es auch behindertenfreie  hotels gibt. Finde ich nicht diskriminierend weil es ja für jeden geschmack entsprechende angebote gibt." ...  oder?
+  > **Kommentiert am** 15. Mai 2019, 08:47 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Hab mich gerade dasselbe gefragt
+    > **Kommentar**: Diskriminierung nach Alter bzw. "Reisegruppenzusammensetzung" - OK Diskriminierung nach Hautfarbe, Haarfarbe, Augenfarbe, Geschlecht, Behinderung - Nicht OK  Ich finde das Angebot der kinderfreien Hotels in Ordnung, da spricht mMn nichts dagegen! Mich interessiert insbesondere tatsächlich die Argumentation, warum manche Kriterien zulässig sind und andere nicht.
+    > **Kommentiert am** 15. Mai 2019, 08:54 Uhr
+
+### Artikel: Sellners Spenden aus Deutschland und die E-Mails mit dem Christchurch-Terroristen
+
+- Veröffentlicht am: 15. Mai 2019, 12:00 Uhr
+- Kanal: Inland
+- Ressort: Rechtsextremismus
+- Gesamtanzahl Kommentare: 1281
+
+#### Kommentare
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Ein schöner Patriot ist das,...
+> **Kommentar**: ...der (aktuell noch mutmaßlich, im Zweifelsfall für den Angeklagten) Steuern hinterzieht und somit nicht den rechtmäßigen Beitrag zum Wohle unserer Nation beiträgt.  Stellen Sie sich bitte die Erklärungsnot vor, der der nationalsozialistische Mensch unterliegt, der das Wort "Sozialismus" als Bestandteil des Wortes "Nationalsozialismus" nicht verstanden hat...
+> **Kommentiert am** 15. Mai 2019, 13:37 Uhr
+
+> User 5 schreibt:
+> **Überschrift**: Keine Überschrift vorhanden
+> **Kommentar**: Also mir ist gerade einfach nur schlecht
+> **Kommentiert am** 15. Mai 2019, 13:23 Uhr
+
+  > User 6 antwortet:
+  > **Überschrift**: Keine Überschrift vorhanden
+  > **Kommentar**: wenn ich lese " wir haben Einblicke in Auszüge zweier deutscher Konten der rechtsextremen Galionsfigur erhalten" wird's mir auch schlecht, ist sowas eigentlich rechtmäßig?
+  > **Kommentiert am** 15. Mai 2019, 13:32 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Nein, vermutlich nicht,...
+    > **Kommentar**: ....außer es gäbe eine Rechtsgrundlage für die Verarbeitung dieser personenbezogenen Daten.  So hätte ich zumindest unser DSG interpretiert.
+    > **Kommentiert am** 15. Mai 2019, 13:46 Uhr
+
+### Artikel: Innenminister Kickl will überhaupt keine Asylanträge mehr
+
+- Veröffentlicht am: 16. Mai 2019, 10:57 Uhr
+- Kanal: Inland
+- Ressort: Integrationspolitik
+- Gesamtanzahl Kommentare: 352
+
+#### Kommentare
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Nach aktueller Rechtslage MUSS 0 das Ziel sein.
+> **Kommentar**: Nach dem Dublin-Verfahren ist derjenige Staat verpflichtet, das Asylverfahren durchzuführen, in dem die asylsuchende Person zum ersten Mal die EU-Außengrenzen übertritt. 2015 hat man gesehen, was dieses Vertragswerk im Anlassfall tatsächlich wert ist.  Meiner Meinung sollte aber genau das die Ebene sein, auf der Europa zusammenarbeitet. Dazu gehört auch ein Solidaritätsmechanismus, der die Last, die vor allem bei den "südlichen Staaten" auftritt, fair auf alle verteilt.  Ob Kickl das auch auf diese Art argumentieren würde, bezweifle ich.
+> **Kommentiert am** 17. Mai 2019, 01:01 Uhr
+
+### Artikel: Neos-Kandidatin Gamon: "Was ÖVP und FPÖ machen, ist antipatriotisch"
+
+- Veröffentlicht am: 17. Mai 2019, 06:00 Uhr
+- Kanal: Inland
+- Ressort: Neos
+- Gesamtanzahl Kommentare: 1330
+
+#### Kommentare
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Keine Überschrift vorhanden
+> **Kommentar**: Ich werde aller Voraussich nach NEOS, aber nicht Gamon wählen. Was ich mich aber inzwischen immer wieder frage, ist:  Warum ist es für uns (mich eingeschlossen) so einfach zu akzeptieren, dass nationalistische Tendenzen in der Regel irgendwie kurzsichtig sind, aber europäische Tendenzen nicht. Unterm Strich landen wir mit einer stärkeren EU-Integration der Nationalstaaten irgendwann nur bei einer größeren Nation, nämlich den USE. dann hätten wir denselben Zustand, aber mit einer anderen Definition unserer Nation? Ist es dann eine Augenauswischerei, den Nationalismus mutmaßlich hinter sich zu lassen?
+> **Kommentiert am** 17. Mai 2019, 09:31 Uhr
+
+### Artikel: Ibiza-Video: Dürfen die Medien das?
+
+- Veröffentlicht am: 21. Mai 2019, 08:00 Uhr
+- Kanal: Inland
+- Ressort: Inland
+- Gesamtanzahl Kommentare: 1473
+
+#### Kommentare
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Ein argumentativer Gedanke
+> **Kommentar**: Der Tenor im Forum (und auch meine Meinung) ist: Es ist medienethisch vertretbar, solches Material aufzuzeichnen und zu veröffentlichen, da der Inhalt verwerflich und von öffentlichem Interesse ist.  Aber: Weiß man schon vor der Aufzeichnung, dass der Inhalt der Aufzeichnung verwerflich und von öffentlichem Interesse sein wird? Was wäre wenn das Abendessen mit der Oligarchin harmlos abgelaufen wäre, wäre es dann in Ordnung gewesen auf Verdacht hin diese Aufzeichnung anzufertigen?  Kurz: Was bringt man als Rechtfertigung ins Feld, Aufzeichnung solcher Art anzufertigen, wenn man nicht im Vorhinein sagen kann, was passieren wird?  In diesem Fall würde man wohl sagen: Die Vorgeschichte. Das würde evtl. auch als Abgrenzung zu DashCams genügen...
+> **Kommentiert am** 21. Mai 2019, 09:32 Uhr
+
+  > User 7 antwortet:
+  > **Überschrift**: Echt jetzt? Das war ganz übel, weil die HÄTTEN auf den Korruptionsköder ja auch nicht anspringen KÖNNEN?
+  > **Kommentar**: Keine Kommentar vorhanden
+  > **Kommentiert am** 21. Mai 2019, 09:48 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Keine Überschrift vorhanden
+    > **Kommentar**: Das habe ich nicht behauptet.  Ich habe festgestellt, dass es GENERELL ein Kriterium braucht, dass eine (medien)ethische Rechtfertigung liefert, geplant geheime Aufzeichnungen von Personen anzufertigen und dass ich glaube, dass die Rechtfertigung in concretu nur aus der Vorgeschichte, also in diesem Fall der Anbahnung des Abendessens, ableitbar ist.   Denn wie sonst soll vorab bewertet werden, dass der Content, denn ich in der Zukunft aufzeichnen werde, verwerflichen Inhalt, der für das öffentlichen Interesse relevant ist, enthalten wird?
+    > **Kommentiert am** 21. Mai 2019, 10:02 Uhr
+
+> User 8 schreibt:
+> **Überschrift**: Das kommt wirklich auf den Inhalt drauf an ...
+> **Kommentar**: Hätt der Strache einfach nur die Flippa mit einer scharfen Russin mit dreckige Fußerl beschi**en, dann wär das nichts gewesen, das in den Medien breitgetreten werden sollte.   Da er aber recht offensichtlich und plump versucht hat ein ganzes Staatsvolk zu fi**en, war es meines Erachtens sogar die Pflicht von SZ und Focus, das (nach eingehender Prüfung) zu veröffentlichen.
+> **Kommentiert am** 21. Mai 2019, 08:05 Uhr
+
+  > User 9 antwortet:
+  > **Überschrift**: Stimme Ihnen zu, das veröffentlichen an sich war notwendig. Aber die Art und Weise wie das geschehen ist, halte ich für ethisch höchst bedenklich
+  > **Kommentar**: Klenk sagte selbst, von der Existenz des Videos schon seit letztem Jahr zu wissen. Ähnliches die SZ und Spiegel Redakteure. Das Video wurde natürlich bewusst erst direkt vor der Wahl übergeben, das war aus Sicht der Produzenten natürlich gewollt. Aber aus journalistischer Sicht war es nicht richtig, hier so mitzuspielen. Das war ganz klar eine sehr professionelle Umsturzaktion der Regierung. Auch wenn man den Sturz dieser Regierung an sich für richtig hält, war die Art und Weise wie dies geschehen ist und hier im Besonderen die Rolle der Medien, nicht korrekt. Veröffentlichund des Videos: Ja. Aber nicht direkt vor der Wahl, wie von Auftraggeber geplant. Erschreckend für mich, wieviele Personen von dem Video wussten und mitgespielt haben.
+  > **Kommentiert am** 21. Mai 2019, 09:04 Uhr
+
+    > User 10 antwortet:
+    > **Überschrift**: Keine Überschrift vorhanden
+    > **Kommentar**: Ich finde es schon in Ordnung offensichtlich staatsfeindliches Verhalten - anders kann man die geplante Korrution und die Lügen und die Angriffe auf die Presse nicht nennen - zu Tage gebracht wird, gerade und vor allem vor einer Wahl.  Man darf und soll schon wissen woran man mit diesen Personen ist, alleine schon um weiteren Schaden abzuwenden.
+    > **Kommentiert am** 21. Mai 2019, 09:30 Uhr
+
+      > Analyse Zielnutzer antwortet:
+      > **Überschrift**: Was ist mit dem Schaden...
+      > **Kommentar**: ...der zwischen dem Zeitpunkt der Aufnahme und der Veröffentlichung des Videos eingetreten ist?
+      > **Kommentiert am** 21. Mai 2019, 12:08 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Zwiespalt
+    > **Kommentar**: Videorelease direkt nach Aufzeichung - Optimum Videorelease direkt vor der Wahl - schaler Beigeschmack von Konzertierung Videorelease nach der Wahl - Supergau
+    > **Kommentiert am** 21. Mai 2019, 11:40 Uhr
+
+> Analyse Zielnutzer schreibt:
+> **Überschrift**: Medienethische Gedanken
+> **Kommentar**: 1.) Es ist mMn medienethisch vertretbar, Videos von unbekannten Urhebern zu veröffentlichen. Es wäre nicht vertretbar, dies ohne jegliche Prüfung der Authentizität zu tun (was Spiegel & NZ zweifellos gemacht haben). 2.) Was mMn nicht vertretbar ist das unverpixelte Darstellen von Gudenus' Frau unter der Annahme, dass Sie keine verwerfliche Aktion gesetzt hat. Sippenhaftung gibt es nicht, als "Innocent Bystander" wäre es allein aus datenschutzrechtlichen Gründen verboten, ohne ihre Zustimmung ihr Gesicht unverpixelt zu zeigen. 3.) Was mMn (medien)ethisch ebenfalls unvertretbar ist, ist, diese zweifellos für die österreichische Demokratie essentielle Information beinahe eineinhalb Jahre nicht zu veröffentlichen.
+> **Kommentiert am** 21. Mai 2019, 08:50 Uhr
+
+  > User 11 antwortet:
+  > **Überschrift**: Zu 3:
+  > **Kommentar**: Nachdem das Material nicht solange im Besitz der Medien ist, kann man das nicht den Medien angreifen.
+  > **Kommentiert am** 21. Mai 2019, 08:56 Uhr
+
+    > Analyse Zielnutzer antwortet:
+    > **Überschrift**: Korrekt...
+    > **Kommentar**: ...aber durchaus dem/der/den UrheberInnen des Videos!
+    > **Kommentiert am** 21. Mai 2019, 09:12 Uhr
+
+      > User 11 antwortet:
+      > **Überschrift**: Nachdem wir von Medien-Ethik reden:
+      > **Kommentar**: Dann müsste der Urheber ein Medium sein.
+      > **Kommentiert am** 21. Mai 2019, 09:19 Uhr
+
+        > Analyse Zielnutzer antwortet:
+        > **Überschrift**: Keine Überschrift vorhanden
+        > **Kommentar**: Medienethik befasst sich mit dem verantwortungsvollen Handeln in der Produktion, Distribution und Rezeption von Medien im Sinne von Kommunikationsmitteln. D.h. es dreht sich nicht zwingend um Medien(unternehmen), sondern auch (Kommunikations)Medien, die Privatpersonen Verteilen, Konsumieren, etc.
+        > **Kommentiert am** 21. Mai 2019, 09:37 Uhr
+
+### Artikel: Türkis-Blau II?
+
+- Veröffentlicht am: 23. Mai 2019, 08:54 Uhr
+- Kanal: Meinung
+- Ressort: Einserkastl Hans Rauscher
+- Gesamtanzahl Kommentare: 1795
+
+#### Kommentare
+
+> User 12 schreibt:
+> **Überschrift**: "Die FPÖ hat ihre Hausaufgaben gemacht"
+> **Kommentar**: "Ich habe echten Reformwillen der FPÖ erkennen können" "Die bedingungslose Bereitschaft, unseren Weg der Reformen für dieses Land fortsetzen zu wollen" "Die Streitigkeiten sind beendet" "Wir konnten einen Linksruck verhindern" "Die FPÖ konnte mir glaubhaft versichern, dass diese Affäre nurmehr ein Teil der Vergangenheit ist und einer harmonischen Zusammenarbeit nichts mehr im Wege steht" "Im Wahlkampf wurde manches überspitzt formuliert, jetzt arbeiten wir zusammen, um den Weg der Veränderung zu beenden"  so oder so ähnlich im Basti-Bullshit-Bingo im Herbst
+> **Kommentiert am** 23. Mai 2019, 09:13 Uhr
+
+  > Analyse Zielnutzer antwortet:
+  > **Überschrift**: Ersetze
+  > **Kommentar**: FPÖ mit SPÖ Links mit Rechts (gedanklich) 2019 mit 2017  klingt auch schlüssig. Oder nicht?
+  > **Kommentiert am** 23. Mai 2019, 09:25 Uhr
+
+### Artikel: Affäre um rassistische Bachelorarbeit an Grazer FH weitet sich aus
+
+- Veröffentlicht am: 23. Mai 2019, 08:45 Uhr
+- Kanal: Panorama
+- Ressort: Österreich
+- Gesamtanzahl Kommentare: 942
+
+#### Kommentare
+
+> User 13 schreibt:
+> **Überschrift**: Keine Überschrift vorhanden
+> **Kommentar**: Die Grundannahme der Arbeit, dass sich der Stimmapparat unterschiedlicher Menschentypen unterscheidet, ist falsch. Punkt. In "Blindverkostungen" ist s unmöglich, afroamerikanische, japanische, chinesische oder oder sonstwelche Sänger und Sängerinnen auseinander zu halten, so sie das Gleiche singen. Selbiges gilt für das gesprochene Wort. Unterschiede gibt es nur bei den Sprachen (nonaa). Also eine schlechte und unnötige Arbeit. Von der offensichtlich unappetilichen Intention und der Verwendung unwissenschaftlicher Begriffe für unterschiedliche Menschentypen mal ganz abgesehen.
+> **Kommentiert am** 23. Mai 2019, 10:45 Uhr
+
+  > User 14 antwortet:
+  > **Überschrift**: Keine Überschrift vorhanden
+  > **Kommentar**: Jetzt wuerde mich aber wirklich interessieren, woher Sie das haben? Ich sage nicht, dass Sie falsch liegen, aber fuer so eine dezidierte Aussage wuerde mich doch die Quallenlage interessieren. Immerhin gibt es biologische Unterschiede zwischen Menschen verschiedener Herkunft. Rein optisch werden Sie mir wohl nicht erklaeren wollen, dass ein Japaner, ein Sudanese und ein Schotte komplett gleich sind? Dass sich das auch auf die Stimme bzw Stimmlage auswirken kann, halte ich zumindest nicht fuer abwegig. Sollte das bereits widerlegt sein, fair enough, aber dann wuerde mich wie gesagt Ihre Quelle interessieren.
+  > **Kommentiert am** 23. Mai 2019, 10:53 Uhr
+
+    > User 13 antwortet:
+    > **Überschrift**: Keine Überschrift vorhanden
+    > **Kommentar**: Bez. Gesang beziehe ich mich auf meine langjährige Erfahrung als Musiker, hauptsächlich im Klassikbereich. Ich habe Menschen aller Erscheinungsformen und beiderlei Geschlechts in allen Stimmlagen singen hören. Unmöglich, einen Unterschied dingfest zu machen, der allein mit der Erscheinungsform der Künstler und Künstlerinnen zu tun hat. Zum Sprechen: Beobachtung des Faktums, dass,  sobald nichteuropäische Menschen hier geboren sind und/oder entsprechend aufwachsen, soll heissen die -in dem Fall deutsche -Sprache als ihre Muttersprache lernen, keine Unterschiede zu hören sind. Zugegeben, das ist keine wissenschaftliche Expertise. Und doch bin ich der Meinung, dass ich recht habe.
+    > **Kommentiert am** 23. Mai 2019, 11:12 Uhr
+
+      > User 14 antwortet:
+      > **Überschrift**: Keine Überschrift vorhanden
+      > **Kommentar**: Gerade klassischer Gesang ist aber kein gutes Beispiel, weil die Stimme da etwas eigentlich sehr unnatuerliches macht.   Sei Ihnen zugestanden, dass Sie glauben, Sie haben Recht. Aber ich vertraue doch lieber auf wissenschaftliche Expertise. Ansonsten wuerden wir vermutlich noch in einer Gesellschaft leben, die glaubt die Erde sei eine Scheibe und die Sonne drehe sich um die Erde...
+      > **Kommentiert am** 23. Mai 2019, 11:23 Uhr
+
+        > User 13 antwortet:
+        > **Überschrift**: Keine Überschrift vorhanden
+        > **Kommentar**: Und wie stehen Sie zum zweiten Teil meiner Argumentation?
+        > **Kommentiert am** 23. Mai 2019, 11:28 Uhr
+
+          > Analyse Zielnutzer antwortet:
+          > **Überschrift**: Wenn ich darf:
+          > **Kommentar**: Angenommen, das Konzept "Rasse" existiert, dann würde der zweite Teil Ihrer Argumentation im schwächsten Fall nur darauf hinweisen, dass die Muttersprache die Rasse in sprachlichen Belangen "überdeckt".  Im stärksten Fall wäre es eine Prämisse zur Widerlegung des Konzepts "Rasse".
+          > **Kommentiert am** 23. Mai 2019, 11:54 Uhr
+
+### Artikel: Wählerströme: ÖVP mobilisiert Nichtwähler und profitiert von FPÖ
+
+- Veröffentlicht am: 27. Mai 2019, 02:07 Uhr
+- Kanal: Inland
+- Ressort: EU-Wahl 2019 in Österreich: Wahlergebnisse und -gr
+- Gesamtanzahl Kommentare: 511
+
+#### Kommentare
+
+> User 15 schreibt:
+> **Überschrift**: Womit man sich gerne identifiziert......
+> **Kommentar**: tja, eine Julia Herr, die sich bei der Demo draufgesetzt hat auf alles und sich mit ihrer depperten Schreierei zu Symbol und Metapher der Sozis gemacht hat, der Drozda, der mehr durch seine Uhren und das Bildl bekannt geworden ist als durch irgendwas anderes, eine Parteivorsitzende, die einem brutal kalten FIsch, der ihr in einer Sendung gegenübersitzt sagt: bitte, lass' mich ausreden.   Keine Bearbeitung und REflexion über Silbersteins Machenschaften, die Sachen, die ihn Wien so gelaufen sind wirken auch nach und wirken und wirken, keine Zeitung hat irgendwie für sie geschrieben. Im Kurier hatten sie gestern sogar noch ein Interview mit Karel Schwarzenberg, um eine Identifikation zu ermöglichen.
+> **Kommentiert am** 27. Mai 2019, 08:09 Uhr
+
+  > Analyse Zielnutzer antwortet:
+  > **Überschrift**: Keine Überschrift vorhanden
+  > **Kommentar**: Ich möchte die von Ihnen eingebrachte Reflexionslosigkeit der SPÖ aufgrund von fehlendem Hintergrundwissen meinerseits nicht kommentieren.  Was ich aber anmerken möchte, ist, dass ich bei PRW immer das Gefühl habe, als wolle sie uns davon überzeugen, dass nicht nur sie persönlich alles richtig und alle anderen alles falsch machen, sondern dass die SPÖ in ihrer Gesamtheit nie Fehler macht und alle anderen immer Fehler machen.  Ist das nur meine subjektive Empfindung? Trifft das auf alle Parteien zu? Ist mir PRW einfach irgendwie presönlich unsympathisch und "überzuckere" ich nicht, wie sie operiert (pun intended)?
+  > **Kommentiert am** 27. Mai 2019, 08:47 Uhr
+
+> User 16 schreibt:
+> **Überschrift**: Etwas überrascht bin ich ob des geringen Rückgangs der FPÖ doch
+> **Kommentar**: Die Frage ist natürlich, von wo man den Rückgang misst. Andererseits ist die letzte EU Wahl lange her, und die FPÖ hat sich ja bei NR Wahl gesteigert. Trotzdem erstaunlich dass selbst so eine Bürgerverarsche wie sie Strache veranstaltet hat noch immer so viele FPÖ Wähler unbeeindruckt lässt.
+> **Kommentiert am** 27. Mai 2019, 08:14 Uhr
+
+  > Analyse Zielnutzer antwortet:
+  > **Überschrift**: Keine Überschrift vorhanden
+  > **Kommentar**: Die Hauptargumente für eine Wahl der FPÖ obgleich des Videos, die ich gehört hätte, waren  1.) Jetzt erst recht (Trotzreaktion) 2.) Es gibt keine Sippenhaftung 3.) Alle Politiker tun das, Strache war nur der "Erste", der aufgeklatscht wurde  Ad 2.) Grundsätzlich verderben zwei schwarze Schafe nicht die ganze Herde, zwei schwarze Schäfer aber schon. Hier stellt sich mMn die Frage der Einflussnahme des stinkenden Kopfes auf den Körper. Strache war doch 14 Jahre an der Spitze.  Ad 3.) Es gilt wie so oft die Unschuldsvermutung, für alle. Wer vor der Kamera erwischt wurde, hat hier aber wohl weniger Verständnis zu erwarten.
+  > **Kommentiert am** 27. Mai 2019, 08:29 Uhr
+
+### Artikel: Halbe und andere Wahrheiten von Ex-Kanzler Kurz
+
+- Veröffentlicht am: 31. Mai 2019, 06:00 Uhr
+- Kanal: Inland
+- Ressort: Inland
+- Gesamtanzahl Kommentare: 2875
+
+#### Kommentare
+
+> User 17 schreibt:
+> **Überschrift**: Keine Überschrift vorhanden
+> **Kommentar**: Vielleicht gibts ja bald ein neues Politwort des Jahres.  Statt "situationselastisch" dann halt "wahrheitselastisch".
+> **Kommentiert am** 31. Mai 2019, 07:43 Uhr
+
+  > Analyse Zielnutzer antwortet:
+  > **Überschrift**: Die Wahrheit war schon immer elastisch...
+  > **Kommentar**: ...aber die Wechselzyklen werden immer kürzer! ;)
+  > **Kommentiert am** 31. Mai 2019, 07:54 Uhr
+

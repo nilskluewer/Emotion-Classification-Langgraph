@@ -6,11 +6,9 @@ import os
 import json
 from typing import List, Dict
 
-
 # Lade die Konfigurationen
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
-
 
 class DataPreprocessor:
     def __init__(self, file_path: str):
@@ -27,6 +25,7 @@ class DataPreprocessor:
         """
         Process the data by loading it from the CSV file and applying various preprocessing steps.
         """
+        # If your CSV uses semicolon delimiters, add delimiter=';' here:
         self.df = pd.read_csv(self.file_path)
         self._convert_dates()
         self._handle_missing_values()
@@ -45,8 +44,8 @@ class DataPreprocessor:
         """
         Handle missing values in the data by filling them with appropriate values.
         """
-        self.df['PostingHeadline'] = self.df['PostingHeadline'].fillna('Keine Überschrift vorhanden')
-        self.df['PostingComment'] = self.df['PostingComment'].fillna('Keine Kommentar vorhanden')
+        self.df['PostingHeadline'] = self.df['PostingHeadline'].fillna('Keine Überschrift im Datensatz vorhanden')
+        self.df['PostingComment'] = self.df['PostingComment'].fillna('Kein Kommentar im Datensatz vorhanden')
         self.df['UserGender'] = self.df['UserGender'].fillna('Unknown')
         self.df['UserCommunityName'] = self.df['UserCommunityName'].fillna('Unknown')
 
@@ -98,14 +97,23 @@ class DataPreprocessor:
         return preprocessor
 
 class CommentThreadManager:
-    def __init__(self, df: pd.DataFrame):
+    def __init__(self, df: pd.DataFrame, votes_df: pd.DataFrame = None):
         """
-        Initialize the CommentThreadManager with the preprocessed data.
+        Initialize the CommentThreadManager with the preprocessed data and, optionally, votes data.
 
         Args:
-            df (pd.DataFrame): The preprocessed data containing comment information.
+            df (pd.DataFrame): The preprocessed comment data.
+            votes_df (pd.DataFrame, optional): The votes data. If provided, vote counts 
+                                                 will be aggregated by comment.
         """
         self.df = df
+        # Aggregate vote info: group by comment ID ("ID_Posting") and sum up positive and negative votes.
+        if votes_df is not None:
+            # If the votes CSV is semicolon separated, you can load it with delimiter=';' in main.
+            self.votes_agg = votes_df.groupby('ID_Posting').agg({'VotePositive': 'sum',
+                                                                   'VoteNegative': 'sum'}).to_dict('index')
+        else:
+            self.votes_agg = {}
 
     def build_comment_thread(self, comments: pd.DataFrame, parent_id: int) -> List[Dict]:
         """
@@ -135,6 +143,9 @@ class CommentThreadManager:
             'article_title': reply['ArticleTitle'],
             'article_channel': reply['ArticleChannel'],
             'article_ressort_name': reply['ArticleRessortName'],
+            # Lookup votes for the comment using the aggregated dictionary.
+            'upvotes': int(self.votes_agg.get(int(reply['ID_Posting']), {}).get('VotePositive', 0)),
+            'downvotes': int(self.votes_agg.get(int(reply['ID_Posting']), {}).get('VoteNegative', 0)),
             'replies': self.build_comment_thread(comments, int(reply['ID_Posting']))
         } for _, reply in replies.iterrows()]
 
@@ -147,7 +158,7 @@ class CommentThreadManager:
         """
         articles = {}
         for article_id, article_df in self.df.groupby('ID_Article'):
-            root_comments = article_df[article_df['ID_Posting_Parent'].isnull() | (article_df['ID_Posting_Parent'] == 0)]
+            root_comments = article_df[(article_df['ID_Posting_Parent'].isnull()) | (article_df['ID_Posting_Parent'] == 0)]
             threads = self.build_comment_thread(article_df, 0)
             article_meta = article_df.iloc[0]
 
@@ -165,10 +176,12 @@ class CommentThreadManager:
 
 def main():
     # Main execution
+    
     preprocessed_pkl_path = config["input_pkl_path"]
     input_csv_path = config["input_csv_path"]
     output_path_json = config["output_path_build_json"]
 
+    # Load or preprocess the main CSV containing comment data.
     if not os.path.exists(preprocessed_pkl_path):
         print("Preprocessed data not found. Preprocessing...")
         preprocessor = DataPreprocessor(input_csv_path)
@@ -178,11 +191,21 @@ def main():
         print("Loading preprocessed data...")
         preprocessor = DataPreprocessor.load_preprocessed_data(preprocessed_pkl_path)
 
-    thread_manager = CommentThreadManager(preprocessor.df)
+    # Load votes CSV if available. Make sure to add "votes_csv_path" to your config.json.
+    votes_csv_path = config.get("votes_csv_path", None)
+    votes_df = None
+    if votes_csv_path and os.path.exists(votes_csv_path):
+        print("Loading votes data...")
+        # If necessary, set the correct delimiter here (e.g., delimiter=';' if semicolon separated)
+        votes_df = pd.read_csv(votes_csv_path)
+    else:
+        print("No votes data found or votes_csv_path not provided in config.")
+
+    # Pass both the comments dataframe and votes dataframe to the CommentThreadManager.
+    thread_manager = CommentThreadManager(preprocessor.df, votes_df)
     articles_with_threads = thread_manager.get_article_threads()
 
-    # Save the comprehensive data structure to a JSON file
-    
+    # Save the comprehensive data structure to a JSON file.
     with open(output_path_json, 'w', encoding='utf-8') as f:
         json.dump(articles_with_threads, f, indent=2)
     print(f"Comprehensive data structure saved to {output_path_json}")
