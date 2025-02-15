@@ -8,6 +8,7 @@ import locale
 from vertexai.generative_models import (
     GenerativeModel,
 )
+import vertexai
 
 def format_date(date_string):
     """
@@ -109,30 +110,53 @@ def filter_comments_by_user(comments, user_id, user_id_to_anon_name, anon_user_c
 # Funktion zur Generierung einer Markdown-Struktur
 def generate_comment_markdown(comments, level=0):
     """
-    Generates a Markdown formatted string from a list of comments, recursively handling replies.
-    Ensures that the hierarchical structure of comments and replies is represented 
-    visually through indentation, making the output user-friendly and easy to read.
+    Generiert einen Markdown-formatierten String aus einer Liste von verschachtelten Kommentaren,
+    wobei Blockquotes (" > ") verwendet werden, um die Einrückung darzustellen. Für jede
+    Verschachtelungsebene wird ein zusätzliches ">" eingefügt. In jeder Zeile werden zwei Leerzeichen
+    am Ende angehängt, um einen Zeilenumbruch in der Markdown-Vorschau zu erzwingen.
+
+    Beispiel:
+      - Ebene 0 (Top-Level): Präfix ist "> "
+      - Ebene 1 (Antworten): Präfix ist ">> "
+      - Ebene 2 (verschachtelte Antworten): Präfix ist ">>> "
+
+    Jede Kommentarzeile wird formatiert als:
+      • Benutzername und der Hinweis "schreibt:" (auf Ebene 0) oder "antwortet:" (bei tieferen Ebenen)
+      • Die Überschrift (bzw. ein Standardtext, falls keine Überschrift vorhanden)
+      • Der Kommentartext sowie das Datum, jeweils mit dem gleichen Blockquote-Präfix.
+
+    Args:
+      comments (list): Eine Liste von Kommentar-Dictionaries, die mindestens die folgenden Keys enthalten:
+                       - 'user_name'
+                       - 'comment_headline'
+                       - 'comment_text'
+                       - 'comment_created_at'
+                       - 'replies' (optional, als Liste weiterer Kommentare)
+      level (int): Die aktuelle Verschachtelungsebene (0 für Top-Level-Kommentare).
+
+    Returns:
+      str: Ein einzelner Markdown-formattierter String, der den gesamten Kommentarstrang darstellt.
     """
     markdown = ""
-    indent = "  " * level
+    # Erstelle das Blockquote-Präfix: Ebene 0 -> "> ", Ebene 1 -> ">> ", usw.
+    blockquote = ">" * (level + 1) + " "
+
+    # Wir verwenden "  \n" um einen harten Zeilenumbruch zu erzwingen
+    newline = "  \n"
 
     for comment in comments:
-        # Sicherstellen, dass immer eine Headline angezeigt wird
         if level == 0:
-            markdown += f"{indent}> {comment['user_name']} schreibt:\n"
+            markdown += f"{blockquote}{comment['user_name']} schreibt:{newline}"
         else:
-            markdown += f"{indent}> {comment['user_name']} antwortet:\n"
-        headline = comment.get('comment_headline')
-        if not headline:
-            headline = "Keine Überschrift vorhanden"
+            markdown += f"{blockquote}{comment['user_name']} antwortet:{newline}"
 
-        # Füge Headline zum Markdown-Output hinzu
-        markdown += f"{indent}> **Überschrift**: {headline}\n"
-        
-        markdown += f"{indent}> **Kommentar**: {comment['comment_text']}\n"
-        markdown += f"{indent}> **Kommentiert am** {format_date(comment['comment_created_at'])}\n\n"
-        
-        if 'replies' in comment and comment['replies']:
+        # Überschrift setzen; falls nicht vorhanden, Standardtext verwenden
+        headline = comment.get('comment_headline') or "Keine Überschrift vorhanden"
+        markdown += f"{blockquote}**Überschrift**: {headline}{newline}"
+        markdown += f"{blockquote}**Kommentar**: {comment['comment_text']}{newline}"
+        markdown += f"{blockquote}**Kommentiert am** {format_date(comment['comment_created_at'])}{newline}{newline}"
+
+        if comment.get('replies'):
             markdown += generate_comment_markdown(comment['replies'], level + 1)
 
     return markdown
@@ -181,14 +205,14 @@ def process_user_comments(data, target_user_id):
         if user_details:
             target_user_name, target_gender, target_created_at = user_details
 
-        header = f"### Artikel: {article['article_title']}\n\n"
+        header = f"## Artikel: {article['article_title']}\n\n"
         # ID itself has no meaning for classification
         #header += f"- Artikel ID: {article['article_id']}\n"
         header += f"- Veröffentlicht am: {format_date(article['article_publish_date'])}\n"
         header += f"- Kanal: {article['article_channel']}\n"
         header += f"- Ressort: {article['article_ressort_name']}\n"
         header += f"- Gesamtanzahl Kommentare: {article['total_comments']}\n\n"
-        header += "#### Kommentare\n\n"
+        header += "### Kommentare\n\n"
 
         comments = article.get('comment_threads', [])
         user_comments = filter_comments_by_user(
@@ -202,15 +226,14 @@ def process_user_comments(data, target_user_id):
     if all_user_comments:
         target_user_name = "Analyse Zielnutzer"  # Overwrite for anonymity
         intro = f"# Context Sphere von: {target_user_name} (Anonymisiert)\n\n"
-        intro += f"Es folgt eine anonymisierte Übersicht der Benutzeraktivität von {target_user_name}, aus dem österreichischen Online-Forum 'Der Standard' im Zeitraum vom 01.05.2019 bis zum 31.05.2019.\n\n"
+        intro += "Dies ist eine anonymisierte Übersicht der Aktivitäten des Analyse Zielnutzers im österreichischen Online-Forum „Der Standard“ vom 01.05.2019 bis 31.05.2019. Die Kommentare sind sortiert nach Artikeln – es werden nur Artikel gezeigt, bei denen der Analyse Zielnutzer kommentiert hat, während Threads ohne seinen Beitrag ausgelassen werden. \n \n"
+        intro += "Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enthalten. Das “>” markiert top-level Kommentare, und jede Antwort erhält einen weiteren “>”. So signalisiert „>>“, „>>>“ usw., dass es sich um direkte Antworten und weiter verschachtelte Kommentare handelt.\n\n"
         #intro += "## Benutzerdetails\n\n"
         #intro += f"- Benutzername: {target_user_name}\n"
         # Has no relevance for classification
         #intro += f"- Benutzer-ID: {target_user_id}\n"
         #intro += f"- Geschlecht: {target_gender}\n"
         #intro += f"- Konto erstellt am: {format_date(target_created_at)}\n\n---\n\n"
-        intro += "## Kommentare und Threads\n\n"
-        intro += "Die Kommatre sind nach Artikel sortiert. Wenn der Artikel aufgeführt ist, hat der Analyse Zielnutzer mindestenz einen Kommentar unter dem Artikel geschrieben. Es werden nicht alle Kommantare aufgeführt, sondern nur diese, in denen der Analyse Zielnutzer aktiv war. Threads in denen der Analyse Zielnutzer keinen Kommentar geschrieben hat, sind nicht inkludiert. \n\n"
 
         complete_content = intro + all_user_comments
         token_count = count_tokens(complete_content)
@@ -267,3 +290,22 @@ def process_all_users():
 
 # Hauptaufruf
 process_all_users()
+
+
+
+"""
+# %%
+import json
+with open('./input_output/JSON/articles_with_threads copy.json', 'r') as articles_with_threads:
+    threads = json.load(articles_with_threads)
+    
+vertexai.init(project="rd-ri-genai-dev-2352", location="europe-west1")
+gemini_model = GenerativeModel("gemini-1.5-pro-002")
+
+# %%
+model_response = gemini_model.count_tokens([f"{threads}"])
+
+# %%
+model_response
+# %%
+"""

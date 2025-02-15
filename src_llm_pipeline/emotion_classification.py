@@ -21,7 +21,7 @@ from google.api_core.exceptions import ResourceExhausted
 from icecream import ic
 
 
-from .inputs.prompts.v12.data_models import (
+from .inputs.prompts.v16.data_models import (
     HolisticEmotionAnalysis,
     add_property_ordering_single_class,
     add_specific_property_ordering,
@@ -36,7 +36,12 @@ from .utils.output_parser import (
     check_property_ordering,
 )
 from .utils.enums import MESSAGE_MAP
-from .utils.eval_aspects import aspect_evaluator, aspect_evaluator_all_aspects, Aspect, hallucination_confabulation_evaluator
+from .utils.eval_aspects import (
+    aspect_evaluator,
+    aspect_evaluator_all_aspects,
+    Aspect,
+    hallucination_confabulation_evaluator,
+)
 
 # Load environment variables
 load_dotenv()
@@ -78,7 +83,7 @@ def insert_context_sphere_into_prompt(
 
 
 @traceable(name="Simulate Conversation for Role Play Prompting", run_type="prompt")
-def simulate_conversation(
+def simulate_conversation_for_step_1(
     role_setting_prompt: str, role_feedback_prompt: str, user_task_prompt: str
 ) -> List[Content]:
     # Simulate the conversation flow with role play prompting
@@ -89,36 +94,46 @@ def simulate_conversation(
         Content(role="model", parts=[Part.from_text(role_feedback_prompt)]),
         Content(role="user", parts=[Part.from_text(user_task_prompt)]),
     ]
+    """
     messages_langchain = [
         {"role": "user", "content": f"{role_setting_prompt}"},
         {"role": "model", "content": f"{role_feedback_prompt}"},
         {"role": "user", "content": f"{user_task_prompt}"},
     ]
-    return messages_google, messages_langchain
+    """
+    return messages_google
 
 
 @traceable(name="Simulate Conversation for Role Play Prompting", run_type="prompt")
-def simulate_conversation_2(
-    text_0, text_1, summary_classification_prompt
+def simulate_conversation_for_step_2(
+    role_setting_prompt,
+    role_feedback_prompt,
+    role_task_prompt,
+    step_1_response,
+    step_2_task_prompt,
 ):
     # Chaning the role doent seem to alter the result
     messages_google = [
-        (Content(role="user", parts=[Part.from_text(text_0)])),
-        (Content(role="model", parts=[Part.from_text(text_1)])),
-       # (Content(role="user", parts=[Part.from_text(text_2)])),
-        (Content(role="user", parts=[Part.from_text(summary_classification_prompt)])),
+        (Content(role="user", parts=[Part.from_text(role_setting_prompt)])),
+        (Content(role="model", parts=[Part.from_text(role_feedback_prompt)])),
+        (Content(role="user", parts=[Part.from_text(role_task_prompt)])),
+        (Content(role="model", parts=[Part.from_text(step_1_response)])),
+        (Content(role="user", parts=[Part.from_text(step_2_task_prompt)])),
     ]
-
+    """
     messages_langchain = [
-        {"role": "user", "content": text_0},
-        {"role": "model", "content": text_1},
-        {"role": "user", "content": summary_classification_prompt},
-        #{"role": "model", "content": summary_classification_prompt},
+        {"role": "user", "content": role_setting_prompt},
+        {"role": "model", "content": role_feedback_prompt},
+        {"role": "user", "content": role_task_prompt},
+        {"role": "model", "content": step_2_task_prompt},
+        {"role": "model", "content": step_2_task_prompt},
+        {"role": "model", "content": step_2_task_prompt},
     ]
+    """
+    return messages_google
 
-    return messages_google, messages_langchain
 
-@traceable(name="Create Config with Output Instructions", run_type="tool")
+@traceable(name="Configuration for Controlled Generation", run_type="tool")
 def create_generation_config(
     temperature, top_p, response_schema_model=None, response_mime_type=None
 ) -> GenerationConfig:
@@ -129,12 +144,12 @@ def create_generation_config(
         temperature=temperature,
         top_p=top_p,
         # seed=1,
-        max_output_tokens=8000,  # Adjust as needed
+        max_output_tokens=8000,
     )
     return generation_config
 
 
-@traceable(name="Configue LLM with Generation Config", run_type="tool")
+#@traceable(name="Configue LLM with Generation Config", run_type="tool")
 def configure_llm(model_name, generation_config: GenerationConfig) -> GenerativeModel:
     return GenerativeModel(model_name=model_name, generation_config=generation_config)
 
@@ -146,9 +161,8 @@ def configure_llm(model_name, generation_config: GenerationConfig) -> Generative
     metadata={"ls_model_name": f"{model_name}"},
 )
 def call_api(
-    messages: List[dict],
+    messages: List[Content],
     configured_llm: GenerativeModel,
-    prompt: List[Content],
     safety_settings: list[SafetySetting],
     run_tree: RunTree,
 ) -> GenerationResponse:
@@ -156,19 +170,17 @@ def call_api(
     initial_delay = 5  # initial delay in seconds for exponential backoff
     retry_count = 0
 
-#    @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
-#    def completion_with_backoff(**kwargs):
-#        return openai.ChatCompletion.create(**kwargs)
-    
     while retry_count < max_retries:
         try:
             response = configured_llm.generate_content(
-                contents=prompt, safety_settings=safety_settings, stream=False
+                contents=messages, safety_settings=safety_settings, stream=False
             )
             if debug_api_call:
                 ic(response)
 
-            messages.append({"role": "model", "content": f"{response.text}"})
+            messages.append(
+                Content(role="model", parts=[Part.from_text(response.text)])
+            )
 
             usage_metadata = response.usage_metadata
             result_dict = {
@@ -182,7 +194,7 @@ def call_api(
 
             if debug_api_call:
                 ic(result_dict)
-            
+
             send_generation_response_feedback_to_trace(
                 response=response, client=client, run_tree=run_tree
             )
@@ -203,7 +215,6 @@ def call_api(
             print("An error occurred: ", str(e))
             return {"error": str(e)}
 
-    # If all retries fail
     print("Maximum retries reached. Please try again later.")
     return {"error": "Resource exhausted. Maximum retries reached."}
 
@@ -222,11 +233,11 @@ def convert_to_dict(messages: List[Content]) -> dict:
 
 @traceable(name="Append LLM Response to Conversation", run_type="parser")
 def append_response(message: List, message_to_append: Content) -> List[Content]:
-    #message.append(message_to_append)
+    # message.append(message_to_append)
     return message
 
 
-@traceable(name="Parse LLM Structure for Validation", run_type="parser")
+#@traceable(name="Parse LLM Output for Structure Validation", run_type="parser")
 def parse_model_response_to_data_model_structure(input_text, target_schema) -> dict:
     data = parse_emotion_analysis(text=input_text, schema=target_schema)
     return data
@@ -244,8 +255,8 @@ def validate_response_property_order(
         return False
 
 
-@traceable(name="Step 1: Classification", run_type="chain")
-def step_1_emotion_classification_with_structured_output(
+@traceable(name="Step 1: Context Sphere Analysis", run_type="chain")
+def step_1_analyse_emotions_with_structureuser(
     messages: List[dict], temperature, top_p, run_tree: RunTree
 ):
     # Keep it in to validate if the Hallucination Eval works - input different users into the with and without context
@@ -257,7 +268,7 @@ def step_1_emotion_classification_with_structured_output(
     user_task_prompt_with_context = user_task_prompt.format(
         context_sphere=context_sphere
     )
-    role_play_prompt_google, role_play_conversation_langchain = simulate_conversation(
+    role_play_prompt_google = simulate_conversation_for_step_1(
         role_setting_prompt, role_feedback_prompt, user_task_prompt_with_context
     )
 
@@ -265,6 +276,7 @@ def step_1_emotion_classification_with_structured_output(
     response_schema = dereference_refs(HolisticEmotionAnalysis.model_json_schema())
     response_schema.pop("$defs", None)
     response_schema_properties_ordered = add_specific_property_ordering(response_schema)
+
     if debug_schema:
         ic(response_schema_properties_ordered)
 
@@ -278,12 +290,12 @@ def step_1_emotion_classification_with_structured_output(
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
 
     response = call_api(
-        messages=role_play_conversation_langchain,
+        messages=role_play_prompt_google,
         configured_llm=configured_llm,
-        prompt=role_play_prompt_google,
         safety_settings=default_safety_settings,
     )
-    response_message = response["choices"][3]["content"]
+
+    response_message = response["choices"][3].parts[0].text
 
     # Validate result
     if validate_output_structure:
@@ -305,22 +317,21 @@ def step_1_emotion_classification_with_structured_output(
         )
 
     # Access the first candidate Content object in the response
-    message_history = append_response(
-        role_play_conversation_langchain, response_message
-    )
-    
+    # message_history = append_response(
+    #    role_play_conversation_langchain, response_message
+    # )
 
     if debug_api_call:
         print_emotion_analysis(parsed_data, width=200)
-    return message_history
+    return response
 
 
-@traceable(name="Step 2: Profile creation based on Classification", run_type="chain")
-def step_2_summarization_of_classification(
+@traceable(name="Step 2: Create Emotional Portrait of User", run_type="chain")
+def step_2_create_report_of_analysis(
     messages: List[dict], temperature, top_p, run_tree: RunTree
 ) -> List[dict]:
     """
-    Created a Profile out of a given Classification. Using messages to maintain readability in langsmith.
+    Created a Profile out of a given Analysis. Using messages to maintain readability in langsmith.
     Args:
         messages (List[dict]): _description_
         temperature (_type_): _description_
@@ -332,15 +343,15 @@ def step_2_summarization_of_classification(
     """
     summary_task_prompt = read_prompt("step_2_summary_prompt.md")
 
-    classification = messages[3]["content"]
+    llm_response_step_1 = messages["choices"][3].parts[0].text
 
-    summary_classification_prompt = summary_task_prompt.format(
-        analysis=classification
-    )
-    role_play_prompt_google, role_play_prompt_langchain = simulate_conversation_2(
-        text_0=messages[0]["content"],
-        text_1= messages[1]["content"],
-        summary_classification_prompt=summary_classification_prompt,
+    step_2_task_prompt = summary_task_prompt.format(analysis=llm_response_step_1)
+    role_play_prompt_google = simulate_conversation_for_step_2(
+        role_setting_prompt=messages["choices"][0].parts[0].text,
+        role_feedback_prompt=messages["choices"][1].parts[0].text,
+        role_task_prompt=messages["choices"][2].parts[0].text,
+        step_1_response=llm_response_step_1,
+        step_2_task_prompt=step_2_task_prompt,
     )
 
     # Configure the generation parameters
@@ -348,109 +359,155 @@ def step_2_summarization_of_classification(
 
     # Configure the LLM with the generation config
     configured_llm = configure_llm(model_name=model_name, generation_config=llm_config)
-
     response = call_api(
-        messages=role_play_prompt_langchain,
+        messages=role_play_prompt_google,
         configured_llm=configured_llm,
-        prompt=role_play_prompt_google,
         safety_settings=default_safety_settings,
     )
-    response_message = response["choices"][3]["content"]
-    ic(role_play_prompt_langchain)
-    message_history = append_response(
-        message=role_play_prompt_langchain, message_to_append=response_message
-    )
-    return message_history
+
+    return response
 
 
 def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
     """
     Helper function to wrap main call with user_id + traceable
     """
+
     @traceable(
         run_type="chain",
-        name="Context Aware Emotion Classification",
+        name="Context Aware Emotion Analysis",
         tags=[
             f"{model_name}",
             f"User_ID: {user_id}",
             f"{dataset_tag}",
             f"{prompts_version}",
         ],
-        #metadata={
+        # Optional Metadata for Langsmith
+        # metadata={
         #    "check_hallucinations": check_for_hallucinations,
         #    "eval_all_aspects": eval_all_aspects,
-        #},
+        # },
     )
     def request_emotion_analysis(messages: List[dict], run_tree: RunTree):
         """
         Call the Google Gemini API with basic configuration.
         """
 
-        message_history_step1 = step_1_emotion_classification_with_structured_output(
+        message_history_step1 = step_1_analyse_emotions_with_structureuser(
             messages, temperature, top_p
         )
-        classification = message_history_step1[3]["content"]
-        
+        step_1_analysis = message_history_step1["choices"][3].parts[0].text
+
         message_history_step1
-        
+
         if debug_api_call:
-            ic(classification)
+            ic(step_1_analysis)
+
+        question = str(
+            [
+                {
+                    "role": "user",
+                    "text": message_history_step1["choices"][0].parts[0].text,
+                },
+                {
+                    "role": "user",
+                    "text": message_history_step1["choices"][1].parts[0].text,
+                },
+                {
+                    "role": "user",
+                    "text": message_history_step1["choices"][2].parts[0].text,
+                },
+            ]
+        )
+
+        answer = str(message_history_step1["choices"][3].parts[0].text)
 
         if check_for_hallucinations:
+            confabulation_threshold = config["confabulation_threshold"]
             avg_rating_step1 = hallucination_confabulation_evaluator(
-                question=str(message_history_step1[:3]),
-                answer=str(message_history_step1[-1]),
+                question=question,
+                answer=answer,
+                use_flash = False,
+                use_haiku = True,
+                use_sonnet = False,
+                use_4o = True,
                 step_of_process="step_1",
-                run_tree_parent_id=run_tree.id,)
-            if avg_rating_step1 < 2:
-                print(f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating_step1}")
-                message_history_step2 = step_2_summarization_of_classification(
+                run_tree_parent_id=run_tree.id,
+            )
+            if avg_rating_step1 <= confabulation_threshold:
+                print(
+                    f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating_step1}"
+                )
+
+                message_history_step2 = step_2_create_report_of_analysis(
                     messages=message_history_step1, temperature=temperature, top_p=top_p
                 )
                 
+                question = str(
+                    [
+                        {
+                            "role": "user",
+                            "text": message_history_step2["choices"][0].parts[0].text,
+                        },
+                        {
+                            "role": "model",
+                            "text": message_history_step2["choices"][1].parts[0].text,
+                        },
+                        {
+                            "role": "user",
+                            "text": message_history_step2["choices"][2].parts[0].text,
+                        },
+                        {
+                            "role": "model",
+                            "text": message_history_step2["choices"][3].parts[0].text,
+                        },
+                        {
+                            "role": "user",
+                            "text": message_history_step2["choices"][4].parts[0].text,
+                        },
+                    ]
+                )
+
+                answer = str(message_history_step2["choices"][5].parts[0].text)
+
                 # dict_list = convert_to_dict(message_history)
                 avg_rating_step2 = hallucination_confabulation_evaluator(
-                question=str(message_history_step2[:3]),
-                answer=str(message_history_step2[-1]),
-                step_of_process="step_2",
-                run_tree_parent_id=run_tree.id)
-                
-                if avg_rating_step2 < 2:
-                    print(f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating_step2}")
+                    question=question,
+                    answer=answer,
+                    use_flash = False,
+                    use_haiku = True,
+                    use_sonnet = False,
+                    use_4o = True,
+                    step_of_process="step_2",
+                    run_tree_parent_id=run_tree.id,
                     
+                    
+                )
+
+                if avg_rating_step2 <= confabulation_threshold:
+                    print(
+                        f"No hallucination detected. Continue processing. Avg. Rating: {avg_rating_step2}"
+                    )
+
                 else:
-                    raise Exception(f"Confabulation detected at Step 2. Avg. Rating {avg_rating_step2}. \n --- \n No further processing.")
-                
+                    raise Exception(
+                        f"Confabulation detected at Step 2. Avg. Rating {avg_rating_step2}. \n --- \n No further processing."
+                    )
+
             else:
-                raise Exception(f"Confabulation detected at Step 1. Avg. Rating {avg_rating_step1}. \n --- \n No further processing.")
-
-        @traceable(name="Evaluate all aspects", run_type="chain")
-        def evaluate_with_all_aspects():
-            aspect_evaluator_all_aspects(
-                classification,
-                message_history_step2[-1],
-                llm_model_name="gpt-4o-mini",
-                run_tree_parent_id=run_tree.id,
-            )
-            aspect_evaluator_all_aspects(
-                classification,
-                message_history_step2[-1],
-                llm_model_name="claude-3-5-haiku-20241022",
-                run_tree_parent_id=run_tree.id,
-            )
-
-        if eval_all_aspects:
-            evaluate_with_all_aspects()
+                raise Exception(
+                    f"Confabulation detected at Step 1. Avg. Rating {avg_rating_step1}. \n --- \n No further processing."
+                )
 
         aspect_evaluator(
-            classification,
-            message_history_step2[-1],
+            message_history_step2["choices"][3].parts[0].text,
+            message_history_step2["choices"][5].parts[0].text,
             aspect=Aspect.COMPREHENSIVENESS,
             llm_model_name="gpt-4o-mini",
             run_tree_parent_id=run_tree.id,
-            langsmith_extra={"tags": [f"{Aspect.COHERENCE}"]},
+            langsmith_extra={"tags": [f"{Aspect.COMPREHENSIVENESS}"]},
         )
-        
+
         return message_history_step1, message_history_step2
 
     message_history_step1, message_history_step2 = request_emotion_analysis(

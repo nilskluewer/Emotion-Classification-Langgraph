@@ -1,6 +1,7 @@
 {
     "input_pkl_path" : "../data/preprocessed/preprocessed_data.pkl",
     "input_csv_path": "../data/raw_csv/Postings_01052019_31052019.csv",
+    "votes_csv_path": "../data/raw_csv/Votes__01052019_31052019.csv",
     "output_path_build_json" : "./input_output/JSON/articles_with_threads.json",
     "input_json_path": "./input_output/JSON/articles_with_threads.json",
     "pkl_path_input_build_context" : "../data/preprocessed/preprocessed_data.pkl",

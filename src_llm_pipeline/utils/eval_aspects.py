@@ -63,10 +63,10 @@ llm_evaluator_prompt_text = read_prompts("prompt_eval_aspects.md")
 instructions_summary = read_prompts("step_2_summary_prompt.md")
 
 
-@traceable(name="Evaluate Aspects", run_type="chain")
+@traceable(name="LLM as a Judge: Aspects Eval", run_type="chain")
 def aspect_evaluator(step_1_classification, step_2_classification_summary, aspect: Aspect,llm_model_name : str, run_tree_parent_id):    
     aspect, ant_aspect, aspect_inst = aspect.value
-    task_ins = "summary of an in-depth classification"
+    task_ins = "report of an in-depth analysis"
     
     # Select the appropriate Pydantic model based on the aspect
     print("ASPECT:", aspect)
@@ -128,101 +128,149 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
 
 
 
-@traceable(name="Evaluate Confabulation", run_type="chain")
-def hallucination_confabulation_evaluator(question, answer, step_of_process,run_tree_parent_id):
+@traceable(name="LLM as a Judge: Confabulation Eval", run_type="chain")
+def hallucination_confabulation_evaluator(question, answer, step_of_process, run_tree_parent_id,
+                                            use_4o: bool = True,
+                                            use_haiku: bool = True,
+                                            use_sonnet: bool = True,
+                                            use_flash: bool = True):
+    """
+    Evaluate the potential confabulation of an answer using one or more language models.
+    
+    This function accepts a question and its answer, and then uses up to four different LLM evaluators
+    to assess whether the answer contains confabulated content. The evaluation is based on a prompt template 
+    read from "prompt_eval_confabulation.md". For each LLM corresponding to llm_A, llm_B, llm_C, and llm_D,
+    the Boolean parameters (use_llm_a, use_llm_b, use_llm_c, use_llm_d) determine if that LLM is used.
+
+    The function then collects responses from the selected evaluators, submits the feedback via a client,
+    and computes the average confabulation rating across only the invoked evaluators.
+
+    Parameters:
+        question (str): The initial question to be evaluated for confabulation.
+        answer (str): The answer associated with the question.
+        step_of_process (str): A string to tag the evaluation step.
+        run_tree_parent_id (str): An identifier for logging/associating the evaluation in the run tree.
+        use_llm_a (bool, optional): If True, use LLM_A (GPT-4o) for evaluation. Defaults to True.
+        use_llm_b (bool, optional): If True, use LLM_B (Claude-3-5-haiku) for evaluation. Defaults to True.
+        use_llm_c (bool, optional): If True, use LLM_C (Claude-3-5-sonnet) for evaluation. Defaults to True.
+        use_llm_d (bool, optional): If True, use LLM_D (Gemini-1.5-flash) for evaluation. Defaults to True.
+    
+    Returns:
+        float: The average confabulation rating computed from the selected evaluators.
+    """
     eval_prompt = read_prompts("prompt_eval_confabulation.md")
     eval_prompt = PromptTemplate.from_template(eval_prompt)
     
-    #eval_prompt = eval_prompt.format(question=question, answer=answer)
-
-    
+    # Define the structured output model for evaluation results.
     class ConfabulationEvaluation(BaseModel):
-        explanation: str = Field(description="Short explanation if there is confabulation. Based on the given queustion and corresponding answer. Provde the 1:1 text example confabulation is present Keep the initial question given in mind when thinking about confabulation.")
-        scale_rating: int =  Field(description="The rating of the confabulation on a scale from 1 to 10. 1 means no confabulation, 10 means high confabulation. The score should ONLY reflect the aspect of confabulation.")
-        #confabulated: bool = Field(description="True if the answer is confabulated, False otherwise.")
+        explanation: str = Field(
+            description="Short explanation if there is confabulation. Based on the given question and corresponding answer. "
+                        "Provide a 1:1 text example if confabulation is present. Keep the initial question in mind."
+        )
+        scale_rating: int = Field(
+            description="The rating of the confabulation on a scale from 1 to 10. 1 means no confabulation, 10 means high confabulation. "
+                        "The score reflects only the aspect of confabulation."
+        )
     
-    
+    # Initialize the LLMs.
     llm_A = ChatOpenAI(
-            model_name="gpt-4o",
-            max_tokens=2000,
-            temperature=0.0,
-            
-        )
+        model_name="gpt-4o",
+        max_tokens=2000,
+        temperature=0.0,       
+    )
     llm_B = ChatAnthropic(
-            model_name="claude-3-5-haiku-20241022",
-            max_tokens=1000,
-            temperature=0.0,
-        )
-    
+        model_name="claude-3-5-haiku-20241022",
+        max_tokens=1000,
+        temperature=0.0,
+    )
     llm_C = ChatAnthropic(
-            model_name="claude-3-5-sonnet-20241022",
-            max_tokens=1000,
-            temperature=0.0,
-        )
-    
+        model_name="claude-3-5-sonnet-20241022",
+        max_tokens=1000,
+        temperature=0.0,
+    )
     llm_D = ChatVertexAI(
-            model_name="gemini-1.5-flash-002",
-            max_tokens=1000,
-            temperature=0.0,
-        
+        model_name="gemini-1.5-flash-002",
+        max_tokens=1000,
+        temperature=0.0,
     )
     
-    
+    # Wrap each LLM with structured output using the evaluation model.
     llm_A_structured = llm_A.with_structured_output(ConfabulationEvaluation)
     llm_B_structured = llm_B.with_structured_output(ConfabulationEvaluation)
     llm_C_structured = llm_C.with_structured_output(ConfabulationEvaluation)
     llm_D_structured = llm_D.with_structured_output(ConfabulationEvaluation)
     
-    chain_A = (eval_prompt | llm_A_structured ).with_config({"tags": ["confabulation"]})
+    # Create evaluation chains.
+    chain_A = (eval_prompt | llm_A_structured).with_config({"tags": ["confabulation"]})
     chain_B = (eval_prompt | llm_B_structured).with_config({"tags": ["confabulation"]})
     chain_C = (eval_prompt | llm_C_structured).with_config({"tags": ["confabulation"]})
     chain_D = (eval_prompt | llm_D_structured).with_config({"tags": ["confabulation"]})
     
-    response_A = chain_A.invoke({"question": question, "answer": answer})
-    response_B = chain_B.invoke({"question": question, "answer": answer})
-    response_C = chain_C.invoke({"question": question, "answer": answer})
-    response_D = chain_D.invoke({"question": question, "answer": answer})
+    responses = []
     
-    print(response_A)
-    print(response_B)
-    print(response_C)
-    print(response_D)
+    # Invoke each chain only if its flag is True and record the response.
+    if use_4o:
+        response_A = chain_A.invoke({"question": question, "answer": answer})
+        print("Response from LLM_A (gpt-4o):", response_A)
+        client.create_feedback(
+            run_id=run_tree_parent_id,
+            key=("confabulation_4o_" + step_of_process),
+            comment=response_A.explanation,
+            score=response_A.scale_rating,
+            feedback_source_type="api",
+            source_info={"model": "gpt-4o-mini"}
+        )
+        responses.append(response_A.scale_rating)
     
-    client.create_feedback(
-        run_id=run_tree_parent_id,
-        key=("confabulation_4o_" + step_of_process),
-        comment=response_A.explanation,
-        score=response_A.scale_rating,
-        feedback_source_type="api",
-        source_info={"model": "gpt-4o"}
-    )
-    client.create_feedback(
-        run_id=run_tree_parent_id,
-        key=("confabulation_haiku_"+step_of_process),
-        comment=response_B.explanation,
-        score=response_B.scale_rating,
-        feedback_source_type="api",
-        source_info={"model": "claude-3-5-haiku-20241022"}
-    )
-    client.create_feedback(
-        run_id=run_tree_parent_id,
-        key=("confabulation_sonnet_"+step_of_process),
-        comment=response_C.explanation,
-        score=response_C.scale_rating,
-        feedback_source_type="api",
-        source_info={"model": "claude-3-5-sonnet-20241022"}
-    )
-    client.create_feedback(
-        run_id=run_tree_parent_id,
-        key=("confabulation_gemini_"+step_of_process),
-        comment=response_D.explanation,
-        score=response_D.scale_rating,
-        feedback_source_type="api",
-        source_info={"model": "gemini-1.5-flash-002"}
-    )
-    avg_confabulation_rating = (response_A.scale_rating + response_B.scale_rating + response_C.scale_rating + response_D.scale_rating) / 4
-    print("Confabulation Rating avg. equals to:", avg_confabulation_rating)
+    if use_haiku:
+        response_B = chain_B.invoke({"question": question, "answer": answer})
+        print("Response from LLM_B (claude-3-5-haiku):", response_B)
+        client.create_feedback(
+            run_id=run_tree_parent_id,
+            key=("confabulation_haiku_" + step_of_process),
+            comment=response_B.explanation,
+            score=response_B.scale_rating,
+            feedback_source_type="api",
+            source_info={"model": "claude-3-5-haiku-20241022"}
+        )
+        responses.append(response_B.scale_rating)
+    
+    if use_sonnet:
+        response_C = chain_C.invoke({"question": question, "answer": answer})
+        print("Response from LLM_C (claude-3-5-sonnet):", response_C)
+        client.create_feedback(
+            run_id=run_tree_parent_id,
+            key=("confabulation_sonnet_" + step_of_process),
+            comment=response_C.explanation,
+            score=response_C.scale_rating,
+            feedback_source_type="api",
+            source_info={"model": "claude-3-5-sonnet-20241022"}
+        )
+        responses.append(response_C.scale_rating)
+    
+    if use_flash:
+        response_D = chain_D.invoke({"question": question, "answer": answer})
+        print("Response from LLM_D (gemini-1.5-flash):", response_D)
+        client.create_feedback(
+            run_id=run_tree_parent_id,
+            key=("confabulation_gemini_" + step_of_process),
+            comment=response_D.explanation,
+            score=response_D.scale_rating,
+            feedback_source_type="api",
+            source_info={"model": "gemini-1.5-flash-002"}
+        )
+        responses.append(response_D.scale_rating)
+    
+    # Compute the average rating from only the invoked responses.
+    if responses:
+        avg_confabulation_rating = sum(responses) / len(responses)
+    else:
+        avg_confabulation_rating = 0  # Alternatively, raise an exception if no LLM was selected.
+    
+    print("Average Confabulation Rating equals:", avg_confabulation_rating)
     return avg_confabulation_rating
+
+
 
 def aspect_evaluator_all_aspects(step_1_classification, step_2_classification_summary,llm_model_name : str, run_tree_parent_id):    
     for aspect in Aspect:

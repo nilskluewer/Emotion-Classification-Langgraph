@@ -171,3 +171,5 @@ preprocessing/Input_Output/JSON/articles_with_threads.json
 preprocessing/spheres/articles_with_threads_full_tree.json
 preprocessing/spheres/JSON/articles_with_threads_full_tree.json
 /preprocessing/input_output/markdown_anonymized
+/preprocessing/input_output/markdown_anonymized_no_votes
+preprocessing/input_output/JSON/articles_with_threads_with_votes.json
