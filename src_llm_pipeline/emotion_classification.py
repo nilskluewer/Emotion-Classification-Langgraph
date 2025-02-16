@@ -427,9 +427,9 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
             avg_rating_step1 = hallucination_confabulation_evaluator(
                 question=question,
                 answer=answer,
-                use_flash = False,
+                use_flash = True,
                 use_haiku = True,
-                use_sonnet = False,
+                use_sonnet = True,
                 use_4o = True,
                 step_of_process="step_1",
                 run_tree_parent_id=run_tree.id,
@@ -474,9 +474,9 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
                 avg_rating_step2 = hallucination_confabulation_evaluator(
                     question=question,
                     answer=answer,
-                    use_flash = False,
+                    use_flash = True,
                     use_haiku = True,
-                    use_sonnet = False,
+                    use_sonnet = True,
                     use_4o = True,
                     step_of_process="step_2",
                     run_tree_parent_id=run_tree.id,
@@ -500,13 +500,38 @@ def request_emotion_analysis_with_user_id(context_sphere, user_id: int) -> dict:
                 )
 
         aspect_evaluator(
-            message_history_step2["choices"][3].parts[0].text,
+            message_history_step2["choices"][3].parts[0].text, 
             message_history_step2["choices"][5].parts[0].text,
             aspect=Aspect.COMPREHENSIVENESS,
             llm_model_name="gpt-4o-mini",
             run_tree_parent_id=run_tree.id,
             langsmith_extra={"tags": [f"{Aspect.COMPREHENSIVENESS}"]},
         )
+        aspect_evaluator(
+            message_history_step2["choices"][3].parts[0].text,
+            message_history_step2["choices"][5].parts[0].text,
+            aspect=Aspect.CONSISTENCY,
+            llm_model_name="gpt-4o-mini",
+            run_tree_parent_id=run_tree.id,
+            langsmith_extra={"tags": [f"{Aspect.CONSISTENCY}"]},
+        )
+        aspect_evaluator(
+            message_history_step2["choices"][3].parts[0].text,
+            message_history_step2["choices"][5].parts[0].text,
+            aspect=Aspect.HELPFULNESS,
+            llm_model_name="gpt-4o-mini",
+            run_tree_parent_id=run_tree.id,
+            langsmith_extra={"tags": [f"{Aspect.HELPFULNESS}"]},
+        )
+        aspect_evaluator(
+            message_history_step2["choices"][3].parts[0].text,
+            message_history_step2["choices"][5].parts[0].text,
+            aspect=Aspect.RELEVANCE,
+            llm_model_name="gpt-4o-mini",
+            run_tree_parent_id=run_tree.id,
+            langsmith_extra={"tags": [f"{Aspect.RELEVANCE}"]},
+        )
+        
 
         return message_history_step1, message_history_step2
 
