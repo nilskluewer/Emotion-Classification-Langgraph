@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+    <mxGraphModel dx="1535" dy="2142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="md758tp4hbnn0HTv20v7-238" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-120" width="1000" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-97" value="Context Sphere" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="210" y="40" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-112" value="Role-Play Prompt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-122" value="&lt;b&gt;LLM Request&lt;/b&gt;&lt;div&gt;Gemini-1.5-Pro&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="380" y="-80" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-127" value="&lt;b&gt;LLM Output&lt;br&gt;&lt;/b&gt;User Analysis in JSON" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="540" y="40" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-142" value="Response Schema" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="210.00000000000006" y="-80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-143" value="Comments, Replies, Article Context, ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-151" value="Meta Prompt Example" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="541" y="-80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-152" value="Task Prompt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="541" y="-20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-160" value="LLM as a Judge Evaluating Confabulation" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="381" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-164" value="&lt;b&gt;LLM Output&lt;/b&gt;&lt;div&gt;Condensed User Analysis&amp;nbsp; in Markdown&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="870" y="-25" width="135.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-184" value="Role: Lisa Feldman Barrett" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-185" value="Task Context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-186" value="&lt;b&gt;LLM Request&lt;/b&gt;&lt;div&gt;Gemini-1.5-Pro&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="710" y="-80" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-187" value="LLM as a Judge Evaluating Confabulation" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="710" y="100" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-194" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="-55.43000000000001" as="sourcePoint" />
+            <mxPoint x="210" y="-55.43000000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-196" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="4.569999999999993" as="sourcePoint" />
+            <mxPoint x="210" y="4.569999999999993" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-197" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="64.57" as="sourcePoint" />
+            <mxPoint x="210" y="64.57" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-201" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="64.57" as="sourcePoint" />
+            <mxPoint x="540" y="64.57" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-203" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="680" y="64.57" as="sourcePoint" />
+            <mxPoint x="710" y="64.57" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-216" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="-55.43000000000001" as="sourcePoint" />
+            <mxPoint x="380" y="-55.43000000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-217" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="4.569999999999993" as="sourcePoint" />
+            <mxPoint x="380" y="4.569999999999993" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-218" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="64.57" as="sourcePoint" />
+            <mxPoint x="380" y="64.57" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-222" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="64.57" as="sourcePoint" />
+            <mxPoint x="540" y="64.57" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-224" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="680" y="-55.43000000000001" as="sourcePoint" />
+            <mxPoint x="710" y="-55.43000000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-226" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="680" y="64.57" as="sourcePoint" />
+            <mxPoint x="710" y="64.57" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-236" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="840" y="4.569999999999993" as="sourcePoint" />
+            <mxPoint x="870" y="4.569999999999993" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-237" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2" parent="1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="681" y="4.499999999999993" as="sourcePoint" />
+            <mxPoint x="711" y="4.499999999999993" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="md758tp4hbnn0HTv20v7-241" value="Evaluation through User Study" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
+          <mxGeometry x="20" y="150" width="1000" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
