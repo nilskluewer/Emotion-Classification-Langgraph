@@ -3,6 +3,9 @@
 - Raum in der Uni? Ruhiges Arbeitsumfeld oder Zoom? 
 - Person bringt rechenr mit bekommt 2 files -> Context Sphäre + Emotional Portrait of Anonymised User in HTML. Kann diese im Browser öffnen. 
 
+
+
+
 ## Einleitung 
 Vielen Dank, dass Sie an dieser Studie teilnehmen. Ich untersuche einen neuen Ansatz zur Analyse von Emotionen in Online-Kommentaren. Anders als bisherige Systeme, die Kommentare in feste Kategorien wie 'wütend' oder 'traurig' einordnen, nutzen wir künstliche Intelligenz (ein Large Language Model), um Emotionen ähnlich wie Menschen im Kontext zu verstehen.
 
@@ -11,9 +14,6 @@ Sie werden gleich zwei Dokumente sehen:
 2. Einen vom KI-System erstellten Analysebericht über die emotionalen Dynamiken dieser Person
 
 Ihre Aufgabe ist es, beide Dokumente zu lesen und dann einige Fragen zu deren Qualität und Nützlichkeit zu beantworten. Es gibt dabei keine richtigen oder falschen Antworten - uns interessiert Ihre ehrliche Einschätzung.
-
-**Achuntg:**  Die Characktereigenschaften sollten nicht analysiert werden, Personenprofile problematisch, bringen nichts
-
 
 ### 0. Einleitender offener Stimulus
 Haben Sie noch Fragen? Dann erzählen Sie mir bitte zunächst in Ihren eigenen Worten, was Sie gleich tun werden.
@@ -38,10 +38,26 @@ Mögliche immanente Nachfragen bei Bedarf:
 - Nur beobachtbares Verhalten, keine Interpretationen der Person 
 
 
+"Person ist sehr aufgebracht", "Auf welche ausdrücke bezieht sich deine interpreation, kannst du mir nochmal konkrete Beispiel im text zeigen"
 
 ### III. Vertiefung zur kommentierenden Person
-Interviewee: "Person ist sehr aufgebracht und ist leicht psychopatisch"
-Interviewer: "Auf welche ausdrücke bezieht sich deine interpreation, kannst du mir nochmal konkrete Beispiel im text zeigen die dies belegen? "
+Offen:
+- "Wie würden Sie die kommentierende Person beschreiben?"
+- "Was erzählen uns die Kommentare über die Person?"
+- "Welche Themen scheinen der Person wichtig zu sein?"
+- "Wie gestaltet die Person ihre Kommunikation mit anderen?"
+
+Spezifisch:
+- "Erkennt das LLM die Bedeutung von Sprache und Konzepten für die emotionale Erfahrung der Person?"
+- "Würden Sie sagen, dass das LLM Emotionen als etwas Dynamisches und Kontextabhängiges betrachtet, anstatt als feste Kategorien?"
+
+
+- "Wie beeinflusst der Kontext Ihrer Meinung nach die emotionalen Ausdrücke der Person?"
+- "Gibt es eine entwickeln des nutzer über den Zeitraum der gezeigten Kommentare? (ist es consistent oder dynamisch)
+- "Welche Rolle spielen die anderen Nutzer im Forum? Beeinflussen die verschiedenen Gesprächspartner den Kommentare des analysierten Nutzers?"
+- "Gibt es bestimmte Muster oder ein verhalten das sich wiederholt?"
+
+
 
 ---
 

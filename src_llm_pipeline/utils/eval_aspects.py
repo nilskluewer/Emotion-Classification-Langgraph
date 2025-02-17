@@ -60,7 +60,7 @@ def read_prompts(filename: str) -> str:
     return (folder / filename).read_text()
 
 llm_evaluator_prompt_text = read_prompts("prompt_eval_aspects.md")
-instructions_summary = read_prompts("step_2_summary_prompt.md")
+instructions_report = read_prompts("step_2_summary_prompt.md")
 
 
 @traceable(name="LLM as a Judge: Aspects Eval", run_type="chain")
@@ -109,7 +109,7 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
                              "aspect-inst": aspect_inst,
                              "step_1_classification": step_1_classification,
                              "step_2_classification_summary": step_2_classification_summary,
-                            "instructions_summary": instructions_summary})
+                            "instructions_report": instructions_report})
     #print(response)
     print("The Score from OpenAi is:", response.score)
     print("The Reasoning from OpenAi is:", response.reasoning)

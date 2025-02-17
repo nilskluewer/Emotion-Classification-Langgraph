@@ -8,7 +8,7 @@ Each file is handled individually (1:1) and moved immediately:
 from pathlib import Path
 from tqdm import tqdm
 import json
-from src_llm_pipeline.emotion_classification import request_emotion_analysis_with_user_id
+from src_llm_pipeline.emotion_analysis import request_emotion_analysis_with_user_id
 
 # --- Load configuration variables from config.json ---
 with open("src_llm_pipeline/config.json", "r") as config_file:

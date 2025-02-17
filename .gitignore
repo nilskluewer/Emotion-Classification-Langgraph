@@ -166,6 +166,8 @@ data/preprocessed/preprocessed_data.csv
 .DS_Store
 preprocessing/Input_Output/JSON/articles_with_threads_full_tree.json
 /preprocessing/Input_Output/Markdown
+/preprocessing/documentation/markdown_anonymized_no_votes
+/preprocessing/documentation/markdown_anonymized_2024_02_17
 /preprocessing/Input_Output/Markdown_v1
 preprocessing/Input_Output/JSON/articles_with_threads.json
 preprocessing/spheres/articles_with_threads_full_tree.json
