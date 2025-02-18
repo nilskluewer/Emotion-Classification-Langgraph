@@ -148,9 +148,9 @@ def generate_comment_markdown(comments, level=0):
         if level == 0 and markdown: # Check if markdown is already non-empty AND it's a top-level comment
             markdown += "---\n\n" # Add separator before a new top-level comment
         if level == 0:
-            markdown += f"{comment['user_name']} schreibt:"
+            markdown += f"{blockquote}{comment['user_name']} schreibt:{newline}"
         else:
-            markdown += f"{comment['user_name']} antwortet:"
+            markdown += f"{blockquote}{comment['user_name']} antwortet:{newline}"
 
         # Überschrift setzen; falls nicht vorhanden, Standardtext verwenden
         headline = comment.get('comment_headline') or "Keine Überschrift vorhanden"
@@ -228,8 +228,8 @@ def process_user_comments(data, target_user_id):
     if all_user_comments:
         target_user_name = "Analyse Zielnutzer"  # Overwrite for anonymity
         intro = f"# Context Sphere von: {target_user_name} (Anonymisiert)\n\n"
-        intro += "Dies ist eine anonymisierte Übersicht der Aktivitäten des Analyse Zielnutzers im österreichischen Online-Forum „Der Standard“ vom 01.05.2019 bis 31.05.2019. Die Kommentare sind sortiert nach Artikeln – es werden nur Artikel gezeigt, bei denen der Analyse Zielnutzer kommentiert hat, während Threads ohne seinen Beitrag ausgelassen werden. \n \n"
-        intro += "Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enthalten. Das “>” markiert top-level Kommentare, und jede Antwort erhält einen weiteren “>”. So signalisiert „>>“, „>>>“ usw., dass es sich um direkte Antworten und weiter verschachtelte Kommentare handelt.\n\n"
+        intro += "Dies ist eine anonymisierte Übersicht der Aktivitäten des Analyse Zielnutzers im österreichischen Online-Forum „Der Standard“ vom 01.05.2019 bis 31.05.2019. Die Kommentare sind sortiert nach Artikeln – es werden nur Artikel gezeigt, bei denen der Analyse Zielnutzer kommentiert hat, während Threads ohne seinen Beitrag ausgelassen werden. \n\n"
+        intro += "Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enthalten. Das “>” markiert top-level Kommentare, und jede Antwort erhält einen weiteren “>”. So signalisiert „>>“, „>>>“ usw., dass es sich um direkte Antworten und weiter verschachtelte Kommentare handelt. Wenn der Analyse Zielnutzer mehrere separate Kommentare unter demselben Artikel verfasst hat (d.h. an unterschiedlichen Diskussionssträngen teilgenommen hat), werden diese einzelnen Kommentar-Threads durch eine horizontale Linie (---) voneinander getrennt, um die Übersichtlichkeit zu gewährleisten. \n\n"
         #intro += "## Benutzerdetails\n\n"
         #intro += f"- Benutzername: {target_user_name}\n"
         # Has no relevance for classification

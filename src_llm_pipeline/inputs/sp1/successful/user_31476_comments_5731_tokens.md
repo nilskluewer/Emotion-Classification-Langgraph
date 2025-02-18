@@ -1,8 +1,8 @@
 # Context Sphere von: Analyse Zielnutzer (Anonymisiert)
 
 Dies ist eine anonymisierte Übersicht der Aktivitäten des Analyse Zielnutzers im österreichischen Online-Forum „Der Standard“ vom 01.05.2019 bis 31.05.2019. Die Kommentare sind sortiert nach Artikeln – es werden nur Artikel gezeigt, bei denen der Analyse Zielnutzer kommentiert hat, während Threads ohne seinen Beitrag ausgelassen werden. 
- 
-Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enthalten. Das “>” markiert top-level Kommentare, und jede Antwort erhält einen weiteren “>”. So signalisiert „>>“, „>>>“ usw., dass es sich um direkte Antworten und weiter verschachtelte Kommentare handelt.
+
+Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enthalten. Das “>” markiert top-level Kommentare, und jede Antwort erhält einen weiteren “>”. So signalisiert „>>“, „>>>“ usw., dass es sich um direkte Antworten und weiter verschachtelte Kommentare handelt. Wenn der Analyse Zielnutzer mehrere separate Kommentare unter demselben Artikel verfasst hat (d.h. an unterschiedlichen Diskussionssträngen teilgenommen hat), werden diese einzelnen Kommentar-Threads durch eine horizontale Linie (---) voneinander getrennt, um die Übersichtlichkeit zu gewährleisten. 
 
 ## Artikel: Gabaliers Manager klagen über "merkwürdige" Amadeus-Gewinner
 
@@ -65,6 +65,8 @@ Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enth
 > **Kommentar**: Warum zurücktreten? Sojemanden sollte man zwangseinweisen. Die Faktenlage zu leugnen zeigt eindeutig, dass hier jemand nicht ganz bei Sinnen ist!  
 > **Kommentiert am** 6. Mai 2019, 23:41 Uhr  
   
+---
+
 > Analyse Zielnutzer schreibt:  
 > **Überschrift**: Keine Überschrift im Datensatz vorhanden  
 > **Kommentar**: Es soll ja auch immer mehr Menschen geben, die behaupten, dass die Erde flach ist. Was soll man mit solchen Leuten tun? Offensichtlich gelingt es denen ja nicht klar zu denken oder überhaupt zu denken. Wie dann mit Argumenten begegnen? Schwierig find ich das.  
@@ -84,6 +86,8 @@ Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enth
 > **Kommentar**: Was hat das jetzt mit dem Thema Gender zu tun?  
 > **Kommentiert am** 7. Mai 2019, 01:12 Uhr  
   
+---
+
 > User 2 schreibt:  
 > **Überschrift**: Realität  
 > **Kommentar**: Ich war HTL Schüller in Wr. Neustadt. Die Schule war supa! Der Unterricht auch. Aber wir waren auch eine reine Buben klasse. Und wir haben viel, viel sehr viel blödsinnige Sachen gemacht. Wir waren Jungs in der puppertet. Wir haben die Lehrer auch mit Sachen beworfen wenn sie sich umgedreht haben, Tische aus dem Fenster geworfen, uns geprügelt. Das ist so wenn Jungs zusammenkommen. Da braucht man jetzt keine „causa“ draus machen. In dem Fall is es raus gekommen. Alle unter Beobachtung stellen und die Sache ist erledigt. Wer denkt man kann sowas verhindert, der hat keine Ahnung.  
@@ -127,6 +131,8 @@ Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enth
 > **Kommentar**: einfach mal abwarten, es gibt ja noch 2 Folgen.  
 > **Kommentiert am** 8. Mai 2019, 23:39 Uhr  
   
+---
+
 > Analyse Zielnutzer schreibt:  
 > **Überschrift**: Meine Hypothese  
 > **Kommentar**: Alle freuen sich, dass die White Walker tot sind. Ich gehe davon aus, dass (Das Buch heisst ja: A song of Ice and Fire) letzlich die Mother of Dragons am Thron sitzt, aber so böse re(a)giert (mit Fire), dass man sich wünscht, es wäre anders gekommen.  
@@ -202,6 +208,8 @@ Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enth
 > **Kommentar**: auf wieviele Postings ist das Forum eigentlich ausgelegt?  
 > **Kommentiert am** 18. Mai 2019, 13:58 Uhr  
   
+---
+
 > User 4 schreibt:  
 > **Überschrift**: Da wird man nicht mehr rauskommen.  
 > **Kommentar**: Kurz wird dieses Fiasko beenden müssen. Vielleicht schafft er es sogar, daraus Kapital zu schlagen, aber normaler Weise muss es das gewesen sein mit der FPÖ für die nächsten Jahre, in jeder normalen Republik, für die nächsten Jahrzehnte.  Und "soll gesagt haben"? Was will man da noch leugnen, ist ja alles auf Kamera, mit Ton und Bild. Er HAT  
@@ -273,6 +281,8 @@ Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enth
 >> **Kommentar**: Bei mir warens 20km. Ich hab aber gedacht, der schnellste und direkteste Weg ist über die Autobahn.... Bin froh, dass ich heute noch lebe. Seither nicht mehr so betrunken gewesen. Man soll ja aus seinen Fehlern lernen.  
 >> **Kommentiert am** 26. Mai 2019, 20:32 Uhr  
   
+---
+
 > Analyse Zielnutzer schreibt:  
 > **Überschrift**: Maturareise  
 > **Kommentar**: Ich bin aufgewacht im 2 Stock eines Baustellenrohbaus in Griechenland. Keine Ahnung wie ich da hinkam. Keine Ahnung wo ich war. Dann entlang der verlassenen Strasse gegangen wo in jedem Garten ein Hund zu bellen begonnen hat. Nach unendlicher Zeit endlich ein Taxi gefunden und das Hotel gesagt. Die Fahrt hat ewig gedauert und Unmengen gekostet. Auch sonst hatte keiner eine Ahnung wann ich wo war.  Ach, hätte es damals schon google maps tracking gegeben....  
@@ -356,4 +366,5 @@ Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enth
 > Analyse Zielnutzer schreibt:  
 > **Überschrift**: Keine Überschrift im Datensatz vorhanden  
 > **Kommentar**: Kein Stress mit den Neuwahlen. Schauen wir mal ob es so nicht besser läuft. Was sind eigentlich die KPIs ob eine Regierung gut funktioniert?  
-> **Kommentiert am** 30. Mai 2019, 19:47 Uhr
+> **Kommentiert am** 30. Mai 2019, 19:47 Uhr  
+  

@@ -5,7 +5,6 @@ Dies ist eine anonymisierte Übersicht der Aktivitäten des Analyse Zielnutzers 
 Meta-Details wie Veröffentlichungszeit, Kanal und Diskussionsstruktur sind enthalten. Das “>” markiert top-level Kommentare, und jede Antwort erhält einen weiteren “>”. So signalisiert „>>“, „>>>“ usw., dass es sich um direkte Antworten und weiter verschachtelte Kommentare handelt.
 
 ## Artikel: Einschlag in acht Jahren: Forscher spielen Asteroiden-Ernstfall durch
-
 - Veröffentlicht am: 1. Mai 2019, 08:00 Uhr
 - Kanal: Wissenschaft
 - Ressort: Astronomie
