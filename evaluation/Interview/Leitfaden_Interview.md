@@ -19,6 +19,7 @@ Vielen Dank, dass Sie an dieser Studie teilnehmen. Ich untersuche einen neuen An
 Sie werden gleich zwei Dokumente sehen:
 1. Eine Sammlung von Online-Kommentaren einer anonymisierten Person ("Context Sphere")
 2. Einen vom KI-System erstellten Analysebericht zu dieser Person
+3. "Analyse Zielnutzer" ist subjekt der analyse
 
 Ihre Aufgabe ist es, beide Dokumente in Ruhe zu lesen und dann einige Fragen zu beantworten. Es gibt dabei keine richtigen oder falschen Antworten. 
 
@@ -78,6 +79,10 @@ Immanente Nachfragemöglichkeiten:
 
 
 ## Bei Bedarf
+- **Forschungsfrage: To what extent can an LLM encapsulate the Theory of Constructed Emotions to analyse emotions in a context-related manner?**
+- Wir analysieren die Kommentare, um vorübergehende emotionale Zustände zu erkennen, die durch den Kontext der Diskussion ausgelöst werden könnten. Wir verwenden vorsichtige Formulierungen, um diese Zustände zu beschreiben 
+- Der Fokus liegt darauf, *welche* Emotionen in den Kommentaren zum Ausdruck kommen und *wie* sie zum Ausdruck kommen, nicht wer sie empfindet oder warum sie sie empfindet (abgesehen vom unmittelbaren Kontext).
+
  **Dislcaim wird im Interview genannt falls im Antworten Characterzuschreibungen sind:**
 Wichtig: Wir analysieren die Kommentare, um vorübergehende emotionale Zustände zu erkennen, die durch den Kontext der Diskussion ausgelöst werden könnten. Wir verwenden vorsichtige Formulierungen, um diese Zustände zu beschreiben, ohne sie mit dauerhaften Persönlichkeitsmerkmalen zu verwechseln. Der Fokus liegt darauf, *welche* Emotionen in den Kommentaren zum Ausdruck kommen und *wie* sie zum Ausdruck kommen, nicht wer sie empfindet oder warum sie sie empfindet (abgesehen vom unmittelbaren Kontext).
 
