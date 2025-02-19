@@ -19,7 +19,7 @@ Vielen Dank, dass Sie an dieser Studie teilnehmen. Ich untersuche einen neuen An
 Sie werden gleich zwei Dokumente sehen:
 1. Eine Sammlung von Online-Kommentaren einer anonymisierten Person ("Context Sphere")
 2. Einen vom KI-System erstellten Analysebericht zu dieser Person
-3. "Analyse Zielnutzer" ist subjekt der analyse
+3. "Analyse Zielnutzer" ist subjekt der analyse kommt innhalb der erste kommentare nicht vor sondern erst später
 
 Ihre Aufgabe ist es, beide Dokumente in Ruhe zu lesen und dann einige Fragen zu beantworten. Es gibt dabei keine richtigen oder falschen Antworten. 
 
