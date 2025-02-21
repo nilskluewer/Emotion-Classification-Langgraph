@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emotional_Analysis_Anonymized_User.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="emotional-analysis-of-anonymised-user">Emotional Analysis of Anonymised User</h1>
+<p><strong>I. Reason for Assessment (Purpose of Analysis)</strong></p>
+<p>This analysis examines how an anonymized user constructs emotional meaning through language in the Der Standard online forum during May 2019.</p>
+<p><strong>II. Identifying Information</strong></p>
+<ul>
+<li><strong>Name/Username:</strong> Anonymised User</li>
+<li><strong>Source of Data:</strong>  Comments and replies within specific discussion threads on the Der Standard online forum during May 2019.</li>
+</ul>
+<p><strong>III. Data Sources and Methods</strong></p>
+<p>The data consists of the user's comments and replies within specific discussion threads on Der Standard. The analysis focuses on the interplay of core affect, cognitive appraisals, conceptual knowledge, language use, and the socio-cultural context of the forum.  This analysis is limited to the provided data and does not reflect the user's overall activity or emotional expression outside of this specific context.  The data only covers May 2019 and may not represent the user's typical behavior.</p>
+<p><strong>IV. Behavioral Observations</strong></p>
+<ul>
+<li><strong>Language Construction:</strong> The user frequently uses sarcasm and strongly worded criticism to construct negative emotional meaning. For example, dismissing someone as a &quot;New Age Schwurbler&quot; (crackpot) in a discussion about Buddhism conveys disdain and high emotional engagement.  Conversely, the user's dry humor, like the joke about tourists and police officers, constructs a different kind of emotional engagement, suggesting playfulness alongside their critical stance.</li>
+<li><strong>Cultural Framework:</strong> The user actively engages with the politically charged context of the forum, particularly regarding the Ibiza video scandal and the FPÖ, weaving political commentary into discussions on diverse topics.  This demonstrates how their emotional expressions are intertwined with their political and social views.  For example, the user connects Gabalier's lyrics to broader political trends, revealing how cultural knowledge shapes their interpretations and emotional responses.</li>
+<li><strong>Interaction Dynamics:</strong> The user readily engages in debates, often escalating the intensity with counterarguments and challenges.  However, they also demonstrate a capacity for de-escalation and reflection, as seen in an instance where they apologize for a misinterpretation.  This dynamic interplay suggests an emotional flexibility within the context of online discussions.</li>
+</ul>
+<p><strong>V.  Contextual and Cultural Considerations</strong></p>
+<p>The Der Standard forum, known for its politically engaged audience, provides a specific context for the user's emotional expression.  The timing of the data, coinciding with the Ibiza video scandal, further contributes to the politically charged atmosphere.  The user's active participation in political discussions and their critical commentary align with the forum's culture, suggesting that their emotional expressions are shaped by this environment.</p>
+<p><strong>VI. Interpretation and Conceptualization</strong></p>
+<p>The user's specific patterns of emotional construction reveal a tendency towards critical engagement and a sensitivity to perceived intellectual inaccuracies.  Their frequent use of sarcasm and strong criticism, particularly in response to perceived misinformation, suggests a preference for direct and assertive communication.  However, their capacity for humor and their willingness to apologize indicate a more nuanced emotional profile than simply negativity.  The user's tendency to connect individual events to broader societal trends, as seen in their comments on Gabalier and the FPÖ, reveals a conceptualization of individual actions as reflective of larger issues.</p>
+<p><strong>VII. Report Findings</strong></p>
+<p>This user constructs emotional meaning within the Der Standard forum through a distinctive blend of critical engagement, sarcasm, and humor.  Their comments during May 2019 reveal a predominantly negative emotional tone, often driven by perceived misinformation and political disagreements.  This negativity is frequently expressed through pointed criticism and sarcastic remarks, such as dismissing another user as a &quot;crackpot.&quot;  However, the user also demonstrates a capacity for reflection and emotional regulation, as evidenced by an apology for a misinterpretation.  Their use of humor, like the joke about tourists and police, adds another layer to their emotional expression, suggesting playfulness alongside their critical stance.  The user's comments are deeply intertwined with the political and social context of the forum and the broader Austrian political climate, particularly regarding the Ibiza video scandal.  This analysis suggests that the user's emotional experiences in this online context are dynamically constructed through the interplay of core affect, cognitive appraisals, and the specific cultural and social environment.</p>
+
+</body>
+</html>

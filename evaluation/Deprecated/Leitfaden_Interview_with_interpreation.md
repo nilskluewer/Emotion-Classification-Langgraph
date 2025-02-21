@@ -32,9 +32,6 @@ Mögliche immanente Nachfragen bei Bedarf:
 
 ---
 
-- Die Characktereigenschaften sollten nicht analysiert werden, Personenprofile problematisch, bringen nichts
-- Nur beobachtbares Verhalten, keine Interpretationen der Person 
-
 
 "Person ist sehr aufgebracht", "Auf welche ausdrücke bezieht sich deine interpreation, kannst du mir nochmal konkrete Beispiel im text zeigen"
 
@@ -55,10 +52,7 @@ Spezifisch:
 - "Welche Rolle spielen die anderen Nutzer im Forum? Beeinflussen die verschiedenen Gesprächspartner den Kommentare des analysierten Nutzers?"
 - "Gibt es bestimmte Muster oder ein verhalten das sich wiederholt?"
 
-
-
 ---
-
 
 ### IV. Vertiefte Exploration der LLM-Analyse
 Offen: 

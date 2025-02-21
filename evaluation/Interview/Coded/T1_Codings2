@@ -1,0 +1,50 @@
+Response
+Experimental 
+# Coding for transcript.txt
+
+**Interviewee:** R
+
+**Code A: Contextual Sensitivity**
+
+*   "Und da ist mir auch aufgefallen, dass ähm das Sinn macht auf jeden Fall, das so ein bisschen zu unterteilen und sich auch die Data Source erstmal anzuschauen, weil ich finde, es ist wichtig, wenn man ähm ja, die Emotionen analysieren will, eben, dass man den Kontext mit einbezieht und mir ist aufgefallen, dass der Nutzer halt oft oder ab und zu mal probiert mit einer Quelle zu argumentieren. Mhm. Und auch wie er sich in seiner Sprache ausdrückt, das passiert in dem Kontext der Standard Forum und das ist ähm da orientiert er sich ja auch ein bisschen daran, wie andere Leute schreiben, sage ich jetzt mal und wie man in so einem Forum generell schreibt. Der der kommt jetzt nicht mit den ähm wissenschaftlichen Quellen, sondern äh zitiert aus Kurier und ähm schickt irgendwelche Screenshots, die ja, ich denke angemessen sind für die für die Diskussion, die er führt." - *Context Considered*
+
+*   "Das heißt du machst das jetzt daran fest, also du hast anhand der Quellen quasi da festgemacht, dass er auch in diesem Forum, in dieser Community quasi so argumentiert, wie die Community das auch, wie es auch andere machen in dem Kontext?" - *Interviewer prompting for context sensitivity*
+
+*   "Genau, wie es auch andere machen und wie es und ich glaube, er probiert auch irgendwie manchmal fühlt er sich vielleicht schon ein bisschen überlegen auch in der Konversation und ähm wenn er mit Leuten schreibt, die z.B. politisch überhaupt nicht seinen ähm seiner Meinung entsprechen, dann nimmt er diese auch bisschen aufs Korn, aber er probiert da schon irgendwie so ähm auch einen gemeinsamen Nenner zu finden mit den Quellen, die er benutzt und jetzt auch interessiert ist daran eine Diskussion zu führen." - *Context Considered* (Social context of forum, user interaction)
+
+*   "Also da müsste man den Standard an sich vielleicht noch ein bisschen einordnen und ich bin mir nicht ganz sicher, wie die, wie die sich, also wenn jetzt auch so mit Hinblick auf politische Meinung, ähm wie die da aufgestellt sind, aber ich glaube, die ist relativ liberal." - *Context Considered* (Political context of the forum)
+
+*   "Und ja, Grenzen wäre z.B. vor allem haben wir auch drüber geredet, dass er viel mit Quellen äh arbeitet und ich konnte, ich hatte jetzt keinen Zugriff z.B. auf auf die Quellen direkt. Ich habe es jetzt auch nicht probiert, ne? Ähm und ich bin mir jetzt auch relativ sicher, dass die, dass das Modell jetzt auch nicht gecheckt hat, ob das, was dir da postet, äh vertrauenswürdig ist und ob das da wirklich drin steht oder nicht." - *Context Partially Considered* (Acknowledges the importance of source context but questions if LLM truly analyzes it beyond surface level)
+
+**Overall Code A for Interviewee R: Context Considered** - The interviewee consistently emphasizes the importance of context, particularly the forum context, community norms, source credibility, and political leaning when analyzing emotions. They perceive that the LLM analysis *does* consider context to a significant extent.
+
+
+**Code B: Granularity of Emotion Recognition**
+
+*   "Ähm generell finde ich es gut auf jeden Fall, wie sie strukturiert ist, dass äh dass auch die die ein die Themen eingeordnet werden und ich finde es auf jeden Fall die Analyse an sich relativ gut, weil weil darin auch vorkommt, dass er halt Sarkasmus benutzt und ähm und auch, dass er sich teilweise, was mir auch aufgefallen ist, dass er dann teilweise schon auf die anderen Leute auch eingeht und sagt, okay, ähm vielleicht habe ich das falsch eingeordnet und auch interessiert ist, wie gesagt an einer ernsthaften Diskussion und dann halt auch Fehler eingestehen kann in Anführungszeichen und ähm (Pause) R: muss das noch mal übersetzen. Fähigkeit zur Ja, und teilweise auch deeskaliert, also da steht ja auch drin, dass er die Fähigkeit zur Deeskalation hat." - *Analysis Differentiated* (Recognizes nuance in emotion recognition like sarcasm, de-escalation, acknowledging errors)
+
+*   "Das ist das eine Diskrepanz zwischen Analyse und deinem Empfinden. R: Genau, würde ich jetzt spontan z.B. sagen, ja. I: Ja, okay. Ähm genau, also das ist ja, also ist hier noch irgendeine andere Diskrepanz aufgefallen zwischen der Analyse und dem, was du beobachtet hast? R: Lass mich die noch mal lesen. (Pause) R: Ja, in der Analyse werden an sich ist da jetzt keine große Diskrepanz, da wird halt auch noch mal so die Ibiza Affäre ähm genannt, wobei mir die jetzt beim Durchlesen nicht so im Kopf geblieben sind. Ähm eher das Gabalier äh die Diskussion und auch so das um die Grünen." - *Analysis Mostly Differentiated* (Minor discrepancy but overall finds analysis nuanced)
+
+*   "Wenn du dir jetzt die Analyse anguckst und das mit einer ganz einfachen Kategorisierung vergleichst, welche Vorteile oder Nachteile siehst du jetzt? Ähm das ist ja jetzt wirklich sehr ausführlich die Analyse. Mhm. Ähm oder einfach Textmäßig groß. Aber was im Vergleich zu einer einfachen Kategorisierung, siehst du da als vor oder Nachteil? R: Ich finde, es ist auch immer wichtig den Kontext mit einzubeziehen und sich die Frage zu stellen, warum man den Nutzer analysiert und was das Ziel daraus ist, wenn man ähm jetzt das Ziel hat, den Nutzer halt ähm rauszufinden, wie der sich in dem Forum der Standard verhält, um ihn z.B. zu moderieren oder ähm gegebenenfalls auszuschließen, falls das äh nicht okay ist, was der schreibt, dann finde ich die Analyse schon recht gut, wobei das ja auch nur ein Data Set in ähm einem bestimmten Zeitraum war und ja, je nach Use Case sollte man den Zeitraum dann schon vielleicht vergrößern." - *Implicitly Analysis Differentiated* (Comparing to simple categorization highlights the differentiation in the current analysis)
+
+*   "Also Stärken haben wir ja schon ein bisschen drüber geredet auf jeden Fall, dass vor allem im jetzt Kontext von Moderation z.B. ist es ein tolles Tool und der ist ja auch wirklich gut darin ähm Sachen rauszustellen und auch zu differenzieren, ob er das dann immer perfekt einordnet, ist dann auch die Frage in der in der Schlussfolgerung da generalisiert man ja oder generalisiert er ja viel, obwohl man da vielleicht auch noch ein bisschen das differenzieren könnte und mit Beispielen arbeiten könnte so und dann sagen, hey, schau mal in dem in dem Kommentar war der sehr ähm Kompromissbereit und dem in dem anderen nicht. Das hat er jetzt nicht gemacht. Ich weiß jetzt auch nicht, ob das zur Schlussfolgerung gehören sollte oder nicht, äh um fair zu bleiben." - *Analysis Partially Differentiated* (Recognizes differentiation but also points out potential for more nuanced differentiation)
+
+**Overall Code B for Interviewee R: Analysis Differentiated** - While there's a minor point about potential generalization in the conclusion, the interviewee largely perceives the LLM analysis as differentiated and nuanced, especially when contrasted with simple emotion categories. They recognize the analysis capturing sarcasm, de-escalation, and the ability to admit errors.
+
+
+**Code C: Utility for Moderation**
+
+*   "Ich finde, es ist auch immer wichtig den Kontext mit einzubeziehen und sich die Frage zu stellen, warum man den Nutzer analysiert und was das Ziel daraus ist, wenn man ähm jetzt das Ziel hat, den Nutzer halt ähm rauszufinden, wie der sich in dem Forum der Standard verhält, um ihn z.B. zu moderieren oder ähm gegebenenfalls auszuschließen, falls das äh nicht okay ist, was der schreibt, dann finde ich die Analyse schon recht gut..." - *Useful for Moderation* (Explicitly states utility for moderation)
+
+*   "Du hast es ja auch schon angesprochen, z.B. der Moderation äh von so einem Forum und hättest du jetzt die Option, würdest du dir lieber die Analyse, also du wärst jetzt Content Moderator beim der Standard, würdest du dann z.B. die Analyse vorziehen oder die Original Kommentare nutzen oder beides oder wie würdest du damit umgehen? R: Ich würde auf jeden Fall die Analyse nutzen. Ich finde die sehr hilfreich und spart auf jeden Fall Zeit, weil ich jetzt auch während der Lesezeit bestimmt vier Fünftel der Zeit mit den Kommentaren verbracht habe und deswegen ist es ein guter äh guter Punkt anzufangen, wobei man vielleicht dann in der Analyse daran denken sollte irgendwie die Beispiele noch mal explizit anzuführen und nicht nur einzelne Worte zu zitieren, so Spinner z.B.. Ähm genau, aber ich würde auf jeden Fall damit arbeiten." - *Useful for Moderation* (Strongly emphasizes utility and time-saving aspect for moderation)
+
+*   "Also Stärken haben wir ja schon ein bisschen drüber geredet auf jeden Fall, dass vor allem im jetzt Kontext von Moderation z.B. ist es ein tolles Tool..." - *Useful for Moderation* (Reiterates usefulness as a tool for moderation)
+
+**Overall Code C for Interviewee R: Useful for Moderation** - The interviewee clearly and repeatedly states that they find the LLM analysis useful for moderation, emphasizing its time-saving aspect and helpfulness in understanding user behavior in the forum context.
+
+
+**Summary of Coding for Interviewee R:**
+
+*   **Code A: Contextual Sensitivity - Context Considered**
+*   **Code B: Granularity of Emotion Recognition - Analysis Differentiated**
+*   **Code C: Utility for Moderation - Useful for Moderation**
