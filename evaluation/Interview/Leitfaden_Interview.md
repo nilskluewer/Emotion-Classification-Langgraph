@@ -1,4 +1,4 @@
-# Leitfadeninterview
+# Leitfadeninterview*
 
 - Entweder per Zoom oder vor Ort
 - Context Sphäre + Emotional Analysis of Anonymised User in HTML wird am PC bereit gestellt
@@ -6,76 +6,74 @@
 
 ## Pre-Interview Informationen
 
-Hallo, vielen Dank für Ihre Teilnahme. Im Rahmen meiner Masterarbeit möchte ich Sie interviewen. Das Gespräch wird aufgezeichnet und mit einem Sprachmodell transkribiert. Ihre Daten werden anonymisiert und vertraulich behandelt, nur für Forschungszwecke verwendet. Sind Sie damit einverstanden? 
+Hallo, vielen Dank für deine Teilnahme. Im Rahmen meiner Masterarbeit möchte ich dich interviewen. Das Gespräch wird aufgezeichnet und mit einem Sprachmodell transkribiert. Deine Daten werden anonymisiert und vertraulich behandelt und nur für Forschungszwecke verwendet. Bist du damit einverstanden?
 
-- Wie ist ihr Alter?
-- Was ist ihr Höchster Bildungsgrad?
-- Was die höchste Abgeschlossene Ausbildung?
-- Was für Sprachen sprechen sie? (Deutsch, English)
+- Wie ist dein Alter?
+- Was ist dein höchster Bildungsgrad?
+- Was die höchste abgeschlossene Ausbildung?
+- Was für Sprachen sprichst du? (Deutsch, English)
 
-## Einleitung 
-Vielen Dank, dass Sie an dieser Studie teilnehmen. Ich untersuche einen neuen Ansatz zur Analyse von Emotionen in Online-Kommentaren. Anders als bisherige Systeme, die Kommentare in feste Kategorien wie 'wütend' oder 'traurig', 'positiv' oder 'negativ' einordnen, nutzen wir ein Large Language Model, um die Emotionen im Kontext zu verstehen.
+## Einleitung
+Vielen Dank, dass du an dieser Studie teilnimmst. Ich untersuche einen neuen Ansatz zur Analyse von Emotionen in Online-Kommentaren. Anders als bisherige Systeme, die Kommentare in feste Kategorien wie 'wütend' oder 'traurig', 'positiv' oder 'negativ' einordnen, nutzen wir ein Large Language Model, um die Emotionen im Kontext zu verstehen.
 
-Sie werden gleich zwei Dokumente sehen:
+Du wirst gleich zwei Dokumente sehen:
 1. Eine Sammlung von Online-Kommentaren einer anonymisierten Person ("Context Sphere")
 2. Einen vom KI-System erstellten Analysebericht zu dieser Person
-3. "Analyse Zielnutzer" ist subjekt der analyse kommt innhalb der erste kommentare nicht vor sondern erst später
+3. "Analyse Zielnutzer" ist Subjekt der Analyse, kommt innerhalb der ersten Kommentare nicht vor, sondern erst später
 
-Ihre Aufgabe ist es, beide Dokumente in Ruhe zu lesen und dann einige Fragen zu beantworten. Es gibt dabei keine richtigen oder falschen Antworten. 
+Deine Aufgabe ist es, beide Dokumente in Ruhe zu lesen und dann einige Fragen zu beantworten. Es gibt dabei keine richtigen oder falschen Antworten.
 
-**Hier werden alle Fragen geklärt die der Nutzer hat**
+*Hier werden alle Fragen geklärt die der Nutzer hat*
 
 ### 0. Einleitender offener Stimulus
-Haben Sie noch Fragen? Dann erzählen Sie mir bitte zunächst in Ihren eigenen Worten, was Sie gleich tun werden.
+Dann erzähl mir bitte in deinen eigenen Worten was du getan hast.
 
 Mögliche immanente Nachfragen bei Bedarf:
-- "Wie würden Sie das Material beschreiben?"
-- "Was können Sie über den zeitlichen und inhaltlichen Rahmen sagen?"
+- "Wie würdest du das Material beschreiben?"
+- "Was kannst du über den zeitlichen und inhaltlichen Rahmen sagen?"
 - "Wie ist das Material aufgebaut?"
-- "Verstehen sie die Struktur der context sphäre?"
+- "Verstehst du Struktur der Context Sphäre?"
+- "Hast du das Gefühl du verstehst etwas nicht mit gegeben Context?"
 
 ### I. Narrativer Einstieg
-"Lassen Sie uns über Ihre ersten Eindrücke sprechen - was ist Ihnen beim lesen der Kommentare wie auch der dazugehörigen Analyse durch den Kopf gegangen?"
+"Lass uns über deine ersten Eindrücke sprechen - was ist dir beim Lesen der Kommentare wie auch der dazugehörigen Analyse durch den Kopf gegangen?"
 
 ### II. Allgemeine Exploration der Kommentare
-- "Erzählen Sie mir von den Kommentaren, die Sie gelesen haben."
-    - "Was ist Ihnen beim Lesen der Kommentare besonders in Erinnerung geblieben?"
-    - "Wie haben Sie die Diskussionen in den Kommentaren wahrgenommen?"
-
-- Die Characktereigenschaften sollten nicht analysiert werden, Personenprofile problematisch, bringen nichts
-- Nur beobachtbares Verhalten, keine Interpretationen der Person 
+- "Erzähl mir von den Kommentaren, die du gelesen hast."
+    - "Was ist dir beim Lesen der Kommentare besonders in Erinnerung geblieben?"
+    - "Wie hast du die Diskussionen in den Kommentaren wahrgenommen?"
 
 ### III. Vertiefte Exploration der LLM-Analyse
-Offen: 
-- "Wenn Sie sich die Analysen ansehen, was fällt ihnen positiv / negativ auf?
-- "Wie bewerten Sie die Analyse wenn sie sich die Kommentare ansehen und den Output des LLMs?"
+Offen:
+- "Wenn du dir die Analysen ansiehst, was fällt dir positiv / negativ auf?
+- "Wie bewertest du die Analyse wenn du dir die Kommentare ansiehst und den Output des LLMs?"
 
 Spezifisch
-- "Wie nachvollziehbar finden Sie die Schlussfolgerungen der Analyse?"
+- "Wie nachvollziehbar findest du die Schlussfolgerungen der Analyse?"
 - "Inwiefern berücksichtigt die Analyse den Kontext der Kommentare?"
-- "Welche Aspekte des Nutzers und des dynamik wurden Ihrer Meinung nach gut/weniger gut erfasst?"
-- "Wie unterscheidet sich diese Art der Analyse von einer einfachen Kategorisierung von Emotionen? Welche Vor- und Nachteile sehen Sie?"
+- "Welche Aspekte des Nutzers und der Dynamik wurden deiner Meinung nach gut/weniger gut erfasst?"
+- "Wie unterscheidet sich diese Art der Analyse von einer einfachen Kategorisierung von Emotionen? Welche Vor- und Nachteile siehst du?"
 
 ### IV. Praktische Relevanz
-Offen: 
-- "Würden Sie für die Moderation lieber die Analyse oder die Original-Kommentare nutzen?"
+Offen:
+- "Würdest du für die Moderation lieber die Analyse oder die Original-Kommentare nutzen?"
 
 Spezifisch:
-- "Können Sie sich einen einsatz der Analyse für die Moderation von Online-Diskussionen vorstellen?"
-- "Welche Vorteile/Nachteile sehen Sie im Vergleich zu traditionellen Kategorisierungen?"
-- "Wo sehen Sie Verbesserungspotenzial für die praktische Anwendung?"
+- "Kannst du dir einen Einsatz der Analyse für die Moderation von Online-Diskussionen vorstellen?"
+- "Welche Vorteile/Nachteile siehst du im Vergleich zu traditionellen Kategorisierungen?"
+- "Wo siehst du Verbesserungspotenzial für die praktische Anwendung?"
 
 ### V. Abschließende Reflexion
 Offen:
-- "Was sind Ihrer Meinung nach die Stärken und Grenzen dieser Art der Emotionsanalyse?"
-- "Welche weiteren Anwendungsmöglichkeiten sehen Sie für diese Art der Analyse?"
-- "Was würden Sie gerne noch ergänzen?"
+- "Was sind deiner Meinung nach die Stärken und Grenzen dieser Art der Emotionsanalyse?"
+- "Welche weiteren Anwendungsmöglichkeiten siehst du für diese Art der Analyse?"
+- "Was würdest du gerne noch ergänzen?"
 
 Immanente Nachfragemöglichkeiten:
-- "Können Sie das anhand eines Beispiels verdeutlichen?"
-- "Was meinen Sie damit genau?"
-- "Wie kommen Sie zu dieser Einschätzung?"
-- "Können Sie das noch etwas ausführlicher beschreiben?"
+- "Kannst du das anhand eines Beispiels verdeutlichen?"
+- "Was meinst du damit genau?"
+- "Wie kommst du zu dieser Einschätzung?"
+- "Kannst du das noch etwas ausführlicher beschreiben?"
 
 
 ## Bei Bedarf

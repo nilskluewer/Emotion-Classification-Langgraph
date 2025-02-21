@@ -3,8 +3,9 @@
 - Raum in der Uni? Ruhiges Arbeitsumfeld oder Zoom? 
 - Person bringt rechenr mit bekommt 2 files -> Context Sphäre + Emotional Portrait of Anonymised User in HTML. Kann diese im Browser öffnen. 
 
-
-
+**Anhand von Beispielen sollen TN ihre Beobachtungen immer wieder konkretisieren!!**
+- Wenn der Eindruck ensteht es werden zu vage Interpretationen -> **zur Konkretisierung bitte anahnd von Beispielen** 
+- ggf. grobe Verständnisschwierigkeiten müssen nicht in die weiteren GEspräche mitgenommen werden
 
 ## Einleitung 
 Vielen Dank, dass Sie an dieser Studie teilnehmen. Ich untersuche einen neuen Ansatz zur Analyse von Emotionen in Online-Kommentaren. Anders als bisherige Systeme, die Kommentare in feste Kategorien wie 'wütend' oder 'traurig' einordnen, nutzen wir künstliche Intelligenz (ein Large Language Model), um Emotionen ähnlich wie Menschen im Kontext zu verstehen.
@@ -34,9 +35,6 @@ Mögliche immanente Nachfragen bei Bedarf:
 
 ---
 
-- Die Characktereigenschaften sollten nicht analysiert werden, Personenprofile problematisch, bringen nichts
-- Nur beobachtbares Verhalten, keine Interpretationen der Person 
-
 
 "Person ist sehr aufgebracht", "Auf welche ausdrücke bezieht sich deine interpreation, kannst du mir nochmal konkrete Beispiel im text zeigen"
 
@@ -57,10 +55,7 @@ Spezifisch:
 - "Welche Rolle spielen die anderen Nutzer im Forum? Beeinflussen die verschiedenen Gesprächspartner den Kommentare des analysierten Nutzers?"
 - "Gibt es bestimmte Muster oder ein verhalten das sich wiederholt?"
 
-
-
 ---
-
 
 ### IV. Vertiefte Exploration der LLM-Analyse
 Offen: 
