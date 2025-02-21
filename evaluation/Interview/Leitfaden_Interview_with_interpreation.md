@@ -4,8 +4,6 @@
 - Person bringt rechenr mit bekommt 2 files -> Context Sphäre + Emotional Portrait of Anonymised User in HTML. Kann diese im Browser öffnen. 
 
 
-
-
 ## Einleitung 
 Vielen Dank, dass Sie an dieser Studie teilnehmen. Ich untersuche einen neuen Ansatz zur Analyse von Emotionen in Online-Kommentaren. Anders als bisherige Systeme, die Kommentare in feste Kategorien wie 'wütend' oder 'traurig' einordnen, nutzen wir künstliche Intelligenz (ein Large Language Model), um Emotionen ähnlich wie Menschen im Kontext zu verstehen.
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "emotion-classification-langgraph"
+name = "src_llm_pipeline"
 version = "0.1.0"
 description = ""
 authors = ["Nils Klüwer <n_klue@protonmail.com>"]
