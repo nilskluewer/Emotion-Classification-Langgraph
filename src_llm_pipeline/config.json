@@ -3,7 +3,7 @@
     "model_name": "gemini-1.5-pro-002",
     "llm_endpoint_location": "europe-west1",
     "prompt_version" : "v17",
-    "sample_folder" : "sp1",
+    "sample_folder" : "sp2",
     "confabulation_threshold" : 2,
     "debug_api_call" : false,
     "debug_schema" : false,
