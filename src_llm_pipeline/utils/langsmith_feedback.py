@@ -23,19 +23,19 @@ def send_generation_response_feedback_to_trace(
         client.create_feedback(
             run_tree.id,
             key="prob_" + category_str,
-            score=safety_rating.probability_score,
+            score=round(safety_rating.probability_score, 4),
             comment="Score for how probable the Harm is.  0 to 1. Low to High",
             feedback_source_type="model",
         )
         client.create_feedback(
             run_tree.id,
             key="severity_" + category_str,
-            score=safety_rating.severity_score,
+            score=round(safety_rating.severity_score, 4),
             comment="Score for how severe the Harm is. 0 to 1. Low to High",
             feedback_source_type="model",
         )
 
-    client.create_feedback(run_tree.id, key="avgLogprobs", score=candidate.avg_logprobs)
+    client.create_feedback(run_tree.id, key="avgLogprobs", score=round(candidate.avg_logprobs, 4))
 
     # Feedback for Usage Metadata
     usage_metadata = response.usage_metadata

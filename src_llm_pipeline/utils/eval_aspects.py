@@ -128,7 +128,7 @@ def aspect_evaluator(step_1_classification, step_2_classification_summary, aspec
 
 
 
-@traceable(name="LLM as a Judge: Confabulation Eval", run_type="chain")
+@traceable(name="LLM-as-a-Judge: Confabulation Check", run_type="chain")
 def hallucination_confabulation_evaluator(question, answer, step_of_process, run_tree_parent_id,
                                             use_4o: bool = True,
                                             use_haiku: bool = True,

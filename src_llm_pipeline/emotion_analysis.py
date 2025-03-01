@@ -45,7 +45,7 @@ from .utils.eval_aspects import (
 
 # Load environment variables
 load_dotenv()
-client = Client()
+client = Client(api_url="https://eu.api.smith.langchain.com")
 
 # --- load variables from config.json ---
 with open("src_llm_pipeline/config.json", "r") as config_file:
@@ -169,12 +169,12 @@ def call_api(
     max_retries = 5
     initial_delay = 5  # initial delay in seconds for exponential backoff
     retry_count = 0
-
     while retry_count < max_retries:
         try:
             response = configured_llm.generate_content(
                 contents=messages, safety_settings=safety_settings, stream=False
             )
+            #print(response)
             if debug_api_call:
                 ic(response)
 
@@ -294,7 +294,6 @@ def step_1_analyse_emotions_with_structureuser(
         configured_llm=configured_llm,
         safety_settings=default_safety_settings,
     )
-
     response_message = response["choices"][3].parts[0].text
 
     # Validate result
@@ -326,7 +325,7 @@ def step_1_analyse_emotions_with_structureuser(
     return response
 
 
-@traceable(name="Step 2: Create Emotional Portrait of User", run_type="chain")
+@traceable(name="Step 2: Condense Emotional Analysis of User", run_type="chain")
 def step_2_create_report_of_analysis(
     messages: List[dict], temperature, top_p, run_tree: RunTree
 ) -> List[dict]:
