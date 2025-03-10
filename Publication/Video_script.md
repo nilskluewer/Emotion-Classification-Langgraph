@@ -1,3 +1,5 @@
+
+# 1
 ## Video Script (Markdown Format)
 
 **(0:00 - 0:20) Section 1: Introduction - The Problem with Traditional Emotion Analysis**
@@ -108,3 +110,46 @@ Thank you.
     *   **Authors:** Your Names and Affiliations
     *   **Conference:** CHI EA '25
     *   **DOI:** Your Paper's DOI (when available)
+
+
+
+# 2
+
+*   **Voiceover Script:**
+
+> "Hi everyone, I'm Nils, and I will present our Late Breaking work about implementing the theory of constructred using LLMs.
+
+SLIDE
+
+ Current emotions classification is often very simplistic at puts humans emotions into a set of discrete categories like Anger, happniess, sadness. This oversimplifies human emotion in its complexitiy and nuanced and einforces biases, such as racial profiling and stereotypes.
+
+We want to tacke this problem by providiung an LLM pipeline which can analyse emotions based on their context.
+
+We did this, by first building a context sphere -> We do this with the case of online content moderation, where we want to analyse a single user. 
+
+When we build the "context sphere" we include  all relevant informationm available of a single user.
+
+We include not only single comment of the user, but also sourounding context. This is full comment threads, metadata, article data.
+But part of this context spere is also to prune the context. Ther idea is to make it user-centric also considering the relevance of context to the user. 
+
+SKIP
+
+Then the LLM comes into play. Since we do want to use the theory of constructed emotions - who could analyse the context better, then lisa feldmann barrett herself? 
+
+So we let the LLM impersonate Lisa Feldmann Barrett, besides giving that role, the llm is also restricted by a JSON format, which restricts the output to a predefined structure.
+
+this is evaluted using an LLM-as-a-Judge approach. 4 LLMs check for confabulations / content which is misleading but confident. If confabulations are detected the pipeline will not continue any further processing.
+
+If it is successfull, the pipeline will produce output as shown in the reulsts
+
+SLIDE 
+
+ The LLM successfully analyzes emotions considering individual user contexts 
+Captures nuanced emotional dynamics, going beyond traditional categorical approaches.
+
+This work offers one approach, which shows that psychology and informatics can move forwards, analysing emotions not only with simple cateogires but considering context and nuances. 
+
+
+> "You can find more details in our paper, and please reach out to us if there are any questons!"
+
+""""

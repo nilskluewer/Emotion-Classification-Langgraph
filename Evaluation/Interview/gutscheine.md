@@ -2,4 +2,4 @@
 - Ben -> DM
 - Inga -> DM 
 - Paul -> Billa
-- Sophia ->
+- Sophia -> Thalia
