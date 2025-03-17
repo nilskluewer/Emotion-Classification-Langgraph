@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+    <mxGraphModel dx="318" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9T1SihhV3vB4AenZYV3H-81" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-1050" width="880" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-28" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Introduction&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-29" value="&lt;span style=&quot;text-align: left;&quot;&gt;Conceptual Research Framework&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-1050" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-34" value="Context Sphere" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-990" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-35" value="LLM Guidance Techniques" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-990" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-39" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Related Work&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-45" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Psychology&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-46" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Informatics&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-47" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Informatics and Psychology&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-48" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Research Contribution&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-49" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Methods&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-51" value="LLM Request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-930" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-52" value="Prompt Formating" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-930" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-53" value="Evaluation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-870" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-61" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot;&gt;&lt;font&gt;Implementation&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;align=center;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-62" value="Der Standard Dataset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-64" value="Building of Context Sphere" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-68" value="LLM API and Guidance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-69" value="Results and Discussion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1560" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-70" value="Analysis of Context Sphere" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1560" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-71" value="Semi-Structured Interview" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1560" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-72" value="LLM-as-a-Judge&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1560" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-73" value="Dicussion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1560" y="-810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-74" value="Conclusion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-75" value="Appendix" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1800" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-76" value="Limitations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-77" value="Prompts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1800" y="-990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-78" value="LLM Input" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1800" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-79" value="Interview Transcripts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1800" y="-810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-80" value="LLM Output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1800" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9T1SihhV3vB4AenZYV3H-83" value="Future Work" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;strokeWidth=3;spacingLeft=3;spacingRight=3;spacing=2;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1680" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

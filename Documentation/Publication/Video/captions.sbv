@@ -1,0 +1,98 @@
+0:00:00.520,0:00:05.760
+Hi everyone I'm Nils and I will present you our Late-Breaking work about implementing
+
+0:00:05.760,0:00:13.280
+the theory of constructed emotion utilizing large 
+language models. Current emotion classification is
+
+0:00:13.280,0:00:20.200
+often very simplistic and puts human emotions 
+into a set of discrete categories like anger
+
+0:00:20.200,0:00:27.440
+happiness or sadness it totally neglects the 
+recent advancements in cognitive and emotional
+
+0:00:27.440,0:00:35.120
+studies. We demonstrate witin a practical use case 
+in online content moderation how to use LLMs for
+
+0:00:35.120,0:00:41.720
+differentiated and context sensitive emotion 
+analysis. We start this by first building the
+
+0:00:41.720,0:00:48.120
+context sphere where we include all the relevant 
+information available of a single user. We include
+
+0:00:48.120,0:00:54.000
+not only single comments of a user but also 
+surrounding context this includes the full
+
+0:00:54.000,0:01:02.600
+comment history, threats, metadata and article data.
+But part of the context sphere is also to exclude
+
+0:01:02.600,0:01:10.960
+context which is not relevant to the user. Then 
+the large language model comes into play since
+
+0:01:10.960,0:01:18.120
+we want to use the Theory of Constructed Emotion 
+by Lisa Feldmann Barett, we ask ourselfs, who could apply
+
+0:01:18.120,0:01:26.200
+this Theory better than herself. We let 
+the LLM impersonate Lisa Feldmann Barett and
+
+0:01:26.200,0:01:33.320
+use controlled generation to guide her response. Both 
+methods are techniques to guide LLMs making
+
+0:01:33.320,0:01:42.800
+it reproducible and generalizable. The output is 
+evaluated using an LLM-as-a-Judge approach where
+
+0:01:42.800,0:01:49.560
+four different LLMs check for confabulations also 
+known as hallucinations meaning content which is
+
+0:01:49.560,0:01:57.000
+misleading but confident. If confabulations are 
+detected the pipeline will stop processing, if
+
+0:01:57.000,0:02:03.880
+it is successful the pipeline will produce an 
+output as shown in the results. We can show that
+
+0:02:03.880,0:02:12.200
+the LLM successfully analyzes emotions considering 
+individual user context, capturing nuanced emotional
+
+0:02:12.200,0:02:19.560
+dynamics going beyond traditional categorical 
+approaches. This work offers one approach which
+
+0:02:19.560,0:02:26.200
+shows that psychology and informatics can move 
+forward analyzing emotions not only with simple
+
+0:02:26.200,0:02:34.760
+categories but considering context and nuances in 
+emotions. We acknowledge that our current evaluation
+
+0:02:34.760,0:02:42.280
+using LLM-as-a-Judge approach is pragmatic but 
+lacks human validation. We also want to point out
+
+0:02:42.280,0:02:49.360
+that dynamic emotions lack a definitive ground 
+truth making it hard to Benchmark. Finally I'd
+
+0:02:49.360,0:02:54.720
+like to thank my colleagues Irina and Julia who 
+conducted this research with me, and I'd like
+
+0:02:54.720,0:03:03.120
+to thank the Christian Dobler Lab for Recommender Systems
+at TU Wien. Thank you for your attention.

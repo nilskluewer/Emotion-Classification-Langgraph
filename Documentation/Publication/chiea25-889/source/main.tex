@@ -1,0 +1,380 @@
+%%
+%% This is file `sample-sigconf-authordraft.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,proceedings,bibtex,authordraft')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf-authordraft.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as manuscript long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documen\setcopyright{none}tclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+
+
+\documentclass[sigconf]{acmart}
+
+
+\usepackage{balance}
+
+
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\copyrightyear{2025}
+\acmYear{2025}
+\setcopyright{rightsretained}
+\acmConference[CHI EA '25]{Extended Abstracts of the CHI Conference on Human Factors in Computing Systems}{April 26-May 1, 2025}{Yokohama, Japan}
+\acmBooktitle{Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25), April 26-May 1, 2025, Yokohama, Japan}\acmDOI{10.1145/3706599.3721205}
+\acmISBN{979-8-4007-1395-8/2025/04}
+%% These commands are for a PROCEEDINGS abstract or paper.
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{Context over Categories: Implementing the Theory of Constructed Emotion with LLM-Guided User Analysis}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Nils Klüwer}
+\orcid{0009-0003-2283-6263}
+\affiliation{%
+  \institution{CDL RecSys, TU Wien}
+  \city{Vienna}
+ \state{Vienna}
+  \country{Austria}
+}
+\email{e12229263@student.tuwien.ac.at}
+
+\author{Irina Nalis-Neuner}
+\affiliation{%
+  \institution{CDL RecSys, TU Wien}
+  \city{Vienna}
+  \state{Vienna}
+  \country{Austria}
+}
+\email{irina.nalis-neuner@tuwien.ac.at}
+
+
+\author{Julia Neidhardt}
+\affiliation{%
+  \institution{CDL RecSys, TU Wien}
+  \city{Vienna}
+  \state{Vienna}
+  \country{Austria}
+}
+\email{julia.neidhardt@tuwien.ac.at} 
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Klüwer, Nalis, Neidhardt}
+
+
+\begin{abstract}
+Emotion analysis is a critical research area with applications in content moderation and personalized systems. Many existing approaches rely on Ekman’s universal emotions theory, which reduces emotions to static categories, neglecting their complexity and contextual variability. This work introduces a novel, context-aware approach based on Lisa Feldman Barrett’s Theory of Constructed Emotion. A key contribution is the development of the ``context sphere,'' a personalized construct derived from user behavior data. To our knowledge, this is the first operationalization for computational methods.  A context-aware emotion analysis pipeline was developed, incorporating advanced Large Language Model (LLM) prompting strategies like role-play and controlled generation. A case study in content moderation demonstrates how the ``context sphere'' enables contextually aware emotion analyses. Future directions include refining the framework, advancing LLM methodologies, and conducting user studies. This research lays the foundation for more human-centered, ethical, and effective emotion analysis systems.
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10010147.10010178.10010179.10010182</concept_id>
+<concept_desc>Computing methodologies~Natural language generation</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10003120.10003121.10003126</concept_id>
+<concept_desc>Human-centered computing~HCI theory, concepts and models</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[300]{Computing methodologies~Natural language generation}
+\ccsdesc[500]{Human-centered computing~HCI theory, concepts and models}
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Human-Computer Interaction, Emotion Analysis, Large Language Models (LLMs), Context Aware Computing, Online Content Moderation}
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+%\received{20 February 2007}
+%\received[revised]{12 March 2009}
+%\received[accepted]{5 June 2009}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+Emotion analysis has become an increasingly significant area of research, with applications spanning sentiment analysis, content moderation, and human-centered adaptation. Despite its prevalence, much of the existing work in this domain continues to rely on traditional models, such as Paul Ekman's theory of universal emotions \citep{ekman_constants_1971, alswaidan_survey_2020}. This framework, while widely adopted, simplifies the complexity of human emotion into a set of discrete categories. Its simplicity has also shaped recent work in informatics, where emotion analysis often relies on predefined categories, particularly in natural language processing (NLP) applications such as social media analysis. These approaches frequently focus on individual words, sentences, and basic sentiments \citep{barbieri_tweeteval_2020, yadollahi_current_2017}. Moreover, resources like the NRC Word-Emotion Association Lexicon exemplify this trend by relying on fixed emotion labels to associate textual data with emotions \citep{mohammad_crowdsourcing_2013, alswaidan_survey_2020}. However, such methods, rooted in Ekman's framework, are inherently limited in their ability to account for the nuanced and context-dependent nature of human emotions. These oversimplifications fail to capture the complexities of emotional expression and perception \citep{nalis_not_2023}. For instance, as Kate Crawford highlights in \textit{Atlas of AI} \citep{crawford_atlas_2021}, such simplifications pose significant societal and ethical risks. Overreliance on rigid models, like Ekman’s, can reinforce biases, such as racial profiling and stereotypes, by reducing human emotions to fixed categories and predefined responses. A more nuanced approach is essential to avoid these pitfalls and to reflect the breadth, diversity, and complexity of emotional expression. Addressing these concerns is critical for ensuring that advancements in emotion analysis technologies are not only accurate but also equitable and ethically sound.
+
+The work by highly influential cognitive scientist Lisa Feldman Barrett offers a state-of-the-art alternative, arguing that emotions are not innate and universally recognized but are constructed through individual experiences and contextual factors \citep{barrett_how_2017, barrett_context_2022, barrett_context_2011}. Barrett's Theory of Constructed Emotion contrasts with Paul Ekman's concept of universal emotions by challenging reducing emotions to simplistic abstractions. Instead, it recognizes the inherently complex and constructed nature of emotional experiences. Although informatics often build upon simplified abstractions using machine learning models and other classifiers, the advancements in Large Language Models (LLMs) offer a significant opportunity to revisit this paradigm. This highlights a research gap: How can we leverage the capabilities of LLMs to move beyond a typological view of emotions and incorporate their complex, constructed nature into an information system? %Research Gap - Warum ist das wichtig?
+
+This Late-Breaking Work addresses this research gap by introducing a novel, context-aware approach using advanced LLM guidance techniques to operationalize Barrett's Theory of Constructed Emotion. A key contribution is the development of the ``context sphere,'' a personalized construct derived from user behavior data, designed to capture the rich context of online interactions. The ``context sphere'' is defined as a comprehensive collection of user-generated data, including comments, related articles, and interaction history, formatted to provide a holistic view of a user's online behavior within a specific timeframe and platform. Our approach involves a conceptual research framework (Figure \ref{fig:pipeline}) outlining methodological considerations and limitations, developed using the Design Science Research framework \citep{hevner_design_2004, hevner_three_2007}. We demonstrate its potential for nuanced emotion understanding in online content moderation, a domain requiring analysis of large data volumes, often making it infeasible for humans to read and conduct a condensed and nuanced user analysis. To achieve this, we employ state-of-the-art LLM guidance techniques: role-play prompting \citep{kong_better_2024, herbold_large_2024}, controlled generation \citep{google_controlled_2024}, and meta-prompting \citep{zhang_meta_2024}. Evaluation currently utilizes an LLM-as-judge approach \citep{zheng_judging_2023,li_generation_2025}; future work will integrate a user study including human judgment for more comprehensive validation.
+\raggedbottom
+\paragraph{Contributions} This Late-Breaking Work submission makes the following contributions to the field of human-computer interaction with a focus on advancing emotion analysis:
+
+\begin{itemize}
+    \item \textbf{Novel Methodological Framework:} 
+    A context-aware emotion analysis framework that integrates advanced LLM guidance techniques to operationalize emotions in a nuanced and dynamic way.
+    
+    \item \textbf{Innovation in Emotion Modeling:} 
+    Introduction of the ``context sphere'' as a data-driven construct for modeling emotions in real-world applications, such as online content moderation.
+    
+    \item \textbf{Application Potential:} 
+    Demonstrates how LLMs can be adapted for context-sensitive emotion analysis in challenging domains, addressing both technical and practical limitations of existing methods.
+    
+    \item \textbf{Provocation for Future Work:} 
+    Offers a foundation for further exploration of context-aware computational methods and their alignment with complex emotional phenomena, sparking novel research conversations within HCI.
+\end{itemize}
+
+These contributions collectively advance the state of the art in emotion analysis by bridging the gap between cognitive science and computational systems, enabling more nuanced, context-aware applications in areas such as sentiment analysis, personalization, and content moderation.
+
+\section{Related Work}
+Recent emotion classification in informatics heavily relies on Ekman's universal emotions theory, categorizing emotions into basic, universally recognized types \citep{ekman_constants_1971, alswaidan_survey_2020} which was originally developed over 50 years ago. Its simplicity seems to still appeal to researchers, influencing algorithm development and in NLP, especially in social media analyses \citep{barbieri_tweeteval_2020, yadollahi_current_2017}.  Supervised learning approaches using labeled datasets prefer simplified classifications, limiting recognition of implicit emotions and expression complexities \citep{aman_identifying_2007, strapparava_semeval-2007_2007, alswaidan_survey_2020}. Lexicons like the NRC Word-Emotion Association Lexicon map words to basic emotion classifications \citep{mohammad_crowdsourcing_2013}, reflecting a simplified, categorical approach to emotion representation \citep{alswaidan_survey_2020}. Critiques highlight this approach's oversimplification, overlooking the nuanced, constructed nature of emotions emphasized by Lisa Feldman Barrett \citep{barrett_how_2017, barrett_context_2022}. Barrett argues that emotions are contextually constructed and influenced by individual and cultural differences. Studies demonstrate cultural variability in emotion perception \citep{gendron_cultural_2014} and language's influence on emotion \citep{barrett_language_2007}, challenging Ekman's theory on the universal emotion theory. 
+
+Moreover, there are calls to bridge the gap between the advancements in cognitive science and emotion analysis to better capture the complex nature of emotions \citep{nalis_not_2023}. Current emotion recognition practices often rely on rule-based and learning-based approaches focusing on Ekman's categories \citep{alswaidan_survey_2020}. More recently, deep learning models have introduced complexity. Nevertheless, they classify emotions into discrete categories \citep{alswaidan_survey_2020}. Hybrid approaches integrating multimodal data offer insights into addressing these challenges \citep{poria_beneath_2023}. Advancements in contextualized language models like BERT improve emotion recognition by capturing nuanced expressions \citep{devlin_bert_2019}, yet do not fully embrace Barrett's model accounting for variability and contextuality in emotions \citep{lindquist_constructing_2008}. Recognizing these limitations underscores the need to integrate flexible, context-sensitive models into emotion recognition systems \citep{alswaidan_survey_2020}.
+
+\section{Methodology}
+%Action Title
+The primary research outcome is the creation of a context-aware emotion analysis pipeline using Large Language Models (LLMs). This work consists of three parts:  the preprocessing in building the ``context sphere'', the LLM-Pipeline, and the evaluation of the intermediate steps.
+
+\begin{figure*}[ht]
+  \centering
+  \includegraphics[scale=0.64]{pipeline_horizontal.pdf}
+  \caption{Pipeline from Preprocessing to Final Output - Please note: User Study not part of this Late-Breaking Work Submission.}
+  \Description{Pipeline from Preprocessing to Final Output, which starts with using Role-Play Prompting and the Response Schema for the first LLM Request using Gemini-1.5-Pro. This first LLM Output is then inserted into a second request using a new Task Prompt and a Meta Prompt Example. This Final LLM Output presents the Condensed User Analysis in Markdown. The first and second LLM requests are both checked for Confabulation using LLM as a Judge Evaluation. The full pipeline is evaluated through a User Study. Please note: User Study not part of this Late-Breaking Work Submission.}
+  \label{fig:pipeline}
+\end{figure*}
+
+\subsection{Context Sphere Building}
+
+
+The preprocessing is the starting point of the conceptual research framework seen in Figure \ref{fig:pipeline}, crucial for transforming raw data into a usable format for subsequent LLM usage. Our data originates from ``Der Standard'', the online portal of a national newspaper, and focuses specifically on the comment sections and related articles. The dataset contains publication details, comment content, and related articles over a 30-day period involving 23,925 users in May 2019.
+The primary goal is to create a document that encapsulates essential situational context for each user. The term ``context sphere'' is chosen to reflect the core of Lisa Barrett's theory that emotions arise from a complex interplay of varied and interrelated experiences and contexts \citep{barrett_context_2022}. Much like a sphere uniformly encloses space in three dimensions, our ``context sphere'' gathers data to view a user’s interactions from multiple angles, allowing for nuanced emotional interpretations influenced by various contextual layers. In this concrete case, this involves including all comments a user has made in May 2019, along with the surrounding context. This context comprises article metadata, a description of the ``context sphere'', and interactions between the user and others. When a user replies to a conversation, the entire thread, including comments from other participants, is added into the context sphere up to a designated cutoff point. This cutoff point is a condition that becomes true if a comment from the analyzed user is the last comment inside a comment thread. This means that the user can engage in an extended discussion, and every participating comment — whether from the analyzed user or others — will be included in the ``context sphere''.  The cutoff point is used, since the analysis should focus on the user's context, capturing every interaction up to their last known comment. This approach not only reduces the overall length of the conversation being analyzed but also centers the analysis on the user's perspective. The resulting document termed the ``context sphere'', includes the user's contributions and the surrounding context, such as the fact that it originates from a national online newspaper, the time frame, and other supplemental information. This differs significantly from many traditional methods in informatics and psychology that rely on keyword or single sentences  \citep{moreo_lexicon-based_2012, mohammad_crowdsourcing_2013, alswaidan_survey_2020}, which often overlook the crucial role of context emphasized by Barrett \citep{barrett_context_2011, barrett_context_2022, barrett_how_2017}. \
+
+To maintain privacy and reduce biases linked to gender stereotypes, personal identifiers like usernames and gender are excluded from the context sphere. In line with Barrett's emphasis on context, our ``context sphere'' captures complete interaction footprints within discussions. A key decision in the methodology was to apply a selective pruning process with the cutoff point rather than including entire threads with potentially hundreds of comments and sub-threads. By balancing the need for comprehensive contextual data with practical considerations of data efficiency and system limitations, we ensure that the analysis remains both robust and manageable, allowing for meaningful insights without overwhelming the system or compromising user privacy.
+
+The chosen format of the context sphere is Markdown, prioritizing readability for both humans and LLMs while maintaining the thread structure of conversations and minimizing token use. Although XML and JSON are commonly recommended for structuring prompts \citep{openai_openai_2024, he_does_2024, google_structure_2025}, they come with drawbacks in this scenario. XML, while useful for distinct data blocks, adds redundant tags in repetitive structures like comment threads, leading to inefficiency in token usage. JSON lacks easy readability, which is essential for development but is also considered a valid choice. Markdown is selected as it fulfills our requirements by balancing clarity and efficiency, facilitating easier navigation for both human evaluators and LLMs during analysis.
+
+\subsection{LLM Guidance}
+This research introduces a novel approach combining the Theory of Constructed Emotion with advanced LLM guidance techniques. A core challenge is classifying online user behavior using Barrett's theory, specifically avoiding predefined emotion categories and fixed identifiers \citep{barrett_context_2022, barrett_navigating_2021, barrett_theory_2017}. Recognizing the variability of emotional expression, our system analyses the context and uses its exceptional language capabilities to describe the human emotional landscape, distinguishing it from traditional methods using predefined categories \citep{alswaidan_survey_2020,yadollahi_current_2017}. This constructionist view informs our preprocessing and the LLM pipeline (Figure \ref{fig:pipeline}), where the LLM, in the role of Barrett, performs the user analysis. Key advancements are enabled by the rapid development of LLM with the increased size of context windows, enhanced reasoning capabilities, sophisticated role-play prompting, and controlled output generation \citep{google_long_2025,google_our_2024, google_controlled_2024, openai_structured_2024}.
+
+Both constructed emotions and LLM outputs are inherently probabilistic and context-dependent, contrasting with fixed views of emotions and deterministic LLMs. This shared probabilistic nature presents a research challenge due to non-deterministic outcomes and the absence of definitive ground truth, aligning with the ``population thinking'' of the Theory of Constructed Emotion. This paper presents an approach to this challenge, using only some of the possible techniques in preprocessing and LLM guidance.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[scale=0.55]{role_play_prompting.pdf}
+  \caption{Role-Play Prompting according to the example from \&
+    \citeauthor{kong_better_2024} \citep{kong_better_2024}.}
+  \Description{Multi-turn interaction to immerse an LLM into the Role of Barrett using Role-Play Prompting. Where the first message is the Role-Setting Prompt: ``You are Dr. Lisa Feldman Barrett, an expert in emotion analysis using your theory of constructed emotions. Your task is to … [role setting]''. The second message is the Role-Feedback Prompt: ``Understood. As Dr. Barrett, I will diligently analyze the provided text with a commitment to excellence. I will … [anchoring the role]''. The third message is the Instruction Prompt, containing the actual task and ``context sphere'': ``Please analyze the following ... [Instruction] ```{context sphere}```''. These three messages as a sequence are the Role-Play Prompt.}
+  \label{fig:role-play-prompting}
+\end{figure}
+
+The system utilizes a context sphere (Markdown) within a role-play prompt, which lets the LLM impersonate Barrett (Figure \ref{fig:role-play-prompting}), a technique shown to enhance reasoning \citep{kong_better_2024} and shown to be feasible \citep{herbold_large_2024}. Before the API request to Gemini-1.5 Pro (LLM), a JSON schema enforces controlled generation, defining a multi-class structure with five main fields. The (1) ``Core Affect Analysis'' field, aligning with Barrett's suggestions \citep[p.30]{barrett_solving_2006}, includes valence (good/bad) and arousal (activated/deactivated) as sub-fields. (2) ``Cognitive Appraisal and Conceptualization'' reflects Barrett's view on the role of cognition and past experiences \citep[p.21]{barrett_solving_2006}. The (3) ``Cultural and Social Context'' field recognizes that cultures transmit emotional meanings \citep[p.910]{barrett_context_2022} and social contexts influence emotions \citep[p.909]{barrett_context_2022}, drawing on the constructionist perspective of emotions shaped by experience, context, culture, and language \citep{russell_core_2003, barrett_context_2022, barrett_solving_2006}. The (4) ``Emotion Construction Analysis'' field forces the LLM to combine the factors from the previous three fields, following a chain-of-thought approach \citep{wei_chain--thought_2022} and using the autoregressiveness of LLM. Finally, the field (5) ``Emotional Dynamics and Changes'' captures the dynamic nature of emotions, contrasting with static views, and leverages the context sphere and the already generated part of the response to describe emotional dynamics without fixed entities. Each of these five main fields contains the sub-fields: (a) ``Thought Process,'' detailing the LLM's reasoning; (b) ``Analysis,'' presenting the classification; (c) ``Observable Patterns''; (d) ``Observable Anomalous Behavior''; and (e) ``Rationale,'' guiding the LLM through the generation of the response. This type of guidance contributes to further immersing the LLM in its role. The only exception is (1), where instead of (b) ``Analysis'' fields for ``Arousal'' and ``Valence'' are inserted.
+The full LLM request consists of a role-setting prompt, role-feedback prompt, the user task prompt with the ``context sphere'', and the outlined response schema consisting of main classes (1-5) and sub-fields (a-e). To enhance readability and provide a usable document describing the analyzed user, the output of the first LLM request, is inserted into a second request with a meta-prompt \citep{zhang_meta_2024}. This meta prompt instructs the model to generate a condensed Markdown report, which contains the major insights, providing a compromise that is in its length readable but still provides nuanced insights into a user online landscape. This two-step process yields a structured analysis for evaluation and a human-readable report.
+
+\subsection{Evaluation}
+    Evaluating the LLM pipeline presents significant challenges due to the combination of the Theory of Constructed Emotion and the large volume of processed text. As depicted in Figure \ref{fig:pipeline}, an initial evaluation occurs after the first LLM request, serving as a crucial point for iterative improvements to prompts and outputs. This evaluation leverages LLMs as judges, a methodology supported by research demonstrating strong agreement between LLM and human evaluation \citep{zheng_judging_2023, chiang_chatbot_2024}.  This approach is necessary due to the substantial size of preprocessed ``context spheres'' ranging from 100 up to 100,000 tokens. The efficiency of LLM-as-judges allows for the thorough processing of this volume of text, a capability infeasible for human evaluators within similar time constraints.  Furthermore, employing LLMs for continuous feedback is a common practice in LLM pipeline development, enabling the rapid identification of potential errors and areas for refinement. This immediate feedback loop allows for rapid iterative development. A specific focus of this evaluation is the detection of confabulations commonly known as hallucinations – confident yet misleading outputs \citep{berberette_redefining_2024} – which this method is designed to mitigate. Our approach involves confabulation checks by GPT-4o, Claude 3.5 Haiku/Sonnet, and Gemini 1.5 Flash. All models receive the same task, which is the check for confabulation in the output, based on the provided input. The prompt used is inspired by \citeauthor{zheng_judging_2023}, and enriched the redefined term of ``confabulation''  \citep{berberette_redefining_2024}. While numerous hallucination evaluation methods exist, many require a ground truth that we do not have \citep{ji_survey_2023, fu_gptscore_2024, lin_rouge_2004}, making our chosen method a pragmatic solution for our specific case. While LLMs are used as judges for evaluation in this case, further research into the robustness and general applicability of these methods is needed. The user study results will form part of the mature study and future publications.
+    
+    \section{Results and Analysis}
+    The primary goal of this research is to introduce a novel approach to emotion analysis by operationalizing the Theory of Constructed Emotion, representing a significant departure from traditional emotion classification methods commonly used in psychology and informatics. A key limitation lies in the absence of a definitive ground truth for emotions, as emotions are individually constructed and context-dependent \citep{barrett_context_2022, barrett_navigating_2021}. Consequently, external emotion analysis, including this approach, inherently involves some level of abstraction and approximation. This challenge also applies to LLMs, which rely on self-attention mechanisms to abstract and weight contextual relationships rather than storing exact information \citep{vaswani_attention_2023}. Similar to the way the brain constructs emotions, LLM outputs are inherently predictive, requiring careful interpretation to ensure accurate and meaningful insights.
+\\
+  \raggedbottom  
+In Table \ref{tab:llm_output_example}, we present five example snippets from the JSON output of an LLM request, corresponding to the user analysis pipeline depicted in Figure \ref{fig:pipeline}. The table's structure aligns with the JSON data fields (1-5) and sub-fields (a-e) detailed in the LLM Guidance section. For each main field (column one), we provide a representative example from a corresponding sub-field (column two). This particular LLM call, which generated the full JSON output and from which these examples are drawn, processed 21,671 tokens, incurred a cost of approximately \$0.035, and completed in 60.50 seconds. To contextualize this efficient processing, reading the full input and output would take an average reader approximately 63 minutes according to estimations \citep{brysbaert_how_2019}, highlighting the potential for significant time savings. This efficiency, combined with the low per-user cost, underscores the scalability of our approach for analyzing large datasets. Running the complete pipeline, encompassing both the initial JSON analysis and the subsequent generation of the condensed Markdown user report (Requests 1 and 2 in Figure \ref{fig:pipeline}), costs around \$0.072. Furthermore, our confabulation checks, employing GPT-4o, Claude 3.5 Haiku/Sonnet, and Gemini 1.5 Flash, involved a total of eight LLM calls (four for the JSON output and four for the Markdown report), with a combined cost of approximately \$0.39 (\$0.18 for the first check and \$0.21 for the second). Therefore, the entire automated analysis pipeline, including comprehensive confabulation checks, costing a total of \$0.462, remains remarkably cost-effective and is expected to lower as the price per token decreases. Notably, the evaluation component constitutes 84\% of the total cost, showing that evaluation is a major cost driver and component to consider when building such a system.
+    
+    The \textit{first example} shows the \textit{Arousal} subfield from the \textit{Core Affect Analysis}, which gives insights about the emotional intensity but is even more specific about the complex emotional states and their interplay. The \textit{second example}, from \textit{Cognitive Appraisal \& Conceptualization}, highlights the LLM's capability of analyzing the user's interpretive lens, identifying a pattern of skepticism and cynicism, particularly towards differing political viewpoints. This aligns with Barrett's theory by considering the cognitive processes influencing emotional expression. The \textit{third example} in the \textit{Cultural \& Social Context} field demonstrates the LLM's initial \textit{Thought Process}, which contextualizes the user's expressions within the specific platform (``Der Standard''), the Austrian political climate during the data collection period, and the topics discussed. This suggests that the LLM obeys its role and considers the surrounding environment and context, which shapes the user's emotional construction. 
+    
+    In \textit{Emotion Construction Analysis}, the \textit{Rationale} example shows how the LLM synthesizes previous observations, explaining how pre-existing beliefs and the online forum context amplify negative emotional responses. It also acknowledges deviations from this pattern, hinting at the dynamic nature of emotions. 
+    
+    Finally, the \textit{Emotional Dynamics \& Changes} example points out an \textit{Anomalous Observation}, where a positive comment deviates from the user's usual rather negative pattern. This highlights the potential for capturing shifts in emotional state over time and within different contexts, showcasing the fluidity of emotions.
+    
+    
+    \begin{table*}
+      \caption{Examples output from first LLM request}
+      \label{tab:llm_output_example}
+      \begin{tabular}{p{3cm} p{2cm} p{8cm}}
+      \toprule
+        Field & Sub-Field & Output \\
+        \midrule
+        Core Affect Analysis & Arousal & Generally high, fluctuating between agitated and calmly contemptuous. [...] \\
+        Cognitive Appraisal \& Conceptualization & Analysis & [...] The user's interpretations are often filtered through a lens of skepticism and cynicism, particularly towards opposing political views. [...]\\
+        Cultural \& Social \newline Context & Thought \newline Process & I will examine the cultural and social context by considering the platform (``Der Standard''), the political climate of Austria in May 2019 (pre-election period), and the specific topics discussed (immigration, politics, media). [...]\\
+        Emotion Construction Analysis& Rationale & [...] Their negative emotional responses are often amplified by their pre-existing beliefs and the context of the online forum. The occasional deviations from this pattern [...]\\
+        Emotional Dynamics \& Changes& Anomalous \newline Observations & The user's positive comment about Fendrich deviates from their usual negative pattern, suggesting a momentary shift in emotional state. [...]\\
+      \bottomrule
+    \end{tabular}
+    \end{table*}
+    
+    The examples show a practical implementation of a complex psychological concept, the Theory of Constructed Emotion. The output shows that the model is aware of its role, task, and context in which it should work. The proposed approach shows an alternative way of understanding a person's online behavior. Moreover, the output does not rely on simplified or predefined classification labels but makes use of the reasoning and parametric knowledge of the LLM. This work addresses the critique on typological emotion concepts and shows an alternative possible way to analyze emotions.
+    
+    % -> https://academic.oup.com/iwc/pages/methods-in-human-computer-interaction-research-and-practice-challenges-and-innovations perosnen die hier den call machen, schauen ob die etwas in ihren papern dazu geschrieben haben.
+    % UMAP user model and personalisation -> /vtl. Irina nochmal ergänzen
+  
+    \subsection{Discussion}
+    \paragraph{Conclusion}
+This work advances the state of the art in emotion analysis by bridging the gap between cognitive science and computational systems, paving the way for more nuanced, context-aware applications in areas such as sentiment analysis, personalization, and content moderation. By operationalizing Barrett's Theory of Constructed Emotion through the ``context sphere'' and employing advanced LLM guidance techniques like role-play prompting and controlled generation, this study demonstrates how dynamic and detailed emotion insights can be achieved. As a Late-Breaking Work submission, this study also highlights avenues for future exploration. These include refining the proposed framework, addressing its inherent challenges, and conducting planned user studies to validate and extend its practical applicability. 
+
+The advancements presented in this submission have significant implications for the development of more accurate and effective human-centered technologies. By operationalizing Barrett's Theory of Constructed Emotions through an LLM-based approach, this work captures the complexity and context of human emotions far more effectively than models rooted in Ekman’s assumptions of universal emotions. The improvements will be found in reduced false positives and deeper contextual understanding, which represent a critical step forward. To illustrate, in content moderation, this approach will help to avoid the oversimplified analysis of isolated words or small text chunks, which today can lead to unjustified actions, such as blocking users based on stylistic expressions. Instead, it will allow for a nuanced interpretation of user behavior, resulting in consequences that are better grounded, less biased, and more sensitive to context. These contributions address the ethical risks highlighted by Kate Crawford \citep{crawford_atlas_2021}, including the dangers of racial profiling and algorithmic bias stemming from oversimplified models of emotion. Furthermore, this work aligns with responsible AI initiatives, such as Digital Humanism \citep{werthner_digital_2024}, which emphasize the importance of ethical, human-centered approaches in technology design. By advancing the translation of complex psychological theories into applied computational frameworks, this research lays the foundation for future work on adaptive, transparent, and context-aware systems that respect the diversity and complexity of human emotional experiences.
+\raggedbottom
+\paragraph{Limitations and Future Work}
+This work acknowledges limitations inherent in operationalizing the Theory of Constructed Emotion with current LLMs. Firstly, the dynamic and individually constructed nature of emotions, as defined by Barrett, poses a challenge for evaluation. Standard accuracy metrics are difficult to apply due to the lack of a definitive ``ground truth'' for emotions and the novelty of computational applications of this theory. Our current evaluation relies on an LLM-as-judge approach, which, while pragmatic for initial assessment, lacks human validation and introduces potential biases inherent in LLMs themselves. Secondly, translating Barrett's framework into a practical system required iterative design to balance the theory's inherent flexibility with the need for structured computational methods. The ``context sphere'' is a design choice to capture user context while managing complexity, but achieving consistent and nuanced emotion analysis across diverse users and contexts remains an ongoing challenge.
+
+Future work will address the evaluation limitations through user studies to validate the LLM-generated analyses. This will involve human evaluation of the nuanced emotion analysis provided by our system, comparing them to human interpretation of the same user data. We will also explore how comparative benchmarking against traditional emotion analysis methods can be applied. This could include lexicon-based approaches and classifiers based on Ekman's categories to quantify the benefits of our context-aware approach. Furthermore, future evaluation will move beyond simple accuracy metrics, focusing on more nuanced criteria that reflect the dynamic and context-sensitive nature of emotions, and potentially incorporating qualitative analysis of both LLM outputs and human feedback.
+
+Scalability to large datasets and handling potential failure modes are also critical areas for future development. While the ``context sphere'' approach aims for efficiency, processing very large volumes of user data extending 1.000.000 tokens in size, will require optimization strategies. Furthermore, our evaluation will extend beyond confabulation checks to also address the potential for either too high granularity or overgeneralization. We will assess whether the LLM, in its attempt to capture nuance, might inadvertently dilute the analysis to the point where the outputs become too vague or lack actionable insights and depth. Future mitigation strategies will focus on refining prompts and controlled generation techniques to maintain a balance between nuance and analytical clarity.
+
+%\section{Acknowledgments}
+\begin{acks}
+ The financial support from the Austrian Federal Ministry of Labour and Economy, the National Foundation for Research, Technology and Development, and the Christian Doppler Research Association is gratefully acknowledged. 
+  We also appreciate Der Standard’s generosity in sharing their data with us.
+\end{acks}
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+% \begin{acks}
+% To Robert, for the bagels and explaining CMYK and color spaces.
+% \end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+
+\balance
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+%%\appendix
+
+% \section{Research Methods}
+
+% \subsection{Part One}
+
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+% malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
+% sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
+% vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
+% lacinia dolor. Integer ultricies commodo sem nec semper.
+
+% \subsection{Part Two}
+
+% Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
+% ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
+% ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
+% eros. Vivamus non purus placerat, scelerisque diam eu, cursus
+% ante. Etiam aliquam tortor auctor efficitur mattis.
+
+% \section{Online Resources}
+
+% Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
+% pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
+% enim maximus. Vestibulum gravida massa ut felis suscipit
+% congue. Quisque mattis elit a risus ultrices commodo venenatis eget
+% dui. Etiam sagittis eleifend elementum.
+
+% Nam interdum magna at lectus dignissim, ac dignissim lorem
+% rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
+% massa et mattis lacinia.
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf-authordraft.tex'.

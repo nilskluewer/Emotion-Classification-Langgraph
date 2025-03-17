@@ -1,0 +1,1126 @@
+WEBVTT
+
+1
+00:00:03.210 --> 00:00:03.920
+Inga Bosch: Danke.
+
+2
+00:00:03.920 --> 00:00:09.540
+Klüwer, Nils: Okay. Hallo, Herzlich willkommen zu diesem Interview. Vielen Dank für Deine Teilnahme.
+
+3
+00:00:09.650 --> 00:00:13.860
+Klüwer, Nils: Im Rahmen meiner Masterarbeit möchte ich dich interviewen und
+
+4
+00:00:14.090 --> 00:00:25.489
+Klüwer, Nils: im Zwecke dessen wird das Interview aufgezeichnet und im vorhin von einem Sprachmodell transkribiert. Deine Daten werden anonymisiert und vertraulich behandelt und nur für Forschungszwecke
+
+5
+00:00:25.750 --> 00:00:30.110
+Klüwer, Nils: im Rahmen der Masterfes verwendet. Bist du damit einverstanden.
+
+6
+00:00:30.340 --> 00:00:30.970
+Inga Bosch: Ja.
+
+7
+00:00:31.580 --> 00:00:36.000
+Klüwer, Nils: Okay, dann fangen wir mal mit den Basics an. Wie alt bist du.
+
+8
+00:00:36.640 --> 00:00:38.639
+Inga Bosch: Ich bin 27 Jahre alt.
+
+9
+00:00:39.090 --> 00:00:43.729
+Klüwer, Nils: Okay, und was ist dein höchster Bildungsgrad oder abgeschlossene Ausbildung?
+
+10
+00:00:43.730 --> 00:00:45.330
+Inga Bosch: Masterabschluss.
+
+11
+00:00:46.080 --> 00:00:46.790
+Klüwer, Nils: In.
+
+12
+00:00:47.120 --> 00:00:48.380
+Inga Bosch: Psychologie.
+
+13
+00:00:48.780 --> 00:00:52.169
+Klüwer, Nils: Okay? und sprichst du die beiden Sprachen Englisch und Deutsch.
+
+14
+00:00:52.370 --> 00:00:53.040
+Inga Bosch: Ja.
+
+15
+00:00:53.830 --> 00:00:57.029
+Klüwer, Nils: Okay. und Deutsch als Muttersprache und Englisch als Zweitsprache.
+
+16
+00:00:57.030 --> 00:00:57.870
+Inga Bosch: Genau.
+
+17
+00:00:58.340 --> 00:00:59.319
+Klüwer, Nils: Okay, super
+
+18
+00:01:01.320 --> 00:01:03.260
+Klüwer, Nils: also dieses Interview untersucht
+
+19
+00:01:03.380 --> 00:01:08.749
+Klüwer, Nils: Also, ich untersuche in der Master hieß es einen neuen Ansatz.
+
+20
+00:01:09.140 --> 00:01:12.159
+Klüwer, Nils: wo Emotionen in Online-kommentaren analysiert werden.
+
+21
+00:01:12.390 --> 00:01:15.370
+Klüwer, Nils: und anders als bisherige Systeme werden die
+
+22
+00:01:15.540 --> 00:01:19.519
+Klüwer, Nils: Kommentare nicht in feste Kategorien, wie zum Beispiel Wütend traurig.
+
+23
+00:01:19.760 --> 00:01:30.120
+Klüwer, Nils: positiv, negativ, also einfache Kategorien genutzt, sondern wir nutzen ein Lut Language-modell, um die Emotionen im Kontext zu Verstehen und auch
+
+24
+00:01:30.340 --> 00:01:32.120
+Klüwer, Nils: zu analysieren.
+
+25
+00:01:32.990 --> 00:01:39.160
+Klüwer, Nils: und du hast jetzt 2 Dokumente vor dir. Das eine ist eine Sammlung von online Kommentaren
+
+26
+00:01:39.260 --> 00:01:42.680
+Klüwer, Nils: einer anonymisierten Person. Das ist die Kontextsphäre.
+
+27
+00:01:42.990 --> 00:01:47.299
+Klüwer, Nils: Das zweite ist ein Analysebericht, von dieser Person.
+
+28
+00:01:47.670 --> 00:01:50.180
+Klüwer, Nils: was durch ein Ki-system erstellt wurde.
+
+29
+00:01:50.780 --> 00:01:51.940
+Klüwer, Nils: und
+
+30
+00:01:52.960 --> 00:01:56.420
+Klüwer, Nils: im Folgenden wird der Analyse. Zielnutzer
+
+31
+00:01:57.100 --> 00:01:59.279
+Klüwer, Nils: ist quasi das Subjekt der Analyse.
+
+32
+00:02:01.370 --> 00:02:05.709
+Klüwer, Nils: das wirst du im Report finden, aber also in der Analyse finden. Aber auch in dieser Kontextsphäre
+
+33
+00:02:05.920 --> 00:02:08.820
+Klüwer, Nils: nur als Hinweis. In der Kontextsphäre
+
+34
+00:02:09.120 --> 00:02:13.109
+Klüwer, Nils: wird am Anfang beschrieben, was eben in der Kontextreme drin ist und was nicht.
+
+35
+00:02:13.330 --> 00:02:20.100
+Klüwer, Nils: Du Hast aber jederzeit die Option, mich einfach zu fragen, Wenn es Halt Verständnisprobleme gibt, zum Beispiel über die Struktur.
+
+36
+00:02:20.490 --> 00:02:22.950
+Klüwer, Nils: wie etwas Bestimmtes zu verstehen ist
+
+37
+00:02:23.500 --> 00:02:26.779
+Klüwer, Nils: usw. Also, du kannst alles fragen
+
+38
+00:02:26.900 --> 00:02:32.410
+Klüwer, Nils: und andere User sind als User X, also User, mit Nummer gekennzeichnet.
+
+39
+00:02:32.630 --> 00:02:33.260
+Inga Bosch: Okay.
+
+40
+00:02:33.260 --> 00:02:38.590
+Klüwer, Nils: und in dem Fall zum Beispiel taucht der Analyse C. Nutzer nicht jetzt direkt am Anfang auf, wie du vielleicht siehst.
+
+41
+00:02:38.590 --> 00:02:39.140
+Inga Bosch: und.
+
+42
+00:02:39.140 --> 00:02:44.470
+Klüwer, Nils: Zielnutzer
+
+43
+00:02:44.950 --> 00:02:48.350
+Klüwer, Nils: und deine Aufgabe ist es jetzt, die beiden Dokumente zu lesen.
+
+44
+00:02:48.950 --> 00:02:52.540
+Klüwer, Nils: und danach werde ich dir ein paar Fragen dazu stellen.
+
+45
+00:02:52.730 --> 00:02:54.830
+Klüwer, Nils: und es geht einfach darum.
+
+46
+00:02:55.210 --> 00:03:04.950
+Klüwer, Nils: dass du dir das mal anguckst und wir einfach uns danach ein bisschen drüber unterhalten können. Du kannst auch ein Übersetzungstool zur Hilfe nehmen, wenn bestimmte Vokabeln unklar sind.
+
+47
+00:03:07.170 --> 00:03:14.690
+Klüwer, Nils: Genau. Du hast jetzt Zeit nicht wundern. Das sind relativ viele Kommentare. Du wirst also wahrscheinlich eine gewisse Zeit brauchen, um
+
+48
+00:03:15.130 --> 00:03:17.429
+Klüwer, Nils: die gesamte Kontextsphäre lesen zu können.
+
+49
+00:03:17.740 --> 00:03:22.729
+Inga Bosch: Okay, Das heißt, ich lese erst die Kontextsphäre und danach die Analyse.
+
+50
+00:03:22.730 --> 00:03:24.490
+Klüwer, Nils: Genau so kannst du es machen.
+
+51
+00:03:24.960 --> 00:03:25.720
+Inga Bosch: Okay.
+
+52
+00:03:27.000 --> 00:03:28.220
+Inga Bosch: Dann fange ich an.
+
+53
+00:03:28.620 --> 00:03:29.220
+Klüwer, Nils: Okay.
+
+54
+00:28:52.250 --> 00:28:54.290
+Inga Bosch: Ist jetzt eine Partei.
+
+55
+00:28:56.470 --> 00:28:57.590
+Klüwer, Nils: Bitte.
+
+56
+00:28:57.590 --> 00:29:01.179
+Inga Bosch: Ist sie jetzt eine Partei in Österreich gewesen oder war.
+
+57
+00:29:01.540 --> 00:29:02.300
+Klüwer, Nils: Wäsche.
+
+58
+00:29:03.030 --> 00:29:10.660
+Inga Bosch: Oder eine Person am Ende wird so oft von jetzt gesprochen.
+
+59
+00:29:13.910 --> 00:29:15.699
+Klüwer, Nils: Jetzt muss ich mal reingucken.
+
+60
+00:29:16.960 --> 00:29:17.630
+Inga Bosch: Vogelhuber.
+
+61
+00:29:17.630 --> 00:29:18.310
+Klüwer, Nils: Wir den.
+
+62
+00:29:18.310 --> 00:29:20.119
+Inga Bosch: Hoffnung von jetzt
+
+63
+00:29:20.540 --> 00:29:22.880
+Inga Bosch: zum Beispiel, also ganz am Ende.
+
+64
+00:29:24.000 --> 00:29:25.010
+Klüwer, Nils: Hoffnung.
+
+65
+00:29:29.800 --> 00:29:30.840
+Klüwer, Nils: Ordnung
+
+66
+00:29:32.030 --> 00:29:33.300
+Klüwer, Nils: von jetzt.
+
+67
+00:29:40.230 --> 00:29:43.210
+Inga Bosch: und jetzt lernen uns so die Sprechzimmer von jetzt.
+
+68
+00:29:48.440 --> 00:29:50.170
+Klüwer, Nils: Das ist.
+
+69
+00:29:51.570 --> 00:29:53.280
+Klüwer, Nils: Das ist eine Partei. Ja.
+
+70
+00:29:53.280 --> 00:29:54.130
+Inga Bosch: Okay.
+
+71
+00:29:57.020 --> 00:29:59.709
+Inga Bosch: gut. Ich bin mit dem jetzt fertig. Ich lese jetzt die Analyse.
+
+72
+00:33:51.400 --> 00:33:52.190
+Inga Bosch: Okay.
+
+73
+00:33:56.430 --> 00:33:57.139
+Klüwer, Nils: Ist.
+
+74
+00:33:59.510 --> 00:34:05.420
+Klüwer, Nils: Kannst du erst mal nochmal in deinen eigenen Worten sagen, was du da gemacht hast.
+
+75
+00:34:05.900 --> 00:34:07.999
+Klüwer, Nils: wie du das Material beschreiben würdest.
+
+76
+00:34:08.770 --> 00:34:24.930
+Inga Bosch: Ich habe mir erst den Auszug von den verschiedenen Kommentaren aus dem Standard durchgelesen und immer auch darauf geachtet, von wem jetzt welche Aussage kommt bzw. genauer darauf geachtet, wenn Analyse Zielnutzer da stand.
+
+77
+00:34:25.110 --> 00:34:29.579
+Inga Bosch: genau, und mir schon währenddessen so ein bisschen versucht.
+
+78
+00:34:29.790 --> 00:34:35.589
+Inga Bosch: eine Meinung zu bilden wie jetzt, so wie er auf die Antworten reagiert
+
+79
+00:34:35.840 --> 00:34:43.079
+Inga Bosch: und wie er so allgemein, also ob es Unterschiede zu den verschiedenen Themen gibt, wie er da reagiert.
+
+80
+00:34:43.850 --> 00:34:50.390
+Inga Bosch: genau, ob das immer sehr ähnlich ist, genau und die dann versucht, sorgsam zu lesen.
+
+81
+00:34:52.500 --> 00:35:02.900
+Inga Bosch: Genau und Danach habe ich mir die Analyse durchgelesen und geguckt, dass du mit meinen Gedanken so übereingestimmt hat, übereingestimmt hat.
+
+82
+00:35:03.600 --> 00:35:11.689
+Inga Bosch: und was jetzt die ai da quasi anders gemacht hat oder noch extra quasi sich gedacht hat.
+
+83
+00:35:11.900 --> 00:35:13.360
+Inga Bosch: hat genau.
+
+84
+00:35:14.010 --> 00:35:17.509
+Klüwer, Nils: Hast du das Gefühl, dir fehlt noch irgendeine Art Kontext.
+
+85
+00:35:17.810 --> 00:35:20.900
+Klüwer, Nils: um die Kommentare oder eben auch die Person
+
+86
+00:35:21.610 --> 00:35:23.250
+Klüwer, Nils: zu verstehen.
+
+87
+00:35:23.500 --> 00:35:27.999
+Klüwer, Nils: quasi so beobachten, was die Person da geschrieben hat, und die anderen Teilnehmer.
+
+88
+00:35:28.280 --> 00:35:30.469
+Inga Bosch: Ob mir der Kontext noch fehlt.
+
+89
+00:35:30.470 --> 00:35:38.930
+Klüwer, Nils: Ob dir quasi was gefehlt hat, was dir du gesagt hättest. Das hätte ich jetzt gerne noch gewusst. Um besser eine bestimmte Komponente verstehen zu können.
+
+90
+00:35:39.730 --> 00:35:46.959
+Inga Bosch: Jetzt wusste ich nicht, was da jetzt genau stimmt und was nicht.
+
+91
+00:35:47.640 --> 00:35:53.909
+Inga Bosch: und auch mit dem. Also am Ende waren das ja hauptsächlich politische Kontexte.
+
+92
+00:35:54.250 --> 00:36:00.279
+Inga Bosch: Da konnte ich manche Namen nicht und wusste jetzt nicht, in welche, also von Politikern, in welche.
+
+93
+00:36:00.510 --> 00:36:04.799
+Inga Bosch: ob die jetzt eher links oder rechts einzuordnen sind, auf dem politischen Spektrum
+
+94
+00:36:05.080 --> 00:36:05.670
+Inga Bosch: genau.
+
+95
+00:36:05.670 --> 00:36:06.400
+Klüwer, Nils: Ja.
+
+96
+00:36:07.140 --> 00:36:07.810
+Inga Bosch: Ja.
+
+97
+00:36:08.350 --> 00:36:09.170
+Klüwer, Nils: Okay.
+
+98
+00:36:09.420 --> 00:36:24.229
+Klüwer, Nils: ja, Dann lass uns doch mal über seine ersten Eindrücke sprechen. Du hast es ja jetzt komplett gelesen. Was ist dir dabei beim Lesen der Kommentare und der dazugehörigen Analyse so durch den Kopf gegangen oder aufgefallen.
+
+99
+00:36:25.200 --> 00:36:33.500
+Inga Bosch: Dass
+
+100
+00:36:34.260 --> 00:36:36.090
+Inga Bosch: können sich so
+
+101
+00:36:36.290 --> 00:37:00.069
+Inga Bosch: auch zu entschuldigen oder zu sagen: das war nicht richtig von mir, Das hätte man auch anders interpretieren können. Also diese Selbstreflexion und dann auch eingestehen, dass man vielleicht ein bisschen vorschnell schon argumentiert hat oder jemanden da beschrieben hat oder so. Das zieht sich eigentlich so durch die verschiedenen Themen auf, dass der User da gesagt hat: Ne, Okay, das
+
+102
+00:37:00.210 --> 00:37:04.480
+Inga Bosch: dein Punkt macht auch Sinn, und dass ich so ein bisschen einzustehen.
+
+103
+00:37:05.480 --> 00:37:12.030
+Inga Bosch: und diese Humorfähigkeit oder auch zum Teil recht zynische Witze.
+
+104
+00:37:12.290 --> 00:37:15.909
+Inga Bosch: Genau findet man eigentlich auch in allen Themen.
+
+105
+00:37:16.780 --> 00:37:19.820
+Klüwer, Nils: Konkretes Beispiel, wo Du sagst, das ist mir besonders
+
+106
+00:37:20.370 --> 00:37:23.480
+Klüwer, Nils: hängen geblieben, jetzt konkret am Kommentar.
+
+107
+00:37:23.940 --> 00:37:25.870
+Klüwer, Nils: einen bestimmten Kommentar oder so.
+
+108
+00:37:25.870 --> 00:37:34.039
+Inga Bosch: Wo ich auch so ein bisschen laut auflachen musste, war jetzt ganz am Ende mit diesem Touristenwitz. Der war so ein bisschen stumpf, aber es war halt so ein expliziter Witz
+
+109
+00:37:35.940 --> 00:37:37.690
+Inga Bosch: und was war noch.
+
+110
+00:37:38.680 --> 00:37:40.060
+Klüwer, Nils: Was wäre der Touristen.
+
+111
+00:37:41.560 --> 00:37:55.839
+Inga Bosch: Da die Touristen in Wien Polizisten fragen, ob sie Englisch sprechen, dann sagen die so Nee und ob Sie Französisch sprechen würden, dann sagen Sie auch Nee. und dann gehen Sie so. und dann sagen die Polizisten ja.
+
+112
+00:37:56.480 --> 00:38:02.210
+Inga Bosch: ja, Was bringt einem das, wenn man so viele Sprachen spricht, wenn man sich dann eh nicht weit helfen kann. Oder so.
+
+113
+00:38:02.210 --> 00:38:03.170
+Klüwer, Nils: Okay, Ja.
+
+114
+00:38:03.430 --> 00:38:04.290
+Inga Bosch: Ja.
+
+115
+00:38:07.540 --> 00:38:17.650
+Inga Bosch: genau. Es sind immer mal wieder so ein bisschen so in Klammern oder mit so einem Spiegelstrich immer mal so ein bisschen so sarkastische Bemerkungen. und so.
+
+116
+00:38:18.210 --> 00:38:24.710
+Inga Bosch: Die manchmal den Kommentaren auch, so finde ich, so eine gewisse Leichtigkeit geben, weil das nicht so bitterernst und
+
+117
+00:38:25.080 --> 00:38:28.820
+Inga Bosch: beleidigend ist, sondern dann auch mal wieder so ein Witz da eingebaut wird.
+
+118
+00:38:32.020 --> 00:38:34.619
+Klüwer, Nils: Wie hast du denn die Diskussionen in diesem.
+
+119
+00:38:34.780 --> 00:38:37.800
+Inga Bosch: In den Kommentaren wahrgenommen oder in dem Forum.
+
+120
+00:38:39.540 --> 00:38:40.560
+Klüwer, Nils: Beteiligt war.
+
+121
+00:38:44.570 --> 00:38:47.120
+Klüwer, Nils: Natürlich bezogen auf den Analyse Ziel.
+
+122
+00:38:47.740 --> 00:38:50.970
+Klüwer, Nils: Aber der ist halt in jeder Diskussion quasi vorhanden.
+
+123
+00:38:51.170 --> 00:38:57.860
+Inga Bosch: und
+
+124
+00:38:58.030 --> 00:39:00.990
+Inga Bosch: Also, es sind schon immer sehr
+
+125
+00:39:01.950 --> 00:39:05.410
+Inga Bosch: direkte und auch so stichelnde.
+
+126
+00:39:05.610 --> 00:39:07.460
+Inga Bosch: ja Kommentare.
+
+127
+00:39:07.570 --> 00:39:12.200
+Inga Bosch: Aber ich finde, es wird auch immer versucht, so
+
+128
+00:39:12.620 --> 00:39:17.209
+Inga Bosch: da Fakten reinzuholen und Sachen zu belegen.
+
+129
+00:39:17.470 --> 00:39:19.380
+Inga Bosch: und
+
+130
+00:39:20.340 --> 00:39:22.770
+Inga Bosch: genau so ein bisschen
+
+131
+00:39:23.120 --> 00:39:28.049
+Inga Bosch: ja, wie gesagt, so Fakten: einfach Informationen so zu validieren.
+
+132
+00:39:29.730 --> 00:39:50.730
+Inga Bosch: aber ja, auch so bei diesen Gabelgavalier Kommentaren, dann ist es auch immer sehr stumpf und halt einfach so eine persönliche Meinung. Ob man die Musik jetzt gut findet oder nicht oder so. Also, es variiert natürlich auch so ein bisschen. Aber so die allgemeine Stimmung, finde ich schon eher
+
+133
+00:39:51.290 --> 00:40:02.319
+Inga Bosch: eher respektvoll. Ich kenne mich jetzt nicht so aus, wie sonst so Kommentarspalten irgendwo im Internet aussehen, aber vom Gefühl her war es schon
+
+134
+00:40:02.980 --> 00:40:08.530
+Inga Bosch: halbwegs respektvoll, und da wurde jetzt keiner so sehr persönlich beleidigt oder so.
+
+135
+00:40:10.750 --> 00:40:13.950
+Klüwer, Nils: Wenn wir uns jetzt mal der Analyse zuwenden.
+
+136
+00:40:15.750 --> 00:40:19.300
+Klüwer, Nils: was ist dir da positiv? Negativ aufgefallen? Du hast vorhin schon erwähnt.
+
+137
+00:40:19.710 --> 00:40:24.419
+Klüwer, Nils: dass du zuerst die Kontextsphäre gelesen hast und dann die Analyse, um dann irgendwie zu checken.
+
+138
+00:40:24.550 --> 00:40:26.910
+Klüwer, Nils: ob das mit deiner
+
+139
+00:40:27.190 --> 00:40:29.030
+Klüwer, Nils: mit deinen Beobachtungen übereinstimmt.
+
+140
+00:40:29.400 --> 00:40:41.809
+Inga Bosch: Ja. Also ich fand, die Analyse hat so mein Bild bestätigt, wie es Mit Selbstreflexion und Humor und sowas mir auch aufgefallen ist. Dann fand ich aber
+
+141
+00:40:41.980 --> 00:40:50.660
+Inga Bosch: interessant. Also, die Analyse ist noch ein bisschen mehr auf so Affektivität eingegangen als jetzt ich beim durchlesen.
+
+142
+00:40:50.810 --> 00:40:56.490
+Inga Bosch: dass es halt schon eher negative Effektivität ist. und das ist mir dann im Nachhinein, oder
+
+143
+00:40:56.920 --> 00:41:11.410
+Inga Bosch: konnte ich dann so im Nachhinein auch sehen, dass es meistens immer so ein bisschen negative, also so negative Negativität, so im Zentrum stand und jetzt selten über so positive Sachen irgendwie kommentiert wurde. Oder so positiv
+
+144
+00:41:11.800 --> 00:41:20.279
+Inga Bosch: dieser positive Affekt irgendwie eingebaut war. Also, das fand ich gut und sonst
+
+145
+00:41:21.350 --> 00:41:27.650
+Inga Bosch: dass halt auch immer so konkrete Beispiele eingebaut wurden, wo man das dann nochmal besser nachvollziehen konnte.
+
+146
+00:41:33.760 --> 00:41:40.979
+Inga Bosch: genau, und dass zum Beispiel die Analyse auch, sagt, dass natürlich
+
+147
+00:41:41.710 --> 00:42:09.410
+Inga Bosch: so dieser kulturelle Kontext. Also in welchem Zeitgeist bewegen wir uns gerade, dass gerade die Ibiza-affäre halt da 2.019 so präsent war und sodass das natürlich sich voll auch widerspiegelt, in den Kommentaren vielleicht auch bei Themen, die jetzt nicht konkret über die Ibiza-affäre gehen, oder so aber natürlich dieser breitere Kontext mit dem, was gerade im Land los ist, oder in der Region, wo man lebt.
+
+148
+00:42:09.560 --> 00:42:16.090
+Inga Bosch: sich natürlich dann in den Kommentaren auch widerspiegeln kann. Also, das fand ich einen guten Punkt, auf jeden Fall noch.
+
+149
+00:42:17.220 --> 00:42:20.779
+Inga Bosch: Wie würdest du denn die Analyse.
+
+150
+00:42:21.060 --> 00:42:23.289
+Klüwer, Nils: Bewerten. Du hast jetzt schon ein paar Sachen genannt.
+
+151
+00:42:23.660 --> 00:42:29.440
+Klüwer, Nils: Wenn du jetzt, dass eben konkret vergleichst, Kommentare und den Output des Sprachmodells. Ja.
+
+152
+00:42:29.950 --> 00:42:32.960
+Klüwer, Nils: wie bewertest du das.
+
+153
+00:42:33.950 --> 00:42:37.779
+Inga Bosch: Also jetzt so auf einer Skala von 0 bis 10 oder einfach so allgemein.
+
+154
+00:42:37.930 --> 00:42:40.489
+Klüwer, Nils: Auch allgemein, du kannst.
+
+155
+00:42:41.770 --> 00:42:44.079
+Klüwer, Nils: Also gibt es auch einfach Sachen wo du sagst, dass
+
+156
+00:42:44.720 --> 00:42:48.941
+Klüwer, Nils: das hat sich nicht widergespiegelt, oder das hast du gesehen, dann hast du es gelesen, hast gemerkt.
+
+157
+00:42:49.660 --> 00:42:53.079
+Klüwer, Nils: das habe ich jetzt nicht erkannt, oder? Das
+
+158
+00:42:53.290 --> 00:42:55.380
+Klüwer, Nils: wäre mir jetzt nicht so aufgefallen.
+
+159
+00:42:56.160 --> 00:43:02.819
+Inga Bosch: Also, ich würde sagen, so allgemein finde ich die Analyse sehr gut und auch recht.
+
+160
+00:43:03.710 --> 00:43:07.440
+Inga Bosch: Wie nennt man das recht umfangreich.
+
+161
+00:43:08.060 --> 00:43:30.770
+Inga Bosch: Also es gab jetzt nichts, wo ich der Analyse widersprechen würde, wo ich sage, das steht da, aber das sehe ich nicht so das auf keinen Fall. Ich würde eher sogar sagen, dass die Analyse so 2, 3 Sachen noch gesagt habe, wie mit diesem breiteren kulturellen Kontext, die mir jetzt nicht ad hoc eingefallen sind, beim einmaligen Durchlesen der Kommentare
+
+162
+00:43:32.660 --> 00:43:36.760
+Inga Bosch: so
+
+163
+00:43:36.990 --> 00:43:41.320
+Inga Bosch: bisschen eine Zusammenfassung.
+
+164
+00:43:41.870 --> 00:43:53.439
+Inga Bosch: Ich würde aber schon sagen, dass sie noch recht allgemein gehalten ist. Also manche Phrasen oder Textteile, könnte man auf alle User irgendwie auch so ein bisschen anwenden.
+
+165
+00:43:53.670 --> 00:43:55.110
+Inga Bosch: genau.
+
+166
+00:43:56.110 --> 00:43:56.770
+Klüwer, Nils: Okay.
+
+167
+00:44:01.010 --> 00:44:05.250
+Klüwer, Nils: Wie unterscheidet sich jetzt zum Beispiel diese Analyse von einer sehr
+
+168
+00:44:05.420 --> 00:44:09.330
+Klüwer, Nils: einfachen, klassischen Emotionskategorisierung?
+
+169
+00:44:11.790 --> 00:44:13.970
+Klüwer, Nils: was für Vor und Nachteile. Siehst du da.
+
+170
+00:44:17.940 --> 00:44:22.459
+Inga Bosch: Ich würde sagen, dass diese Analyse
+
+171
+00:44:22.740 --> 00:44:28.110
+Inga Bosch: halt, wie gesagt, etwas umfangreicher ist als jetzt, einfach nur zu sagen, das ist Wut.
+
+172
+00:44:28.300 --> 00:44:44.040
+Inga Bosch: oder dass es, weiß ich nicht Ärger oder so, weil sie den Kontext mit betrachtet, weil sie sowas wie Humor und So Sarkasmus auch mit reinnimmt, der ja auch
+
+173
+00:44:44.220 --> 00:44:48.909
+Inga Bosch: der so in diese klassischen Kategorien ja gar nicht so rein
+
+174
+00:44:49.230 --> 00:44:51.590
+Inga Bosch: kategorisiert werden kann.
+
+175
+00:44:58.740 --> 00:44:59.960
+Inga Bosch: genau.
+
+176
+00:45:01.950 --> 00:45:07.200
+Inga Bosch: und dass sie auch anerkennt, dass Halt also diese Analyse versteht, dass
+
+177
+00:45:07.660 --> 00:45:10.420
+Inga Bosch: auch verschiedene
+
+178
+00:45:11.220 --> 00:45:21.940
+Inga Bosch: Emotionen oder verschiedene Affektivitäten parallel so ein bisschen existieren können. Also Das ist nicht nur dieses eine. Also nur
+
+179
+00:45:22.600 --> 00:45:25.740
+Inga Bosch: Warte. Wo steht das denn Zum Beispiel?
+
+180
+00:45:40.800 --> 00:45:42.890
+Inga Bosch: mal Irgendwo stand das
+
+181
+00:45:48.050 --> 00:45:53.899
+Inga Bosch: genauso, dass es halt Negativität gibt. und Kritik
+
+182
+00:45:54.080 --> 00:46:13.839
+Inga Bosch: ausgedrückt wird, aber zeitgleich auch Halt so eine gewisse Selbstreflexion und emotionale Regulation, also dass der quasi in manchen Kommentaren oder vielleicht auch in einem Kommentar zeitgleich irgendwie sich selbst reflektiert, aber trotzdem noch die andere person kritisiert, oder so, also dass es halt nicht immer schwarz und weiß ist, sondern dass es halt auch
+
+183
+00:46:14.310 --> 00:46:16.280
+Inga Bosch: beides so ein bisschen sein kann.
+
+184
+00:46:17.040 --> 00:46:32.529
+Inga Bosch: Das finde ich auf jeden Fall gut und glaube, das würde in so einfacheren Kategorisierungen, wo man einfach nur sagt: Okay, welche Emotionen ist das jetzt? Welche von den Coredingern würde das vielleicht so ein bisschen wegfallen, weil man halt da so ein bisschen die Graubereiche fehlen, sage ich mal.
+
+185
+00:46:33.600 --> 00:46:34.280
+Klüwer, Nils: Okay.
+
+186
+00:46:34.870 --> 00:46:38.710
+Klüwer, Nils: wenn wir uns jetzt mal der praktischen Relevanz zuwenden.
+
+187
+00:46:38.820 --> 00:46:44.199
+Klüwer, Nils: und du versetzt dich in die Rolle von einer Content-moderatorin. In diesem Forum
+
+188
+00:46:46.670 --> 00:46:48.560
+Klüwer, Nils: Was würdest du für die
+
+189
+00:46:49.210 --> 00:46:51.440
+Klüwer, Nils: für seine Rolle nutzen? Würdest du
+
+190
+00:46:51.640 --> 00:46:54.459
+Klüwer, Nils: die Originalkommentare Plus die Analyse nutzen, oder
+
+191
+00:46:54.650 --> 00:46:56.289
+Klüwer, Nils: nur 1 von beidem?
+
+192
+00:46:56.480 --> 00:46:58.439
+Klüwer, Nils: Wie würdest du damit umgehen?
+
+193
+00:47:00.318 --> 00:47:04.090
+Inga Bosch: Da ist natürlich so eine umfangreiche und
+
+194
+00:47:05.000 --> 00:47:14.540
+Inga Bosch: dass es quasi beides parallel existieren kann, ist natürlich dann ein bisschen schwieriger, weil, da muss ich mir ja selber dann trotzdem entscheiden, Überschreitet das jetzt eine Grenze oder nicht? Wenn
+
+195
+00:47:14.670 --> 00:47:18.870
+Inga Bosch: Wenn Halt in einem Kommentar mehrere Sachen zeitgleich
+
+196
+00:47:19.750 --> 00:47:22.389
+Inga Bosch: so stattfinden, also von Kritik
+
+197
+00:47:22.670 --> 00:47:25.980
+Inga Bosch: zu Humor, zu Selbstreflexion. und so
+
+198
+00:47:36.020 --> 00:47:37.650
+Klüwer, Nils: Du musst das moderieren.
+
+199
+00:47:37.920 --> 00:47:40.760
+Klüwer, Nils: Wie würdest du quasi vorgehen?
+
+200
+00:47:42.530 --> 00:47:45.160
+Inga Bosch: Ich glaube, ich würde mir zuerst
+
+201
+00:47:45.840 --> 00:47:56.270
+Inga Bosch: die allgemeine Analyse durchlesen, um so einen Überblick zu kriegen. Okay, das ist so die Tonalität von User X oder vom Zielnutzer.
+
+202
+00:47:56.890 --> 00:48:01.410
+Inga Bosch: um dann bestimmte Aussagen besser einschätzen zu können.
+
+203
+00:48:01.760 --> 00:48:05.000
+Inga Bosch: wenn man weiß, okay, so macht er das, oder Sie das immer.
+
+204
+00:48:06.250 --> 00:48:14.170
+Inga Bosch: dann könnte ich mir vorstellen, dass man bestimmte Aussagen oder Kommentare schneller einordnen kann
+
+205
+00:48:14.840 --> 00:48:19.840
+Inga Bosch: und schneller weiß, okay, das ist halt seine Art und zack.
+
+206
+00:48:20.250 --> 00:48:40.289
+Inga Bosch: Also ich glaube, die würde auf jeden Fall helfen, um schneller da moderieren zu können und die Person schneller zu verstehen, in welche Richtung sie vielleicht auch gehen und wie das Verhalten ist, oder vielleicht auch um so antizipieren zu können. Okay, da kommt jetzt so eine Art von Kommentar. Wie würde die Person darauf eingehen und so
+
+207
+00:48:43.220 --> 00:48:49.359
+Inga Bosch: Genau. Vielleicht wäre es noch hilfreich, wenn wenn noch mehr Beispiele in der Analyse genannt würden
+
+208
+00:48:49.790 --> 00:49:00.890
+Inga Bosch: Oder vielleicht zu einem Punkt auch 2 oder 3 Beispiele sind, dass man da noch ein bisschen besseres Gefühl für kriegt. Wenn man sich jetzt die Kommentare selbst nicht durchlesen würde.
+
+209
+00:49:01.190 --> 00:49:02.460
+Klüwer, Nils: Okay.
+
+210
+00:49:06.180 --> 00:49:13.999
+Klüwer, Nils: Wenn wir jetzt mal zur abschließenden Reflexion übergehen, was sind deiner Meinung nach die Stärken und Schwächen bzw. auch einfach Grenzen
+
+211
+00:49:14.150 --> 00:49:16.260
+Klüwer, Nils: von so einer Emotionsanalyse.
+
+212
+00:49:16.760 --> 00:49:17.640
+Klüwer, Nils: und.
+
+213
+00:49:18.010 --> 00:49:18.740
+Klüwer, Nils: ja.
+
+214
+00:49:19.310 --> 00:49:23.560
+Inga Bosch: Ich glaube stärken auf jeden Fall, dass man schnell so einen allgemeinen Überblick bekommt.
+
+215
+00:49:26.160 --> 00:49:27.390
+Inga Bosch: und.
+
+216
+00:49:27.680 --> 00:49:34.090
+Inga Bosch: wie gesagt, Kommentare oder User vielleicht besser einschätzen kann, in so einem groben Spektrum.
+
+217
+00:49:34.280 --> 00:49:44.629
+Inga Bosch: Aber Grenzen natürlich auch, dass es jetzt nicht so detailgetreu ist, als würde man die Kommentare alle selber lesen
+
+218
+00:49:44.810 --> 00:49:47.660
+Inga Bosch: und es natürlich auch so sein kann.
+
+219
+00:49:48.020 --> 00:49:56.000
+Inga Bosch: dass es so Einzelfälle gibt. Also ich weiß nicht, ob das dann die in der Analyse auch aufploppen würde, aber dass es Einzelfälle gibt, wo es vielleicht sich anders verhält.
+
+220
+00:49:56.130 --> 00:50:09.820
+Inga Bosch: Oder also natürlich ist es trotzdem nur eine Art Modell. Das kann ja auch in der Zukunft sein. Dass diese Person auf irgendein Thema oder aus irgendeinem Grund ganz anders reagiert, als es jetzt in der Analyse oder bisher war.
+
+221
+00:50:10.080 --> 00:50:10.930
+Klüwer, Nils: Ja.
+
+222
+00:50:11.120 --> 00:50:16.380
+Inga Bosch: Also so die Allgemeingültigkeit für immer, und für jeden Fall ist natürlich
+
+223
+00:50:16.540 --> 00:50:17.929
+Inga Bosch: nicht gegeben.
+
+224
+00:50:19.180 --> 00:50:21.860
+Inga Bosch: Aber wie gesagt, ich glaube, es ist ein guter Überblick.
+
+225
+00:50:23.860 --> 00:50:29.229
+Inga Bosch: um so das Verhalten, das Kommentarverhalten der Person zu verstehen
+
+226
+00:50:29.530 --> 00:50:37.150
+Inga Bosch: und auch zu verstehen, wann und in welchen Situationen? Oder bei welchem Thema verhält man sich
+
+227
+00:50:37.600 --> 00:50:40.210
+Inga Bosch: so Oder so? Also, Dieser Eilbezug von
+
+228
+00:50:40.630 --> 00:50:45.620
+Inga Bosch: dem Kontext finde ich schon spannend und sehr wertvoll für die Analyse.
+
+229
+00:50:49.160 --> 00:50:53.779
+Klüwer, Nils: entweder jetzt außerhalb dieser Content Moderation eine Anwendungs
+
+230
+00:50:54.180 --> 00:50:56.019
+Klüwer, Nils: Fall vorstellen würdest.
+
+231
+00:50:56.300 --> 00:51:02.070
+Klüwer, Nils: fällt dir da doch ein anderer Einsatzbereich ein für diese Art der Emotionsanalyse.
+
+232
+00:51:04.400 --> 00:51:06.469
+Inga Bosch: Außerhalb des Internets, jetzt oder.
+
+233
+00:51:06.690 --> 00:51:10.769
+Klüwer, Nils: Also, das muss dann nicht mit der Standard Online Forum zu tun haben.
+
+234
+00:51:10.900 --> 00:51:13.199
+Klüwer, Nils: und das muss auch nicht unbedingt.
+
+235
+00:51:13.850 --> 00:51:20.969
+Klüwer, Nils: Also der Kontext, der reingegeben wird. Hier war es jetzt. Die Kontextsphäre muss nicht zwangsläufig von diesem Forum standen, sein, es könnte auch ein
+
+236
+00:51:21.650 --> 00:51:23.709
+Klüwer, Nils: ein ganz anderes Feld zu begleiten.
+
+237
+00:51:26.750 --> 00:51:27.870
+Inga Bosch: Puh
+
+238
+00:51:37.260 --> 00:51:40.300
+Inga Bosch: Mein erster Gedanke war jetzt so ein bisschen.
+
+239
+00:51:41.610 --> 00:51:44.149
+Inga Bosch: ob man auch so politische
+
+240
+00:51:44.260 --> 00:51:48.679
+Inga Bosch: Art Radikalisierung oder irgendwie sowas feststellen kann.
+
+241
+00:51:48.780 --> 00:51:50.110
+Inga Bosch: Wenn man
+
+242
+00:51:50.700 --> 00:51:58.669
+Inga Bosch: ein Zielnutzer oder eine Zielnutzerin Halt so konstant analysiert, sage ich mal, ob sich da was in dem Verhalten ändert über die Zeit
+
+243
+00:51:58.990 --> 00:52:09.760
+Inga Bosch: Also, dass man nicht nur sagt: Okay, man macht jetzt einmal so eine Analyse, sondern ich weiß jetzt nicht, ob das datenschutzmäßig irgendwie so in Ordnung geht, aber dass man halt über die Zeit immer mal
+
+244
+00:52:09.870 --> 00:52:15.750
+Inga Bosch: Analysen macht und guckt, wie sich das über die Zeit verhält und ob es da Änderungen gibt
+
+245
+00:52:16.000 --> 00:52:19.639
+Inga Bosch: und dann die verschiedenen Analysen sozusagen miteinander vergleicht.
+
+246
+00:52:19.750 --> 00:52:21.880
+Inga Bosch: gerade denken.
+
+247
+00:52:26.250 --> 00:52:28.740
+Klüwer, Nils: Auch
+
+248
+00:52:29.140 --> 00:52:33.609
+Klüwer, Nils: Psychologie, Absolventin, wo er auch Emotionsanalysen.
+
+249
+00:52:33.940 --> 00:52:34.640
+Inga Bosch: Ach so, du meinst.
+
+250
+00:52:34.640 --> 00:52:37.700
+Klüwer, Nils: Werden ja in vielen Bereichen eingesetzt.
+
+251
+00:52:38.130 --> 00:52:40.469
+Inga Bosch: Du meinst sozusagen in einem
+
+252
+00:52:41.020 --> 00:52:45.290
+Inga Bosch: in einer Therapiesession oder in einem Erstgespräch oder so.
+
+253
+00:52:54.660 --> 00:52:55.540
+Klüwer, Nils: Ja Methodik.
+
+254
+00:52:55.540 --> 00:52:57.620
+Klüwer, Nils: die man einwendet, für viele Bereiche.
+
+255
+00:52:57.961 --> 00:53:01.029
+Inga Bosch: voll. Dann könnte man das aber theoretisch sehr auf
+
+256
+00:53:01.450 --> 00:53:13.790
+Inga Bosch: auf alles irgendwie, also anwenden, ja voll. Also im medizinischen psychologischen Kontext so für Therapiegespräche, um zu gucken. Okay, mit welchem
+
+257
+00:53:13.900 --> 00:53:16.320
+Inga Bosch: Affektivität?
+
+258
+00:53:16.850 --> 00:53:21.869
+Inga Bosch: Hat man das hier zu tun. Sag ich mal, wie ist das gegenüber.
+
+259
+00:53:22.090 --> 00:53:26.050
+Inga Bosch: dass man sich selbst vielleicht auch darauf einstellen kann, wie man
+
+260
+00:53:26.280 --> 00:53:30.520
+Inga Bosch: damit umgeht und wie man darauf antwortet, Sag ich mal
+
+261
+00:53:31.160 --> 00:53:34.000
+Inga Bosch: voll. Könnte ich mir voll vorstellen.
+
+262
+00:53:34.400 --> 00:53:35.090
+Klüwer, Nils: Okay.
+
+263
+00:53:35.620 --> 00:54:00.659
+Inga Bosch: Aber auch hier wieder so quasi, um so einen allgemeinen Überblick zu kriegen und ein Gefühl dafür zu kriegen, wie die Person quasi ist und Emotionen ausdrückt oder handhabt oder so, aber auch im Detail. Dann oder im Einzelfall, glaube ich, dass dann so das Menschliche, die menschliche Empathie oder Verständnis Auf jeden Fall genauer ist.
+
+264
+00:54:01.280 --> 00:54:02.630
+Inga Bosch: Okay.
+
+265
+00:54:03.020 --> 00:54:03.430
+Inga Bosch: Ja.
+
+266
+00:54:05.360 --> 00:54:09.129
+Klüwer, Nils: gibt es abschließend noch etwas, was du ergänzen möchtest oder sagen möchtest.
+
+267
+00:54:12.540 --> 00:54:17.203
+Inga Bosch: Nee, fällt mir nichts. Ein spannendes Thema. Auf jeden Fall.
+
+268
+00:54:18.910 --> 00:54:30.349
+Inga Bosch: Aber ja, man muss auch. Also Es ist viel zum Nachdenken. So parallel. Also, wenn man sich so die Kommentare durchliest, dann versucht man so zu verstehen oder viele Informationen auf einmal, auf jeden Fall
+
+269
+00:54:30.940 --> 00:54:33.600
+Inga Bosch: genau, wenn man so Kontext und alles so
+
+270
+00:54:33.850 --> 00:54:36.279
+Inga Bosch: im Kopf hat.
+
+271
+00:54:37.680 --> 00:54:52.090
+Inga Bosch: Aber ja, deswegen also toll, hilfreich, dann so eine Analyse zu haben. und ich denke gerade, dass es auch einen Unterschied macht, ob ich jetzt erst nur die Kommentare lese und dann die Analyse, oder ob ich es quasi andersrum gemacht hätte, wenn ich erst die Analyse gehabt hätte
+
+272
+00:54:52.460 --> 00:55:02.640
+Inga Bosch: oder er es gelesen hätte, und dann die Kommentare, dass man schon, wie gesagt, mit so einem gewissen Vorgefühl und Überblick. Dann einsteigt.
+
+273
+00:55:03.070 --> 00:55:03.890
+Inga Bosch: Ja.
+
+274
+00:55:03.910 --> 00:55:06.519
+Klüwer, Nils: Denkst du auch, dass ich das quasi gebased hätte
+
+275
+00:55:06.890 --> 00:55:09.950
+Klüwer, Nils: und du dann vielleicht auch nicht mehr so offen.
+
+276
+00:55:10.870 --> 00:55:11.859
+Inga Bosch: Also, ich glaube.
+
+277
+00:55:11.860 --> 00:55:23.830
+Inga Bosch: hätte
+
+278
+00:55:24.100 --> 00:55:44.630
+Inga Bosch: genau zeitgleich hätte ich wahrscheinlich auch nur dann die Passagen oder das quasi nur so bestätigen gesucht, was in der Analyse eh schon stand. Mir wäre vielleicht nicht so viel auf. Mir ist jetzt auch nicht so viel aufgefallen, aber einem fallen dann vielleicht die Sachen, die davon abweichen, nicht so doll auf, oder? Man fokussiert das nicht so krass.
+
+279
+00:55:45.670 --> 00:55:46.210
+Klüwer, Nils: Ja.
+
+280
+00:55:46.630 --> 00:55:50.810
+Klüwer, Nils: ja. Vielen Dank für die Teilnahme, und damit beende ich das Interview.
+
+281
+00:55:51.280 --> 00:55:53.120
+Inga Bosch: Gerne. Danke.
+
