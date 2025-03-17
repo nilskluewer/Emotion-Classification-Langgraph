@@ -117,28 +117,26 @@ Thank you.
 
 *   **Voiceover Script:**
 
-> "Hi everyone, I'm Nils, and I will present our Late Breaking work about implementing the theory of constructred using LLMs.
+> "Hi everyone, I'm Nils, and I will present our Late Breaking work about implementing the theory of constructred Emtion, utelizing large language models
 
 SLIDE
 
- Current emotions classification is often very simplistic at puts humans emotions into a set of discrete categories like Anger, happniess, sadness. This oversimplifies human emotion in its complexitiy and nuanced and einforces biases, such as racial profiling and stereotypes.
+ Current emotion classification is often very simplistic and puts humans emotions into a set of discrete categories like Anger, happniess, sadness. It neglects the recent advancemnts in cognitive and emotion studies. We demonstrace with an practical use case  in online content moderation how to use LLMs for differantiated, context-sensitive emotion analysis.
 
-We want to tacke this problem by providiung an LLM pipeline which can analyse emotions based on their context.
 
-We did this, by first building a context sphere -> We do this with the case of online content moderation, where we want to analyse a single user. 
-
-When we build the "context sphere" we include  all relevant informationm available of a single user.
+We first build the "context sphere", where we include  all relevant informationm available of a single user.
 
 We include not only single comment of the user, but also sourounding context. This is full comment threads, metadata, article data.
 But part of this context spere is also to prune the context. Ther idea is to make it user-centric also considering the relevance of context to the user. 
 
 SKIP
 
-Then the LLM comes into play. Since we do want to use the theory of constructed emotions - who could analyse the context better, then lisa feldmann barrett herself? 
+Then the LLM comes into play. Since we want to use the theory of constructed emotions - we asked ourselfs, who could apply this theory better, then lisa feldmann barrett herself? 
 
-So we let the LLM impersonate Lisa Feldmann Barrett, besides giving that role, the llm is also restricted by a JSON format, which restricts the output to a predefined structure.
+So we let the LLM impersonate Lisa Feldmann Barrett, and use controlled generation to guide her response. Both methods are techniques to guide the LLM.
 
-this is evaluted using an LLM-as-a-Judge approach. 4 LLMs check for confabulations / content which is misleading but confident. If confabulations are detected the pipeline will not continue any further processing.
+
+The output of that is evaluted using an LLM-as-a-Judge approach. 4 LLMs check for confabulations / content which is misleading but confident. If confabulations are detected the pipeline will not continue any further processing.
 
 If it is successfull, the pipeline will produce output as shown in the reulsts
 
