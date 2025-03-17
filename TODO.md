@@ -1,2 +1,0 @@
-- Mehr information über den Datensatz inkludieren stubset of original dataset -> 20k user usw. Timeframe angeben 
-- 01.05.2019-31.05.2019 Timeeframe für dataset

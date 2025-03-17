@@ -6,7 +6,7 @@
     "input_json_path": "./input_output/JSON/articles_with_threads.json",
     "pkl_path_input_build_context" : "../data/preprocessed/preprocessed_data.pkl",
     "output_folder_markdown_generation": "./Input_Output/markdown_anonymized/",
-    "output_folder_samples": "../markdown_samples/",
+    "output_folder_samples": "../02 markdown_samples/",
     "MIN_TOKEN_COUNT": 8000,
     "MAX_TOKEN_COUNT": 12000,
     "SAMPLE_SIZE": 50,
@@ -14,3 +14,4 @@
     
 
 }
+
