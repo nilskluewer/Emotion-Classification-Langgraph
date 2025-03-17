@@ -1,0 +1,1 @@
+Can you polish the transcript? Correct words which seems wrongly transcribed and remove the Ähm and Mhm. etc. you can insert (..) / ellipsis for hesitatation.

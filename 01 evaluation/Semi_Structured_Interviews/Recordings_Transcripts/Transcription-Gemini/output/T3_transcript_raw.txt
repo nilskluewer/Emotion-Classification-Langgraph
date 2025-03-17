@@ -1,0 +1,198 @@
+I: Oh, ich habe ein bisschen Steinzeug, glaube ich. Genau. Ähm genau. Hallo, vielen Dank für deine Teilnahme im Rahmen meiner Masterarbeit möchte ich dich interviewen. Das Gespräch wird aufgezeichnet und wird einem Sprachcontainer transkribiert. Deine Daten werden anonymisiert und vertraulich behandelt und nur für Forschungszwecke verwendet. Bist du damit einverstanden?
+R: Ja.
+I: Okay, starten wir mit deinem Alter. Wie alt bist du?
+R: Ich bin 27 Jahre alt.
+I: Was ist dein höchster Bildungsgrad oder aktuelle Ausbildung?
+R: Ich bin Bachelor of Arts und bin gerade in Ausbildung zum Diplom Ingenieur Architekten.
+I: Okay. Ähm welche Sprachen sprichst du?
+R: Ich spreche fließend Deutsch und Englisch und Basic Spanisch und Französisch.
+I: Okay, super. Na hier brauchen wir jetzt Deutsch und Englisch, das ist schon mal gut. Du kannst aber auch jederzeit, wie gesagt, das Übersetzungstool nutzen für einzelne Bereiche.
+R: Mhm.
+I: Genau. Vielen Dank, dass du teilnimmst. Äh in dieser Studie äh untersuchen wir einen neuen Ansatz zur Analyse von Emotionen in Onlinekommentaren und anders als bisherige Systeme, die Kommentare in feste Kategorien einteilen, wie z.B. dieser Kommentar ist wütend, dieser Kommentar ist traurig oder einfach positiv, negativ, also äh ja, sehr einfache Kategorien. Nutzen wir hier ein National English Modell, um Emotionen im Kontext zu verstehen. Also ein KI-System. Und du hast jetzt vor dir zwei Dokumente. Zum einen eine Sammlung von Onlinekommentaren einer bestimmten anonymisierten Person, die hier als Kontextsphäre bezeichnet wird und als zweites auf der rechten Seite ein von von einem KI-System erstellte Analysebericht zu dieser Person auf Basis dieser Kommentare.
+R: Mhm.
+I: Und in dieser Kontextsphäre, die ist äh in der Anleitung beschrieben, wie das quasi aufgebaut ist. Du kannst mich aber jederzeit fragen, ne, zur Struktur oder generell einfach zum Aufbau. Ähm und der die Person, die analysiert wird, wird als Analyse Zielnutzer bezeichnet und kommt jetzt nicht direkt als erstes vor in den Kommentaren, sondern halt äh später irgendwann und alle anderen Nutzer werden als User Zahl bezeichnet, also User 1, User 2, User 3.
+R: Mhm.
+I: Genau, und deine Aufgabe ist es, beide Dokumente in Ruhe zu lesen und äh danach stelle ich dir ein paar Fragen. Es gibt aber jetzt keine richtige oder falsche Antwort. Ähm und ja, lass dir Zeit, lies es dir, lies es dir durch. Du kannst gerne mit der Kontextsphäre starten und danach die Analyse lesen. Ähm
+R: Okay, passt.
+I: Ja.
+R: Gibt's den Artikel auch oder sind das nur die Kommentare?
+I: Äh es gibt nur den die Artikel Überschrift.
+R: Mhm.
+I: Und zu welchem Moderator, zu was das zugeordnet ist.
+R: Okay.
+I: Aber den gesamten Artikel gibt es nicht.
+R: Nee, passt schon.
+I: Gibt's hier ein Artikel auch oder sind das nur die Kommentare?
+I: Äh es gibt nur die die Artikel Überschrift.
+R: Mhm.
+I: Und zu welchem Moderator, zu was das zugeordnet ist.
+R: Okay.
+I: Aber den gesamten Artikel gibt es nicht.
+R: Nee, passt schon.
+R: Muss man Gabalier kennen?
+I: Ne?
+R: Ist kennst du auch nicht schlimm. Das kannst du jetzt auch nicht.
+I: Ja.
+R: Ist halt irgendwie ein Musiker, ne?
+I: Österreichischer.
+R: Mhm.
+I: Ja, mystischer Volksmusiker.
+R: Mhm.
+R: Muss man Gabalier kennen?
+I: Ne?
+R: Ist kennst du auch nicht schlimm. Das kannst du jetzt auch nicht.
+I: Ja.
+R: Ist halt irgendwie ein Musiker, ne?
+I: Österreichischer.
+R: Mhm.
+I: Ja, mystischer Volksmusiker.
+R: Mhm.
+R: Wow.
+R: Kampfkuscheler.
+I: Hä?
+R: Es geht gerade um die Hunde.
+I: Ja.
+R: Wenn deren Kampfkuscheler nicht sympathisch ist.
+R: Muss man Gabalier kennen?
+I: Ne?
+R: Ist kennst du auch nicht schlimm. Das kannst du jetzt auch nicht.
+I: Ja.
+R: Ist halt irgendwie ein Musiker, ne?
+I: Österreichischer.
+R: Mhm.
+I: Ja, mystischer Volksmusiker.
+R: Mhm.
+R: Okay, jetzt die andere Seite.
+I: Du kannst es auch rüber schieben.
+R: Ich checke ich das jetzt richtig, dass in all diesen Themen war das immer der gleiche User, also eine Person oder war das pro der Analyse Zielnutzer eine Person.
+I: Mhm.
+R: Okay, also der hat alle diese Kommentare hinterlassen.
+I: Genau. Also außer natürlich die hier von den anderen, das sind halt User 1 2 3 4 5.
+R: Ja klar, okay.
+I: Aber das war quasi ein Typ.
+R: Mhm.
+I: Ja, genau.
+R: Der hat auf jeden Fall viel Zeit, dass er so viel kommentiert.
+I: Ja.
+R: Viel Ahnung offenbar. Viel Ahnung und genau, in der Analyse steht ja auch was dazu, was der Zeitrahmen zeitlicher Rahmen ist und so weiter, ne?
+I: Ja.
+I: Passt jetzt bist du durch mit Lesen?
+R: Ich bin durch mit Lesen. Ich habe halt erst am Ende gecheckt, dass es alles vom gleichen Typen sind, aber jetzt habe ich mir noch mal angeguckt und jetzt ja.
+I: Okay. Ja, verstehe es, das sind ja auch verschiedene Themen, ne?
+R: Mhm. Ja, vor allem man erkennt richtig, dass also ich habe das Gefühl so für politische Themen äh ist er eher nicht so konstruktiv, sondern halt eher auf emotionalem Level antwortet er da auf Sachen.
+I: Mhm.
+R: Und z.B. dann dieser Text über Buddhismus, da ist er ja sehr äh gewandt, sage ich mal und offenbar auch also da sieht er halt auch ein, wenn er falsch liegt. Woran konkret hast du das jetzt bei diesen Politik Kommentaren festgemacht, dass er da quasi ja, wie du gesagt hast, so aufgebrachter ist oder?
+R: Ja, dass er einfach so z.B. dann diesen Kommentar mit dem Dickpick z.B.
+I: Mhm.
+R: Äh ist halt nicht ansatzweise so äh konstruktiv wie diese Diskussion, die er vorher geführt hat, ne? Also das ist einfach so für mich so ein emotionales Outlet, dass er da jetzt was sagen musste.
+I: Okay, ja. Ähm fangen wir vielleicht erstmal noch mal bei den also schreib gerne einfach noch mal kurz, was du gerade gemacht hast. Was hast du schon gesagt, du hast du hast zuerst die links gelesen, dann die Analyse. Wie würdest du das Material so einfach beschreiben?
+R: Du meinst jetzt im Bezug zueinander oder was?
+I: Nee, einfach nur, was du gelesen hast, also was es quasi war, was sind das für Sachen?
+R: Ja, halt die Artikel. Das ist halt offensichtlich einfach eine sehr oft einfach eine Diskussion, die dann auch ähm durch unterschiedliche User auch immer wieder aufgepusht wird.
+I: Mhm.
+R: Vor allem auch finde ich durch diesen Analysezielnutzer. Der oft dann Kommentare bringt, die halt auch die anderen User irgendwie, ich weiß nicht, ob es verärgert oder halt aber auf jeden Fall diese Diskussion anheizt im Endeffekt.
+I: Okay. Ja. Also das macht schon Sinn, wie das jetzt auch analysiert wurde, finde ich. Ähm ja. Für mich hat irgendwie auch diesen Beigeschmack, dass der scheinbar extrem viel auf diesen Foren unterwegs ist, auch wenn man sich anguckt, also sind ja schon sehr diese Diskussionen, die die führen, die äh das ist ja schon sehr schneller Schlagabtausch, sage ich mal.
+I: Mhm. Woran erkennst du das?
+R: Ja, an den Zeiten halt.
+I: Ja, okay. Ähm Wie ist denn das genau, also der inhaltliche Rahmen. Das hast du ja schon gesagt, ne, verschiedene Diskussionen. Ähm und zu der Struktur dieser Kontextsphäre, das hast du ja auch schon gesagt, ist es jetzt quasi war es jetzt nicht von vornherein klar, dass das eine Person ist.
+R: Mhm.
+I: Okay. Ähm dann genau, du hast ja schon ein paar Eindrücke erzählt. Äh gibt es etwas, also was ist dir beim Lesen so durch den Kopf gegangen, als du dir die Kommentare angeguckt hast und mit der dazugehörigen Analyse. Also was hast du da gedacht, als du das gelesen hast?
+R: Also bei manchen Artikeln habe ich das Gefühl, dass der Analysezielnutzer eher provozieren will. Ähm und dann bei anderen aber auch einfach nur seine eigene Meinung forzieren will. Also so äh dass es ihm vielleicht gar nicht unbedingt darum geht ähm andere Leute zu überzeugen, sondern eher einfach nur sein sich äußern will, also so ein Sprachrohr im Endeffekt.
+I: Okay.
+R: Also diese Plattform nutzt, um sich Gehör zu verschaffen.
+I: Ja. Ist dir bei den Kommentaren irgendetwas Besonderes in Erinnerung geblieben, so im speziellen?
+R: Ähm Ja, wie das in der Analyse auch schon gesagt wird, dass er halt oft so vielleicht unndurchdachte Kommentare abgibt und dann im Nachhinein das Ganze äh argumentiert, warum er das so gesagt hat.
+I: Mhm.
+R: Das ist relativ oft, finde ich. Vor allem auch bei diesem Artikel mit den Hundeliebhabern, dass er halt erstmal so voll reingeht und gegen eine bestimmte Zielgruppe schießt und dann halt danach sagt und das relativiert.
+I: Mhm.
+R: Und versucht das irgendwie so ja, nicht ganz so aggressiv da stehen zu lassen.
+I: Okay. Ähm Also oft einfach, glaube ich, diese kurzen Kommentare sind relativ emotional geladen und dann halt, wenn es ausführlicher wird, geht's mehr in die ähm ja, wie heißt das so, wenn man sich selbst hinterfragt halt.
+I: in die Reflektion.
+R: In die Reflektion, genau.
+I: Ja. Okay. Können wir uns jetzt mal der Analyse zuwenden. paar Sachen hast du ja schon dazu gesagt. Ähm gibt es etwas, was dir besonders oder etwas, was dir positiv bzw. auch negativ aufgefallen ist, als du die gelesen hast.
+R: Was meinst du jetzt mit positiv aufgefallen? Also wo ich zustimme oder wo ich einfach.
+I: Genau, also du hast ja die Kommentare zuerst angeguckt und die Analyse basiert ja auf den Kommentaren. Mhm. Äh gibt es etwas, wo du sagst, das sehe ich nicht so oder gibt es Sachen gut, du hast ja schon gesagt, dass mit dem dass er halt wieder zurückrudert, ne und revidiert, dass das so auch in der Analyse steht, aber gibt's auch Sachen, wo du sagst, stimme ich nicht zu?
+R: Na, an sich finde ich das schon relativ akkurat. diese Verspieltheit von dem Witz weiß ich z.B. nicht. Ich könnte mir auch vorstellen, dass er den Witz einfach irgendwo kopiert hat und eingefügt hat.
+I: Mhm.
+R: Äh ich würde jetzt nicht sagen, dass man an den Kommentaren erkennen kann, dass der halt Humor hat per se.
+I: Okay. Ähm Ja, wobei es schon Ich weiß nicht, in der Unterhaltung, ich könnte mir halt vorstellen, dass er das so schriftlich gut kann, aber ob er das halt in der Face-to-face Unterhaltung so könnte, glaube ich nicht. Also es ist schon so hat so ein bisschen Beigeschmack von so ja, so ein Forum Typen halt, der da sitzt und versucht irgendwie Aufmerksamkeit zu bekommen.
+I: Woran woran machst du das fest?
+R: Ja, vielleicht ist es auch einfach meine Ansicht davon, wenn man so viel in solchen Foren unterwegs ist und viel also zu jedem Thema Kommentare hat. Also, dass man zu allen Dingen eine Meinung hat, das ist irgendwie auch immer schon ein Zeichen dafür, dass vielleicht Leute auch nach Gehör suchen.
+I: Das heißt die es geht nicht zwangsläufig um die Menge der Kommentare, die er schreibt, sondern auch, dass er so ein breites Spektrum an Themen bedient.
+R: Genau.
+I: Okay, ja. Ähm ja, vielleicht noch als Einordnung, also das ist er schreibt natürlich auch viele Kommentare, aber es gibt sehr viele Leute diesem Forum, die auch eine ähnliche Anzahl an Kommentaren schreiben, das heißt, er ist jetzt da kein Einzelfall.
+R: Mhm. Also ist das auch so eine richtige Community dann, dass die sich untereinander auch kennen schon so beim oder ist das auch anonymisiert das Forum?
+I: Es ist nicht anonymisiert das Forum.
+R: Ja.
+I: Aber ich kann dir nicht sagen, ob die sich wirklich kennen.
+R: Ja, nee, klar.
+I: Ja. Gibt's da so eine Art Score irgendwie, dass wie mehr du kommentierst, desto höher ist dein sowas gibt's ja in ähnlichen Foren.
+R: Nee, das gibt's nicht, ne.
+I: Okay. Also, dann ist es z.B. finde ich schon nicht äh in anderen Foren habe ich oft das Gefühl, dass halt so kommentiert wird einfach um so ein Score zu bekommen, dass man halt versucht irgendwie so eine ähm Reputation.
+R: Genau, dass du halt irgendwann so da einer der Top Tiere bist, sage ich mal.
+I: Ja. Aber wenn das nicht der Fall ist, dann ist es schon eher ja, dass es ihm auch um die Inhalte geht so ein bisschen. Also nicht rein um Hauptsache, ich kommentiere alles.
+I: Okay, also wenn wir jetzt noch mal auf zurückgehen zu der Analyse Mhm. und die Kommentare, die dazu stehen, würdest du sagen, dass diese Humor Sache jetzt dir nicht so stark aufgefallen ist, wie es in der Analyse dargestellt wird? Ähm Genau.
+R: Ja, doch, an sich schon. Also es ist je nach Thema, würde ich sagen. Also ich habe das Gefühl, je politischer das Thema oder je ähm je weiter er sich von dieser politischen Meinung des Themen des Artikels, glaube ich, entfernt befindet mit seiner Meinung, desto äh sarkastischer wird er auch.
+I: Okay. Ähm das heißt die so eine overall quasi Bewertung von der Analyse, das hast du jetzt schon gesagt, akkurat, also du stimmst dem zu oder gibt es wirklich noch einen Punkt, wo du sagst, ne, sehe ich nicht so.
+R: Dass es generell eine negative Einstellung ist, das würde ich jetzt nicht sagen. Mhm. Allein dadurch, dass er halt so diese dieses ähm äh das zumindestens Spaß machen kann. Das zeugt ja schon davon, dass er nicht nur also dass er so eine pur negative Einstellung hat. Also er kann ja schon noch reflektieren und ähm das so auf die Schippe nehmen können, das ist ja auch ein Zeichen dafür, dass er nicht komplett ähm in seiner äh politischen Ansicht gefangen ist.
+I: Ja, okay. Das heißt das das Ding, wo steht quasi eine eher negative Haltung und das Thema ähm ja, eigentlich das, ne?
+R: Ja, also ich finde nicht, dass so Humor und Sarkasmus tendenziell davon zeugen, dass es eine negative Einstellung ist.
+I: Okay. Ähm dann wenn ich jetzt wir das jetzt mal die bzw. so dieses mit dem Crackpot, wie es hier bezeichnet wird, dieser Schwurbler, da ist es schon negativ aufgeladen offensichtlich, weil das halt im Endeffekt eine Beleidigung ist und er sich offensichtlich auch nicht damit identifizieren kann. Also er ist schon sehr anti, aber ja.
+I: Okay. Ähm in der Analyse werden ja auch Schlussfolgerungen getroffen, warum die Sachen so beobachtet wurden. Würdest du grundsätzlich mit den Schlussfolgerungen findest du die nachvollziehbar, wie sie beschrieben sind in der Analyse?
+R: Kannst du noch mal die Frage wiederholen?
+I: In der also wie nachvollziehbar findest du die Schlussfolgerungen, die in der Analyse getroffen werden?
+R: Ja, ich finde das schon passend eigentlich. Okay. Würdest du sagen, also inwiefern wird der Kontext in der Analyse oder der Kontext der Kommentare berücksichtigt?
+R: Nicht zu stark. Also es ist äh es stützt sich schon sehr viel auf diese sarkastischen Sachen und diesen diesen Witz, also den Humor, den er einbringt. Ähm dass er jetzt z.B. bei diesem dieser Diskussion über buddhistische Mönche ähm ja auch sehr wortgewandt ist, das wird z.B. jetzt gar nicht groß betrachtet, habe ich das Gefühl in der Analyse.
+I: Kontext ist auch gemeint z.B. die anderen Teilnehmer in dem Forum.
+R: Ja. Und generell auch also der zeitliche Rahmen und so weiter.
+R: Ja, man hat halt schon den Eindruck, dass er immer direkt äh freischnauze auf die Sachen antwortet. Also es ist jetzt nicht, als würde er sich hinsetzen jetzt zu dem Thema recherchieren und dann erst danach schreibt.
+I: Okay. Also vor allem bei dieser Buddhismus Diskussion sind das ja relativ enge Zeitfenster. Aber nichtsdestotrotz, das ist halt der Punkt bei so einem Forum finde ich, dass du die Möglichkeit hast, dann noch nebenher erstmal nachzuschauen, ob du wirklich recht hast und dann halt die Antwort geben kannst. Also da sind z.B. ähm Ja, er steigt halt bei dieser Buddhismus Diskussion ersten Tag später ein mit diesem Kommentar New Age Schwurbler und heizt dann halt im Endeffekt diese Diskussion wieder an und diskutiert eigentlich auch nur mit einem User die ganze Zeit dann.
+I: Okay. War das jetzt eine Antwort auf deine Frage nicht so richtig, ne?
+R: Doch schon.
+I: Ich würde aber auch interessieren, ob sich dieser Kontext quasi, das hin und her zwischen Usern, was du auch geschrieben hast mit den Zeiten. Äh du hast ja auch gesagt, der steigt dann immer sehr stark ein, ne? Ob sich das halt in irgendeiner Form in der Analyse widerspiegelt, dass dieser Kontext des Back and Forth zwischen halt Usern auch widerspiegelt in irgendeiner Form.
+R: Ja, the Interaction Dynamics halt. The user readily engages in debates often escalating the intensity with counter arguments and challenges. However they also demonstrate capacity for deescalation and reflection as seen in an instance where ja. Okay. Also es wird schon angebracht.
+I: Gut, dann kommen wir zu der letzten Frage bezüglich der jetzt spezifisch Analyse und das ist, wie würdest du sagen, unterscheidet sich diese Form der Analyse, also in geschriebenem Text jetzt hier von einer einfachen Kategorisierung, äh dass halt einzelne Kommentare genommen werden und dann wird gesagt, dieser Kommentar ist positiv, dieser Kommentar ist negativ. Ähm Was ist da so der der Unterschied?
+R: Ja, ich finde eigentlich, dass die Analyse jetzt nicht wertend ist. Also sie bewertet halt natürlich, wie er wie er redet, aber es jetzt noch es ist wird jetzt nicht groß auf positiv oder negativ eingegangen. Es wird ja jegliche Richtung betrachtet. Also dass er halt auch die Kapazität für Deeskalation hat und Reflektion ist ja eher eine positive Eigenschaft, würde ich sagen. Mhm. Und auch, dass man das halt mit Humor nehmen kann, solche politischen ähm Diskussionen, ohne halt auf eine ja, dass er halt nicht wirklich beleidigend wird, sondern halt das dann halt mit Sarkasmus unterstreicht, dass er halt nicht nicht äh der gleichen Meinung ist.
+I: Ja. Okay. Ähm dann kommen wir mal zu der praktischen Relevanz. Ich meine, es ist ja auch ein Forum, was so existiert und in solchen Foren gibt es ja auch häufiger mal äh Content Moderatoren Mhm. und du kannst dich jetzt mal in die Rolle versetzen, dass du so ein Content Moderator wärst und du müsstest halt dieses Forum moderieren. Ähm wie würdest du oder würdest du überhaupt z.B. die Analyse einsetzen wollen oder würdest du dich eher auf die Kommentare berufen? Würdest du beides verwenden? Wie würdest du vorgehen?
+R: Ja, es kommt so ein bisschen auf die Regeln auch an in so einem Forum, würde ich sagen. Ähm Ja, so Hm. Ich finde es halt ein bisschen schwierig, wenn du als Moderator für jeden User sowas anwenden müsstest, aber das wäre dann wahrscheinlich KI gesteuert, oder? Wie wie würdest du wie würdest du meinen, dass der Report angewendet wird?
+I: Ähm also kannst du dir vorstellen, dass man so eine Analyse für die Moderation von Onlinekommentaren verwendet und Online Diskussion, dass man das generell einsetzt, ne?
+R: Ja. Die Alternative dazu ist natürlich, dass man sich immer die originalen Kommentare anguckt. Hier ist jetzt beides vorhanden, aber natürlich auch in der Kontextsphäre in der gekürzten Form, ne? Weil ähm der Analyse wird ja irgendwo so lange beobachtet, bis er nicht mehr kommentiert, danach ist es ja quasi offen, ne? Mhm. Ja, ich glaube einfach im so Thematik Free Speech ist es in Ordnung, wenn man so jemanden so analysiert, aber ich finde jetzt nicht, dass man das auch benutzen sollte, um dann irgendwie zu zu zensieren oder den Leuten halt irgendwie verbieten sollte so sarkastisch sarkastisch zu sein.
+I: Es geht jetzt auch nicht darum, dass du den sperren sollst deswegen, sondern das kann ja auch eine Analyse über andere Person sein oder vielleicht findet sich das die Person sehr negativ auffällt durch bestimmte Sachen. Es geht einfach.
+R: Ich wüsste jetzt nicht, was es halt für ein Mehrwert für die Moderation hätte. Also wenn du vor allem den Leuten halt nicht irgendwas verbieten möchtest.
+I: Also es geht nur darum, würdest du jetzt eher die die Kontextsphäre lesen oder die Originalkommentare oder würdest du eher oder gibt es für dich irgendeinen Grund auch zu der Analyse zugreifen?
+R: Ja, wenn man halt in so einem großen Kontext wissen will, wie die Leute generell in solchen Zeitungen, ich meine, der Standard ist ja jetzt z.B. eine sehr politische, aber jetzt gar nicht mal rechts oder links, sondern so würde ich sagen, die Mitte abbildet. Mhm. Äh um das auch zu analysieren, ob die Leser auch mittig oder was für eine politische Einstellung die haben.
+I: Okay. Oder ob die überhaupt so fähig sind, wie diese Person jetzt z.B. zu Sarkasmus oder ob da jetzt einfach nur ja, politische Propaganda rezitiert wird oder Das heißt, der Einsatz wäre eher auf einer generellen Ebene bezogen, um sich überhaupt mal einen Überblick zu verschaffen.
+R: Genau.
+I: Ja. Ähm Genau, wo würdest du Verbesserungspotenzial sehen für diese praktische Anwendung? Ähm Was würdest du dir quasi wünschen, was vielleicht bei der Analyse besser besser durchkommen soll, besser gemacht werden sollte, vor allem, weil du ja jetzt auch die Originalkommentare alle gelesen hast.
+R: Mhm.
+I: Ne? Ähm ja.
+R: Schwierig. Also, ich glaube halt, um das dann auswerten zu können, müsste dann irgendwie noch ein Wertesysstem da vielleicht so ein Schieberegler, wo die Leute sich befinden. Je nachdem, je nach Thema ist es halt auch wieder individuell, ne? Wenn es jetzt um Politik geht, sind die Leute eher links, rechts, mittig. Mhm. Das heißt, du würdest dir schon noch eine verkürzte.
+R: Ja, ich finde es halt, wenn du wirklich jeden User so betrachten würdest, ist es einfach zu aufwendig, sich das pro User so ein so ein Report erstmal anzulegen, klar, aber wenn das dann irgendwann automatisiert werden könnte, selbst sich die dann durchzulesen alle, ist noch zu generell, also ich finde wahrscheinlich ist es gut, dass die Leute nicht in Schubladen gesteckt werden mit dieser Analyse, aber denn den analytischen Mehrwert weiß ich jetzt nicht, wenn man das auf eine größere Menge betrachtet, ob das ob der gegeben ist.
+I: Mhm.
+R: Weil es halt sehr generell gehalten wird.
+I: Mhm.
+I: Okay, ähm kommen wir zur abschließenden Reflektion. Mhm. Äh was sind deiner Meinung nach die Stärken und Grenzen auch dieser Emotionsanalyse, paar Themen hast du schon genannt, ne? Dass es halt generell ist. Äh fallen dir noch andere Sachen ein pro Kontra?
+R: Pro ist auf jeden Fall, dass es sehr ausgiebig analysiert wird. Also es dass es halt nicht in eine Richtung geht, sondern auch positive Aspekte aufgenommen werden. Ähm Ja, die Sprache an sich wird berücksichtigt, die Kultur wird kultureller Framework wird berücksichtigt. Die Dynamik an sich ist es schon sehr ausgiebig. Vielleicht in dem Sinne schon wieder dann zu ausgiebig, wenn man es halt auf Masse betrachtet betrachten würde.
+I: Das wäre quasi eine Grenze. Du sagst, es ist zu viel.
+R: Ja, wenn man sich halt auch anschaut pro Artikel sind es meistens irgendwie 400 Kommentare, wenn man dann jeden so analysieren würde, das ist sehr umfangreich einfach. Mhm. Und das dann halt irgendwie in einem in der Datensammlung zu generalisieren oder irgendwie einzuschätzen, finde ich schwierig. Also individuell machen die Reports richtig Sinn, glaube ich, aber also wenn man jetzt einen User genau betrachten will, dann ist es super, aber so um generelles Bild von den Foren Usern zu generieren ist, glaube ich, ein bisschen schwierig.
+I: Okay. Ähm gibt es noch weitere Anwendungsmöglichkeiten, die du siehst für diese Art der Analyse, also, dass man quasi etwas sich eine Person, wie du auch gesagt hast, anguckt und dann ausführlich beschreibt von verschieden Seiten abseits jetzt von diesem Forum.
+R: Ja, ich könnte mir vorstellen, dass es so im Corporate Leben vielleicht gar nicht schlecht ist, wenn man so E-Mail Verkehr so analysieren könnte.
+I: Mhm. Dass man dann irgendwie bei seinen Ich weiß nicht. Jetzt in meiner Branche z.B., wenn du E-Mail Verkehr mit dem Bauherrn hast, um zu erkennen, wie seine emotionale Lage sind.
+I: Okay. Also ob der dann mal einen schlechten Tag hat, würde man, glaube ich, ganz gut erkennen an so E-Mails oder ob äh welche Themen ihn wirklich stören z.B.. Oder ob es halt ähm ja, wenn es dann mal zu einem Streit in dem E-Mail Verkehr kommt, ob es der ob der Grund emotional basiert ist oder halt wirklich faktisch basiert ist. Das könnte, glaube ich, eine gute Anwendung sein für sowas.
+I: Mhm. Ähm gibt es noch etwas, was du ergänzen möchtest zu dem Thema als letzte Frage?
+R: Ergänzen. Hm. Ja, ich frage mich jetzt, wie du diesen Report aufgestellt hast, also unter welchen Parametern das stattgefunden hat.
+I: Die Analyse?
+R: Ja. Hast du die jetzt händisch gemacht oder war das auf einem Modell basiert?
+I: Das ist eine komplett automatisierte Analyse.
+R: Mhm.
+I: Das die das heißt, diese Analyse kann auch für alle anderen 23 925 Nutzer erstellt werden in dem Zeitraum Mai 2019 und die basiert äh vollständig auf der Kontextsphäre.
+R: Mhm.
+I: Die du quasi gelesen hast. Das heißt, die Analyse ist ist halt ein Resultat äh von der Kontextsphäre, genauso wie deine Analyse jetzt auch das Resultat der Kontextsphäre gewesen ist.
+R: Ja.
+I: Ja. Genau, das ist die Herangehensweise.
+R: Ja, finde ich schon sehr präzise auf jeden Fall. Wenn das jetzt mich würde mal interessieren, wie das dann für andere User aussieht. Also die z.B. nicht diese Kapazitäten von Reflektion haben oder nicht dieses breite Spektrum bedienen, sondern vielleicht wirklich nur auf politische oder nur auf FPÖ Kommentare eingehen oder nur auf linkspolitische Kommentare eingehen, wie da dann halt die die Analyse der Analyse Output ist. Ob der dann so breitgreifend ist oder ob das dann wirklich auch vielleicht in der in der Schublade gesteckt wird.
+I: Mhm.
+R: Okay. Ja.
+R: Spannend.
+I: Gut. Vielen Dank.
+R: Gerne.

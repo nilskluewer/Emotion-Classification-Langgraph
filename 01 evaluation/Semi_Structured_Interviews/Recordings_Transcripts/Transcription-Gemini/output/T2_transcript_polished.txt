@@ -1,0 +1,102 @@
+I: Okay. Ja, hallo. Herzlich willkommen zu diesem Interview. Vielen Dank für deine Teilnahme. Im Rahmen meiner Masterarbeit möchte ich dich interviewen und im Zwecke dessen wird das Interview aufgezeichnet und von einem Sprachmodell transkribiert. Deine Daten werden anonymisiert und vertraulich behandelt und nur für Forschungszwecke im Rahmen der Masterthese verwendet. Bist du damit einverstanden?
+R: Ja.
+I: Okay. Dann fangen wir mal mit den Basics an. Wie alt bist du?
+R: Ich bin 27 Jahre alt.
+I: Okay, und was ist dein höchster Bildungsgrad oder abgeschlossener Ausbildung?
+R: Masterabschluss.
+I: In?
+R: Psychologie.
+I: Okay, und sprichst du die beiden Sprachen Englisch und Deutsch?
+R: Ja.
+I: Okay, und Deutsch als Muttersprache und Englisch als Zweitsprache.
+R: Genau.
+I: Okay, super. Also dieses Interview untersucht, also wir so (..) ich untersuche in der Masterthese einen neuen Ansatz, wo Emotionen in Online Kommentaren analysiert werden und anders als bisherige Systeme werden die Kommentare nicht in feste Kategorien, wie z.B. wütend, traurig, positiv, negativ, also einfache Kategorien genutzt, sondern wir nutzen ein Language Modell, um die Emotionen im Kontext zu verstehen und auch zu analysieren. So. Und du hast jetzt zwei Dokumente vor dir. Das eine ist eine Sammlung von Online Kommentaren eines einer anonymisierten Person, das ist die Kontextsphäre. Das zweite ist eine Analysebericht von dieser Person, was durch ein KI-System erstellt wurde. Und im Folgenden wird der Analysezielnutzer ist quasi das Subjekt der Analyse. Was wirst du im Report finden, aber also in der Analyse finden, aber auch in dieser Kontextsphäre. Nur als Hinweis in der Kontextsphäre wird am Anfang beschrieben, was eben in der Kontextsphäre drin ist und was nicht. Du hast aber jederzeit die Option mich einfach zu fragen, wenn es halt Verständisprobleme gibt, z.B. über die Struktur, wie etwas verschiedenes zu verstehen ist und so weiter, also kannst alles fragen. Und andere User sind als User X, also User mit Nummer gekennzeichnet.
+R: Okay.
+I: Und in dem Fall z.B. taucht der Analysezielnutzer nicht jetzt direkt am Anfang auf, wie du vielleicht siehst, sondern da erstmal andere User und irgendwann kommt dann auch der Analysezielnutzer. Und deine Aufgabe ist es jetzt, die beiden Dokumente zu lesen und danach werde ich dir ein paar Fragen dazu stellen und es geht einfach darum, ja, dass du dir das mal anguckst und wir einfach uns danach ein bisschen drüber unterhalten können. Du kannst auch ein Übersetzungstool zur Hilfe nehmen, wenn bestimmte Vokabeln unklar sind. Genau, und du hast jetzt Zeit, nicht wundern, das sind relativ viele Kommentare. Du wirst also wahrscheinlich eine gewisse Zeit brauchen, um die gesamte Kontextsphäre lesen zu können.
+R: Okay.
+I: Ja. Das heißt, ich lese erst die Kontextsphäre und danach die Analyse, ne?
+I: Genau, so kannst du es machen. Ja.
+R: Okay.
+I: Dann fange ich an.
+I: Okay.
+(Stille)
+R: Ist jetzt eine Partei?
+I: Bitte, noch mal?
+R: Ist sie jetzt eine Partei in Österreich gewesen oder war? Oder ist sie jetzt oder ist das eine (..) also die sagen (..) ja oder eine Person, am Ende wird so oft von jetzt gesprochen.
+I: Ja, das muss ich mal reingucken.
+R: Vogelhuber mit der Hoffnung von jetzt z.B. also ganz am Ende.
+I: Hoffnung.
+R: Hoffnung von jetzt.
+R: Und jetzt lernen und so, die sprechen so von jetzt.
+I: Genau, das ist (..) das ist eine Partei, ja.
+R: Okay.
+I: Gut, ich bin mit dem jetzt fertig, ich lese jetzt die Analyse.
+I: Mhm.
+(Stille)
+R: Okay.
+I: Kannst du erstmal noch mal in deinen eigenen Worten sagen, was du gerade gemacht hast und wie du das Material beschreiben würdest?
+R: Okay. Ich habe mir erst den Auszug von den verschiedenen Kommentaren aus dem Standard durchgelesen und immer auch darauf geachtet, von wem jetzt welche Aussage kommt bzw. genauer drauf geachtet, wenn Analysezielnutzer da stand. Genau und mir schon währenddessen so ein bisschen versucht eine Meinung zu bilden, wie jetzt so (..) wie er auf die Antworten reagiert und wie er so allgemein, also ob es Unterschiede zu den verschiedenen Themen gibt, wie er da reagiert, (..) genau, ob das immer sehr ähnlich ist. Genau, die dann versucht sorgsam zu lesen. Genau, und danach habe ich mir die Analyse durchgelesen und geguckt, dass du mit meinen Gedanken so übereinstimmt hat.
+I: Mhm.
+R: Übereingestimmt hat. Und was jetzt die AI da quasi anders gemacht hat oder noch noch extra quasi sich gedacht hat hat. Genau.
+I: Hast du das Gefühl, dir fehlt noch irgendeine Art Kontext, um die Kommentare oder eben auch die Person zu verstehen, also quasi zu beobachten, was was die Person da geschrieben hat und die anderen Teilnehmer?
+R: Ob mir der Kontext noch fehlt?
+I: Mhm, ob dir quasi was gefehlt hat, was dir du gesagt hättest, das hätte ich jetzt gerne noch gewusst, um besser eine bestimmte Komponente verstehen zu können.
+R: Ja, vielleicht manchmal ein bisschen Hintergrundinformationen. Also ich konnte jetzt z.B. bei dem Buddhismus jetzt wusste ich nicht, was da jetzt genau stimmt und was nicht. Und auch mit der, also am Ende war das ja hauptsächlich politische Kontexte. Da musste ich jetzt, also da konnte ich manche Namen nicht und wusste jetzt nicht in welche, also von Politikern in welche, also ob die jetzt eher links oder rechts einzuordnen sind auf dem politischen Spektrum. Genau.
+I: Ja.
+R: Ja.
+I: Okay. Dann lass uns noch mal über die so deine ersten Eindrücke sprechen. Du hast ja jetzt komplett gelesen. Was ist dir dabei gelesen der Kommentare und der dazugehörigen Analyse so durch den Kopf gegangen oder aufgefallen?
+R: Was mir eigentlich relativ am Anfang schon aufgefallen ist und was dann auch die Analyse bestätigt hat, ist so, dass (..) können sich so auch zu entschuldigen oder zu sagen, ah, das war nicht richtig von mir, dass habe ich, hätte man auch anders interpretieren können, also diese Selbstreflektion und dann auch eingestehen, dass man vielleicht bisschen vorschnell schon argumentiert hat oder jemanden da beschrieben hat oder so. Also das zieht sich eigentlich so durch die verschiedenen Themen auch, dass man dann oder dass der User da gesagt hat, ah, nee, okay, das dein Punkt macht auch Sinn und dass ich so ein bisschen eingestehe einzustehen. Und diese Humor Fähigkeit oder auch zum Teil recht zynische Witze (..) genau, findet man eigentlich auch in allen in allen Themen.
+I: Hast du da ein konkretes Beispiel, wo du sagst, das ist mir besonders hängen geblieben jetzt konkret am Kommentar?
+R: Mhm.
+I: Ein bestimmten Kommentar oder so.
+R: Also, wo ich auch so ein bisschen laut aufmachen musste, war es ganz am Ende mit diesem Touristenwitz, der war so ein bisschen stumpf, aber es war halt so ein expliziter Witz. Und was war noch?
+I: Was war der Touristenwitz?
+R: Äh ach so, dass da die Leute, also da die Touristen in Wien Polizisten fragen, ob sie Englisch sprechen und dann sagen die so, nee, und ob sie Französisch sprechen würde, dann sagen sie auch nee, und dann gehen sie so und dann sagen die Polizisten, ja, (..) ja, was bringt einem das, wenn man so viele Sprachen spricht, wenn man sich dann eh nicht weiterhelfen kann oder so. Also genau.
+I: Ja.
+R: Okay, ja.
+I: Ja. Genau, es sind immer mal wieder so so ein bisschen so in Klammern oder mit so einem Spiegelstrich immer mal so ein bisschen so sarkastische Bemerkungen und so. Mhm. Die manchmal den den Kommentaren auch so finde ich so eine gewisse Leichtigkeit geben, weil es nicht so bitter ernst und beleidigend ist, sondern dann auch immer mal wieder so ein Witz da eingebaut wird.
+I: Ja. Wie hast du denn die Diskussionen in diesem in den Kommentaren wahrgenommen oder in dem Forum oder mit seinem auch beteiligt war? Ja.
+R: Mhm.
+I: Also natürlich bezogen auf den Analysezielnutzer, ne?
+R: Mhm.
+I: Aber der ist ja in jeder Diskussion quasi vorhanden.
+R: Also er ist immer recht, also steigt immer tief ein und ist auch so sehr direkt und hat jetzt keine Konfliktscheu, finde ich. Also es sind schon immer sehr direkte und auch so stichelnde ja, Kommentare. Aber ich finde, es wird auch immer versucht so da Fakten reinzuholen und Sachen zu belegen. Und (..) genau so ein bisschen (..) ja, wie gesagt, so Fakten einfach mit also Informationen so zu validieren. Aber ja, auch so bei diesen Gabalier Kommentaren, dann ist es auch immer sehr, also sehr stumpf und halt einfach so eine persönliche Meinung, ob man die Musik jetzt gut findet oder nicht oder so. Also genau, natürlich auch so ein bisschen, aber so die allgemeine Stimmung finde ich schon eher eher respektvoll. Ich kenne mich jetzt nicht so aus, wie sonst die Kommentarspalten irgendwo im Internet aussehen. Aber vom Gefühl her war es schon (..) halbwegs respektvoll und da wurde jetzt keiner so sehr persönlich beleidigt oder so.
+I: Ja, okay. Wenn wir uns jetzt mal der Analyse zuwenden, was ist dir da positiv, negativ aufgefallen? Du hast vorhin schon erwähnt, dass du zuerst die Kontextsphäre gelesen hast und dann die Analyse, um dann irgendwie zu checken, ob ob das mit deiner mit deinen Beobachtungen übereinstimmt.
+R: Mhm. Ja, also ich fand die Analyse hat so mein Bild bestätigt, dieses mit Selbstreflektion und Humor und so, was mir auch aufgefallen ist. Dann fand ich aber interessant, also die Analyse ist noch ein bisschen mehr auf so Affektivität eingegangen, als jetzt ich beim Durchlesen, dass es halt schon eher negative Affektivität ist und das ist mir dann im Nachhinein oder konnte ich dann so im Nachhinein auch sehen, dass es meistens immer um so ein bisschen negative also so negative Negativität so im Zentrum stand und jetzt selten über so positive Sachen irgendwie kommentiert wurde oder so positiv dieser positive Affekt irgendwie eingebaut war. Also, das fand ich gut und sonst (..) genau, dass halt auch immer so konkrete Beispiele eingebaut wurden, wo man das dann noch mal besser nachvollziehen konnte.
+I: Mhm.
+R: Genau, und dass (..) ja, dass z.B. die Analyse auch sagt, dass natürlich (..) so dieser kulturelle Kontext, also in welchem Zeitgeist bewegen uns gerade, dass gerade die Ibiza Affäre halt da in 2019 so präsent war und so, dass das natürlich sich voll auch widerspiegelt in den Kommentaren, vielleicht auch bei Themen, die jetzt nicht konkret über die Ibiza Affäre gehen oder so, aber natürlich dieser breitere Kontext mit dem, was gerade im Land los ist oder in der Region, wo man lebt, sich natürlich dann in die in den Kommentaren auch widerspiegeln kann. Also das fand ich einen guten Punkt auf jeden Fall noch.
+I: Ja. Wie würdest du denn die Analyse bewerten? Du hast jetzt schon ein paar Sachen genannt. Äh wenn du jetzt das eben konkret vergleichst Kommentare und den Output des Sprachmodells ja (..) ja, wie wie bewertest du das?
+R: Also jetzt so auf einer Skala von 0 bis 10 oder einfach so allgemein?
+I: Auch allgemein, du kannst (..) Also gibt es auch einfach Sachen, wo du sagst, dass das hat sich nicht wiedergespiegelt oder das hast du gesehen, dann hast du es gelesen, hast gemerkt, oh, (..) das habe ich jetzt nicht erkannt oder das wäre mir jetzt nicht so aufgefallen.
+R: Mhm.
+I: Ja.
+R: Also ich würde sagen, so allgemein finde ich die Analyse sehr gut und auch recht (..) wie nennt man das? Recht umfangreich. Also es gab jetzt nichts, wo ich der Analyse widersprechen würde, wo ich sage, das steht da, aber das sehe ich nicht so, das auf keinen Fall. Ich würde eher sogar sagen, dass die Analyse so zwei, drei Sachen noch gesagt hat, wie mit diesem breiteren kulturellen Kontext und so, die mir jetzt nicht ad hoc eingefallen sind beim einmaligen Durchlesen der Kommentare. Genau.
+I: Okay.
+R: Ja.
+I: Wenn wir uns jetzt mal der praktischen Relevanz zuwenden und du versetzt dich in die Rolle von einer Content Moderatorin in diesem Forum. Was würdest du für die (..) für seine Rolle nutzen? Würdest du die Originalkommentare plus die Analyse nutzen oder nur eins von beidem? Äh wie würdest du damit umgehen?
+R: Da ist natürlich so eine umfangreiche und (..) dass es quasi beides parallel existieren kann, ist natürlich dann ein bisschen schwieriger, weil da muss ich mir ja selber dann trotzdem entscheiden, überschreitet das jetzt eine Grenze oder nicht, wenn wenn halt in einem Kommentar mehrere Sachen zeitgleich so stattfinden, also von Kritik zu Humor, zu Selbstreflektion und so.
+I: Ich meine jetzt auch, also du hast es jetzt Kontextsphäre plus Analyse. Mhm. Du musst es moderieren, wie würdest du quasi vorgehen?
+R: Ich glaube, ich würde mir zuerst die allgemeine Analyse durchlesen, um so einen Überblick zu kriegen, okay, das ist so die Tonalität von User X und oder vom Zielnutzer, um dann bestimmte Aussagen besser auch einschätzen zu können, wenn man weiß, okay, so macht er das oder sie das immer. Dann könnte ich mir vorstellen, dass man bestimmte Aussagen oder Kommentare schneller einordnen kann. Und schneller weiß, okay, der das ist halt seine Art und zack. Also, ich glaube, die würde auf jeden Fall helfen, um schneller da moderieren zu können und die Person schneller zu verstehen, in welche Richtung sie vielleicht auch gehen und wie das Verhalten ist oder vielleicht auch um so antizipieren zu können. Okay, da kommt jetzt so eine Art von Kommentar, wie würde die Person darauf eingehen und so. Genau, vielleicht wäre es noch hilfreich, wenn wenn noch mehr Beispiele in der Analyse genannt würden oder vielleicht zu einem Punkt auch zwei oder drei Beispiele sind, dass man das da noch ein bisschen besseres Gefühl für kriegt, wenn man sich jetzt die Kommentare selbst nicht durchlesen würde.
+I: Mhm, okay. Wenn wir jetzt mal zur abschließenden Reflexion übergehen, was sind deiner Meinung nach die Stärken und Schwächen bzw. auch einfach Grenzen von so einer Emotionsanalyse? Ja.
+R: Ich glaube, Stärken auf jeden Fall, dass man schnell so einen allgemeinen Überblick bekommt. Und, wie gesagt, Kommentare oder User vielleicht besser einschätzen kann so in so einem groben Spektrum, aber Grenzen natürlich auch, dass es jetzt nicht so Detailgetreu ist, als würde man die Kommentare alle selber lesen. Und es natürlich auch sein kann, dass es so Einzelfälle gibt, also ich weiß nicht, ob das dann die in der Analyse auch aufploppen würde, aber dass es Einzelfälle gibt, wo es vielleicht sich anders verhält. Oder also natürlich ist es trotzdem nur eine Art Modell, das kann ja auch in der Zukunft sein, dass diese Person auf irgendein Thema oder aus irgendeinem Grund ganz anders reagiert, als es jetzt in der Analyse oder bisher war. Also so die Allgemeingültigkeit für immer und für jede für jeden Fall ist natürlich nicht gegeben. Aber wie gesagt, ich glaube, es ist ein guter Überblick um so das Verhalten, das Kommentarverhalten der Person zu verstehen und auch zu verstehen, wann und in welchen Situationen oder bei welchem Thema verhält man sich so oder so, also dieser Allbezug von dem Kontext finde ich schon schon spannend und sehr wertvoll für die Analyse.
+I: Okay. Wenn du dir jetzt außerhalb dieser Content Moderation einen Anwendungsfall vorstellen würdest, fällt dir da noch ein anderer Einsatzbereich ein für diese Art der Emotionsanalyse?
+R: Außerhalb des Internets jetzt oder?
+I: Äh also es muss dann nicht mit dem der Standard Online Forum zu tun haben und das muss auch nicht unbedingt (..) also der Kontext der reingegeben wird, hier war es jetzt die Kontextsphäre, muss nicht zwangsläufig von diesem Forum stammen, sondern es könnte auch ein ein ganz anderes Feld bekleiden.
+R: Mhm. Mein erster Gedanke war jetzt so ein bisschen, ob man auch so politische Art Radikalisierung oder irgendwie sowas feststellen kann, wenn man ein Zielnutzer oder eine Zielnutzerin halt so konstant analysiert, sage ich mal, ob sich da was in dem Verhalten ändert über die Zeit. Also, dass man nicht nur sagt, okay, man macht jetzt einmal so eine Analyse, sondern man, ich weiß jetzt nicht, ob das Datenschutzmäßig irgendwie so in Ordnung geht, aber dass man halt über die Zeit immer mal Analysen macht und guckt, wie sich das auch, also wie sich das über die Zeit verhält und ob es da Änderungen gibt und dann die verschiedenen Analysen sozusagen miteinander vergleicht. War da musste ich irgendwie gerade denken.
+I: Ja.
+R: Ja.
+I: Ja, aus deinem Berufsfeld, du bist ja jetzt auch Psychologie Absolventin oder auch Emotionsanalysen. Ach so, du meinst werden ja vielen Bereichen eingesetzt. Ja. Du meinst sozusagen in einem in einer Therapiesession oder in einem Erstgespräch oder so?
+R: Ja, ich meine, dass man jetzt ein Online Forum analysiert, das ist natürlich die eine Sache, aber eben zur Emotionsanalyse per se ist ja schon eine sehr sehr alte Ja. Methodik, die man einwendet für viele Bereiche, ne?
+R: Mhm, voll. Dann könnte man das aber theoretisch ja auf auf alles irgendwie, also anwenden, ja, voll, also in im medizinischen psychologischen Kontext so für für Therapiegespräche, um zu gucken, okay, mit welchem Affektivität hat man es hier zu tun, sage ich mal, wie ist das Gegenüber, dass man sich selbst vielleicht auch darauf einstellen kann, wie man, wie man damit umgeht und wie man darauf antwortet, sage ich mal. Voll, könnte ich mir voll vorstellen.
+I: Okay.
+R: Aber auch hier wieder so quasi, um so einen allgemeinen Überblick zu kriegen und ein Gefühl dafür zu kriegen, wie die Person quasi ist und Emotionen ausdrückt oder handhabt oder so, aber auch im Detail dann oder im Einzelfall, glaube ich, dass dann so das menschliche, die menschliche Empathie oder ein also oder Verständnis auf jeden Fall genauer ist.
+I: Mhm, okay.
+R: Ja.
+I: Gibt es abschließend noch etwas, was du ergänzen möchtest oder sagen möchtest?
+R: Nee, fällt mir nichts ein. Spannendes Thema auf jeden Fall. Aber ja, man muss auch, also es ist viel zum Nachdenken so parallel, also wenn man sich so die Kommentare alle durchliest, dann versucht man so zu verstehen oder viele Informationen auf einmal auf jeden Fall. Genau, wenn man so Kontext und alles so im Kopf hat.
+I: Mhm.
+R: Aber ja, deswegen also voll hilfreich dann so eine Analyse zu haben und ich denke, gerade, dass es auch einen Unterschied macht, ob ich jetzt erst nur die Kommentare lese und dann die Analyse oder ob ich es quasi andersrum gemacht hätte, wenn ich erst die Analyse gehabt hätte und oder erst gelesen hätte und dann die Kommentare, dass man schon, wie gesagt, mit so einem gewissen Vorgefühl und Überblick dann einsteigt. Ja.
+I: Denkst du auch, dass sich das quasi gebet hätte und du dann vielleicht auch nicht mehr so offen Also ich glaube es ist beides, es wäre von Vorteil gewesen, weil ich quasi schon so grob wüsste und dann natürlich das im im Verlauf schneller so erfasst hätte irgendwie und besser oder vielleicht schneller auch verstanden hätte. Genau, zeitgleich hätte ich wahrscheinlich auch nur dann die Passagen oder das quasi nur so bestätigend gesucht, was in der Analyse eh schon stand und mir wäre vielleicht nicht so viel auf oder mir ist jetzt auch nicht so viel aufgefallen, aber einem fallen dann vielleicht die Sachen, die davon abweichen nicht so doll auf oder man fokussiert das nicht so krass.
+I: Ja.
+R: Okay. Ja, vielen Dank für die Teilnahme und damit beende ich das Interview.
+R: Gerne, danke.

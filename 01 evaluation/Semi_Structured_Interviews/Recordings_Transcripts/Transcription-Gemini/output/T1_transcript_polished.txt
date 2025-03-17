@@ -1,0 +1,134 @@
+I: Okay. Ja, vielen Dank, dass du an der Studie teilnimmst.
+R: Gerne.
+I: Wir untersuchen in der Studie im Rahmen deiner Master Thesis einen neuen Ansatz zur Analyse von Emotionen in Online Kommentaren. Und anders als bisherige Systeme sind die Kommentare eben nicht z.B. ganz einfache Kategorien eingeteilt, wie z.B. wütend, traurig, positiv, negativ, sondern wir nutzen eben ein Language Modell, um die Emotionen im Kontext verstehen zu können. Und ja, bevor wir anfangen, das Interview und das Gespräch wird aufgezeichnet und später von einem Sprachmodell transkribiert. Ihre Daten werden natürlich anonymisiert und vertraulich behandelt und nur für diesen Forschungszweck verwendet. Sind Sie damit einverstanden?
+R: Ja, bin ich.
+I: Super. Fangen wir erstmal mit ein paar (...) Daten von dir an, so allgemein. Wie alt bist du denn?
+R: Ich bin 24 Jahre alt.
+I: Und was ist dein höchster Bildungsgrad?
+R: Bachelor of Science.
+I: Okay. Und in welchem Bereich ist das?
+R: Bereich Wirtschaft. Ich habe Betriebswirtschaftslehre studiert auf Bachelor of Science. Genau.
+I: Und was ist das, was ist die aktuelle, was ist quasi der aktuelle Beruf, was stehst du gerade?
+R: Aktuell studiere ich Informatik und auch im Bachelor und da geht's gerade gegen Ende und ich stehe da auch kurz vor dem Bachelor of Science.
+I: Okay. Und zum Thema Sprachen, Deutsch und Englisch.
+R: Genau.
+I: Hast du beides.
+R: Deutsch und Englisch beherrsche ich beides.
+I: Okay. Deutsch als Muttersprache, Englisch als zweite Sprache.
+R: Richtig.
+I: Okay. Okay, dann leite ich jetzt auch einmal kurz ein, was du halt bekommst in diesem Interview.
+R: Okay.
+I: Du hast vor dir zwei Dokumente.
+R: Mhm.
+I: Das eine ist eben eine Sammlung von Online Kommentaren von einer anonymisierten Person aus dem Online Forum der Standards und das wird als Kontextsphäre bezeichnet oder so ist auch der Titel. Und das zweite ist eine KI System erstellte Analyse zu dieser Person und den Kommentaren. Und der Analyse Zielnutzer ist das Subjekt der Analyse und in der Kontextsphäre wirst du dich jetzt nicht als erstes sehen in den Kommentaren, sondern erst ein bisschen tiefer, aber die Zielperson quasi die Analyse für ist, die heißt immer Analyse Zielnutzer und andere User heißen einfach User und dann eine Nummer, ne?
+R: Mhm.
+I: Und die User haben aber z.B. auch die gleiche Nummer, wenn das auch wirklich der gleiche User war, der geantwortet hat, aber für halt die Anonymisierung sind da keine Namen hinterlegt und deine Aufgabe ist es jetzt beide Dokumente in Ruhe zu lesen. Und dann danach stelle ich dir ein paar Fragen dazu und es gibt jetzt keine falsche oder richtige und du kannst ja einfach mal die Kommentare angucken mit der Analyse. Und die Kontextsphäre ist natürlich recht lang, wirst du feststellen.
+R: Mhm.
+I: Das heißt, du wirst wahrscheinlich schon so mindestens 10 Minuten brauchen. Also 10 bis 20 Minuten denke ich, um halt durch die Kommentare zu gehen. Und genau, lass dir Zeit und du kannst jederzeit Fragen stellen, also jegliche Verständnisfragen, ne?
+R: Okay.
+I: Genau.
+R: Dann fange ich mal an mit welchem Dokument macht Sinn anzufangen?
+I: Du kannst mit der Kontextsphäre anfangen.
+R: Okay. Und danach lese ich mir die Analyse mal durch.
+I: Genau. Alles klar.
+
+(Pause)
+
+R: Kannst du auch da oben das den Zoom noch mal ändern?
+I: Alles klar.
+R: Ja, ich bin langsamer Leser als Zeit. Aber es geht hier nur um, warum Menschen aus dem Westen buddhistische Mönche werden oder kommt da noch ein zweiter, ne, da sind mehrere. Da sind mehrere Artikel, zu dem der Zielnutzer geschrieben hat oder?
+I: Genau, ja. Okay.
+I: Das sind alles Kommentare aus einem Zeitraum von einem Monat im Mai 2019.
+R: Mhm.
+I: Und in der Kontextsphäre sind halt alle, aber es steht auch ganz oben in der Kontextsphäre ist es beschrieben, was quasi Inhalt ist und Ah, okay, okay, okay. Struktur ist, ja.
+
+(Pause)
+
+R: Soll ich auf irgendwas bestimmtes achten beim Lesen oder?
+I: Kannst du ja einfach den User angucken. Ja. Was der was der halt so schreibt. Und dir halt überlegen, was also was kannst du halt bei ihm beobachten, ne?
+R: Mhm.
+I: Und du kannst natürlich auch die Analyse lesen, ne? Aber du musst jetzt nicht, die suchen jetzt nicht nach einem ganz bestimmten, nach einer ganz bestimmten Aussage oder sowas, ne?
+R: Mhm.
+I: Ja. Okay.
+R: (Pause)
+
+(Pause)
+
+R: Okay, die die Analyse ist schon abgeschlossen auf der rechten Seite.
+I: Ja.
+
+(Pause)
+
+I: Okay.
+R: Jetzt mal alles durchgelesen.
+I: Mhm.
+R: Ja, die Analyse auch. Soll ich besser was dazu sagen oder willst du mir Fragen stellen oder?
+I: Ja, sag erstmal gerne, was du gerade gemacht hast. Also wie du das Material verstehst, wie würdest du das beschreiben?
+R: Also, ich habe jetzt angefangen diese Kontextsphäre zu lesen und der der Teil, wo es da der Thread, wo es um die Religion geht, geht ja relativ lang. Irgendwann bin ich da auch ein bisschen ausgestiegen aus der Konversation, weil da schon viele für mich fachfremde Gebiete waren. Wobei ich dann die die Konversation natürlich weiter beobachtet habe und dann ging wurde es ja immer politischer im Laufe der nächsten Threads und irgendwann bin ich mal rüber gesprungen zur Analyse. Und da ist mir auch aufgefallen, dass das Sinn macht auf jeden Fall, das so ein bisschen zu unterteilen und sich auch die Data Source erstmal anzuschauen, weil ich finde, es ist wichtig, wenn man ja, die Emotionen analysieren will, eben, dass man den Kontext mit einbezieht und mir ist aufgefallen, dass der Nutzer halt oft oder ab und zu mal probiert mit einer Quelle zu argumentieren. Und auch wie er sich in seiner Sprache ausdrückt, das passiert in dem Kontext der Standard Forum und das ist da orientiert er sich ja auch ein bisschen daran, wie andere Leute schreiben, sage ich jetzt mal und wie man in so einem Forum generell schreibt. Der der kommt jetzt nicht mit den wissenschaftlichen Quellen, sondern zitiert aus Kurier und schickt irgendwelche Screenshots, die ja, ich denke angemessen sind für die für die Diskussion, die er führt.
+I: Okay.
+I: Und genau.
+I: Das heißt du machst das jetzt daran fest, also du hast anhand der Quellen quasi da festgemacht, dass er auch in diesem Forum, in dieser Community quasi so argumentiert, wie die Community das auch, wie es auch andere machen in dem Kontext?
+R: Genau, wie es auch andere machen und wie es und ich glaube, er probiert auch irgendwie manchmal fühlt er sich vielleicht schon ein bisschen überlegen auch in der Konversation und wenn er mit Leuten schreibt, die z.B. politisch überhaupt nicht seinen seiner Meinung entsprechen, dann nimmt er diese auch bisschen aufs Korn, aber er probiert da schon irgendwie so auch einen gemeinsamen Nenner zu finden mit den Quellen, die er benutzt und jetzt auch interessiert ist daran eine Diskussion zu führen.
+I: Ach so, Beispiel, wo er sich so, woran du festmachst, dass er sich überlegen führt fühlt?
+R: Ähm er benutzt ja oft Sarkasmus und Warte mal. Wo waren das? Das stand, glaube ich in der Analyse auch. Ich finde z.B., dass es jetzt keine richtige Diskussion gewesen, aber er kommentiert ja unter einem Thread auch so, ob er dem Strache wohl auch Dick Picks geschickt hat. Das zeugt für mich so ein bisschen daran, dass er, dass er sich so ein bisschen auf eine Metaebene stellt, ich weiß nicht und so ein bisschen überlegen fühlt.
+I: Ja.
+R: Ähm
+I: Okay.
+I: Also du hast ja schon ein bisschen erzählt, ne, was du so gesehen hast. Als du das jetzt das erste Mal gelesen hast? Die Kommentare aber auch die Analyse. Was ist dir da so durch den Kopf gegangen? Du hast ja jetzt schon ein paar Punkte genannt, aber als du das jetzt das erste Mal so durchgeguckt bist, hast du da irgendwie hast du dich da an irgendwas aufgehangen oder ist dir da was bestimmtes aufgefallen?
+R: Also der die Kontextsphäre fängt ja an mit diesem religiösen Beitrag und da war ich dann, da ist mir halt aufgefallen, dass das für mich ein bisschen fern wirkt alles und ansonsten
+I: Also fernthematisch.
+R: Fernthematisch.
+I: Jetzt persönlich.
+R: Ja, genau.
+I: Okay. Ist dir da irgendwas besonders in Erinnerung geblieben? Das du hast jetzt schon das Dick Pick erwähnt, ne?
+R: Ja.
+I: Wie hast du die Diskussion in den Kommentaren halt wahrgenommen?
+R: Also da müsste man den Standard an sich vielleicht noch ein bisschen einordnen und ich bin mir nicht ganz sicher, wie die, wie die sich, also wenn jetzt auch so mit Hinblick auf politische Meinung, wie die da aufgestellt sind, aber ich glaube, die ist relativ liberal. Und ich habe ihn auf jeden Fall so ein bisschen links wahrgenommen und ich meine am Ende sagte ja auch irgendwie, dass er Grüne und KPÖ gut findet.
+I: Okay.
+R: Und dass er halt vielleicht auch probiert so ein bisschen in den Kommentaren halt so zu schildern oder so auch mit Hinblick auf seinen, wie er sich ausdrückt, dass er die FPÖ so ein bisschen relativieren oder nicht relativieren, sondern ja, ein bisschen aufzeigen will, warum die schlecht ist und was die für Doppelmoral aufweist teilweise auch mit dem mit dem Verbot von Gabbalin Musik z.B.. Da geht's ja auch so ein bisschen drum, da arbeitet ja auch mit einem Beispiel, dass die FPÖ auch keine linken Lieder spielt auf auf ihren Veranstaltungen und ja.
+I: Okay.
+I: Wenn wir uns jetzt mal die, also der Analyse zuwenden und du dir die mal anguckst, was fällt dir da positiv bzw. auch negativ auf?
+R: Generell finde ich es gut auf jeden Fall, wie sie strukturiert ist, dass dass auch die die ein die Themen eingeordnet werden und ich finde es auf jeden Fall die Analyse an sich relativ gut, weil weil darin auch vorkommt, dass er halt Sarkasmus benutzt und und auch, dass er sich teilweise, was mir auch aufgefallen ist, dass er dann teilweise schon auf die anderen Leute auch eingeht und sagt, okay, vielleicht habe ich das falsch eingeordnet und auch interessiert ist, wie gesagt an einer ernsthaften Diskussion und dann halt auch Fehler eingestehen kann in Anführungszeichen und
+(Pause)
+R: muss das noch mal übersetzen. Fähigkeit zur Ja, und teilweise auch deeskaliert, also da steht ja auch drin, dass er die Fähigkeit zur Deeskalation hat. Kann man kann man schon festmachen, wobei ich sagen würde, dass er schon relativ, dass er jetzt nicht konfliktscheu ist und
+I: Das ist das eine Diskrepanz zwischen Analyse und deinem Empfinden.
+R: Genau, würde ich jetzt spontan z.B. sagen, ja.
+I: Ja, okay. Genau, also das ist ja, also ist hier noch irgendeine andere Diskrepanz aufgefallen zwischen der Analyse und dem, was du beobachtet hast?
+R: Lass mich die noch mal lesen.
+(Pause)
+R: Ja, in der Analyse werden an sich ist da jetzt keine große Diskrepanz, da wird halt auch noch mal so die Ibiza Affäre genannt, wobei mir die jetzt beim Durchlesen nicht so im Kopf geblieben sind. Eher das Gabalier die Diskussion und auch so das um die Grünen.
+I: Mhm.
+R: Genau. Also da würde ich sagen, diese Ibiza Affäre ist mir gar nicht so im Kopf geblieben.
+I: Okay. Wie nachvollziehbar findest du denn so die Schlussfolgerung aus der Analyse. Du hast ja schon gesagt, so es passt so ungefähr der Zynismus. Das hast du ja auch schon gesagt, ne? Aber ist etwas gar nicht schlüssig z.B.?
+R: Ich lese mir noch mal durch.
+(Pause)
+R: Also, ich finde es auch gut, dass die die Folgerung dann ist auf jeden Fall, dass er Fehlinformationen teilweise auch wahrnimmt und probiert die einzuordnen und darauf aufmerksam zu machen. Und dass er, wie gesagt auch mit Sarkasmus arbeitet und sich bisschen von anderen Nutzern distanzieren will auch das Beispiel mit Spinner finde ich gut, dass er dann halt so ein bisschen ja, ausfallend wird. Und da in der in der Analyse steht auch überwiegend negativer Tonfall. Das überwiegend da würde ich dann noch mitgehen, weil das überwiegend da mit dran steht, wobei er teilweise auch auf mich fair wirkt in seiner Argumentation. Vielleicht bin ich auch ein bisschen voreingenommen, weil ich Sachen, die er geschrieben hat auch ähnlicher sehe als andere Sachen.
+I: Wenn du dir jetzt die Analyse anguckst und das mit einer ganz einfachen Kategorisierung vergleichst, welche Vorteile oder Nachteile siehst du jetzt? Das ist ja jetzt wirklich sehr ausführlich die Analyse. Oder einfach Textmäßig groß. Aber was im Vergleich zu einer einfachen Kategorisierung, siehst du da als vor oder Nachteil?
+R: Ich finde, es ist auch immer wichtig den Kontext mit einzubeziehen und sich die Frage zu stellen, warum man den Nutzer analysiert und was das Ziel daraus ist, wenn man jetzt das Ziel hat, den Nutzer halt rauszufinden, wie der sich in dem Forum der Standard verhält, um ihn z.B. zu moderieren oder gegebenenfalls auszuschließen, falls das nicht okay ist, was der schreibt, dann finde ich die Analyse schon recht gut, wobei das ja auch nur ein Data Set in einem bestimmten Zeitraum war und ja, je nach Use Case sollte man den Zeitraum dann schon vielleicht vergrößern.
+I: Mhm.
+R: Und ich finde es auf jeden Fall gut, dass also besser als eine einfache Kategorisierung, weil man da halt mehr irgendwie rausziehen kann, wobei ich es mir dann auch halt schwierig vorstelle, dann die gewonnenen Daten weiter zu verarbeiten. Also ja, müsste man dann auch überlegen so, was man mit den gewonnenen Daten macht, wie gesagt.
+I: der Analyse jetzt.
+R: Ja.
+I: Ja.
+I: Du hast es ja auch schon angesprochen, z.B. der Moderation von so einem Forum und hättest du jetzt die Option, würdest du dir lieber die Analyse, also du wärst jetzt Content Moderator beim der Standard, würdest du dann z.B. die Analyse vorziehen oder die Original Kommentare nutzen oder beides oder wie würdest du damit umgehen?
+R: Ich würde auf jeden Fall die Analyse nutzen. Ich finde die sehr hilfreich und spart auf jeden Fall Zeit, weil ich jetzt auch während der Lesezeit bestimmt vier Fünftel der Zeit mit den Kommentaren verbracht habe und deswegen ist es ein guter guter Punkt anzufangen, wobei man vielleicht dann in der Analyse daran denken sollte irgendwie die Beispiele noch mal explizit anzuführen und nicht nur einzelne Worte zu zitieren, so Spinner z.B.. Genau, aber ich würde auf jeden Fall damit arbeiten.
+I: Okay. Siehst du noch andere anderes Verbesserungspotenzial bzw. praktische Anwendungen? Du hast jetzt schon gesagt, du würdest den Zeitraum erweitern.
+R: Mhm.
+I: Fällt dir noch was ein? Sagst du das würde ich anders machen?
+R: Also auf den ersten Blick scheint das ein guter Ansatz zu sein auf jeden Fall. Ich könnte mir vorstellen, dass es vielleicht auch noch Thread abhängig ist oder je nachdem welcher Autor welchen Artikel postet, dass die Kommentare halt auch so auf den Artikel, vor allem die ersten Kommentare unter dem Artikel wahrscheinlich viel Einfluss oder dass der Artikel viel Einfluss auf die Kommentare nimmt. Das wäre z.B. ein Punkt, wo man ansetzen könnte noch und wenn man schon den einen Nutzer irgendwie analysiert hat, dann könnte man auch die anderen Nutzer, die mit ihm interagieren, analysieren und dann halt auch noch mal irgendwie eine Ebene tiefer gehen und ja, beobachten, wie wenn man die Nutzer dann irgendwie kategorisiert, wie zwei Kategorien miteinander interagieren und was das für Auswirkungen hat. Ja.
+I: Okay.
+R: Aber sonst.
+I: Ja, auch.
+R: Okay.
+R: Nee, ich überlege gerade, weil es eine spannende Frage.
+I: Ja, wir können auch da abschließend in der Abschlussreflexion noch mal kannst du vielleicht noch mal sagen, was für dich jetzt so die Grenzen auch und die Stärken dieser Emotionsanalyse sind und
+R: Also Stärken haben wir ja schon ein bisschen drüber geredet auf jeden Fall, dass vor allem im jetzt Kontext von Moderation z.B. ist es ein tolles Tool und der ist ja auch wirklich gut darin Sachen rauszustellen und auch zu differenzieren, ob er das dann immer perfekt einordnet, ist dann auch die Frage in der in der Schlussfolgerung da generalisiert man ja oder generalisiert er ja viel, obwohl man da vielleicht auch noch ein bisschen das differenzieren könnte und mit Beispielen arbeiten könnte so und dann sagen, hey, schau mal in dem in dem Kommentar war der sehr kompromissbereit und dem in dem anderen nicht. Das hat er jetzt nicht gemacht. Ich weiß jetzt auch nicht, ob das zur Schlussfolgerung gehören sollte oder nicht, um fair zu bleiben. Und ja, es vielleicht würde ich noch ein bisschen mehr auch drauf eingehen, wie das Forum der Standard generell funktioniert, wie wie man da miteinander umgeht, wie man in Funk generell miteinander umgeht. Und ja, Grenzen wäre z.B. vor allem haben wir auch drüber geredet, dass er viel mit Quellen arbeitet und ich konnte, ich hatte jetzt keinen Zugriff z.B. auf auf die Quellen direkt. Ich habe es jetzt auch nicht probiert, ne? Und ich bin mir jetzt auch relativ sicher, dass die, dass das Modell jetzt auch nicht gecheckt hat, ob das, was dir da postet, vertrauenswürdig ist und ob das da wirklich drin steht oder nicht.
+I: Meinst du, dass ob das wirklich der echte Kommentar war oder?
+R: Nee, wenn er jetzt sagt hier, ich bringe das Argument und hier ist meine Quelle A, dass das Modell dann die Quelle A checkt und die Quelle auch einordnet. Ist das jetzt irgendeine Telegram Quelle oder ist das ein wissenschaftliches Paper oder ist das von Kurier oder hat er da gerade irgendwas auf Paint gemalt und ein Screenshot davon gemacht so.
+I: Das das Modell an sich prüft jetzt nicht die den Wahrheitsgehalt des Kommentars.
+R: Genau. Habe ich zumindest den Eindruck. Ich weiß ja nicht, ob es das vielleicht doch macht, aber Ja. Da liegt z.B. eine Grenze, die ich interessant finde auf jeden Fall, das jetzt noch mal so aufzubrechen und zu sagen, okay, wie vertrauenswürdig argumentiert die Person und was für Quellen benutzt ja, dass man das irgendwie noch so ein bisschen mit einbezieht.
+I: Okay. Jetzt hatten wir den Fall Content Moderation. Siehst du noch einen anderen Anwendungsfall für diese Art der Analyse, also, dass man halt zum einen natürlich so eine Kontext so ein Kontext aufbaut, aber auch, dass man halt ja, diese Form der Analyse anwendet.
+R: Also man könnte z.B. auch Foren miteinander vergleichen und das Modell auf anderen Foren laufen lassen und dann halt vielleicht auch dadurch, dass man dann viele User analysiert irgendwie die politische Richtung des Forums rauskriegt oder die Foren, wie gesagt, miteinander vergleicht auch wie wie hitzig die Debatten sind. Und genau, dass man dann halt auch probiert irgendwie ja verschiedene Websites mit miteinander zu vergleichen wäre z.B. noch finde ich eine sinnvolle Anwendung.
+I: Okay. Ja, damit haben wir die sind wir erstmal so mit dem Interview fertig. Hast du sonst noch möchtest du sonst noch etwas generell ergänzen, etwas sagen?
+R: Nee, eigentlich nicht. Also hat Spaß gemacht. Finde sehr interessant und ja.
+I: Okay, super. Vielen Dank.
